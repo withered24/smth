@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Al Rayan Dhikr Ring 2.0</title>
+<meta name="description" content="The Al Rayan Dhikr Ring 2.0: a featherlight smart tasbih ring.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22113%22%20fill%3D%22%231F5A2E%22%2F%3E%3Ccircle%20cx%3D%22256.00%22%20cy%3D%22256.00%22%20r%3D%22134.91%22%20fill%3D%22none%22%20stroke%3D%22%23F6F1E6%22%20stroke-width%3D%2247.62%22%2F%3E%3Cpath%20d%3D%22M206.80%2C335.36%20V252.83%20A98.41%2C98.41%200%200%201%20256.00%2C167.60%20A98.41%2C98.41%200%200%201%20305.20%2C252.83%20V335.36%20Z%22%20fill%3D%22%23C9A455%22%2F%3E%3Ccircle%20cx%3D%22351.40%22%20cy%3D%22160.60%22%20r%3D%2230.47%22%20fill%3D%22%231F5A2E%22%2F%3E%3Ccircle%20cx%3D%22351.40%22%20cy%3D%22160.60%22%20r%3D%2223.81%22%20fill%3D%22%23C9A455%22%2F%3E%3C%2Fsvg%3E">
+<style>/* Al Rayan Rings — shared styles for all ar-* sections.
+   Every rule is scoped under .ar so nothing leaks into the rest of the theme. */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap');
+
+.ar {
+  --ar-green: #1F5A2E;
+  --ar-green-deep: #163F21;
+  --ar-green-soft: #E7EFE6;
+  --ar-ink: #14201A;
+  --ar-gold: #C9A455;
+  --ar-gold-deep: #A8873F;
+  --ar-gold-soft: #F1E7CF;
+  --ar-cream: #F6F1E6;
+  --ar-paper: #FBF8F2;
+  --ar-white: #FFFFFF;
+  --ar-line: #E4DCCB;
+  --ar-muted: #56615A;
+  --ar-serif: 'Cormorant Garamond', 'Palatino Linotype', Palatino, Georgia, serif;
+  --ar-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ar-radius: 18px;
+  --ar-arch: 999px 999px 18px 18px;
+  --ar-shadow: 0 1px 2px rgba(20,32,26,.06), 0 12px 32px -12px rgba(20,32,26,.18);
+
+  font-family: var(--ar-sans);
+  color: var(--ar-ink);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  background: var(--ar-white);
+  overflow-x: clip;
+}
+.ar *, .ar *::before, .ar *::after { box-sizing: border-box; }
+.ar :where(h1, h2, h3, h4, p, ul, ol, figure, blockquote, dl, dd) { margin: 0; padding: 0; }
+.ar :where(ul, ol) { list-style: none; }
+.ar :where(img) { display: block; max-width: 100%; height: auto; }
+.ar :where(a) { color: inherit; }
+.ar :where(button) { font: inherit; color: inherit; cursor: pointer; }
+.ar :focus-visible { outline: 2px solid var(--ar-gold); outline-offset: 3px; }
+
+/* ---------- layout ---------- */
+.ar-container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.ar-container--narrow { max-width: 780px; }
+.ar-section { padding: 88px 0; }
+.ar-section--tight { padding: 56px 0; }
+.ar--paper { background: var(--ar-paper); }
+.ar--cream { background: var(--ar-cream); }
+.ar--green { background: var(--ar-green); color: var(--ar-cream); }
+.ar--deep { background: var(--ar-green-deep); color: var(--ar-cream); }
+@media (max-width: 749px) {
+  .ar-section { padding: 60px 0; }
+  .ar-section--tight { padding: 40px 0; }
+}
+
+/* ---------- type ---------- */
+.ar-eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-size: 12px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--ar-green);
+}
+.ar-eyebrow::before { content: ''; width: 22px; height: 1px; background: currentColor; opacity: .6; }
+.ar-eyebrow--plain::before { display: none; }
+.ar--green .ar-eyebrow, .ar--deep .ar-eyebrow { color: var(--ar-gold); }
+.ar-h1, .ar-h2, .ar-h3 { font-family: var(--ar-serif); font-weight: 600; letter-spacing: -.01em; line-height: 1.05; color: inherit; }
+.ar-h1 { font-size: clamp(44px, 6.2vw, 76px); }
+.ar-h2 { font-size: clamp(34px, 4.4vw, 52px); line-height: 1.08; }
+.ar-h3 { font-size: 26px; line-height: 1.15; }
+.ar-h1 em, .ar-h2 em, .ar-h3 em { font-style: italic; font-weight: 500; color: var(--ar-green); }
+.ar--green .ar-h1 em, .ar--green .ar-h2 em, .ar--deep .ar-h2 em { color: var(--ar-gold); }
+.ar-lead { font-size: 18px; line-height: 1.65; color: var(--ar-muted); }
+.ar--green .ar-lead, .ar--deep .ar-lead { color: rgba(246,241,230,.82); }
+.ar-small { font-size: 13px; color: var(--ar-muted); }
+.ar-head { max-width: 680px; margin: 0 auto 52px; text-align: center; display: grid; gap: 16px; justify-items: center; }
+.ar-head--left { margin-left: 0; text-align: left; justify-items: start; }
+
+/* ---------- buttons ---------- */
+.ar-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 54px; padding: 0 30px; border-radius: 999px; border: 1px solid transparent;
+  font: 600 15px/1 var(--ar-sans); letter-spacing: .01em; text-decoration: none;
+  background: var(--ar-green); color: var(--ar-cream);
+  transition: background .2s, transform .2s, box-shadow .2s;
+}
+.ar-btn:hover { background: var(--ar-green-deep); transform: translateY(-1px); box-shadow: 0 10px 24px -10px rgba(31,90,46,.55); }
+.ar-btn--gold { background: var(--ar-gold); color: var(--ar-ink); }
+.ar-btn--gold:hover { background: #D6B467; box-shadow: 0 10px 24px -10px rgba(201,164,85,.6); }
+.ar-btn--ghost { background: transparent; border-color: currentColor; color: inherit; }
+.ar-btn--ghost:hover { background: rgba(31,90,46,.06); box-shadow: none; }
+.ar-btn--block { width: 100%; }
+.ar-btn svg { width: 18px; height: 18px; flex: none; }
+.ar-link { font-weight: 600; font-size: 15px; color: var(--ar-green); text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+
+/* ---------- reusable bits ---------- */
+.ar-icon { width: 22px; height: 22px; flex: none; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.ar-stars { display: inline-flex; gap: 2px; color: var(--ar-gold); }
+.ar-stars svg { width: 16px; height: 16px; fill: currentColor; }
+.ar-rating { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 500; }
+.ar-media { position: relative; overflow: hidden; border-radius: var(--ar-radius); background: var(--ar-cream); }
+.ar-media img, .ar-media svg.ar-ph { width: 100%; height: 100%; object-fit: cover; }
+.ar-media--arch { border-radius: var(--ar-arch); }
+.ar-ph { display: block; width: 100%; height: 100%; background: var(--ar-cream); }
+.ar-checklist { display: grid; gap: 12px; }
+.ar-checklist li { display: flex; gap: 12px; align-items: flex-start; }
+.ar-checklist .ar-icon { color: var(--ar-green); width: 20px; height: 20px; margin-top: 3px; }
+.ar--green .ar-checklist .ar-icon, .ar--deep .ar-checklist .ar-icon { color: var(--ar-gold); }
+.ar-assurance { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--ar-muted); }
+.ar-assurance span { display: inline-flex; align-items: center; gap: 6px; }
+.ar-assurance .ar-icon { width: 16px; height: 16px; color: var(--ar-green); }
+
+/* ---------- hero ---------- */
+.ar-hero { background: var(--ar-cream); overflow: hidden; }
+.ar-hero__grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 64px; align-items: center; padding: 72px 20px 88px; }
+.ar-hero__copy { display: grid; gap: 22px; justify-items: start; }
+.ar-hero__copy .ar-lead { max-width: 520px; }
+.ar-hero__ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-top: 6px; }
+.ar-hero__visual { position: relative; }
+.ar-hero__visual .ar-media { aspect-ratio: 4 / 5; box-shadow: var(--ar-shadow); }
+.ar-hero__visual::before {
+  content: ''; position: absolute; inset: -22px -22px auto auto; width: 70%; height: 70%;
+  border: 1px solid var(--ar-gold); border-radius: var(--ar-arch); opacity: .55; z-index: 0;
+}
+.ar-hero__visual .ar-media { z-index: 1; }
+.ar-chip {
+  position: absolute; z-index: 2; display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px; border-radius: 14px; background: rgba(255,255,255,.94); box-shadow: var(--ar-shadow);
+  backdrop-filter: blur(6px); font-size: 13px; line-height: 1.3;
+}
+.ar-chip strong { display: block; font-size: 14px; }
+.ar-chip__dot { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: var(--ar-green-soft); color: var(--ar-green); flex: none; }
+.ar-chip__dot .ar-icon { width: 18px; height: 18px; }
+.ar-chip--a { left: -28px; bottom: 18%; }
+.ar-chip--b { right: -18px; top: 14%; }
+@media (max-width: 989px) {
+  .ar-hero__grid { grid-template-columns: 1fr; gap: 44px; padding: 40px 20px 64px; }
+  .ar-hero__visual { max-width: 460px; width: 100%; margin: 0 auto; }
+  .ar-chip--a { left: -8px; }
+  .ar-chip--b { right: -8px; }
+}
+
+/* ---------- trust bar ---------- */
+.ar-trustbar { background: var(--ar-green-deep); color: var(--ar-cream); }
+.ar-trustbar__list { display: flex; justify-content: space-between; gap: 24px; padding: 18px 20px; overflow-x: auto; scrollbar-width: none; }
+.ar-trustbar__list::-webkit-scrollbar { display: none; }
+.ar-trustbar__item { display: flex; align-items: center; gap: 10px; white-space: nowrap; font-size: 14px; font-weight: 500; }
+.ar-trustbar__item .ar-icon { color: var(--ar-gold); width: 20px; height: 20px; }
+
+/* ---------- intention / problem ---------- */
+.ar-quote { display: grid; gap: 14px; justify-items: center; text-align: center; padding: 34px 28px; border-top: 1px solid var(--ar-line); border-bottom: 1px solid var(--ar-line); margin: 0 auto 56px; max-width: 760px; }
+.ar-quote p { font-family: var(--ar-serif); font-style: italic; font-size: clamp(24px, 3vw, 32px); line-height: 1.3; }
+.ar-quote cite { font-style: normal; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--ar-muted); }
+.ar-cards3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.ar-card { background: var(--ar-white); border: 1px solid var(--ar-line); border-radius: var(--ar-radius); padding: 28px; display: grid; gap: 12px; align-content: start; }
+.ar--paper .ar-card, .ar--cream .ar-card { background: var(--ar-white); }
+.ar-card__icon { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--ar-cream); color: var(--ar-green); }
+.ar-card h3 { font-size: 17px; font-weight: 600; font-family: var(--ar-sans); line-height: 1.35; }
+.ar-card p { font-size: 15px; color: var(--ar-muted); }
+.ar-bridge { text-align: center; margin-top: 48px; display: grid; gap: 18px; justify-items: center; }
+.ar-bridge p { font-family: var(--ar-serif); font-size: clamp(24px, 2.8vw, 30px); line-height: 1.3; max-width: 640px; }
+@media (max-width: 849px) { .ar-cards3 { grid-template-columns: 1fr; } }
+
+/* ---------- moments (use-case cards) ---------- */
+.ar-moments { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.ar-moment { display: grid; gap: 18px; align-content: start; }
+.ar-moment .ar-media { aspect-ratio: 4 / 5; }
+.ar-moment__tag { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--ar-gold-deep); }
+.ar-moment h3 { font-family: var(--ar-serif); font-size: 28px; font-weight: 600; line-height: 1.1; }
+.ar-moment p { color: var(--ar-muted); font-size: 15px; }
+@media (max-width: 849px) {
+  .ar-moments { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 78%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; margin-right: -20px; padding-right: 20px; scrollbar-width: none; }
+  .ar-moments::-webkit-scrollbar { display: none; }
+  .ar-moment { scroll-snap-align: start; }
+}
+
+/* ---------- features ---------- */
+.ar-features { display: grid; grid-template-columns: .95fr 1.05fr; gap: 64px; align-items: center; }
+.ar-features .ar-media { aspect-ratio: 1 / 1; }
+.ar-features__list { display: grid; grid-template-columns: 1fr 1fr; gap: 30px 28px; margin-top: 36px; }
+.ar-feature { display: grid; gap: 10px; align-content: start; }
+.ar-feature__icon { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; background: var(--ar-green); color: var(--ar-gold); }
+.ar-feature h3 { font-size: 16px; font-weight: 600; font-family: var(--ar-sans); }
+.ar-feature p { font-size: 14.5px; color: var(--ar-muted); }
+.ar-specs { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 64px; border: 1px solid var(--ar-line); border-radius: var(--ar-radius); background: var(--ar-white); }
+.ar-spec { padding: 26px 22px; text-align: center; display: grid; gap: 4px; }
+.ar-spec + .ar-spec { border-left: 1px solid var(--ar-line); }
+.ar-spec strong { font-family: var(--ar-serif); font-size: 36px; font-weight: 600; line-height: 1; color: var(--ar-green); }
+.ar-spec span { font-size: 13px; color: var(--ar-muted); }
+@media (max-width: 989px) {
+  .ar-features { grid-template-columns: 1fr; gap: 40px; }
+  .ar-features .ar-media { aspect-ratio: 4 / 3; }
+}
+@media (max-width: 749px) {
+  .ar-features__list { grid-template-columns: 1fr; }
+  .ar-specs { grid-template-columns: 1fr 1fr; }
+  .ar-spec:nth-child(3) { border-left: 0; }
+  .ar-spec:nth-child(n+3) { border-top: 1px solid var(--ar-line); }
+}
+
+/* ---------- how it works ---------- */
+.ar-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; counter-reset: arstep; }
+.ar-step { display: grid; gap: 16px; align-content: start; }
+.ar-step .ar-media { aspect-ratio: 1 / 1; }
+.ar-step__num { display: inline-flex; align-items: center; gap: 12px; font-family: var(--ar-serif); font-size: 28px; font-weight: 600; }
+.ar-step__num span { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--ar-gold); color: var(--ar-gold-deep); display: grid; place-items: center; font-family: var(--ar-sans); font-size: 14px; font-weight: 600; }
+.ar-step p { color: var(--ar-muted); font-size: 15px; }
+@media (max-width: 849px) { .ar-steps { grid-template-columns: 1fr; } .ar-step .ar-media { aspect-ratio: 16 / 10; } }
+
+/* ---------- comparison ---------- */
+.ar-compare { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 15px; }
+.ar-compare-wrap { position: relative; overflow-x: auto; border-radius: var(--ar-radius); border: 1px solid var(--ar-line); background: var(--ar-white); }
+.ar-compare th, .ar-compare td { padding: 16px 18px; text-align: center; border-bottom: 1px solid var(--ar-line); }
+.ar-compare tr:last-child td { border-bottom: 0; }
+.ar-compare th { font-size: 13px; font-weight: 600; letter-spacing: .04em; color: var(--ar-muted); vertical-align: bottom; }
+.ar-compare th:first-child, .ar-compare td:first-child { text-align: left; font-weight: 500; color: var(--ar-ink); min-width: 190px; }
+.ar-compare .ar-col-us { background: var(--ar-green-soft); }
+.ar-compare th.ar-col-us { color: var(--ar-green); font-size: 14px; }
+.ar-compare thead .ar-col-us { border-top: 3px solid var(--ar-green); }
+.ar-yes, .ar-no, .ar-some { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; }
+.ar-yes { background: var(--ar-green); color: var(--ar-white); }
+.ar-no { background: #F1ECE2; color: #A69A85; }
+.ar-some { background: var(--ar-gold-soft); color: var(--ar-gold-deep); font-weight: 700; font-size: 13px; }
+.ar-yes svg, .ar-no svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.ar-compare-note { display: flex; gap: 14px; align-items: flex-start; margin-top: 22px; padding: 18px 22px; border-radius: 14px; background: var(--ar-cream); font-size: 14.5px; color: var(--ar-muted); }
+.ar-compare-note .ar-icon { color: var(--ar-gold-deep); margin-top: 2px; }
+.ar-compare-legend { margin-top: 12px; font-size: 12.5px; color: var(--ar-muted); text-align: right; }
+
+/* ---------- reviews ---------- */
+.ar-reviews__top { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
+.ar-score { display: flex; align-items: center; gap: 18px; }
+.ar-score__num { font-family: var(--ar-serif); font-size: 64px; font-weight: 600; line-height: .9; color: var(--ar-green); }
+.ar-score__meta { display: grid; gap: 4px; font-size: 14px; color: var(--ar-muted); }
+.ar-reviews__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.ar-review { background: var(--ar-white); border: 1px solid var(--ar-line); border-radius: var(--ar-radius); overflow: hidden; display: grid; grid-template-rows: auto 1fr; }
+.ar-review .ar-media { aspect-ratio: 4 / 3; border-radius: 0; }
+.ar-review__body { padding: 22px 24px 24px; display: grid; gap: 12px; align-content: start; }
+.ar-review__text { font-size: 15.5px; line-height: 1.6; }
+.ar-review__who { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 13px; color: var(--ar-muted); margin-top: auto; }
+.ar-review__who strong { color: var(--ar-ink); font-weight: 600; }
+.ar-verified { display: inline-flex; align-items: center; gap: 4px; color: var(--ar-green); font-weight: 500; }
+.ar-verified svg { width: 14px; height: 14px; }
+@media (max-width: 849px) {
+  .ar-reviews__grid { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 82%; overflow-x: auto; scroll-snap-type: x mandatory; margin-right: -20px; padding-right: 20px; padding-bottom: 6px; scrollbar-width: none; }
+  .ar-reviews__grid::-webkit-scrollbar { display: none; }
+  .ar-review { scroll-snap-align: start; }
+}
+
+/* ---------- founder ---------- */
+.ar-founder { display: grid; grid-template-columns: .8fr 1.2fr; gap: 64px; align-items: center; }
+.ar-founder .ar-media { aspect-ratio: 4 / 5; }
+.ar-founder__copy { display: grid; gap: 20px; }
+.ar-founder__copy blockquote { font-family: var(--ar-serif); font-size: clamp(24px, 2.6vw, 30px); line-height: 1.35; }
+.ar-founder__sig { font-size: 14px; color: var(--ar-muted); }
+.ar-founder__sig strong { display: block; color: var(--ar-ink); font-size: 15px; }
+.ar-name-note { display: flex; gap: 16px; padding: 20px 22px; border-radius: 14px; background: var(--ar-white); border: 1px solid var(--ar-line); font-size: 14.5px; color: var(--ar-muted); }
+.ar-name-note svg { flex: none; width: 40px; height: 40px; }
+@media (max-width: 849px) { .ar-founder { grid-template-columns: 1fr; gap: 36px; } .ar-founder .ar-media { max-width: 380px; aspect-ratio: 1 / 1; } }
+
+/* ---------- guarantee ---------- */
+.ar-guarantee { display: grid; grid-template-columns: auto 1fr; gap: 56px; align-items: center; }
+.ar-seal { width: 210px; height: 210px; flex: none; }
+.ar-guarantee__copy { display: grid; gap: 18px; justify-items: start; }
+.ar-guarantee__perks { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 6px 0 8px; }
+.ar-guarantee__perks li { display: flex; align-items: center; gap: 10px; font-size: 15px; }
+.ar-guarantee__perks .ar-icon { color: var(--ar-gold); }
+@media (max-width: 849px) { .ar-guarantee { grid-template-columns: 1fr; gap: 28px; justify-items: center; text-align: center; } .ar-guarantee__copy { justify-items: center; } .ar-guarantee__perks { justify-content: center; } .ar-seal { width: 170px; height: 170px; } }
+
+/* ---------- faq ---------- */
+.ar-faq { display: grid; grid-template-columns: .8fr 1.2fr; gap: 64px; align-items: start; }
+.ar-faq__intro { display: grid; gap: 16px; position: sticky; top: 100px; }
+.ar-faq__list { border-top: 1px solid var(--ar-line); }
+.ar-faq details { border-bottom: 1px solid var(--ar-line); }
+.ar-faq summary { list-style: none; display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 22px 0; font-weight: 600; font-size: 17px; cursor: pointer; }
+.ar-faq summary::-webkit-details-marker { display: none; }
+.ar-faq summary::after { content: ''; flex: none; width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--ar-line); background: var(--ar-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231F5A2E' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M12 6v12M6 12h12'/%3E%3C/svg%3E") center / 14px no-repeat; transition: transform .25s; }
+.ar-faq details[open] summary::after { transform: rotate(45deg); }
+.ar-faq__answer { padding: 0 44px 24px 0; color: var(--ar-muted); font-size: 15.5px; display: grid; gap: 10px; }
+@media (max-width: 849px) { .ar-faq { grid-template-columns: 1fr; gap: 28px; } .ar-faq__intro { position: static; } .ar-faq__answer { padding-right: 0; } }
+
+/* ---------- final cta ---------- */
+.ar-final { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-radius: 28px; overflow: hidden; background: var(--ar-green); color: var(--ar-cream); }
+.ar-final .ar-media { border-radius: 0; min-height: 420px; }
+.ar-final__copy { padding: 64px 56px; display: grid; gap: 20px; align-content: center; justify-items: start; }
+.ar-final__copy .ar-assurance { color: rgba(246,241,230,.75); }
+.ar-final .ar-h2 em { color: var(--ar-gold); }
+.ar-final .ar-lead { color: rgba(246,241,230,.82); }
+.ar-final .ar-eyebrow { color: var(--ar-gold); }
+.ar-final__copy .ar-assurance .ar-icon { color: var(--ar-gold); }
+.ar-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.ar-pills span { padding: 7px 14px; border-radius: 999px; border: 1px solid rgba(246,241,230,.28); font-size: 13px; }
+@media (max-width: 849px) { .ar-final { grid-template-columns: 1fr; border-radius: 22px; } .ar-final .ar-media { min-height: 0; aspect-ratio: 4 / 3; } .ar-final__copy { padding: 40px 26px; } }
+
+/* ---------- product main ---------- */
+.ar-pdp { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: start; padding-top: 40px; padding-bottom: 72px; }
+.ar-gallery { position: sticky; top: 90px; display: grid; gap: 14px; }
+.ar-gallery__main { position: relative; aspect-ratio: 1 / 1; border-radius: 22px; overflow: hidden; background: var(--ar-cream); }
+.ar-gallery__main img, .ar-gallery__main svg.ar-ph { width: 100%; height: 100%; object-fit: cover; }
+.ar-gallery__badge { position: absolute; left: 16px; top: 16px; padding: 7px 12px; border-radius: 999px; background: var(--ar-white); font-size: 12px; font-weight: 600; letter-spacing: .04em; box-shadow: var(--ar-shadow); }
+.ar-gallery__nav { position: absolute; inset: 50% 12px auto; transform: translateY(-50%); display: flex; justify-content: space-between; pointer-events: none; }
+.ar-gallery__nav button { pointer-events: auto; width: 42px; height: 42px; border-radius: 50%; border: 0; background: rgba(255,255,255,.92); box-shadow: var(--ar-shadow); display: grid; place-items: center; }
+.ar-gallery__thumbs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+.ar-gallery__thumbs button { padding: 0; border: 1.5px solid transparent; border-radius: 12px; overflow: hidden; aspect-ratio: 1 / 1; background: var(--ar-cream); }
+.ar-gallery__thumbs button[aria-current="true"] { border-color: var(--ar-green); }
+.ar-gallery__thumbs img, .ar-gallery__thumbs svg { width: 100%; height: 100%; object-fit: cover; }
+.ar-buy { display: grid; gap: 22px; }
+.ar-buy__title { font-family: var(--ar-serif); font-weight: 600; font-size: clamp(36px, 3.6vw, 46px); line-height: 1.02; }
+.ar-buy__sub { font-size: 17px; color: var(--ar-muted); margin-top: -10px; }
+.ar-price { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px; }
+.ar-price__now { font-size: 28px; font-weight: 600; }
+.ar-price__was { font-size: 18px; color: var(--ar-muted); text-decoration: line-through; }
+.ar-price__save { padding: 4px 10px; border-radius: 999px; background: var(--ar-gold-soft); color: var(--ar-gold-deep); font-size: 13px; font-weight: 600; }
+.ar-price__note { width: 100%; font-size: 13.5px; color: var(--ar-muted); }
+.ar-buy__bullets { display: grid; gap: 10px; padding: 20px 0; border-top: 1px solid var(--ar-line); border-bottom: 1px solid var(--ar-line); font-size: 15px; }
+.ar-opt { border: 0; padding: 0; margin: 0; display: grid; gap: 12px; }
+.ar-opt legend { padding: 0; display: flex; justify-content: space-between; width: 100%; font-size: 14px; font-weight: 600; margin-bottom: 12px; }
+.ar-opt legend span { font-weight: 400; color: var(--ar-muted); }
+.ar-opt legend button { border: 0; background: none; padding: 0; font-size: 13.5px; font-weight: 600; color: var(--ar-green); text-decoration: underline; text-underline-offset: 3px; display: inline-flex; gap: 6px; align-items: center; }
+.ar-opt__values { display: flex; flex-wrap: wrap; gap: 10px; }
+.ar-opt input { position: absolute; opacity: 0; pointer-events: none; }
+.ar-opt__btn { min-width: 64px; padding: 12px 18px; border: 1.5px solid var(--ar-line); border-radius: 12px; text-align: center; font-size: 14.5px; font-weight: 500; cursor: pointer; background: var(--ar-white); transition: border-color .15s, background .15s; }
+.ar-opt__btn small { display: block; font-size: 12px; color: var(--ar-muted); font-weight: 400; }
+.ar-opt input:checked + .ar-opt__btn { border-color: var(--ar-green); background: var(--ar-green-soft); box-shadow: inset 0 0 0 1px var(--ar-green); }
+.ar-opt input:focus-visible + .ar-opt__btn { outline: 2px solid var(--ar-gold); outline-offset: 2px; }
+.ar-opt__btn.is-unavailable { color: #A69A85; text-decoration: line-through; }
+.ar-swatch { display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 8px 8px; border-radius: 999px; }
+.ar-swatch i { width: 26px; height: 26px; border-radius: 50%; border: 1px solid rgba(0,0,0,.12); background: var(--sw, #ccc); }
+.ar-buy__actions { display: grid; gap: 10px; }
+.ar-buy__actions .ar-btn { min-height: 58px; font-size: 16px; }
+.ar-buy__actions .shopify-payment-button__button { border-radius: 999px !important; min-height: 54px; }
+.ar-buy__actions .shopify-payment-button__more-options { font-size: 13px; color: var(--ar-muted); }
+.ar-boxes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.ar-box { display: flex; gap: 12px; align-items: flex-start; padding: 16px; border-radius: 14px; background: var(--ar-paper); border: 1px solid var(--ar-line); font-size: 13.5px; line-height: 1.4; color: var(--ar-muted); }
+.ar-box strong { display: block; color: var(--ar-ink); font-size: 14.5px; margin-bottom: 2px; }
+.ar-box .ar-icon { color: var(--ar-green); }
+.ar-acc { border-top: 1px solid var(--ar-line); }
+.ar-acc details { border-bottom: 1px solid var(--ar-line); }
+.ar-acc summary { list-style: none; display: flex; align-items: center; gap: 12px; padding: 18px 0; font-weight: 600; font-size: 15px; cursor: pointer; }
+.ar-acc summary::-webkit-details-marker { display: none; }
+.ar-acc summary .ar-icon { color: var(--ar-green); width: 20px; height: 20px; }
+.ar-acc summary::after { content: ''; margin-left: auto; width: 10px; height: 10px; border-right: 1.6px solid var(--ar-ink); border-bottom: 1.6px solid var(--ar-ink); transform: rotate(45deg) translateY(-3px); transition: transform .2s; }
+.ar-acc details[open] summary::after { transform: rotate(-135deg) translateY(-2px); }
+.ar-acc__body { padding: 0 0 20px 32px; font-size: 14.5px; color: var(--ar-muted); display: grid; gap: 10px; }
+.ar-acc__body ul { list-style: disc; padding-left: 18px; display: grid; gap: 6px; }
+.ar-mini-founder { display: flex; gap: 14px; align-items: flex-start; padding: 18px; border-radius: 14px; background: var(--ar-cream); font-size: 14px; color: var(--ar-muted); }
+.ar-mini-founder svg { width: 36px; height: 36px; flex: none; }
+@media (max-width: 989px) {
+  .ar-pdp { grid-template-columns: 1fr; gap: 28px; padding-top: 16px; }
+  .ar-gallery { position: static; }
+  .ar-gallery__thumbs { grid-template-columns: repeat(5, 1fr); }
+}
+@media (max-width: 480px) { .ar-boxes { grid-template-columns: 1fr; } }
+
+/* size guide dialog */
+.ar-dialog { border: 0; padding: 0; border-radius: 22px; max-width: 560px; width: calc(100% - 32px); box-shadow: 0 30px 80px -20px rgba(20,32,26,.45); color: var(--ar-ink); font-family: var(--ar-sans); }
+.ar-dialog::backdrop { background: rgba(20,32,26,.55); }
+.ar-dialog__inner { padding: 32px; display: grid; gap: 18px; }
+.ar-dialog__close { position: absolute; right: 16px; top: 16px; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--ar-line); background: var(--ar-white); display: grid; place-items: center; }
+.ar-table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+.ar-table th, .ar-table td { padding: 12px 10px; border-bottom: 1px solid var(--ar-line); text-align: left; }
+.ar-table th { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--ar-muted); font-weight: 600; }
+.ar-steps-list { counter-reset: s; display: grid; gap: 10px; font-size: 14.5px; color: var(--ar-muted); }
+.ar-steps-list li { counter-increment: s; display: flex; gap: 12px; }
+.ar-steps-list li::before { content: counter(s); flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--ar-green-soft); color: var(--ar-green); font-weight: 600; font-size: 12px; display: grid; place-items: center; }
+
+/* sticky add-to-cart */
+.ar-sticky { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; background: rgba(255,255,255,.97); border-top: 1px solid var(--ar-line); box-shadow: 0 -10px 30px -18px rgba(20,32,26,.35); transform: translateY(110%); transition: transform .3s ease; backdrop-filter: blur(8px); }
+.ar-sticky.is-visible { transform: translateY(0); }
+.ar-sticky__inner { display: flex; align-items: center; gap: 16px; padding: 12px 20px; max-width: 1200px; margin: 0 auto; }
+.ar-sticky__thumb { width: 48px; height: 48px; border-radius: 10px; overflow: hidden; background: var(--ar-cream); flex: none; }
+.ar-sticky__thumb img, .ar-sticky__thumb svg { width: 100%; height: 100%; object-fit: cover; }
+.ar-sticky__info { display: grid; line-height: 1.3; min-width: 0; }
+.ar-sticky__info strong { font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ar-sticky__info span { font-size: 13px; color: var(--ar-muted); }
+.ar-sticky .ar-btn { margin-left: auto; min-height: 48px; padding: 0 26px; }
+@media (max-width: 600px) { .ar-sticky__thumb { display: none; } .ar-sticky__info span.ar-hide-sm { display: none; } }
+
+/* entrance animation (respecting reduced motion) */
+@media (prefers-reduced-motion: no-preference) {
+  .ar-js .ar [data-ar-reveal] { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+  .ar-js .ar [data-ar-reveal].is-in { opacity: 1; transform: none; }
+}
+
+/* ---------- utilities & small fixes ---------- */
+.ar-sr { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.ar-btn[disabled] { opacity: .55; cursor: not-allowed; transform: none; box-shadow: none; }
+.ar-features .ar-head { margin-bottom: 0; }
+.ar-opt legend { display: flex; align-items: baseline; gap: 6px; }
+.ar-opt legend strong { font-weight: 600; }
+.ar-opt legend button { margin-left: auto; }
+.ar-opt legend button .ar-icon { width: 16px; height: 16px; }
+.ar-mini-founder blockquote { font-family: var(--ar-serif); font-size: 19px; line-height: 1.35; color: var(--ar-ink); }
+.ar-mini-founder figcaption { margin-top: 6px; font-size: 13px; }
+.ar-mini-founder > .ar-icon { color: var(--ar-gold-deep); margin-top: 2px; }
+.ar-lead p + p, .ar-faq__answer p + p { margin-top: .8em; }
+.ar-dialog { overflow: auto; max-height: 90vh; margin: auto; }
+.ar-dialog .ar-media { max-height: 220px; }
+.ar-dialog .ar-media img, .ar-dialog .ar-media svg { object-fit: contain; max-height: 220px; }
+@media (max-width: 600px) {
+  .ar-dialog__inner { padding: 24px 18px; }
+  .ar-table { font-size: 13.5px; }
+  .ar-table th, .ar-table td { padding: 10px 6px; }
+  .ar-table th { font-size: 10.5px; letter-spacing: .04em; }
+}
+
+
+body{margin:0;background:#fff}
+.arx-bar{background:#14201A;color:#F6F1E6;text-align:center;font:500 13px/1 Inter,sans-serif;letter-spacing:.04em;padding:11px 16px}
+.arx-bar b{color:#C9A455;font-weight:600}
+.arx-head{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #E4DCCB}
+.arx-head__in{max-width:1200px;margin:0 auto;padding:0 20px;height:76px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
+.arx-nav{display:flex;gap:28px;font:500 14.5px Inter,sans-serif}
+.arx-nav a{color:#14201A;text-decoration:none}
+.arx-logo svg{height:52px;width:auto;display:block}
+.arx-icons{justify-self:end;display:flex;gap:18px;color:#14201A}
+.arx-icons svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6}
+.arx-foot{background:#163F21;color:#F6F1E6;font:14px/1.6 Inter,sans-serif}
+.arx-foot__in{max-width:1200px;margin:0 auto;padding:64px 20px 28px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1.4fr;gap:40px}
+.arx-foot h4{font:600 12px Inter,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#C9A455;margin:0 0 14px}
+.arx-foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.arx-foot a{color:rgba(246,241,230,.82);text-decoration:none}
+.arx-foot__logo svg{height:64px;width:auto}
+.arx-foot p{color:rgba(246,241,230,.7);margin:14px 0 0;max-width:300px}
+.arx-news{display:flex;gap:8px;margin-top:14px}
+.arx-news input{flex:1;min-width:0;height:46px;border-radius:999px;border:1px solid rgba(246,241,230,.3);background:transparent;color:#F6F1E6;padding:0 18px;font:14px Inter,sans-serif}
+.arx-news button{height:46px;padding:0 20px;border-radius:999px;border:0;background:#C9A455;color:#14201A;font:600 14px Inter,sans-serif}
+.arx-legal{max-width:1200px;margin:0 auto;padding:20px;border-top:1px solid rgba(246,241,230,.14);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:rgba(246,241,230,.6)}
+@media(max-width:849px){.arx-nav{display:none}.arx-head__in{grid-template-columns:auto 1fr;height:64px}.arx-logo svg{height:40px}.arx-foot__in{grid-template-columns:1fr 1fr}.arx-foot__brand,.arx-foot__news{grid-column:1/-1}}
+</style>
+</head>
+<body>
+<div class="arx-bar">Free US shipping <b>·</b> 60-day money-back guarantee <b>·</b> 1-year warranty</div>
+<header class="arx-head"><div class="arx-head__in">
+  <nav class="arx-nav"><a href="index.html">Home</a><a href="product.html">Shop</a><a href="index.html#faq">FAQ</a><a href="#contact">Contact</a></nav>
+  <a class="arx-logo" href="index.html" aria-label="Al Rayan Rings home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 666 220"><circle cx="110.00" cy="110.00" r="59.50" fill="none" stroke="#1F5A2E" stroke-width="21.00"/><path d="M88.30,145.00 V108.60 A43.40,43.40 0 0 1 110.00,71.01 A43.40,43.40 0 0 1 131.70,108.60 V145.00 Z" fill="#C9A455"/><circle cx="152.07" cy="67.93" r="13.44" fill="#FFFFFF"/><circle cx="152.07" cy="67.93" r="10.50" fill="#C9A455"/><g transform="translate(218.50,116.09)"><g transform="translate(0.00,0.00)"><path d="M1.351450813871196 0.2457183297947629 1.0750176928520878 0.0V-1.597169143665959L1.351450813871196 -1.842887473460722Q3.5936305732484075 -1.8736022646850672 4.23864118895966 -2.073248407643312Q4.8836518046709125 -2.2728945506015568 5.390445859872611 -2.8718329794762916Q5.89723991507431 -3.470771408351026 7.432979476291578 -6.7879688605803254L10.658032554847841 -13.790941259731069L19.01245576786978 -32.711252653927815Q21.377494692144374 -38.270629865534325 23.71181882519462 -43.830007077140834H25.70828025477707L38.82349610757254 -12.99235668789809L40.57423920736022 -8.87657466383581Q41.34210898796886 -7.1258315640481245 42.34033970276008 -5.067940552016985Q43.33857041755131 -3.010049539985846 43.72250530785563 -2.6414720452937015Q44.106440198159945 -2.2728945506015568 44.674663835810335 -2.073248407643312Q45.24288747346072 -1.8736022646850672 47.208634111818824 -1.842887473460722L47.45435244161359 -1.597169143665959V0.0L47.208634111818824 0.2457183297947629Q43.95286624203821 -0.030714791224345363 41.34210898796886 -0.030714791224345363Q36.24345364472753 0.12285916489738145 31.144798301486198 0.2457183297947629L30.899079971691435 0.0V-1.597169143665959L31.144798301486198 -1.842887473460722Q34.584854918612876 -1.9043170559094125 35.44486907289455 -2.134677990092003Q36.30488322717622 -2.365038924274593 36.30488322717622 -3.194338287331918Q36.30488322717622 -3.870063694267516 35.874876150035384 -4.975796178343949L32.096956829440906 -14.343807501769284H14.31309271054494L10.965180467091296 -6.480820948336872Q10.07445152158528 -4.361500353857042 10.07445152158528 -3.37862703467799Q10.07445152158528 -2.6107572540693558 10.903750884642605 -2.2421797593772115Q11.733050247699929 -1.8736022646850672 15.080962491153574 -1.842887473460722L15.357395612172681 -1.597169143665959V0.0L15.111677282377919 0.2457183297947629Q11.149469214437367 0.0 8.170134465675867 0.0Q4.791507430997877 0.0 1.351450813871196 0.2457183297947629ZM15.357395612172681 -16.985279547062987H30.899079971691435L23.18966737438075 -35.50629865534324ZM24.663977353149328 -45.672894550601555ZM23.957537154989385 1.842887473460722ZM60.12973248407644 -43.184996461429584 60.375450813871204 -43.4Q67.99271903750885 -43.154281670205236 69.15988110403397 -43.154281670205236Q70.20418400566172 -43.154281670205236 77.97502618542109 -43.4L78.22074451521586 -43.184996461429584V-41.649256900212315L77.97502618542109 -41.43425336164189Q75.85570559094127 -41.372823779193205 74.70390092002832 -41.24996461429582Q73.55209624911537 -41.12710544939844 73.0299447983015 -40.78924274593064Q72.50779334748762 -40.451380042462844 72.33886199575372 -39.207430997876855Q72.16993064401981 -37.96348195329087 72.16993064401981 -35.752016985138006L72.10850106157113 -28.687615003538568V-15.111677282377919Q72.10850106157113 -10.013021939136589 72.16993064401981 -7.985845718329794L72.32350460014155 -2.672186836518047H78.589322009908Q86.08373106864826 -2.672186836518047 87.94197593772117 -2.856475583864119Q89.80022080679406 -3.040764331210191 91.5202491153574 -3.7472045293701344Q91.8581118188252 -4.515074309978768 92.48776503892428 -7.279405520169851Q93.11741825902337 -10.043736730360934 93.14813305024771 -10.47374380750177L93.4245661712668 -10.719462137296532H94.92959094125973L95.14459447983015 -10.47374380750177Q94.89887615003539 -9.245152158527954 94.63780042462845 -5.712951167728238Q94.37672469922151 -2.180750176928521 94.37672469922151 0.0L94.13100636942676 0.2457183297947629Q88.29519603680114 0.06142958244869073 78.80432554847842 0.06142958244869073L69.83560651096957 0.0Q66.76412738853503 0.0 63.56978910120312 0.2457183297947629L63.32407077140836 0.0V-1.013588110403397L63.56978910120312 -1.3207360226468505Q65.47410615711253 -2.303609341825902 65.6583949044586 -2.5186128803963195Q65.84268365180468 -2.7336164189667373 66.04232979476292 -6.480820948336872Q66.24197593772116 -10.228025477707005 66.24197593772116 -15.510969568294408V-28.687615003538568L66.18054635527247 -34.67699929228591Q66.14983156404813 -38.17848549186129 66.01161500353857 -39.192073602264685Q65.87339844302902 -40.20566171266808 65.58160792639774 -40.54352441613588Q65.28981740976646 -40.88138711960368 64.46051804670913 -41.0963906581741Q63.63121868365181 -41.311394196744516 60.375450813871204 -41.43425336164189L60.12973248407644 -41.649256900212315ZM134.56272894550602 -43.184996461429584 134.80844727530078 -43.4Q140.42925406935598 -43.154281670205236 143.5621627742392 -43.154281670205236Q147.03293418259022 -43.154281670205236 152.93017409766455 -43.36928520877565Q155.11092427459306 -43.43071479122435 156.0937975937721 -43.43071479122435Q163.86463977353148 -43.43071479122435 166.62897098372258 -40.60495399858458Q169.39330219391366 -37.7791932059448 169.39330219391366 -33.90912951167728Q169.39330219391366 -31.32908704883227 168.04185138004246 -28.841188959660297Q166.69040056617126 -26.353290870488323 164.04892852087755 -24.58719037508846Q161.40745647558387 -22.821089879688603 156.76952300070772 -21.93036093418259Q157.62953715498938 -20.73248407643312 159.8717169143666 -17.783864118895966L164.23321726822363 -12.009483368719037Q166.35253786270346 -9.153007784854918 168.77900636942675 -5.974026893135173Q171.20547487615005 -2.795046001415428 171.91191507431 -2.3803963198867657Q172.61835527246993 -1.9657466383581033 173.12514932767164 -1.8736022646850672Q173.63194338287332 -1.7814578910120311 174.73767586694976 -1.7814578910120311L174.9833941967445 -1.5357395612172682V-0.09214437367303609L174.70696107572542 0.18428874734607217Q173.23265109695683 0.0 171.20547487615005 0.0Q169.0247246992215 0.0 166.4446822363765 0.18428874734607217Q164.32536164189668 -2.3957537154989383 159.77957254069355 -8.753715498938428Q154.49662845010616 -16.125265392781316 148.96796602972398 -22.421797593772116L149.27511394196745 -23.37395612172682Q150.8722830856334 -23.281811748053787 151.76301203113943 -23.281811748053787Q157.07667091295116 -23.281811748053787 160.08672045293702 -25.83113941967445Q163.09676999292287 -28.380467091295117 163.09676999292287 -32.89554140127388Q163.09676999292287 -36.94989384288747 160.39386836518048 -39.02314225053078Q157.6909667374381 -41.096390658174094 153.08374805378628 -41.096390658174094Q149.85869497523 -41.096390658174094 147.00221939136588 -40.20566171266808Q146.54149752300071 -39.529936305732484 146.54149752300071 -28.687615003538568V-14.466666666666667L146.57221231422506 -8.47728237791932Q146.6029271054494 -5.0065109695682946 146.75650106157113 -3.9929228591648975Q146.91007501769286 -2.9793347487615 147.20186553432416 -2.641472045293701Q147.49365605095542 -2.303609341825902 148.32295541401274 -2.073248407643312Q149.15225477707006 -1.842887473460722 152.40802264685067 -1.7200283085633403L152.65374097664542 -1.5357395612172682V0.0L152.40802264685067 0.2457183297947629Q152.25444869072894 0.2457183297947629 147.00221939136588 0.06142958244869073Q144.82146921443737 0.0 143.59287756546354 0.0Q142.64071903750886 0.0 134.80844727530078 0.2457183297947629L134.56272894550602 0.0V-1.5357395612172682L134.80844727530078 -1.7200283085633403Q137.6649228591649 -1.842887473460722 138.6170813871196 -2.027176220806794Q139.56923991507432 -2.211464968152866 139.89174522292996 -2.5032554847841473Q140.21425053078556 -2.795046001415428 140.4138966737438 -3.7472045293701344Q140.61354281670205 -4.699363057324841 140.6442576079264 -7.985845718329794L140.67497239915073 -14.466666666666667V-28.687615003538568L140.61354281670205 -34.67699929228591Q140.5828280254777 -38.17848549186129 140.44461146496815 -39.192073602264685Q140.30639490445859 -40.20566171266808 140.01460438782732 -40.54352441613588Q139.72281387119602 -40.88138711960368 138.8935145081387 -41.0963906581741Q138.0642151450814 -41.311394196744516 134.80844727530078 -41.43425336164189L134.56272894550602 -41.649256900212315ZM186.70661571125262 0.2457183297947629 186.43018259023353 0.0V-1.597169143665959L186.70661571125262 -1.842887473460722Q188.94879547062985 -1.8736022646850672 189.5938060863411 -2.073248407643312Q190.23881670205233 -2.2728945506015568 190.74561075725404 -2.8718329794762916Q191.25240481245575 -3.470771408351026 192.788144373673 -6.7879688605803254L196.01319745222926 -13.790941259731069L204.3676206652512 -32.711252653927815Q206.7326595895258 -38.270629865534325 209.06698372257605 -43.830007077140834H211.0634451521585L224.17866100495397 -12.99235668789809L225.92940410474165 -8.87657466383581Q226.69727388535028 -7.1258315640481245 227.6955046001415 -5.067940552016985Q228.69373531493272 -3.010049539985846 229.07767020523704 -2.6414720452937015Q229.46160509554136 -2.2728945506015568 230.02982873319175 -2.073248407643312Q230.59805237084214 -1.8736022646850672 232.56379900920024 -1.842887473460722L232.80951733899502 -1.597169143665959V0.0L232.56379900920024 0.2457183297947629Q229.30803113941965 -0.030714791224345363 226.69727388535028 -0.030714791224345363Q221.59861854210897 0.12285916489738145 216.49996319886762 0.2457183297947629L216.25424486907286 0.0V-1.597169143665959L216.49996319886762 -1.842887473460722Q219.9400198159943 -1.9043170559094125 220.800033970276 -2.134677990092003Q221.66004812455765 -2.365038924274593 221.66004812455765 -3.194338287331918Q221.66004812455765 -3.870063694267516 221.23004104741682 -4.975796178343949L217.45212172682233 -14.343807501769284H199.66825760792636L196.32034536447273 -6.480820948336872Q195.4296164189667 -4.361500353857042 195.4296164189667 -3.37862703467799Q195.4296164189667 -2.6107572540693558 196.25891578202402 -2.2421797593772115Q197.08821514508136 -1.8736022646850672 200.436127388535 -1.842887473460722L200.71256050955412 -1.597169143665959V0.0L200.46684217975934 0.2457183297947629Q196.5046341118188 0.0 193.5252993630573 0.0Q190.1466723283793 0.0 186.70661571125262 0.2457183297947629ZM200.71256050955412 -16.985279547062987H216.25424486907286L208.54483227176217 -35.50629865534324ZM210.01914225053076 -45.672894550601555ZM209.3127020523708 1.842887473460722ZM244.80917197452226 -40.51280962491153 244.53273885350316 -40.78924274593064V-42.07926397735315L244.80917197452226 -42.355697098372254L253.501457891012 -43.799292285916486Q254.42290162774236 -43.154281670205236 255.29827317763622 -42.17140835102619Q256.1736447275301 -41.18853503184713 257.8476008492569 -38.50099079971692Q259.5215569709837 -35.813446567586695 262.1630290162774 -31.006581740976642Q264.8045010615711 -26.199716914366594 267.23096956829437 -21.377494692144374L270.3638782731776 -26.353290870488323L273.8960792639773 -32.25053078556263L280.4076150035385 -43.4Q281.605491861288 -43.277140835102614 282.74193913658877 -43.277140835102614Q283.4483793347487 -43.277140835102614 284.89197452229297 -43.4L285.13769285208775 -43.154281670205236V-42.570700636942675Q283.6019532908705 -40.88138711960368 280.37690021231424 -36.443099787685775Q277.15184713375794 -32.00481245576787 275.57003538570416 -29.50155697098372Q273.9882236376504 -26.998301486199573 271.6846142958245 -23.20502476999292Q269.38100495399857 -19.41174805378627 269.1660014154281 -18.643878273177634Q268.95099787685774 -17.876008492569003 268.95099787685774 -16.831705590941258V-12.316631280962492L268.9817126680821 -7.709412597310687Q269.0124274593064 -5.03722576079264 269.18135881104035 -3.9775654635527244Q269.35029016277423 -2.9179051663128095 269.64208067940547 -2.595399858457183Q269.93387119603676 -2.2728945506015568 270.7478131634819 -2.0578910120311393Q271.56175513092705 -1.842887473460722 274.8175230007077 -1.7200283085633403L275.0632413305025 -1.5357395612172682V0.0L274.8175230007077 0.2457183297947629Q274.66394904458593 0.2457183297947629 269.4117197452229 0.06142958244869073Q267.23096956829437 0.0 266.00237791932057 0.0Q265.01950460014154 0.0 257.2179476291578 0.2457183297947629L256.97222929936305 0.0V-1.5357395612172682L257.2179476291578 -1.7200283085633403Q260.1358527954706 -1.842887473460722 261.057296532201 -2.027176220806794Q261.97874026893135 -2.211464968152866 262.301245576787 -2.5032554847841473Q262.62375088464256 -2.795046001415428 262.80803963198866 -3.6397027600849254Q262.9923283793347 -4.484359518754423 263.02304317055905 -7.095116772823779L263.08447275300773 -12.347346072186836V-18.183156404812454Q262.4087473460722 -19.841755130927105 258.569398443029 -26.138287331917905L255.8664968152866 -30.530502476999292Q254.5764755838641 -32.61910828025478 252.62608634111817 -35.39879688605804Q250.67569709837224 -38.17848549186129 249.60067940552017 -39.176716206652515Q248.52566171266807 -40.174946921443734 247.9420806794055 -40.34387827317764Q247.35849964614295 -40.51280962491153 244.80917197452226 -40.51280962491153ZM266.8316772823779 -45.672894550601555ZM265.84880396319886 1.842887473460722ZM297.7209285208776 0.2457183297947629 297.44449539985845 0.0V-1.597169143665959L297.7209285208776 -1.842887473460722Q299.96310828025474 -1.8736022646850672 300.608118895966 -2.073248407643312Q301.2531295116773 -2.2728945506015568 301.75992356687897 -2.8718329794762916Q302.26671762208065 -3.470771408351026 303.8024571832979 -6.7879688605803254L307.0275102618542 -13.790941259731069L315.3819334748761 -32.711252653927815Q317.7469723991507 -38.270629865534325 320.08129653220095 -43.830007077140834H322.07775796178345L335.19297381457886 -12.99235668789809L336.9437169143666 -8.87657466383581Q337.7115866949752 -7.1258315640481245 338.7098174097664 -5.067940552016985Q339.70804812455765 -3.010049539985846 340.09198301486197 -2.6414720452937015Q340.4759179051663 -2.2728945506015568 341.04414154281665 -2.073248407643312Q341.61236518046707 -1.8736022646850672 343.57811181882516 -1.842887473460722L343.82383014861995 -1.597169143665959V0.0L343.57811181882516 0.2457183297947629Q340.3223439490446 -0.030714791224345363 337.7115866949752 -0.030714791224345363Q332.6129313517339 0.12285916489738145 327.5142760084926 0.2457183297947629L327.2685576786978 0.0V-1.597169143665959L327.5142760084926 -1.842887473460722Q330.95433262561926 -1.9043170559094125 331.8143467799009 -2.134677990092003Q332.6743609341826 -2.365038924274593 332.6743609341826 -3.194338287331918Q332.6743609341826 -3.870063694267516 332.24435385704174 -4.975796178343949L328.46643453644725 -14.343807501769284H310.6825704175513L307.3346581740976 -6.480820948336872Q306.4439292285916 -4.361500353857042 306.4439292285916 -3.37862703467799Q306.4439292285916 -2.6107572540693558 307.27322859164894 -2.2421797593772115Q308.10252795470626 -1.8736022646850672 311.4504401981599 -1.842887473460722L311.72687331917905 -1.597169143665959V0.0L311.48115498938427 0.2457183297947629Q307.5189469214437 0.0 304.5396121726822 0.0Q301.1609851380042 0.0 297.7209285208776 0.2457183297947629ZM311.72687331917905 -16.985279547062987H327.2685576786978L319.5591450813871 -35.50629865534324ZM321.0334550601557 -45.672894550601555ZM320.32701486199574 1.842887473460722ZM357.3899391365888 0.21500353857041754 357.1135060155697 -0.06142958244869073V-1.4743099787685774L357.3899391365888 -1.7200283085633403Q359.26354140127387 -1.7507430997876856 360.3846312809625 -1.9350318471337578Q361.5057211606511 -2.11932059447983 361.8282264685067 -2.5493276716206648Q362.15073177636236 -2.9793347487615 362.25823354564756 -3.931493276716206Q362.36573531493275 -4.8836518046709125 362.473237084218 -8.231564048124557Q362.5807388535032 -11.579476291578201 362.5807388535032 -13.023071479122434V-37.84062278839349Q362.5807388535032 -39.4070771408351 362.0125152158528 -40.159589525831564Q361.4442915782024 -40.91210191082802 360.4614182590234 -41.11174805378627Q359.4785449398443 -41.311394196744516 357.1135060155697 -41.34210898796886L356.86778768577494 -41.58782731776362V-43.03142250530785L357.1135060155697 -43.30785562632696Q361.3521472045294 -43.154281670205236 362.6728832271762 -43.154281670205236Q365.7750771408351 -43.154281670205236 367.77153857041753 -43.30785562632696L377.56955697098374 -30.59193205944798L391.9747940552017 -12.531634819532908Q394.58555130927107 -9.245152158527954 397.2884529370134 -6.296532200990799V-30.06978060863411Q397.2884529370134 -31.175513092710545 397.1809511677282 -34.78450106157112Q397.073449398443 -38.3934890304317 396.9198754423213 -39.36100495399858Q396.76630148619955 -40.32852087756546 396.38236659589523 -40.66638358103326Q395.9984317055909 -41.00424628450106 394.93877140835104 -41.17317763623495Q393.8791111111111 -41.34210898796886 392.0669384288747 -41.372823779193205L391.82122009907994 -41.61854210898797V-43.03142250530785L392.0669384288747 -43.30785562632696Q394.5548365180467 -43.154281670205236 399.1620552016985 -43.154281670205236Q403.3699815994338 -43.154281670205236 405.2742986553432 -43.30785562632696L405.55073177636234 -43.03142250530785V-41.61854210898797L405.30501344656756 -41.372823779193205Q403.2778372257608 -41.34210898796886 402.17210474168434 -41.14246284501061Q401.0663722576079 -40.94281670205237 400.7899391365888 -40.482094833687185Q400.5135060155697 -40.02137296532201 400.4060042462845 -39.13064401981599Q400.29850247699926 -38.23991507430998 400.19100070771407 -34.892002830856335Q400.0834989384289 -31.54409058740269 400.0834989384289 -30.06978060863411V-15.480254777070064L400.1142137296532 -7.033687190375089Q400.1756433121019 -2.887190375088464 400.2370728945506 1.2900212314225052Q398.7013333333333 0.7678697806086341 394.9234140127388 0.0L392.74266383581033 -2.5800424628450105L386.20041330502477 -10.565888181174804L365.3757848549186 -36.58131634819533V-13.023071479122434Q365.3757848549186 -11.610191082802547 365.4832866242038 -7.985845718329795Q365.590788393489 -4.361500353857042 365.7443623496107 -3.593630573248408Q365.89793630573246 -2.8257607926397736 366.14365463552724 -2.5339702760084926Q366.389372965322 -2.2421797593772115 367.20331493276717 -1.9964614295824485Q368.0172569002123 -1.7507430997876856 370.56658457183295 -1.7200283085633403L370.81230290162773 -1.4743099787685774V-0.030714791224345363L370.56658457183295 0.21500353857041754Q368.969415428167 0.0 365.40649964614295 0.0Q360.8299957537155 0.0 357.3899391365888 0.21500353857041754Z" fill="#14201A"/></g><g transform="translate(148.53,31.23)"><path d="M13.204288747346071 -0.03685774946921443 13.112144373673035 0.05528662420382165Q13.04764331210191 0.05528662420382165 12.761995753715498 0.04607218683651804Q11.499617834394904 0.0 11.18632696390658 0.0Q10.716390658174097 0.0 9.693588110403397 0.05528662420382165Q9.656730360934182 -0.16585987261146495 9.343439490445858 -0.681868365180467L7.058259023354564 -4.496645435244161L6.035456475583864 -6.05388535031847Q5.841953290870488 -6.339532908704882 5.49180467091295 -6.615966029723991L5.59316348195329 -6.929256900212313Q5.805095541401273 -6.92004246284501 5.906454352441613 -6.92004246284501Q6.8094692144373665 -6.92004246284501 7.325477707006368 -7.205690021231422Q7.795414012738853 -7.463694267515923 8.191634819532908 -8.108704883227176Q8.587855626326963 -8.753715498938428 8.587855626326963 -9.647515923566878Q8.587855626326963 -11.204755838641187 7.426836518046708 -11.7484076433121Q6.8739702760084915 -12.006411889596603 5.814309978768577 -12.006411889596603Q5.353588110403397 -12.006411889596603 4.929723991507431 -11.932696390658172Q4.837579617834394 -11.029681528662419 4.837579617834394 -8.855074309978768V-4.035923566878981Q4.837579617834394 -1.8428874734607217 4.957367303609341 -1.1794479830148619Q5.003439490445859 -0.9122292993630572 5.270658174097664 -0.8385138004246283Q5.408874734607218 -0.8016560509554139 6.348747346072186 -0.7463694267515922L6.440891719745222 -0.6542250530785562V-0.03685774946921443L6.35796178343949 0.05528662420382165Q5.4365180467091285 0.0 3.5199150743099783 0.0Q1.5388110403397026 0.0 0.681868365180467 0.05528662420382165L0.5897239915074309 -0.027643312101910823V-0.6542250530785562L0.681868365180467 -0.7463694267515922Q1.6217409766454352 -0.8016560509554139 1.7599575371549891 -0.8385138004246283Q2.027176220806794 -0.9122292993630572 2.073248407643312 -1.1794479830148619Q2.1930360934182587 -1.8428874734607217 2.1930360934182587 -4.035923566878981V-8.91036093418259Q2.1930360934182587 -11.103397027600849 2.073248407643312 -11.766836518046707Q2.027176220806794 -12.034055201698513 1.7599575371549891 -12.10777070063694Q1.6217409766454352 -12.144628450106156 0.681868365180467 -12.199915074309978L0.5897239915074309 -12.292059447983014V-12.91864118895966L0.681868365180467 -13.001571125265391Q1.5848832271762205 -12.94628450106157 3.5199150743099783 -12.94628450106157Q4.644076433121018 -12.94628450106157 5.344373673036093 -12.973927813163481Q6.735753715498937 -13.029214437367303 7.426836518046708 -13.029214437367303Q9.020934182590233 -13.029214437367303 9.767303609341825 -12.743566878980891Q10.771677282377919 -12.35656050955414 11.112611464968152 -11.435116772823777Q11.278471337579617 -10.9836093418259 11.278471337579617 -10.366242038216559Q11.278471337579617 -7.859915074309978 8.458853503184713 -6.8094692144373665Q8.919575371549893 -6.035456475583864 9.435583864118895 -5.2430148619957535L10.85460721868365 -3.059193205944798Q12.10777070063694 -1.1241613588110402 12.522420382165604 -0.8569426751592356Q12.734352441613586 -0.7187261146496815 13.112144373673035 -0.7187261146496815L13.204288747346071 -0.6265817409766453ZM31.76916857749469 -0.03685774946921443 31.686238641188957 0.05528662420382165Q30.764794904458597 0.0 28.838977494692145 0.0Q26.92237452229299 0.0 26.00093078556263 0.05528662420382165L25.9180008492569 -0.03685774946921443V-0.6542250530785562L26.010145222929935 -0.7463694267515922Q26.950017834394902 -0.8016560509554139 27.088234394904458 -0.8385138004246283Q27.355453078556263 -0.9122292993630572 27.40152526539278 -1.1794479830148619Q27.521312951167726 -1.8428874734607217 27.521312951167726 -4.035923566878981V-8.91036093418259Q27.521312951167726 -11.103397027600849 27.40152526539278 -11.766836518046707Q27.355453078556263 -12.034055201698513 27.088234394904458 -12.10777070063694Q26.950017834394902 -12.144628450106156 26.010145222929935 -12.199915074309978L25.9180008492569 -12.292059447983014V-12.91864118895966L26.010145222929935 -13.001571125265391Q26.894731210191082 -12.94628450106157 28.848191932059446 -12.94628450106157Q30.79243821656051 -12.94628450106157 31.677024203821652 -13.001571125265391L31.76916857749469 -12.91864118895966V-12.292059447983014L31.677024203821652 -12.199915074309978Q30.737151592356685 -12.144628450106156 30.598935031847134 -12.10777070063694Q30.33171634819533 -12.034055201698513 30.28564416135881 -11.766836518046707Q30.165856475583862 -11.103397027600849 30.165856475583862 -8.91036093418259V-4.035923566878981Q30.165856475583862 -1.8428874734607217 30.28564416135881 -1.1794479830148619Q30.33171634819533 -0.9122292993630572 30.598935031847134 -0.8385138004246283Q30.737151592356685 -0.8016560509554139 31.677024203821652 -0.7463694267515922L31.76916857749469 -0.6542250530785562ZM28.838977494692145 -13.526794055201696ZM28.838977494692145 0.7187261146496815ZM59.32733927813163 -12.292059447983014 59.22598046709129 -12.199915074309978Q58.28610785562633 -12.144628450106156 58.14789129511677 -12.10777070063694Q57.880672611464966 -12.034055201698513 57.83460042462845 -11.766836518046707Q57.714812738853496 -11.103397027600849 57.714812738853496 -8.91036093418259V-5.169299363057324Q57.714812738853496 -1.032016985138004 57.83460042462845 0.2211464968152866L57.714812738853496 0.30407643312101906Q56.67358131634819 0.1290021231422505 56.13914394904458 0.05528662420382165Q53.66967473460721 -2.7182590233545643 47.70793375796178 -10.06216560509554V-4.035923566878981Q47.70793375796178 -1.8428874734607217 47.82772144373673 -1.1794479830148619Q47.873793630573246 -0.9122292993630572 48.14101231422505 -0.8385138004246283Q48.279228874734606 -0.8016560509554139 49.21910148619957 -0.7463694267515922L49.311245859872606 -0.6542250530785562V-0.027643312101910823L49.21910148619957 0.05528662420382165Q48.159441188959654 0.0 47.2472118895966 0.0Q46.187551592356684 0.0 45.11867685774946 0.05528662420382165L45.026532484076434 -0.027643312101910823V-0.6542250530785562L45.11867685774946 -0.7463694267515922Q46.058549469214434 -0.8016560509554139 46.19676602972399 -0.8385138004246283Q46.463984713375794 -0.9122292993630572 46.51005690021231 -1.1794479830148619Q46.62984458598726 -1.8428874734607217 46.62984458598726 -4.035923566878981V-8.91036093418259Q46.62984458598726 -11.103397027600849 46.51005690021231 -11.766836518046707Q46.463984713375794 -12.034055201698513 46.19676602972399 -12.10777070063694Q46.058549469214434 -12.144628450106156 45.11867685774946 -12.199915074309978L45.026532484076434 -12.292059447983014V-12.91864118895966L45.11867685774946 -13.001571125265391Q45.99404840764331 -12.94628450106157 46.78649002123142 -12.94628450106157Q48.030439065817404 -12.94628450106157 48.85052399150743 -13.001571125265391Q52.167721443736724 -8.57864118895966 56.64593800424628 -3.5199150743099783V-8.91036093418259Q56.64593800424628 -11.103397027600849 56.52615031847134 -11.766836518046707Q56.48007813163481 -12.034055201698513 56.21285944798301 -12.10777070063694Q56.07464288747346 -12.144628450106156 55.13477027600849 -12.199915074309978L55.04262590233545 -12.292059447983014V-12.91864118895966L55.13477027600849 -13.001571125265391Q56.166787261146496 -12.94628450106157 57.097445435244154 -12.94628450106157Q58.28610785562633 -12.94628450106157 59.235194904458595 -13.001571125265391L59.32733927813163 -12.91864118895966ZM86.4524314225053 -4.6532908704883225 86.36028704883226 -4.551932059447982Q85.78899193205943 -4.413715498938428 85.6968475583864 -4.169532908704882Q85.60470318471336 -3.925350318471337 85.60470318471336 -2.303609341825902Q85.60470318471336 -1.5203821656050953 85.6784186836518 -0.7555838641188959Q82.6007966029724 0.4054352441613588 80.0944696390658 0.4054352441613588Q76.79570106157111 0.4054352441613588 74.75470318471336 -1.4420594479830147Q72.71370530785562 -3.2895541401273882 72.71370530785562 -6.477749469214436Q72.71370530785562 -10.633460721868364 76.31655031847133 -12.402632696390658Q77.96593460721867 -13.213503184713375 80.50911932059446 -13.213503184713375Q81.98342929936305 -13.213503184713375 83.49459702760083 -12.890997876857748Q84.73854607218682 -12.623779193205943 85.4572721868365 -12.28284501061571L85.54020212314224 -12.116985138004244Q85.30062675159235 -11.306114649681527 85.14398131634819 -9.297367303609342L85.04262250530785 -9.205222929936305H84.48975626326963L84.39761188959659 -9.297367303609342Q84.39761188959659 -9.47244161358811 84.36075414012737 -10.020700636942674Q84.32389639065816 -10.568959660297239 84.26860976645435 -10.790106157112525Q83.86317452229298 -11.342972399150742 82.8864441613588 -11.729978768577494Q81.83599830148619 -12.135414012738853 80.61969256900211 -12.135414012738853Q77.35778174097663 -12.135414012738853 76.11383269639065 -9.50008492569002Q75.54253757961783 -8.283779193205945 75.54253757961783 -6.680467091295116Q75.54253757961783 -4.118853503184713 76.90627430997876 -2.4326114649681525Q78.32529766454351 -0.681868365180467 80.6012636942675 -0.681868365180467Q81.80835498938427 -0.681868365180467 82.93251634819532 -1.1978768577494692Q82.99701740976644 -1.8428874734607217 82.99701740976644 -2.967048832271762Q82.99701740976644 -3.8792781316348193 82.93251634819532 -4.072781316348195Q82.87722972399149 -4.220212314225052 82.58236772823778 -4.284713375796178Q82.33357791932059 -4.34 81.02512781316346 -4.422929936305732L80.92376900212312 -4.515074309978768V-5.095583864118895L81.02512781316346 -5.187728237791932Q82.36122123142249 -5.150870488322717 83.82631677282377 -5.160084925690021Q84.6740450106157 -5.169299363057324 86.36028704883226 -5.187728237791932L86.4524314225053 -5.095583864118895ZM109.5968866242038 -4.257070063694267Q109.5968866242038 -2.736687898089172 108.73072951167727 -1.575668789808917Q107.97514564755838 -0.5528662420382165 106.749625477707 -0.05528662420382165Q105.62546411889595 0.4054352441613588 104.06822420382164 0.4054352441613588Q102.13319235668789 0.4054352441613588 100.27187600849255 -0.4791507430997876L100.16130276008491 -0.681868365180467Q100.41930700636942 -1.741528662420382 100.41930700636942 -3.694989384288747L100.51145138004244 -3.787133757961783H101.10117537154989L101.18410530785562 -3.694989384288747V-3.483057324840764Q101.18410530785562 -2.967048832271762 101.29467855626326 -2.11932059447983Q101.62639830148619 -1.529596602972399 102.48334097664542 -1.105732484076433Q103.37714140127387 -0.6634394904458598 104.34465732484075 -0.6634394904458598Q106.16911592356686 -0.6634394904458598 106.86941316348194 -1.9350318471337578Q107.22877622080678 -2.589256900212314 107.22877622080678 -3.2895541401273882Q107.22877622080678 -4.46900212314225 106.24283142250529 -4.975796178343948Q105.7544662420382 -5.224585987261146 104.66716263269637 -5.390445859872611Q102.20690785562631 -5.768237791932059 101.43289511677281 -6.339532908704882Q100.26266157112525 -7.205690021231422 100.26266157112525 -9.020934182590233Q100.26266157112525 -10.909893842887472 101.53425392781315 -12.034055201698513Q102.87956178343948 -13.213503184713375 105.27531549893841 -13.213503184713375Q107.43149384288746 -13.213503184713375 108.75837282377918 -12.522420382165604L108.8228738853503 -12.301273885350318Q108.60172738853502 -11.204755838641187 108.5556552016985 -9.665944798301485L108.45429639065816 -9.573800424628448H107.87378683651804L107.781642462845 -9.665944798301485Q107.75399915074308 -10.771677282377919 107.68949808917196 -11.103397027600849Q107.40385053078555 -11.536475583864117 106.69433885350317 -11.840552016985137Q105.93875498938428 -12.15384288747346 105.11867006369425 -12.15384288747346Q103.88393545647557 -12.15384288747346 103.16520934182589 -11.499617834394904Q102.49255541401273 -10.882250530785562 102.49255541401273 -9.905520169851378Q102.49255541401273 -8.845859872611465 103.25735371549892 -8.34828025477707Q103.75493333333333 -8.025774946921443 105.60703524416135 -7.730912951167728Q105.80053842887472 -7.703269639065817 106.68512441613586 -7.546624203821655Q107.22877622080678 -7.454479830148619 107.68949808917196 -7.279405520169851Q108.62015626326962 -6.929256900212313 109.09009256900211 -6.210530785562632Q109.5968866242038 -5.427303609341825 109.5968866242038 -4.257070063694267Z" fill="#1F5A2E"/></g><rect x="0.00" y="24.08" width="133.34" height="1.30" fill="#1F5A2E"/><rect x="274.30" y="24.08" width="133.34" height="1.30" fill="#1F5A2E"/></g></svg></a>
+  <div class="arx-icons"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6zM9 8V6a3 3 0 0 1 6 0v2"/></svg></div>
+</div></header>
+<main>
+<div id="shopify-section-main" class="shopify-section">
+
+
+<section class="ar" id="ar-buy">
+  <div class="ar-container ar-pdp" id="ar-pdp-main" data-ar-product data-money-format="${{amount}}" data-update-url="true">
+    <script type="application/json" data-ar-variants>[{"id":4001,"title":"Black / 18mm / CN","options":["Black","18mm","CN"],"option1":"Black","option2":"18mm","option3":"CN","available":true,"price":4999,"compare_at_price":null,"featured_media":{"id":101}},{"id":4002,"title":"Black / 20mm / CN","options":["Black","20mm","CN"],"option1":"Black","option2":"20mm","option3":"CN","available":true,"price":4999,"compare_at_price":null,"featured_media":{"id":101}},{"id":4003,"title":"Black / 22mm / CN","options":["Black","22mm","CN"],"option1":"Black","option2":"22mm","option3":"CN","available":true,"price":4999,"compare_at_price":null,"featured_media":{"id":101}},{"id":4004,"title":"Rose Gold / 18mm / CN","options":["Rose Gold","18mm","CN"],"option1":"Rose Gold","option2":"18mm","option3":"CN","available":true,"price":4999,"compare_at_price":null,"featured_media":{"id":102}},{"id":4005,"title":"Rose Gold / 20mm / CN","options":["Rose Gold","20mm","CN"],"option1":"Rose Gold","option2":"20mm","option3":"CN","available":true,"price":4999,"compare_at_price":null,"featured_media":{"id":102}},{"id":4006,"title":"Rose Gold / 22mm / CN","options":["Rose Gold","22mm","CN"],"option1":"Rose Gold","option2":"22mm","option3":"CN","available":true,"price":4999,"compare_at_price":null,"featured_media":{"id":102}}]</script>
+
+    <div class="ar-gallery" data-ar-gallery>
+      <div class="ar-gallery__main"><img data-ar-main src=""
+            srcset=" 600w,  900w,  1400w"
+            sizes="(min-width: 990px) 55vw, 100vw" alt="Al Rayan Dhikr Ring 2.0"
+            width="1400" height="1400" fetchpriority="high"><span class="ar-gallery__badge">IP67 · Wudu-safe</span><div class="ar-gallery__nav">
+            <button type="button" data-ar-prev aria-label="Previous image"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"/></svg>
+</button>
+            <button type="button" data-ar-next aria-label="Next image"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"/></svg>
+</button>
+          </div></div><div class="ar-gallery__thumbs"><button type="button" data-ar-thumb data-media-id="101"
+              data-src="https://alrayanrings.net/cdn/shop/files/ADIKRING.png"
+              data-srcset="https://alrayanrings.net/cdn/shop/files/ADIKRING.png 600w, https://alrayanrings.net/cdn/shop/files/ADIKRING.png 900w, https://alrayanrings.net/cdn/shop/files/ADIKRING.png 1400w"
+              data-alt="Al Rayan Dhikr Ring 2.0 in black and rose gold"
+              aria-label="Show image 1" aria-current="true">
+              <img src="https://alrayanrings.net/cdn/shop/files/ADIKRING.png" alt="" width="200" height="200" loading="lazy">
+            </button><button type="button" data-ar-thumb data-media-id="102"
+              data-src="https://alrayanrings.net/cdn/shop/files/ADIKR2.png"
+              data-srcset="https://alrayanrings.net/cdn/shop/files/ADIKR2.png 600w, https://alrayanrings.net/cdn/shop/files/ADIKR2.png 900w, https://alrayanrings.net/cdn/shop/files/ADIKR2.png 1400w"
+              data-alt="Ring display close-up"
+              aria-label="Show image 2" aria-current="false">
+              <img src="https://alrayanrings.net/cdn/shop/files/ADIKR2.png" alt="" width="200" height="200" loading="lazy">
+            </button><button type="button" data-ar-thumb data-media-id="103"
+              data-src="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.05.51_PM.png"
+              data-srcset="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.05.51_PM.png 600w, https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.05.51_PM.png 900w, https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.05.51_PM.png 1400w"
+              data-alt="Wearing the ring"
+              aria-label="Show image 3" aria-current="false">
+              <img src="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.05.51_PM.png" alt="" width="200" height="200" loading="lazy">
+            </button><button type="button" data-ar-thumb data-media-id="104"
+              data-src="https://alrayanrings.net/cdn/shop/files/DIKRINGSIZES.png"
+              data-srcset="https://alrayanrings.net/cdn/shop/files/DIKRINGSIZES.png 600w, https://alrayanrings.net/cdn/shop/files/DIKRINGSIZES.png 900w, https://alrayanrings.net/cdn/shop/files/DIKRINGSIZES.png 1400w"
+              data-alt="Available sizes"
+              aria-label="Show image 4" aria-current="false">
+              <img src="https://alrayanrings.net/cdn/shop/files/DIKRINGSIZES.png" alt="" width="200" height="200" loading="lazy">
+            </button><button type="button" data-ar-thumb data-media-id="105"
+              data-src="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.17.48_PM.png"
+              data-srcset="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.17.48_PM.png 600w, https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.17.48_PM.png 900w, https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.17.48_PM.png 1400w"
+              data-alt="Ring on the commute"
+              aria-label="Show image 5" aria-current="false">
+              <img src="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.17.48_PM.png" alt="" width="200" height="200" loading="lazy">
+            </button><button type="button" data-ar-thumb data-media-id="106"
+              data-src="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.24.02_PM.png"
+              data-srcset="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.24.02_PM.png 600w, https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.24.02_PM.png 900w, https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.24.02_PM.png 1400w"
+              data-alt="Ring at work"
+              aria-label="Show image 6" aria-current="false">
+              <img src="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.24.02_PM.png" alt="" width="200" height="200" loading="lazy">
+            </button></div><figure class="ar-mini-founder">
+          <svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+
+          <div><blockquote>“This ring turned my 40-minute subway commute into the most spiritual part of my day.”</blockquote><figcaption><strong>Sarah W., New York</strong></figcaption></div>
+        </figure></div>
+
+    <div class="ar-buy"><a class="ar-rating" href="#reviews" style="text-decoration:none"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<span>4.9 · 8,200+ wearers</span></a><div>
+        <h1 class="ar-buy__title">Al Rayan Dhikr Ring 2.0</h1><p class="ar-buy__sub" style="margin-top:10px">The city moves fast. Your remembrance shouldn’t stop.</p></div>
+
+      <div class="ar-price">
+        <span class="ar-price__now" data-ar-price="ar-pdp-main">$49.99</span>
+        <s class="ar-price__was" data-ar-was="ar-pdp-main" hidden></s><span class="ar-price__save" data-ar-save="ar-pdp-main" data-template="Save [amount]" hidden>Save $-49.99</span><p class="ar-price__note">Less than the cost of a monthly gym pass.</p></div>
+
+      <ul class="ar-checklist ar-buy__bullets"><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+<span>Silent thumb tap: discreet in meetings and classes</span></li><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+<span>Gentle vibrations at 33, 66 and 99</span></li><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+<span>Prayer-time alerts for all five daily prayers</span></li><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+<span>Syncs with the Al Rayan app to track your progress</span></li></ul><form method="post" action="/cart/add" id="ar-form-main" accept-charset="UTF-8" class="ar-buy" enctype="multipart/form-data" novalidate><input type="hidden" name="form_type" value="product"><input type="hidden" name="id" value="4002" data-ar-variant-id><fieldset class="ar-opt" data-ar-option>
+                <legend><strong>Color:</strong> <span data-ar-selected>Black</span></legend>
+                <div class="ar-opt__values"><input type="radio" id="ar-form-main-1-1" name="ar-main-1" value="Black" checked>
+                    <label for="ar-form-main-1-1" class="ar-opt__btn ar-swatch"><i style="--sw: #1B1D1C"></i><span>Black</span>
+                    </label><input type="radio" id="ar-form-main-1-2" name="ar-main-1" value="Rose Gold">
+                    <label for="ar-form-main-1-2" class="ar-opt__btn ar-swatch"><i style="--sw: #D4A28C"></i><span>Rose Gold</span>
+                    </label></div>
+              </fieldset><fieldset class="ar-opt" data-ar-option>
+                <legend><strong>Size:</strong> <span data-ar-selected>20mm</span><button type="button" data-ar-open="ar-size-main"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 17L17 3l4 4L7 21z"/><path d="M7 13l2 2M10 10l2 2M13 7l2 2"/></svg>
+Size guide</button></legend>
+                <div class="ar-opt__values"><input type="radio" id="ar-form-main-2-1" name="ar-main-2" value="18mm">
+                    <label for="ar-form-main-2-1" class="ar-opt__btn"><span>18mm<small>US 8</small></span>
+                    </label><input type="radio" id="ar-form-main-2-2" name="ar-main-2" value="20mm" checked>
+                    <label for="ar-form-main-2-2" class="ar-opt__btn"><span>20mm<small>US 10</small></span>
+                    </label><input type="radio" id="ar-form-main-2-3" name="ar-main-2" value="22mm">
+                    <label for="ar-form-main-2-3" class="ar-opt__btn"><span>22mm<small>US 12</small></span>
+                    </label></div>
+              </fieldset><div data-ar-option hidden><input type="hidden" value="CN"></div><div class="ar-buy__actions" id="ar-actions-main">
+          <button type="submit" name="add" class="ar-btn ar-btn--block" data-ar-atc="ar-pdp-main"
+            data-available="Add to cart" data-soldout="Sold out" data-unavailable="Unavailable"
+            >
+            <span data-ar-atc-label>Add to cart</span>
+            <span aria-hidden="true">·</span><span data-ar-price="ar-pdp-main">$49.99</span>
+          </button><div class="shopify-payment-button"><button type="button" class="shopify-payment-button__button" style="width:100%;min-height:54px;border:0;border-radius:999px;background:#5a31f4;color:#fff;font:600 16px Inter,sans-serif">Buy with <b>Shop</b>Pay</button><p class="shopify-payment-button__more-options" style="text-align:center;margin-top:8px">More payment options</p></div><p class="ar-assurance" style="justify-content:center"><span><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+Free US shipping</span><span><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+60-day money-back guarantee</span></p></div></form><div class="ar-boxes"><div class="ar-box"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>
+<div><strong>Silent devotion</strong>No clicking sounds in meetings.</div></div><div class="ar-box"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+<div><strong>Prayer sync</strong>A gentle buzz for each prayer.</div></div><div class="ar-box"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/></svg>
+<div><strong>Wudu-safe</strong>IP67 water resistant.</div></div><div class="ar-box"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 5v6h-6"/></svg>
+<div><strong>Never lose count</strong>Saved on the ring, up to 99,999.</div></div></div>
+
+      <div class="ar-acc"><details >
+            <summary><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><ellipse cx="12" cy="14" rx="7" ry="6.5"/><rect x="8.5" y="3.5" width="7" height="4.5" rx="1.2"/></svg>
+Specifications</summary>
+            <div class="ar-acc__body"><ul><li>Count memory: up to 99,999</li><li>Display: OLED</li><li>Water resistance: IP67</li><li>Battery: 3–5 days of frequent use</li><li>Vibration at 33, 66 and 99, plus prayer-time alerts</li><li>Bluetooth sync with the Al Rayan app</li><li>Sizes: 18mm, 20mm, 22mm</li><li>Finish: alloy</li></ul></div>
+          </details><details >
+            <summary><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/></svg>
+Getting started</summary>
+            <div class="ar-acc__body"><p>Charge the ring fully before first use. Press the side button once for each recitation; the screen shows your running count and the ring vibrates at 33, 66 and 99. Pair it with the Al Rayan app to set prayer-time alerts and see your history.</p></div>
+          </details><details >
+            <summary><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>
+Shipping & returns</summary>
+            <div class="ar-acc__body"><p>Free shipping on every US order, with tracking. You have 60 days to try the ring: if it isn’t right for you, return it free from anywhere in the US for a full refund or a different size.</p></div>
+          </details><details >
+            <summary><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+Warranty</summary>
+            <div class="ar-acc__body"><p>Every ring is covered by a one-year tech warranty. If something stops working, message us and we’ll make it right.</p></div>
+          </details></div><div class="ar-mini-founder"><svg viewBox="0 0 280 280" aria-hidden="true"><circle cx="140" cy="140" r="85" fill="none" stroke="#1F5A2E" stroke-width="30"/><path d="M109 190V138A62 62 0 0 1 140 84.31 62 62 0 0 1 171 138V190Z" fill="#C9A455"/><circle cx="200.1" cy="79.9" r="19.2" fill="#FFFFFF"/><circle cx="200.1" cy="79.9" r="15" fill="#C9A455"/></svg><div><p><strong>Made by a young Muslim woman.</strong> Al Rayan is a small business built to help Muslims remember Allah throughout their day. Thank you for being part of it.</p></div></div></div>
+  </div><dialog class="ar ar-dialog" id="ar-size-main" aria-labelledby="ar-size-title-main">
+      <div class="ar-dialog__inner">
+        <button type="button" class="ar-dialog__close" data-ar-close aria-label="Close"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+</button>
+        <p class="ar-eyebrow">Size guide</p>
+        <h2 class="ar-h3" id="ar-size-title-main">Find your size</h2><div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/DIKRINGSIZES.png" alt="" loading="lazy" sizes="560px" class="ar-img" width="1600" height="1600"></div><table class="ar-table">
+          <thead><tr><th>Size</th><th>Inner diameter</th><th>Circumference</th><th>Approx. US</th></tr></thead>
+          <tbody><tr><td>18mm</td><td>18 mm</td><td>56.5 mm</td><td>8</td></tr><tr><td>20mm</td><td>20 mm</td><td>62.8 mm</td><td>10</td></tr><tr><td>22mm</td><td>22 mm</td><td>69.1 mm</td><td>12</td></tr></tbody>
+        </table>
+        <div class="ar-small"><p><strong>How to measure:</strong> wrap a strip of paper around the base of the finger you’ll wear it on, mark where it overlaps and measure the length in mm. That’s your circumference. Between two sizes? Choose the larger one. If it doesn’t fit, exchange it free within 60 days.</p></div>
+      </div>
+    </dialog><div class="ar ar-sticky" data-ar-sticky data-trigger="ar-actions-main">
+      <div class="ar-sticky__inner">
+        <div class="ar-sticky__thumb"><img src="https://alrayanrings.net/cdn/shop/files/ADIKRING.png" alt="" width="60" height="60" loading="lazy"></div>
+        <div class="ar-sticky__info">
+          <strong>Al Rayan Dhikr Ring 2.0</strong>
+          <span><span data-ar-price="ar-pdp-main">$49.99</span><span class="ar-hide-sm"> · <span data-ar-variant-title="ar-pdp-main">Black / 20mm / CN</span></span></span>
+        </div>
+        <button type="submit" form="ar-form-main" class="ar-btn" data-ar-atc="ar-pdp-main"
+          data-available="Add to cart" data-soldout="Sold out" data-unavailable="Unavailable"
+          >
+          <span data-ar-atc-label>Add to cart</span>
+        </button>
+      </div>
+    </div></section>
+
+
+</div>
+
+<div id="shopify-section-trust" class="shopify-section">
+
+<section class="ar ar-trustbar">
+  <ul class="ar-container ar-trustbar__list"><li class="ar-trustbar__item" ><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+<span>60-day money-back guarantee</span></li><li class="ar-trustbar__item" ><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>
+<span>Free US shipping</span></li><li class="ar-trustbar__item" ><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/></svg>
+<span>IP67 water resistant</span></li><li class="ar-trustbar__item" ><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="7" width="16" height="10" rx="2"/><path d="M22 11v2M7 10v4M10.5 10v4"/></svg>
+<span>3–5 days per charge</span></li><li class="ar-trustbar__item" ><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg>
+<span>US-based support</span></li></ul>
+</section>
+
+
+</div>
+
+<div id="shopify-section-how" class="shopify-section">
+
+<section class="ar ar-section ar--white" id="how-it-works">
+  <div class="ar-container">
+    <div class="ar-head" data-ar-reveal><p class="ar-eyebrow">How it works</p><h2 class="ar-h2">Three steps to <em>consistent dhikr</em></h2><div class="ar-lead"><p>How the Dhikr Ring 2.0 fits into the day you already have.</p></div></div>
+    <ol class="ar-steps"><li class="ar-step" data-ar-reveal >
+          <div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/forge-img-sync-0-1790365550541.jpg" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 100vw" class="ar-img" width="1600" height="1600"></div>
+          <h3 class="ar-step__num"><span>1</span>Wear</h3>
+          <p>Slip it onto the finger that feels natural. Most people choose the index finger so the thumb rests on the button; the ring finger works well too.</p>
+        </li><li class="ar-step" data-ar-reveal >
+          <div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/forge-img-sync-1-1790365552250.jpg" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 100vw" class="ar-img" width="1600" height="1600"></div>
+          <h3 class="ar-step__num"><span>2</span>Tap</h3>
+          <p>Press the side button with your thumb for each tasbih. A gentle vibration at 33, 66 and 99 lets you keep your attention on the words.</p>
+        </li><li class="ar-step" data-ar-reveal >
+          <div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/forge-img-sync-2-1790365553724.jpg" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 100vw" class="ar-img" width="1600" height="1600"></div>
+          <h3 class="ar-step__num"><span>3</span>Review</h3>
+          <p>Open the Al Rayan app whenever you like to sync over Bluetooth and see your daily and monthly totals.</p>
+        </li></ol>
+  </div>
+</section>
+
+
+</div>
+
+<div id="shopify-section-features" class="shopify-section">
+
+<section class="ar ar-section ar--cream">
+  <div class="ar-container">
+    <div class="ar-features">
+      <div class="ar-media" data-ar-reveal><img src="https://alrayanrings.net/cdn/shop/files/forge-img-sync-3-1790365555415.jpg" alt="" loading="lazy" sizes="(min-width: 990px) 45vw, 100vw" class="ar-img" width="1600" height="1600"></div>
+      <div>
+        <div class="ar-head ar-head--left" data-ar-reveal><p class="ar-eyebrow">The Dhikr Ring 2.0</p><h2 class="ar-h2">Everything a tasbih does. <em>Nothing it doesn’t need.</em></h2></div>
+        <div class="ar-features__list"><div class="ar-feature" data-ar-reveal >
+              <span class="ar-feature__icon"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11"/><path d="M12 10.5V9a1.5 1.5 0 0 1 3 0v2"/><path d="M15 10.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-.5a6 6 0 0 1-5-2.7L4 15.2a1.5 1.5 0 0 1 2.4-1.8L9 16"/></svg>
+</span>
+              <h3>Silent thumb tap</h3>
+              <p>A soft side button counts every recitation without a sound.</p>
+            </div><div class="ar-feature" data-ar-reveal >
+              <span class="ar-feature__icon"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="8" y="4" width="8" height="16" rx="2"/><path d="M4.5 8v8M19.5 8v8M2 10v4M22 10v4"/></svg>
+</span>
+              <h3>Feel 33, 66 and 99</h3>
+              <p>A gentle vibration marks each milestone, so you never need to look down.</p>
+            </div><div class="ar-feature" data-ar-reveal >
+              <span class="ar-feature__icon"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+</span>
+              <h3>Prayer-time alerts</h3>
+              <p>A quiet buzz for each of the five daily prayers, even with your phone on silent.</p>
+            </div><div class="ar-feature" data-ar-reveal >
+              <span class="ar-feature__icon"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/></svg>
+</span>
+              <h3>Keep it on for wudu</h3>
+              <p>IP67 water resistance means it stays on your finger at the sink.</p>
+            </div><div class="ar-feature" data-ar-reveal >
+              <span class="ar-feature__icon"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 5v6h-6"/></svg>
+</span>
+              <h3>Never lose your place</h3>
+              <p>Your count stays on the ring when life interrupts, up to 99,999.</p>
+            </div><div class="ar-feature" data-ar-reveal >
+              <span class="ar-feature__icon"><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 18a4.5 4.5 0 0 1-.5-9A6 6 0 0 1 18 9.5 4.3 4.3 0 0 1 17.5 18z"/></svg>
+</span>
+              <h3>Your history in the app</h3>
+              <p>Sync over Bluetooth whenever you like to see daily and monthly totals.</p>
+            </div></div>
+      </div>
+    </div><dl class="ar-specs" data-ar-reveal><div class="ar-spec"><dt><strong>99,999</strong></dt><dd><span>count memory</span></dd></div><div class="ar-spec"><dt><strong>IP67</strong></dt><dd><span>water resistant</span></dd></div><div class="ar-spec"><dt><strong>3–5 days</strong></dt><dd><span>battery, frequent use</span></dd></div><div class="ar-spec"><dt><strong>3 sizes</strong></dt><dd><span>18 · 20 · 22mm</span></dd></div></dl></div>
+</section>
+
+
+</div>
+
+<div id="shopify-section-comparison" class="shopify-section">
+
+<section class="ar ar-section ar--white">
+  <div class="ar-container">
+    <div class="ar-head" data-ar-reveal><p class="ar-eyebrow">How it compares</p><h2 class="ar-h2">Every tool has its place. <em>This one goes everywhere.</em></h2></div>
+    <div class="ar-compare-wrap" data-ar-reveal>
+      <table class="ar-compare">
+        <thead>
+          <tr>
+            <th scope="col"><span class="ar-sr">Feature</span></th>
+            <th scope="col" class="ar-col-us">Al Rayan Ring</th>
+            <th scope="col">Misbaha</th>
+            <th scope="col">Plastic clicker</th>
+            <th scope="col">Phone app</th>
+          </tr>
+        </thead>
+        <tbody><tr >
+              <td>Silent in meetings and classes</td>
+              <td class="ar-col-us"><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-some" aria-hidden="true">~</span><span class="ar-sr">Partly</span></td>
+            </tr><tr >
+              <td>Worn all day, nothing to carry</td>
+              <td class="ar-col-us"><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+            </tr><tr >
+              <td>Keeps your count when interrupted</td>
+              <td class="ar-col-us"><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+            </tr><tr >
+              <td>Works without your phone</td>
+              <td class="ar-col-us"><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+            </tr><tr >
+              <td>Vibrates at 33, 66 and 99</td>
+              <td class="ar-col-us"><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-some" aria-hidden="true">~</span><span class="ar-sr">Partly</span></td>
+            </tr><tr >
+              <td>Prayer-time alerts</td>
+              <td class="ar-col-us"><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+            </tr><tr >
+              <td>Stays on for wudu</td>
+              <td class="ar-col-us"><span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+              <td><span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span></td>
+            </tr></tbody>
+      </table>
+    </div><p class="ar-compare-legend">~ Partly, depends on the model or app</p><div class="ar-compare-note" data-ar-reveal><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>
+<div><p><strong>Counting on your fingers is the Sunnah, and nothing replaces it.</strong> Many of our customers use their fingers for the adhkar after salah and the ring for larger daily goals, like 1,000 istighfar on the way to work.</p></div></div></div>
+</section>
+
+
+</div>
+
+<div id="shopify-section-reviews" class="shopify-section">
+
+<section class="ar ar-section ar--paper" id="reviews">
+  <div class="ar-container">
+    <div class="ar-reviews__top">
+      <div class="ar-head ar-head--left" style="margin-bottom:0" data-ar-reveal><p class="ar-eyebrow">Voices from the community</p><h2 class="ar-h2">Loved by <em>8,200+</em> Muslim wearers</h2><div class="ar-lead"><p>How Muslims across America are keeping their remembrance close.</p></div></div><div class="ar-score" data-ar-reveal>
+          <span class="ar-score__num">4.9</span>
+          <span class="ar-score__meta"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<span>average from 8,200+ wearers</span></span>
+        </div></div>
+    <div class="ar-reviews__grid"><figure class="ar-review" data-ar-reveal ><div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/forge-img-sync-5-1790365558437.jpg" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 82vw" class="ar-img" width="1600" height="1600"></div><div class="ar-review__body"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<blockquote class="ar-review__text">I work in a fast-paced office in Chicago. This ring is a lifesaver for keeping my dhikr consistent between meetings without looking unprofessional.</blockquote>
+            <figcaption class="ar-review__who">
+              <span><strong>Michael J.</strong> · Chicago</span></figcaption>
+          </div>
+        </figure><figure class="ar-review" data-ar-reveal ><div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/S2656b29b90fa48b785c537ba67b91ea1W.webp" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 82vw" class="ar-img" width="1600" height="1600"></div><div class="ar-review__body"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<blockquote class="ar-review__text">The vibration at 33 counts is perfect. I don’t have to look down at all. It has changed my commute through NYC entirely.</blockquote>
+            <figcaption class="ar-review__who">
+              <span><strong>Ashley M.</strong> · New York</span></figcaption>
+          </div>
+        </figure><figure class="ar-review" data-ar-reveal ><div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/S75b9f2d098494937abff1564973bf83bJ.webp" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 82vw" class="ar-img" width="1600" height="1600"></div><div class="ar-review__body"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<blockquote class="ar-review__text">Solid build quality. I was worried it would feel like a toy, but it feels like a real piece of tech. Very happy with my purchase.</blockquote>
+            <figcaption class="ar-review__who">
+              <span><strong>David B.</strong></span></figcaption>
+          </div>
+        </figure><figure class="ar-review" data-ar-reveal ><div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/S6b6929f098f44d098a1d5aa3ebe256d2A.webp" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 82vw" class="ar-img" width="1600" height="1600"></div><div class="ar-review__body"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<blockquote class="ar-review__text">The battery actually lasts. I only charge it twice a week. It has finally helped me hit my goal of 1,000 istighfar a day.</blockquote>
+            <figcaption class="ar-review__who">
+              <span><strong>Sarah W.</strong></span></figcaption>
+          </div>
+        </figure><figure class="ar-review" data-ar-reveal ><div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/Screenshot_2026-09-25_at_4.20.47_PM.png" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 82vw" class="ar-img" width="1600" height="1600"></div><div class="ar-review__body"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<blockquote class="ar-review__text">Finally, a tasbih that fits my style. It’s modern, sleek and serves the best purpose possible. Highly recommend to any young professional.</blockquote>
+            <figcaption class="ar-review__who">
+              <span><strong>Omar</strong> · Brooklyn</span></figcaption>
+          </div>
+        </figure><figure class="ar-review" data-ar-reveal ><div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/S8193927441f54904b764f762d659135aI.webp" alt="" loading="lazy" sizes="(min-width: 850px) 33vw, 82vw" class="ar-img" width="1600" height="1600"></div><div class="ar-review__body"><span class="ar-stars" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg></span>
+<blockquote class="ar-review__text">The prayer alerts are so helpful when I’m deep in work. It’s a gentle nudge to take a break and reconnect with Allah.</blockquote>
+            <figcaption class="ar-review__who">
+              <span><strong>Amara</strong> · Manhattan</span></figcaption>
+          </div>
+        </figure></div>
+  </div>
+</section>
+
+
+</div>
+
+<div id="shopify-section-guarantee" class="shopify-section">
+
+<section class="ar ar-section ar--green">
+  <div class="ar-container">
+    <div class="ar-guarantee">
+      <svg class="ar-seal" viewBox="0 0 200 200" role="img" aria-label="60-day money-back guarantee">
+        <defs><path id="ar-seal-guarantee" d="M100 100m-77 0a77 77 0 1 1 154 0a77 77 0 1 1-154 0"/></defs>
+        <circle cx="100" cy="100" r="98" fill="#C9A455"/>
+        <circle cx="100" cy="100" r="62" fill="#163F21"/>
+        <circle cx="100" cy="100" r="67" fill="none" stroke="#14201A" stroke-opacity=".35" stroke-dasharray="1.5 4"/>
+        <text font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="2.6" fill="#14201A"><textPath href="#ar-seal-guarantee">MONEY-BACK GUARANTEE · MONEY-BACK GUARANTEE ·</textPath></text>
+        <text x="100" y="108" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="58" font-weight="600" fill="#F6F1E6">60</text>
+        <text x="100" y="131" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="3.5" fill="#C9A455">DAYS</text>
+      </svg>
+      <div class="ar-guarantee__copy" data-ar-reveal><p class="ar-eyebrow">Our promise</p><h2 class="ar-h2"><em>60 days</em> to make it part of your day</h2>
+        <div class="ar-lead"><p>Wear it to work, on the commute and at home. If it doesn’t help you stay consistent with your dhikr, send it back within 60 days for a full refund or a different size. No questions asked.</p></div>
+        <ul class="ar-guarantee__perks"><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+60-day money-back guarantee</li><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+Free returns from anywhere in the US</li><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+Free size exchanges</li><li><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+One-year tech warranty</li></ul><a class="ar-btn ar-btn--gold" href="#ar-buy">Try it for 60 days</a></div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+
+<div id="shopify-section-faq" class="shopify-section">
+
+<section class="ar ar-section ar--white" id="faq">
+  <div class="ar-container">
+    <div class="ar-faq">
+      <div class="ar-faq__intro"><p class="ar-eyebrow">FAQ</p><h2 class="ar-h2">Questions, <em>answered</em></h2>
+        <div class="ar-lead"><p>Can’t find what you need? We’re a small, US-based team and we reply to every message.</p></div><p><a class="ar-link" href="/pages/contact">Contact us</a></p></div>
+      <div class="ar-faq__list"><details  open>
+            <summary>Is using a digital tasbih counter permissible?</summary>
+            <div class="ar-faq__answer"><p>Many scholars regard counting aids such as beads and digital counters as permissible, as long as you don’t believe the tool itself carries any blessing. Counting on the fingers of the right hand is the Sunnah, and many of our customers use their fingers for the adhkar after salah and the ring for larger daily goals. If you’re unsure, ask a scholar you trust.</p></div>
+          </details><details >
+            <summary>Which finger should I wear it on?</summary>
+            <div class="ar-faq__answer"><p>Most people wear it on the index finger so the thumb rests naturally on the button, but it works on any finger. Some scholars advise men not to wear rings on the index or middle finger, based on a hadith in Sahih Muslim. If you follow that view, the ring finger works well and the button is still within easy reach of your thumb.</p></div>
+          </details><details >
+            <summary>How do I choose my size?</summary>
+            <div class="ar-faq__answer"><p>The ring comes in 18mm (about US 8), 20mm (about US 10) and 22mm (about US 12). Most women choose 18mm and most men 20mm. The size guide on the product page shows how to measure. If it doesn’t fit, exchange it free within 60 days.</p></div>
+          </details><details >
+            <summary>Can I keep it on during wudu?</summary>
+            <div class="ar-faq__answer"><p>Yes. It’s IP67 water resistant, so washing your hands and splashes during wudu are fine. Take it off for swimming, hot showers and saunas.</p></div>
+          </details><details >
+            <summary>How long does the battery last?</summary>
+            <div class="ar-faq__answer"><p>3 to 5 days of frequent use on a single charge.</p></div>
+          </details><details >
+            <summary>Do I need my phone with me?</summary>
+            <div class="ar-faq__answer"><p>No. The ring counts and shows your count on its own. Open the Al Rayan app whenever you like to sync your history over Bluetooth and set up prayer-time alerts.</p></div>
+          </details><details >
+            <summary>Will the vibration be noticeable in meetings?</summary>
+            <div class="ar-faq__answer"><p>Only to you. The vibration is a private, silent nudge on your finger. There’s no click and no sound.</p></div>
+          </details><details >
+            <summary>What if it’s not for me?</summary>
+            <div class="ar-faq__answer"><p>You have 60 days to try it. If it doesn’t help you stay consistent, send it back for a full refund. Returns are free from anywhere in the US.</p></div>
+          </details><details >
+            <summary>Does it make a good gift?</summary>
+            <div class="ar-faq__answer"><p>Yes. It’s a thoughtful gift for a parent, a spouse, a friend, or someone who has recently embraced Islam. If you’re guessing the size, they can exchange it free within 60 days.</p></div>
+          </details></div>
+    </div>
+  </div>
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is using a digital tasbih counter permissible?","acceptedAnswer":{"@type":"Answer","text":"Many scholars regard counting aids such as beads and digital counters as permissible, as long as you don’t believe the tool itself carries any blessing. Counting on the fingers of the right hand is the Sunnah, and many of our customers use their fingers for the adhkar after salah and the ring for larger daily goals. If you’re unsure, ask a scholar you trust."}},{"@type":"Question","name":"Which finger should I wear it on?","acceptedAnswer":{"@type":"Answer","text":"Most people wear it on the index finger so the thumb rests naturally on the button, but it works on any finger. Some scholars advise men not to wear rings on the index or middle finger, based on a hadith in Sahih Muslim. If you follow that view, the ring finger works well and the button is still within easy reach of your thumb."}},{"@type":"Question","name":"How do I choose my size?","acceptedAnswer":{"@type":"Answer","text":"The ring comes in 18mm (about US 8), 20mm (about US 10) and 22mm (about US 12). Most women choose 18mm and most men 20mm. The size guide on the product page shows how to measure. If it doesn’t fit, exchange it free within 60 days."}},{"@type":"Question","name":"Can I keep it on during wudu?","acceptedAnswer":{"@type":"Answer","text":"Yes. It’s IP67 water resistant, so washing your hands and splashes during wudu are fine. Take it off for swimming, hot showers and saunas."}},{"@type":"Question","name":"How long does the battery last?","acceptedAnswer":{"@type":"Answer","text":"3 to 5 days of frequent use on a single charge."}},{"@type":"Question","name":"Do I need my phone with me?","acceptedAnswer":{"@type":"Answer","text":"No. The ring counts and shows your count on its own. Open the Al Rayan app whenever you like to sync your history over Bluetooth and set up prayer-time alerts."}},{"@type":"Question","name":"Will the vibration be noticeable in meetings?","acceptedAnswer":{"@type":"Answer","text":"Only to you. The vibration is a private, silent nudge on your finger. There’s no click and no sound."}},{"@type":"Question","name":"What if it’s not for me?","acceptedAnswer":{"@type":"Answer","text":"You have 60 days to try it. If it doesn’t help you stay consistent, send it back for a full refund. Returns are free from anywhere in the US."}},{"@type":"Question","name":"Does it make a good gift?","acceptedAnswer":{"@type":"Answer","text":"Yes. It’s a thoughtful gift for a parent, a spouse, a friend, or someone who has recently embraced Islam. If you’re guessing the size, they can exchange it free within 60 days."}}]}
+  </script>
+</section>
+
+
+</div>
+
+<div id="shopify-section-final" class="shopify-section">
+
+<section class="ar ar-section ar-section--tight ar--white">
+  <div class="ar-container">
+    <div class="ar-final" data-ar-reveal>
+      <div class="ar-media"><img src="https://alrayanrings.net/cdn/shop/files/forge-img-sync-7-1790365562099.jpg" alt="" loading="lazy" sizes="(min-width: 850px) 50vw, 100vw" class="ar-img" width="1600" height="1600"></div>
+      <div class="ar-final__copy"><p class="ar-eyebrow">Keep your remembrance close</p><h2 class="ar-h2">Make dhikr part of <em>every</em> day</h2>
+        <div class="ar-lead"><p>For yourself, or for someone you love: a parent, a spouse, or a friend who is new to Islam.</p></div>
+        <a class="ar-btn ar-btn--gold" href="#ar-buy">Shop the Dhikr Ring · $49.99<svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+</a>
+        <ul class="ar-assurance"><li><span><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+Free US shipping</span></li><li><span><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+60-day money-back guarantee</span></li><li><span><svg class="ar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+1-year warranty</span></li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+</main>
+<footer class="arx-foot" id="contact"><div class="arx-foot__in">
+  <div class="arx-foot__brand"><span class="arx-foot__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 666 220"><rect fill-opacity="0" width="666.1393375796179" height="220" fill="#1F5A2E"/><circle cx="110.00" cy="110.00" r="59.50" fill="none" stroke="#F6F1E6" stroke-width="21.00"/><path d="M88.30,145.00 V108.60 A43.40,43.40 0 0 1 110.00,71.01 A43.40,43.40 0 0 1 131.70,108.60 V145.00 Z" fill="#C9A455"/><circle cx="152.07" cy="67.93" r="13.44" fill="#1F5A2E"/><circle cx="152.07" cy="67.93" r="10.50" fill="#C9A455"/><g transform="translate(218.50,116.09)"><g transform="translate(0.00,0.00)"><path d="M1.351450813871196 0.2457183297947629 1.0750176928520878 0.0V-1.597169143665959L1.351450813871196 -1.842887473460722Q3.5936305732484075 -1.8736022646850672 4.23864118895966 -2.073248407643312Q4.8836518046709125 -2.2728945506015568 5.390445859872611 -2.8718329794762916Q5.89723991507431 -3.470771408351026 7.432979476291578 -6.7879688605803254L10.658032554847841 -13.790941259731069L19.01245576786978 -32.711252653927815Q21.377494692144374 -38.270629865534325 23.71181882519462 -43.830007077140834H25.70828025477707L38.82349610757254 -12.99235668789809L40.57423920736022 -8.87657466383581Q41.34210898796886 -7.1258315640481245 42.34033970276008 -5.067940552016985Q43.33857041755131 -3.010049539985846 43.72250530785563 -2.6414720452937015Q44.106440198159945 -2.2728945506015568 44.674663835810335 -2.073248407643312Q45.24288747346072 -1.8736022646850672 47.208634111818824 -1.842887473460722L47.45435244161359 -1.597169143665959V0.0L47.208634111818824 0.2457183297947629Q43.95286624203821 -0.030714791224345363 41.34210898796886 -0.030714791224345363Q36.24345364472753 0.12285916489738145 31.144798301486198 0.2457183297947629L30.899079971691435 0.0V-1.597169143665959L31.144798301486198 -1.842887473460722Q34.584854918612876 -1.9043170559094125 35.44486907289455 -2.134677990092003Q36.30488322717622 -2.365038924274593 36.30488322717622 -3.194338287331918Q36.30488322717622 -3.870063694267516 35.874876150035384 -4.975796178343949L32.096956829440906 -14.343807501769284H14.31309271054494L10.965180467091296 -6.480820948336872Q10.07445152158528 -4.361500353857042 10.07445152158528 -3.37862703467799Q10.07445152158528 -2.6107572540693558 10.903750884642605 -2.2421797593772115Q11.733050247699929 -1.8736022646850672 15.080962491153574 -1.842887473460722L15.357395612172681 -1.597169143665959V0.0L15.111677282377919 0.2457183297947629Q11.149469214437367 0.0 8.170134465675867 0.0Q4.791507430997877 0.0 1.351450813871196 0.2457183297947629ZM15.357395612172681 -16.985279547062987H30.899079971691435L23.18966737438075 -35.50629865534324ZM24.663977353149328 -45.672894550601555ZM23.957537154989385 1.842887473460722ZM60.12973248407644 -43.184996461429584 60.375450813871204 -43.4Q67.99271903750885 -43.154281670205236 69.15988110403397 -43.154281670205236Q70.20418400566172 -43.154281670205236 77.97502618542109 -43.4L78.22074451521586 -43.184996461429584V-41.649256900212315L77.97502618542109 -41.43425336164189Q75.85570559094127 -41.372823779193205 74.70390092002832 -41.24996461429582Q73.55209624911537 -41.12710544939844 73.0299447983015 -40.78924274593064Q72.50779334748762 -40.451380042462844 72.33886199575372 -39.207430997876855Q72.16993064401981 -37.96348195329087 72.16993064401981 -35.752016985138006L72.10850106157113 -28.687615003538568V-15.111677282377919Q72.10850106157113 -10.013021939136589 72.16993064401981 -7.985845718329794L72.32350460014155 -2.672186836518047H78.589322009908Q86.08373106864826 -2.672186836518047 87.94197593772117 -2.856475583864119Q89.80022080679406 -3.040764331210191 91.5202491153574 -3.7472045293701344Q91.8581118188252 -4.515074309978768 92.48776503892428 -7.279405520169851Q93.11741825902337 -10.043736730360934 93.14813305024771 -10.47374380750177L93.4245661712668 -10.719462137296532H94.92959094125973L95.14459447983015 -10.47374380750177Q94.89887615003539 -9.245152158527954 94.63780042462845 -5.712951167728238Q94.37672469922151 -2.180750176928521 94.37672469922151 0.0L94.13100636942676 0.2457183297947629Q88.29519603680114 0.06142958244869073 78.80432554847842 0.06142958244869073L69.83560651096957 0.0Q66.76412738853503 0.0 63.56978910120312 0.2457183297947629L63.32407077140836 0.0V-1.013588110403397L63.56978910120312 -1.3207360226468505Q65.47410615711253 -2.303609341825902 65.6583949044586 -2.5186128803963195Q65.84268365180468 -2.7336164189667373 66.04232979476292 -6.480820948336872Q66.24197593772116 -10.228025477707005 66.24197593772116 -15.510969568294408V-28.687615003538568L66.18054635527247 -34.67699929228591Q66.14983156404813 -38.17848549186129 66.01161500353857 -39.192073602264685Q65.87339844302902 -40.20566171266808 65.58160792639774 -40.54352441613588Q65.28981740976646 -40.88138711960368 64.46051804670913 -41.0963906581741Q63.63121868365181 -41.311394196744516 60.375450813871204 -41.43425336164189L60.12973248407644 -41.649256900212315ZM134.56272894550602 -43.184996461429584 134.80844727530078 -43.4Q140.42925406935598 -43.154281670205236 143.5621627742392 -43.154281670205236Q147.03293418259022 -43.154281670205236 152.93017409766455 -43.36928520877565Q155.11092427459306 -43.43071479122435 156.0937975937721 -43.43071479122435Q163.86463977353148 -43.43071479122435 166.62897098372258 -40.60495399858458Q169.39330219391366 -37.7791932059448 169.39330219391366 -33.90912951167728Q169.39330219391366 -31.32908704883227 168.04185138004246 -28.841188959660297Q166.69040056617126 -26.353290870488323 164.04892852087755 -24.58719037508846Q161.40745647558387 -22.821089879688603 156.76952300070772 -21.93036093418259Q157.62953715498938 -20.73248407643312 159.8717169143666 -17.783864118895966L164.23321726822363 -12.009483368719037Q166.35253786270346 -9.153007784854918 168.77900636942675 -5.974026893135173Q171.20547487615005 -2.795046001415428 171.91191507431 -2.3803963198867657Q172.61835527246993 -1.9657466383581033 173.12514932767164 -1.8736022646850672Q173.63194338287332 -1.7814578910120311 174.73767586694976 -1.7814578910120311L174.9833941967445 -1.5357395612172682V-0.09214437367303609L174.70696107572542 0.18428874734607217Q173.23265109695683 0.0 171.20547487615005 0.0Q169.0247246992215 0.0 166.4446822363765 0.18428874734607217Q164.32536164189668 -2.3957537154989383 159.77957254069355 -8.753715498938428Q154.49662845010616 -16.125265392781316 148.96796602972398 -22.421797593772116L149.27511394196745 -23.37395612172682Q150.8722830856334 -23.281811748053787 151.76301203113943 -23.281811748053787Q157.07667091295116 -23.281811748053787 160.08672045293702 -25.83113941967445Q163.09676999292287 -28.380467091295117 163.09676999292287 -32.89554140127388Q163.09676999292287 -36.94989384288747 160.39386836518048 -39.02314225053078Q157.6909667374381 -41.096390658174094 153.08374805378628 -41.096390658174094Q149.85869497523 -41.096390658174094 147.00221939136588 -40.20566171266808Q146.54149752300071 -39.529936305732484 146.54149752300071 -28.687615003538568V-14.466666666666667L146.57221231422506 -8.47728237791932Q146.6029271054494 -5.0065109695682946 146.75650106157113 -3.9929228591648975Q146.91007501769286 -2.9793347487615 147.20186553432416 -2.641472045293701Q147.49365605095542 -2.303609341825902 148.32295541401274 -2.073248407643312Q149.15225477707006 -1.842887473460722 152.40802264685067 -1.7200283085633403L152.65374097664542 -1.5357395612172682V0.0L152.40802264685067 0.2457183297947629Q152.25444869072894 0.2457183297947629 147.00221939136588 0.06142958244869073Q144.82146921443737 0.0 143.59287756546354 0.0Q142.64071903750886 0.0 134.80844727530078 0.2457183297947629L134.56272894550602 0.0V-1.5357395612172682L134.80844727530078 -1.7200283085633403Q137.6649228591649 -1.842887473460722 138.6170813871196 -2.027176220806794Q139.56923991507432 -2.211464968152866 139.89174522292996 -2.5032554847841473Q140.21425053078556 -2.795046001415428 140.4138966737438 -3.7472045293701344Q140.61354281670205 -4.699363057324841 140.6442576079264 -7.985845718329794L140.67497239915073 -14.466666666666667V-28.687615003538568L140.61354281670205 -34.67699929228591Q140.5828280254777 -38.17848549186129 140.44461146496815 -39.192073602264685Q140.30639490445859 -40.20566171266808 140.01460438782732 -40.54352441613588Q139.72281387119602 -40.88138711960368 138.8935145081387 -41.0963906581741Q138.0642151450814 -41.311394196744516 134.80844727530078 -41.43425336164189L134.56272894550602 -41.649256900212315ZM186.70661571125262 0.2457183297947629 186.43018259023353 0.0V-1.597169143665959L186.70661571125262 -1.842887473460722Q188.94879547062985 -1.8736022646850672 189.5938060863411 -2.073248407643312Q190.23881670205233 -2.2728945506015568 190.74561075725404 -2.8718329794762916Q191.25240481245575 -3.470771408351026 192.788144373673 -6.7879688605803254L196.01319745222926 -13.790941259731069L204.3676206652512 -32.711252653927815Q206.7326595895258 -38.270629865534325 209.06698372257605 -43.830007077140834H211.0634451521585L224.17866100495397 -12.99235668789809L225.92940410474165 -8.87657466383581Q226.69727388535028 -7.1258315640481245 227.6955046001415 -5.067940552016985Q228.69373531493272 -3.010049539985846 229.07767020523704 -2.6414720452937015Q229.46160509554136 -2.2728945506015568 230.02982873319175 -2.073248407643312Q230.59805237084214 -1.8736022646850672 232.56379900920024 -1.842887473460722L232.80951733899502 -1.597169143665959V0.0L232.56379900920024 0.2457183297947629Q229.30803113941965 -0.030714791224345363 226.69727388535028 -0.030714791224345363Q221.59861854210897 0.12285916489738145 216.49996319886762 0.2457183297947629L216.25424486907286 0.0V-1.597169143665959L216.49996319886762 -1.842887473460722Q219.9400198159943 -1.9043170559094125 220.800033970276 -2.134677990092003Q221.66004812455765 -2.365038924274593 221.66004812455765 -3.194338287331918Q221.66004812455765 -3.870063694267516 221.23004104741682 -4.975796178343949L217.45212172682233 -14.343807501769284H199.66825760792636L196.32034536447273 -6.480820948336872Q195.4296164189667 -4.361500353857042 195.4296164189667 -3.37862703467799Q195.4296164189667 -2.6107572540693558 196.25891578202402 -2.2421797593772115Q197.08821514508136 -1.8736022646850672 200.436127388535 -1.842887473460722L200.71256050955412 -1.597169143665959V0.0L200.46684217975934 0.2457183297947629Q196.5046341118188 0.0 193.5252993630573 0.0Q190.1466723283793 0.0 186.70661571125262 0.2457183297947629ZM200.71256050955412 -16.985279547062987H216.25424486907286L208.54483227176217 -35.50629865534324ZM210.01914225053076 -45.672894550601555ZM209.3127020523708 1.842887473460722ZM244.80917197452226 -40.51280962491153 244.53273885350316 -40.78924274593064V-42.07926397735315L244.80917197452226 -42.355697098372254L253.501457891012 -43.799292285916486Q254.42290162774236 -43.154281670205236 255.29827317763622 -42.17140835102619Q256.1736447275301 -41.18853503184713 257.8476008492569 -38.50099079971692Q259.5215569709837 -35.813446567586695 262.1630290162774 -31.006581740976642Q264.8045010615711 -26.199716914366594 267.23096956829437 -21.377494692144374L270.3638782731776 -26.353290870488323L273.8960792639773 -32.25053078556263L280.4076150035385 -43.4Q281.605491861288 -43.277140835102614 282.74193913658877 -43.277140835102614Q283.4483793347487 -43.277140835102614 284.89197452229297 -43.4L285.13769285208775 -43.154281670205236V-42.570700636942675Q283.6019532908705 -40.88138711960368 280.37690021231424 -36.443099787685775Q277.15184713375794 -32.00481245576787 275.57003538570416 -29.50155697098372Q273.9882236376504 -26.998301486199573 271.6846142958245 -23.20502476999292Q269.38100495399857 -19.41174805378627 269.1660014154281 -18.643878273177634Q268.95099787685774 -17.876008492569003 268.95099787685774 -16.831705590941258V-12.316631280962492L268.9817126680821 -7.709412597310687Q269.0124274593064 -5.03722576079264 269.18135881104035 -3.9775654635527244Q269.35029016277423 -2.9179051663128095 269.64208067940547 -2.595399858457183Q269.93387119603676 -2.2728945506015568 270.7478131634819 -2.0578910120311393Q271.56175513092705 -1.842887473460722 274.8175230007077 -1.7200283085633403L275.0632413305025 -1.5357395612172682V0.0L274.8175230007077 0.2457183297947629Q274.66394904458593 0.2457183297947629 269.4117197452229 0.06142958244869073Q267.23096956829437 0.0 266.00237791932057 0.0Q265.01950460014154 0.0 257.2179476291578 0.2457183297947629L256.97222929936305 0.0V-1.5357395612172682L257.2179476291578 -1.7200283085633403Q260.1358527954706 -1.842887473460722 261.057296532201 -2.027176220806794Q261.97874026893135 -2.211464968152866 262.301245576787 -2.5032554847841473Q262.62375088464256 -2.795046001415428 262.80803963198866 -3.6397027600849254Q262.9923283793347 -4.484359518754423 263.02304317055905 -7.095116772823779L263.08447275300773 -12.347346072186836V-18.183156404812454Q262.4087473460722 -19.841755130927105 258.569398443029 -26.138287331917905L255.8664968152866 -30.530502476999292Q254.5764755838641 -32.61910828025478 252.62608634111817 -35.39879688605804Q250.67569709837224 -38.17848549186129 249.60067940552017 -39.176716206652515Q248.52566171266807 -40.174946921443734 247.9420806794055 -40.34387827317764Q247.35849964614295 -40.51280962491153 244.80917197452226 -40.51280962491153ZM266.8316772823779 -45.672894550601555ZM265.84880396319886 1.842887473460722ZM297.7209285208776 0.2457183297947629 297.44449539985845 0.0V-1.597169143665959L297.7209285208776 -1.842887473460722Q299.96310828025474 -1.8736022646850672 300.608118895966 -2.073248407643312Q301.2531295116773 -2.2728945506015568 301.75992356687897 -2.8718329794762916Q302.26671762208065 -3.470771408351026 303.8024571832979 -6.7879688605803254L307.0275102618542 -13.790941259731069L315.3819334748761 -32.711252653927815Q317.7469723991507 -38.270629865534325 320.08129653220095 -43.830007077140834H322.07775796178345L335.19297381457886 -12.99235668789809L336.9437169143666 -8.87657466383581Q337.7115866949752 -7.1258315640481245 338.7098174097664 -5.067940552016985Q339.70804812455765 -3.010049539985846 340.09198301486197 -2.6414720452937015Q340.4759179051663 -2.2728945506015568 341.04414154281665 -2.073248407643312Q341.61236518046707 -1.8736022646850672 343.57811181882516 -1.842887473460722L343.82383014861995 -1.597169143665959V0.0L343.57811181882516 0.2457183297947629Q340.3223439490446 -0.030714791224345363 337.7115866949752 -0.030714791224345363Q332.6129313517339 0.12285916489738145 327.5142760084926 0.2457183297947629L327.2685576786978 0.0V-1.597169143665959L327.5142760084926 -1.842887473460722Q330.95433262561926 -1.9043170559094125 331.8143467799009 -2.134677990092003Q332.6743609341826 -2.365038924274593 332.6743609341826 -3.194338287331918Q332.6743609341826 -3.870063694267516 332.24435385704174 -4.975796178343949L328.46643453644725 -14.343807501769284H310.6825704175513L307.3346581740976 -6.480820948336872Q306.4439292285916 -4.361500353857042 306.4439292285916 -3.37862703467799Q306.4439292285916 -2.6107572540693558 307.27322859164894 -2.2421797593772115Q308.10252795470626 -1.8736022646850672 311.4504401981599 -1.842887473460722L311.72687331917905 -1.597169143665959V0.0L311.48115498938427 0.2457183297947629Q307.5189469214437 0.0 304.5396121726822 0.0Q301.1609851380042 0.0 297.7209285208776 0.2457183297947629ZM311.72687331917905 -16.985279547062987H327.2685576786978L319.5591450813871 -35.50629865534324ZM321.0334550601557 -45.672894550601555ZM320.32701486199574 1.842887473460722ZM357.3899391365888 0.21500353857041754 357.1135060155697 -0.06142958244869073V-1.4743099787685774L357.3899391365888 -1.7200283085633403Q359.26354140127387 -1.7507430997876856 360.3846312809625 -1.9350318471337578Q361.5057211606511 -2.11932059447983 361.8282264685067 -2.5493276716206648Q362.15073177636236 -2.9793347487615 362.25823354564756 -3.931493276716206Q362.36573531493275 -4.8836518046709125 362.473237084218 -8.231564048124557Q362.5807388535032 -11.579476291578201 362.5807388535032 -13.023071479122434V-37.84062278839349Q362.5807388535032 -39.4070771408351 362.0125152158528 -40.159589525831564Q361.4442915782024 -40.91210191082802 360.4614182590234 -41.11174805378627Q359.4785449398443 -41.311394196744516 357.1135060155697 -41.34210898796886L356.86778768577494 -41.58782731776362V-43.03142250530785L357.1135060155697 -43.30785562632696Q361.3521472045294 -43.154281670205236 362.6728832271762 -43.154281670205236Q365.7750771408351 -43.154281670205236 367.77153857041753 -43.30785562632696L377.56955697098374 -30.59193205944798L391.9747940552017 -12.531634819532908Q394.58555130927107 -9.245152158527954 397.2884529370134 -6.296532200990799V-30.06978060863411Q397.2884529370134 -31.175513092710545 397.1809511677282 -34.78450106157112Q397.073449398443 -38.3934890304317 396.9198754423213 -39.36100495399858Q396.76630148619955 -40.32852087756546 396.38236659589523 -40.66638358103326Q395.9984317055909 -41.00424628450106 394.93877140835104 -41.17317763623495Q393.8791111111111 -41.34210898796886 392.0669384288747 -41.372823779193205L391.82122009907994 -41.61854210898797V-43.03142250530785L392.0669384288747 -43.30785562632696Q394.5548365180467 -43.154281670205236 399.1620552016985 -43.154281670205236Q403.3699815994338 -43.154281670205236 405.2742986553432 -43.30785562632696L405.55073177636234 -43.03142250530785V-41.61854210898797L405.30501344656756 -41.372823779193205Q403.2778372257608 -41.34210898796886 402.17210474168434 -41.14246284501061Q401.0663722576079 -40.94281670205237 400.7899391365888 -40.482094833687185Q400.5135060155697 -40.02137296532201 400.4060042462845 -39.13064401981599Q400.29850247699926 -38.23991507430998 400.19100070771407 -34.892002830856335Q400.0834989384289 -31.54409058740269 400.0834989384289 -30.06978060863411V-15.480254777070064L400.1142137296532 -7.033687190375089Q400.1756433121019 -2.887190375088464 400.2370728945506 1.2900212314225052Q398.7013333333333 0.7678697806086341 394.9234140127388 0.0L392.74266383581033 -2.5800424628450105L386.20041330502477 -10.565888181174804L365.3757848549186 -36.58131634819533V-13.023071479122434Q365.3757848549186 -11.610191082802547 365.4832866242038 -7.985845718329795Q365.590788393489 -4.361500353857042 365.7443623496107 -3.593630573248408Q365.89793630573246 -2.8257607926397736 366.14365463552724 -2.5339702760084926Q366.389372965322 -2.2421797593772115 367.20331493276717 -1.9964614295824485Q368.0172569002123 -1.7507430997876856 370.56658457183295 -1.7200283085633403L370.81230290162773 -1.4743099787685774V-0.030714791224345363L370.56658457183295 0.21500353857041754Q368.969415428167 0.0 365.40649964614295 0.0Q360.8299957537155 0.0 357.3899391365888 0.21500353857041754Z" fill="#F6F1E6"/></g><g transform="translate(148.53,31.23)"><path d="M13.204288747346071 -0.03685774946921443 13.112144373673035 0.05528662420382165Q13.04764331210191 0.05528662420382165 12.761995753715498 0.04607218683651804Q11.499617834394904 0.0 11.18632696390658 0.0Q10.716390658174097 0.0 9.693588110403397 0.05528662420382165Q9.656730360934182 -0.16585987261146495 9.343439490445858 -0.681868365180467L7.058259023354564 -4.496645435244161L6.035456475583864 -6.05388535031847Q5.841953290870488 -6.339532908704882 5.49180467091295 -6.615966029723991L5.59316348195329 -6.929256900212313Q5.805095541401273 -6.92004246284501 5.906454352441613 -6.92004246284501Q6.8094692144373665 -6.92004246284501 7.325477707006368 -7.205690021231422Q7.795414012738853 -7.463694267515923 8.191634819532908 -8.108704883227176Q8.587855626326963 -8.753715498938428 8.587855626326963 -9.647515923566878Q8.587855626326963 -11.204755838641187 7.426836518046708 -11.7484076433121Q6.8739702760084915 -12.006411889596603 5.814309978768577 -12.006411889596603Q5.353588110403397 -12.006411889596603 4.929723991507431 -11.932696390658172Q4.837579617834394 -11.029681528662419 4.837579617834394 -8.855074309978768V-4.035923566878981Q4.837579617834394 -1.8428874734607217 4.957367303609341 -1.1794479830148619Q5.003439490445859 -0.9122292993630572 5.270658174097664 -0.8385138004246283Q5.408874734607218 -0.8016560509554139 6.348747346072186 -0.7463694267515922L6.440891719745222 -0.6542250530785562V-0.03685774946921443L6.35796178343949 0.05528662420382165Q5.4365180467091285 0.0 3.5199150743099783 0.0Q1.5388110403397026 0.0 0.681868365180467 0.05528662420382165L0.5897239915074309 -0.027643312101910823V-0.6542250530785562L0.681868365180467 -0.7463694267515922Q1.6217409766454352 -0.8016560509554139 1.7599575371549891 -0.8385138004246283Q2.027176220806794 -0.9122292993630572 2.073248407643312 -1.1794479830148619Q2.1930360934182587 -1.8428874734607217 2.1930360934182587 -4.035923566878981V-8.91036093418259Q2.1930360934182587 -11.103397027600849 2.073248407643312 -11.766836518046707Q2.027176220806794 -12.034055201698513 1.7599575371549891 -12.10777070063694Q1.6217409766454352 -12.144628450106156 0.681868365180467 -12.199915074309978L0.5897239915074309 -12.292059447983014V-12.91864118895966L0.681868365180467 -13.001571125265391Q1.5848832271762205 -12.94628450106157 3.5199150743099783 -12.94628450106157Q4.644076433121018 -12.94628450106157 5.344373673036093 -12.973927813163481Q6.735753715498937 -13.029214437367303 7.426836518046708 -13.029214437367303Q9.020934182590233 -13.029214437367303 9.767303609341825 -12.743566878980891Q10.771677282377919 -12.35656050955414 11.112611464968152 -11.435116772823777Q11.278471337579617 -10.9836093418259 11.278471337579617 -10.366242038216559Q11.278471337579617 -7.859915074309978 8.458853503184713 -6.8094692144373665Q8.919575371549893 -6.035456475583864 9.435583864118895 -5.2430148619957535L10.85460721868365 -3.059193205944798Q12.10777070063694 -1.1241613588110402 12.522420382165604 -0.8569426751592356Q12.734352441613586 -0.7187261146496815 13.112144373673035 -0.7187261146496815L13.204288747346071 -0.6265817409766453ZM31.76916857749469 -0.03685774946921443 31.686238641188957 0.05528662420382165Q30.764794904458597 0.0 28.838977494692145 0.0Q26.92237452229299 0.0 26.00093078556263 0.05528662420382165L25.9180008492569 -0.03685774946921443V-0.6542250530785562L26.010145222929935 -0.7463694267515922Q26.950017834394902 -0.8016560509554139 27.088234394904458 -0.8385138004246283Q27.355453078556263 -0.9122292993630572 27.40152526539278 -1.1794479830148619Q27.521312951167726 -1.8428874734607217 27.521312951167726 -4.035923566878981V-8.91036093418259Q27.521312951167726 -11.103397027600849 27.40152526539278 -11.766836518046707Q27.355453078556263 -12.034055201698513 27.088234394904458 -12.10777070063694Q26.950017834394902 -12.144628450106156 26.010145222929935 -12.199915074309978L25.9180008492569 -12.292059447983014V-12.91864118895966L26.010145222929935 -13.001571125265391Q26.894731210191082 -12.94628450106157 28.848191932059446 -12.94628450106157Q30.79243821656051 -12.94628450106157 31.677024203821652 -13.001571125265391L31.76916857749469 -12.91864118895966V-12.292059447983014L31.677024203821652 -12.199915074309978Q30.737151592356685 -12.144628450106156 30.598935031847134 -12.10777070063694Q30.33171634819533 -12.034055201698513 30.28564416135881 -11.766836518046707Q30.165856475583862 -11.103397027600849 30.165856475583862 -8.91036093418259V-4.035923566878981Q30.165856475583862 -1.8428874734607217 30.28564416135881 -1.1794479830148619Q30.33171634819533 -0.9122292993630572 30.598935031847134 -0.8385138004246283Q30.737151592356685 -0.8016560509554139 31.677024203821652 -0.7463694267515922L31.76916857749469 -0.6542250530785562ZM28.838977494692145 -13.526794055201696ZM28.838977494692145 0.7187261146496815ZM59.32733927813163 -12.292059447983014 59.22598046709129 -12.199915074309978Q58.28610785562633 -12.144628450106156 58.14789129511677 -12.10777070063694Q57.880672611464966 -12.034055201698513 57.83460042462845 -11.766836518046707Q57.714812738853496 -11.103397027600849 57.714812738853496 -8.91036093418259V-5.169299363057324Q57.714812738853496 -1.032016985138004 57.83460042462845 0.2211464968152866L57.714812738853496 0.30407643312101906Q56.67358131634819 0.1290021231422505 56.13914394904458 0.05528662420382165Q53.66967473460721 -2.7182590233545643 47.70793375796178 -10.06216560509554V-4.035923566878981Q47.70793375796178 -1.8428874734607217 47.82772144373673 -1.1794479830148619Q47.873793630573246 -0.9122292993630572 48.14101231422505 -0.8385138004246283Q48.279228874734606 -0.8016560509554139 49.21910148619957 -0.7463694267515922L49.311245859872606 -0.6542250530785562V-0.027643312101910823L49.21910148619957 0.05528662420382165Q48.159441188959654 0.0 47.2472118895966 0.0Q46.187551592356684 0.0 45.11867685774946 0.05528662420382165L45.026532484076434 -0.027643312101910823V-0.6542250530785562L45.11867685774946 -0.7463694267515922Q46.058549469214434 -0.8016560509554139 46.19676602972399 -0.8385138004246283Q46.463984713375794 -0.9122292993630572 46.51005690021231 -1.1794479830148619Q46.62984458598726 -1.8428874734607217 46.62984458598726 -4.035923566878981V-8.91036093418259Q46.62984458598726 -11.103397027600849 46.51005690021231 -11.766836518046707Q46.463984713375794 -12.034055201698513 46.19676602972399 -12.10777070063694Q46.058549469214434 -12.144628450106156 45.11867685774946 -12.199915074309978L45.026532484076434 -12.292059447983014V-12.91864118895966L45.11867685774946 -13.001571125265391Q45.99404840764331 -12.94628450106157 46.78649002123142 -12.94628450106157Q48.030439065817404 -12.94628450106157 48.85052399150743 -13.001571125265391Q52.167721443736724 -8.57864118895966 56.64593800424628 -3.5199150743099783V-8.91036093418259Q56.64593800424628 -11.103397027600849 56.52615031847134 -11.766836518046707Q56.48007813163481 -12.034055201698513 56.21285944798301 -12.10777070063694Q56.07464288747346 -12.144628450106156 55.13477027600849 -12.199915074309978L55.04262590233545 -12.292059447983014V-12.91864118895966L55.13477027600849 -13.001571125265391Q56.166787261146496 -12.94628450106157 57.097445435244154 -12.94628450106157Q58.28610785562633 -12.94628450106157 59.235194904458595 -13.001571125265391L59.32733927813163 -12.91864118895966ZM86.4524314225053 -4.6532908704883225 86.36028704883226 -4.551932059447982Q85.78899193205943 -4.413715498938428 85.6968475583864 -4.169532908704882Q85.60470318471336 -3.925350318471337 85.60470318471336 -2.303609341825902Q85.60470318471336 -1.5203821656050953 85.6784186836518 -0.7555838641188959Q82.6007966029724 0.4054352441613588 80.0944696390658 0.4054352441613588Q76.79570106157111 0.4054352441613588 74.75470318471336 -1.4420594479830147Q72.71370530785562 -3.2895541401273882 72.71370530785562 -6.477749469214436Q72.71370530785562 -10.633460721868364 76.31655031847133 -12.402632696390658Q77.96593460721867 -13.213503184713375 80.50911932059446 -13.213503184713375Q81.98342929936305 -13.213503184713375 83.49459702760083 -12.890997876857748Q84.73854607218682 -12.623779193205943 85.4572721868365 -12.28284501061571L85.54020212314224 -12.116985138004244Q85.30062675159235 -11.306114649681527 85.14398131634819 -9.297367303609342L85.04262250530785 -9.205222929936305H84.48975626326963L84.39761188959659 -9.297367303609342Q84.39761188959659 -9.47244161358811 84.36075414012737 -10.020700636942674Q84.32389639065816 -10.568959660297239 84.26860976645435 -10.790106157112525Q83.86317452229298 -11.342972399150742 82.8864441613588 -11.729978768577494Q81.83599830148619 -12.135414012738853 80.61969256900211 -12.135414012738853Q77.35778174097663 -12.135414012738853 76.11383269639065 -9.50008492569002Q75.54253757961783 -8.283779193205945 75.54253757961783 -6.680467091295116Q75.54253757961783 -4.118853503184713 76.90627430997876 -2.4326114649681525Q78.32529766454351 -0.681868365180467 80.6012636942675 -0.681868365180467Q81.80835498938427 -0.681868365180467 82.93251634819532 -1.1978768577494692Q82.99701740976644 -1.8428874734607217 82.99701740976644 -2.967048832271762Q82.99701740976644 -3.8792781316348193 82.93251634819532 -4.072781316348195Q82.87722972399149 -4.220212314225052 82.58236772823778 -4.284713375796178Q82.33357791932059 -4.34 81.02512781316346 -4.422929936305732L80.92376900212312 -4.515074309978768V-5.095583864118895L81.02512781316346 -5.187728237791932Q82.36122123142249 -5.150870488322717 83.82631677282377 -5.160084925690021Q84.6740450106157 -5.169299363057324 86.36028704883226 -5.187728237791932L86.4524314225053 -5.095583864118895ZM109.5968866242038 -4.257070063694267Q109.5968866242038 -2.736687898089172 108.73072951167727 -1.575668789808917Q107.97514564755838 -0.5528662420382165 106.749625477707 -0.05528662420382165Q105.62546411889595 0.4054352441613588 104.06822420382164 0.4054352441613588Q102.13319235668789 0.4054352441613588 100.27187600849255 -0.4791507430997876L100.16130276008491 -0.681868365180467Q100.41930700636942 -1.741528662420382 100.41930700636942 -3.694989384288747L100.51145138004244 -3.787133757961783H101.10117537154989L101.18410530785562 -3.694989384288747V-3.483057324840764Q101.18410530785562 -2.967048832271762 101.29467855626326 -2.11932059447983Q101.62639830148619 -1.529596602972399 102.48334097664542 -1.105732484076433Q103.37714140127387 -0.6634394904458598 104.34465732484075 -0.6634394904458598Q106.16911592356686 -0.6634394904458598 106.86941316348194 -1.9350318471337578Q107.22877622080678 -2.589256900212314 107.22877622080678 -3.2895541401273882Q107.22877622080678 -4.46900212314225 106.24283142250529 -4.975796178343948Q105.7544662420382 -5.224585987261146 104.66716263269637 -5.390445859872611Q102.20690785562631 -5.768237791932059 101.43289511677281 -6.339532908704882Q100.26266157112525 -7.205690021231422 100.26266157112525 -9.020934182590233Q100.26266157112525 -10.909893842887472 101.53425392781315 -12.034055201698513Q102.87956178343948 -13.213503184713375 105.27531549893841 -13.213503184713375Q107.43149384288746 -13.213503184713375 108.75837282377918 -12.522420382165604L108.8228738853503 -12.301273885350318Q108.60172738853502 -11.204755838641187 108.5556552016985 -9.665944798301485L108.45429639065816 -9.573800424628448H107.87378683651804L107.781642462845 -9.665944798301485Q107.75399915074308 -10.771677282377919 107.68949808917196 -11.103397027600849Q107.40385053078555 -11.536475583864117 106.69433885350317 -11.840552016985137Q105.93875498938428 -12.15384288747346 105.11867006369425 -12.15384288747346Q103.88393545647557 -12.15384288747346 103.16520934182589 -11.499617834394904Q102.49255541401273 -10.882250530785562 102.49255541401273 -9.905520169851378Q102.49255541401273 -8.845859872611465 103.25735371549892 -8.34828025477707Q103.75493333333333 -8.025774946921443 105.60703524416135 -7.730912951167728Q105.80053842887472 -7.703269639065817 106.68512441613586 -7.546624203821655Q107.22877622080678 -7.454479830148619 107.68949808917196 -7.279405520169851Q108.62015626326962 -6.929256900212313 109.09009256900211 -6.210530785562632Q109.5968866242038 -5.427303609341825 109.5968866242038 -4.257070063694267Z" fill="#C9A455"/></g><rect x="0.00" y="24.08" width="133.34" height="1.30" fill="#C9A455"/><rect x="274.30" y="24.08" width="133.34" height="1.30" fill="#C9A455"/></g></svg></span><p>Smart dhikr rings that help Muslims keep their remembrance close, wherever the day goes.</p></div>
+  <div><h4>Shop</h4><ul><li><a href="product.html">Dhikr Ring 2.0</a></li><li><a href="index.html#reviews">Reviews</a></li><li><a href="index.html#faq">FAQ</a></li></ul></div>
+  <div><h4>Help</h4><ul><li><a href="#">Contact us</a></li><li><a href="#">Shipping policy</a></li><li><a href="#">Refund policy</a></li><li><a href="#">Terms of service</a></li><li><a href="#">Privacy policy</a></li></ul></div>
+  <div class="arx-foot__news"><h4>Notes from the Al Rayan studio</h4><p>Gentle reminders and new releases, a few times a month.</p><form class="arx-news" onsubmit="event.preventDefault()"><input type="email" placeholder="Your email" aria-label="Email"><button>Subscribe</button></form></div>
+</div><div class="arx-legal"><span>© 2026 Al Rayan Rings</span><span>Secure checkout · Shop Pay · Apple Pay · Visa · Mastercard · PayPal</span></div></footer>
+<script>/* Al Rayan Rings — small behaviours for the ar-* sections. Safe to load more than once. */
+(function () {
+  if (window.__arRayan) { window.__arRayan.init(); return; }
+  document.documentElement.classList.add('ar-js');
+
+  function formatMoney(cents, format) {
+    format = format || '${{amount}}';
+    var v = (cents / 100);
+    function withSep(n, dec, thou, decSep) {
+      var parts = n.toFixed(dec).split('.');
+      parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, thou);
+      return parts.join(decSep);
+    }
+    return format.replace(/\{\{\s*(\w+)\s*\}\}/, function (_, key) {
+      switch (key) {
+        case 'amount_no_decimals': return withSep(v, 0, ',', '.');
+        case 'amount_with_comma_separator': return withSep(v, 2, '.', ',');
+        case 'amount_no_decimals_with_comma_separator': return withSep(v, 0, '.', ',');
+        default: return withSep(v, 2, ',', '.');
+      }
+    });
+  }
+
+  function reveal(root) {
+    var els = root.querySelectorAll('[data-ar-reveal]:not(.is-in)');
+    if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('is-in'); }); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    els.forEach(function (e) { io.observe(e); });
+  }
+
+  function gallery(el) {
+    if (el.dataset.arInit) return; el.dataset.arInit = '1';
+    var main = el.querySelector('[data-ar-main]');
+    var thumbs = Array.prototype.slice.call(el.querySelectorAll('[data-ar-thumb]'));
+    var i = 0;
+    function show(n) {
+      if (!thumbs.length) return;
+      i = (n + thumbs.length) % thumbs.length;
+      var t = thumbs[i];
+      main.src = t.dataset.src; main.srcset = t.dataset.srcset || ''; main.alt = t.dataset.alt || '';
+      thumbs.forEach(function (b, k) { b.setAttribute('aria-current', k === i ? 'true' : 'false'); });
+    }
+    thumbs.forEach(function (b, k) { b.addEventListener('click', function () { show(k); }); });
+    var prev = el.querySelector('[data-ar-prev]'), next = el.querySelector('[data-ar-next]');
+    if (prev) prev.addEventListener('click', function () { show(i - 1); });
+    if (next) next.addEventListener('click', function () { show(i + 1); });
+    el.arShowMedia = function (id) {
+      thumbs.forEach(function (b, k) { if (String(b.dataset.mediaId) === String(id)) show(k); });
+    };
+  }
+
+  function product(el) {
+    if (el.dataset.arInit) return; el.dataset.arInit = '1';
+    var dataEl = el.querySelector('[data-ar-variants]');
+    if (!dataEl) return;
+    var variants = JSON.parse(dataEl.textContent);
+    var fmt = el.dataset.moneyFormat;
+    var idInput = el.querySelector('[data-ar-variant-id]');
+    var groups = Array.prototype.slice.call(el.querySelectorAll('[data-ar-option]'));
+    var gal = el.querySelector('[data-ar-gallery]');
+
+    function selected() {
+      return groups.map(function (g) {
+        var c = g.querySelector('input:checked') || g.querySelector('input[type=hidden]');
+        return c ? c.value : null;
+      });
+    }
+    function find(vals) {
+      return variants.find(function (v) { return v.options.every(function (o, k) { return vals[k] === null || o === vals[k]; }); });
+    }
+    function update() {
+      var vals = selected();
+      var v = find(vals);
+      groups.forEach(function (g, k) {
+        var label = g.querySelector('[data-ar-selected]');
+        if (label) label.textContent = vals[k] || '';
+        g.querySelectorAll('input[type=radio]').forEach(function (inp) {
+          var test = vals.slice(); test[k] = inp.value;
+          var m = find(test);
+          inp.nextElementSibling.classList.toggle('is-unavailable', !m || !m.available);
+        });
+      });
+      var btns = document.querySelectorAll('[data-ar-atc="' + el.id + '"]');
+      if (!v) {
+        btns.forEach(function (b) { b.disabled = true; b.querySelector('[data-ar-atc-label]').textContent = b.dataset.unavailable; });
+        return;
+      }
+      idInput.value = v.id;
+      document.querySelectorAll('[data-ar-price="' + el.id + '"]').forEach(function (p) { p.textContent = formatMoney(v.price, fmt); });
+      document.querySelectorAll('[data-ar-was="' + el.id + '"]').forEach(function (p) {
+        var on = v.compare_at_price && v.compare_at_price > v.price;
+        p.hidden = !on; if (on) p.textContent = formatMoney(v.compare_at_price, fmt);
+      });
+      document.querySelectorAll('[data-ar-save="' + el.id + '"]').forEach(function (p) {
+        var on = v.compare_at_price && v.compare_at_price > v.price;
+        p.hidden = !on; if (on) p.textContent = p.dataset.template.replace('[amount]', formatMoney(v.compare_at_price - v.price, fmt));
+      });
+      var visible = groups.filter(function (g) { return !g.hidden; }).map(function (g) { return vals[groups.indexOf(g)]; });
+      document.querySelectorAll('[data-ar-variant-title="' + el.id + '"]').forEach(function (p) { p.textContent = visible.join(' / '); });
+      btns.forEach(function (b) {
+        b.disabled = !v.available;
+        b.querySelector('[data-ar-atc-label]').textContent = v.available ? b.dataset.available : b.dataset.soldout;
+      });
+      if (v.featured_media && gal && gal.arShowMedia) gal.arShowMedia(v.featured_media.id);
+      if (el.dataset.updateUrl === 'true' && window.history.replaceState) {
+        var u = new URL(window.location.href); u.searchParams.set('variant', v.id);
+        window.history.replaceState({}, '', u.toString());
+      }
+    }
+    groups.forEach(function (g) { g.addEventListener('change', update); });
+    if (gal) gallery(gal);
+    update();
+  }
+
+  function dialogs(root) {
+    root.querySelectorAll('[data-ar-open]').forEach(function (b) {
+      if (b.dataset.arInit) return; b.dataset.arInit = '1';
+      b.addEventListener('click', function () {
+        var d = document.getElementById(b.dataset.arOpen);
+        if (d && d.showModal) d.showModal();
+      });
+    });
+    root.querySelectorAll('dialog.ar-dialog').forEach(function (d) {
+      if (d.dataset.arInit) return; d.dataset.arInit = '1';
+      d.addEventListener('click', function (e) { if (e.target === d || e.target.closest('[data-ar-close]')) d.close(); });
+    });
+  }
+
+  function sticky(el) {
+    if (el.dataset.arInit) return; el.dataset.arInit = '1';
+    var trigger = document.getElementById(el.dataset.trigger);
+    if (!trigger) return;
+    var ticking = false;
+    function check() {
+      ticking = false;
+      el.classList.toggle('is-visible', trigger.getBoundingClientRect().bottom < 0);
+    }
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(check); } }, { passive: true });
+    check();
+  }
+
+  function init() {
+    reveal(document);
+    document.querySelectorAll('[data-ar-product]').forEach(product);
+    document.querySelectorAll('[data-ar-gallery]').forEach(gallery);
+    document.querySelectorAll('[data-ar-sticky]').forEach(sticky);
+    dialogs(document);
+  }
+
+  window.__arRayan = { init: init, formatMoney: formatMoney };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  document.addEventListener('shopify:section:load', init);
+})();
+</script>
+<script>
+// preview only: when a store image can't load here, show a labelled placeholder instead
+document.querySelectorAll('img').forEach(function(img){
+  img.loading='eager';
+  function swap(){ if(img.dataset.ph) return; img.dataset.ph=1; var f=(img.getAttribute('src')||'').split('/').pop().split('?')[0];
+    var s="<svg class=\"ar-ph\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 800\" preserveAspectRatio=\"xMidYMid slice\" role=\"img\" aria-label=\"__F__\"><defs><linearGradient id=\"gcyzvb\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#F6F1E6\"/><stop offset=\"1\" stop-color=\"#E9E0CC\"/></linearGradient></defs><rect width=\"800\" height=\"800\" fill=\"#EFE8D8\"/><path d=\"M330 470V300a70 70 0 0 1 140 0v170\" fill=\"none\" stroke=\"#C9A455\" stroke-width=\"2\" opacity=\".7\"/><text x=\"400\" y=\"540\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-size=\"20\" fill=\"#56615A\">__F__</text></svg>".split('__F__').join(decodeURIComponent(f).slice(0,40));
+    img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(s.replace('class="ar-ph" ',''));
+    img.removeAttribute('srcset'); }
+  if(img.complete && img.naturalWidth===0) swap(); img.addEventListener('error', swap);
+});
+document.querySelectorAll('form[action="/cart/add"]').forEach(function(f){ f.addEventListener('submit', function(e){ e.preventDefault(); alert('Preview: this adds variant ' + f.querySelector('[name=id]').value + ' to the cart in Shopify.'); }); });
+</script>
+</body>
+</html>

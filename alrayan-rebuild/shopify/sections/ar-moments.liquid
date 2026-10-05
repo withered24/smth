@@ -1,0 +1,140 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-head" data-ar-reveal>
+      {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+      {%- if section.settings.heading != blank -%}<h2 class="ar-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.text != blank -%}<div class="ar-lead">{{ section.settings.text }}</div>{%- endif -%}
+    </div>
+    <div class="ar-moments">
+      {%- for block in section.blocks -%}
+        <article class="ar-moment" data-ar-reveal {{ block.shopify_attributes }}>
+          <div class="ar-media ar-media--arch">
+            {%- render 'ar-image', image: block.settings.image, sizes: '(min-width: 850px) 33vw, 78vw', placeholder: 'lifestyle-2' -%}
+          </div>
+          {%- if block.settings.tag != blank -%}<p class="ar-moment__tag">{{ block.settings.tag }}</p>{%- endif -%}
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </article>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Moments",
+  "tag": "div",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Made for real days"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Dhikr that fits <em>in between</em>",
+      "info": "Wrap words in italics to highlight them in green."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>No new routine to build. Just the minutes you already have.</p>"
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--white",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "moment",
+      "name": "Moment",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "Label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Moments",
+      "blocks": [
+        {
+          "type": "moment",
+          "settings": {
+            "tag": "The commute",
+            "title": "Finish your istighfar before your stop",
+            "text": "Thumb on the button, phone in your pocket. The ring keeps the count while you keep your eyes up."
+          }
+        },
+        {
+          "type": "moment",
+          "settings": {
+            "tag": "At work",
+            "title": "Dhikr between meetings, without a sound",
+            "text": "No click, no screen on the desk. To everyone else it’s simply a ring."
+          }
+        },
+        {
+          "type": "moment",
+          "settings": {
+            "tag": "At home",
+            "title": "Pick up right where you left off",
+            "text": "The kids call, the kettle boils. Your count waits on your finger until you come back."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

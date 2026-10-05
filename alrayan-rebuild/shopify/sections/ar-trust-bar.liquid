@@ -1,0 +1,201 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-trustbar">
+  <ul class="ar-container ar-trustbar__list">
+    {%- for block in section.blocks -%}
+      <li class="ar-trustbar__item" {{ block.shopify_attributes }}>{% render 'ar-icon', name: block.settings.icon %}<span>{{ block.settings.text }}</span></li>
+    {%- endfor -%}
+  </ul>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Trust bar",
+  "tag": "div",
+  "max_blocks": 6,
+  "settings": [],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "ring",
+              "label": "Ring"
+            },
+            {
+              "value": "tap",
+              "label": "Tap"
+            },
+            {
+              "value": "vibrate",
+              "label": "Vibrate"
+            },
+            {
+              "value": "clock",
+              "label": "Clock"
+            },
+            {
+              "value": "moon",
+              "label": "Moon"
+            },
+            {
+              "value": "drop",
+              "label": "Drop"
+            },
+            {
+              "value": "battery",
+              "label": "Battery"
+            },
+            {
+              "value": "shield",
+              "label": "Shield"
+            },
+            {
+              "value": "truck",
+              "label": "Truck"
+            },
+            {
+              "value": "return",
+              "label": "Return"
+            },
+            {
+              "value": "check",
+              "label": "Check"
+            },
+            {
+              "value": "briefcase",
+              "label": "Briefcase"
+            },
+            {
+              "value": "train",
+              "label": "Train"
+            },
+            {
+              "value": "home",
+              "label": "Home"
+            },
+            {
+              "value": "phone",
+              "label": "Phone"
+            },
+            {
+              "value": "beads",
+              "label": "Beads"
+            },
+            {
+              "value": "volume",
+              "label": "Volume"
+            },
+            {
+              "value": "heart",
+              "label": "Heart"
+            },
+            {
+              "value": "gift",
+              "label": "Gift"
+            },
+            {
+              "value": "ruler",
+              "label": "Ruler"
+            },
+            {
+              "value": "box",
+              "label": "Box"
+            },
+            {
+              "value": "chat",
+              "label": "Chat"
+            },
+            {
+              "value": "lock",
+              "label": "Lock"
+            },
+            {
+              "value": "info",
+              "label": "Info"
+            },
+            {
+              "value": "sparkle",
+              "label": "Sparkle"
+            },
+            {
+              "value": "feather",
+              "label": "Feather"
+            },
+            {
+              "value": "users",
+              "label": "Users"
+            },
+            {
+              "value": "cloud",
+              "label": "Cloud"
+            },
+            {
+              "value": "book",
+              "label": "Book"
+            },
+            {
+              "value": "refresh",
+              "label": "Refresh"
+            }
+          ],
+          "default": "shield"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Free US shipping"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Trust bar",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "icon": "shield",
+            "text": "60-day money-back guarantee"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "text": "Free US shipping"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "drop",
+            "text": "IP67 water resistant"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "battery",
+            "text": "3–5 days per charge"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "chat",
+            "text": "US-based support"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

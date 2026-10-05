@@ -1,0 +1,132 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-head" data-ar-reveal>
+      {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+      {%- if section.settings.heading != blank -%}<h2 class="ar-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.text != blank -%}<div class="ar-lead">{{ section.settings.text }}</div>{%- endif -%}
+    </div>
+    <ol class="ar-steps">
+      {%- for block in section.blocks -%}
+        <li class="ar-step" data-ar-reveal {{ block.shopify_attributes }}>
+          <div class="ar-media">
+            {%- render 'ar-image', image: block.settings.image, sizes: '(min-width: 850px) 33vw, 100vw', placeholder: 'lifestyle-1' -%}
+          </div>
+          <h3 class="ar-step__num"><span>{{ forloop.index }}</span>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · How it works",
+  "tag": "div",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "How it works"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Three steps to <em>consistent dhikr</em>",
+      "info": "Wrap words in italics to highlight them in green."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>How the Dhikr Ring 2.0 fits into the day you already have.</p>"
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--white",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id.",
+      "default": "how-it-works"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · How it works",
+      "blocks": [
+        {
+          "type": "step",
+          "settings": {
+            "title": "Wear",
+            "text": "Slip it onto the finger that feels natural. Most people choose the index finger so the thumb rests on the button; the ring finger works well too."
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "title": "Tap",
+            "text": "Press the side button with your thumb for each tasbih. A gentle vibration at 33, 66 and 99 lets you keep your attention on the words."
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "title": "Review",
+            "text": "Open the Al Rayan app whenever you like to sync over Bluetooth and see your daily and monthly totals."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

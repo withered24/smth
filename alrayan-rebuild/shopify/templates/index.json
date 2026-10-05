@@ -1,0 +1,556 @@
+{
+  "sections": {
+    "hero": {
+      "type": "ar-hero",
+      "settings": {
+        "rating_text": "4.9 · Worn by 8,200+ Muslims",
+        "heading": "Keep your tongue moist with <em>dhikr</em>",
+        "text": "<p>A featherlight smart ring that counts every tasbih with a silent tap of your thumb and vibrates gently at 33, 66 and 99. Keep remembering Allah on the train, at your desk and between meetings, without your phone or a clicker.</p>",
+        "button_label": "Shop the Dhikr Ring",
+        "show_price": true,
+        "secondary_label": "See how it works",
+        "secondary_link": "#moments",
+        "assurance_1": "Free US shipping",
+        "assurance_2": "60-day money-back guarantee",
+        "assurance_3": "1-year warranty",
+        "image_alt": "Al Rayan Dhikr Rings in black and rose gold",
+        "chip_1_title": "Vibrates at 33 · 66 · 99",
+        "chip_1_text": "No need to look down",
+        "chip_2_title": "IP67 water resistant",
+        "chip_2_text": "Keep it on for wudu",
+        "product": "elegant-metal-intelligent-rings-with-digital-display-vibration-alerts-precise-prayer-warning-for-islamic-prayer-trackings",
+        "image": "shopify://shop_images/forge-deploy-9-1790365411277.jpg"
+      }
+    },
+    "trust": {
+      "type": "ar-trust-bar",
+      "settings": {},
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "icon": "shield",
+            "text": "60-day money-back guarantee"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "text": "Free US shipping"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "icon": "drop",
+            "text": "IP67 water resistant"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "icon": "battery",
+            "text": "3–5 days per charge"
+          }
+        },
+        "item_5": {
+          "type": "item",
+          "settings": {
+            "icon": "chat",
+            "text": "US-based support"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5"
+      ]
+    },
+    "intention": {
+      "type": "ar-intention",
+      "settings": {
+        "eyebrow": "It’s not your intention",
+        "heading": "Struggling to stay consistent? <em>Blame the tools, not your heart.</em>",
+        "text": "<p>Most of us don’t lack the will to remember Allah. We lose count when someone interrupts, the beads stay at home, the clicker is too loud for the office, and opening an app means opening every notification with it.</p>",
+        "quote": "“Let your tongue remain moist with the remembrance of Allah.”",
+        "quote_source": "The Prophet ﷺ · Jami‘ at-Tirmidhi",
+        "bridge": "Al Rayan was made for the moments in between, one quiet tap at a time.",
+        "link_label": "See how it works",
+        "link": "#moments",
+        "background": "ar--paper"
+      },
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "icon": "beads",
+            "title": "The beads stay at home",
+            "text": "A misbaha is beautiful, but it rarely makes it to the office, the gym or the school run."
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "icon": "volume",
+            "title": "The clicker is too loud",
+            "text": "In a quiet meeting or library, every click feels like an announcement."
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "icon": "phone",
+            "title": "The app pulls you in",
+            "text": "Open a tasbih app and the messages and notifications are waiting right behind it."
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3"
+      ]
+    },
+    "moments": {
+      "type": "ar-moments",
+      "settings": {
+        "eyebrow": "Made for real days",
+        "heading": "Dhikr that fits <em>in between</em>",
+        "text": "<p>No new routine to build. Just the minutes you already have.</p>",
+        "background": "ar--white",
+        "anchor_id": "moments"
+      },
+      "blocks": {
+        "moment_1": {
+          "type": "moment",
+          "settings": {
+            "tag": "The commute",
+            "title": "Finish your istighfar before your stop",
+            "text": "Thumb on the button, phone in your pocket. The ring keeps the count while you keep your eyes up.",
+            "image": "shopify://shop_images/forge-deploy-11-1790365412593.jpg"
+          }
+        },
+        "moment_2": {
+          "type": "moment",
+          "settings": {
+            "tag": "At work",
+            "title": "Dhikr between meetings, without a sound",
+            "text": "No click, no screen on the desk. To everyone else it’s simply a ring.",
+            "image": "shopify://shop_images/forge-img-sync-1-1790365552250.jpg"
+          }
+        },
+        "moment_3": {
+          "type": "moment",
+          "settings": {
+            "tag": "At home",
+            "title": "Pick up right where you left off",
+            "text": "The kids call, the kettle boils. Your count waits on your finger until you come back.",
+            "image": "shopify://shop_images/forge-img-sync-3-1790365555415.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "moment_1",
+        "moment_2",
+        "moment_3"
+      ]
+    },
+    "features": {
+      "type": "ar-features",
+      "settings": {
+        "eyebrow": "The Dhikr Ring 2.0",
+        "heading": "Everything a tasbih does. <em>Nothing it doesn’t need.</em>",
+        "text": "",
+        "spec_1_value": "99,999",
+        "spec_1_label": "count memory",
+        "spec_2_value": "IP67",
+        "spec_2_label": "water resistant",
+        "spec_3_value": "3–5 days",
+        "spec_3_label": "battery, frequent use",
+        "spec_4_value": "3 sizes",
+        "spec_4_label": "18 · 20 · 22mm",
+        "background": "ar--cream",
+        "image": "shopify://shop_images/ADIKRING.png"
+      },
+      "blocks": {
+        "feature_1": {
+          "type": "feature",
+          "settings": {
+            "icon": "tap",
+            "title": "Silent thumb tap",
+            "text": "A soft side button counts every recitation without a sound."
+          }
+        },
+        "feature_2": {
+          "type": "feature",
+          "settings": {
+            "icon": "vibrate",
+            "title": "Feel 33, 66 and 99",
+            "text": "A gentle vibration marks each milestone, so you never need to look down."
+          }
+        },
+        "feature_3": {
+          "type": "feature",
+          "settings": {
+            "icon": "clock",
+            "title": "Prayer-time alerts",
+            "text": "A quiet buzz for each of the five daily prayers, even with your phone on silent."
+          }
+        },
+        "feature_4": {
+          "type": "feature",
+          "settings": {
+            "icon": "drop",
+            "title": "Keep it on for wudu",
+            "text": "IP67 water resistance means it stays on your finger at the sink."
+          }
+        },
+        "feature_5": {
+          "type": "feature",
+          "settings": {
+            "icon": "refresh",
+            "title": "Never lose your place",
+            "text": "Your count stays on the ring when life interrupts, up to 99,999."
+          }
+        },
+        "feature_6": {
+          "type": "feature",
+          "settings": {
+            "icon": "cloud",
+            "title": "Your history in the app",
+            "text": "Sync over Bluetooth whenever you like to see daily and monthly totals."
+          }
+        }
+      },
+      "block_order": [
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "feature_5",
+        "feature_6"
+      ]
+    },
+    "comparison": {
+      "type": "ar-comparison",
+      "settings": {
+        "eyebrow": "How it compares",
+        "heading": "Every tool has its place. <em>This one goes everywhere.</em>",
+        "text": "",
+        "us_label": "Al Rayan Ring",
+        "col_1": "Misbaha",
+        "col_2": "Plastic clicker",
+        "col_3": "Phone app",
+        "legend": "~ Partly, depends on the model or app",
+        "note": "<p><strong>Counting on your fingers is the Sunnah, and nothing replaces it.</strong> Many of our customers use their fingers for the adhkar after salah and the ring for larger daily goals, like 1,000 istighfar on the way to work.</p>",
+        "background": "ar--paper"
+      },
+      "blocks": {
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "label": "Silent in meetings and classes",
+            "us": "yes",
+            "c1": "yes",
+            "c2": "no",
+            "c3": "some"
+          }
+        },
+        "row_2": {
+          "type": "row",
+          "settings": {
+            "label": "Worn all day, nothing to carry",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "no"
+          }
+        },
+        "row_3": {
+          "type": "row",
+          "settings": {
+            "label": "Keeps your count when interrupted",
+            "us": "yes",
+            "c1": "no",
+            "c2": "yes",
+            "c3": "yes"
+          }
+        },
+        "row_4": {
+          "type": "row",
+          "settings": {
+            "label": "Works without your phone",
+            "us": "yes",
+            "c1": "yes",
+            "c2": "yes",
+            "c3": "no"
+          }
+        },
+        "row_5": {
+          "type": "row",
+          "settings": {
+            "label": "Vibrates at 33, 66 and 99",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "some"
+          }
+        },
+        "row_6": {
+          "type": "row",
+          "settings": {
+            "label": "Prayer-time alerts",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "yes"
+          }
+        },
+        "row_7": {
+          "type": "row",
+          "settings": {
+            "label": "Stays on for wudu",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "no"
+          }
+        }
+      },
+      "block_order": [
+        "row_1",
+        "row_2",
+        "row_3",
+        "row_4",
+        "row_5",
+        "row_6",
+        "row_7"
+      ]
+    },
+    "reviews": {
+      "type": "ar-reviews",
+      "settings": {
+        "eyebrow": "Voices from the community",
+        "heading": "Loved by <em>8,200+</em> Muslim wearers",
+        "text": "<p>How Muslims across America are keeping their remembrance close.</p>",
+        "score": "4.9",
+        "score_text": "average from 8,200+ wearers",
+        "background": "ar--white",
+        "anchor_id": "reviews"
+      },
+      "blocks": {
+        "review_1": {
+          "type": "review",
+          "settings": {
+            "text": "I work in a fast-paced office in Chicago. This ring is a lifesaver for keeping my dhikr consistent between meetings without looking unprofessional.",
+            "author": "Michael J.",
+            "location": "Chicago",
+            "image": "shopify://shop_images/forge-img-sync-5-1790365558437.jpg"
+          }
+        },
+        "review_2": {
+          "type": "review",
+          "settings": {
+            "text": "The vibration at 33 counts is perfect. I don’t have to look down at all. It has changed my commute through NYC entirely.",
+            "author": "Ashley M.",
+            "location": "New York",
+            "image": "shopify://shop_images/S2656b29b90fa48b785c537ba67b91ea1W.webp"
+          }
+        },
+        "review_3": {
+          "type": "review",
+          "settings": {
+            "text": "Solid build quality. I was worried it would feel like a toy, but it feels like a real piece of tech. Very happy with my purchase.",
+            "author": "David B.",
+            "image": "shopify://shop_images/S75b9f2d098494937abff1564973bf83bJ.webp"
+          }
+        },
+        "review_4": {
+          "type": "review",
+          "settings": {
+            "text": "The battery actually lasts. I only charge it twice a week. It has finally helped me hit my goal of 1,000 istighfar a day.",
+            "author": "Sarah W.",
+            "image": "shopify://shop_images/S6b6929f098f44d098a1d5aa3ebe256d2A.webp"
+          }
+        },
+        "review_5": {
+          "type": "review",
+          "settings": {
+            "text": "Finally, a tasbih that fits my style. It’s modern, sleek and serves the best purpose possible. Highly recommend to any young professional.",
+            "author": "Omar",
+            "location": "Brooklyn",
+            "image": "shopify://shop_images/Screenshot_2026-09-25_at_4.20.47_PM.png"
+          }
+        },
+        "review_6": {
+          "type": "review",
+          "settings": {
+            "text": "The prayer alerts are so helpful when I’m deep in work. It’s a gentle nudge to take a break and reconnect with Allah.",
+            "author": "Amara",
+            "location": "Manhattan",
+            "image": "shopify://shop_images/S8193927441f54904b764f762d659135aI.webp"
+          }
+        }
+      },
+      "block_order": [
+        "review_1",
+        "review_2",
+        "review_3",
+        "review_4",
+        "review_5",
+        "review_6"
+      ]
+    },
+    "founder": {
+      "type": "ar-founder",
+      "settings": {
+        "eyebrow": "Our story",
+        "quote": "“I started Al Rayan as a young Muslim woman learning to navigate life with resilience and faith. It’s more than a small business to me: every ring helps me build my future, and helps someone remember Allah a little more throughout their day.”",
+        "name": "From our founder",
+        "role": "Al Rayan Rings",
+        "name_note": "<p><strong>Why “Al Rayan”?</strong> Ar-Rayyan is the gate of Jannah the Prophet ﷺ described for those who fast. Our name is a reminder that small, steady acts are the ones that matter.</p>",
+        "background": "ar--cream",
+        "image": "shopify://shop_images/forge-img-sync-6-1790365560275.jpg"
+      }
+    },
+    "guarantee": {
+      "type": "ar-guarantee",
+      "settings": {
+        "days": "60",
+        "eyebrow": "Our promise",
+        "heading": "<em>60 days</em> to make it part of your day",
+        "text": "<p>Wear it to work, on the commute and at home. If it doesn’t help you stay consistent with your dhikr, send it back within 60 days for a full refund or a different size. No questions asked.</p>",
+        "perk_1": "60-day money-back guarantee",
+        "perk_2": "Free returns from anywhere in the US",
+        "perk_3": "Free size exchanges",
+        "perk_4": "One-year tech warranty",
+        "button_label": "Try it for 60 days",
+        "show_price": false,
+        "background": "ar--green",
+        "product": "elegant-metal-intelligent-rings-with-digital-display-vibration-alerts-precise-prayer-warning-for-islamic-prayer-trackings"
+      }
+    },
+    "faq": {
+      "type": "ar-faq",
+      "settings": {
+        "eyebrow": "FAQ",
+        "heading": "Questions, <em>answered</em>",
+        "text": "<p>Can’t find what you need? We’re a small, US-based team and we reply to every message.</p>",
+        "link_label": "Contact us",
+        "open_first": true,
+        "background": "ar--white",
+        "anchor_id": "faq",
+        "link": "/pages/contact"
+      },
+      "blocks": {
+        "question_1": {
+          "type": "question",
+          "settings": {
+            "question": "Is using a digital tasbih counter permissible?",
+            "answer": "<p>Many scholars regard counting aids such as beads and digital counters as permissible, as long as you don’t believe the tool itself carries any blessing. Counting on the fingers of the right hand is the Sunnah, and many of our customers use their fingers for the adhkar after salah and the ring for larger daily goals. If you’re unsure, ask a scholar you trust.</p>"
+          }
+        },
+        "question_2": {
+          "type": "question",
+          "settings": {
+            "question": "Which finger should I wear it on?",
+            "answer": "<p>Most people wear it on the index finger so the thumb rests naturally on the button, but it works on any finger. Some scholars advise men not to wear rings on the index or middle finger, based on a hadith in Sahih Muslim. If you follow that view, the ring finger works well and the button is still within easy reach of your thumb.</p>"
+          }
+        },
+        "question_3": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose my size?",
+            "answer": "<p>The ring comes in 18mm (about US 8), 20mm (about US 10) and 22mm (about US 12). Most women choose 18mm and most men 20mm. The size guide on the product page shows how to measure. If it doesn’t fit, exchange it free within 60 days.</p>"
+          }
+        },
+        "question_4": {
+          "type": "question",
+          "settings": {
+            "question": "Can I keep it on during wudu?",
+            "answer": "<p>Yes. It’s IP67 water resistant, so washing your hands and splashes during wudu are fine. Take it off for swimming, hot showers and saunas.</p>"
+          }
+        },
+        "question_5": {
+          "type": "question",
+          "settings": {
+            "question": "How long does the battery last?",
+            "answer": "<p>3 to 5 days of frequent use on a single charge.</p>"
+          }
+        },
+        "question_6": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need my phone with me?",
+            "answer": "<p>No. The ring counts and shows your count on its own. Open the Al Rayan app whenever you like to sync your history over Bluetooth and set up prayer-time alerts.</p>"
+          }
+        },
+        "question_7": {
+          "type": "question",
+          "settings": {
+            "question": "Will the vibration be noticeable in meetings?",
+            "answer": "<p>Only to you. The vibration is a private, silent nudge on your finger. There’s no click and no sound.</p>"
+          }
+        },
+        "question_8": {
+          "type": "question",
+          "settings": {
+            "question": "What if it’s not for me?",
+            "answer": "<p>You have 60 days to try it. If it doesn’t help you stay consistent, send it back for a full refund. Returns are free from anywhere in the US.</p>"
+          }
+        },
+        "question_9": {
+          "type": "question",
+          "settings": {
+            "question": "Does it make a good gift?",
+            "answer": "<p>Yes. It’s a thoughtful gift for a parent, a spouse, a friend, or someone who has recently embraced Islam. If you’re guessing the size, they can exchange it free within 60 days.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_1",
+        "question_2",
+        "question_3",
+        "question_4",
+        "question_5",
+        "question_6",
+        "question_7",
+        "question_8",
+        "question_9"
+      ]
+    },
+    "final": {
+      "type": "ar-final-cta",
+      "settings": {
+        "eyebrow": "Keep your remembrance close",
+        "heading": "Make dhikr part of <em>every</em> day",
+        "text": "<p>For yourself, or for someone you love: a parent, a spouse, or a friend who is new to Islam.</p>",
+        "button_label": "Shop the Dhikr Ring",
+        "show_price": true,
+        "assurance_1": "Free US shipping",
+        "assurance_2": "60-day money-back guarantee",
+        "assurance_3": "1-year warranty",
+        "background": "ar--white",
+        "product": "elegant-metal-intelligent-rings-with-digital-display-vibration-alerts-precise-prayer-warning-for-islamic-prayer-trackings",
+        "image": "shopify://shop_images/forge-img-sync-8-1790365563044.jpg"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "trust",
+    "intention",
+    "moments",
+    "features",
+    "comparison",
+    "reviews",
+    "founder",
+    "guarantee",
+    "faq",
+    "final"
+  ]
+}

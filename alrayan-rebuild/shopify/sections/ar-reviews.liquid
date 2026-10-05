@@ -1,0 +1,195 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-reviews__top">
+      <div class="ar-head ar-head--left" style="margin-bottom:0" data-ar-reveal>
+      {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+      {%- if section.settings.heading != blank -%}<h2 class="ar-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.text != blank -%}<div class="ar-lead">{{ section.settings.text }}</div>{%- endif -%}
+    </div>
+      {%- if section.settings.score != blank -%}
+        <div class="ar-score" data-ar-reveal>
+          <span class="ar-score__num">{{ section.settings.score }}</span>
+          <span class="ar-score__meta">{% render 'ar-stars' %}<span>{{ section.settings.score_text }}</span></span>
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="ar-reviews__grid">
+      {%- for block in section.blocks -%}
+        <figure class="ar-review" data-ar-reveal {{ block.shopify_attributes }}>
+          {%- if block.settings.image != blank -%}
+            <div class="ar-media">{%- render 'ar-image', image: block.settings.image, sizes: '(min-width: 850px) 33vw, 82vw' -%}</div>
+          {%- else -%}<div></div>{%- endif -%}
+          <div class="ar-review__body">
+            {%- render 'ar-stars' -%}
+            <blockquote class="ar-review__text">{{ block.settings.text }}</blockquote>
+            <figcaption class="ar-review__who">
+              <span><strong>{{ block.settings.author }}</strong>{% if block.settings.location != blank %} · {{ block.settings.location }}{% endif %}</span>
+              {%- if block.settings.verified -%}<span class="ar-verified">{% render 'ar-icon', name: 'check' %}Verified buyer</span>{%- endif -%}
+            </figcaption>
+          </div>
+        </figure>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Reviews",
+  "tag": "div",
+  "max_blocks": 9,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Voices from the community"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Loved by <em>8,200+</em> Muslim wearers",
+      "info": "Wrap words in italics to highlight them in green."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>How Muslims across America are keeping their remembrance close.</p>"
+    },
+    {
+      "type": "text",
+      "id": "score",
+      "label": "Average rating",
+      "default": "4.9"
+    },
+    {
+      "type": "text",
+      "id": "score_text",
+      "label": "Rating caption",
+      "default": "average from 8,200+ wearers"
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--white",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id.",
+      "default": "reviews"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Photo"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Review"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "location",
+          "label": "Location"
+        },
+        {
+          "type": "checkbox",
+          "id": "verified",
+          "label": "Show “Verified buyer”",
+          "default": false,
+          "info": "Only tick for reviews from real orders."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Reviews",
+      "blocks": [
+        {
+          "type": "review",
+          "settings": {
+            "text": "I work in a fast-paced office in Chicago. This ring is a lifesaver for keeping my dhikr consistent between meetings without looking unprofessional.",
+            "author": "Michael J.",
+            "location": "Chicago"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "text": "The vibration at 33 counts is perfect. I don’t have to look down at all. It has changed my commute through NYC entirely.",
+            "author": "Ashley M.",
+            "location": "New York"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "text": "Solid build quality. I was worried it would feel like a toy, but it feels like a real piece of tech. Very happy with my purchase.",
+            "author": "David B."
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "text": "The battery actually lasts. I only charge it twice a week. It has finally helped me hit my goal of 1,000 istighfar a day.",
+            "author": "Sarah W."
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "text": "Finally, a tasbih that fits my style. It’s modern, sleek and serves the best purpose possible. Highly recommend to any young professional.",
+            "author": "Omar",
+            "location": "Brooklyn"
+          }
+        },
+        {
+          "type": "review",
+          "settings": {
+            "text": "The prayer alerts are so helpful when I’m deep in work. It’s a gentle nudge to take a break and reconnect with Allah.",
+            "author": "Amara",
+            "location": "Manhattan"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

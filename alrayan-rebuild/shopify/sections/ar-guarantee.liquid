@@ -1,0 +1,166 @@
+{%- liquid
+  assign cta_product = section.settings.product
+  if cta_product == blank and product != blank
+    assign cta_product = product
+  endif
+  assign cta_url = section.settings.button_link
+  if template.name == 'product'
+    assign cta_url = '#ar-buy'
+  elsif cta_product != blank
+    assign cta_url = cta_product.url
+  endif
+  if cta_url == blank
+    assign cta_url = routes.all_products_collection_url
+  endif
+  assign cta_label = section.settings.button_label
+  if section.settings.show_price and cta_product != blank
+    assign cta_price = cta_product.price | money
+    assign cta_label = cta_label | append: ' · ' | append: cta_price
+  endif
+-%}{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-guarantee">
+      <svg class="ar-seal" viewBox="0 0 200 200" role="img" aria-label="{{ section.settings.days }}-day money-back guarantee">
+        <defs><path id="ar-seal-{{ section.id }}" d="M100 100m-77 0a77 77 0 1 1 154 0a77 77 0 1 1-154 0"/></defs>
+        <circle cx="100" cy="100" r="98" fill="#C9A455"/>
+        <circle cx="100" cy="100" r="62" fill="#163F21"/>
+        <circle cx="100" cy="100" r="67" fill="none" stroke="#14201A" stroke-opacity=".35" stroke-dasharray="1.5 4"/>
+        <text font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="2.6" fill="#14201A"><textPath href="#ar-seal-{{ section.id }}">MONEY-BACK GUARANTEE · MONEY-BACK GUARANTEE ·</textPath></text>
+        <text x="100" y="108" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="58" font-weight="600" fill="#F6F1E6">{{ section.settings.days }}</text>
+        <text x="100" y="131" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="3.5" fill="#C9A455">DAYS</text>
+      </svg>
+      <div class="ar-guarantee__copy" data-ar-reveal>
+        {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+        <h2 class="ar-h2">{{ section.settings.heading }}</h2>
+        <div class="ar-lead">{{ section.settings.text }}</div>
+        <ul class="ar-guarantee__perks">
+          {%- for i in (1..4) -%}
+            {%- assign key = 'perk_' | append: i -%}
+            {%- if section.settings[key] != blank -%}<li>{% render 'ar-icon', name: 'check' %}{{ section.settings[key] }}</li>{%- endif -%}
+          {%- endfor -%}
+        </ul>
+        {%- if section.settings.button_label != blank -%}<a class="ar-btn ar-btn--gold" href="{{ cta_url }}">{{ cta_label }}</a>{%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Guarantee",
+  "tag": "div",
+  "settings": [
+    {
+      "type": "text",
+      "id": "days",
+      "label": "Days",
+      "default": "60"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Our promise"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<em>60 days</em> to make it part of your day"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Wear it to work, on the commute and at home. If it doesn’t help you stay consistent with your dhikr, send it back within 60 days for a full refund or a different size. No questions asked.</p>"
+    },
+    {
+      "type": "text",
+      "id": "perk_1",
+      "label": "Perk 1",
+      "default": "60-day money-back guarantee"
+    },
+    {
+      "type": "text",
+      "id": "perk_2",
+      "label": "Perk 2",
+      "default": "Free returns from anywhere in the US"
+    },
+    {
+      "type": "text",
+      "id": "perk_3",
+      "label": "Perk 3",
+      "default": "Free size exchanges"
+    },
+    {
+      "type": "text",
+      "id": "perk_4",
+      "label": "Perk 4",
+      "default": "One-year tech warranty"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Try it for 60 days"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product",
+      "info": "Buttons link here and show its price."
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Fallback link"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "Show price on button",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--green",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id."
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Guarantee"
+    }
+  ]
+}
+{% endschema %}

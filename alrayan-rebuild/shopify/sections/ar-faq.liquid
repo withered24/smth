@@ -1,0 +1,192 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-faq">
+      <div class="ar-faq__intro">
+        {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+        <h2 class="ar-h2">{{ section.settings.heading }}</h2>
+        <div class="ar-lead">{{ section.settings.text }}</div>
+        {%- if section.settings.link_label != blank -%}<p><a class="ar-link" href="{{ section.settings.link | default: '/pages/contact' }}">{{ section.settings.link_label }}</a></p>{%- endif -%}
+      </div>
+      <div class="ar-faq__list">
+        {%- for block in section.blocks -%}
+          <details {{ block.shopify_attributes }}{% if forloop.first and section.settings.open_first %} open{% endif %}>
+            <summary>{{ block.settings.question }}</summary>
+            <div class="ar-faq__answer">{{ block.settings.answer }}</div>
+          </details>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+      {%- for block in section.blocks -%}
+        {"@type":"Question","name":{{ block.settings.question | json }},"acceptedAnswer":{"@type":"Answer","text":{{ block.settings.answer | strip_html | json }}}}{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]}
+  </script>
+</section>
+
+{% schema %}
+{
+  "name": "AR · FAQ",
+  "tag": "div",
+  "max_blocks": 14,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "FAQ"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Questions, <em>answered</em>"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Can’t find what you need? We’re a small, US-based team and we reply to every message.</p>"
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Link label",
+      "default": "Contact us"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "open_first",
+      "label": "Open the first question",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--white",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id.",
+      "default": "faq"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · FAQ",
+      "blocks": [
+        {
+          "type": "question",
+          "settings": {
+            "question": "Is using a digital tasbih counter permissible?",
+            "answer": "<p>Many scholars regard counting aids such as beads and digital counters as permissible, as long as you don’t believe the tool itself carries any blessing. Counting on the fingers of the right hand is the Sunnah, and many of our customers use their fingers for the adhkar after salah and the ring for larger daily goals. If you’re unsure, ask a scholar you trust.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "Which finger should I wear it on?",
+            "answer": "<p>Most people wear it on the index finger so the thumb rests naturally on the button, but it works on any finger. Some scholars advise men not to wear rings on the index or middle finger, based on a hadith in Sahih Muslim. If you follow that view, the ring finger works well and the button is still within easy reach of your thumb.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose my size?",
+            "answer": "<p>The ring comes in 18mm (about US 8), 20mm (about US 10) and 22mm (about US 12). Most women choose 18mm and most men 20mm. The size guide on the product page shows how to measure. If it doesn’t fit, exchange it free within 60 days.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "Can I keep it on during wudu?",
+            "answer": "<p>Yes. It’s IP67 water resistant, so washing your hands and splashes during wudu are fine. Take it off for swimming, hot showers and saunas.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "How long does the battery last?",
+            "answer": "<p>3 to 5 days of frequent use on a single charge.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "Do I need my phone with me?",
+            "answer": "<p>No. The ring counts and shows your count on its own. Open the Al Rayan app whenever you like to sync your history over Bluetooth and set up prayer-time alerts.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "Will the vibration be noticeable in meetings?",
+            "answer": "<p>Only to you. The vibration is a private, silent nudge on your finger. There’s no click and no sound.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "What if it’s not for me?",
+            "answer": "<p>You have 60 days to try it. If it doesn’t help you stay consistent, send it back for a full refund. Returns are free from anywhere in the US.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "question": "Does it make a good gift?",
+            "answer": "<p>Yes. It’s a thoughtful gift for a parent, a spouse, a friend, or someone who has recently embraced Islam. If you’re guessing the size, they can exchange it free within 60 days.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

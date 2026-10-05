@@ -1,0 +1,1160 @@
+{%- render 'ar-assets' -%}
+{%- liquid
+  assign current = product.selected_or_first_available_variant
+  assign pid = 'ar-pdp-' | append: section.id
+  assign form_id = 'ar-form-' | append: section.id
+  assign hidden_names = section.settings.hide_options | downcase | split: ','
+  assign size_hints = section.settings.size_hints | split: ','
+  assign main_media = current.featured_media | default: product.featured_media
+-%}
+{% capture nl %}
+{% endcapture %}
+<section class="ar" id="ar-buy">
+  <div class="ar-container ar-pdp" id="{{ pid }}" data-ar-product data-money-format="{{ shop.money_format | escape }}" data-update-url="true">
+    <script type="application/json" data-ar-variants>{{ product.variants | json }}</script>
+
+    <div class="ar-gallery" data-ar-gallery>
+      <div class="ar-gallery__main">
+        {%- if main_media -%}
+          <img data-ar-main src="{{ main_media.preview_image | image_url: width: 1400 }}"
+            srcset="{{ main_media.preview_image | image_url: width: 600 }} 600w, {{ main_media.preview_image | image_url: width: 900 }} 900w, {{ main_media.preview_image | image_url: width: 1400 }} 1400w"
+            sizes="(min-width: 990px) 55vw, 100vw" alt="{{ main_media.alt | default: product.title | escape }}"
+            width="1400" height="1400" fetchpriority="high">
+        {%- else -%}
+          {{ 'product-1' | placeholder_svg_tag: 'ar-ph' }}
+        {%- endif -%}
+        {%- if section.settings.badge != blank -%}<span class="ar-gallery__badge">{{ section.settings.badge }}</span>{%- endif -%}
+        {%- if product.media.size > 1 -%}
+          <div class="ar-gallery__nav">
+            <button type="button" data-ar-prev aria-label="Previous image">{% render 'ar-icon', name: 'chevron-left' %}</button>
+            <button type="button" data-ar-next aria-label="Next image">{% render 'ar-icon', name: 'chevron-right' %}</button>
+          </div>
+        {%- endif -%}
+      </div>
+      {%- if product.media.size > 1 -%}
+        <div class="ar-gallery__thumbs">
+          {%- for media in product.media -%}
+            <button type="button" data-ar-thumb data-media-id="{{ media.id }}"
+              data-src="{{ media.preview_image | image_url: width: 1400 }}"
+              data-srcset="{{ media.preview_image | image_url: width: 600 }} 600w, {{ media.preview_image | image_url: width: 900 }} 900w, {{ media.preview_image | image_url: width: 1400 }} 1400w"
+              data-alt="{{ media.alt | default: product.title | escape }}"
+              aria-label="Show image {{ forloop.index }}" aria-current="{% if media.id == main_media.id %}true{% else %}false{% endif %}">
+              <img src="{{ media.preview_image | image_url: width: 200 }}" alt="" width="200" height="200" loading="lazy">
+            </button>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+      {%- if section.settings.gallery_quote != blank -%}
+        <figure class="ar-mini-founder">
+          {% render 'ar-icon', name: 'heart' %}
+          <div><blockquote>{{ section.settings.gallery_quote }}</blockquote><figcaption><strong>{{ section.settings.gallery_quote_author }}</strong></figcaption></div>
+        </figure>
+      {%- endif -%}
+    </div>
+
+    <div class="ar-buy">
+      {%- if section.settings.rating_text != blank -%}
+        <a class="ar-rating" href="#reviews" style="text-decoration:none">{% render 'ar-stars' %}<span>{{ section.settings.rating_text }}</span></a>
+      {%- endif -%}
+      <div>
+        <h1 class="ar-buy__title">{{ product.title }}</h1>
+        {%- if section.settings.subtitle != blank -%}<p class="ar-buy__sub" style="margin-top:10px">{{ section.settings.subtitle }}</p>{%- endif -%}
+      </div>
+
+      <div class="ar-price">
+        <span class="ar-price__now" data-ar-price="{{ pid }}">{{ current.price | money }}</span>
+        <s class="ar-price__was" data-ar-was="{{ pid }}"{% unless current.compare_at_price > current.price %} hidden{% endunless %}>{{ current.compare_at_price | money }}</s>
+        {%- assign saving = current.compare_at_price | minus: current.price -%}
+        <span class="ar-price__save" data-ar-save="{{ pid }}" data-template="Save [amount]"{% unless current.compare_at_price > current.price %} hidden{% endunless %}>Save {{ saving | money }}</span>
+        {%- if section.settings.price_note != blank -%}<p class="ar-price__note">{{ section.settings.price_note }}</p>{%- endif -%}
+      </div>
+
+      <ul class="ar-checklist ar-buy__bullets">
+        {%- for i in (1..4) -%}
+          {%- assign key = 'bullet_' | append: i -%}
+          {%- if section.settings[key] != blank -%}<li>{% render 'ar-icon', name: 'check' %}<span>{{ section.settings[key] }}</span></li>{%- endif -%}
+        {%- endfor -%}
+      </ul>
+
+      {%- form 'product', product, id: form_id, class: 'ar-buy', novalidate: 'novalidate' -%}
+        <input type="hidden" name="id" value="{{ current.id }}" data-ar-variant-id>
+        {%- unless product.has_only_default_variant -%}
+          {%- for option in product.options_with_values -%}
+            {%- liquid
+              assign oname = option.name | downcase | strip
+              assign is_hidden = false
+              for h in hidden_names
+                assign hs = h | strip
+                if hs == oname
+                  assign is_hidden = true
+                endif
+              endfor
+              assign is_color = false
+              if oname contains 'color' or oname contains 'colour'
+                assign is_color = true
+              endif
+              assign is_size = false
+              if oname contains 'size'
+                assign is_size = true
+              endif
+            -%}
+            {%- if is_hidden -%}
+              <div data-ar-option hidden><input type="hidden" value="{{ option.selected_value | escape }}"></div>
+            {%- else -%}
+              <fieldset class="ar-opt" data-ar-option>
+                <legend><strong>{{ option.name }}:</strong> <span data-ar-selected>{{ option.selected_value }}</span>
+                  {%- if is_size and section.settings.show_size_guide -%}
+                    <button type="button" data-ar-open="ar-size-{{ section.id }}">{% render 'ar-icon', name: 'ruler' %}Size guide</button>
+                  {%- endif -%}
+                </legend>
+                <div class="ar-opt__values">
+                  {%- for value in option.values -%}
+                    {%- liquid
+                      assign vname = value | append: ''
+                      assign vid = form_id | append: '-' | append: option.position | append: '-' | append: forloop.index
+                      assign hint = ''
+                      for pair in size_hints
+                        assign kv = pair | split: '='
+                        assign k = kv.first | strip
+                        if k == vname
+                          assign hint = kv.last | strip
+                        endif
+                      endfor
+                      assign vh = vname | handleize
+                      assign swatch = '#D9D4C7'
+                      if value.swatch.color
+                        assign swatch = value.swatch.color
+                      elsif vh contains 'black'
+                        assign swatch = '#1B1D1C'
+                      elsif vh contains 'rose'
+                        assign swatch = '#D4A28C'
+                      elsif vh contains 'gold'
+                        assign swatch = '#C9A455'
+                      elsif vh contains 'silver' or vh contains 'steel'
+                        assign swatch = '#C7CBD0'
+                      elsif vh contains 'white'
+                        assign swatch = '#F4F2EE'
+                      endif
+                    -%}
+                    <input type="radio" id="{{ vid }}" name="ar-{{ section.id }}-{{ option.position }}" value="{{ vname | escape }}"{% if vname == option.selected_value %} checked{% endif %}>
+                    <label for="{{ vid }}" class="ar-opt__btn{% if is_color %} ar-swatch{% endif %}">
+                      {%- if is_color -%}<i style="--sw: {{ swatch }}"></i>{%- endif -%}
+                      <span>{{ vname }}{% if hint != blank %}<small>{{ hint }}</small>{% endif %}</span>
+                    </label>
+                  {%- endfor -%}
+                </div>
+              </fieldset>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endunless -%}
+
+        <div class="ar-buy__actions" id="ar-actions-{{ section.id }}">
+          <button type="submit" name="add" class="ar-btn ar-btn--block" data-ar-atc="{{ pid }}"
+            data-available="{{ section.settings.atc_label | escape }}" data-soldout="{{ section.settings.soldout_label | escape }}" data-unavailable="Unavailable"
+            {% unless current.available %}disabled{% endunless %}>
+            <span data-ar-atc-label>{% if current.available %}{{ section.settings.atc_label }}{% else %}{{ section.settings.soldout_label }}{% endif %}</span>
+            <span aria-hidden="true">·</span><span data-ar-price="{{ pid }}">{{ current.price | money }}</span>
+          </button>
+          {%- if section.settings.show_dynamic_checkout -%}{{ form | payment_button }}{%- endif -%}
+          {%- if section.settings.assurance != blank -%}
+            <p class="ar-assurance" style="justify-content:center">
+              {%- assign parts = section.settings.assurance | split: '·' -%}
+              {%- for p in parts -%}<span>{% render 'ar-icon', name: 'check' %}{{ p | strip }}</span>{%- endfor -%}
+            </p>
+          {%- endif -%}
+        </div>
+      {%- endform -%}
+
+      <div class="ar-boxes">
+        {%- for i in (1..4) -%}
+          {%- assign ik = 'box_' | append: i | append: '_icon' -%}
+          {%- assign hk = 'box_' | append: i | append: '_title' -%}
+          {%- assign tk = 'box_' | append: i | append: '_text' -%}
+          {%- if section.settings[hk] != blank -%}
+            <div class="ar-box">{% render 'ar-icon', name: section.settings[ik] %}<div><strong>{{ section.settings[hk] }}</strong>{{ section.settings[tk] }}</div></div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+
+      <div class="ar-acc">
+        {%- for block in section.blocks -%}
+          <details {{ block.shopify_attributes }}>
+            <summary>{% render 'ar-icon', name: block.settings.icon %}{{ block.settings.title }}</summary>
+            <div class="ar-acc__body">{{ block.settings.content }}</div>
+          </details>
+        {%- endfor -%}
+      </div>
+
+      {%- if section.settings.founder_note != blank -%}
+        <div class="ar-mini-founder"><svg viewBox="0 0 280 280" aria-hidden="true"><circle cx="140" cy="140" r="85" fill="none" stroke="#1F5A2E" stroke-width="30"/><path d="M109 190V138A62 62 0 0 1 140 84.31 62 62 0 0 1 171 138V190Z" fill="#C9A455"/><circle cx="200.1" cy="79.9" r="19.2" fill="#FFFFFF"/><circle cx="200.1" cy="79.9" r="15" fill="#C9A455"/></svg><div>{{ section.settings.founder_note }}</div></div>
+      {%- endif -%}
+    </div>
+  </div>
+
+  {%- if section.settings.show_size_guide -%}
+    <dialog class="ar ar-dialog" id="ar-size-{{ section.id }}" aria-labelledby="ar-size-title-{{ section.id }}">
+      <div class="ar-dialog__inner">
+        <button type="button" class="ar-dialog__close" data-ar-close aria-label="Close">{% render 'ar-icon', name: 'x' %}</button>
+        <p class="ar-eyebrow">Size guide</p>
+        <h2 class="ar-h3" id="ar-size-title-{{ section.id }}">{{ section.settings.size_title }}</h2>
+        {%- if section.settings.size_image != blank -%}
+          <div class="ar-media">{%- render 'ar-image', image: section.settings.size_image, sizes: '560px' -%}</div>
+        {%- endif -%}
+        <table class="ar-table">
+          <thead><tr><th>Size</th><th>Inner diameter</th><th>Circumference</th><th>Approx. US</th></tr></thead>
+          <tbody>
+            {%- assign rows = section.settings.size_rows | split: nl -%}
+            {%- for row in rows -%}
+              {%- assign cells = row | split: '|' -%}
+              {%- if cells.size > 1 -%}<tr>{% for c in cells %}<td>{{ c | strip }}</td>{% endfor %}</tr>{%- endif -%}
+            {%- endfor -%}
+          </tbody>
+        </table>
+        <div class="ar-small">{{ section.settings.size_how }}</div>
+      </div>
+    </dialog>
+  {%- endif -%}
+
+  {%- if section.settings.show_sticky -%}
+    <div class="ar ar-sticky" data-ar-sticky data-trigger="ar-actions-{{ section.id }}">
+      <div class="ar-sticky__inner">
+        <div class="ar-sticky__thumb">
+          {%- if product.featured_media -%}<img src="{{ product.featured_media.preview_image | image_url: width: 120 }}" alt="" width="60" height="60" loading="lazy">{%- endif -%}
+        </div>
+        <div class="ar-sticky__info">
+          <strong>{{ product.title }}</strong>
+          <span><span data-ar-price="{{ pid }}">{{ current.price | money }}</span><span class="ar-hide-sm"> · <span data-ar-variant-title="{{ pid }}">{{ current.title }}</span></span></span>
+        </div>
+        <button type="submit" form="{{ form_id }}" class="ar-btn" data-ar-atc="{{ pid }}"
+          data-available="{{ section.settings.atc_label | escape }}" data-soldout="{{ section.settings.soldout_label | escape }}" data-unavailable="Unavailable"
+          {% unless current.available %}disabled{% endunless %}>
+          <span data-ar-atc-label>{% if current.available %}{{ section.settings.atc_label }}{% else %}{{ section.settings.soldout_label }}{% endif %}</span>
+        </button>
+      </div>
+    </div>
+  {%- endif -%}
+</section>
+
+{% schema %}
+{
+  "name": "AR · Product",
+  "tag": "div",
+  "enabled_on": {
+    "templates": [
+      "product"
+    ]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "rating_text",
+      "label": "Rating text",
+      "default": "4.9 · 8,200+ wearers"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "The city moves fast. Your remembrance shouldn’t stop."
+    },
+    {
+      "type": "text",
+      "id": "price_note",
+      "label": "Price note",
+      "default": "Less than the cost of a monthly gym pass."
+    },
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Image badge",
+      "default": "IP67 · Wudu-safe"
+    },
+    {
+      "type": "header",
+      "content": "Highlights"
+    },
+    {
+      "type": "text",
+      "id": "bullet_1",
+      "label": "Highlight 1",
+      "default": "Silent thumb tap: discreet in meetings and classes"
+    },
+    {
+      "type": "text",
+      "id": "bullet_2",
+      "label": "Highlight 2",
+      "default": "Gentle vibrations at 33, 66 and 99"
+    },
+    {
+      "type": "text",
+      "id": "bullet_3",
+      "label": "Highlight 3",
+      "default": "Prayer-time alerts for all five daily prayers"
+    },
+    {
+      "type": "text",
+      "id": "bullet_4",
+      "label": "Highlight 4",
+      "default": "Syncs with the Al Rayan app to track your progress"
+    },
+    {
+      "type": "header",
+      "content": "Options"
+    },
+    {
+      "type": "text",
+      "id": "hide_options",
+      "label": "Hide these options",
+      "default": "Ships From",
+      "info": "Comma-separated option names to keep out of view (the first value is used)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_size_guide",
+      "label": "Show size guide",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "size_hints",
+      "label": "Size hints",
+      "default": "18mm=US 8, 20mm=US 10, 22mm=US 12",
+      "info": "Shown under each size button. Format: value=hint, value=hint"
+    },
+    {
+      "type": "header",
+      "content": "Buy buttons"
+    },
+    {
+      "type": "text",
+      "id": "atc_label",
+      "label": "Add to cart label",
+      "default": "Add to cart"
+    },
+    {
+      "type": "text",
+      "id": "soldout_label",
+      "label": "Sold out label",
+      "default": "Sold out"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_dynamic_checkout",
+      "label": "Show express checkout (Shop Pay, Apple Pay…)",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "assurance",
+      "label": "Reassurance line",
+      "default": "Free US shipping · 60-day money-back guarantee",
+      "info": "Separate items with ·"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_sticky",
+      "label": "Show sticky add-to-cart bar",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Feature boxes"
+    },
+    {
+      "type": "select",
+      "id": "box_1_icon",
+      "label": "Box 1 icon",
+      "options": [
+        {
+          "value": "ring",
+          "label": "Ring"
+        },
+        {
+          "value": "tap",
+          "label": "Tap"
+        },
+        {
+          "value": "vibrate",
+          "label": "Vibrate"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "moon",
+          "label": "Moon"
+        },
+        {
+          "value": "drop",
+          "label": "Drop"
+        },
+        {
+          "value": "battery",
+          "label": "Battery"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "briefcase",
+          "label": "Briefcase"
+        },
+        {
+          "value": "train",
+          "label": "Train"
+        },
+        {
+          "value": "home",
+          "label": "Home"
+        },
+        {
+          "value": "phone",
+          "label": "Phone"
+        },
+        {
+          "value": "beads",
+          "label": "Beads"
+        },
+        {
+          "value": "volume",
+          "label": "Volume"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "ruler",
+          "label": "Ruler"
+        },
+        {
+          "value": "box",
+          "label": "Box"
+        },
+        {
+          "value": "chat",
+          "label": "Chat"
+        },
+        {
+          "value": "lock",
+          "label": "Lock"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "sparkle",
+          "label": "Sparkle"
+        },
+        {
+          "value": "feather",
+          "label": "Feather"
+        },
+        {
+          "value": "users",
+          "label": "Users"
+        },
+        {
+          "value": "cloud",
+          "label": "Cloud"
+        },
+        {
+          "value": "book",
+          "label": "Book"
+        },
+        {
+          "value": "refresh",
+          "label": "Refresh"
+        }
+      ],
+      "default": "volume"
+    },
+    {
+      "type": "text",
+      "id": "box_1_title",
+      "label": "Box 1 title",
+      "default": "Silent devotion"
+    },
+    {
+      "type": "text",
+      "id": "box_1_text",
+      "label": "Box 1 text",
+      "default": "No clicking sounds in meetings."
+    },
+    {
+      "type": "select",
+      "id": "box_2_icon",
+      "label": "Box 2 icon",
+      "options": [
+        {
+          "value": "ring",
+          "label": "Ring"
+        },
+        {
+          "value": "tap",
+          "label": "Tap"
+        },
+        {
+          "value": "vibrate",
+          "label": "Vibrate"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "moon",
+          "label": "Moon"
+        },
+        {
+          "value": "drop",
+          "label": "Drop"
+        },
+        {
+          "value": "battery",
+          "label": "Battery"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "briefcase",
+          "label": "Briefcase"
+        },
+        {
+          "value": "train",
+          "label": "Train"
+        },
+        {
+          "value": "home",
+          "label": "Home"
+        },
+        {
+          "value": "phone",
+          "label": "Phone"
+        },
+        {
+          "value": "beads",
+          "label": "Beads"
+        },
+        {
+          "value": "volume",
+          "label": "Volume"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "ruler",
+          "label": "Ruler"
+        },
+        {
+          "value": "box",
+          "label": "Box"
+        },
+        {
+          "value": "chat",
+          "label": "Chat"
+        },
+        {
+          "value": "lock",
+          "label": "Lock"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "sparkle",
+          "label": "Sparkle"
+        },
+        {
+          "value": "feather",
+          "label": "Feather"
+        },
+        {
+          "value": "users",
+          "label": "Users"
+        },
+        {
+          "value": "cloud",
+          "label": "Cloud"
+        },
+        {
+          "value": "book",
+          "label": "Book"
+        },
+        {
+          "value": "refresh",
+          "label": "Refresh"
+        }
+      ],
+      "default": "clock"
+    },
+    {
+      "type": "text",
+      "id": "box_2_title",
+      "label": "Box 2 title",
+      "default": "Prayer sync"
+    },
+    {
+      "type": "text",
+      "id": "box_2_text",
+      "label": "Box 2 text",
+      "default": "A gentle buzz for each prayer."
+    },
+    {
+      "type": "select",
+      "id": "box_3_icon",
+      "label": "Box 3 icon",
+      "options": [
+        {
+          "value": "ring",
+          "label": "Ring"
+        },
+        {
+          "value": "tap",
+          "label": "Tap"
+        },
+        {
+          "value": "vibrate",
+          "label": "Vibrate"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "moon",
+          "label": "Moon"
+        },
+        {
+          "value": "drop",
+          "label": "Drop"
+        },
+        {
+          "value": "battery",
+          "label": "Battery"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "briefcase",
+          "label": "Briefcase"
+        },
+        {
+          "value": "train",
+          "label": "Train"
+        },
+        {
+          "value": "home",
+          "label": "Home"
+        },
+        {
+          "value": "phone",
+          "label": "Phone"
+        },
+        {
+          "value": "beads",
+          "label": "Beads"
+        },
+        {
+          "value": "volume",
+          "label": "Volume"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "ruler",
+          "label": "Ruler"
+        },
+        {
+          "value": "box",
+          "label": "Box"
+        },
+        {
+          "value": "chat",
+          "label": "Chat"
+        },
+        {
+          "value": "lock",
+          "label": "Lock"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "sparkle",
+          "label": "Sparkle"
+        },
+        {
+          "value": "feather",
+          "label": "Feather"
+        },
+        {
+          "value": "users",
+          "label": "Users"
+        },
+        {
+          "value": "cloud",
+          "label": "Cloud"
+        },
+        {
+          "value": "book",
+          "label": "Book"
+        },
+        {
+          "value": "refresh",
+          "label": "Refresh"
+        }
+      ],
+      "default": "drop"
+    },
+    {
+      "type": "text",
+      "id": "box_3_title",
+      "label": "Box 3 title",
+      "default": "Wudu-safe"
+    },
+    {
+      "type": "text",
+      "id": "box_3_text",
+      "label": "Box 3 text",
+      "default": "IP67 water resistant."
+    },
+    {
+      "type": "select",
+      "id": "box_4_icon",
+      "label": "Box 4 icon",
+      "options": [
+        {
+          "value": "ring",
+          "label": "Ring"
+        },
+        {
+          "value": "tap",
+          "label": "Tap"
+        },
+        {
+          "value": "vibrate",
+          "label": "Vibrate"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "moon",
+          "label": "Moon"
+        },
+        {
+          "value": "drop",
+          "label": "Drop"
+        },
+        {
+          "value": "battery",
+          "label": "Battery"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        },
+        {
+          "value": "briefcase",
+          "label": "Briefcase"
+        },
+        {
+          "value": "train",
+          "label": "Train"
+        },
+        {
+          "value": "home",
+          "label": "Home"
+        },
+        {
+          "value": "phone",
+          "label": "Phone"
+        },
+        {
+          "value": "beads",
+          "label": "Beads"
+        },
+        {
+          "value": "volume",
+          "label": "Volume"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "gift",
+          "label": "Gift"
+        },
+        {
+          "value": "ruler",
+          "label": "Ruler"
+        },
+        {
+          "value": "box",
+          "label": "Box"
+        },
+        {
+          "value": "chat",
+          "label": "Chat"
+        },
+        {
+          "value": "lock",
+          "label": "Lock"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        },
+        {
+          "value": "sparkle",
+          "label": "Sparkle"
+        },
+        {
+          "value": "feather",
+          "label": "Feather"
+        },
+        {
+          "value": "users",
+          "label": "Users"
+        },
+        {
+          "value": "cloud",
+          "label": "Cloud"
+        },
+        {
+          "value": "book",
+          "label": "Book"
+        },
+        {
+          "value": "refresh",
+          "label": "Refresh"
+        }
+      ],
+      "default": "refresh"
+    },
+    {
+      "type": "text",
+      "id": "box_4_title",
+      "label": "Box 4 title",
+      "default": "Never lose count"
+    },
+    {
+      "type": "text",
+      "id": "box_4_text",
+      "label": "Box 4 text",
+      "default": "Saved on the ring, up to 99,999."
+    },
+    {
+      "type": "header",
+      "content": "Quote & founder note"
+    },
+    {
+      "type": "textarea",
+      "id": "gallery_quote",
+      "label": "Quote under images",
+      "default": "“This ring turned my 40-minute subway commute into the most spiritual part of my day.”"
+    },
+    {
+      "type": "text",
+      "id": "gallery_quote_author",
+      "label": "Quote author",
+      "default": "Sarah W., New York"
+    },
+    {
+      "type": "richtext",
+      "id": "founder_note",
+      "label": "Founder note",
+      "default": "<p><strong>Made by a young Muslim woman.</strong> Al Rayan is a small business built to help Muslims remember Allah throughout their day. Thank you for being part of it.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Size guide"
+    },
+    {
+      "type": "text",
+      "id": "size_title",
+      "label": "Title",
+      "default": "Find your size"
+    },
+    {
+      "type": "image_picker",
+      "id": "size_image",
+      "label": "Size chart image"
+    },
+    {
+      "type": "textarea",
+      "id": "size_rows",
+      "label": "Rows",
+      "default": "18mm|18 mm|56.5 mm|8\n20mm|20 mm|62.8 mm|10\n22mm|22 mm|69.1 mm|12",
+      "info": "One row per line: size|diameter|circumference|US size"
+    },
+    {
+      "type": "richtext",
+      "id": "size_how",
+      "label": "How to measure",
+      "default": "<p><strong>How to measure:</strong> wrap a strip of paper around the base of the finger you’ll wear it on, mark where it overlaps and measure the length in mm. That’s your circumference. Between two sizes? Choose the larger one. If it doesn’t fit, exchange it free within 60 days.</p>"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "accordion",
+      "name": "Accordion row",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "ring",
+              "label": "Ring"
+            },
+            {
+              "value": "tap",
+              "label": "Tap"
+            },
+            {
+              "value": "vibrate",
+              "label": "Vibrate"
+            },
+            {
+              "value": "clock",
+              "label": "Clock"
+            },
+            {
+              "value": "moon",
+              "label": "Moon"
+            },
+            {
+              "value": "drop",
+              "label": "Drop"
+            },
+            {
+              "value": "battery",
+              "label": "Battery"
+            },
+            {
+              "value": "shield",
+              "label": "Shield"
+            },
+            {
+              "value": "truck",
+              "label": "Truck"
+            },
+            {
+              "value": "return",
+              "label": "Return"
+            },
+            {
+              "value": "check",
+              "label": "Check"
+            },
+            {
+              "value": "briefcase",
+              "label": "Briefcase"
+            },
+            {
+              "value": "train",
+              "label": "Train"
+            },
+            {
+              "value": "home",
+              "label": "Home"
+            },
+            {
+              "value": "phone",
+              "label": "Phone"
+            },
+            {
+              "value": "beads",
+              "label": "Beads"
+            },
+            {
+              "value": "volume",
+              "label": "Volume"
+            },
+            {
+              "value": "heart",
+              "label": "Heart"
+            },
+            {
+              "value": "gift",
+              "label": "Gift"
+            },
+            {
+              "value": "ruler",
+              "label": "Ruler"
+            },
+            {
+              "value": "box",
+              "label": "Box"
+            },
+            {
+              "value": "chat",
+              "label": "Chat"
+            },
+            {
+              "value": "lock",
+              "label": "Lock"
+            },
+            {
+              "value": "info",
+              "label": "Info"
+            },
+            {
+              "value": "sparkle",
+              "label": "Sparkle"
+            },
+            {
+              "value": "feather",
+              "label": "Feather"
+            },
+            {
+              "value": "users",
+              "label": "Users"
+            },
+            {
+              "value": "cloud",
+              "label": "Cloud"
+            },
+            {
+              "value": "book",
+              "label": "Book"
+            },
+            {
+              "value": "refresh",
+              "label": "Refresh"
+            }
+          ],
+          "default": "info"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Product",
+      "blocks": [
+        {
+          "type": "accordion",
+          "settings": {
+            "icon": "ring",
+            "title": "Specifications",
+            "content": "<ul><li>Count memory: up to 99,999</li><li>Display: OLED</li><li>Water resistance: IP67</li><li>Battery: 3–5 days of frequent use</li><li>Vibration at 33, 66 and 99, plus prayer-time alerts</li><li>Bluetooth sync with the Al Rayan app</li><li>Sizes: 18mm, 20mm, 22mm</li><li>Finish: alloy</li></ul>"
+          }
+        },
+        {
+          "type": "accordion",
+          "settings": {
+            "icon": "book",
+            "title": "Getting started",
+            "content": "<p>Charge the ring fully before first use. Press the side button once for each recitation; the screen shows your running count and the ring vibrates at 33, 66 and 99. Pair it with the Al Rayan app to set prayer-time alerts and see your history.</p>"
+          }
+        },
+        {
+          "type": "accordion",
+          "settings": {
+            "icon": "truck",
+            "title": "Shipping & returns",
+            "content": "<p>Free shipping on every US order, with tracking. You have 60 days to try the ring: if it isn’t right for you, return it free from anywhere in the US for a full refund or a different size.</p>"
+          }
+        },
+        {
+          "type": "accordion",
+          "settings": {
+            "icon": "shield",
+            "title": "Warranty",
+            "content": "<p>Every ring is covered by a one-year tech warranty. If something stops working, message us and we’ll make it right.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

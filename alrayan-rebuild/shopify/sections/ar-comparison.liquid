@@ -1,0 +1,319 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-head" data-ar-reveal>
+      {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+      {%- if section.settings.heading != blank -%}<h2 class="ar-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.text != blank -%}<div class="ar-lead">{{ section.settings.text }}</div>{%- endif -%}
+    </div>
+    <div class="ar-compare-wrap" data-ar-reveal>
+      <table class="ar-compare">
+        <thead>
+          <tr>
+            <th scope="col"><span class="ar-sr">Feature</span></th>
+            <th scope="col" class="ar-col-us">{{ section.settings.us_label }}</th>
+            <th scope="col">{{ section.settings.col_1 }}</th>
+            <th scope="col">{{ section.settings.col_2 }}</th>
+            <th scope="col">{{ section.settings.col_3 }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%- for block in section.blocks -%}
+            <tr {{ block.shopify_attributes }}>
+              <td>{{ block.settings.label }}</td>
+              <td class="ar-col-us">{%- case block.settings.us -%}
+              {%- when 'yes' -%}<span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span>
+              {%- when 'some' -%}<span class="ar-some" aria-hidden="true">~</span><span class="ar-sr">Partly</span>
+              {%- else -%}<span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span>
+            {%- endcase -%}</td>
+              <td>{%- case block.settings.c1 -%}
+              {%- when 'yes' -%}<span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span>
+              {%- when 'some' -%}<span class="ar-some" aria-hidden="true">~</span><span class="ar-sr">Partly</span>
+              {%- else -%}<span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span>
+            {%- endcase -%}</td>
+              <td>{%- case block.settings.c2 -%}
+              {%- when 'yes' -%}<span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span>
+              {%- when 'some' -%}<span class="ar-some" aria-hidden="true">~</span><span class="ar-sr">Partly</span>
+              {%- else -%}<span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span>
+            {%- endcase -%}</td>
+              <td>{%- case block.settings.c3 -%}
+              {%- when 'yes' -%}<span class="ar-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="ar-sr">Yes</span>
+              {%- when 'some' -%}<span class="ar-some" aria-hidden="true">~</span><span class="ar-sr">Partly</span>
+              {%- else -%}<span class="ar-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg></span><span class="ar-sr">No</span>
+            {%- endcase -%}</td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+    {%- if section.settings.legend != blank -%}<p class="ar-compare-legend">{{ section.settings.legend }}</p>{%- endif -%}
+    {%- if section.settings.note != blank -%}
+      <div class="ar-compare-note" data-ar-reveal>{% render 'ar-icon', name: 'heart' %}<div>{{ section.settings.note }}</div></div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Comparison",
+  "tag": "div",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "How it compares"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Every tool has its place. <em>This one goes everywhere.</em>",
+      "info": "Wrap words in italics to highlight them in green."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": ""
+    },
+    {
+      "type": "text",
+      "id": "us_label",
+      "label": "Your column",
+      "default": "Al Rayan Ring"
+    },
+    {
+      "type": "text",
+      "id": "col_1",
+      "label": "Column 2",
+      "default": "Misbaha"
+    },
+    {
+      "type": "text",
+      "id": "col_2",
+      "label": "Column 3",
+      "default": "Plastic clicker"
+    },
+    {
+      "type": "text",
+      "id": "col_3",
+      "label": "Column 4",
+      "default": "Phone app"
+    },
+    {
+      "type": "text",
+      "id": "legend",
+      "label": "Legend",
+      "default": "~ Partly, depends on the model or app"
+    },
+    {
+      "type": "richtext",
+      "id": "note",
+      "label": "Note under table",
+      "default": "<p><strong>Counting on your fingers is the Sunnah, and nothing replaces it.</strong> Many of our customers use their fingers for the adhkar after salah and the ring for larger daily goals, like 1,000 istighfar on the way to work.</p>"
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--paper",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Feature"
+        },
+        {
+          "type": "select",
+          "id": "us",
+          "label": "Al Rayan",
+          "default": "yes",
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "some",
+              "label": "Partly"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "c1",
+          "label": "Column 2",
+          "default": "no",
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "some",
+              "label": "Partly"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "c2",
+          "label": "Column 3",
+          "default": "no",
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "some",
+              "label": "Partly"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "c3",
+          "label": "Column 4",
+          "default": "no",
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "some",
+              "label": "Partly"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Comparison",
+      "blocks": [
+        {
+          "type": "row",
+          "settings": {
+            "label": "Silent in meetings and classes",
+            "us": "yes",
+            "c1": "yes",
+            "c2": "no",
+            "c3": "some"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "label": "Worn all day, nothing to carry",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "no"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "label": "Keeps your count when interrupted",
+            "us": "yes",
+            "c1": "no",
+            "c2": "yes",
+            "c3": "yes"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "label": "Works without your phone",
+            "us": "yes",
+            "c1": "yes",
+            "c2": "yes",
+            "c3": "no"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "label": "Vibrates at 33, 66 and 99",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "some"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "label": "Prayer-time alerts",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "yes"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "label": "Stays on for wudu",
+            "us": "yes",
+            "c1": "no",
+            "c2": "no",
+            "c3": "no"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

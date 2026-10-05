@@ -1,0 +1,13 @@
+{%- comment -%}
+  Renders a responsive image, or a soft placeholder while no image is chosen.
+  Params: image, alt, sizes, class, loading ('lazy' | 'eager'), placeholder ('lifestyle-1' | 'product-1' …)
+{%- endcomment -%}
+{%- if image != blank -%}
+  {%- assign ar_alt = alt | default: image.alt | escape -%}
+  {%- assign ar_loading = loading | default: 'lazy' -%}
+  {%- assign ar_sizes = sizes | default: '100vw' -%}
+  {%- assign ar_class = class | default: 'ar-img' -%}
+  {{ image | image_url: width: 2000 | image_tag: loading: ar_loading, sizes: ar_sizes, widths: '360, 540, 720, 960, 1200, 1500, 2000', alt: ar_alt, class: ar_class }}
+{%- else -%}
+  {{ placeholder | default: 'lifestyle-1' | placeholder_svg_tag: 'ar-ph' }}
+{%- endif -%}

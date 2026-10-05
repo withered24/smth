@@ -1,0 +1,305 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-head" data-ar-reveal>
+      {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+      {%- if section.settings.heading != blank -%}<h2 class="ar-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.text != blank -%}<div class="ar-lead">{{ section.settings.text }}</div>{%- endif -%}
+    </div>
+    {%- if section.settings.quote != blank -%}
+      <figure class="ar-quote" data-ar-reveal>
+        <p>{{ section.settings.quote }}</p>
+        {%- if section.settings.quote_source != blank -%}<cite>{{ section.settings.quote_source }}</cite>{%- endif -%}
+      </figure>
+    {%- endif -%}
+    <div class="ar-cards3">
+      {%- for block in section.blocks -%}
+        <div class="ar-card" data-ar-reveal {{ block.shopify_attributes }}>
+          <span class="ar-card__icon">{% render 'ar-icon', name: block.settings.icon %}</span>
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {%- endfor -%}
+    </div>
+    {%- if section.settings.bridge != blank -%}
+      <div class="ar-bridge" data-ar-reveal>
+        <p>{{ section.settings.bridge }}</p>
+        {%- if section.settings.link_label != blank -%}<a class="ar-link" href="{{ section.settings.link | default: '#' }}">{{ section.settings.link_label }}</a>{%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Intention",
+  "tag": "div",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "It’s not your intention"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Struggling to stay consistent? <em>Blame the tools, not your heart.</em>",
+      "info": "Wrap words in italics to highlight them in green."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Most of us don’t lack the will to remember Allah. We lose count when someone interrupts, the beads stay at home, the clicker is too loud for the office, and opening an app means opening every notification with it.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Quote"
+    },
+    {
+      "type": "text",
+      "id": "quote",
+      "label": "Quote",
+      "default": "“Let your tongue remain moist with the remembrance of Allah.”"
+    },
+    {
+      "type": "text",
+      "id": "quote_source",
+      "label": "Source",
+      "default": "The Prophet ﷺ · Jami‘ at-Tirmidhi"
+    },
+    {
+      "type": "header",
+      "content": "Closing line"
+    },
+    {
+      "type": "text",
+      "id": "bridge",
+      "label": "Closing line",
+      "default": "Al Rayan was made for the moments in between, one quiet tap at a time."
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Link label",
+      "default": "See how it works"
+    },
+    {
+      "type": "text",
+      "id": "link",
+      "label": "Link",
+      "default": "#how-it-works"
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--paper",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "ring",
+              "label": "Ring"
+            },
+            {
+              "value": "tap",
+              "label": "Tap"
+            },
+            {
+              "value": "vibrate",
+              "label": "Vibrate"
+            },
+            {
+              "value": "clock",
+              "label": "Clock"
+            },
+            {
+              "value": "moon",
+              "label": "Moon"
+            },
+            {
+              "value": "drop",
+              "label": "Drop"
+            },
+            {
+              "value": "battery",
+              "label": "Battery"
+            },
+            {
+              "value": "shield",
+              "label": "Shield"
+            },
+            {
+              "value": "truck",
+              "label": "Truck"
+            },
+            {
+              "value": "return",
+              "label": "Return"
+            },
+            {
+              "value": "check",
+              "label": "Check"
+            },
+            {
+              "value": "briefcase",
+              "label": "Briefcase"
+            },
+            {
+              "value": "train",
+              "label": "Train"
+            },
+            {
+              "value": "home",
+              "label": "Home"
+            },
+            {
+              "value": "phone",
+              "label": "Phone"
+            },
+            {
+              "value": "beads",
+              "label": "Beads"
+            },
+            {
+              "value": "volume",
+              "label": "Volume"
+            },
+            {
+              "value": "heart",
+              "label": "Heart"
+            },
+            {
+              "value": "gift",
+              "label": "Gift"
+            },
+            {
+              "value": "ruler",
+              "label": "Ruler"
+            },
+            {
+              "value": "box",
+              "label": "Box"
+            },
+            {
+              "value": "chat",
+              "label": "Chat"
+            },
+            {
+              "value": "lock",
+              "label": "Lock"
+            },
+            {
+              "value": "info",
+              "label": "Info"
+            },
+            {
+              "value": "sparkle",
+              "label": "Sparkle"
+            },
+            {
+              "value": "feather",
+              "label": "Feather"
+            },
+            {
+              "value": "users",
+              "label": "Users"
+            },
+            {
+              "value": "cloud",
+              "label": "Cloud"
+            },
+            {
+              "value": "book",
+              "label": "Book"
+            },
+            {
+              "value": "refresh",
+              "label": "Refresh"
+            }
+          ],
+          "default": "sparkle"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Intention",
+      "blocks": [
+        {
+          "type": "card",
+          "settings": {
+            "icon": "beads",
+            "title": "The beads stay at home",
+            "text": "A misbaha is beautiful, but it rarely makes it to the office, the gym or the school run."
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "icon": "volume",
+            "title": "The clicker is too loud",
+            "text": "In a quiet meeting or library, every click feels like an announcement."
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "icon": "phone",
+            "title": "The app pulls you in",
+            "text": "Open a tasbih app and the messages and notifications are waiting right behind it."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

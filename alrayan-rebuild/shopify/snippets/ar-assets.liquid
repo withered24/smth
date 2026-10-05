@@ -1,0 +1,3 @@
+{%- comment -%} Loads the shared Al Rayan stylesheet and script. Rendered at the top of every ar-* section. {%- endcomment -%}
+{{ 'ar-rayan.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'ar-rayan.js' | asset_url }}" defer></script>

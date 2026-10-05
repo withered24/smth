@@ -1,0 +1,354 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-features">
+      <div class="ar-media" data-ar-reveal>
+        {%- render 'ar-image', image: section.settings.image, sizes: '(min-width: 990px) 45vw, 100vw', placeholder: 'product-2' -%}
+      </div>
+      <div>
+        <div class="ar-head ar-head--left" data-ar-reveal>
+      {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+      {%- if section.settings.heading != blank -%}<h2 class="ar-h2">{{ section.settings.heading }}</h2>{%- endif -%}
+      {%- if section.settings.text != blank -%}<div class="ar-lead">{{ section.settings.text }}</div>{%- endif -%}
+    </div>
+        <div class="ar-features__list">
+          {%- for block in section.blocks -%}
+            <div class="ar-feature" data-ar-reveal {{ block.shopify_attributes }}>
+              <span class="ar-feature__icon">{% render 'ar-icon', name: block.settings.icon %}</span>
+              <h3>{{ block.settings.title }}</h3>
+              <p>{{ block.settings.text }}</p>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+    {%- if section.settings.spec_1_value != blank -%}
+      <dl class="ar-specs" data-ar-reveal>
+        {%- for i in (1..4) -%}
+          {%- assign v = 'spec_' | append: i | append: '_value' -%}
+          {%- assign l = 'spec_' | append: i | append: '_label' -%}
+          {%- if section.settings[v] != blank -%}
+            <div class="ar-spec"><dt><strong>{{ section.settings[v] }}</strong></dt><dd><span>{{ section.settings[l] }}</span></dd></div>
+          {%- endif -%}
+        {%- endfor -%}
+      </dl>
+    {%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Features",
+  "tag": "div",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "The Dhikr Ring 2.0"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Everything a tasbih does. <em>Nothing it doesn’t need.</em>",
+      "info": "Wrap words in italics to highlight them in green."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": ""
+    },
+    {
+      "type": "header",
+      "content": "Spec strip"
+    },
+    {
+      "type": "text",
+      "id": "spec_1_value",
+      "label": "Spec 1 value",
+      "default": "99,999"
+    },
+    {
+      "type": "text",
+      "id": "spec_1_label",
+      "label": "Spec 1 label",
+      "default": "count memory"
+    },
+    {
+      "type": "text",
+      "id": "spec_2_value",
+      "label": "Spec 2 value",
+      "default": "IP67"
+    },
+    {
+      "type": "text",
+      "id": "spec_2_label",
+      "label": "Spec 2 label",
+      "default": "water resistant"
+    },
+    {
+      "type": "text",
+      "id": "spec_3_value",
+      "label": "Spec 3 value",
+      "default": "3–5 days"
+    },
+    {
+      "type": "text",
+      "id": "spec_3_label",
+      "label": "Spec 3 label",
+      "default": "battery, frequent use"
+    },
+    {
+      "type": "text",
+      "id": "spec_4_value",
+      "label": "Spec 4 value",
+      "default": "3 sizes"
+    },
+    {
+      "type": "text",
+      "id": "spec_4_label",
+      "label": "Spec 4 label",
+      "default": "18 · 20 · 22mm"
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--cream",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "ring",
+              "label": "Ring"
+            },
+            {
+              "value": "tap",
+              "label": "Tap"
+            },
+            {
+              "value": "vibrate",
+              "label": "Vibrate"
+            },
+            {
+              "value": "clock",
+              "label": "Clock"
+            },
+            {
+              "value": "moon",
+              "label": "Moon"
+            },
+            {
+              "value": "drop",
+              "label": "Drop"
+            },
+            {
+              "value": "battery",
+              "label": "Battery"
+            },
+            {
+              "value": "shield",
+              "label": "Shield"
+            },
+            {
+              "value": "truck",
+              "label": "Truck"
+            },
+            {
+              "value": "return",
+              "label": "Return"
+            },
+            {
+              "value": "check",
+              "label": "Check"
+            },
+            {
+              "value": "briefcase",
+              "label": "Briefcase"
+            },
+            {
+              "value": "train",
+              "label": "Train"
+            },
+            {
+              "value": "home",
+              "label": "Home"
+            },
+            {
+              "value": "phone",
+              "label": "Phone"
+            },
+            {
+              "value": "beads",
+              "label": "Beads"
+            },
+            {
+              "value": "volume",
+              "label": "Volume"
+            },
+            {
+              "value": "heart",
+              "label": "Heart"
+            },
+            {
+              "value": "gift",
+              "label": "Gift"
+            },
+            {
+              "value": "ruler",
+              "label": "Ruler"
+            },
+            {
+              "value": "box",
+              "label": "Box"
+            },
+            {
+              "value": "chat",
+              "label": "Chat"
+            },
+            {
+              "value": "lock",
+              "label": "Lock"
+            },
+            {
+              "value": "info",
+              "label": "Info"
+            },
+            {
+              "value": "sparkle",
+              "label": "Sparkle"
+            },
+            {
+              "value": "feather",
+              "label": "Feather"
+            },
+            {
+              "value": "users",
+              "label": "Users"
+            },
+            {
+              "value": "cloud",
+              "label": "Cloud"
+            },
+            {
+              "value": "book",
+              "label": "Book"
+            },
+            {
+              "value": "refresh",
+              "label": "Refresh"
+            }
+          ],
+          "default": "sparkle"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Features",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "tap",
+            "title": "Silent thumb tap",
+            "text": "A soft side button counts every recitation without a sound."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "vibrate",
+            "title": "Feel 33, 66 and 99",
+            "text": "A gentle vibration marks each milestone, so you never need to look down."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "clock",
+            "title": "Prayer-time alerts",
+            "text": "A quiet buzz for each of the five daily prayers, even with your phone on silent."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "drop",
+            "title": "Keep it on for wudu",
+            "text": "IP67 water resistance means it stays on your finger at the sink."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "refresh",
+            "title": "Never lose your place",
+            "text": "Your count stays on the ring when life interrupts, up to 99,999."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "cloud",
+            "title": "Your history in the app",
+            "text": "Sync over Bluetooth whenever you like to see daily and monthly totals."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

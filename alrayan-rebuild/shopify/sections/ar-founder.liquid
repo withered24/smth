@@ -1,0 +1,98 @@
+{%- render 'ar-assets' -%}
+<section class="ar ar-section {{ section.settings.background }}"{% if section.settings.anchor_id != blank %} id="{{ section.settings.anchor_id | handleize }}"{% endif %}>
+  <div class="ar-container">
+    <div class="ar-founder">
+      <div class="ar-media ar-media--arch" data-ar-reveal>
+        {%- render 'ar-image', image: section.settings.image, sizes: '(min-width: 850px) 38vw, 90vw', placeholder: 'lifestyle-1' -%}
+      </div>
+      <div class="ar-founder__copy" data-ar-reveal>
+        {%- if section.settings.eyebrow != blank -%}<p class="ar-eyebrow">{{ section.settings.eyebrow }}</p>{%- endif -%}
+        <blockquote>{{ section.settings.quote }}</blockquote>
+        <p class="ar-founder__sig"><strong>{{ section.settings.name }}</strong>{{ section.settings.role }}</p>
+        {%- if section.settings.name_note != blank -%}
+          <div class="ar-name-note"><svg viewBox="0 0 280 280" aria-hidden="true"><circle cx="140" cy="140" r="85" fill="none" stroke="#1F5A2E" stroke-width="30"/><path d="M109 190V138A62 62 0 0 1 140 84.31 62 62 0 0 1 171 138V190Z" fill="#C9A455"/><circle cx="200.1" cy="79.9" r="19.2" fill="#FFFFFF"/><circle cx="200.1" cy="79.9" r="15" fill="#C9A455"/></svg><div>{{ section.settings.name_note }}</div></div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "AR · Founder story",
+  "tag": "div",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "A photo of you, your hands wearing the ring, or packing orders works best."
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Our story"
+    },
+    {
+      "type": "textarea",
+      "id": "quote",
+      "label": "Story",
+      "default": "“I started Al Rayan as a young Muslim woman learning to navigate life with resilience and faith. It’s more than a small business to me: every ring helps me build my future, and helps someone remember Allah a little more throughout their day.”"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Name",
+      "default": "From our founder"
+    },
+    {
+      "type": "text",
+      "id": "role",
+      "label": "Role",
+      "default": "Al Rayan Rings"
+    },
+    {
+      "type": "richtext",
+      "id": "name_note",
+      "label": "Name note",
+      "default": "<p><strong>Why “Al Rayan”?</strong> Ar-Rayyan is the gate of Jannah the Prophet ﷺ described for those who fast. Our name is a reminder that small, steady acts are the ones that matter.</p>"
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "default": "ar--cream",
+      "options": [
+        {
+          "value": "ar--white",
+          "label": "White"
+        },
+        {
+          "value": "ar--paper",
+          "label": "Paper"
+        },
+        {
+          "value": "ar--cream",
+          "label": "Cream"
+        },
+        {
+          "value": "ar--green",
+          "label": "Brand green"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Anchor ID",
+      "info": "Optional. Lets other buttons link here with #your-id."
+    }
+  ],
+  "presets": [
+    {
+      "name": "AR · Founder story"
+    }
+  ]
+}
+{% endschema %}
