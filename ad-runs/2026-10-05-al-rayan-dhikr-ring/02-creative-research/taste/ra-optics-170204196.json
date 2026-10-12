@@ -1,0 +1,22 @@
+{"id":"ra-optics-170204196","source":"gethookd","format":"image",
+"matrix":{
+"pattern_interrupt":{"score":13,"evidence":"media.jpg: headline 'CLEAR LENSES BLOCK 10%. YOUR SLEEP SCORE KNOWS.' two-tone, big; generic column greyed out vs brand column; logo on top; polished, not native."},
+"problem_awareness":{"score":12,"evidence":"primary text line 1: 'Your ring already told you the clear-lens glasses didn't work.' calls out smart-ring owners with sleep data; image headline repeats the sleep-score pain."},
+"unique_mechanism":{"score":14,"evidence":"primary text: 'Filtering visible light means the lens has to have color. Ra's Sunset lens is amber because that's the wavelength it's built to catch.' plus generic vs Ra contrast table."},
+"visual_proof":{"score":9,"evidence":"side-by-side clear vs amber lens, '10-30% FILTERED' vs '99%+ FILTERED' (stat claims, no real-world use shown)."},
+"friction_reduction":{"score":2,"evidence":"'4.9 stars from 1,847 reviews' only in primary text; no guarantee, shipping or trial on the image."},
+"cta":{"score":3,"evidence":"no CTA on the image; headline field 'Your ring knew first.'; Shop Now button only."},
+"total":53},
+"tier":"B",
+"filters":{
+"pattern_interrupt_1_5s":{"score":6,"rationale":"Clear two-line headline and a stark grey-vs-colour split read in one glance, but it is a polished brand graphic with a logo, no anomaly or native UI."},
+"avatar_congruence":{"score":4,"rationale":"Driver is blue-light/sleep science for wearable-data owners; master_avatar_research.md § Pains lists 'loud clicker in quiet rooms (Q21)' and 'phone apps pull into social media (Q30)', not sleep. Only the us-vs-them structure (ANG8) is relevant."},
+"adaptability":{"score":6,"rationale":"Port: generic-vs-us two-column -> beads/clicker/phone app vs ring (ANG8). Port: stat row -> qualitative checks only. Their 99%/spectral/review claims are TRUTH-RISK and cannot be copied; truthful substitute = feature checks (silent tap, 33/66/99 pulse)."}},
+"checklist_hits":[3,5,6],
+"green_flags":["MG2: explains why clear lenses fail (wavelength) in the primary text","MK3: one message: clear lenses do not filter, ours do"],
+"red_flags":["HR1: brand logo is the first element at the top of the frame","CR3: no on-image CTA, button only"],
+"what_to_steal":[
+{"kind":"structure_beat","type":"us_vs_them","original":"GENERIC column greyed out with X marks vs RA OPTICS column bold with check marks, 3 rows","pattern":"greyed-out common option with X rows vs bold brand column with check rows","where":"whole image","port":"Plastic clicker / beads / phone app (greyed, X) vs the Dhikr Ring (bold, check): silent, no phone, 33/66/99 pulse"}],
+"port_idea":"",
+"decision":"REJECT",
+"reason":"filter floor: avatar. Sleep-glasses science does not map to the dhikr avatar; only the comparison layout is harvestable. confidence: high (GetHookd winning, active 34 days)"}

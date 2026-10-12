@@ -1,0 +1,29 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\social\\meta-26726286480310591\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.565,
+ "duration": 8.149,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.14,
+   "text": "Thank you.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.0,
+     "word": "Thank",
+     "p": 0.013
+    },
+    {
+     "start": 0.0,
+     "end": 0.14,
+     "word": "you.",
+     "p": 0.973
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "qurannest-161909756",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 10,
+   "evidence": "1649x2048: blue gradient, 'WE SOLD OUT. AND WE'RE BACK.' headline, book render, 4 icon features, price box $30.99 / $49.99."
+  },
+  "problem_awareness": {
+   "score": 5,
+   "evidence": "No pain."
+  },
+  "unique_mechanism": {
+   "score": 4,
+   "evidence": "Features only."
+  },
+  "visual_proof": {
+   "score": 6,
+   "evidence": "Rendered book hero."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "Money-back + free shipping."
+  },
+  "cta": {
+   "score": 9,
+   "evidence": "Price + urgency."
+  },
+  "total": 42
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Restock headline readable in one glance but a standard promo template."
+  },
+  "avatar_congruence": {
+   "score": 6,
+   "rationale": "master_avatar_research.md § Avatars A2 gift/family buyers fit 'Built for families', but the ad is promo-led with no avatar pain."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Restock/sold-out device would be a false claim for us; price slash and '5,000+ families' stat not usable."
+  }
+ },
+ "checklist_hits": [
+  6,
+  7
+ ],
+ "green_flags": [
+  "CG2: money-back + free shipping"
+ ],
+ "red_flags": [
+  "MR1: features only",
+  "CR2: price + urgency stack"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject (total 42): promo template with a restock claim we cannot make. confidence: high (GetHookd optimized, active 151 days)"
+}

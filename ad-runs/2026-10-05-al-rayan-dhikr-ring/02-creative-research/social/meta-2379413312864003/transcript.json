@@ -1,0 +1,84 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\social\\meta-2379413312864003\\media.mp4",
+ "audio": true,
+ "language": "ar",
+ "language_probability": 0.838,
+ "duration": 10.681,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.72,
+   "text": "يا عارسة النوري تاج البدري يبريزها",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.4,
+     "word": "يا",
+     "p": 0.206
+    },
+    {
+     "start": 0.4,
+     "end": 2.24,
+     "word": "عارسة",
+     "p": 0.381
+    },
+    {
+     "start": 2.24,
+     "end": 3.18,
+     "word": "النوري",
+     "p": 0.695
+    },
+    {
+     "start": 3.18,
+     "end": 3.74,
+     "word": "تاج",
+     "p": 0.646
+    },
+    {
+     "start": 3.74,
+     "end": 4.54,
+     "word": "البدري",
+     "p": 0.688
+    },
+    {
+     "start": 4.54,
+     "end": 5.72,
+     "word": "يبريزها",
+     "p": 0.809
+    }
+   ]
+  },
+  {
+   "start": 5.72,
+   "end": 10.36,
+   "text": "دجما يشعب يانوار نوار",
+   "words": [
+    {
+     "start": 5.72,
+     "end": 6.56,
+     "word": "دجما",
+     "p": 0.623
+    },
+    {
+     "start": 6.56,
+     "end": 7.66,
+     "word": "يشعب",
+     "p": 0.689
+    },
+    {
+     "start": 7.66,
+     "end": 8.88,
+     "word": "يانوار",
+     "p": 0.641
+    },
+    {
+     "start": 8.88,
+     "end": 10.36,
+     "word": "نوار",
+     "p": 0.646
+    }
+   ]
+  }
+ ]
+}

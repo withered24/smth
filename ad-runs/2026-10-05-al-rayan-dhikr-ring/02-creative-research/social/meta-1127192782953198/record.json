@@ -1,0 +1,57 @@
+{
+ "id": "meta-1127192782953198",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "tier Reject: packshot with offer stack in copy; 350 days shows the emoji offer-stack copy works, image does not",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1127192782953198",
+ "brand": "Alpine Rings",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "silicone ring",
+ "cross_niche": true,
+ "meta_ad_id": "1127192782953198",
+ "active_period": "Oct 20, 2025 – active",
+ "performance_tier": null,
+ "library_id": "1127192782953198",
+ "started_running": "2025-10-20",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": true,
+  "result_rank": 2,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=silicone%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/alpinerings/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 350,
+ "primary_text": "The Alpine Ring Set is expertly crafted from high-quality materials, offering both exceptional durability and unmatched comfort.\nWith every purchase, enjoy:\n💰  2X FREE Lifetime Replacements\n📦 Premium Wood Ring Box\n💍  FREE Silicone Band\n📱  US Customer Service",
+ "headline": "The Cypress | 8MM",
+ "cta": "Shop Now",
+ "landing_page": "https://alpinerings.com/products/the-cypress-8mm",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1127192782953198.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "Brushed-steel ring with wood interior on white; offer stack only in copy"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

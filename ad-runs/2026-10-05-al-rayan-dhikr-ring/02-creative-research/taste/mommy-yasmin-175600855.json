@@ -1,0 +1,59 @@
+{
+ "id": "mommy-yasmin-175600855",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 5,
+   "evidence": "0.0s hook_01.jpg: plush elephant with kufi waving, sound-wave graphic; text card 'AUTUMN'S WARMEST GIFT / a soft Quran friend, personalized.' static for 10s."
+  },
+  "problem_awareness": {
+   "score": 4,
+   "evidence": "On-screen 'a soft Quran friend, personalized.' names the product; no pain or audience callout; audio is Arabic recitation 'أود بالله من الشيطان الرجيم' [0.0-6.7] (lang ar 0.94)."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "No mechanism; toy plays Quran recitation (remote icon bottom-right)."
+  },
+  "visual_proof": {
+   "score": 4,
+   "evidence": "hook_01-hook_10: product shown, only the waving arm moves."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "'Free Personalization' only in primary text."
+  },
+  "cta": {
+   "score": 1,
+   "evidence": "No CTA in video; headline '3000+ muslim families' social-proof claim."
+  },
+  "total": 18
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 2,
+   "rationale": "0-1.5s: static polished product card, seasonal 'Autumn's warmest gift' text; no tension."
+  },
+  "avatar_congruence": {
+   "score": 2,
+   "rationale": "master_avatar_research.md § Avatars A2: gift buyer ('The meaningful-gift buyer'), but this is a kids' Quran-recitation toy; avatar is parents of toddlers, not A1 20-40 professional; § VOC Q25 'meaningful gift' is the only overlap."
+  },
+  "adaptability": {
+   "score": 2,
+   "rationale": "Port: 'soft Quran friend' gift card -> ring gift card; nothing in the structure to steal: static card, no demo, recitation audio, '3000+ families' claim is TRUTH-RISK."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR1: polished product card with no hook",
+  "CR1: no CTA text",
+  "MR3: static 10 s",
+  "TRUTH-RISK: 'Loved by 3000+ muslim families'"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: static product card, Arabic recitation audio, kids' toy; avatar floor. confidence: high (GetHookd winning, active 25 days)"
+}

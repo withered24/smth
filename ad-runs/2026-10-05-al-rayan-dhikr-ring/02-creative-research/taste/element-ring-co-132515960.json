@@ -1,0 +1,61 @@
+{
+ "id": "element-ring-co-132515960",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 8,
+   "evidence": "Wedding hands photo, no text on the image; pretty but familiar."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "No pain; romance story in copy."
+  },
+  "unique_mechanism": {
+   "score": 5,
+   "evidence": "Bring-your-own-materials is the differentiator, in copy."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Rings on hands in a real moment."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "Order Now button only."
+  },
+  "total": 33
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "No headline; relies on a wedding photo."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "Romantic couple/wedding story (bride in sequin dress, groom) has no overlap with master_avatar_research.md § Pains and needs modest imagery."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Port: native hands photo -> our ring on a hand; the custom-materials mechanism does not apply."
+  }
+ },
+ "checklist_hits": [
+  2
+ ],
+ "green_flags": [
+  "HG2: native photo look"
+ ],
+ "red_flags": [
+  "HR3: no hook text",
+  "CR3: soft close"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar: wedding-romance imagery, no headline, no portable mechanism. confidence: high (GetHookd winning, active 581 days)"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "meta-2284206889070575",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "tier Reject: plain packshot",
+ "ad_url": "https://www.facebook.com/ads/library/?id=2284206889070575",
+ "brand": "Mejuri",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "Mejuri",
+ "cross_niche": true,
+ "meta_ad_id": "2284206889070575",
+ "active_period": "Sep 2, 2026 – active",
+ "performance_tier": null,
+ "library_id": "2284206889070575",
+ "started_running": "2026-09-02",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": true,
+  "result_rank": 4,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=Mejuri&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/mejuri/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 33,
+ "primary_text": "Guaranteed compliments wherever you go. Shop your favorites before they sell out.",
+ "headline": "Beaded Ring",
+ "cta": "Shop Now",
+ "landing_page": "https://mejuri.com/products/beaded-stackable-ring",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-2284206889070575.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "White-background packshot of a gold beaded ring; no text"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

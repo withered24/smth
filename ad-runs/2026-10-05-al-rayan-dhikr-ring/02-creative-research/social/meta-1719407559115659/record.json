@@ -1,0 +1,58 @@
+{
+ "id": "meta-1719407559115659",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "filter floor: adaptability (power rests on an unverifiable shared-reward faith claim; no function to demo)",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1719407559115659",
+ "brand": "Nimah",
+ "format": "video",
+ "platforms": null,
+ "language": "en",
+ "niche": "Islamic wearable tasbih bracelet",
+ "query": "dhikr",
+ "cross_niche": false,
+ "meta_ad_id": "1719407559115659",
+ "active_period": "Aug 24, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1719407559115659",
+ "started_running": "2026-08-24",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 16,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=video&q=dhikr&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/bynimah/",
+  "advertiser_active_ads": 6
+ },
+ "days_running": 42,
+ "primary_text": "I gave my sister a tasbih bracelet for Eid. Beautiful, sure - but that's not why I chose it.\nEvery time she runs through her dhikr on it, the reward reaches me too. A gift that keeps giving, long after the wrapping's gone.\nThe most rewarding thing I've ever given.",
+ "headline": "The gift that rewards you back",
+ "cta": "Shop now",
+ "landing_page": "https://bynimah.com/products/tasbih-bracelet-bold",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 7.15,
+  "width": 360,
+  "height": 640,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1719407559115659.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "Every time she makes dhikr on it, you share the reward.",
+  "visual": "gold bead bracelet held between fingers, then worn"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

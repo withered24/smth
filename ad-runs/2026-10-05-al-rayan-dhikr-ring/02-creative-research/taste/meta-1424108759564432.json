@@ -1,0 +1,56 @@
+{
+ "id": "meta-1424108759564432",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "2-card carousel of gold rings/bracelets in workout settings (bare midriff in card 1, tying sneaker in card 2); no on-image text"
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "Pain read from primary text/headline: 'don't sweat it, you can sweat in these. \n\nour solid gold is crafted for everyday durabilit'"
+  },
+  "unique_mechanism": {
+   "score": 7,
+   "evidence": "No explained mechanism beyond copy claims."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "Product visibility as viewed: 2-card carousel of gold rings/bracelets in workout settings (bare midriff in card 1, tying sneaker in card 2); no on-image text"
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Risk reversal/ease only as stated in copy/headline."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "Button 'Shop Now', headline 'Best Selling Jewelry Pieces | Mejuri'."
+  },
+  "total": 39
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "First glance: 2-card carousel of gold rings/bracelets in workout settings (bare midriff in card 1, tying sneaker in card 2); no on-image text"
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "avatar_congruence: master_avatar_research.md Pains 'loud clicker in quiet offices (Q21)' and VOC Q32 'modern tech jewelry'; swipe is a different context, little portable beyond a copy device."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: weak. Image is a packshot or non-product visual; our product needs a demo/hero concept this does not supply."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR2: off-brand voice"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar: visual world is bare-midriff fashion imagery; durability copy line is the only reusable piece. confidence: high (active 33 days)"
+}

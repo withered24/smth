@@ -1,0 +1,25 @@
+{"id":"hope-doves-132737005","source":"gethookd","format":"image",
+"matrix":{
+"pattern_interrupt":{"score":13,"evidence":"media.jpg: huge white serif headline 'for the girl who wears her faith every day' over a close-up wrist-and-sweater photo; one dominant focal point, readable at feed size; warm lifestyle polish, not native UI."},
+"problem_awareness":{"score":11,"evidence":"headline is an identity callout ('the girl who wears her faith every day'); primary text first line 'You don't need to be loud about your faith.' names a quiet-believer tension without stating a pain."},
+"unique_mechanism":{"score":4,"evidence":"primary text: 'A simple black cord. A small silver cross. A quiet reminder of what matters most.' = feature and feeling only, no why."},
+"visual_proof":{"score":8,"evidence":"bracelet worn on a wrist in a real moment (coffee, open book); product visible and legible, no demo or result."},
+"friction_reduction":{"score":7,"evidence":"on-image footer 'just $5 · free shipping' plus primary text 'Just $5. Free shipping.'; no guarantee."},
+"cta":{"score":8,"evidence":"on-image offer line plus primary text '👇 Tap below and grab yours.'; Order Now button; single instruction with an incentive on one channel."},
+"total":51},
+"tier":"B",
+"filters":{
+"pattern_interrupt_1_5s":{"score":6,"rationale":"One huge identity headline and a clear product at the wrist land at first glance, but it is a familiar polished lifestyle layout with no anomaly."},
+"avatar_congruence":{"score":8,"rationale":"master_avatar_research.md § 1 A1 wants dhikr 'woven into the whole day' and discreet (Q22 'a discrete tool for tasbih which I can have all the time at work'; Q40 'passes as a regular ring'); A2 gift buyer wants a meaningful gift. 'Wear your faith quietly every day' hits both; Christian cross and girl-only are fixable in the port. Awareness: product-aware/gift, ours problem-aware."},
+"adaptability":{"score":9,"rationale":"Port: 'for the girl who wears her faith every day' -> 'for the one who keeps dhikr all day' (frame: for the [identity] who [daily act]). Port: cord bracelet on wrist -> ring on a hand beside a coffee cup and prayer mat or notebook. Port: 'just $5 · free shipping' footer -> real offer only ($49.99, free US shipping, 60-day trial). One Nano Banana render with the product PNG."}},
+"checklist_hits":[1,3,4,6,7],
+"green_flags":["HG3: identity callout readable at first glance","MG1: product worn in a real moment","CG2: free shipping stated on the image","MK3: one message: wear your faith quietly every day"],
+"red_flags":["MR1: feelings and features only, no why it works","HR1: no logo, but polished stock-lifestyle look rather than native"],
+"what_to_steal":[
+{"kind":"hook_line","type":"micro_callout","original":"for the girl who wears her faith every day","pattern":"for the [identity] who [daily faith act]","where":"headline, top-left, 4 lines","port":"for the one who keeps dhikr going all day"},
+{"kind":"visual_device","type":"other","original":"tight crop of the worn product on the wrist, cup and open book as props, text over the soft-focus sweater","pattern":"worn-product macro on a calm daily-life scene with text in the negative space","where":"whole image","port":"close-up of the ring on a hand holding a mug, prayer-time notes in soft focus"},
+{"kind":"structure_beat","type":"offer_stack","original":"identity headline -> product in life -> price + free shipping footer","pattern":"identity line / product in use / offer footer","where":"top / middle / bottom","port":"identity line / ring in use / real offer: $49.99 free US shipping, 60-day trial"},
+{"kind":"offer_device","type":"price_footer","original":"just $5 · free shipping","pattern":"small footer line with the price anchor and shipping","where":"bottom centre","port":"free US shipping · 60-day trial (our real terms; no sale price)"}],
+"port_idea":"9:16 or 1:1 static: macro of a hand wearing the black Dhikr Ring beside a mug and a small notebook, headline 'for the one who keeps dhikr going all day' in the same big serif, footer 'free US shipping · 60-day trial'. Our real offer only, no stars or counts.",
+"decision":"KEEP",
+"reason":"[needs hook rework] tier B with avatar_congruence 8 and adaptability 9: identity-callout layout with the offer on the image ports 1:1; the hook is familiar rather than a stopper. confidence: high (GetHookd winning, active 100 days)"}

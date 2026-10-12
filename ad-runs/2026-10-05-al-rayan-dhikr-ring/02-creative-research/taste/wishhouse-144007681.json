@@ -1,0 +1,21 @@
+{"id":"wishhouse-144007681","source":"gethookd","format":"video",
+"matrix":{
+"pattern_interrupt":{"score":10,"evidence":"0.0s t0000.00_hook.jpg: POV warehouse aisle, pallet of floral notebooks, a finger points at it by 1.0s; spoken [0.0-9.6] 'So if you're watching this video, you're so lucky...' (audio unheard) is a slow lead-in. Native look, no tension."},
+"problem_awareness":{"score":4,"evidence":"no pain in the video (transcript [0.0-9.6]); 'You start strong - then lose momentum after a week' exists only in the primary text."},
+"unique_mechanism":{"score":2,"evidence":"transcript: 'what's even better is the checkout mechanism on this exact link' = a purchase path, not a product mechanism."},
+"visual_proof":{"score":6,"evidence":"5-13s t0005.00_s.jpg-t0013.00_s.jpg: notebook on a blanket and on a coffee table, finger tapping the cover; never opened or used."},
+"friction_reduction":{"score":3,"evidence":"[9.7-12.4] 'let the coupon stack up and see for yourself'; no guarantee or shipping."},
+"cta":{"score":8,"evidence":"[9.7-12.4] 'Tap that orange cart, let the coupon stack up and see for yourself.' single spoken instruction with an incentive; no on-screen text."},
+"total":33},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":4,"rationale":"Warehouse-aisle POV is native but nothing is wrong or surprising in 0.0-1.5s; the first words are a slow 'if you're watching this video you're so lucky'."},
+"avatar_congruence":{"score":4,"rationale":"Consistency pain (master_avatar_research.md § Angles ANG7 'consistency > intensity') appears only in the primary text; the video is a store-shelf coupon spoof aimed at women buying a planner, with no VOC overlap with dhikr friction (Q21, Q29)."},
+"adaptability":{"score":5,"rationale":"Port: finger-taps-the-product POV -> finger taps the ring. Port: 'tap that cart, let the coupon stack' -> real offer only (60-day trial, free US shipping). The impersonated-store framing and coupon-stack claim must not be copied."}},
+"checklist_hits":[],
+"green_flags":["HG2: native handheld POV, not a polished commercial","CG1: one spoken instruction to tap the cart"],
+"red_flags":["HR2: slow, generic spoken lead-in (wording; audio unheard)","MR1: no benefit or pain tied to the product in the video","CR2: coupon-stack promise with no stated terms"],
+"what_to_steal":[],
+"port_idea":"",
+"decision":"REJECT",
+"reason":"tier Reject: store-shelf spoof with a generic opener, no pain or mechanism in the video. confidence: high (GetHookd winning, active 55 days)"}

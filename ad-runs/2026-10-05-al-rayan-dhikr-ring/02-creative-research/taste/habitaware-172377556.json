@@ -1,0 +1,22 @@
+{"id":"habitaware-172377556","source":"gethookd","format":"video",
+"matrix":{
+"pattern_interrupt":{"score":9,"evidence":"0.0s t0000.00_hook.jpg woman in pink tee points at overlay 'Manage hair pulling'; 1.5s cut to extreme close-up of wrist bracelet (t0002.00_hook.jpg). Text-led, no speech (transcript: no speech detected)."},
+"problem_awareness":{"score":12,"evidence":"0.0-5s overlay 'Manage hair pulling with the Keen2 smart bracelet!' then 'Keen2 vibrates when it detects your unwanted behavior' (t0003.50_hook.jpg); 6s 'hair pulling skin picking or nail biting'. Named behaviours, niche audience."},
+"unique_mechanism":{"score":14,"evidence":"t0003.50_hook.jpg-t0010.00_s.jpg: bracelet vibrates when it detects the hand-to-face behaviour -> 'To bring you the awareness that you need to redirect and take control'. Why it works is stated; no contrast with alternatives."},
+"visual_proof":{"score":12,"evidence":"3.5-7.0s woman at laptop raises hand to mouth, vibration icon on the wrist (t0005.00_s.jpg-t0006.00_s.jpg); 13-18s before/after photos (TRUTH-RISK)."},
+"friction_reduction":{"score":2,"evidence":"'Thousands sold Thousands helped' (t0012.00_s.jpg) is social proof, not objection handling; no guarantee or shipping."},
+"cta":{"score":3,"evidence":"no CTA in the video frames; primary text 'Visit the link in bio or habitaware.com'; Order Now button."},
+"total":52},
+"tier":"B",
+"filters":{
+"pattern_interrupt_1_5s":{"score":6,"rationale":"Pointing-at-text opener with a 'Manage hair pulling' callout in 0.0s frame and a fast cut to the wrist at 1.5s; text-only tension, no anomaly."},
+"avatar_congruence":{"score":3,"rationale":"Driver is managing a body-focused repetitive behaviour (hair pulling, skin picking). master_avatar_research.md § Pains/§ Desires are about dhikr friction (Q21 'loud clicker', Q29 'lost my count'), not a health condition. Only the vibrate-to-remind device overlaps."},
+"adaptability":{"score":6,"rationale":"Port: 'vibrates when it detects your unwanted behavior' -> '33/66/99 gentle pulse so you know where you are'. Port: hand-to-mouth demo -> tap on ring then pulse icon. Before/after photos and 'thousands helped' are TRUTH-RISK; substitute = product-in-use shot. Mental-health framing cannot be used."}},
+"checklist_hits":[3,4,5],
+"green_flags":["HG3: callout 'Manage hair pulling' in the 0.0s frame","MG1: product worn and triggering a vibration in real use","MG2: states why it works (awareness -> redirect)"],
+"red_flags":["CR1: no CTA in the video, link in text only","MR1: 'Thousands sold' + before/after block 12-18s is unsupported proof"],
+"what_to_steal":[
+{"kind":"visual_device","type":"product_demo","original":"vibration icon appears on the wrist the moment the hand reaches the mouth (3.5-7s)","pattern":"user does the trigger action, the worn device buzzes, icon shows on the wrist","where":"3.5-7.0s","port":"finger taps the ring, vibration icon at the 33rd count, hand stays on the keyboard"}],
+"port_idea":"",
+"decision":"REJECT",
+"reason":"filter floor: avatar. Behaviour-disorder mental-health framing does not map to the dhikr avatar; only the vibrate-to-notice device is harvestable. confidence: medium (GetHookd optimized, active 31 days)"}

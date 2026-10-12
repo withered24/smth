@@ -1,0 +1,53 @@
+{
+ "id": "whoop-107141009",
+ "source": "gethookd",
+ "scout": "p2-gh-vid",
+ "status": "rejected",
+ "reject_reason": "taste total 33 (Reject): polished 3D motion graphic, health claims; avatar_congruence 3",
+ "ad_url": "https://app.gethookd.ai/ads/107141009",
+ "brand": "WHOOP",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Not classified",
+ "query": "habit tracker",
+ "cross_niche": true,
+ "meta_ad_id": "2518024661974484",
+ "active_period": "116 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 116,
+ "primary_text": "See which habits drive your progress so you can optimize your routine, reduce stress, and improve your long-term health.",
+ "headline": "Customize your WHOOP",
+ "cta": "shop now",
+ "landing_page": "https://www.whoop.in/",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 14.2,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/whoop-107141009.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:56Z"
+}

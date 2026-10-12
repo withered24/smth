@@ -1,0 +1,58 @@
+{
+ "id": "ergosalah-71735717",
+ "source": "gethookd",
+ "scout": "p2-gh-vid",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/71735717",
+ "brand": "ErgoSalah",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Not classified",
+ "query": "muslim",
+ "cross_niche": false,
+ "meta_ad_id": "3992210841078291",
+ "active_period": "271 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 271,
+ "primary_text": "😖 Suffering from Knee Pain During Prayer?\nThe traditional prayer position can cause discomfort, especially for those with knee pain. Our ErgoSalah Prayer Mat is designed to support and relieve pressure on your knees, making every prayer comfortable.\n\nWhy choose Ergosalah?\n✔️ 2.8\"/8cm Memory Foam: Cushions knees, relieves pressure, and prevents pain.\n✔️ 0.6\"/1.5cm HD Foam: Prevents sagging over time\n✔️ Velvet Finish: Extra softness for head, hands, and feet.\n✔️ Non-Slip Base: Stays secure on any surface.\n✔️ The Worlds First ergonomic Prayer Mat For Adults struggling with kneepain and jointpain during sadjah.\n\n🙏 Experience relief with every prayer. \n👉 Limited availability—order now before it's gone with 40% off!",
+ "headline": "The perfect gift for your muslim parents",
+ "cta": "shop now",
+ "landing_page": "https://ergosalah.com/products/ergosalah-prayer-mat",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 12.1,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/ergosalah-71735717.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "What muslim think i sell: 🤢💀 / Vs... / What i actually sell.. 🥺☁️🎀",
+  "visual": "hand tosses a pillow onto a green prayer rug in frame 1, whip-blur reveal of the real plush mat, woman in hijab"
+ },
+ "angle": "what the community assumes vs what the product actually is (pain relief via contrast, identity humour)",
+ "structure": "community callout caption -> 'vs...' wrong-solution beat -> whip-blur product reveal -> one feature caption -> real-use demo (sujood) -> discount CTA",
+ "why_it_won": "[hypothesis] in-group meme caption on frame 1 reads as organic, same-room wrong-vs-right contrast explains the benefit in 3 s, real-use shot proves fit; winning tier, 271 days, sibling variant live",
+ "collected_at": "2026-10-05T13:42:23Z"
+}

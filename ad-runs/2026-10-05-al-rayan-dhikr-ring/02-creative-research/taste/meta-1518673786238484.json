@@ -1,0 +1,92 @@
+{
+ "id": "meta-1518673786238484",
+ "source": "meta_ad_library",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 15,
+   "evidence": "0.0s t0000.00_hook.jpg: hands fastening a gold bead bracelet, phone-shot, overlay 'Convincing my husband that I need a new TASBEEH for \"ASTAGHFAAR\"' present from 0.0s; native lo-fi, motion from frame 1. No speech (audio unheard)."
+  },
+  "problem_awareness": {
+   "score": 15,
+   "evidence": "Overlay (all frames 0.0-6.0s): 'Convincing my husband that I need a new TASBEEH for \"ASTAGHFAAR\"' = specific behaviour (istighfar counting) + identity (Muslim wife); primary text: 'Dhikr in the car, in the queue, between meetings.'"
+  },
+  "unique_mechanism": {
+   "score": 4,
+   "evidence": "No mechanism stated; only implied 'it's already on your wrist' (primary text). Beads counted by thumb in t0003.00-t0003.50_hook.jpg, never explained."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "t0001.00-t0004.50 frames: thumb slides beads in close-up, bracelet worn on wrist in t0004.50_hook.jpg and t0006.00_s.jpg; function visible but no result/count."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "Only ease implied in primary text ('in the car, in the queue, between meetings'); no guarantee, shipping or price."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "Platform 'Shop now' button + headline 'The Tasbih Bracelet' / 'Dhikr, wherever you are'; no spoken/on-screen CTA, no incentive."
+  },
+  "total": 50
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "0.0s frame is native motion (hands working a bracelet) and the confessional overlay is readable at 0.0s; tension is relatable rather than anomalous."
+  },
+  "avatar_congruence": {
+   "score": 9,
+   "rationale": "master_avatar_research.md § Avatar A1/Pains: 'phone apps drag them into social media', beads 'conspicuous / tangle' and Q22 'a discrete tool for tasbih which I can have all the time at work'. A Muslim woman justifying a new counting tool for astaghfar = our A1 (ANG1/ANG2); awareness matches stage 3."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: bracelet-on-wrist thumb-slide close-up -> our ring tap close-up (one hand, count display visible). Port: 'Convincing my husband...' overlay confession -> 'Convincing myself I do not need a new tasbih' style overlay in our VOC. 6s, 3-4 Kling clips; no fabricated proof. Their bracelet has no count display, ours does (stronger proof)."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "green_flags": [
+  "HG1: hands in motion at 0.0s (t0000.00_hook.jpg)",
+  "HG2: native phone-shot look, no logo until end",
+  "HG3: confession overlay readable from 0.0s",
+  "MG1: product in active use (thumb counting)"
+ ],
+ "red_flags": [
+  "MR1: no mechanism or benefit tied to the daily moment on screen",
+  "CR3: no CTA beyond platform button"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "micro_callout",
+   "original": "Convincing my husband that I need a new TASBEEH for \"ASTAGHFAAR\"",
+   "pattern": "Convincing [authority figure] that I need a new [tool] for [specific dhikr].",
+   "where": "overlay 0.0-6.0s",
+   "port": "Convincing myself the loud clicker has to go: I need something silent for my 1,000 istighfar."
+  },
+  {
+   "kind": "visual_device",
+   "type": "in_media_res",
+   "original": "hands fastening and counting a bracelet at 0.0s, phone-shot",
+   "pattern": "product being handled in frame 1, no intro",
+   "where": "0.0-3.5s hook frames",
+   "port": "one hand tapping the ring, display ticking up, desk/commute background"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "demo_proof_first",
+   "original": "overlay confession -> product handling -> worn on wrist reveal",
+   "pattern": "confession overlay -> tactile demo -> in-context wear",
+   "where": "0.0-6.4s",
+   "port": "confession -> tap demo -> ring worn beside work clothes -> end"
+  }
+ ],
+ "port_idea": "6-8s native clip for the ring: overlay confession in the avatar's voice in frame 1, close-up tap and count change, wrist-to-desk reveal that it looks like a normal ring. Real offer only on end card ($49.99, free US shipping, 60-day trial).",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: native confessional overlay and tactile demo, but no mechanism, no CTA or risk reversal. confidence: high (active 56 days, rank 13 of 26 by impressions)"
+}

@@ -1,0 +1,52 @@
+{
+ "id": "magnevaco-178051290",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "rejected",
+ "reject_reason": "tier B but filter floors: avatar 3 and adaptability 3; disease claims and immodest crop",
+ "ad_url": "https://app.gethookd.ai/ads/178051290",
+ "brand": "Magnevaco",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Not classified (magnetic wellness ring)",
+ "query": "ring",
+ "cross_niche": true,
+ "meta_ad_id": "1757050228872643",
+ "active_period": "17 days (last seen Sep 30, 2026)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 17,
+ "primary_text": "More than just a ring.\n\nMade for women who know the pattern all too well: migraine days, stressful weeks, short nights and a cycle with a mind of its own. Magneva stimulates an acupressure point on the finger to help lower stress and restore balance, naturally. You simply wear it – it works while you sleep.\n\n🤍 Try it for 90 days completely risk-free. Today 40% off + free shipping.",
+ "headline": "More than just a ring",
+ "cta": "Shop Now",
+ "landing_page": "https://magneva.co/pages/listicle5",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 2160,
+  "height": 2700,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/magnevaco-178051290.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T12:00:00Z"
+}

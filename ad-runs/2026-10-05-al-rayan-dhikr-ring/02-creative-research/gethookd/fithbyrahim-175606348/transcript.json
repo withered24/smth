@@ -1,0 +1,41 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\fithbyrahim-175606348\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.795,
+ "duration": 13.584,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.53,
+   "end": 2.99,
+   "text": "Keep on runnin' around",
+   "words": [
+    {
+     "start": 0.53,
+     "end": 0.83,
+     "word": "Keep",
+     "p": 0.064
+    },
+    {
+     "start": 0.83,
+     "end": 1.19,
+     "word": "on",
+     "p": 0.951
+    },
+    {
+     "start": 1.19,
+     "end": 2.29,
+     "word": "runnin'",
+     "p": 0.604
+    },
+    {
+     "start": 2.45,
+     "end": 2.99,
+     "word": "around",
+     "p": 0.928
+    }
+   ]
+  }
+ ]
+}

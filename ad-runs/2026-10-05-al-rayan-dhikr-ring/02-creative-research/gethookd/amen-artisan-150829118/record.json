@@ -1,0 +1,53 @@
+{
+ "id": "amen-artisan-150829118",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "rejected",
+ "reject_reason": "tier Reject (total 40): feature-led price-anchored product shot; no mechanism or pain",
+ "ad_url": "https://app.gethookd.ai/ads/150829118",
+ "brand": "Amen Artisan",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Other (Catholic rosaries)",
+ "query": "rosary",
+ "cross_niche": true,
+ "meta_ad_id": "2065096498215964",
+ "active_period": "46 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 46,
+ "primary_text": "Keep prayer close wherever the day takes you. 🙏\n\nThis compact one-decade rosary is made to stay close—whether you’re at home, on the road, at church, or simply taking a quiet moment to pray.\n\nMade with weighty brass beads, a St. Michael medal, and a St. Benedict crucifix.\n\nLimited-Time $9.99",
+ "headline": "Limited-Time $9.99 | A Pocket Rosary for Daily Prayer",
+ "cta": "Shop Now",
+ "landing_page": "https://amenartisan.com/collections/s0919",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1254,
+  "height": 1254,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/amen-artisan-150829118.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T12:00:00Z"
+}

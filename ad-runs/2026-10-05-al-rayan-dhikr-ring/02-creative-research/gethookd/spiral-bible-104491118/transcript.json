@@ -1,0 +1,326 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\spiral-bible-104491118\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.999,
+ "duration": 14.096,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.72,
+   "text": "If you ever wanted to read the Bible and you didn't know where to start, this book makes it so easy.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.46,
+     "word": "If",
+     "p": 0.753
+    },
+    {
+     "start": 0.46,
+     "end": 0.6,
+     "word": "you",
+     "p": 0.996
+    },
+    {
+     "start": 0.6,
+     "end": 0.76,
+     "word": "ever",
+     "p": 0.98
+    },
+    {
+     "start": 0.76,
+     "end": 1.02,
+     "word": "wanted",
+     "p": 0.966
+    },
+    {
+     "start": 1.02,
+     "end": 1.24,
+     "word": "to",
+     "p": 0.997
+    },
+    {
+     "start": 1.24,
+     "end": 1.38,
+     "word": "read",
+     "p": 0.996
+    },
+    {
+     "start": 1.38,
+     "end": 1.52,
+     "word": "the",
+     "p": 0.907
+    },
+    {
+     "start": 1.52,
+     "end": 1.82,
+     "word": "Bible",
+     "p": 0.949
+    },
+    {
+     "start": 1.82,
+     "end": 2.04,
+     "word": "and",
+     "p": 0.83
+    },
+    {
+     "start": 2.04,
+     "end": 2.16,
+     "word": "you",
+     "p": 0.931
+    },
+    {
+     "start": 2.16,
+     "end": 2.44,
+     "word": "didn't",
+     "p": 0.995
+    },
+    {
+     "start": 2.44,
+     "end": 2.54,
+     "word": "know",
+     "p": 0.999
+    },
+    {
+     "start": 2.54,
+     "end": 2.66,
+     "word": "where",
+     "p": 0.991
+    },
+    {
+     "start": 2.66,
+     "end": 2.78,
+     "word": "to",
+     "p": 0.996
+    },
+    {
+     "start": 2.78,
+     "end": 3.08,
+     "word": "start,",
+     "p": 0.999
+    },
+    {
+     "start": 3.26,
+     "end": 3.4,
+     "word": "this",
+     "p": 0.994
+    },
+    {
+     "start": 3.4,
+     "end": 3.62,
+     "word": "book",
+     "p": 0.996
+    },
+    {
+     "start": 3.62,
+     "end": 3.9,
+     "word": "makes",
+     "p": 0.996
+    },
+    {
+     "start": 3.9,
+     "end": 4.06,
+     "word": "it",
+     "p": 0.995
+    },
+    {
+     "start": 4.06,
+     "end": 4.32,
+     "word": "so",
+     "p": 0.997
+    },
+    {
+     "start": 4.32,
+     "end": 4.72,
+     "word": "easy.",
+     "p": 0.997
+    }
+   ]
+  },
+  {
+   "start": 4.94,
+   "end": 7.56,
+   "text": "It's laid out for you day by day all year long.",
+   "words": [
+    {
+     "start": 4.94,
+     "end": 5.08,
+     "word": "It's",
+     "p": 0.982
+    },
+    {
+     "start": 5.08,
+     "end": 5.26,
+     "word": "laid",
+     "p": 0.996
+    },
+    {
+     "start": 5.26,
+     "end": 5.46,
+     "word": "out",
+     "p": 0.993
+    },
+    {
+     "start": 5.46,
+     "end": 5.64,
+     "word": "for",
+     "p": 0.997
+    },
+    {
+     "start": 5.64,
+     "end": 5.88,
+     "word": "you",
+     "p": 0.999
+    },
+    {
+     "start": 5.88,
+     "end": 6.16,
+     "word": "day",
+     "p": 0.857
+    },
+    {
+     "start": 6.16,
+     "end": 6.34,
+     "word": "by",
+     "p": 0.804
+    },
+    {
+     "start": 6.34,
+     "end": 6.66,
+     "word": "day",
+     "p": 0.999
+    },
+    {
+     "start": 6.66,
+     "end": 7.12,
+     "word": "all",
+     "p": 0.721
+    },
+    {
+     "start": 7.12,
+     "end": 7.34,
+     "word": "year",
+     "p": 0.947
+    },
+    {
+     "start": 7.34,
+     "end": 7.56,
+     "word": "long.",
+     "p": 0.985
+    }
+   ]
+  },
+  {
+   "start": 7.58,
+   "end": 11.56,
+   "text": "It's beautiful, simple, and it makes staying consistent feel doable.",
+   "words": [
+    {
+     "start": 7.58,
+     "end": 7.82,
+     "word": "It's",
+     "p": 0.961
+    },
+    {
+     "start": 7.82,
+     "end": 8.14,
+     "word": "beautiful,",
+     "p": 0.999
+    },
+    {
+     "start": 8.4,
+     "end": 8.88,
+     "word": "simple,",
+     "p": 0.995
+    },
+    {
+     "start": 9.28,
+     "end": 9.34,
+     "word": "and",
+     "p": 0.995
+    },
+    {
+     "start": 9.34,
+     "end": 9.46,
+     "word": "it",
+     "p": 0.995
+    },
+    {
+     "start": 9.46,
+     "end": 9.7,
+     "word": "makes",
+     "p": 0.996
+    },
+    {
+     "start": 9.7,
+     "end": 10.18,
+     "word": "staying",
+     "p": 0.996
+    },
+    {
+     "start": 10.18,
+     "end": 10.78,
+     "word": "consistent",
+     "p": 0.998
+    },
+    {
+     "start": 10.78,
+     "end": 11.14,
+     "word": "feel",
+     "p": 0.993
+    },
+    {
+     "start": 11.14,
+     "end": 11.56,
+     "word": "doable.",
+     "p": 0.992
+    }
+   ]
+  },
+  {
+   "start": 12.08,
+   "end": 13.34,
+   "text": "I have it linked right here.",
+   "words": [
+    {
+     "start": 12.08,
+     "end": 12.22,
+     "word": "I",
+     "p": 0.998
+    },
+    {
+     "start": 12.22,
+     "end": 12.4,
+     "word": "have",
+     "p": 0.998
+    },
+    {
+     "start": 12.4,
+     "end": 12.5,
+     "word": "it",
+     "p": 0.944
+    },
+    {
+     "start": 12.5,
+     "end": 12.74,
+     "word": "linked",
+     "p": 0.997
+    },
+    {
+     "start": 12.74,
+     "end": 13.02,
+     "word": "right",
+     "p": 0.996
+    },
+    {
+     "start": 13.02,
+     "end": 13.34,
+     "word": "here.",
+     "p": 0.998
+    }
+   ]
+  }
+ ]
+}

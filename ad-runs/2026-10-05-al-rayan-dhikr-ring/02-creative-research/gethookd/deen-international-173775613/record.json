@@ -1,0 +1,59 @@
+{
+ "id": "deen-international-173775613",
+ "source": "gethookd",
+ "scout": "p2-gh-vid",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/173775613",
+ "brand": "Deen International",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Fashion",
+ "query": "muslim",
+ "cross_niche": true,
+ "meta_ad_id": "1653487649478248",
+ "active_period": "28 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 28,
+ "primary_text": "\"I've been waiting years for shorts like these.\" — Yusuf A. ★★★★★\n\n10,000+ Muslim men have made the switch to DEEN 2-in-1 Awrah Shorts — the only shorts built specifically to keep your awrah covered during sport, swim, and everyday life.\n\n✓ Navel-to-knee coverage that stays put\n✓ Lightweight, quick-dry, breathable\n✓ 4.9★ from 1000+ verified reviews\n✓ 8 colors — pick yours",
+ "headline": "4.7 ★ from 10,000+ Muslim brothers",
+ "cta": "shop now",
+ "landing_page": "https://deenintr.com/products/awrah-cover-swimming-short",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 29.9,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/deen-international-173775613.json",
+ "hook": {
+  "spoken": "Everybody ask the same three questions about our shorts.",
+  "on_screen": "EVERYBODY ASKS THE SAME THREE QUESTIONS ABOUT OUR SHORTS",
+  "visual": "man in park holds up green 2-in-1 shorts, friend moving behind him"
+ },
+ "angle": "objection-first: answer the three questions every buyer asks, each with a live demo (pain relief via reassurance)",
+ "structure": "N-questions hook -> Q1 stays in place + jog demo -> Q2 what it covers + pose -> Q3 only for sport? -> one-line close",
+ "why_it_won": "[hypothesis] numbered open loop pre-empts the buyer's objections in order, each answered by a physical demo; winning tier, 28 days active",
+ "collected_at": "2026-10-05T13:53:24Z"
+}

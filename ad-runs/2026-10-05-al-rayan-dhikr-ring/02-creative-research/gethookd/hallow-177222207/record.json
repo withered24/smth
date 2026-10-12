@@ -1,0 +1,53 @@
+{
+ "id": "hallow-177222207",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "rejected",
+ "reject_reason": "tier Reject: celebrity-dependent, no mechanism",
+ "ad_url": "https://app.gethookd.ai/ads/177222207",
+ "brand": "Hallow",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Not classified (prayer app)",
+ "query": "prayer",
+ "cross_niche": true,
+ "meta_ad_id": "1759065318708292",
+ "active_period": "22 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 22,
+ "primary_text": "Join millions of Christians in building a daily habit of prayer on Hallow, the #1 prayer app.",
+ "headline": "Try Hallow for Free",
+ "cta": "Learn More",
+ "landing_page": "https://try.hallow.com/21-days",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1080,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/hallow-177222207.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T12:00:00Z"
+}

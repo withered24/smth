@@ -1,0 +1,57 @@
+{
+ "id": "catholight-112275383",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "900x1200: styled product still life, no text on image."
+  },
+  "problem_awareness": {
+   "score": 5,
+   "evidence": "Soft faith reminder, no pain."
+  },
+  "unique_mechanism": {
+   "score": 3,
+   "evidence": "None."
+  },
+  "visual_proof": {
+   "score": 7,
+   "evidence": "Product beauty."
+  },
+  "friction_reduction": {
+   "score": 1,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "Shop Now."
+  },
+  "total": 26
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 3,
+   "rationale": "Pretty still-life, no hook text."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "Catholic devotional audience; no avatar-specific pain; only the 'keep faith close' sentiment overlaps."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Product-beauty structure ports but offers nothing beyond a generic still life."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR3: no hook",
+  "MR1: no mechanism"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: generic devotional product still life; avatar floor. confidence: high (GetHookd winning, active 113 days)"
+}

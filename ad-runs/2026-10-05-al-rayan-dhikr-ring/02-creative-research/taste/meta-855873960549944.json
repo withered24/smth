@@ -1,0 +1,61 @@
+{
+ "id": "meta-855873960549944",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 7,
+   "evidence": "Smiling woman in a bright room lifting her wrist to show a stacked blue/gold bead bracelet pair; face + product focal point, no on-image text."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "Primary 'Valentine's Day is right around the corner 💘 ... made for soulmates, besties, and kindred spirits' = occasion gifting, no pain."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "None ('Thoughtful. Meaningful. Easy to gift.')."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Bracelet set worn and displayed on wrist by a smiling model."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "'Easy to gift' only."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "'Shop now' + 'Shop the new collection now' in text."
+  },
+  "total": 32
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Friendly face and wrist display are a standard lifestyle shot; no text tension."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "master_avatar_research.md § ANG5 gift angle (Q25, Q35 'meaningful gift'); occasion is Valentine's, model is not the Muslim avatar."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: wrist-up lifestyle shot -> hand-up ring shot; gift-occasion copy -> Eid/Ramadan occasion. Nothing mechanism-bearing to steal."
+  }
+ },
+ "checklist_hits": [
+  4
+ ],
+ "green_flags": [
+  "HG2: lifestyle look"
+ ],
+ "red_flags": [
+  "HR3: no hook",
+  "MR1: no features"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject (32): occasion gift lifestyle shot, no hook/mechanism. confidence: high (active 256 days)"
+}

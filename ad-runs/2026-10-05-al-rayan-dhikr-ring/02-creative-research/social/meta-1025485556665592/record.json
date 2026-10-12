@@ -1,0 +1,57 @@
+{
+ "id": "meta-1025485556665592",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "tier Reject: packshot; 'Your jewelry should too' copy structure noted in patterns",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1025485556665592",
+ "brand": "Casual Carats",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "silicone ring",
+ "cross_niche": true,
+ "meta_ad_id": "1025485556665592",
+ "active_period": "Jun 4, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1025485556665592",
+ "started_running": "2026-06-04",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": true,
+  "result_rank": 11,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=silicone%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/casualcaratsjewelry/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 123,
+ "primary_text": "You work out. You travel. You live your life. Your jewelry should too. Casual Carats brings real diamonds and 14K gold to the gym, the pool, and everywhere in between. Find your ring.",
+ "headline": "Midnight Blue Sapphire Silicone Ring",
+ "cta": "Shop Now",
+ "landing_page": "https://casualcarats.com/products/midnight-blue-sapphire-silicone-ring",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1025485556665592.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "Navy silicone ring with sapphire on a white reflective floor; no text"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

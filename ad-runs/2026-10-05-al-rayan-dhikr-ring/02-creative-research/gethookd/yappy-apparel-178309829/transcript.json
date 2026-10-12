@@ -1,0 +1,494 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\yappy-apparel-178309829\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.998,
+ "duration": 20.087,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.05,
+   "end": 6.09,
+   "text": "These jappy key chains are so good guys take your daily Bible verse with you anytime on the go guys",
+   "words": [
+    {
+     "start": 0.05,
+     "end": 0.59,
+     "word": "These",
+     "p": 0.772
+    },
+    {
+     "start": 0.59,
+     "end": 0.91,
+     "word": "jappy",
+     "p": 0.307
+    },
+    {
+     "start": 0.91,
+     "end": 1.17,
+     "word": "key",
+     "p": 0.997
+    },
+    {
+     "start": 1.17,
+     "end": 1.49,
+     "word": "chains",
+     "p": 0.584
+    },
+    {
+     "start": 1.49,
+     "end": 1.77,
+     "word": "are",
+     "p": 0.999
+    },
+    {
+     "start": 1.77,
+     "end": 1.99,
+     "word": "so",
+     "p": 0.998
+    },
+    {
+     "start": 1.99,
+     "end": 2.27,
+     "word": "good",
+     "p": 0.999
+    },
+    {
+     "start": 2.27,
+     "end": 2.51,
+     "word": "guys",
+     "p": 0.9
+    },
+    {
+     "start": 2.51,
+     "end": 2.91,
+     "word": "take",
+     "p": 0.446
+    },
+    {
+     "start": 2.91,
+     "end": 3.07,
+     "word": "your",
+     "p": 0.998
+    },
+    {
+     "start": 3.07,
+     "end": 3.29,
+     "word": "daily",
+     "p": 0.976
+    },
+    {
+     "start": 3.29,
+     "end": 3.59,
+     "word": "Bible",
+     "p": 0.832
+    },
+    {
+     "start": 3.59,
+     "end": 3.85,
+     "word": "verse",
+     "p": 0.961
+    },
+    {
+     "start": 3.85,
+     "end": 4.13,
+     "word": "with",
+     "p": 0.998
+    },
+    {
+     "start": 4.13,
+     "end": 4.31,
+     "word": "you",
+     "p": 0.998
+    },
+    {
+     "start": 4.31,
+     "end": 4.77,
+     "word": "anytime",
+     "p": 0.796
+    },
+    {
+     "start": 4.77,
+     "end": 5.13,
+     "word": "on",
+     "p": 0.995
+    },
+    {
+     "start": 5.13,
+     "end": 5.27,
+     "word": "the",
+     "p": 0.984
+    },
+    {
+     "start": 5.27,
+     "end": 5.55,
+     "word": "go",
+     "p": 0.994
+    },
+    {
+     "start": 5.55,
+     "end": 6.09,
+     "word": "guys",
+     "p": 0.642
+    }
+   ]
+  },
+  {
+   "start": 6.09,
+   "end": 10.53,
+   "text": "It's so easy to use you're just gonna tap your phone right there to that little square",
+   "words": [
+    {
+     "start": 6.09,
+     "end": 6.37,
+     "word": "It's",
+     "p": 0.881
+    },
+    {
+     "start": 6.37,
+     "end": 6.59,
+     "word": "so",
+     "p": 0.999
+    },
+    {
+     "start": 6.59,
+     "end": 6.83,
+     "word": "easy",
+     "p": 1.0
+    },
+    {
+     "start": 6.83,
+     "end": 7.05,
+     "word": "to",
+     "p": 1.0
+    },
+    {
+     "start": 7.05,
+     "end": 7.39,
+     "word": "use",
+     "p": 0.999
+    },
+    {
+     "start": 7.39,
+     "end": 7.89,
+     "word": "you're",
+     "p": 0.758
+    },
+    {
+     "start": 7.89,
+     "end": 8.01,
+     "word": "just",
+     "p": 0.998
+    },
+    {
+     "start": 8.01,
+     "end": 8.21,
+     "word": "gonna",
+     "p": 0.702
+    },
+    {
+     "start": 8.21,
+     "end": 8.53,
+     "word": "tap",
+     "p": 0.97
+    },
+    {
+     "start": 8.53,
+     "end": 8.75,
+     "word": "your",
+     "p": 0.997
+    },
+    {
+     "start": 8.75,
+     "end": 9.05,
+     "word": "phone",
+     "p": 0.999
+    },
+    {
+     "start": 9.05,
+     "end": 9.41,
+     "word": "right",
+     "p": 0.959
+    },
+    {
+     "start": 9.41,
+     "end": 9.69,
+     "word": "there",
+     "p": 0.993
+    },
+    {
+     "start": 9.69,
+     "end": 9.85,
+     "word": "to",
+     "p": 0.971
+    },
+    {
+     "start": 9.85,
+     "end": 10.01,
+     "word": "that",
+     "p": 0.999
+    },
+    {
+     "start": 10.01,
+     "end": 10.23,
+     "word": "little",
+     "p": 0.998
+    },
+    {
+     "start": 10.23,
+     "end": 10.53,
+     "word": "square",
+     "p": 0.993
+    }
+   ]
+  },
+  {
+   "start": 10.53,
+   "end": 15.47,
+   "text": "And then your Bible verse is gonna pop up you even have the option of reading the whole chapter guys",
+   "words": [
+    {
+     "start": 10.53,
+     "end": 10.87,
+     "word": "And",
+     "p": 0.406
+    },
+    {
+     "start": 10.87,
+     "end": 11.03,
+     "word": "then",
+     "p": 0.999
+    },
+    {
+     "start": 11.03,
+     "end": 11.23,
+     "word": "your",
+     "p": 0.992
+    },
+    {
+     "start": 11.23,
+     "end": 11.51,
+     "word": "Bible",
+     "p": 0.898
+    },
+    {
+     "start": 11.51,
+     "end": 11.77,
+     "word": "verse",
+     "p": 0.961
+    },
+    {
+     "start": 11.77,
+     "end": 11.93,
+     "word": "is",
+     "p": 0.988
+    },
+    {
+     "start": 11.93,
+     "end": 12.07,
+     "word": "gonna",
+     "p": 0.868
+    },
+    {
+     "start": 12.07,
+     "end": 12.33,
+     "word": "pop",
+     "p": 0.984
+    },
+    {
+     "start": 12.33,
+     "end": 12.61,
+     "word": "up",
+     "p": 0.993
+    },
+    {
+     "start": 12.61,
+     "end": 13.01,
+     "word": "you",
+     "p": 0.57
+    },
+    {
+     "start": 13.01,
+     "end": 13.23,
+     "word": "even",
+     "p": 0.997
+    },
+    {
+     "start": 13.23,
+     "end": 13.41,
+     "word": "have",
+     "p": 0.999
+    },
+    {
+     "start": 13.41,
+     "end": 13.51,
+     "word": "the",
+     "p": 0.998
+    },
+    {
+     "start": 13.51,
+     "end": 13.75,
+     "word": "option",
+     "p": 0.999
+    },
+    {
+     "start": 13.75,
+     "end": 13.95,
+     "word": "of",
+     "p": 0.997
+    },
+    {
+     "start": 13.95,
+     "end": 14.11,
+     "word": "reading",
+     "p": 0.999
+    },
+    {
+     "start": 14.11,
+     "end": 14.29,
+     "word": "the",
+     "p": 0.991
+    },
+    {
+     "start": 14.29,
+     "end": 14.43,
+     "word": "whole",
+     "p": 0.998
+    },
+    {
+     "start": 14.43,
+     "end": 14.83,
+     "word": "chapter",
+     "p": 0.939
+    },
+    {
+     "start": 14.83,
+     "end": 15.47,
+     "word": "guys",
+     "p": 0.69
+    }
+   ]
+  },
+  {
+   "start": 15.47,
+   "end": 19.73,
+   "text": "These come in so many different designs. These are so cute. Check them out. I'm gonna link these below",
+   "words": [
+    {
+     "start": 15.47,
+     "end": 15.67,
+     "word": "These",
+     "p": 0.521
+    },
+    {
+     "start": 15.67,
+     "end": 15.85,
+     "word": "come",
+     "p": 0.877
+    },
+    {
+     "start": 15.85,
+     "end": 15.97,
+     "word": "in",
+     "p": 0.993
+    },
+    {
+     "start": 15.97,
+     "end": 16.13,
+     "word": "so",
+     "p": 0.999
+    },
+    {
+     "start": 16.13,
+     "end": 16.31,
+     "word": "many",
+     "p": 0.999
+    },
+    {
+     "start": 16.31,
+     "end": 16.63,
+     "word": "different",
+     "p": 0.999
+    },
+    {
+     "start": 16.63,
+     "end": 16.99,
+     "word": "designs.",
+     "p": 0.996
+    },
+    {
+     "start": 17.11,
+     "end": 17.27,
+     "word": "These",
+     "p": 0.998
+    },
+    {
+     "start": 17.27,
+     "end": 17.43,
+     "word": "are",
+     "p": 1.0
+    },
+    {
+     "start": 17.43,
+     "end": 17.63,
+     "word": "so",
+     "p": 0.999
+    },
+    {
+     "start": 17.63,
+     "end": 17.93,
+     "word": "cute.",
+     "p": 0.999
+    },
+    {
+     "start": 17.99,
+     "end": 18.21,
+     "word": "Check",
+     "p": 0.998
+    },
+    {
+     "start": 18.21,
+     "end": 18.41,
+     "word": "them",
+     "p": 1.0
+    },
+    {
+     "start": 18.41,
+     "end": 18.61,
+     "word": "out.",
+     "p": 0.999
+    },
+    {
+     "start": 18.67,
+     "end": 18.89,
+     "word": "I'm",
+     "p": 1.0
+    },
+    {
+     "start": 18.89,
+     "end": 19.01,
+     "word": "gonna",
+     "p": 0.961
+    },
+    {
+     "start": 19.01,
+     "end": 19.23,
+     "word": "link",
+     "p": 0.997
+    },
+    {
+     "start": 19.23,
+     "end": 19.45,
+     "word": "these",
+     "p": 0.995
+    },
+    {
+     "start": 19.45,
+     "end": 19.73,
+     "word": "below",
+     "p": 0.998
+    }
+   ]
+  }
+ ]
+}

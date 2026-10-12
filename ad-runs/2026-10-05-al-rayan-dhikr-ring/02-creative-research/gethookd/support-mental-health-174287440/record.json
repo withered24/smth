@@ -1,0 +1,58 @@
+{
+ "id": "support-mental-health-174287440",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "tier Reject 40; charity-funding mechanism not portable, avatar 4 adaptability 4",
+ "ad_url": "https://app.gethookd.ai/ads/174287440",
+ "brand": "Support Mental Health (Hoodies for Heroes)",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Fashion (cross-niche: meaningful reminder apparel)",
+ "query": "mindfulness reminder (cross-niche)",
+ "cross_niche": true,
+ "meta_ad_id": "1379449940835300",
+ "active_period": "29 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 29,
+ "primary_text": "Someone reads the back while you're standing in line. Storms Don't Last. You wear the reminder, and it gets to go places you never planned for it to go. Carry the words with you.",
+ "headline": "A Reminder for Cloudy Days",
+ "cta": "Shop Now",
+ "landing_page": "https://hoodiesforheroes.shop/products/cloudy-days-hoodie",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1080,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/support-mental-health-174287440.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "A hoodie can't reach everyone who needs help. The counseling it helps fund can.",
+  "visual": "hoodie front/back flat-lay"
+ },
+ "angle": "",
+ "structure": "",
+ "why_it_won": "",
+ "collected_at": "2026-10-05T14:00:22Z"
+}

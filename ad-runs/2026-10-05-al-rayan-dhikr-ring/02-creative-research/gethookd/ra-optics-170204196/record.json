@@ -1,0 +1,55 @@
+{
+ "id": "ra-optics-170204196",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "Taste total 53 (tier B); avatar_congruence 4 (sleep-glasses science comparison, stats are all truth-risk) fails the floor",
+ "ad_url": "https://app.gethookd.ai/ads/170204196",
+ "brand": "Ra Optics",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Health/Wellness",
+ "query": "ring",
+ "cross_niche": true,
+ "meta_ad_id": "2152976982315690",
+ "active_period": "34 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 34,
+ "primary_text": "Your ring already told you the clear-lens glasses didn't work. It just didn't tell you why. Filtering visible light means the lens has to have color. Ra's Sunset lens is amber because that's the wavelength it's built to catch. 4.9 stars from 1,847 reviews.",
+ "headline": "Your ring knew first.",
+ "cta": "Shop Now",
+ "landing_page": "https://raoptics.com/collections/glasses",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1080,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/ra-optics-170204196.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "CLEAR LENSES BLOCK 10%. YOUR SLEEP SCORE KNOWS.",
+  "visual": "two-column generic vs brand comparison graphic, glasses side by side"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:45:16Z"
+}

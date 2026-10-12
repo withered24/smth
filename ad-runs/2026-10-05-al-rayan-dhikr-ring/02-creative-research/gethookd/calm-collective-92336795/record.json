@@ -1,0 +1,54 @@
+{
+ "id": "calm-collective-92336795",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/92336795",
+ "brand": "Calm Collective",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "fidget ring / calm",
+ "cross_niche": true,
+ "meta_ad_id": "960042889741525",
+ "active_period": "175 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 175,
+ "primary_text": "Get one for you and your bestie! Fidget Jewellery that's tarnish-free, heat-proof, and designed to calm your mind... 💍\n\nShop our fidget ring deal, plus free UK shipping for this month only 💖\n\nShop now >> calmcollectiveco.com/collections/anxiety-relief-rings",
+ "headline": "Calm Collective Fidget Rings 😍",
+ "cta": "Shop Now",
+ "landing_page": "https://calmcollectiveco.com/collections/anxiety-relief-rings",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1080,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/calm-collective-92336795.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "A skin picker?",
+  "visual": "six fidget rings levitating in a stack on a beige stone, navy bar at bottom"
+ },
+ "angle": "calm-down ring for an anxious hand habit: instant relief, waterproof, lifetime guarantee",
+ "structure": "micro-callout -> levitating product hero -> dotted-leader benefit list -> free-shipping bar",
+ "why_it_won": "a specific callout the avatar recognises in 1s, a clean hero stack and a scannable benefit list; ran 175 days at winning tier (hypothesis)",
+ "collected_at": "2026-10-05T20:30:00Z"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "dusq-by-innergize-172605956",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 10,
+   "evidence": "2160x2700: 'Meet Dusq / For brains that won't switch off.' + product in hand + three stat bars (31%, 38%, 22%)."
+  },
+  "problem_awareness": {
+   "score": 10,
+   "evidence": "Sleep-tracker fatigue; avatar is a sleepless professional."
+  },
+  "unique_mechanism": {
+   "score": 11,
+   "evidence": "'Fixes your sleep while it's happening' vs tracker report card = contrast."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Product in hand, stats."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "'$20 reserves yours now' only."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "'Learn More', $20 deposit."
+  },
+  "total": 50
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "'Meet Dusq' product-reveal template with stat bars; the better hook ('Not a tracker. Not a pill.') is only in the headline field."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "Wearable that removes a tracking chore echoes master_avatar_research.md § Pains 'phone -> social-media rabbit hole' only loosely; avatar is sleep-deprived professionals, imagery is a cold tech product."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: 'Not a tracker. Not a pill.' -> 'Not a clicker. Not an app.'; 'report card you never asked for' -> 'a guilt app you never asked for'. But proof is three study-style stats (31%/38%/22%) = TRUTH-RISK and the tone is cold-tech."
+  }
+ },
+ "checklist_hits": [
+  3,
+  5
+ ],
+ "green_flags": [
+  "MK3: one message - the wearable works while you do nothing"
+ ],
+ "red_flags": [
+  "MR1: stat-led proof we cannot copy",
+  "HR1: 'Meet X' brand-reveal opening"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier B but avatar_congruence 5 and adaptability 6 miss the B-keep bar; stat-dependent. confidence: high (GetHookd winning, active 32 days)"
+}

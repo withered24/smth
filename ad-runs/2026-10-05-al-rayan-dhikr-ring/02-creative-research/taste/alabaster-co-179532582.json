@@ -1,0 +1,21 @@
+{"id":"alabaster-co-179532582","source":"gethookd","format":"video",
+"matrix":{
+"pattern_interrupt":{"score":11,"evidence":"0.0s t0000.00_hook.jpg: coastal-road dashcam shot, centred text 'God stopped you here because he knew you were struggling to read the Bible' held 0-5s; the claim is a pull but the image is static and the text is long."},
+"problem_awareness":{"score":10,"evidence":"hook text names the struggle to read the Bible; frame t0007.00_s.jpg 'theres now a simple devotional version' follows. Generic believer, no specific moment."},
+"unique_mechanism":{"score":4,"evidence":"t0010.00_s.jpg 'it's so much easier to understand'; primary text 'one verse a day, explained in plain language' is the only why; not shown on screen."},
+"visual_proof":{"score":8,"evidence":"6-9s t0006.03_cut.jpg: open book page held up on a beach path; the product is visible, no result demonstrated."},
+"friction_reduction":{"score":3,"evidence":"primary text 'takes less than a minute'; no guarantee, shipping or price in the video."},
+"cta":{"score":2,"evidence":"no spoken or on-screen CTA in the 11.8s video; Shop Now button only."},
+"total":38},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":5,"rationale":"A long text block over a static road shot; no motion or product in the first 5s."},
+"avatar_congruence":{"score":5,"rationale":"master_avatar_research.md: A1 wants a discreet all-day dhikr tool; this sells a Bible devotional book, and the hook rests on a Christian providence claim ('God stopped you here') that does not carry over."},
+"adaptability":{"score":6,"rationale":"Port: text-over-scenic-road hook is easy to shoot, but the faith-claim hook cannot be reused and the second half is a book flip with no mechanism to replace with the ring."}},
+"checklist_hits":[3],
+"green_flags":["MG1: product shown in hand in a real setting"],
+"red_flags":["HR2: long static text hook, no motion","CR1: no call to action in the video","MR1: benefit asserted, not shown","FAITH_CLAIM: 'God stopped you here because he knew you were struggling' is a divine-intent claim; do not copy"],
+"what_to_steal":[],
+"port_idea":"None kept.",
+"decision":"REJECT",
+"reason":"Tier Reject (38): static text hook, no CTA or mechanism; avatar_congruence 5 and divine-intent faith claim. confidence: high"}

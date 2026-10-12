@@ -1,0 +1,53 @@
+{
+ "id": "dusq-by-innergize-172605956",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "rejected",
+ "reject_reason": "tier B but avatar_congruence 5 and adaptability 6 miss the B-keep bar; stat-dependent",
+ "ad_url": "https://app.gethookd.ai/ads/172605956",
+ "brand": "DUSQ by InnerGize",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "messenger",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Tech",
+ "query": "tracker (cross-niche wearables)",
+ "cross_niche": true,
+ "meta_ad_id": "2574333006419742",
+ "active_period": "32 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 32,
+ "primary_text": "Your sleep tracker tells you what went wrong. Every morning. Like a report card you never asked for.\n\nDUSQ is the first wearable that fixes your sleep while it's happening. You wear it. You sleep. You do nothing.\n\n$20 reserves yours now!",
+ "headline": "Not a tracker. Not a pill. Something new.",
+ "cta": "Learn More",
+ "landing_page": "http://dusq.com/pages/p0-sleep-science",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 2160,
+  "height": 2700,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/dusq-by-innergize-172605956.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T12:00:00Z"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "meta-1549115429718810",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://www.facebook.com/ads/library/?id=1549115429718810",
+ "brand": "Carbinox",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "smartwatch / durable wearables",
+ "query": "smartwatch",
+ "cross_niche": true,
+ "meta_ad_id": "1549115429718810",
+ "active_period": "Feb 6, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1549115429718810",
+ "started_running": "2026-02-06",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 6,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=smartwatch&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/carbinoxco/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 241,
+ "primary_text": "Your current smartwatch sucks. Get yourself the most durable ever built for 1/3 of the price you paid for yours, plus Lifetime Warranty.",
+ "headline": "Save Up To $150 Today",
+ "cta": "Shop now",
+ "landing_page": "https://shopcarbinox.com/products/carbinox-blaze",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 338,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/meta-1549115429718810.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "RETIRE THIS SH*T / Get a smartwatch that's actually covered for life.",
+  "visual": "cracked-screen old watch vs smoke-black new watch split, dark carbon bg"
+ },
+ "angle": "old products fail, ours is covered for life",
+ "structure": "headline -> split contrast -> guarantee seal -> offer bar -> CTA button",
+ "why_it_won": "Single ad, 241 days running, impressions rank 6 for 'smartwatch'; hypothesis: blunt negative-framing headline plus visible contrast and guarantee seal.",
+ "collected_at": "2026-10-05T16:30:00Z"
+}

@@ -1,0 +1,89 @@
+{
+ "id": "nimah-172387899",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 14,
+   "evidence": "Static 1080x1350: macro of two crossed wrists, gold tasbih bracelet with arrow label 'Tasbih bracelet', headline 'Share in her dhikr.' mid-left; one glance reads gift + dhikr, calm editorial not anomalous."
+  },
+  "problem_awareness": {
+   "score": 13,
+   "evidence": "Primary text first line 'I gave my sister a tasbih bracelet for Eid.' names the gift-giver situation (A2) but no pain; headline 'Share In Her Dhikr.' is the benefit."
+  },
+  "unique_mechanism": {
+   "score": 10,
+   "evidence": "Mechanism is a faith claim: 'Every time she runs through her dhikr on it, the reward reaches me too.' (weak, unverifiable, we cannot use)."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Product on wrist with arrow callout 'Tasbih bracelet'; worn, no result shown."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "No guarantee/shipping/objection handling anywhere in image or text."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "Only 'shop now' button, no incentive."
+  },
+  "total": 52
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Calm premium macro with big white headline 'Share in her dhikr.' readable in one glance; no anomaly or native-UI device; copy is short but vague, so capped at 6 per Mark's copy-weighting."
+  },
+  "avatar_congruence": {
+   "score": 9,
+   "rationale": "master_avatar_research.md § Avatars A2: 'The meaningful-gift buyer... Wants a gift that is beautiful, practical and spiritually meaningful'; § VOC Q25 'meaningful gift' and Q35 'turn-key gift for my revert friend'. Same Western Muslim gift buyer, same dhikr vocabulary, awareness solution-aware like ANG5."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: arrow label 'Tasbih bracelet' -> arrow label 'Dhikr ring' on a wrist/hand macro. Port: gift-giver first-person frame 'I gave my sister...' -> 'I gave my husband a ring that counts his dhikr' (A2, ANG5). Their reward-reaches-me claim is a faith claim we must not copy (offer_brief verified sources only); replace with the truthful gift utility. Single render with product PNG as reference."
+  }
+ },
+ "checklist_hits": [
+  1,
+  3,
+  4
+ ],
+ "green_flags": [
+  "HG2: premium organic-looking editorial macro, no logo dominance (media.jpg)",
+  "MG1: product worn on wrist with arrow callout (media.jpg)"
+ ],
+ "red_flags": [
+  "CR3: soft close, only 'shop now' button",
+  "MR1: no benefit tied to daily use, relies on a faith claim"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "statement",
+   "original": "Share In Her Dhikr.",
+   "pattern": "Share in [her/his] [practice].",
+   "where": "headline, left-middle of image",
+   "port": "Share in his dhikr. (gift for a husband/brother who counts all day)"
+  },
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "Arrow + plain label 'Tasbih bracelet' pointing at the worn product on a wrist macro, soft side light, white sleeve",
+   "pattern": "Worn-product macro + thin arrow + plain label",
+   "where": "upper-left wrist, y 25-35%",
+   "port": "Macro of a hand with the Al Rayan ring and a thin arrow labelled 'Dhikr ring'"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "other",
+   "original": "gift story in first person -> what the recipient does with it daily -> 'I buy two now'",
+   "pattern": "I gave [person] [product] for [occasion]. -> [daily use] -> [why I buy another]",
+   "where": "primary text",
+   "port": "I gave my brother a ring for Eid. Now he counts istighfar in traffic without his phone."
+  }
+ ],
+ "port_idea": "Square or 4:5 static: close wrist/hand macro of the black or rose-gold ring with a thin arrow labelled 'Dhikr ring', large sans headline 'Share in his dhikr.' and a short first-person gift story in the primary text (no reward claims). Real offer only: $49.99, free US shipping, 60-day trial.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: gift framing and premium macro are on-avatar and portable, but the hook is soft and the mechanism is an unusable faith claim. confidence: medium (GetHookd optimized, active 31 days)"
+}

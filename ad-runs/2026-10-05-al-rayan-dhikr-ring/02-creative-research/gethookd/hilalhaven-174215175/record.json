@@ -1,0 +1,53 @@
+{
+ "id": "hilalhaven-174215175",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "rejected",
+ "reject_reason": "tier Reject: offer-led collage with a fake-feeling price anchor and no mechanism; adaptability floor",
+ "ad_url": "https://app.gethookd.ai/ads/174215175",
+ "brand": "HilalHaven",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "islamic",
+ "cross_niche": false,
+ "meta_ad_id": "1726202001945518",
+ "active_period": "27 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 27,
+ "primary_text": "☪️ FREE TODAY!! — Faith-Inspired Favorites ✨\n🙏 Meaningful Islamic jewelry & home decor designed to bring faith, peace, and beauty into everyday life.\n💍 Rings • 📿 Prayer Beads • 🚗 Car Pendants • 🏡 Wall Decor & More\n🔥 BUY 2 GET 1 FREE — Code: B3\n📦 Free Shipping $79.99+\n🎁 Find a meaningful piece you'll cherish.",
+ "headline": "🔥SHOP NOW🔥",
+ "cta": "Shop Now",
+ "landing_page": "https://hilalhaven.com/collections/free-today-your-islamic-gift",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1080,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/hilalhaven-174215175.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T12:00:00Z"
+}

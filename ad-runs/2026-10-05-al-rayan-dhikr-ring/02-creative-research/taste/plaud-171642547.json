@@ -1,0 +1,72 @@
+{
+ "id": "plaud-171642547",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 15,
+   "evidence": "Glance: giant pale-grey '2,99mm' number behind a razor-thin product edge with red dimension arrow, above a phone side profile; striking spec scale, not native."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "No pain or audience; 'world's most advanced AI note taker' is a claim."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "Thinness is the only proof; no why."
+  },
+  "visual_proof": {
+   "score": 11,
+   "evidence": "Product vs phone side view proves the size claim visually."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "'Consent first' footer only."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "No CTA on image; Shop Now button."
+  },
+  "total": 46
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "Oversized numeral + thin edge reads in one glance; the visual device is strong, words are a generic superlative."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "Meeting-notes AI recorder for professionals; no overlap with master_avatar_research.md pains; 'recording' conflicts with silent/discreet dhikr."
+  },
+  "adaptability": {
+   "score": 7,
+   "rationale": "Port: giant spec numeral over product -> giant '33' or '1 TAP' over our ring macro. 'World's most advanced' is a claim we cannot make."
+  }
+ },
+ "checklist_hits": [
+  1,
+  4
+ ],
+ "green_flags": [
+  "HG1: oversized-number anomaly at first glance",
+  "MG1: size comparison proof"
+ ],
+ "red_flags": [
+  "HR3: vague superlative headline",
+  "CR3: no on-image CTA"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "visual_device",
+   "type": "visual_anomaly",
+   "original": "giant light-grey '2,99mm' numeral behind a razor-thin product with red dimension arrow",
+   "pattern": "giant spec numeral + product edge + dimension marker",
+   "where": "upper 55% of frame",
+   "port": "giant '33' pulse count behind the ring macro, arrow to the count display"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar: AI meeting recorder has no overlap with dhikr pains; no pain, no CTA (device is harvestable). confidence: medium (GetHookd optimized, 33 days, 4 ads use it)"
+}

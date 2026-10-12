@@ -1,0 +1,57 @@
+{
+ "id": "meta-1580472540526104",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://www.facebook.com/ads/library/?id=1580472540526104",
+ "brand": "Qamar Jewelry",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "Muslim faith jewellery (monthly reminder box)",
+ "query": "faith bracelet",
+ "cross_niche": false,
+ "meta_ad_id": "1580472540526104",
+ "active_period": "Sep 2, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1580472540526104",
+ "started_running": "2026-09-02",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 18,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=faith%20bracelet&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/61582619106441/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 33,
+ "primary_text": "I never stopped believing.\nI just didn’t realize how easy it had become to go through an entire day without really pausing.\n\nWork. Family. Messages. Responsibilities.\nThere was always something that needed my attention.\nAnd my faith was still there. Of course it was.\nI still made dua.\nI still said Alhamdulillah.\nI still cared deeply about staying close to Allah.\nBut some days moved so quickly that I would get to the end of them and realize I hadn’t really stopped for a moment.\nNot because my faith mattered less.\nLife had just gotten louder.\nAnd I don’t think I’m the only woman who feels that way.\nThat’s why I loved the idea behind Qamar’s Monthly Reminder Box.\nNot because jewelry can somehow make you more faithful.\nIt can’t.\nBut because something small that you see and wear every day can become a moment to pause.\nA moment to remember what matters.\nEach month, a new exclusive Qamar piece arrives at your door.\nSomething beautiful to wear, but with a little more meaning behind it.\nAnd every box also donates a meal to a family in Palestine through ShareTheMeal.\nSo every month there’s something for you to keep close, and something given to someone else.\nMaybe it’s a necklace you notice before leaving the house.\nMaybe it’s a bracelet you look down at in the middle of a busy afternoon.\nMaybe it simply reminds you to slow down for a second.\nThat’s the point.\nNot more noise.\nJust a quiet reminder.\nIf this feeling sounds familiar, you’ll understand exactly why Qamar created this.\nSee the Monthly Reminder Box below.",
+ "headline": "When Life Gets Loud, Keep Faith Close",
+ "cta": "Shop now",
+ "landing_page": "https://qamar-jewelry.com/pages/faith-mystery-box",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/meta-1580472540526104.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "hijabi woman in a taupe headscarf resting chin on hand, gazing out a dusk window beside laptop, phone and bag"
+ },
+ "angle": "faith never left, the daily pause did: a small worn object as a quiet reminder in a loud life",
+ "structure": "first-person confession -> proof of faith -> reframe (life got louder, not faith) -> small worn object = a pause -> quiet-reminder CTA",
+ "why_it_won": "Hypothesis (33 days only): micro-targeted Muslim-woman confession in the first 2 lines, honest anti-claim ('jewelry can't make you more faithful') builds trust; native mood photo reads as organic",
+ "collected_at": "2026-10-05T13:50:00Z"
+}

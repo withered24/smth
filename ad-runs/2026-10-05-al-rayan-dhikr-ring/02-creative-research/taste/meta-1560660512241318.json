@@ -1,0 +1,93 @@
+{
+ "id": "meta-1560660512241318",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 13,
+   "evidence": "Asymmetric 3-panel collage: large panel smiling woman in ski goggles raising hand with a glowing teal ring; right panels glowing ring in dark, hand touching water. No overlay text."
+  },
+  "problem_awareness": {
+   "score": 8,
+   "evidence": "Pain not stated; desire only: 'A daily reminder that radiates positivity... stay humble, grateful, and present' (primary text line 1)."
+  },
+  "unique_mechanism": {
+   "score": 12,
+   "evidence": "'hybrid silicone rings absorb light and glow softly throughout the day' = clear mechanism, no contrast with alternatives."
+  },
+  "visual_proof": {
+   "score": 11,
+   "evidence": "Ring visible and in use in three environments (snow, dark room, water); result (glow) visible."
+  },
+  "friction_reduction": {
+   "score": 6,
+   "evidence": "'Wear 24/7 worry free' + 'Built for work, workouts & adventure'; free shipping only at 3+ rings."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "Copy: 'Treat yourself or gift someone special today. Buy 2 and save 10%...'; no on-image CTA, no button text captured."
+  },
+  "total": 58
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Striking glow-in-dark macro and joyful face are scroll-stopping, but the image carries zero words; per Mark, vague words cap a striking visual at 6."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "avatar_congruence: 'daily reminder' ring maps to master_avatar_research.md Desires (dhikr woven into the day); VOC Q22: 'a discrete tool for tasbih which I can have all the time at work'; Q09 remembering Him is worth the effort. Visual world (ski, woman's face) off but fixable with hands-only frames."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'daily reminder ring' -> 'daily dhikr ring'; 3-panel life collage (ski/dark/water) -> 3 hands-only contexts (desk, steering wheel, prayer mat) with ring display glowing; 'Wear 24/7 worry free' -> IP67 splash-proof only (never 100% waterproof, offer_brief.md); charity line dropped (not ours). Offer = real free US shipping + 60-day trial."
+  }
+ },
+ "checklist_hits": [
+  1,
+  4,
+  5,
+  6,
+  7
+ ],
+ "green_flags": [
+  "HG1: glow macro at first glance",
+  "MG1: ring in active use, 3 environments",
+  "MG2: light-absorbing glow mechanism",
+  "CG2: bundle + free shipping"
+ ],
+ "red_flags": [
+  "HR3: image has no words; hook only in primary text",
+  "CR2: tiered bundle discounts complicate the offer"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "statement",
+   "original": "More than a ring. A daily reminder that radiates positivity.",
+   "pattern": "More than a [object]. A daily reminder that [feeling].",
+   "where": "primary text line 1",
+   "port": "More than a ring. A quiet reminder to keep your tongue moist with dhikr."
+  },
+  {
+   "kind": "visual_device",
+   "type": "other",
+   "original": "asymmetric 3-panel hand collage, one large joyful panel + two glow macro panels",
+   "pattern": "hero panel + two macro-context panels",
+   "where": "whole image",
+   "port": "hands-only collage: desk, steering wheel, prayer mat; display lit in the dark panel"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "mechanism_reveal",
+   "original": "reminder promise -> glow mechanism -> check-list of 3 benefits -> bundle offer",
+   "pattern": "emotional promise -> mechanism -> 3 check bullets -> offer",
+   "where": "primary text",
+   "port": "reminder promise -> silent tap + 33/66/99 pulse -> 3 checks (IP67, 60-day trial, free US shipping) -> offer"
+  }
+ ],
+ "port_idea": "4:5 collage of three hands-only moments (desk, drive, prayer mat) with the ring display glowing, a short headline 'More than a counter. A reminder you wear.' and three real check bullets (60-day money-back, free US shipping, IP67 splash-proof). Real offer only.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B but avatar 8 / adaptability 8: striking visual with no on-image words; daily-reminder angle ports cleanly. confidence: high (active 96 days, 3 ads use this creative)"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "pixie-wing-180289019",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "Taste total 42 (Reject): 4 s silent text card, hook is excellent but no mechanism, proof or offer in the video; claims 70,000+/4.9 are truth-risk",
+ "ad_url": "https://app.gethookd.ai/ads/180289019",
+ "brand": "Pixie Wing",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Accessories",
+ "query": "ring",
+ "cross_niche": true,
+ "meta_ad_id": "2581647378977897",
+ "active_period": "17 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 17,
+ "primary_text": "Seriously, don't. Keep tucking the ring in gym bags. Keep the pocket system. Keep hearing it click against the trolley, the dumbbell, the sink. It's working fine. But if you're sick of scratching a $10k ring on everything: the Pixie Wing Ring Keeper® secures it against your chest in under 3 seconds. No unclasping. 70,000+ people ignored our advice. Rated 4.9/5.",
+ "headline": "Your ring, out of harm's way.",
+ "cta": "Shop Now",
+ "landing_page": "https://pixiewing.com/pages/ring-keepers",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 4.0,
+  "width": 720,
+  "height": 720,
+  "has_audio": false
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/pixie-wing-180289019.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "DON'T BUY OUR RING KEEPER / Unless you're sick of scratching a $10k ring on everything",
+  "visual": "text card on cream background with rotating ring-keeper necklaces"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:49:51Z"
+}

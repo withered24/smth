@@ -1,0 +1,51 @@
+{
+ "id": "tulas-175871419",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/175871419",
+ "brand": "Tulas",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "ring",
+ "cross_niche": true,
+ "meta_ad_id": "1565361281343876",
+ "active_period": "25 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 25,
+ "primary_text": "My mother slid a green ring onto my finger under my wedding band and said: this one goes first.\n\nWe were in a church basement. Forty minutes out.\n\nHer hands were shaking so badly she had to try twice, and I remember thinking that was strange, because my mother's hands never shake.\n\nShe said it goes on before anything else. Against the skin. Under everything.\n\n[... long-form first-person story, 7,527 characters in total; truncated in this record. Beats: jade lore ('jade absorbs ... if it ever cracks, that is not damage'), a year of silent drifting in the marriage, everything tried had to be scheduled, finding the cracked ring in a drawer, mother: 'the stone was never the point... so you cannot forget you are in one', 'Forty times a day. Hands wet at the sink. Cold on the inside of your finger. A small physical fact that outlasts how you feel about anything.', ordered one for thirty eight dollars, 'a minute of noticing', 'I am not going to sit here and tell you a thirty eight dollar stone saved my marriage.', ends with 'you do not buy jade for yourself, and somebody has to be the one who gives it to you.' Final EDIT line: 'it's from the brand tulas, and no I didn't get it from amazon' + link https://tulas.co/products/skinny-jade-ring-made-from-genuine-jade]",
+ "headline": "Skinny Jade Ring Made From Genuine Jade",
+ "cta": "Shop Now",
+ "landing_page": "https://tulas.co/products/skinny-jade-ring-made-from-genuine-jade",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1024,
+  "height": 1024,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/tulas-175871419.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "(none on image) / headline field: Skinny Jade Ring Made From Genuine Jade",
+  "visual": "raw close photo of a hand with a thin jade ring stacked under a gold band, kitchen cabinets behind"
+ },
+ "angle": "Ritual object on the finger as a physical reminder that outlasts feelings (cross-niche; maps to ANG7/ANG6).",
+ "structure": "heirloom story hook -> drift/failure year -> scheduled fixes fail -> mechanism insight (touch it 40x/day) -> small honest result -> gift line -> link in EDIT",
+ "why_it_won": "Hypothesis: long-form native confession is a proven high-attention format; the physical-reminder mechanism is simple and quotable; 'EDIT' link looks organic. Winning tier, 25 days.",
+ "collected_at": "2026-10-05T12:00:00Z"
+}

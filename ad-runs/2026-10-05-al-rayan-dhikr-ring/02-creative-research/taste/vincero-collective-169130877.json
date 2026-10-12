@@ -1,0 +1,72 @@
+{
+ "id": "vincero-collective-169130877",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 16,
+   "evidence": "Glance: pencil-sketch field-notebook page with handwritten 'MEMENTO MORI' title, skull sketches and arrows around a real photographed pendant; strong visual anomaly."
+  },
+  "problem_awareness": {
+   "score": 10,
+   "evidence": "'Remember that you will die. Live with purpose.' names an existential theme, no pain."
+  },
+  "unique_mechanism": {
+   "score": 14,
+   "evidence": "Hand-labelled MEANING list + CHAIN / PENDANT DETAILS annotations explain what each part is."
+  },
+  "visual_proof": {
+   "score": 11,
+   "evidence": "Real pendant photo with arrows to sketches; no in-use shot."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Waterproof/sweatproof in copy only."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "No on-image CTA; button only."
+  },
+  "total": 59
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "Sketchbook page is unlike feed ads; title + arrows pull the eye to the pendant."
+  },
+  "avatar_congruence": {
+   "score": 6,
+   "rationale": "master_avatar_research.md § Desires: dhikr woven into the whole day; a worn reminder is the same driver, but skull/death-art imagery and hooded-figure sketches are unsuitable for the Muslim avatar and must be fully replaced."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: hand-drawn annotated blueprint page -> a notebook-sketch page of our ring with arrows (tap point, display, 33/66/99 pulse, IP67). Skulls/figure dropped; claims limited to our confirmed facts."
+  }
+ },
+ "checklist_hits": [
+  1,
+  3
+ ],
+ "green_flags": [
+  "HG1: sketchbook anomaly at first glance",
+  "MG2: labelled annotation explains the parts"
+ ],
+ "red_flags": [
+  "CR1: no CTA on image",
+  "HR3: no pain hook"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "visual_device",
+   "type": "other",
+   "original": "pencil-sketch notebook page with handwritten labels and arrows around a real product photo",
+   "pattern": "hand-drawn blueprint annotations around a real product photo",
+   "where": "full frame",
+   "port": "sketch-style blueprint of the ring with arrows to tap spot / display / pulse"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier B, rule 5: B-tier needs avatar and adaptability both >=8; avatar 6 (skull/death imagery unsuitable); device is harvestable. confidence: high (GetHookd winning, 38 days, 3 ads use it)"
+}

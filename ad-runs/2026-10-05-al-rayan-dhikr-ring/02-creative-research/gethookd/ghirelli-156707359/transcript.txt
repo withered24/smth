@@ -1,0 +1,6 @@
+lang: en 0.99
+[  0.0-  5.2] Rosalette, what's Rosalette? Well, it's a rosary bracelet.
+[  6.1-  8.1] Even the name is the synthesis of the two.
+[  8.8- 11.9] So it's more than a rosary and more than a bracelet.
+[ 12.4- 16.6] The Rosalette is part of my daily life, whether I wear it or pray with it.
+[ 17.4- 19.9] And Gorelli is the new rosary experience.

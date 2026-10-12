@@ -1,0 +1,193 @@
+{
+  "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\ghirelli-156707359\\media.mp4",
+  "type": "video",
+  "duration": 26.153,
+  "width": 684,
+  "height": 1278,
+  "params": {
+    "hook_seconds": 5.0,
+    "hook_fps": 2.0,
+    "fps": 1.0,
+    "scene": 0.3,
+    "width": 480,
+    "dedupe": 0.3
+  },
+  "counts": {
+    "hook": 8,
+    "s": 17,
+    "cut": 9,
+    "dropped": 7
+  },
+  "frames": [
+    {
+      "file": "t0000.00_hook.jpg",
+      "t": 0.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0000.50_hook.jpg",
+      "t": 0.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.00_hook.jpg",
+      "t": 1.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.67_cut.jpg",
+      "t": 1.667,
+      "kind": "cut"
+    },
+    {
+      "file": "t0002.00_hook.jpg",
+      "t": 2.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.50_hook.jpg",
+      "t": 2.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.12_cut.jpg",
+      "t": 3.125,
+      "kind": "cut"
+    },
+    {
+      "file": "t0003.50_hook.jpg",
+      "t": 3.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.00_hook.jpg",
+      "t": 4.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.50_hook.jpg",
+      "t": 4.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0005.00_s.jpg",
+      "t": 5.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0006.00_s.jpg",
+      "t": 6.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0006.79_cut.jpg",
+      "t": 6.792,
+      "kind": "cut"
+    },
+    {
+      "file": "t0008.00_s.jpg",
+      "t": 8.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0009.00_s.jpg",
+      "t": 9.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0010.00_s.jpg",
+      "t": 10.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0011.12_cut.jpg",
+      "t": 11.125,
+      "kind": "cut"
+    },
+    {
+      "file": "t0012.12_cut.jpg",
+      "t": 12.125,
+      "kind": "cut"
+    },
+    {
+      "file": "t0013.00_s.jpg",
+      "t": 13.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0014.00_s.jpg",
+      "t": 14.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0014.71_cut.jpg",
+      "t": 14.708,
+      "kind": "cut"
+    },
+    {
+      "file": "t0015.92_cut.jpg",
+      "t": 15.917,
+      "kind": "cut"
+    },
+    {
+      "file": "t0017.00_s.jpg",
+      "t": 17.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0017.50_cut.jpg",
+      "t": 17.5,
+      "kind": "cut"
+    },
+    {
+      "file": "t0018.00_s.jpg",
+      "t": 18.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0019.00_s.jpg",
+      "t": 19.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0020.00_s.jpg",
+      "t": 20.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0020.42_cut.jpg",
+      "t": 20.417,
+      "kind": "cut"
+    },
+    {
+      "file": "t0021.00_s.jpg",
+      "t": 21.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0022.00_s.jpg",
+      "t": 22.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0023.00_s.jpg",
+      "t": 23.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0024.00_s.jpg",
+      "t": 24.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0025.00_s.jpg",
+      "t": 25.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0026.00_s.jpg",
+      "t": 26.0,
+      "kind": "s"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "magnevaco-178051290",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "2160x2700: lips/chin macro with ring on finger, glass panel 'MIGRAINE-KILLER / More than just a ring' + 'Helps ease migraines - Reduces stress and anxiety / Improves sleep quality - Helps support a more regular menstrual cycle'."
+  },
+  "problem_awareness": {
+   "score": 12,
+   "evidence": "Targets women with migraines/cycle issues."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "Acupressure magnets claim."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Ring macro shown twice."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "90-day risk-free + free shipping."
+  },
+  "cta": {
+   "score": 10,
+   "evidence": "40% off + risk-free + free shipping."
+  },
+  "total": 55
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Face-crop with bold 'MIGRAINE-KILLER' readable at once, but a polished beauty crop."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "Different avatar (migraine/cycle women); lips/face-crop imagery is immodest for our avatar (run notes: skip immodest imagery); nothing in master_avatar_research.md fits."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Power depends on disease/health claims we cannot make ('Migraine-Killer', 'Improves sleep quality'); the leftover structure is a generic 'More than just a ring' tagline."
+  }
+ },
+ "checklist_hits": [
+  4,
+  7
+ ],
+ "green_flags": [
+  "CG2: 90-day risk-free + free shipping"
+ ],
+ "red_flags": [
+  "MR1: claims without proof",
+  "CR2: stacked offer"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier B but filter floors: avatar 3 and adaptability 3; disease claims and immodest crop. confidence: high (GetHookd winning)"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "meta-1641454606915417",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "filter floor: avatar: insulting profane voice and no product shown; only the Notes-app spoof device is reusable",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1641454606915417",
+ "brand": "Carbinox",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "smartwatch",
+ "cross_niche": true,
+ "meta_ad_id": "1641454606915417",
+ "active_period": "Jun 19, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1641454606915417",
+ "started_running": "2026-06-19",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 2,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=smartwatch&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/carbinoxco/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 108,
+ "primary_text": "Your current smartwatch sucks. Get yourself the most durable ever built for 1/3 of the price you paid for yours, plus Lifetime Warranty.",
+ "headline": "Don’t Miss $150 Off + Free Gifts Today",
+ "cta": "Shop now",
+ "landing_page": "https://shopcarbinox.com/products/carbinox-blaze",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 338,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1641454606915417.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "Notes-app spoof: 'You keep buying watches made for pu**ies who sit at desks. What the f*ck are you doing.' + '$150 OFF TODAY.'; no product shown"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

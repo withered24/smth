@@ -1,0 +1,351 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\ghirelli-156707359\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.994,
+ "duration": 26.048,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.24,
+   "text": "Rosalette, what's Rosalette? Well, it's a rosary bracelet.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.78,
+     "word": "Rosalette,",
+     "p": 0.709
+    },
+    {
+     "start": 0.84,
+     "end": 1.68,
+     "word": "what's",
+     "p": 0.791
+    },
+    {
+     "start": 1.68,
+     "end": 2.2,
+     "word": "Rosalette?",
+     "p": 0.831
+    },
+    {
+     "start": 2.38,
+     "end": 2.52,
+     "word": "Well,",
+     "p": 0.935
+    },
+    {
+     "start": 3.32,
+     "end": 3.58,
+     "word": "it's",
+     "p": 0.983
+    },
+    {
+     "start": 3.58,
+     "end": 3.68,
+     "word": "a",
+     "p": 0.985
+    },
+    {
+     "start": 3.68,
+     "end": 4.14,
+     "word": "rosary",
+     "p": 0.875
+    },
+    {
+     "start": 4.14,
+     "end": 5.24,
+     "word": "bracelet.",
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 6.1,
+   "end": 8.08,
+   "text": "Even the name is the synthesis of the two.",
+   "words": [
+    {
+     "start": 6.1,
+     "end": 6.36,
+     "word": "Even",
+     "p": 0.988
+    },
+    {
+     "start": 6.36,
+     "end": 6.52,
+     "word": "the",
+     "p": 0.997
+    },
+    {
+     "start": 6.52,
+     "end": 6.78,
+     "word": "name",
+     "p": 0.998
+    },
+    {
+     "start": 6.78,
+     "end": 6.96,
+     "word": "is",
+     "p": 0.995
+    },
+    {
+     "start": 6.96,
+     "end": 7.12,
+     "word": "the",
+     "p": 0.989
+    },
+    {
+     "start": 7.12,
+     "end": 7.54,
+     "word": "synthesis",
+     "p": 0.984
+    },
+    {
+     "start": 7.54,
+     "end": 7.82,
+     "word": "of",
+     "p": 0.999
+    },
+    {
+     "start": 7.82,
+     "end": 7.92,
+     "word": "the",
+     "p": 0.997
+    },
+    {
+     "start": 7.92,
+     "end": 8.08,
+     "word": "two.",
+     "p": 0.994
+    }
+   ]
+  },
+  {
+   "start": 8.8,
+   "end": 11.86,
+   "text": "So it's more than a rosary and more than a bracelet.",
+   "words": [
+    {
+     "start": 8.8,
+     "end": 9.22,
+     "word": "So",
+     "p": 0.978
+    },
+    {
+     "start": 9.22,
+     "end": 9.36,
+     "word": "it's",
+     "p": 0.947
+    },
+    {
+     "start": 9.36,
+     "end": 9.6,
+     "word": "more",
+     "p": 0.999
+    },
+    {
+     "start": 9.6,
+     "end": 9.8,
+     "word": "than",
+     "p": 0.997
+    },
+    {
+     "start": 9.8,
+     "end": 9.9,
+     "word": "a",
+     "p": 0.998
+    },
+    {
+     "start": 9.9,
+     "end": 10.38,
+     "word": "rosary",
+     "p": 0.984
+    },
+    {
+     "start": 10.38,
+     "end": 11.06,
+     "word": "and",
+     "p": 0.711
+    },
+    {
+     "start": 11.06,
+     "end": 11.26,
+     "word": "more",
+     "p": 0.998
+    },
+    {
+     "start": 11.26,
+     "end": 11.44,
+     "word": "than",
+     "p": 0.998
+    },
+    {
+     "start": 11.44,
+     "end": 11.52,
+     "word": "a",
+     "p": 0.997
+    },
+    {
+     "start": 11.52,
+     "end": 11.86,
+     "word": "bracelet.",
+     "p": 1.0
+    }
+   ]
+  },
+  {
+   "start": 12.38,
+   "end": 16.64,
+   "text": "The Rosalette is part of my daily life, whether I wear it or pray with it.",
+   "words": [
+    {
+     "start": 12.38,
+     "end": 12.46,
+     "word": "The",
+     "p": 0.99
+    },
+    {
+     "start": 12.46,
+     "end": 12.98,
+     "word": "Rosalette",
+     "p": 0.91
+    },
+    {
+     "start": 12.98,
+     "end": 13.16,
+     "word": "is",
+     "p": 0.99
+    },
+    {
+     "start": 13.16,
+     "end": 13.4,
+     "word": "part",
+     "p": 0.993
+    },
+    {
+     "start": 13.4,
+     "end": 13.54,
+     "word": "of",
+     "p": 0.999
+    },
+    {
+     "start": 13.54,
+     "end": 13.68,
+     "word": "my",
+     "p": 0.999
+    },
+    {
+     "start": 13.68,
+     "end": 13.92,
+     "word": "daily",
+     "p": 0.999
+    },
+    {
+     "start": 13.92,
+     "end": 14.38,
+     "word": "life,",
+     "p": 0.999
+    },
+    {
+     "start": 14.48,
+     "end": 14.68,
+     "word": "whether",
+     "p": 0.996
+    },
+    {
+     "start": 14.68,
+     "end": 15.0,
+     "word": "I",
+     "p": 0.996
+    },
+    {
+     "start": 15.0,
+     "end": 15.24,
+     "word": "wear",
+     "p": 0.999
+    },
+    {
+     "start": 15.24,
+     "end": 15.5,
+     "word": "it",
+     "p": 0.996
+    },
+    {
+     "start": 15.5,
+     "end": 15.94,
+     "word": "or",
+     "p": 0.965
+    },
+    {
+     "start": 15.94,
+     "end": 16.22,
+     "word": "pray",
+     "p": 0.984
+    },
+    {
+     "start": 16.22,
+     "end": 16.4,
+     "word": "with",
+     "p": 0.996
+    },
+    {
+     "start": 16.4,
+     "end": 16.64,
+     "word": "it.",
+     "p": 0.999
+    }
+   ]
+  },
+  {
+   "start": 17.44,
+   "end": 19.92,
+   "text": "And Gorelli is the new rosary experience.",
+   "words": [
+    {
+     "start": 17.44,
+     "end": 17.52,
+     "word": "And",
+     "p": 0.974
+    },
+    {
+     "start": 17.52,
+     "end": 17.92,
+     "word": "Gorelli",
+     "p": 0.49
+    },
+    {
+     "start": 17.92,
+     "end": 18.82,
+     "word": "is",
+     "p": 0.955
+    },
+    {
+     "start": 18.82,
+     "end": 18.96,
+     "word": "the",
+     "p": 0.997
+    },
+    {
+     "start": 18.96,
+     "end": 19.1,
+     "word": "new",
+     "p": 0.994
+    },
+    {
+     "start": 19.1,
+     "end": 19.54,
+     "word": "rosary",
+     "p": 0.783
+    },
+    {
+     "start": 19.54,
+     "end": 19.92,
+     "word": "experience.",
+     "p": 0.999
+    }
+   ]
+  }
+ ]
+}

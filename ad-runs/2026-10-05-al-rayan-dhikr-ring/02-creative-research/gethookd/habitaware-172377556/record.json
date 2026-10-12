@@ -1,0 +1,57 @@
+{
+ "id": "habitaware-172377556",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "Taste total 52 (tier B); avatar_congruence 3 floor: BFRB / hair-pulling mental-health condition with before/after proof, no portable dhikr driver",
+ "ad_url": "https://app.gethookd.ai/ads/172377556",
+ "brand": "HabitAware",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger"
+ ],
+ "language": "en",
+ "niche": "Health/Wellness",
+ "query": "habit tracker",
+ "cross_niche": true,
+ "meta_ad_id": "2173473576569795",
+ "active_period": "31 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 31,
+ "primary_text": "For conditions these common (1 in 20) it’s shocking how few people know about the resources for management! | So many people suffer with body-focused repetitive behaviors like hair pulling, skin picking, and nail biting.  | Management is POSSIBLE! | Visit the link in bio or habitaware.com to learn more! | #trichotillomania #dermatillomania #hairpulling #skinpicking ... (hashtags truncated)",
+ "headline": null,
+ "cta": "Order Now",
+ "landing_page": "http://www.habitaware.com/",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 23.2,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/habitaware-172377556.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "Manage hair pulling with the Keen2 smart bracelet!",
+  "visual": "woman points at on-screen text, then wrist-worn smart bracelet vibrates as she raises her hand to her mouth"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:47:10Z"
+}

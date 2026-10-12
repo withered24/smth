@@ -1,0 +1,57 @@
+{
+ "id": "meta-1560660512241318",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://www.facebook.com/ads/library/?id=1560660512241318",
+ "brand": "A Force For Good",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "meaningful / reminder rings",
+ "query": "silicone ring",
+ "cross_niche": true,
+ "meta_ad_id": "1560660512241318",
+ "active_period": "Jul 1, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1560660512241318",
+ "started_running": "2026-07-01",
+ "ads_using_creative": 3,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 4,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=silicone%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/aforceforgood.co/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 96,
+ "primary_text": "✨ More than a ring. A daily reminder that radiates positivity. Our hybrid silicone rings absorb light and glow softly throughout the day, a reminder to stay humble, grateful, and present.\n\n✔ Wear 24/7 worry free💍\n✔ Built for work, workouts & adventure⛰️\n✔ Every purchase provides 1 year of clean water to a child in need 💧\n\nTreat yourself or gift someone special today.\n\nBuy 2 and save 10% or buy 3+ and save 20% plus free shipping for a limited time.",
+ "headline": null,
+ "cta": null,
+ "landing_page": "https://aforceforgood.co/pages/hw-01",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 480,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/meta-1560660512241318.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "(none on image)",
+  "visual": "glowing teal ring: smiling woman in ski goggles, glow in dark, hand in water"
+ },
+ "angle": "ring as a daily reminder of gratitude",
+ "structure": "reminder promise -> glow mechanism -> 3 check bullets -> bundle offer",
+ "why_it_won": "96 days, 3 ads share the creative; hypothesis: emotional 'reminder' identity plus a visible glowing mechanism.",
+ "collected_at": "2026-10-05T16:30:00Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "ellie-grace-97725879",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 11,
+   "evidence": "Two-panel: ring macro on hand + pink hexagonal ring box with printed note card 'To My Daughter'; warm, familiar gift-card look."
+  },
+  "problem_awareness": {
+   "score": 13,
+   "evidence": "Card: 'Whenever you feel anxious, just keep this ring on'."
+  },
+  "unique_mechanism": {
+   "score": 6,
+   "evidence": "'It can drive away your anxiety' is a claim, no why."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "Ring on hand + in box."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "None; fake closing-down urgency in copy."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "No on-image CTA; 50% off in copy."
+  },
+  "total": 46
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Recognisable gift-note format; strong emotional line but familiar."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "master_avatar_research.md § A2 gift buyer: 'The relation's box does half the ceremony for you ... meaningful gift.' (Q25); but anxiety-cure claim and mother-daughter card are off-angle."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: note-card-in-ring-box overlaps our existing gift-box hero (already made); 'drive away anxiety' is a cure-type claim we cannot make."
+  }
+ },
+ "checklist_hits": [
+  3
+ ],
+ "green_flags": [
+  "HG2: native gift-note look"
+ ],
+ "red_flags": [
+  "CR2: fake closing-collection urgency",
+  "HR3: anxiety-cure claim"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject (46): overlaps our existing gift-box hero; anxiety-cure claim; no on-image CTA. confidence: high (GetHookd winning, active 153 days)"
+}

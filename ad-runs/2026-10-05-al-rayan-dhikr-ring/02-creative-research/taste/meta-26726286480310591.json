@@ -1,0 +1,71 @@
+{
+ "id": "meta-26726286480310591",
+ "source": "meta_ad_library",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "t0000.00-t0004.50_hook.jpg: macro of a rosary-style gold ring on a manicured finger, slow turn; no overlay text, no speech (transcript 'Thank you.' 0.0-0.1 = noise). Pleasant, nothing anomalous."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "Only the primary text: 'Carry your faith with you every day. A simple reminder of protection, strength, and purpose.' - generic faith identity, no pain."
+  },
+  "unique_mechanism": {
+   "score": 3,
+   "evidence": "None; ring is described as a 'Symbol of Faith' (headline)."
+  },
+  "visual_proof": {
+   "score": 6,
+   "evidence": "Ring on finger, rotated, 8.1s (t0005-t0008.10_s.jpg); no use/function shown."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "None stated."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "Shop now button; headline 'Rosary Ring - A Symbol of Faith'; no incentive."
+  },
+  "total": 25
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 3,
+   "rationale": "Static jewellery macro, no text or words in the first 1.5s."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "master_avatar_research.md § ANG6 'It's a ring. It's also a tasbih.' and Q32 'modern tech jewelry rather than a cheap plastic toy' - the jewellery-with-faith visual fits, but the ad is Catholic rosary with no counting/habit driver."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: finger macro of a faith ring -> our ring on finger with display. Needs a new hook and mechanism; it is only a visual device. 8s = 2-3 clips."
+  }
+ },
+ "checklist_hits": [
+  2
+ ],
+ "green_flags": [
+  "HG2: organic-looking macro"
+ ],
+ "red_flags": [
+  "HR3: no hook words at all",
+  "MR1: no benefit",
+  "CR3: button-only close"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "slow macro of a faith ring on a fingertip",
+   "pattern": "single close-up of ring on finger, soft light",
+   "where": "0.0-8.1s",
+   "port": "slow macro of our ring with the 4-digit display lit"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: 8s macro with no hook words, mechanism or CTA; avatar/adaptability only mid. confidence: high (active 200 days) - longevity likely reflects a cheap always-on creative, not hook strength (hypothesis)"
+}

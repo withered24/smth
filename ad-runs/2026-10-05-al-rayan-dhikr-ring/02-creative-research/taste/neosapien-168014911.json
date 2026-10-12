@@ -1,0 +1,62 @@
+{
+ "id": "neosapien-168014911",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 10,
+   "evidence": "Two-column split with a smiling vs frowning man, '$0 Forever' vs red 'upto $240 /year'; question headline."
+  },
+  "problem_awareness": {
+   "score": 12,
+   "evidence": "'Why pay every year?' calls out subscription cost."
+  },
+  "unique_mechanism": {
+   "score": 12,
+   "evidence": "Us-vs-them contrast on subscription cost; mechanism of the device not shown."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Two product shots in hand."
+  },
+  "friction_reduction": {
+   "score": 7,
+   "evidence": "Lifetime free handles the cost objection."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "No CTA on image."
+  },
+  "total": 54
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Question headline + red/green price contrast, familiar."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "Subscription cost is not in master_avatar_research.md § Pains; men in shirts, India-market '#1' claim."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: 2-column us-vs-them price card -> already covered by our 3-panel comparison; subscription claim unconfirmed for us."
+  }
+ },
+ "checklist_hits": [
+  3,
+  5
+ ],
+ "green_flags": [
+  "HG3: question + price contrast"
+ ],
+ "red_flags": [
+  "CR3: no CTA",
+  "MR1: '#1' claim"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar: subscription-cost pain not in our avatar; duplicates our 3-panel comparison. confidence: medium (GetHookd optimized, 38 days, 5 ads use it)"
+}

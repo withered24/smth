@@ -1,0 +1,58 @@
+{
+ "id": "nimah-172387899",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/172387899",
+ "brand": "Nimah",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "dhikr",
+ "cross_niche": false,
+ "meta_ad_id": "1092763186623923",
+ "active_period": "31 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 31,
+ "primary_text": "I gave my sister a tasbih bracelet for Eid. Beautiful, sure - but that's not why I chose it.\n\nEvery time she runs through her dhikr on it, the reward reaches me too.\n\nA gift that keeps giving. Long after the wrapping's gone.\n\nI buy two now. One to give, one to keep. Because every dhikr she makes, a little of the blessing comes back around.\n\nThe most rewarding thing I've ever given.",
+ "headline": "Share In Her Dhikr.",
+ "cta": "Shop Now",
+ "landing_page": "https://bynimah.com/products/tasbih-bracelet",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1350,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/nimah-172387899.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "Share in her dhikr. / Tasbih bracelet",
+  "visual": "two crossed wrists in white sleeves, gold bead bracelet with arrow label"
+ },
+ "angle": "Gift buyer: shared dhikr as the gift that keeps giving (A2 / ANG5).",
+ "structure": "headline over worn-product macro -> arrow label -> first-person gift story -> 'I buy two now' -> Shop Now",
+ "why_it_won": "Hypothesis: instantly legible gift concept with a native first-person gift story; premium look suits jewelry.",
+ "collected_at": "2026-10-05T12:00:00Z"
+}

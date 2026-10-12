@@ -1,0 +1,93 @@
+{
+ "id": "hope-rings-177217013",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 15,
+   "evidence": "Static 2048x2560 (4:5): black bold sans headline across the top 'If your granddaughter is growing up too fast...' over a warm satin macro of the ring; callout + ellipsis open loop readable in <1.5 s."
+  },
+  "problem_awareness": {
+   "score": 15,
+   "evidence": "Micro-targeted callout to one buyer (grandmas) with an emotional trigger ('growing up too fast'); primary text line 1 repeats the audience."
+  },
+  "unique_mechanism": {
+   "score": 6,
+   "evidence": "Hook is emotional; mechanism is a hidden engraving 'Love, Grandma' shown inside the band (a reveal, not a why)."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "Product macro with the engraving legible on the inner band; sparkle macro on satin."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "Primary text: free gift box + message card, tarnish-free & hypoallergenic, adjustable one size, 90-day returns."
+  },
+  "cta": {
+   "score": 9,
+   "evidence": "'Try this product Risk-Free and receive 50% Off + Free Worldwide Shipping! Get Yours Here' + button."
+  },
+  "total": 62
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "Big black headline with an open-loop ellipsis is readable in one glance and names an emotional trigger; macro product shot is polished, not anomalous."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Avatars A2: 'Spouse, parent, sibling or friend... shopping before Ramadan, Eid, Umrah... Wants a gift that is beautiful, practical and spiritually meaningful, ready-to-give box (Q25, Q35)'; ANG5 'The gift they'll use 1,000 times a day'. Gift buyer + gift box + message card map directly; Muslim framing must be added."
+  },
+  "adaptability": {
+   "score": 9,
+   "rationale": "Port: 'If your granddaughter is growing up too fast...' -> 'If your husband says he'd do more dhikr but keeps losing count...' (callout to one gift buyer + emotional trigger). Port: hidden 'Love, Grandma' engraving -> the ring's count display legible in the macro. Port: reassurance stack -> only real facts (60-day trial, free US shipping, 1-year warranty). Their '30,000+ customers' is a stat we cannot use. One image render with the product PNG."
+  }
+ },
+ "checklist_hits": [
+  1,
+  3,
+  4,
+  6,
+  7
+ ],
+ "green_flags": [
+  "HG3: callout + open-loop ellipsis in one glance (media.jpg)",
+  "MG1: ring macro with legible engraving",
+  "CG1: single instruction 'Get Yours Here' + risk-free + 50% off",
+  "CG2: 90-day returns + free shipping stated"
+ ],
+ "red_flags": [
+  "MR1: five checkmark features without a why (copy)",
+  "CR2: 50% off AND risk-free AND free shipping stacked"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "micro_callout",
+   "original": "If your granddaughter is growing up too fast...",
+   "pattern": "If your [loved one] is [emotional trigger]...",
+   "where": "headline, top 25% of image",
+   "port": "If your husband says he'd do more dhikr, but loses count every time..."
+  },
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "Single hero ring macro on warm satin with highlights; engraving 'Love, Grandma' readable on the inside of the band",
+   "pattern": "One hero macro with the hidden detail legible",
+   "where": "centre 70% of image",
+   "port": "Hero macro of the ring on warm cream satin with the count display legible"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "offer_stack",
+   "original": "audience callout -> hidden-detail reveal -> 5-bullet reassurance stack -> social count -> risk-free + discount CTA",
+   "pattern": "callout -> reveal -> reassurance stack -> risk-free CTA",
+   "where": "image + primary text",
+   "port": "callout -> display reveal -> stack (silent tracking, vibration at 33/66/99, 60-day trial, free US shipping) -> try-it-risk-free CTA"
+  }
+ ],
+ "port_idea": "4:5 static: black bold sans headline 'If your husband would do more dhikr but keeps losing count...' over a warm satin macro of the ring (count visible); primary text = audience callout, reveal, 4 truthful bullets (silent tracking, vibration at 33/66/99, 60-day money-back trial, free US shipping), single CTA. No customer counts.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: clean gift-buyer callout with reassurance stack ports 1:1 to A2; mechanism is only a reveal and the customer count is unusable. confidence: high (GetHookd winning, active 22 days)"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "hallow-177222207",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 8,
+   "evidence": "1080x1080: four celebrity portraits + '21 Days of Prayer with Gwen Stefani, Coach Prime, Jonathan Roumie, and Gary Sinise'."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "Daily prayer habit, generic."
+  },
+  "unique_mechanism": {
+   "score": 3,
+   "evidence": "None."
+  },
+  "visual_proof": {
+   "score": 3,
+   "evidence": "App not shown."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "'Try Hallow for Free', Learn More."
+  },
+  "total": 27
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Celebrity faces catch the eye but cannot be reproduced; no tension line."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "Daily prayer habit parallels master_avatar_research.md § Desires 'dhikr woven into the whole day' but is Christian and celebrity-led, not our avatar's voice."
+  },
+  "adaptability": {
+   "score": 1,
+   "rationale": "Depends on real celebrities and a #1 claim; cannot be ported (rubric 0-1: celebrity/real person)."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR3: no benefit hook",
+  "CR3: soft Learn More close"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: celebrity-dependent, no mechanism. confidence: high (GetHookd winning)"
+}

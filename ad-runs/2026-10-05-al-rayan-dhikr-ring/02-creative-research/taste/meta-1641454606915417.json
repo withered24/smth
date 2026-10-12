@@ -1,0 +1,58 @@
+{
+ "id": "meta-1641454606915417",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 16,
+   "evidence": "Notes-app spoof: 'You keep buying watches made for pu**ies who sit at desks. What the f*ck are you doing.' + '$150 OFF TODAY.'; no product shown"
+  },
+  "problem_awareness": {
+   "score": 11,
+   "evidence": "Pain read from primary text/headline: 'Your current smartwatch sucks. Get yourself the most durable ever built for 1/3 of the pri'"
+  },
+  "unique_mechanism": {
+   "score": 3,
+   "evidence": "No explained mechanism beyond copy claims."
+  },
+  "visual_proof": {
+   "score": 1,
+   "evidence": "Product visibility as viewed: Notes-app spoof: 'You keep buying watches made for pu**ies who sit at desks. What the f*ck are you doing.' + '$150 OFF TODAY.'; no product shown"
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "Risk reversal/ease only as stated in copy/headline."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "Button 'Shop now', headline 'Don’t Miss $150 Off + Free Gifts Today'."
+  },
+  "total": 39
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "First glance: Notes-app spoof: 'You keep buying watches made for pu**ies who sit at desks. What the f*ck are you doing.' + '$150 OFF TODAY.'; no product shown"
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "avatar_congruence: master_avatar_research.md Pains 'loud clicker in quiet offices (Q21)' and VOC Q32 'modern tech jewelry'; swipe is a different context, little portable beyond a copy device."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Port: weak. Image is a packshot or non-product visual; our product needs a demo/hero concept this does not supply."
+  }
+ },
+ "checklist_hits": [
+  1
+ ],
+ "green_flags": [],
+ "red_flags": [
+  "HR2: off-brand voice"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar: insulting profane voice and no product shown; only the Notes-app spoof device is reusable. confidence: high (active 108 days)"
+}

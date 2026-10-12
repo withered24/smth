@@ -1,0 +1,58 @@
+{
+ "id": "meta-1728858588400637",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "skipped",
+ "reject_reason": "too_long (ffprobe 30.4 s > 30 s)",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1728858588400637",
+ "brand": "Qamar Jewelry",
+ "format": "video",
+ "platforms": null,
+ "language": "en",
+ "niche": "Muslim faith jewellery (Ayatul Kursi / olive ring)",
+ "query": "muslim ring",
+ "cross_niche": false,
+ "meta_ad_id": "1728858588400637",
+ "active_period": "Sep 19, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1728858588400637",
+ "started_running": "2026-09-19",
+ "ads_using_creative": 2,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 3,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=video&q=muslim%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/61590494045182/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 16,
+ "primary_text": "💛 okay this ring does something weird in person...\nThe Olive Leaf Ring + Ayatul Kursi Spiral + Midnight Elegance Stack. Real 18K gold plating over hypoallergenic stainless steel. Waterproof. Lifetime Color Warranty. Worn daily by 32,000+ women 💛\nEvery order donates a meal to a family in Palestine, verified through ShareTheMeal 🇵🇸\nBuy 2, your third piece is free. Shop the bestsellers below 👇",
+ "headline": "Faith. Heritage. Worn Every Day.",
+ "cta": "Shop now",
+ "landing_page": "https://qamar-jewelry.com/collections/bestsellers",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 30.42,
+  "width": 360,
+  "height": 640,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": null,
+ "hook": {
+  "spoken": "Low-key Muslim girl flex. I do not take my gold off all summer.",
+  "on_screen": null,
+  "visual": "not reviewed (skipped)"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

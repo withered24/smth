@@ -1,0 +1,72 @@
+{
+ "id": "meta-1719407559115659",
+ "source": "meta_ad_library",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 10,
+   "evidence": "t0000.00_hook.jpg: bead bracelet held up between fingers on grey; text 'Every time she makes dhikr on it,' appears 0.5s (t0000.50_hook.jpg). Tidy product shot, little anomaly."
+  },
+  "problem_awareness": {
+   "score": 9,
+   "evidence": "Overlay 0.5-3.5s: 'Every time she makes dhikr on it, you share the reward.'; primary text 'I gave my sister a tasbih bracelet for Eid.' = gift-giver (A2) but no pain named."
+  },
+  "unique_mechanism": {
+   "score": 4,
+   "evidence": "Only a reward-sharing claim ('the reward reaches me too') - unverified faith claim, not a mechanism."
+  },
+  "visual_proof": {
+   "score": 7,
+   "evidence": "t0000.00-t0007.00: bracelet held, then worn on wrist next to a second bracelet; no counting function shown."
+  },
+  "friction_reduction": {
+   "score": 1,
+   "evidence": "No guarantee/shipping/price; 'the gift she'll use every day' in description only."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "Shop now button; headline 'The gift that rewards you back'; no incentive."
+  },
+  "total": 36
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Overlay lands at 0.5s but the opening is a plain product hold; no tension in first 1.5s."
+  },
+  "avatar_congruence": {
+   "score": 7,
+   "rationale": "master_avatar_research.md § Avatar A2: 'The meaningful-gift buyer' and Q25 'meaningful gift'. Gift angle (ANG5) fits, but the ad has no pain/desire for A1 (our primary)."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Port: gift-for-sister framing -> our gift angle. But the ad's power rests on a shared-reward faith claim; offer_brief.md only allows verified hadith and 'never what the ring earns', so cap 3 unless replaced by a verified-source line. Their product is passive beads, ours counts - nothing to demo."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2
+ ],
+ "green_flags": [
+  "HG2: native hand-held look"
+ ],
+ "red_flags": [
+  "HR3: vague opening, benefit arrives in overlay only",
+  "MR1: no features tied to benefit",
+  "CR3: soft close"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "statement",
+   "original": "Every time she makes dhikr on it, you share the reward.",
+   "pattern": "Every time [recipient] does [habit] with it, [giver gets benefit].",
+   "where": "overlay 0.5-3.5s",
+   "port": "(drop - faith-claim risk)"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: adaptability: gift-reward claim cannot be ported (unverified faith claim); weak hook, no demo. confidence: high (active 42 days)"
+}

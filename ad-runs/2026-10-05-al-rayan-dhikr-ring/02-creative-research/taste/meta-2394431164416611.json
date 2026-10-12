@@ -1,0 +1,56 @@
+{
+ "id": "meta-2394431164416611",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 10,
+   "evidence": "Unrelated museum photo (ancient altar, tourists), no text, no product"
+  },
+  "problem_awareness": {
+   "score": 8,
+   "evidence": "Pain read from primary text/headline: 'The last book of the Bible was not written to you.\n\nIt was written to seven churches. Real'"
+  },
+  "unique_mechanism": {
+   "score": 10,
+   "evidence": "No explained mechanism beyond copy claims."
+  },
+  "visual_proof": {
+   "score": 2,
+   "evidence": "Product visibility as viewed: Unrelated museum photo (ancient altar, tourists), no text, no product"
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "Risk reversal/ease only as stated in copy/headline."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "Button 'Shop Now', headline 'The Last Book Of The Bible'."
+  },
+  "total": 37
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "First glance: Unrelated museum photo (ancient altar, tourists), no text, no product"
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "avatar_congruence: master_avatar_research.md Pains 'loud clicker in quiet offices (Q21)' and VOC Q32 'modern tech jewelry'; swipe is a different context, little portable beyond a copy device."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Port: weak. Image is a packshot or non-product visual; our product needs a demo/hero concept this does not supply."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR2: off-brand voice"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: no product or text on image; curiosity-inversion copy hook is noted in patterns. confidence: high (active 91 days)"
+}

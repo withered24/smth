@@ -1,0 +1,61 @@
+{
+ "id": "amen-artisan-150829118",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 8,
+   "evidence": "1254x1254: 'POCKET ROSARY / Pray Anytime. Anywhere.' + brass bead decade, price corner '$9.99'."
+  },
+  "problem_awareness": {
+   "score": 9,
+   "evidence": "'Pray Anytime. Anywhere.' generic."
+  },
+  "unique_mechanism": {
+   "score": 4,
+   "evidence": "Features only."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "Product hero."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "Limited-time price shown."
+  },
+  "total": 40
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Bold product-name headline over angel artwork; clear but conventional."
+  },
+  "avatar_congruence": {
+   "score": 6,
+   "rationale": "master_avatar_research.md § Desires 'dhikr woven into the whole day (commute, desk...)' matches 'Pray Anytime. Anywhere.', but it is Catholic and angel-imagery led."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'Pray Anytime. Anywhere.' -> 'Dhikr anytime. Anywhere.' + hero ring; but only a feature-led shot with no mechanism, and saints/crucifix imagery must go."
+  }
+ },
+ "checklist_hits": [
+  4
+ ],
+ "green_flags": [
+  "CG1: price cue"
+ ],
+ "red_flags": [
+  "MR1: feature-only",
+  "HR3: generic hook"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject (total 40): feature-led price-anchored product shot; no mechanism or pain. confidence: high (GetHookd optimized, active 46 days)"
+}

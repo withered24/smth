@@ -1,0 +1,10 @@
+lang: en 0.91
+[  0.0-  3.7] Everybody ask the same three questions about our shorts.
+[  4.2-  5.5] Do they stay in place when you run?
+[  7.5- 11.5] Yes, the legging is soon to the short, it cannot move.
+[ 11.8- 13.1] Two, what do they cover?
+[ 13.7- 15.9] The Chohoura, a naval to believe the name.
+[ 16.4- 18.0] Three, only for sport?
+[ 18.4- 22.6] No, for running, for MMA, for football, for everything.
+[ 23.3- 27.5] Light, with dry, from eight years old to three-exile.
+[ 28.0- 29.4] Everyone needs to cover up.

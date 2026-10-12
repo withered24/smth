@@ -1,0 +1,57 @@
+{
+ "id": "yaqeen-books-126182379",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/126182379",
+ "brand": "Yaqeen Books",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Book/Publishing",
+ "query": "quran",
+ "cross_niche": false,
+ "meta_ad_id": "1798713511313567",
+ "active_period": "80 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 80,
+ "primary_text": "My roommate is a hafiz. So when he walked into the kitchen at 1 AM, I flipped my phone face down so fast I almost knocked my mug off the counter.\n1:14 AM on a Tuesday, to be exact.\nBilal stood in the doorway, squinting at the light.\nI am 27. I have a job, a lease, a dying houseplant.\nAnd I was hiding my phone screen like a kid caught cheating on a test.\nBilal looked at the phone. Then at me.\n\"Bro. What are you doing?\"\nIt was not a girl. It was not gambling. It was nothing you would guess.\nOn my screen was a Google search.\nThe English translation of a verse I have recited thousands of times since before I was ten.\n[... long-form first-person story, 8,068 characters in total; truncated in this record. Beats: dad asks him to lead Eid prayer; 'I can recite beautifully... And I understood almost none of it'; street-signs analogy; 'Just 500 words make up about 75% of the entire Quran'; spiral-bound book, two words per page, five minutes a day; honest diary week 1 / week 4; led Eid prayer; 'Your prayer has always counted, in sha Allah. You were never faking it. Nobody ever taught you the words. That is not your fault.'; 'There is a 30-day money-back guarantee, so the only thing you are risking is five minutes a day.'; 'Every order sends a meal to Palestine.'; scarcity 'the print version is really limited'. Link: https://yaqeenbooks.com/products/the-top-500-words-in-the-quran-physical-book-bonuses]",
+ "headline": "I recited the Quran for 20 years without understanding it",
+ "cta": "See Details",
+ "landing_page": "https://yaqeenbooks.com/pages/landing-page-mar-9-05-47-56",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1638,
+  "height": 2048,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/yaqeen-books-126182379.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "(none on image) / headline field: I recited the Quran for 20 years without understanding it",
+  "visual": "dark blurry phone photo of a messy kitchen counter at night: lit phone, mug, charging cable"
+ },
+ "angle": "Hidden-shame confession in a young Muslim's phone-and-worship world; fixable with a tiny daily habit (A1 / ANG4, ANG7).",
+ "structure": "shame scene -> stakes (leading Eid prayer) -> gap -> failed fix -> insight (500 words = 75%) -> 5-min habit -> honest diary -> reassurance -> guarantee + scarcity -> link",
+ "why_it_won": "Hypothesis: confession story with a specific shameful moment, a counter-intuitive insight and a tiny habit; native lo-fi image reads like a friend's post. Active 80 days at optimized tier.",
+ "collected_at": "2026-10-05T12:00:00Z"
+}

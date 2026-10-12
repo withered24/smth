@@ -1,0 +1,58 @@
+{
+ "id": "kailash-energy-123242000",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "Taste total 19 (Reject): silent bead-bracelet b-roll with no words, no hook tension, no mechanism, logo-only end card; Tibetan/Buddhist context",
+ "ad_url": "https://app.gethookd.ai/ads/123242000",
+ "brand": "Kailash Energy",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Not classified",
+ "query": "ring (wearable meditation)",
+ "cross_niche": true,
+ "meta_ad_id": "975418802051717",
+ "active_period": "117 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 117,
+ "primary_text": "A moment of peace, right on your finger. Our handcrafted Tibetan Prayer Wheel Ring isn’t just a beautiful piece of artisan silver—it’s a wearable meditation. With a flick of your thumb, the outer band spins smoothly, a centuries-old Himalayan tradition designed to calm the mind and focus your energy. In a chaotic world, wear your peace. Experience the calming magic today.",
+ "headline": "Spin to Find Your Center 🧘‍♀️",
+ "cta": "See Details",
+ "landing_page": "https://kailashenergy.com/collections/style-inheritance",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 12.3,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/kailash-energy-123242000.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "hand holds a turquoise bead bracelet against a Tibetan temple, wrist shots, mala in hand"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:49:06Z"
+}

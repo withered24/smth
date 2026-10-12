@@ -1,0 +1,58 @@
+{
+ "id": "meta-1424108759564432",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "filter floor: avatar: visual world is bare-midriff fashion imagery; durability copy line is the only reusable piece",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1424108759564432",
+ "brand": "Mejuri",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "Mejuri",
+ "cross_niche": true,
+ "meta_ad_id": "1424108759564432",
+ "active_period": "Sep 2, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1424108759564432",
+ "started_running": "2026-09-02",
+ "ads_using_creative": 2,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 3,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=Mejuri&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/mejuri/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 33,
+ "primary_text": "don't sweat it, you can sweat in these. \n\nour solid gold is crafted for everyday durability—that means it keeps up with everything you do, even your favorite workout.",
+ "headline": "Best Selling Jewelry Pieces | Mejuri",
+ "cta": "Shop Now",
+ "landing_page": "https://mejuri.com/collections/best-sellers",
+ "media": {
+  "files": [
+   "media_01.jpg",
+   "media_02.jpg"
+  ],
+  "duration_s": null,
+  "width": 480,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1424108759564432.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "2-card carousel of gold rings/bracelets in workout settings (bare midriff in card 1, tying sneaker in card 2); no on-image text"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

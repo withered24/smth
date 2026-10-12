@@ -1,0 +1,58 @@
+{
+ "id": "whoop-107141009",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "0.0s hook_01.jpg: 3D-rendered wearable band rotating on blue gradient; 'See how your daily habits help or hurt your progress' from ~1.5s. Polished motion graphics, no person."
+  },
+  "problem_awareness": {
+   "score": 9,
+   "evidence": "On-screen [1.5-5s] 'See how your daily habits help or hurt your progress' = habit-awareness statement, generic audience; audio is music (lang 0.34)."
+  },
+  "unique_mechanism": {
+   "score": 7,
+   "evidence": "hook_04-hook_08 UI cards 'SLEEP PERFORMANCE +14%', 'WORK LATE -4%'; mechanism is app analytics; body_004-005 'WHOOP AGE 31.0 3.6 years younger' health claim."
+  },
+  "visual_proof": {
+   "score": 7,
+   "evidence": "3D wearable and app UI overlays; no real-world use, no result from a person."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "body_008.jpg end card WHOOP logo with SHOP NOW button; no spoken CTA."
+  },
+  "total": 33
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 3,
+   "rationale": "hook_01-hook_03: 3D product rotation on gradient; polished brand-commercial, no tension."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "master_avatar_research.md § ANG7 'consistency > intensity' loosely overlaps 'habits help or hurt'; but it is a health-metrics world (stress, WHOOP age), not faith; § Avatars A1 not served."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Port: 'daily habits ... track progress' UI cards -> our ring count/day/week tracking in the app (VOC Q10 'I can see my daily, weekly, and yearly totals'). But 'WHOOP AGE years younger' is a health claim we cannot make, and the 3D motion-graphic style is not native."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR1: polished brand motion graphic, no human hook",
+  "TRUTH-RISK: 'WHOOP AGE 3.6 years younger' health claim",
+  "MR1: features without a daily-benefit tie"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: polished 3D brand spot with health claims, no human, no native hook. confidence: high (GetHookd winning, active 116 days)"
+}

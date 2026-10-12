@@ -1,0 +1,60 @@
+{
+ "id": "meta-792911836811986",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "Full-frame macro of a heavy steel cross-plate bracelet on a hairy male wrist, no text overlay; strong texture but no words."
+  },
+  "problem_awareness": {
+   "score": 5,
+   "evidence": "Headline 'Grab a Bracelet, Help a Veteran Beat PTSD' + primary 'a symbol of faith and strength. Every purchase helps provide service dogs for our Veterans' = cause angle, no pain for our avatar."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "Charity mechanism (each purchase funds service dogs); no product mechanism."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Product in close-up worn on wrist, texture visible; no use shown."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "None beyond the cause."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "Primary text 'Join the mission. Get Yours Here' + headline; strong imperative but no incentive."
+  },
+  "total": 29
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Texture macro is a clear focal point but no words/tension at first glance."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "master_avatar_research.md: A1/A2 are Muslim professionals/gift buyers; this is a US-veteran charity / Catholic Saint Michael product for men. No citation matches a pain or desire."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Only the 'every purchase gives something' device ports; our offer has no charity element (not in intake.md) - not usable."
+  }
+ },
+ "checklist_hits": [
+  3
+ ],
+ "green_flags": [
+  "HG3: clear tension within one glance (texture)"
+ ],
+ "red_flags": [
+  "HR3: vague opening, cause not product"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar (US-veteran/Catholic men's charity product). confidence: high (active 188 days)"
+}

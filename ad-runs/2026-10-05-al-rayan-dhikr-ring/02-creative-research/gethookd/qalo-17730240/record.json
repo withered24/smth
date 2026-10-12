@@ -1,0 +1,53 @@
+{
+ "id": "qalo-17730240",
+ "source": "gethookd",
+ "scout": "p2-gh-vid",
+ "status": "rejected",
+ "reject_reason": "taste total 27 (Reject): no hook, mechanism or CTA; no GetHookd tier",
+ "ad_url": "https://app.gethookd.ai/ads/17730240",
+ "brand": "QALO",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger"
+ ],
+ "language": "en",
+ "niche": "Not classified",
+ "query": "smart ring",
+ "cross_niche": true,
+ "meta_ad_id": "1815457369247850",
+ "active_period": "52 days (ended)",
+ "performance_tier": null,
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 52,
+ "primary_text": "Affordable price, no subscription cost, enhanced privacy, and built for comfort. The QALO QRNT (pronounced “current”) is the smartest Smart Ring choice.",
+ "headline": "The Affordable Smart Ring",
+ "cta": "shop now",
+ "landing_page": "https://qalo.com/pages/smart-ring-lp",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 13.9,
+  "width": 360,
+  "height": 640,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/qalo-17730240.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:11Z"
+}

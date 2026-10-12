@@ -1,0 +1,71 @@
+{
+ "id": "try-halo-149270677",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 12,
+   "evidence": "Glance: oversized ring macro on a taupe gradient + 'Only $59.' / 'No subscriptions.'; clean, price-first."
+  },
+  "problem_awareness": {
+   "score": 8,
+   "evidence": "'Because tracking your health shouldn't be a luxury' = price pain, generic."
+  },
+  "unique_mechanism": {
+   "score": 7,
+   "evidence": "No mechanism; 'No subscriptions' is the differentiator."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "Ring hero only, no use shot."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "No subscription + HSA/FSA badge = cost objection handled."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "No CTA on image; button only."
+  },
+  "total": 49
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Big ring macro + price line is clear but familiar."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md § Pains has no subscription/health-tracking pain; closest is cheap clones dying (Q11), not price-first health tracking."
+  },
+  "adaptability": {
+   "score": 7,
+   "rationale": "Port: 'Only $59. No subscriptions.' -> 'Only $49.99. 60-day trial.' on a ring macro; we cannot claim no subscription (unconfirmed)."
+  }
+ },
+ "checklist_hits": [
+  4,
+  7
+ ],
+ "green_flags": [
+  "HG3: price tension in one glance"
+ ],
+ "red_flags": [
+  "HR3: no pain hook",
+  "CR3: no on-image CTA"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "oversized ring macro with big price statement below",
+   "pattern": "hero macro + 2-line price/offer statement",
+   "where": "full frame",
+   "port": "our ring macro + '$49.99 - 60-day trial'"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar: price-first health tracker, no overlap with dhikr pains; thin hook. confidence: high (GetHookd winning, active 48 days)"
+}

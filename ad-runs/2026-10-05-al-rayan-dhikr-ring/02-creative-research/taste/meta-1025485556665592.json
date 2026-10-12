@@ -1,0 +1,56 @@
+{
+ "id": "meta-1025485556665592",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "Navy silicone ring with sapphire on a white reflective floor; no text"
+  },
+  "problem_awareness": {
+   "score": 11,
+   "evidence": "Pain read from primary text/headline: 'You work out. You travel. You live your life. Your jewelry should too. Casual Carats bring'"
+  },
+  "unique_mechanism": {
+   "score": 5,
+   "evidence": "No explained mechanism beyond copy claims."
+  },
+  "visual_proof": {
+   "score": 4,
+   "evidence": "Product visibility as viewed: Navy silicone ring with sapphire on a white reflective floor; no text"
+  },
+  "friction_reduction": {
+   "score": 7,
+   "evidence": "Risk reversal/ease only as stated in copy/headline."
+  },
+  "cta": {
+   "score": 7,
+   "evidence": "Button 'Shop Now', headline 'Midnight Blue Sapphire Silicone Ring'."
+  },
+  "total": 40
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 3,
+   "rationale": "First glance: Navy silicone ring with sapphire on a white reflective floor; no text"
+  },
+  "avatar_congruence": {
+   "score": 6,
+   "rationale": "avatar_congruence: master_avatar_research.md Pains 'loud clicker in quiet offices (Q21)' and VOC Q32 'modern tech jewelry'; swipe is a different context, little portable beyond a copy device."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: weak. Image is a packshot or non-product visual; our product needs a demo/hero concept this does not supply."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR3: no hook on image"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: packshot; 'Your jewelry should too' copy structure noted in patterns. confidence: high (active 123 days, multiple versions)"
+}

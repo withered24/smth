@@ -1,0 +1,57 @@
+{
+ "id": "yappy-apparel-178309829",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/178309829",
+ "brand": "Yappy Apparel",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "ring (bracelet)",
+ "cross_niche": true,
+ "meta_ad_id": "1619702929566783",
+ "active_period": "21 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 21,
+ "primary_text": "Tap. Read. Pray. One bracelet that puts a Bible verse on your phone in seconds.",
+ "headline": "👉 Tap Your Bracelet, Get A Bible Verse",
+ "cta": "Shop Now",
+ "landing_page": "https://yappybracelets.com/?trybe=455d762a",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 20.2,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/yappy-apparel-178309829.json",
+ "hook": {
+  "spoken": "These Yappy key chains are so good guys, take your daily Bible verse with you anytime on the go",
+  "on_screen": "No more forgetting your daily Bible verse...",
+  "visual": "woman talking to camera holding an NFC wristlet keychain"
+ },
+ "angle": "never forget your daily devotion: one tap on something you already carry (ease + identity)",
+ "structure": "negative-framing text hook -> product held up -> how-to line -> one-tap demo with visible result -> identity tagline -> link close",
+ "why_it_won": "HYPOTHESIS: real tap-to-result demo plus a self-recognition text hook in a native UGC selfie; optimized tier, 21 days running",
+ "collected_at": "2026-10-05T13:44:39Z"
+}

@@ -1,0 +1,453 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\nimah-149804170\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.737,
+ "duration": 15.881,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.5,
+   "text": "These are the two which I wear every day and may have some meanings behind them too.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.5,
+     "word": "These",
+     "p": 0.908
+    },
+    {
+     "start": 0.5,
+     "end": 0.68,
+     "word": "are",
+     "p": 0.992
+    },
+    {
+     "start": 0.68,
+     "end": 0.88,
+     "word": "the",
+     "p": 0.992
+    },
+    {
+     "start": 0.88,
+     "end": 1.08,
+     "word": "two",
+     "p": 0.968
+    },
+    {
+     "start": 1.08,
+     "end": 1.28,
+     "word": "which",
+     "p": 0.767
+    },
+    {
+     "start": 1.28,
+     "end": 1.4,
+     "word": "I",
+     "p": 0.979
+    },
+    {
+     "start": 1.4,
+     "end": 1.52,
+     "word": "wear",
+     "p": 0.997
+    },
+    {
+     "start": 1.52,
+     "end": 1.76,
+     "word": "every",
+     "p": 0.61
+    },
+    {
+     "start": 1.76,
+     "end": 2.04,
+     "word": "day",
+     "p": 0.999
+    },
+    {
+     "start": 2.04,
+     "end": 2.2,
+     "word": "and",
+     "p": 0.301
+    },
+    {
+     "start": 2.2,
+     "end": 2.3,
+     "word": "may",
+     "p": 0.623
+    },
+    {
+     "start": 2.3,
+     "end": 2.42,
+     "word": "have",
+     "p": 0.998
+    },
+    {
+     "start": 2.42,
+     "end": 2.56,
+     "word": "some",
+     "p": 0.996
+    },
+    {
+     "start": 2.56,
+     "end": 2.78,
+     "word": "meanings",
+     "p": 0.973
+    },
+    {
+     "start": 2.78,
+     "end": 3.08,
+     "word": "behind",
+     "p": 0.995
+    },
+    {
+     "start": 3.08,
+     "end": 3.28,
+     "word": "them",
+     "p": 0.995
+    },
+    {
+     "start": 3.28,
+     "end": 3.5,
+     "word": "too.",
+     "p": 0.842
+    }
+   ]
+  },
+  {
+   "start": 3.66,
+   "end": 5.4,
+   "text": "So I'm reminded each day what I am wearing.",
+   "words": [
+    {
+     "start": 3.66,
+     "end": 3.82,
+     "word": "So",
+     "p": 0.691
+    },
+    {
+     "start": 3.82,
+     "end": 3.94,
+     "word": "I'm",
+     "p": 0.801
+    },
+    {
+     "start": 3.94,
+     "end": 4.26,
+     "word": "reminded",
+     "p": 0.995
+    },
+    {
+     "start": 4.26,
+     "end": 4.52,
+     "word": "each",
+     "p": 0.983
+    },
+    {
+     "start": 4.52,
+     "end": 4.78,
+     "word": "day",
+     "p": 0.999
+    },
+    {
+     "start": 4.78,
+     "end": 4.96,
+     "word": "what",
+     "p": 0.562
+    },
+    {
+     "start": 4.96,
+     "end": 5.06,
+     "word": "I",
+     "p": 0.996
+    },
+    {
+     "start": 5.06,
+     "end": 5.14,
+     "word": "am",
+     "p": 0.932
+    },
+    {
+     "start": 5.14,
+     "end": 5.4,
+     "word": "wearing.",
+     "p": 0.998
+    }
+   ]
+  },
+  {
+   "start": 5.54,
+   "end": 8.0,
+   "text": "I either wear one of these two every day, a Tasby bracelet.",
+   "words": [
+    {
+     "start": 5.54,
+     "end": 5.7,
+     "word": "I",
+     "p": 0.893
+    },
+    {
+     "start": 5.7,
+     "end": 5.88,
+     "word": "either",
+     "p": 0.948
+    },
+    {
+     "start": 5.88,
+     "end": 6.04,
+     "word": "wear",
+     "p": 0.969
+    },
+    {
+     "start": 6.04,
+     "end": 6.22,
+     "word": "one",
+     "p": 0.991
+    },
+    {
+     "start": 6.22,
+     "end": 6.32,
+     "word": "of",
+     "p": 0.994
+    },
+    {
+     "start": 6.32,
+     "end": 6.48,
+     "word": "these",
+     "p": 0.999
+    },
+    {
+     "start": 6.48,
+     "end": 6.64,
+     "word": "two",
+     "p": 0.896
+    },
+    {
+     "start": 6.64,
+     "end": 6.86,
+     "word": "every",
+     "p": 0.871
+    },
+    {
+     "start": 6.86,
+     "end": 7.1,
+     "word": "day,",
+     "p": 0.999
+    },
+    {
+     "start": 7.22,
+     "end": 7.3,
+     "word": "a",
+     "p": 0.509
+    },
+    {
+     "start": 7.3,
+     "end": 7.66,
+     "word": "Tasby",
+     "p": 0.566
+    },
+    {
+     "start": 7.66,
+     "end": 8.0,
+     "word": "bracelet.",
+     "p": 0.97
+    }
+   ]
+  },
+  {
+   "start": 8.16,
+   "end": 11.6,
+   "text": "Wearing these bracelets have helped me to engage in my daily spiritual practices.",
+   "words": [
+    {
+     "start": 8.16,
+     "end": 8.36,
+     "word": "Wearing",
+     "p": 0.963
+    },
+    {
+     "start": 8.36,
+     "end": 8.48,
+     "word": "these",
+     "p": 0.994
+    },
+    {
+     "start": 8.48,
+     "end": 8.92,
+     "word": "bracelets",
+     "p": 0.996
+    },
+    {
+     "start": 8.92,
+     "end": 9.18,
+     "word": "have",
+     "p": 0.851
+    },
+    {
+     "start": 9.18,
+     "end": 9.38,
+     "word": "helped",
+     "p": 0.998
+    },
+    {
+     "start": 9.38,
+     "end": 9.64,
+     "word": "me",
+     "p": 0.997
+    },
+    {
+     "start": 9.64,
+     "end": 9.86,
+     "word": "to",
+     "p": 0.992
+    },
+    {
+     "start": 9.86,
+     "end": 10.28,
+     "word": "engage",
+     "p": 0.998
+    },
+    {
+     "start": 10.28,
+     "end": 10.48,
+     "word": "in",
+     "p": 0.884
+    },
+    {
+     "start": 10.48,
+     "end": 10.6,
+     "word": "my",
+     "p": 0.998
+    },
+    {
+     "start": 10.6,
+     "end": 10.78,
+     "word": "daily",
+     "p": 0.998
+    },
+    {
+     "start": 10.78,
+     "end": 11.12,
+     "word": "spiritual",
+     "p": 0.999
+    },
+    {
+     "start": 11.12,
+     "end": 11.6,
+     "word": "practices.",
+     "p": 0.958
+    }
+   ]
+  },
+  {
+   "start": 11.78,
+   "end": 15.68,
+   "text": "Either way I can wear it as a personal reminder to myself or as an elegant accessory.",
+   "words": [
+    {
+     "start": 11.78,
+     "end": 11.96,
+     "word": "Either",
+     "p": 0.983
+    },
+    {
+     "start": 11.96,
+     "end": 12.22,
+     "word": "way",
+     "p": 0.996
+    },
+    {
+     "start": 12.22,
+     "end": 12.34,
+     "word": "I",
+     "p": 0.592
+    },
+    {
+     "start": 12.34,
+     "end": 12.46,
+     "word": "can",
+     "p": 0.992
+    },
+    {
+     "start": 12.46,
+     "end": 12.64,
+     "word": "wear",
+     "p": 0.995
+    },
+    {
+     "start": 12.64,
+     "end": 12.8,
+     "word": "it",
+     "p": 0.952
+    },
+    {
+     "start": 12.8,
+     "end": 12.96,
+     "word": "as",
+     "p": 0.994
+    },
+    {
+     "start": 12.96,
+     "end": 13.02,
+     "word": "a",
+     "p": 0.995
+    },
+    {
+     "start": 13.02,
+     "end": 13.26,
+     "word": "personal",
+     "p": 0.959
+    },
+    {
+     "start": 13.26,
+     "end": 13.6,
+     "word": "reminder",
+     "p": 0.998
+    },
+    {
+     "start": 13.6,
+     "end": 13.76,
+     "word": "to",
+     "p": 0.997
+    },
+    {
+     "start": 13.76,
+     "end": 14.14,
+     "word": "myself",
+     "p": 0.999
+    },
+    {
+     "start": 14.14,
+     "end": 14.52,
+     "word": "or",
+     "p": 0.897
+    },
+    {
+     "start": 14.52,
+     "end": 14.84,
+     "word": "as",
+     "p": 0.992
+    },
+    {
+     "start": 14.84,
+     "end": 15.04,
+     "word": "an",
+     "p": 0.994
+    },
+    {
+     "start": 15.04,
+     "end": 15.3,
+     "word": "elegant",
+     "p": 0.973
+    },
+    {
+     "start": 15.3,
+     "end": 15.68,
+     "word": "accessory.",
+     "p": 0.993
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "hope-doves-132737005",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/132737005",
+ "brand": "Hope Doves",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Book/Publishing (as listed; faith bracelets)",
+ "query": "reminder (cross-niche)",
+ "cross_niche": true,
+ "meta_ad_id": "1030488453269523",
+ "active_period": "100 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 100,
+ "primary_text": "You don't need to be loud about your faith. 🖤 | A simple black cord. | A small silver cross. | A quiet reminder of what matters most. | Something you put on every morning without thinking. | And never want to take off. | Just $5. Free shipping. | 👇 Tap below and grab yours.",
+ "headline": "A Simple Reminder. Every Single Day.",
+ "cta": "Order Now",
+ "landing_page": "https://shop.hopedoves.com/5-cross-bracelet",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1254,
+  "height": 1254,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/hope-doves-132737005.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "for the girl who wears her faith every day",
+  "visual": "close-up of a wrist wearing a black-cord cross bracelet, cream knit sweater, coffee cup and open book"
+ },
+ "angle": "identity callout for people who live their faith quietly; discreet daily reminder",
+ "structure": "identity headline over lifestyle wrist photo -> quiet-faith copy -> price+free shipping footer",
+ "why_it_won": "HYPOTHESIS: identity callout plus offer on the image; winning tier, 100 days active",
+ "collected_at": "2026-10-05T13:56:28Z"
+}

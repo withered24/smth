@@ -1,0 +1,58 @@
+{
+ "id": "meta-2379413312864003",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://www.facebook.com/ads/library/?id=2379413312864003",
+ "brand": "Weslamic",
+ "format": "video",
+ "platforms": null,
+ "language": "en",
+ "niche": "Islamic smart tasbih ring (direct competitor)",
+ "query": "dhikr",
+ "cross_niche": false,
+ "meta_ad_id": "2379413312864003",
+ "active_period": "Aug 25, 2026 – active",
+ "performance_tier": null,
+ "library_id": "2379413312864003",
+ "started_running": "2026-08-25",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 6,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=video&q=dhikr&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/61581969492648/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 41,
+ "primary_text": "🤍 A Gift That Means More\n\n🕌 5 daily prayer vibration reminders\n📿 Dhikr counter right on your finger\n✨ A little reminder throughout the day\n🎁 Give them something that helps build better habits\n👉 Meet the WESLAMIC Tasbih Ring",
+ "headline": "Weslamic-office",
+ "cta": "Order now",
+ "landing_page": "https://shop.weslamic.com/collections/zikr-ring/products/weslamic-itasbih-smart-dhikr-3-0-weslamic-itasbih-peace-1",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 10.68,
+  "width": 360,
+  "height": 360,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/meta-2379413312864003.json",
+ "hook": {
+  "spoken": "(Arabic nasheed/recitation audio, unheard; transcribed lang ar)",
+  "on_screen": "Keep the beautiful habit / Just give it a better companion",
+  "visual": "two hands slide a black smart ring onto a finger, display lights up"
+ },
+ "angle": "Gift/habit: keep the beautiful habit (dhikr), just give it a better companion - a smart tasbih ring that also vibrates for the 5 prayers",
+ "structure": "ring-on-finger + habit overlay -> gift unboxing -> app counter -> two-colour reveal -> Order now",
+ "why_it_won": "Hypothesis: direct-category visual proof (lit count display, app counter, unboxing) in a native UGC style; 2 near-identical variants running 41 days under the same advertiser",
+ "collected_at": "2026-10-05T13:50:00Z"
+}

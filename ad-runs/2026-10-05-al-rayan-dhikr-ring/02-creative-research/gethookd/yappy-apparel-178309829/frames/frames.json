@@ -1,0 +1,158 @@
+{
+  "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\yappy-apparel-178309829\\media.mp4",
+  "type": "video",
+  "duration": 20.201,
+  "width": 720,
+  "height": 1280,
+  "params": {
+    "hook_seconds": 5.0,
+    "hook_fps": 2.0,
+    "fps": 1.0,
+    "scene": 0.3,
+    "width": 480,
+    "dedupe": 0.3
+  },
+  "counts": {
+    "hook": 10,
+    "s": 15,
+    "cut": 2,
+    "dropped": 1
+  },
+  "frames": [
+    {
+      "file": "t0000.00_hook.jpg",
+      "t": 0.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0000.50_hook.jpg",
+      "t": 0.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.00_hook.jpg",
+      "t": 1.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.50_hook.jpg",
+      "t": 1.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.00_hook.jpg",
+      "t": 2.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.50_hook.jpg",
+      "t": 2.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.00_hook.jpg",
+      "t": 3.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.50_hook.jpg",
+      "t": 3.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.00_hook.jpg",
+      "t": 4.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.50_hook.jpg",
+      "t": 4.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0005.00_s.jpg",
+      "t": 5.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0006.00_s.jpg",
+      "t": 6.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0007.00_s.jpg",
+      "t": 7.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0007.83_cut.jpg",
+      "t": 7.833,
+      "kind": "cut"
+    },
+    {
+      "file": "t0009.00_s.jpg",
+      "t": 9.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0010.00_s.jpg",
+      "t": 10.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0011.00_s.jpg",
+      "t": 11.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0012.00_s.jpg",
+      "t": 12.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0013.00_s.jpg",
+      "t": 13.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0014.00_s.jpg",
+      "t": 14.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0015.00_s.jpg",
+      "t": 15.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0016.00_s.jpg",
+      "t": 16.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0016.40_cut.jpg",
+      "t": 16.4,
+      "kind": "cut"
+    },
+    {
+      "file": "t0017.00_s.jpg",
+      "t": 17.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0018.00_s.jpg",
+      "t": 18.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0019.00_s.jpg",
+      "t": 19.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0020.00_s.jpg",
+      "t": 20.0,
+      "kind": "s"
+    }
+  ]
+}

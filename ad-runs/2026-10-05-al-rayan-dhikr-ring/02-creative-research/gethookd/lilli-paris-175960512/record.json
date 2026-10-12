@@ -1,0 +1,61 @@
+{
+ "id": "lilli-paris-175960512",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "tier Reject 32; alcohol in frame (run-notes skip), caption-only, no mechanism",
+ "ad_url": "https://app.gethookd.ai/ads/175960512",
+ "brand": "Lilli Paris",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches (cross-niche: initial ring)",
+ "query": "jewelry gift (cross-niche)",
+ "cross_niche": true,
+ "meta_ad_id": "1093483163747965",
+ "active_period": "25 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 25,
+ "primary_text": "The initial ring loved by 70,000+ customers. Your two letters. One elegant band. Worn close to her heart every single day. Hypoallergenic, water & oxidation resistant, made to last.",
+ "headline": "Our Most-Gifted Initial Ring - Back in Stock",
+ "cta": "Shop Now",
+ "landing_page": "https://lilliparis.com/collections/custom-jewelry/products/adjustable-initial-ring-1",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg",
+   "frames/",
+   "transcript.txt",
+   "transcript.json"
+  ],
+  "duration_s": 15.2,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/lilli-paris-175960512.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "I'm obsessed",
+  "visual": "macro of an initial ring on a finger"
+ },
+ "angle": "",
+ "structure": "",
+ "why_it_won": "",
+ "collected_at": "2026-10-05T13:59:50Z"
+}

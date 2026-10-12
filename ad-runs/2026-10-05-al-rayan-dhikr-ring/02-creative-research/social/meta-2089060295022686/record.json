@@ -1,0 +1,57 @@
+{
+ "id": "meta-2089060295022686",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "tier Reject: price-banner flat-lay, no mechanism; banner + inset-detail device noted in patterns",
+ "ad_url": "https://www.facebook.com/ads/library/?id=2089060295022686",
+ "brand": "Christian Divinity",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "Christian ring",
+ "cross_niche": true,
+ "meta_ad_id": "2089060295022686",
+ "active_period": "Aug 18, 2026 – active",
+ "performance_tier": null,
+ "library_id": "2089060295022686",
+ "started_running": "2026-08-18",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 6,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=Christian%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/christiandivinity/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 48,
+ "primary_text": "No matter what you're facing… God is growing you through it.\n\nWear your faith and stay grounded in His purpose 🙏\n\n✨ Uplifting message\n✨ Meaningful gift\n✨ Limited-time offer\n\nOnly $6.95 Today",
+ "headline": "Only $6.95 Today!",
+ "cta": "Shop now",
+ "landing_page": "https://www.christiandivinity.com/collections/best-selling-tees/products/grow-through-it-tee",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-2089060295022686.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "Yellow banner 'ONLY $6.95 TODAY' over a flat-lay tee, inset 'Premium Print' detail bubble"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

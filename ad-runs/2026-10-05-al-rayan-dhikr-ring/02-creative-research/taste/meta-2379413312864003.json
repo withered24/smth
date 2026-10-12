@@ -1,0 +1,93 @@
+{
+ "id": "meta-2379413312864003",
+ "source": "meta_ad_library",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 13,
+   "evidence": "0.0s t0000.00_hook.jpg: two hands sliding a black smart ring onto a finger, close-up; overlay 'Keep the beautiful habit / Just give it a better companion' present from 0.0s; ring displays appear t0001.00-t0001.50_hook.jpg. Looks like organic UGC."
+  },
+  "problem_awareness": {
+   "score": 9,
+   "evidence": "Overlay 'Keep the beautiful habit / Just give it a better companion' (0.0-10.7s) = habit-keeping framing, no pain; primary text '5 daily prayer vibration reminders / Dhikr counter right on your finger'."
+  },
+  "unique_mechanism": {
+   "score": 9,
+   "evidence": "Primary text lists mechanism-ish features (prayer vibration reminders, dhikr counter on finger, habit building) but no why/contrast."
+  },
+  "visual_proof": {
+   "score": 12,
+   "evidence": "t0000-t0003.50 ring worn with lit count display; t0007.63-t0010.00_s.jpg two rings next to an app screen showing counts changing (27 -> 1 -> 3) beside a candle; gift-box unboxing 2-7s."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Gift-ready box shown (t0002.10-t0006.33 unboxing); no guarantee/shipping/price."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "'Order now' button; primary text '👉 Meet the WESLAMIC Tasbih Ring'; no incentive."
+  },
+  "total": 51
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 7,
+   "rationale": "0.0s ring-on-finger action with overlay text already present; tension is warm rather than disruptive; ring display visible by 1.0s."
+  },
+  "avatar_congruence": {
+   "score": 9,
+   "rationale": "master_avatar_research.md § Competitors: 'Weslamic/iTasbih' is our direct competitor; § Angles ANG5 gift ('Q25 The relation's box does half the ceremony') and ANG6 'It's jewelry, not a gadget' (Q32 'modern tech jewelry'). Same product category, same A1/A2 audience, stage 3-4 awareness."
+  },
+  "adaptability": {
+   "score": 9,
+   "rationale": "Port: ring-on-finger + count display close-ups -> our black/rose gold ring with the 4-digit display (store product PNGs). Port: unboxing sequence -> our gift box if one exists (check) else ring-on-finger only. Port: app-screen cut -> our Al Rayan app sync. 10s fits 3-4 clips; no unverifiable claims in the ad."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "green_flags": [
+  "HG1: action at 0.0s (ring being put on)",
+  "HG2: native UGC look",
+  "MG1: product on finger with live display",
+  "MG3: cuts every ~1s from 4s to 10s",
+  "CG3: unboxing flows into app demo"
+ ],
+ "red_flags": [
+  "MR1: feature list without daily-benefit tie",
+  "CR3: soft 'Order now' only, no incentive or guarantee"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "statement",
+   "original": "Keep the beautiful habit. Just give it a better companion.",
+   "pattern": "Keep [existing good habit]. Just give it [better tool].",
+   "where": "overlay 0.0-10.7s",
+   "port": "Keep the dhikr. Just give it a quieter companion."
+  },
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "ring slid onto finger with count display lit, two colours compared side by side, app counter on a phone behind",
+   "pattern": "hands + ring macro, display readable, second colour for comparison",
+   "where": "0.0-3.5s and 6.0-10.0s",
+   "port": "black and rose gold Al Rayan rings side by side, one tap, count 5331 -> 5332"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "demo_proof_first",
+   "original": "ring on finger -> unboxing -> app sync -> two-colour reveal",
+   "pattern": "demo first, gift unboxing second, app proof third",
+   "where": "0.0-10.7s",
+   "port": "ring tap demo -> box/gift reveal -> app sync -> two colours -> CTA"
+  }
+ ],
+ "port_idea": "~10s 1:1 or 9:16 video for the ring: hands slide the ring on in frame 1 with a habit-framing overlay in our words, tap-count close-up, quick gift-box reveal, app sync screen, black vs rose gold. Offer only from intake.md.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: strong visual proof and gift unboxing, direct category analog; hook words are soft, no mechanism contrast or risk reversal. confidence: high (active 41 days, rank 6 of 26)"
+}

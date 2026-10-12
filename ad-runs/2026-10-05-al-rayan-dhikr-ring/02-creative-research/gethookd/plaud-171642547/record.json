@@ -1,0 +1,50 @@
+{
+ "id": "plaud-171642547",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "avatar: AI meeting recorder has no overlap with dhikr pains; no pain, no CTA (device is harvestable).",
+ "ad_url": "https://app.gethookd.ai/ads/171642547",
+ "brand": "Plaud",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Not classified",
+ "query": "wearable",
+ "cross_niche": true,
+ "meta_ad_id": "1614086417008285",
+ "active_period": "33 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 33,
+ "primary_text": "🚀Plaud Note Pro is here to revolutionize Note-Taking\n🎉Meet the world’s most advanced AI note taker\n\n🎙️ 16.4 ft Audio Pickup\n📞 Smart Dual-mode Recording\n🔋 50h Nonstop Recording\n⚡ Multimodal Input & Instant Answers\n \n✅Say it. ✅Hear it. ✅See it.\n\nConsent builds trust",
+ "headline": "The world’s most wearable AI note taker",
+ "cta": "Shop Now",
+ "landing_page": "https://eu.plaud.ai/products/plaud-note-pro",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1200,
+  "height": 1200,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/plaud-171642547.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

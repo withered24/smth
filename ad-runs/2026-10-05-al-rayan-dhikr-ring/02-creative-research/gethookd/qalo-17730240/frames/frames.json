@@ -1,0 +1,138 @@
+{
+  "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\qalo-17730240\\media.mp4",
+  "type": "video",
+  "duration": 13.884,
+  "width": 360,
+  "height": 640,
+  "params": {
+    "hook_seconds": 5.0,
+    "hook_fps": 2.0,
+    "fps": 1.0,
+    "scene": 0.3,
+    "width": 480,
+    "dedupe": 0.3
+  },
+  "counts": {
+    "hook": 8,
+    "s": 8,
+    "cut": 7,
+    "dropped": 3
+  },
+  "frames": [
+    {
+      "file": "t0000.00_hook.jpg",
+      "t": 0.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0000.50_hook.jpg",
+      "t": 0.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.00_hook.jpg",
+      "t": 1.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.50_hook.jpg",
+      "t": 1.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.00_hook.jpg",
+      "t": 2.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.60_cut.jpg",
+      "t": 2.6,
+      "kind": "cut"
+    },
+    {
+      "file": "t0003.00_hook.jpg",
+      "t": 3.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.40_cut.jpg",
+      "t": 3.4,
+      "kind": "cut"
+    },
+    {
+      "file": "t0004.00_hook.jpg",
+      "t": 4.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.50_hook.jpg",
+      "t": 4.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0005.00_s.jpg",
+      "t": 5.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0005.77_cut.jpg",
+      "t": 5.767,
+      "kind": "cut"
+    },
+    {
+      "file": "t0006.53_cut.jpg",
+      "t": 6.533,
+      "kind": "cut"
+    },
+    {
+      "file": "t0007.00_s.jpg",
+      "t": 7.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0007.53_cut.jpg",
+      "t": 7.533,
+      "kind": "cut"
+    },
+    {
+      "file": "t0008.00_s.jpg",
+      "t": 8.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0008.60_cut.jpg",
+      "t": 8.6,
+      "kind": "cut"
+    },
+    {
+      "file": "t0009.00_s.jpg",
+      "t": 9.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0010.00_s.jpg",
+      "t": 10.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0011.00_s.jpg",
+      "t": 11.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0012.00_s.jpg",
+      "t": 12.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0012.50_cut.jpg",
+      "t": 12.5,
+      "kind": "cut"
+    },
+    {
+      "file": "t0013.00_s.jpg",
+      "t": 13.0,
+      "kind": "s"
+    }
+  ]
+}

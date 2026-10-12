@@ -1,0 +1,118 @@
+{
+  "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\kailash-energy-123242000\\media.mp4",
+  "type": "video",
+  "duration": 12.259,
+  "width": 720,
+  "height": 1280,
+  "params": {
+    "hook_seconds": 5.0,
+    "hook_fps": 2.0,
+    "fps": 1.0,
+    "scene": 0.3,
+    "width": 480,
+    "dedupe": 0.3
+  },
+  "counts": {
+    "hook": 7,
+    "s": 5,
+    "cut": 7,
+    "dropped": 6
+  },
+  "frames": [
+    {
+      "file": "t0000.00_hook.jpg",
+      "t": 0.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0000.50_hook.jpg",
+      "t": 0.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.00_hook.jpg",
+      "t": 1.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.47_cut.jpg",
+      "t": 1.467,
+      "kind": "cut"
+    },
+    {
+      "file": "t0002.00_hook.jpg",
+      "t": 2.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.67_cut.jpg",
+      "t": 2.667,
+      "kind": "cut"
+    },
+    {
+      "file": "t0003.00_hook.jpg",
+      "t": 3.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.70_cut.jpg",
+      "t": 3.7,
+      "kind": "cut"
+    },
+    {
+      "file": "t0004.00_hook.jpg",
+      "t": 4.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.50_hook.jpg",
+      "t": 4.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.80_cut.jpg",
+      "t": 4.8,
+      "kind": "cut"
+    },
+    {
+      "file": "t0005.67_cut.jpg",
+      "t": 5.667,
+      "kind": "cut"
+    },
+    {
+      "file": "t0006.00_s.jpg",
+      "t": 6.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0006.90_cut.jpg",
+      "t": 6.9,
+      "kind": "cut"
+    },
+    {
+      "file": "t0008.00_s.jpg",
+      "t": 8.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0009.03_cut.jpg",
+      "t": 9.033,
+      "kind": "cut"
+    },
+    {
+      "file": "t0010.00_s.jpg",
+      "t": 10.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0011.00_s.jpg",
+      "t": 11.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0012.00_s.jpg",
+      "t": 12.0,
+      "kind": "s"
+    }
+  ]
+}

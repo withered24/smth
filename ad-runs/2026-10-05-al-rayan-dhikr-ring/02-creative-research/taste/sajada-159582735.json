@@ -1,0 +1,91 @@
+{
+ "id": "sajada-159582735",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 12,
+   "evidence": "Static 1080x1440: raw top-down phone photo of the printed prayer mat on a wood floor with bare feet at the bottom; customer-photo look, no overlay text. Hook is the first line of the primary text ('Finally pray without checking your phone every 30 seconds')."
+  },
+  "problem_awareness": {
+   "score": 15,
+   "evidence": "Primary text line 1 names a specific behaviour + friction: 'pray without checking your phone every 30 seconds' (new Muslims / learners)."
+  },
+  "unique_mechanism": {
+   "score": 11,
+   "evidence": "Mechanism visible in the image: numbered Step 1-12 with figures and phonetics printed on the mat = 'no need for the phone'."
+  },
+  "visual_proof": {
+   "score": 11,
+   "evidence": "Product shown in use, feet on mat, every step readable; result implied."
+  },
+  "friction_reduction": {
+   "score": 6,
+   "evidence": "Cushion line + 'not cheating' reassurance; no guarantee or shipping."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "Shop Now button + 'Learn to pray with confidence before Ramadan, Shop our phonetic Prayer mat now' in text; no incentive."
+  },
+  "total": 61
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Raw UGC-style photo of the printed mat (native, HG2) but no headline on the image; the verbal tension 'without checking your phone every 30 seconds' only appears in the primary text."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Pains: 'I don't like checking my phone for Islamic apps because I get pulled into social media' (Q30) and ANG4 phone-free remembrance; § Avatars A1 desires dhikr 'without ... opening the phone'. Same Muslim audience, 'phone-free worship' driver, though their buyer is a new learner."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'pray without checking your phone every 30 seconds' -> 'count your dhikr without opening your phone'. Port: raw top-down UGC photo of the mat -> raw phone photo of a hand with the ring over a prayer mat. Port: numbered-steps print as visual proof -> the ring's 4-digit display + 33/66/99 vibration. One substitution (product), truth-clean once their review quotes are dropped."
+  }
+ },
+ "checklist_hits": [
+  2,
+  3,
+  4,
+  6
+ ],
+ "green_flags": [
+  "HG2: raw customer-style photo, no polish (media.jpg)",
+  "MG1: product in use with feet on mat",
+  "HG3: phone-checking friction named in first line of copy"
+ ],
+ "red_flags": [
+  "HR3: image carries no hook text; hook only in primary text",
+  "CR3: button-only CTA"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "negative_framing",
+   "original": "Finally pray without checking your phone every 30 seconds",
+   "pattern": "Finally [do the sacred act] without [phone friction] every [N] seconds",
+   "where": "primary text line 1",
+   "port": "Finally keep my dhikr going without opening my phone every few minutes."
+  },
+  {
+   "kind": "visual_device",
+   "type": "other",
+   "original": "Top-down amateur photo of the product on a wood floor with the user's bare feet entering the frame",
+   "pattern": "UGC top-down phone photo, product in use, body part at frame edge",
+   "where": "whole image",
+   "port": "Top-down phone photo of the ring hand resting on a prayer mat, count visible on the ring"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "mechanism_reveal",
+   "original": "friction line -> reassurance ('not cheating') -> 3-check feature list -> 2 customer quotes -> who it's for -> Ramadan CTA",
+   "pattern": "friction -> reassure -> checklist -> 'perfect for' segments -> seasonal CTA",
+   "where": "primary text",
+   "port": "friction (loud clickers, phone) -> reassurance (counting aids are permitted, finger counting stays Sunnah) -> 3 checks -> perfect for office/commute/gift -> Ramadan CTA"
+  }
+ ],
+ "port_idea": "4:5 static with a raw top-down phone photo of the Al Rayan ring hand on a prayer mat, minimal overlay; the primary text opens 'Finally keep your dhikr going without opening your phone' and follows friction -> reassurance -> checklist -> 'perfect for' list. Real offer only.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: native raw photo and a phone-free friction line match ANG4, but the image itself has no hook and CTA is button-only. confidence: high (GetHookd winning, active 41 days)"
+}

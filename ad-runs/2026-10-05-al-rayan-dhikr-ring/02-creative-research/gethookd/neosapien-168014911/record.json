@@ -1,0 +1,50 @@
+{
+ "id": "neosapien-168014911",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "avatar: subscription-cost pain not in our avatar; duplicates our 3-panel comparison.",
+ "ad_url": "https://app.gethookd.ai/ads/168014911",
+ "brand": "NeoSapien",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Tech",
+ "query": "wearable",
+ "cross_niche": true,
+ "meta_ad_id": "1987358298633502",
+ "active_period": "38 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 38,
+ "primary_text": "India's #1 AI Wearable Personal AssistantTop professionals don't take notes anymore.\nNeo 1 does it for them — automatically.\n✅ Captures every conversation hands-free\n✅ Auto-transcribes in real time\n✅ Summarizes key points instantly\n✅ Accessible on your phone anytime\nNeo 1. Built for professionals who can't afford to miss a word. 👇",
+ "headline": "One Wearable. Every Meeting Captured.",
+ "cta": "Shop Now",
+ "landing_page": "https://neosapien.ai/shop",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1080,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/neosapien-168014911.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

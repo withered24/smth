@@ -1,0 +1,21 @@
+{"id":"lilli-paris-175960512","source":"gethookd","format":"video",
+"matrix":{
+"pattern_interrupt":{"score":9,"evidence":"0.0s t0000.00_hook.jpg: macro of an initial ring on a finger, cocktail glass blurred behind, text \"I'm obsessed\" with emoji; attractive but a soft statement, no tension."},
+"problem_awareness":{"score":3,"evidence":"only on-screen \"I'm obsessed\" for the whole 15s; no problem named."},
+"unique_mechanism":{"score":3,"evidence":"primary text: 'Hypoallergenic, water and oxidation resistant'; nothing shown or explained in the video."},
+"visual_proof":{"score":11,"evidence":"5-15s t0005.73_cut.jpg to t0013.00_s.jpg: ring held in sunlight, letters M and K in macro, open band on a palm; product detail is clear."},
+"friction_reduction":{"score":4,"evidence":"primary text lists 'Hypoallergenic, Water and oxidation resistant, Made to last'; no guarantee or shipping in the video."},
+"cta":{"score":2,"evidence":"no in-video CTA; Shop Now button, 'Back in Stock' headline."},
+"total":32},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":5,"rationale":"Pretty macro shot with a soft caption; no stopping tension."},
+"avatar_congruence":{"score":5,"rationale":"master_avatar_research.md: A2 gift buyer is relevant to personalised initial rings, but the video is a fashion fan clip with no faith or counting link."},
+"adaptability":{"score":6,"rationale":"Port: macro ring-on-finger shots are portable, but a cocktail glass sits in most frames (alcohol, excluded by run notes) so the footage cannot be reused and the copy has nothing to carry over."}},
+"checklist_hits":[],
+"green_flags":["MG1: product detail in macro, legible"],
+"red_flags":["alcohol in frame (RUN NOTES skip rule)","CR1: no CTA in video","competitor claim '70,000+ customers' in primary text: not usable"],
+"what_to_steal":[],
+"port_idea":"None kept.",
+"decision":"REJECT",
+"reason":"Tier Reject (32): alcohol (cocktail) in most frames per run notes, soft caption-only video, no mechanism. confidence: high"}

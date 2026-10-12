@@ -1,0 +1,72 @@
+{
+ "id": "tinker-stone-mindful-adornments-165455430",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 11,
+   "evidence": "Glance: Leo zodiac bracelet hero beside a planet legend (PLUTO...MERCURY); cluttered collage, no single headline."
+  },
+  "problem_awareness": {
+   "score": 8,
+   "evidence": "Pain only in primary text ('struggled to maintain balance')."
+  },
+  "unique_mechanism": {
+   "score": 6,
+   "evidence": "'Boosts positive energy flow' = buzzword; planets-to-beads legend is the only structure."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "Product shown three times with labelled planet legend; no in-use shot."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Only fine-print copy: no costly treatments."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "No on-image CTA; copy 'Get Yours 40% Off Today' only."
+  },
+  "total": 43
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Busy collage, no dominant headline; legend text is cut off at the right edge."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "Zodiac/astrology imagery and 'energy flow' claims conflict with the Muslim avatar (master_avatar_research.md § Beliefs: faith content must be sahih; B3 permitted counting aids). No pain/desire overlap with Q21/Q29."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: annotated planet legend -> annotated feature legend on our ring; but the structure is cluttered and its subject (astrology) cannot be carried."
+  }
+ },
+ "checklist_hits": [
+  3,
+  6
+ ],
+ "green_flags": [
+  "MG1: product shown 3x"
+ ],
+ "red_flags": [
+  "HR3: no clear hook headline",
+  "MR1: feature dumping, buzzword claims",
+  "CR1: no on-image CTA"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "structure_beat",
+   "type": "other",
+   "original": "Hero product + side legend of labelled elements",
+   "pattern": "hero + labelled legend column",
+   "where": "right 30%",
+   "port": "legend of our 3 pulse points"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar: zodiac/astrology subject conflicts with the Muslim avatar; cluttered, no hook headline. confidence: high (GetHookd optimized, active 198 days)"
+}

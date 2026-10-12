@@ -1,0 +1,62 @@
+{
+ "id": "pulserive-98463189",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "Glance: 'Smart Ring Revolution' in two black pills over a blurred gym background beside a chrome ring; busy."
+  },
+  "problem_awareness": {
+   "score": 9,
+   "evidence": "No pain on image; 'Smart Ring Revolution' generic; pain only in primary text."
+  },
+  "unique_mechanism": {
+   "score": 9,
+   "evidence": "Eight icon labels (Blood Pressure, Oxygen, Heart Rate ...) = feature grid, no why."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Ring hero shown; no in-use shot; FDA badge as proof."
+  },
+  "friction_reduction": {
+   "score": 5,
+   "evidence": "Free delivery in copy; badge."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "No on-image CTA; copy: free charging case, limited time."
+  },
+  "total": 45
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "Two focal points compete (headline pills vs ring) over a blurred background; generic."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "master_avatar_research.md § Pains: juggling several counters (Q01); a feature-dump smart-ring story targets health trackers, not dhikr."
+  },
+  "adaptability": {
+   "score": 4,
+   "rationale": "Port: icon grid -> our feature icons, but the ad depends on 'FDA APPROVED', blood-pressure and health claims we cannot make; truth cap applies, no strong substitute beyond a generic icon grid."
+  }
+ },
+ "checklist_hits": [
+  4
+ ],
+ "green_flags": [
+  "MG1: ring hero"
+ ],
+ "red_flags": [
+  "MR1: feature dumping",
+  "HR3: vague headline",
+  "CR1: no clear CTA"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: adaptability: power rests on FDA/blood-pressure claims we cannot make; cluttered icon grid. confidence: high (GetHookd winning, active 149 days)"
+}

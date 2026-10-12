@@ -1,0 +1,487 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\deen-international-173775613\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.912,
+ "duration": 29.743,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.68,
+   "text": "Everybody ask the same three questions about our shorts.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.68,
+     "word": "Everybody",
+     "p": 0.857
+    },
+    {
+     "start": 0.68,
+     "end": 1.16,
+     "word": "ask",
+     "p": 0.45
+    },
+    {
+     "start": 1.16,
+     "end": 1.4,
+     "word": "the",
+     "p": 0.983
+    },
+    {
+     "start": 1.4,
+     "end": 1.82,
+     "word": "same",
+     "p": 0.996
+    },
+    {
+     "start": 1.82,
+     "end": 2.08,
+     "word": "three",
+     "p": 0.48
+    },
+    {
+     "start": 2.08,
+     "end": 2.54,
+     "word": "questions",
+     "p": 0.953
+    },
+    {
+     "start": 2.54,
+     "end": 2.86,
+     "word": "about",
+     "p": 0.993
+    },
+    {
+     "start": 2.86,
+     "end": 3.24,
+     "word": "our",
+     "p": 0.985
+    },
+    {
+     "start": 3.24,
+     "end": 3.68,
+     "word": "shorts.",
+     "p": 0.967
+    }
+   ]
+  },
+  {
+   "start": 4.18,
+   "end": 5.46,
+   "text": "Do they stay in place when you run?",
+   "words": [
+    {
+     "start": 4.18,
+     "end": 4.26,
+     "word": "Do",
+     "p": 0.964
+    },
+    {
+     "start": 4.26,
+     "end": 4.44,
+     "word": "they",
+     "p": 0.983
+    },
+    {
+     "start": 4.44,
+     "end": 4.58,
+     "word": "stay",
+     "p": 0.986
+    },
+    {
+     "start": 4.58,
+     "end": 4.74,
+     "word": "in",
+     "p": 0.986
+    },
+    {
+     "start": 4.74,
+     "end": 4.88,
+     "word": "place",
+     "p": 0.984
+    },
+    {
+     "start": 4.88,
+     "end": 5.08,
+     "word": "when",
+     "p": 0.977
+    },
+    {
+     "start": 5.08,
+     "end": 5.2,
+     "word": "you",
+     "p": 0.982
+    },
+    {
+     "start": 5.2,
+     "end": 5.46,
+     "word": "run?",
+     "p": 0.966
+    }
+   ]
+  },
+  {
+   "start": 7.54,
+   "end": 11.5,
+   "text": "Yes, the legging is soon to the short, it cannot move.",
+   "words": [
+    {
+     "start": 7.54,
+     "end": 8.0,
+     "word": "Yes,",
+     "p": 0.949
+    },
+    {
+     "start": 8.6,
+     "end": 8.74,
+     "word": "the",
+     "p": 0.973
+    },
+    {
+     "start": 8.74,
+     "end": 9.12,
+     "word": "legging",
+     "p": 0.715
+    },
+    {
+     "start": 9.12,
+     "end": 9.36,
+     "word": "is",
+     "p": 0.955
+    },
+    {
+     "start": 9.36,
+     "end": 9.72,
+     "word": "soon",
+     "p": 0.873
+    },
+    {
+     "start": 9.72,
+     "end": 9.92,
+     "word": "to",
+     "p": 0.976
+    },
+    {
+     "start": 9.92,
+     "end": 10.1,
+     "word": "the",
+     "p": 0.946
+    },
+    {
+     "start": 10.1,
+     "end": 10.38,
+     "word": "short,",
+     "p": 0.948
+    },
+    {
+     "start": 10.58,
+     "end": 10.64,
+     "word": "it",
+     "p": 0.986
+    },
+    {
+     "start": 10.64,
+     "end": 10.92,
+     "word": "cannot",
+     "p": 0.799
+    },
+    {
+     "start": 10.92,
+     "end": 11.5,
+     "word": "move.",
+     "p": 0.995
+    }
+   ]
+  },
+  {
+   "start": 11.82,
+   "end": 13.14,
+   "text": "Two, what do they cover?",
+   "words": [
+    {
+     "start": 11.82,
+     "end": 11.98,
+     "word": "Two,",
+     "p": 0.559
+    },
+    {
+     "start": 12.4,
+     "end": 12.58,
+     "word": "what",
+     "p": 0.968
+    },
+    {
+     "start": 12.58,
+     "end": 12.7,
+     "word": "do",
+     "p": 0.85
+    },
+    {
+     "start": 12.7,
+     "end": 12.84,
+     "word": "they",
+     "p": 0.989
+    },
+    {
+     "start": 12.84,
+     "end": 13.14,
+     "word": "cover?",
+     "p": 0.998
+    }
+   ]
+  },
+  {
+   "start": 13.66,
+   "end": 15.9,
+   "text": "The Chohoura, a naval to believe the name.",
+   "words": [
+    {
+     "start": 13.66,
+     "end": 13.68,
+     "word": "The",
+     "p": 0.318
+    },
+    {
+     "start": 13.68,
+     "end": 14.4,
+     "word": "Chohoura,",
+     "p": 0.425
+    },
+    {
+     "start": 14.52,
+     "end": 14.6,
+     "word": "a",
+     "p": 0.57
+    },
+    {
+     "start": 14.6,
+     "end": 14.92,
+     "word": "naval",
+     "p": 0.656
+    },
+    {
+     "start": 14.92,
+     "end": 15.32,
+     "word": "to",
+     "p": 0.453
+    },
+    {
+     "start": 15.32,
+     "end": 15.48,
+     "word": "believe",
+     "p": 0.227
+    },
+    {
+     "start": 15.48,
+     "end": 15.7,
+     "word": "the",
+     "p": 0.841
+    },
+    {
+     "start": 15.7,
+     "end": 15.9,
+     "word": "name.",
+     "p": 0.994
+    }
+   ]
+  },
+  {
+   "start": 16.42,
+   "end": 18.04,
+   "text": "Three, only for sport?",
+   "words": [
+    {
+     "start": 16.42,
+     "end": 16.72,
+     "word": "Three,",
+     "p": 0.985
+    },
+    {
+     "start": 17.26,
+     "end": 17.52,
+     "word": "only",
+     "p": 0.987
+    },
+    {
+     "start": 17.52,
+     "end": 17.72,
+     "word": "for",
+     "p": 0.992
+    },
+    {
+     "start": 17.72,
+     "end": 18.04,
+     "word": "sport?",
+     "p": 0.94
+    }
+   ]
+  },
+  {
+   "start": 18.4,
+   "end": 22.62,
+   "text": "No, for running, for MMA, for football, for everything.",
+   "words": [
+    {
+     "start": 18.4,
+     "end": 18.62,
+     "word": "No,",
+     "p": 0.965
+    },
+    {
+     "start": 19.0,
+     "end": 19.2,
+     "word": "for",
+     "p": 0.979
+    },
+    {
+     "start": 19.2,
+     "end": 19.52,
+     "word": "running,",
+     "p": 0.99
+    },
+    {
+     "start": 20.04,
+     "end": 20.12,
+     "word": "for",
+     "p": 0.992
+    },
+    {
+     "start": 20.12,
+     "end": 20.52,
+     "word": "MMA,",
+     "p": 0.942
+    },
+    {
+     "start": 21.04,
+     "end": 21.14,
+     "word": "for",
+     "p": 0.993
+    },
+    {
+     "start": 21.14,
+     "end": 21.52,
+     "word": "football,",
+     "p": 0.979
+    },
+    {
+     "start": 22.06,
+     "end": 22.14,
+     "word": "for",
+     "p": 0.989
+    },
+    {
+     "start": 22.14,
+     "end": 22.62,
+     "word": "everything.",
+     "p": 0.994
+    }
+   ]
+  },
+  {
+   "start": 23.32,
+   "end": 27.46,
+   "text": "Light, with dry, from eight years old to three-exile.",
+   "words": [
+    {
+     "start": 23.32,
+     "end": 23.7,
+     "word": "Light,",
+     "p": 0.922
+    },
+    {
+     "start": 24.32,
+     "end": 24.48,
+     "word": "with",
+     "p": 0.275
+    },
+    {
+     "start": 24.48,
+     "end": 24.92,
+     "word": "dry,",
+     "p": 0.979
+    },
+    {
+     "start": 25.32,
+     "end": 25.56,
+     "word": "from",
+     "p": 0.989
+    },
+    {
+     "start": 25.56,
+     "end": 25.9,
+     "word": "eight",
+     "p": 0.627
+    },
+    {
+     "start": 25.9,
+     "end": 26.12,
+     "word": "years",
+     "p": 0.985
+    },
+    {
+     "start": 26.12,
+     "end": 26.42,
+     "word": "old",
+     "p": 0.993
+    },
+    {
+     "start": 26.42,
+     "end": 26.66,
+     "word": "to",
+     "p": 0.926
+    },
+    {
+     "start": 26.66,
+     "end": 26.96,
+     "word": "three",
+     "p": 0.869
+    },
+    {
+     "start": 26.96,
+     "end": 27.46,
+     "word": "-exile.",
+     "p": 0.689
+    }
+   ]
+  },
+  {
+   "start": 27.98,
+   "end": 29.36,
+   "text": "Everyone needs to cover up.",
+   "words": [
+    {
+     "start": 27.98,
+     "end": 28.38,
+     "word": "Everyone",
+     "p": 0.972
+    },
+    {
+     "start": 28.38,
+     "end": 28.68,
+     "word": "needs",
+     "p": 0.994
+    },
+    {
+     "start": 28.68,
+     "end": 28.86,
+     "word": "to",
+     "p": 0.997
+    },
+    {
+     "start": 28.86,
+     "end": 29.08,
+     "word": "cover",
+     "p": 0.999
+    },
+    {
+     "start": 29.08,
+     "end": 29.36,
+     "word": "up.",
+     "p": 0.949
+    }
+   ]
+  }
+ ]
+}

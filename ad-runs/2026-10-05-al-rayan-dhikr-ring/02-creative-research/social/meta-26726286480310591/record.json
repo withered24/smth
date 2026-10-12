@@ -1,0 +1,58 @@
+{
+ "id": "meta-26726286480310591",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "tier Reject (25/100): no hook words, mechanism or CTA; only a visual device",
+ "ad_url": "https://www.facebook.com/ads/library/?id=26726286480310591",
+ "brand": "Only One You Studio",
+ "format": "video",
+ "platforms": null,
+ "language": "en",
+ "niche": "faith jewellery (Catholic rosary ring)",
+ "query": "rosary ring",
+ "cross_niche": true,
+ "meta_ad_id": "26726286480310591",
+ "active_period": "Mar 19, 2026 – active",
+ "performance_tier": null,
+ "library_id": "26726286480310591",
+ "started_running": "2026-03-19",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 2,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=video&q=rosary%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/OnlyOneYouStudio/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 200,
+ "primary_text": "Carry your faith with you every day. A simple reminder of protection, strength, and purpose.",
+ "headline": "Rosary Ring – A Symbol of Faith",
+ "cta": "Shop now",
+ "landing_page": "https://onlyoneyoustudio.myshopify.com/products/wavy-band-ring-in-solid-925-sterling-silver-10k-gold-laminate-artisan-elegance-with-cubic-zirconia-copy",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "has_audio": true,
+  "duration_s": 8.15,
+  "width": 636,
+  "height": 360
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-26726286480310591.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "macro of a gold rosary-style ring slowly turned on a manicured finger"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

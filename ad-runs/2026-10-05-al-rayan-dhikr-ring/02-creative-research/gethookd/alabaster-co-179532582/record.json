@@ -1,0 +1,60 @@
+{
+ "id": "alabaster-co-179532582",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "tier Reject 38; static text hook, no CTA, divine-intent faith claim, avatar 5",
+ "ad_url": "https://app.gethookd.ai/ads/179532582",
+ "brand": "Alabaster Co",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Book/Publishing (Bible devotional)",
+ "query": "prayer (cross-niche)",
+ "cross_niche": true,
+ "meta_ad_id": "1096909062736414",
+ "active_period": "18 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 18,
+ "primary_text": "Read one verse a day, explained in plain language and finished with a short prayer. It takes less than a minute, and it keeps you in God's Word all year.",
+ "headline": "Give Him One Minute of Your Day",
+ "cta": "Shop Now",
+ "landing_page": "https://alabasterco.com/products/a-beautiful-year-with-jesus-the-365-day-bible-devotional",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg",
+   "frames/",
+   "transcript.txt",
+   "transcript.json"
+  ],
+  "duration_s": 11.8,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/alabaster-co-179532582.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "God stopped you here because he knew you were struggling to read the Bible",
+  "visual": "coastal road dashcam"
+ },
+ "angle": "",
+ "structure": "",
+ "why_it_won": "",
+ "collected_at": "2026-10-05T13:58:53Z"
+}

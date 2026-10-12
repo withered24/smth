@@ -1,0 +1,22 @@
+{"id":"moki-176018370","source":"gethookd","format":"video",
+"matrix":{
+"pattern_interrupt":{"score":9,"evidence":"0.0s t0000.00_hook.jpg: POV palm holding a watch in a thin black band, no text; 3.0s t0003.00_hook.jpg wrist reveal looks like a bracelet. No spoken or on-screen words (frames + transcript: no speech)."},
+"problem_awareness":{"score":6,"evidence":"pain only in primary text: 'Your Apple Watch shouldn't look like a fitness tracker 24/7!'; nothing in the video frames."},
+"unique_mechanism":{"score":5,"evidence":"band swap shown 8.0-11.0s (t0008.00_s.jpg-t0011.00_s.jpg) but never explained; primary text: 'Ditch the bulky sport band'."},
+"visual_proof":{"score":11,"evidence":"5.0-16.0s: same wrist shown as watch and as slim bangle, band clasp opened and closed (t0010.00_s.jpg), several colours (t0013.00_s.jpg-t0016.00_s.jpg)."},
+"friction_reduction":{"score":2,"evidence":"primary text only: 'BUY 2, GET THE 3RD FREE'; no guarantee or shipping."},
+"cta":{"score":4,"evidence":"no CTA in the video; primary text offer 'BUY 2, GET THE 3RD FREE'; headline 'Make Your Apple Watch Elegant'; Shop Now button."},
+"total":37},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":4,"rationale":"First 1.5s is a plain POV hand holding a watch (t0000.00_hook.jpg-t0001.50_hook.jpg); no words, no anomaly. The reveal comes after 3s."},
+"avatar_congruence":{"score":5,"rationale":"master_avatar_research.md § Angles ANG6: 'It's a ring. It's also a tasbih' and § Pains: 'cheap-looking gadget (Q32)' / Q40 'passes as a regular ring'. Driver 'looks like jewelry, not a gadget' is adjacent; Dior-branded display and no faith/dhikr context."},
+"adaptability":{"score":7,"rationale":"Port: gadget-to-jewelry POV reveal -> our ring shown as a plain ring, then tap shows the count (Q40). Port: colour-variant wrist shots -> black / rose gold ring. Silent b-roll is easy to produce; needs on-frame text because the original has none."}},
+"checklist_hits":[4],
+"green_flags":["MG1: product worn and handled in POV b-roll","MG3: cut or new wrist angle roughly every 1-2 s"],
+"red_flags":["HR3: no opening words or on-screen text; the hook lives only in the primary text","CR1: no CTA inside the video","MR1: shows looks only, no benefit tied to daily use"],
+"what_to_steal":[
+{"kind":"visual_device","type":"before_after","original":"same wrist shown as a smartwatch, then as a slim bangle (0-6s)","pattern":"tech object on the wrist reveals as pure jewelry","where":"0.0-6.0s","port":"our ring shown plain at 0.0s, a single tap lights the 4-digit count at 3s (Q40: passes as a regular ring)"}],
+"port_idea":"",
+"decision":"REJECT",
+"reason":"tier Reject: silent b-roll with no hook copy, mechanism or CTA. The 'looks like jewelry, not a gadget' reveal is the one harvestable device. confidence: high (GetHookd winning, active 24 days)"}

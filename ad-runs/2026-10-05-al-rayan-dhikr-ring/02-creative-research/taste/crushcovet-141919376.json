@@ -1,0 +1,63 @@
+{
+ "id": "crushcovet-141919376",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 7,
+   "evidence": "0.0s hook_01.jpg: chest-level close-up of rosary necklace swinging, overlay 'Amen' (Snap-style) from 0.0s; native phone clip, no spoken words, no tension."
+  },
+  "problem_awareness": {
+   "score": 3,
+   "evidence": "Only text is 'Amen' + emoji; pain/audience only in primary text 'Faith woven into every bead.' (no spoken audio, lang 0.54)."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "No mechanism; wearable rosary asserted in headline '50%off - A Rosary You Can Wear' only."
+  },
+  "visual_proof": {
+   "score": 7,
+   "evidence": "hook_01-hook_10, body_004.jpg: necklace worn, touched, medallion close-up; no use/result."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "None shown."
+  },
+  "cta": {
+   "score": 2,
+   "evidence": "Only Shop Now button + '50%off' in headline; no on-screen CTA."
+  },
+  "total": 21
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "0.0-1.5s: swinging necklace with 'Amen' overlay; native but generic, no verbal hook."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "master_avatar_research.md § Avatars A1: practising Muslim, discreet/modest; frame is a chest-level neckline shot of a woman in a tank top, outside our modest visual world; Catholic iconography (Virgin Mary medallion). Faith-wearable desire (§ VOC Q32) is the only overlap."
+  },
+  "adaptability": {
+   "score": 4,
+   "rationale": "Port: 'worn faith object' -> our ring on a hand. Everything visual (neckline close-up, Marian medal) cannot be ported modestly; no hook line or mechanism to carry."
+  }
+ },
+ "checklist_hits": [
+  2
+ ],
+ "green_flags": [
+  "HG2: native phone clip with story-style overlay"
+ ],
+ "red_flags": [
+  "HR3: no hook line; vague 'Amen' text",
+  "CR1: no CTA",
+  "TRUTH-RISK: none stated",
+  "MODESTY: chest-focused framing unsuitable for Muslim avatar"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: avatar floor: immodest neckline framing and Catholic iconography, no hook or mechanism. confidence: high (GetHookd winning, active 63 days)"
+}

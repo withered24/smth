@@ -1,0 +1,91 @@
+{
+ "id": "tulas-175871419",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 10,
+   "evidence": "Static 1024x1024 raw phone photo of a hand with a thin jade ring under a gold band, kitchen cabinets behind; no overlay text. Scroll-stopper is the first line of the primary text: 'My mother slid a green ring onto my finger under my wedding band and said: this one goes first.'"
+  },
+  "problem_awareness": {
+   "score": 12,
+   "evidence": "Pain is emotional (marriage drifting), surfaced only inside a long story; first 125 chars carry a curiosity story hook, not a named audience."
+  },
+  "unique_mechanism": {
+   "score": 16,
+   "evidence": "Elite mechanism with contrast: 'so you cannot forget you are in one... A small physical fact that outlasts how you feel' vs 'Every single thing I tried was something I had to schedule.'"
+  },
+  "visual_proof": {
+   "score": 7,
+   "evidence": "Ring worn on a real hand, no demo of a result."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Honesty beats ('I want it on the record that I expected to feel nothing') but no guarantee or shipping in the visible copy."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "Link at the end in an 'EDIT:' line (native Reddit-style disguise); button 'Shop now'."
+  },
+  "total": 53
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Image is a plain native hand photo (HG2) with no text; the curiosity line only exists in the primary text ('this one goes first'). Native but quiet."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Mechanism: Big Idea 'Blame your tools, not your intention'; ANG7 'consistency > intensity'; § Avatars A1 wants dhikr 'woven into the whole day'. Their driver, a small physical object on the finger that outlasts mood and scheduling, is our UMS (ring on the finger, tap, gentle vibration). Visual world (church, wedding) is wrong and must be re-staged modestly."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'jade ring under the band as a physical reminder forty times a day' -> 'a ring on the finger you tap forty times a day'. Port: 'everything I tried had to be scheduled' -> 'clickers, beads and apps all need me to stop and look'. Port: raw hand photo -> raw hand photo with the ring display. TRUTH SWAP: their fabricated Reddit-style testimonial and jade protection lore would cap this at 3; ours is a clearly persona-styled story, no fake attribution, no protection claim, only verified hadith. Long copy is primary text only, so the render is one hand photo."
+  }
+ },
+ "checklist_hits": [
+  2,
+  3,
+  5
+ ],
+ "green_flags": [
+  "HG2: raw native hand photo, no branding",
+  "MK2: story open loops ('this one goes first', 'Then came the year')",
+  "MK3: one message - a physical ritual outlasts feelings",
+  "MG2: explains the mechanism with contrast to scheduled fixes"
+ ],
+ "red_flags": [
+  "CR3: link buried in an 'EDIT' line, soft close",
+  "HR3: image has no hook text"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "curiosity_inversion",
+   "original": "My mother slid a green ring onto my finger under my wedding band and said: this one goes first.",
+   "pattern": "My [elder] slid [object] onto my finger and said: [rule that makes you ask why].",
+   "where": "primary text line 1",
+   "port": "My mother pressed a ring into my palm before Ramadan and said: this one counts for you."
+  },
+  {
+   "kind": "visual_device",
+   "type": "other",
+   "original": "Plain unretouched hand photo, ring on finger, kitchen background, natural daylight",
+   "pattern": "Raw hand-with-ring phone photo, domestic background, no overlay",
+   "where": "whole image",
+   "port": "Raw phone photo of a hand wearing the Al Rayan ring at a kitchen counter/desk, display showing a count"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "mechanism_reveal",
+   "original": "heirloom ritual -> a year of drifting -> every fix had to be scheduled -> the real point: a physical reminder you touch forty times a day -> small honest result -> gift line",
+   "pattern": "inherited ritual -> failure of scheduled fixes -> physical-reminder insight -> modest result -> gift/give-it line",
+   "where": "primary text, full length",
+   "port": "counting routine from a parent -> clickers, beads, apps all needed attention -> the ring needs none (tap) -> modest honest result -> buy one for someone you love"
+  }
+ ],
+ "port_idea": "4:5 static: raw phone photo of a hand with the ring on a kitchen counter and a subtle count on the display; the long native primary text is a clearly persona-styled first-person story (parent teaches a counting routine, years of broken tools, the ring as a silent physical reminder), ending on gifting. No stats, no protection or reward claims. Real offer only.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: best mechanism and ring-on-finger ritual structure in the set, native format; weak visual hook and a fabricated-testimonial style we must redo truthfully. confidence: high (GetHookd winning, active 25 days)"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "meta-1600083061461951",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "non_english: Arabic on-screen overlay and Arabic audio; KSA-targeted cut",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1600083061461951",
+ "brand": "Weslamic",
+ "format": "video",
+ "platforms": null,
+ "language": "ar",
+ "niche": "Islamic smart tasbih ring (direct competitor)",
+ "query": "dhikr",
+ "cross_niche": false,
+ "meta_ad_id": "1600083061461951",
+ "active_period": "Sep 9, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1600083061461951",
+ "started_running": "2026-09-09",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 9,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=video&q=dhikr&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/61581969492648/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 26,
+ "primary_text": "Imagine giving someone a gift that quietly reminds them when prayer time comes. 🎁\n🔔 5 Daily Prayer Vibration Reminders · 📿 33/66/99 Dhikr Vibration · 💧 IP68 Water Resistant\nSmall enough to wear every day, meaningful enough to become part of their routine. 🤍",
+ "headline": "Weslamic-office",
+ "cta": "Order now",
+ "landing_page": "https://shop.weslamic.com/collections/zikr-ring/products/weslamic-itasbih-smart-dhikr-3-0-weslamic-itasbih-nawa",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 19.2,
+  "width": 360,
+  "height": 640,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1600083061461951.json",
+ "hook": {
+  "spoken": "(Arabic audio)",
+  "on_screen": "(Arabic overlay, unread)",
+  "visual": "silver ring pinched over a glass dish, display '18'"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

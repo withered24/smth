@@ -1,0 +1,72 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\mommy-yasmin-175600855\\media.mp4",
+ "audio": true,
+ "language": "ar",
+ "language_probability": 0.943,
+ "duration": 10.008,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.68,
+   "text": "أود بالله من الشيطان الرجيم",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.92,
+     "word": "أود",
+     "p": 0.575
+    },
+    {
+     "start": 0.92,
+     "end": 2.22,
+     "word": "بالله",
+     "p": 0.854
+    },
+    {
+     "start": 2.22,
+     "end": 2.64,
+     "word": "من",
+     "p": 0.978
+    },
+    {
+     "start": 2.64,
+     "end": 4.24,
+     "word": "الشيطان",
+     "p": 0.969
+    },
+    {
+     "start": 4.24,
+     "end": 6.68,
+     "word": "الرجيم",
+     "p": 0.891
+    }
+   ]
+  },
+  {
+   "start": 6.68,
+   "end": 9.64,
+   "text": "بسم الله الرحمن",
+   "words": [
+    {
+     "start": 6.68,
+     "end": 7.56,
+     "word": "بسم",
+     "p": 0.913
+    },
+    {
+     "start": 7.56,
+     "end": 8.46,
+     "word": "الله",
+     "p": 0.908
+    },
+    {
+     "start": 8.46,
+     "end": 9.64,
+     "word": "الرحمن",
+     "p": 0.893
+    }
+   ]
+  }
+ ]
+}

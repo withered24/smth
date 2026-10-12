@@ -1,0 +1,83 @@
+{
+ "id": "sajada-175468570",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 15,
+   "evidence": "0.0s t0000.00_hook.jpg: real tabby staring at a hijabi woman unpacking a mat; text 'Muslim cat owners / Sajada made a prayer mat for your cat. Because they kept stealing ours.' on screen from 0.0s. Native, warm, relatable; audio unheard."
+  },
+  "problem_awareness": {
+   "score": 14,
+   "evidence": "on-screen from 0.0s: 'Muslim cat owners ... Because they kept stealing ours.' = tight identity callout plus a named, funny pain (cat steals the prayer mat); primary text 'within seconds, it's been claimed'."
+  },
+  "unique_mechanism": {
+   "score": 4,
+   "evidence": "no mechanism in the video; primary text lists '30 x 50 cm' and 'Soft velvet pile with no-slip backing' as features only."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "7.0-18.0s t0008.00_s.jpg-t0017.00_s.jpg: the cat settles on the mini mat beside the owner's mat; product in real use, result visible, no function shown beyond comfort."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "no guarantee or shipping; only primary text bullet 'Purrfect for little friends'."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "t0018.00_s.jpg end text 'Link below!'; primary text '👉 Shop now at sajada.com'; no incentive."
+  },
+  "total": 51
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "Identity callout text plus a live animal reaction are both in the 0.0s frame; the tension is the funny premise, with the hook line landing inside 1.5s."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § 1 A1 practising Muslim, US/UK/CA, and § Desires 'dhikr woven into the whole day' / Q40 'passes as a regular ring': the Muslim home, hijabi persona and community in-joke speak to our avatar's world even though the pain (cat steals mat) is not ours. Problem-aware stage matches."
+  },
+  "adaptability": {
+   "score": 7,
+   "rationale": "Port: 'Muslim cat owners / [brand] made X for your cat. Because they kept stealing ours.' -> 'Muslim professionals / this ring counts your dhikr. Because the clicker gave you away.' Port: cat-on-mat proof -> ring on finger with count ticking in a quiet meeting. Two substitutions (pain and proof); the pet gag cannot be reused."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  3
+ ],
+ "green_flags": [
+  "HG1: live cat reaction in the 0.0s frame",
+  "HG2: phone-shot home setting, subtitle captions, reads as an organic post",
+  "HG3: callout and premise within 1s",
+  "MK4: the hook text alone would work as a text-only ad"
+ ],
+ "red_flags": [
+  "MR1: no mechanism or benefit beyond comfort",
+  "CR3: soft close 'Link below!'"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "micro_callout",
+   "original": "Muslim cat owners / Sajada made a prayer mat for your cat. Because they kept stealing ours.",
+   "pattern": "[Muslim identity group] / [Brand] made [X] for [their situation]. Because [relatable reason].",
+   "where": "on-screen 0.0-18.0s",
+   "port": "Muslim professionals: this ring counts your dhikr. Because the clicker gave you away in the meeting."
+  },
+  {
+   "kind": "visual_device",
+   "type": "in_media_res",
+   "original": "live pet reacts to the unboxing in frame 1, hijabi woman unpacking at a pink floral mat",
+   "pattern": "authentic home moment with a living reaction in the first frame",
+   "where": "0.0-5.0s",
+   "port": "coworker glances at the desk as the ring is tapped silently"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier B with adaptability 7 (<8): the pet-comedy proof cannot be ported without two substitutions. Identity-callout hook and native Muslim home look are worth harvesting. confidence: high (GetHookd winning, active 26 days)"
+}

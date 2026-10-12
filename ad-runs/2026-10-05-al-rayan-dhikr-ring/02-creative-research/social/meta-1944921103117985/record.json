@@ -1,0 +1,58 @@
+{
+ "id": "meta-1944921103117985",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "filter floor: avatar (Tibetan 'energy' product for a different audience)",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1944921103117985",
+ "brand": "Pineapplea Lot",
+ "format": "video",
+ "platforms": null,
+ "language": "en",
+ "niche": "Tibetan prayer-wheel bracelet",
+ "query": "prayer bracelet",
+ "cross_niche": true,
+ "meta_ad_id": "1944921103117985",
+ "active_period": "Feb 4, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1944921103117985",
+ "started_running": "2026-02-04",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 10,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=video&q=prayer%20bracelet&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/100064103860642/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 243,
+ "primary_text": "🌀 Movement brings blessings – the rotating mantra bracelet with Tibetan energy! ✨\n\nThe handmade Tibetan silver bracelet with rotating prayer wheel pendant and six sacred syllables combines spiritual symbolism with urban street style – for men and women. 🕉️🌟\n\n🌟 Your powerful statement:\n✅ Rotating cylinder pendant with traditional “Om Mani Padme Hum” engravings.\n✅ High-quality sterling silver (925) with a matte antique finish.\n✅ Practical magnetic clasp for easy putting on and taking off.\n✅ One size fits all with adjustable cord (7.5–8.7 inch wrist circumference).\n✅ Comes with an explanation of the six syllables and a storage pouch.\n\nFrom meditation to a stroll through the city – wear your energy on your wrist! 🧘‍♂️🌆\n👍We offer a 30-day unconditional money-back guarantee.\n[remainder (shop link) not captured]",
+ "headline": null,
+ "cta": "Shop now",
+ "landing_page": "https://pineapplea.com/products/symbol",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "has_audio": true,
+  "duration_s": 11.82,
+  "width": 360,
+  "height": 640
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1944921103117985.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "silver prayer-wheel bracelet on wooden stand, then rotated in fingers and worn"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

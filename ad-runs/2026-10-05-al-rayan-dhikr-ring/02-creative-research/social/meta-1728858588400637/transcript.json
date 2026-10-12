@@ -1,0 +1,640 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\social\\meta-1728858588400637\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.999,
+ "duration": 30.417,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.7,
+   "text": "Low-key Muslim girl flex. I do not take my gold off all summer. Pool, ocean, saltwater, sunscreen,",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.32,
+     "word": "Low",
+     "p": 0.699
+    },
+    {
+     "start": 0.32,
+     "end": 0.48,
+     "word": "-key",
+     "p": 0.658
+    },
+    {
+     "start": 0.48,
+     "end": 0.72,
+     "word": "Muslim",
+     "p": 0.921
+    },
+    {
+     "start": 0.72,
+     "end": 1.02,
+     "word": "girl",
+     "p": 0.6
+    },
+    {
+     "start": 1.02,
+     "end": 1.34,
+     "word": "flex.",
+     "p": 0.925
+    },
+    {
+     "start": 2.02,
+     "end": 2.2,
+     "word": "I",
+     "p": 0.948
+    },
+    {
+     "start": 2.2,
+     "end": 2.36,
+     "word": "do",
+     "p": 0.986
+    },
+    {
+     "start": 2.36,
+     "end": 2.56,
+     "word": "not",
+     "p": 0.991
+    },
+    {
+     "start": 2.56,
+     "end": 2.9,
+     "word": "take",
+     "p": 0.994
+    },
+    {
+     "start": 2.9,
+     "end": 3.06,
+     "word": "my",
+     "p": 0.999
+    },
+    {
+     "start": 3.06,
+     "end": 3.28,
+     "word": "gold",
+     "p": 0.993
+    },
+    {
+     "start": 3.28,
+     "end": 3.66,
+     "word": "off",
+     "p": 0.998
+    },
+    {
+     "start": 3.66,
+     "end": 4.0,
+     "word": "all",
+     "p": 0.992
+    },
+    {
+     "start": 4.0,
+     "end": 4.3,
+     "word": "summer.",
+     "p": 0.983
+    },
+    {
+     "start": 4.58,
+     "end": 4.86,
+     "word": "Pool,",
+     "p": 0.932
+    },
+    {
+     "start": 5.16,
+     "end": 5.5,
+     "word": "ocean,",
+     "p": 0.963
+    },
+    {
+     "start": 5.68,
+     "end": 6.2,
+     "word": "saltwater,",
+     "p": 0.8
+    },
+    {
+     "start": 6.44,
+     "end": 6.7,
+     "word": "sunscreen,",
+     "p": 0.973
+    }
+   ]
+  },
+  {
+   "start": 7.06,
+   "end": 12.44,
+   "text": "and it still looks exactly like the day it arrived because it is real 18 karat gold that does not fade",
+   "words": [
+    {
+     "start": 7.06,
+     "end": 7.28,
+     "word": "and",
+     "p": 0.985
+    },
+    {
+     "start": 7.28,
+     "end": 7.4,
+     "word": "it",
+     "p": 0.996
+    },
+    {
+     "start": 7.4,
+     "end": 7.68,
+     "word": "still",
+     "p": 0.993
+    },
+    {
+     "start": 7.68,
+     "end": 7.92,
+     "word": "looks",
+     "p": 0.999
+    },
+    {
+     "start": 7.92,
+     "end": 8.46,
+     "word": "exactly",
+     "p": 0.996
+    },
+    {
+     "start": 8.46,
+     "end": 8.68,
+     "word": "like",
+     "p": 0.995
+    },
+    {
+     "start": 8.68,
+     "end": 8.82,
+     "word": "the",
+     "p": 0.999
+    },
+    {
+     "start": 8.82,
+     "end": 9.0,
+     "word": "day",
+     "p": 0.999
+    },
+    {
+     "start": 9.0,
+     "end": 9.08,
+     "word": "it",
+     "p": 0.99
+    },
+    {
+     "start": 9.08,
+     "end": 9.4,
+     "word": "arrived",
+     "p": 0.999
+    },
+    {
+     "start": 9.4,
+     "end": 9.8,
+     "word": "because",
+     "p": 0.49
+    },
+    {
+     "start": 9.8,
+     "end": 10.0,
+     "word": "it",
+     "p": 0.992
+    },
+    {
+     "start": 10.0,
+     "end": 10.16,
+     "word": "is",
+     "p": 0.995
+    },
+    {
+     "start": 10.16,
+     "end": 10.44,
+     "word": "real",
+     "p": 0.982
+    },
+    {
+     "start": 10.44,
+     "end": 10.86,
+     "word": "18",
+     "p": 0.983
+    },
+    {
+     "start": 10.86,
+     "end": 11.18,
+     "word": "karat",
+     "p": 0.827
+    },
+    {
+     "start": 11.18,
+     "end": 11.44,
+     "word": "gold",
+     "p": 0.995
+    },
+    {
+     "start": 11.44,
+     "end": 11.7,
+     "word": "that",
+     "p": 0.979
+    },
+    {
+     "start": 11.7,
+     "end": 11.9,
+     "word": "does",
+     "p": 0.997
+    },
+    {
+     "start": 11.9,
+     "end": 12.12,
+     "word": "not",
+     "p": 0.998
+    },
+    {
+     "start": 12.12,
+     "end": 12.44,
+     "word": "fade",
+     "p": 1.0
+    }
+   ]
+  },
+  {
+   "start": 12.44,
+   "end": 17.7,
+   "text": "or turn your skin green with a lifetime warranty and this is the one that means the most. The",
+   "words": [
+    {
+     "start": 12.44,
+     "end": 12.8,
+     "word": "or",
+     "p": 0.963
+    },
+    {
+     "start": 12.8,
+     "end": 13.08,
+     "word": "turn",
+     "p": 0.996
+    },
+    {
+     "start": 13.08,
+     "end": 13.22,
+     "word": "your",
+     "p": 0.998
+    },
+    {
+     "start": 13.22,
+     "end": 13.46,
+     "word": "skin",
+     "p": 0.998
+    },
+    {
+     "start": 13.46,
+     "end": 13.78,
+     "word": "green",
+     "p": 0.994
+    },
+    {
+     "start": 13.78,
+     "end": 14.14,
+     "word": "with",
+     "p": 0.968
+    },
+    {
+     "start": 14.14,
+     "end": 14.26,
+     "word": "a",
+     "p": 0.997
+    },
+    {
+     "start": 14.26,
+     "end": 14.58,
+     "word": "lifetime",
+     "p": 0.991
+    },
+    {
+     "start": 14.58,
+     "end": 15.06,
+     "word": "warranty",
+     "p": 0.996
+    },
+    {
+     "start": 15.06,
+     "end": 15.7,
+     "word": "and",
+     "p": 0.408
+    },
+    {
+     "start": 15.7,
+     "end": 15.9,
+     "word": "this",
+     "p": 0.966
+    },
+    {
+     "start": 15.9,
+     "end": 16.02,
+     "word": "is",
+     "p": 0.993
+    },
+    {
+     "start": 16.02,
+     "end": 16.12,
+     "word": "the",
+     "p": 0.997
+    },
+    {
+     "start": 16.12,
+     "end": 16.28,
+     "word": "one",
+     "p": 0.999
+    },
+    {
+     "start": 16.28,
+     "end": 16.42,
+     "word": "that",
+     "p": 0.997
+    },
+    {
+     "start": 16.42,
+     "end": 16.6,
+     "word": "means",
+     "p": 0.998
+    },
+    {
+     "start": 16.6,
+     "end": 16.82,
+     "word": "the",
+     "p": 0.996
+    },
+    {
+     "start": 16.82,
+     "end": 17.12,
+     "word": "most.",
+     "p": 0.998
+    },
+    {
+     "start": 17.56,
+     "end": 17.7,
+     "word": "The",
+     "p": 0.979
+    }
+   ]
+  },
+  {
+   "start": 17.7,
+   "end": 22.74,
+   "text": "entire Ayatub Kursi engraved around the band and an olive ring modeled on a real Palestinian",
+   "words": [
+    {
+     "start": 17.7,
+     "end": 18.02,
+     "word": "entire",
+     "p": 0.999
+    },
+    {
+     "start": 18.02,
+     "end": 18.42,
+     "word": "Ayatub",
+     "p": 0.884
+    },
+    {
+     "start": 18.42,
+     "end": 18.8,
+     "word": "Kursi",
+     "p": 0.715
+    },
+    {
+     "start": 18.8,
+     "end": 19.22,
+     "word": "engraved",
+     "p": 0.997
+    },
+    {
+     "start": 19.22,
+     "end": 19.42,
+     "word": "around",
+     "p": 0.999
+    },
+    {
+     "start": 19.42,
+     "end": 19.56,
+     "word": "the",
+     "p": 0.998
+    },
+    {
+     "start": 19.56,
+     "end": 19.88,
+     "word": "band",
+     "p": 0.99
+    },
+    {
+     "start": 19.88,
+     "end": 20.52,
+     "word": "and",
+     "p": 0.889
+    },
+    {
+     "start": 20.52,
+     "end": 20.64,
+     "word": "an",
+     "p": 0.988
+    },
+    {
+     "start": 20.64,
+     "end": 20.9,
+     "word": "olive",
+     "p": 0.929
+    },
+    {
+     "start": 20.9,
+     "end": 21.22,
+     "word": "ring",
+     "p": 0.999
+    },
+    {
+     "start": 21.22,
+     "end": 21.6,
+     "word": "modeled",
+     "p": 0.892
+    },
+    {
+     "start": 21.6,
+     "end": 21.86,
+     "word": "on",
+     "p": 0.999
+    },
+    {
+     "start": 21.86,
+     "end": 21.98,
+     "word": "a",
+     "p": 0.998
+    },
+    {
+     "start": 21.98,
+     "end": 22.18,
+     "word": "real",
+     "p": 0.993
+    },
+    {
+     "start": 22.18,
+     "end": 22.74,
+     "word": "Palestinian",
+     "p": 0.98
+    }
+   ]
+  },
+  {
+   "start": 22.74,
+   "end": 28.06,
+   "text": "olive branch. Three pieces and right now one of them is free and every order feeds a family",
+   "words": [
+    {
+     "start": 22.74,
+     "end": 23.08,
+     "word": "olive",
+     "p": 0.994
+    },
+    {
+     "start": 23.08,
+     "end": 23.42,
+     "word": "branch.",
+     "p": 0.961
+    },
+    {
+     "start": 23.72,
+     "end": 23.9,
+     "word": "Three",
+     "p": 0.955
+    },
+    {
+     "start": 23.9,
+     "end": 24.26,
+     "word": "pieces",
+     "p": 0.999
+    },
+    {
+     "start": 24.26,
+     "end": 24.82,
+     "word": "and",
+     "p": 0.742
+    },
+    {
+     "start": 24.82,
+     "end": 25.0,
+     "word": "right",
+     "p": 0.994
+    },
+    {
+     "start": 25.0,
+     "end": 25.22,
+     "word": "now",
+     "p": 1.0
+    },
+    {
+     "start": 25.22,
+     "end": 25.44,
+     "word": "one",
+     "p": 0.962
+    },
+    {
+     "start": 25.44,
+     "end": 25.54,
+     "word": "of",
+     "p": 1.0
+    },
+    {
+     "start": 25.54,
+     "end": 25.7,
+     "word": "them",
+     "p": 1.0
+    },
+    {
+     "start": 25.7,
+     "end": 25.92,
+     "word": "is",
+     "p": 0.999
+    },
+    {
+     "start": 25.92,
+     "end": 26.18,
+     "word": "free",
+     "p": 0.999
+    },
+    {
+     "start": 26.18,
+     "end": 26.68,
+     "word": "and",
+     "p": 0.809
+    },
+    {
+     "start": 26.68,
+     "end": 26.94,
+     "word": "every",
+     "p": 0.994
+    },
+    {
+     "start": 26.94,
+     "end": 27.24,
+     "word": "order",
+     "p": 0.988
+    },
+    {
+     "start": 27.24,
+     "end": 27.54,
+     "word": "feeds",
+     "p": 0.986
+    },
+    {
+     "start": 27.54,
+     "end": 27.72,
+     "word": "a",
+     "p": 0.997
+    },
+    {
+     "start": 27.72,
+     "end": 28.06,
+     "word": "family",
+     "p": 1.0
+    }
+   ]
+  },
+  {
+   "start": 28.06,
+   "end": 30.28,
+   "text": "in Palestine. One order, one meal.",
+   "words": [
+    {
+     "start": 28.06,
+     "end": 28.24,
+     "word": "in",
+     "p": 0.373
+    },
+    {
+     "start": 28.24,
+     "end": 28.64,
+     "word": "Palestine.",
+     "p": 0.992
+    },
+    {
+     "start": 29.08,
+     "end": 29.2,
+     "word": "One",
+     "p": 0.95
+    },
+    {
+     "start": 29.2,
+     "end": 29.54,
+     "word": "order,",
+     "p": 0.868
+    },
+    {
+     "start": 29.88,
+     "end": 30.04,
+     "word": "one",
+     "p": 0.984
+    },
+    {
+     "start": 30.04,
+     "end": 30.28,
+     "word": "meal.",
+     "p": 0.999
+    }
+   ]
+  }
+ ]
+}

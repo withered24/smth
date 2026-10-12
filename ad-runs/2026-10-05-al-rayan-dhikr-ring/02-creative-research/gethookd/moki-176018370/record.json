@@ -1,0 +1,57 @@
+{
+ "id": "moki-176018370",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "Taste total 37 (Reject): silent POV b-roll with no in-video text or copy, no mechanism, no CTA; the jewelry-not-gadget reveal is the only transferable idea",
+ "ad_url": "https://app.gethookd.ai/ads/176018370",
+ "brand": "Moki",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Accessories",
+ "query": "bracelet (cross-niche wearable)",
+ "cross_niche": true,
+ "meta_ad_id": "1054538540545289",
+ "active_period": "24 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 24,
+ "primary_text": "Your Apple Watch shouldn't look like a fitness tracker 24/7! ❌⌚ | Turn your Apple Watch into a stunning piece of jewelry with the Aurelia Bangle Band. Ditch the bulky sport band and instantly upgrade your wrist game. ✨ | 💖 BUY 2, GET THE 3RD FREE — Mix & match colors to outfit repeat!",
+ "headline": "Make Your Apple Watch Elegant ✨",
+ "cta": "Shop Now",
+ "landing_page": "https://mokiband.com/products/aurelia-bangle-band-for-apple-watch",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 17.1,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/moki-176018370.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "POV hand holds a smartwatch in a slim black bangle band, then wrist shots of bangle bands"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:46:08Z"
+}

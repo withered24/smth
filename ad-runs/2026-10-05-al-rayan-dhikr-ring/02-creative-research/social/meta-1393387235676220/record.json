@@ -1,0 +1,57 @@
+{
+ "id": "meta-1393387235676220",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "tier Reject: catalog/retargeting packshot, no hook",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1393387235676220",
+ "brand": "Calm Collective",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "fidget ring",
+ "cross_niche": true,
+ "meta_ad_id": "1393387235676220",
+ "active_period": "Aug 15, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1393387235676220",
+ "started_running": "2026-08-15",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": true,
+  "result_rank": 3,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=fidget%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/calmcollectivecompany/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 51,
+ "primary_text": "👋 See something you like? Shop our stackable and discreet fidget jewellery this month (any 3 for 2)!",
+ "headline": "rotating black chain ring | £19.95",
+ "cta": "Shop Now",
+ "landing_page": "https://calmcollectiveco.com/collections/anxiety-relief-rings",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1393387235676220.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "Retargeting packshot of a rotating chain ring on white, copy 'rotating black chain ring | £19.95 / 3 for 2 this month'"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

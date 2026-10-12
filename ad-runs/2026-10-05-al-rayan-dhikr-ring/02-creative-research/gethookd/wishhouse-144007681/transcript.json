@@ -1,0 +1,372 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\wishhouse-144007681\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.932,
+ "duration": 14.142,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.6,
+   "text": "So if you're watching this video, you're so lucky I've been looking for a good quality version of this for my home and this one goes above and beyond my expectations, but what's even better is the checkout mechanism on this exact link right here.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.2,
+     "word": "So",
+     "p": 0.666
+    },
+    {
+     "start": 0.2,
+     "end": 0.36,
+     "word": "if",
+     "p": 0.831
+    },
+    {
+     "start": 0.36,
+     "end": 0.44,
+     "word": "you're",
+     "p": 0.976
+    },
+    {
+     "start": 0.44,
+     "end": 0.66,
+     "word": "watching",
+     "p": 0.997
+    },
+    {
+     "start": 0.66,
+     "end": 0.88,
+     "word": "this",
+     "p": 0.996
+    },
+    {
+     "start": 0.88,
+     "end": 1.12,
+     "word": "video,",
+     "p": 0.995
+    },
+    {
+     "start": 1.28,
+     "end": 1.4,
+     "word": "you're",
+     "p": 0.99
+    },
+    {
+     "start": 1.4,
+     "end": 1.66,
+     "word": "so",
+     "p": 0.982
+    },
+    {
+     "start": 1.66,
+     "end": 1.96,
+     "word": "lucky",
+     "p": 0.997
+    },
+    {
+     "start": 1.96,
+     "end": 2.28,
+     "word": "I've",
+     "p": 0.543
+    },
+    {
+     "start": 2.28,
+     "end": 2.38,
+     "word": "been",
+     "p": 0.999
+    },
+    {
+     "start": 2.38,
+     "end": 2.54,
+     "word": "looking",
+     "p": 0.998
+    },
+    {
+     "start": 2.54,
+     "end": 2.76,
+     "word": "for",
+     "p": 0.998
+    },
+    {
+     "start": 2.76,
+     "end": 2.88,
+     "word": "a",
+     "p": 0.991
+    },
+    {
+     "start": 2.88,
+     "end": 2.98,
+     "word": "good",
+     "p": 0.954
+    },
+    {
+     "start": 2.98,
+     "end": 3.24,
+     "word": "quality",
+     "p": 0.983
+    },
+    {
+     "start": 3.24,
+     "end": 3.52,
+     "word": "version",
+     "p": 0.993
+    },
+    {
+     "start": 3.52,
+     "end": 3.66,
+     "word": "of",
+     "p": 0.991
+    },
+    {
+     "start": 3.66,
+     "end": 3.78,
+     "word": "this",
+     "p": 0.99
+    },
+    {
+     "start": 3.78,
+     "end": 3.9,
+     "word": "for",
+     "p": 0.847
+    },
+    {
+     "start": 3.9,
+     "end": 4.02,
+     "word": "my",
+     "p": 0.996
+    },
+    {
+     "start": 4.02,
+     "end": 4.22,
+     "word": "home",
+     "p": 0.992
+    },
+    {
+     "start": 4.22,
+     "end": 4.38,
+     "word": "and",
+     "p": 0.588
+    },
+    {
+     "start": 4.38,
+     "end": 4.54,
+     "word": "this",
+     "p": 0.99
+    },
+    {
+     "start": 4.54,
+     "end": 4.66,
+     "word": "one",
+     "p": 0.977
+    },
+    {
+     "start": 4.66,
+     "end": 4.84,
+     "word": "goes",
+     "p": 0.992
+    },
+    {
+     "start": 4.84,
+     "end": 5.22,
+     "word": "above",
+     "p": 0.952
+    },
+    {
+     "start": 5.22,
+     "end": 5.36,
+     "word": "and",
+     "p": 0.995
+    },
+    {
+     "start": 5.36,
+     "end": 5.62,
+     "word": "beyond",
+     "p": 0.998
+    },
+    {
+     "start": 5.62,
+     "end": 5.82,
+     "word": "my",
+     "p": 0.986
+    },
+    {
+     "start": 5.82,
+     "end": 6.26,
+     "word": "expectations,",
+     "p": 0.996
+    },
+    {
+     "start": 6.26,
+     "end": 6.88,
+     "word": "but",
+     "p": 0.962
+    },
+    {
+     "start": 6.88,
+     "end": 7.1,
+     "word": "what's",
+     "p": 0.952
+    },
+    {
+     "start": 7.1,
+     "end": 7.22,
+     "word": "even",
+     "p": 0.995
+    },
+    {
+     "start": 7.22,
+     "end": 7.46,
+     "word": "better",
+     "p": 0.996
+    },
+    {
+     "start": 7.46,
+     "end": 7.62,
+     "word": "is",
+     "p": 0.939
+    },
+    {
+     "start": 7.62,
+     "end": 7.74,
+     "word": "the",
+     "p": 0.667
+    },
+    {
+     "start": 7.74,
+     "end": 7.9,
+     "word": "checkout",
+     "p": 0.452
+    },
+    {
+     "start": 7.9,
+     "end": 8.26,
+     "word": "mechanism",
+     "p": 0.984
+    },
+    {
+     "start": 8.26,
+     "end": 8.54,
+     "word": "on",
+     "p": 0.974
+    },
+    {
+     "start": 8.54,
+     "end": 8.66,
+     "word": "this",
+     "p": 0.991
+    },
+    {
+     "start": 8.66,
+     "end": 9.04,
+     "word": "exact",
+     "p": 0.996
+    },
+    {
+     "start": 9.04,
+     "end": 9.28,
+     "word": "link",
+     "p": 0.969
+    },
+    {
+     "start": 9.28,
+     "end": 9.42,
+     "word": "right",
+     "p": 0.957
+    },
+    {
+     "start": 9.42,
+     "end": 9.6,
+     "word": "here.",
+     "p": 0.995
+    }
+   ]
+  },
+  {
+   "start": 9.72,
+   "end": 12.38,
+   "text": "Tap that orange cart, let the coupon stack up and see for yourself.",
+   "words": [
+    {
+     "start": 9.72,
+     "end": 9.98,
+     "word": "Tap",
+     "p": 0.948
+    },
+    {
+     "start": 9.98,
+     "end": 10.14,
+     "word": "that",
+     "p": 0.646
+    },
+    {
+     "start": 10.14,
+     "end": 10.28,
+     "word": "orange",
+     "p": 0.975
+    },
+    {
+     "start": 10.28,
+     "end": 10.54,
+     "word": "cart,",
+     "p": 0.767
+    },
+    {
+     "start": 10.66,
+     "end": 10.74,
+     "word": "let",
+     "p": 0.97
+    },
+    {
+     "start": 10.74,
+     "end": 10.88,
+     "word": "the",
+     "p": 0.992
+    },
+    {
+     "start": 10.88,
+     "end": 11.1,
+     "word": "coupon",
+     "p": 0.953
+    },
+    {
+     "start": 11.1,
+     "end": 11.44,
+     "word": "stack",
+     "p": 0.979
+    },
+    {
+     "start": 11.44,
+     "end": 11.68,
+     "word": "up",
+     "p": 0.977
+    },
+    {
+     "start": 11.68,
+     "end": 11.86,
+     "word": "and",
+     "p": 0.826
+    },
+    {
+     "start": 11.86,
+     "end": 12.0,
+     "word": "see",
+     "p": 0.984
+    },
+    {
+     "start": 12.0,
+     "end": 12.14,
+     "word": "for",
+     "p": 0.992
+    },
+    {
+     "start": 12.14,
+     "end": 12.38,
+     "word": "yourself.",
+     "p": 0.998
+    }
+   ]
+  }
+ ]
+}

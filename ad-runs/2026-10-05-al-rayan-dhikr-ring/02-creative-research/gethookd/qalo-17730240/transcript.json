@@ -1,0 +1,35 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\qalo-17730240\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.871,
+ "duration": 13.884,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 1.1,
+   "text": "Ladies and gentlemen...",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.44,
+     "word": "Ladies",
+     "p": 0.709
+    },
+    {
+     "start": 0.44,
+     "end": 0.58,
+     "word": "and",
+     "p": 0.966
+    },
+    {
+     "start": 0.58,
+     "end": 1.1,
+     "word": "gentlemen...",
+     "p": 0.569
+    }
+   ]
+  }
+ ]
+}

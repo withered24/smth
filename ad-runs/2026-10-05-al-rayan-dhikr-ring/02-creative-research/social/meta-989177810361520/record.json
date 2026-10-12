@@ -1,0 +1,57 @@
+{
+ "id": "meta-989177810361520",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "filter floor: avatar (generic Christian gift grid)",
+ "ad_url": "https://www.facebook.com/ads/library/?id=989177810361520",
+ "brand": "Flairgifts",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "inspirational faith gift bracelets",
+ "query": "faith bracelet",
+ "cross_niche": true,
+ "meta_ad_id": "989177810361520",
+ "active_period": "May 27, 2026 – active",
+ "performance_tier": null,
+ "library_id": "989177810361520",
+ "started_running": "2026-05-27",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 4,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=faith%20bracelet&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/100083698294605/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 131,
+ "primary_text": "💖 More than jewelry—it’s a feeling you can wear. The 2026 Limited Edition Bracelet Collection was thoughtfully created to celebrate love, healing, faith, and life’s most meaningful moments.\n🙏 Inspirational keepsake designs\n💛 Daily reminders of comfort and hope\n🎁 Perfect for gifting someone special\n👉 Carry positivity and meaning wherever you go.",
+ "headline": "2026 Meaningful Gift Bracelet Collection ✨ Faith • Hope • Healing • Love",
+ "cta": "Shop now",
+ "landing_page": "https://flairgifts.com/products/2026-meaningful-gift-bracelet-collection-faith-hope-healing-love",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-989177810361520.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "Faith Garden Blessing / Cardinal Garden / Bluebird of Happiness (box titles)",
+  "visual": "2x2 grid of gift boxes with bead bracelets"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

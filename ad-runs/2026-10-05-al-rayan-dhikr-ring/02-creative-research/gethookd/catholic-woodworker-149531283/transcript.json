@@ -1,0 +1,410 @@
+{
+ "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\catholic-woodworker-149531283\\media.mp4",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.982,
+ "duration": 19.455,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.16,
+   "text": "Okay, I know very few men who pray the rosary every day and to struggle with habitual sin,",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.42,
+     "word": "Okay,",
+     "p": 0.648
+    },
+    {
+     "start": 0.72,
+     "end": 0.94,
+     "word": "I",
+     "p": 0.987
+    },
+    {
+     "start": 0.94,
+     "end": 1.1,
+     "word": "know",
+     "p": 0.999
+    },
+    {
+     "start": 1.1,
+     "end": 1.4,
+     "word": "very",
+     "p": 0.869
+    },
+    {
+     "start": 1.4,
+     "end": 1.68,
+     "word": "few",
+     "p": 0.999
+    },
+    {
+     "start": 1.68,
+     "end": 1.94,
+     "word": "men",
+     "p": 0.995
+    },
+    {
+     "start": 1.94,
+     "end": 2.22,
+     "word": "who",
+     "p": 0.99
+    },
+    {
+     "start": 2.22,
+     "end": 2.42,
+     "word": "pray",
+     "p": 0.726
+    },
+    {
+     "start": 2.42,
+     "end": 2.54,
+     "word": "the",
+     "p": 0.981
+    },
+    {
+     "start": 2.54,
+     "end": 2.92,
+     "word": "rosary",
+     "p": 0.862
+    },
+    {
+     "start": 2.92,
+     "end": 3.14,
+     "word": "every",
+     "p": 0.943
+    },
+    {
+     "start": 3.14,
+     "end": 3.46,
+     "word": "day",
+     "p": 0.999
+    },
+    {
+     "start": 3.46,
+     "end": 4.44,
+     "word": "and",
+     "p": 0.752
+    },
+    {
+     "start": 4.44,
+     "end": 4.7,
+     "word": "to",
+     "p": 0.401
+    },
+    {
+     "start": 4.7,
+     "end": 5.22,
+     "word": "struggle",
+     "p": 0.994
+    },
+    {
+     "start": 5.22,
+     "end": 5.42,
+     "word": "with",
+     "p": 0.998
+    },
+    {
+     "start": 5.42,
+     "end": 5.72,
+     "word": "habitual",
+     "p": 0.956
+    },
+    {
+     "start": 5.72,
+     "end": 6.16,
+     "word": "sin,",
+     "p": 0.999
+    }
+   ]
+  },
+  {
+   "start": 6.74,
+   "end": 11.42,
+   "text": "so preferably consider it as an option for your future. And when doing so, you might even consider",
+   "words": [
+    {
+     "start": 6.74,
+     "end": 7.08,
+     "word": "so",
+     "p": 0.987
+    },
+    {
+     "start": 7.08,
+     "end": 7.52,
+     "word": "preferably",
+     "p": 0.751
+    },
+    {
+     "start": 7.52,
+     "end": 7.9,
+     "word": "consider",
+     "p": 0.988
+    },
+    {
+     "start": 7.9,
+     "end": 8.08,
+     "word": "it",
+     "p": 0.992
+    },
+    {
+     "start": 8.08,
+     "end": 8.18,
+     "word": "as",
+     "p": 0.942
+    },
+    {
+     "start": 8.18,
+     "end": 8.32,
+     "word": "an",
+     "p": 0.995
+    },
+    {
+     "start": 8.32,
+     "end": 8.5,
+     "word": "option",
+     "p": 0.999
+    },
+    {
+     "start": 8.5,
+     "end": 8.72,
+     "word": "for",
+     "p": 0.996
+    },
+    {
+     "start": 8.72,
+     "end": 8.82,
+     "word": "your",
+     "p": 0.995
+    },
+    {
+     "start": 8.82,
+     "end": 9.12,
+     "word": "future.",
+     "p": 0.993
+    },
+    {
+     "start": 9.4,
+     "end": 9.56,
+     "word": "And",
+     "p": 0.95
+    },
+    {
+     "start": 9.56,
+     "end": 9.66,
+     "word": "when",
+     "p": 0.975
+    },
+    {
+     "start": 9.66,
+     "end": 9.86,
+     "word": "doing",
+     "p": 0.998
+    },
+    {
+     "start": 9.86,
+     "end": 10.18,
+     "word": "so,",
+     "p": 0.995
+    },
+    {
+     "start": 10.58,
+     "end": 10.74,
+     "word": "you",
+     "p": 0.986
+    },
+    {
+     "start": 10.74,
+     "end": 10.88,
+     "word": "might",
+     "p": 0.999
+    },
+    {
+     "start": 10.88,
+     "end": 11.02,
+     "word": "even",
+     "p": 0.999
+    },
+    {
+     "start": 11.02,
+     "end": 11.42,
+     "word": "consider",
+     "p": 0.999
+    }
+   ]
+  },
+  {
+   "start": 11.42,
+   "end": 15.82,
+   "text": "using a Catholic woodworker rosary made in America. I don't know if you've heard of that",
+   "words": [
+    {
+     "start": 11.42,
+     "end": 11.9,
+     "word": "using",
+     "p": 0.997
+    },
+    {
+     "start": 11.9,
+     "end": 12.2,
+     "word": "a",
+     "p": 0.997
+    },
+    {
+     "start": 12.2,
+     "end": 12.62,
+     "word": "Catholic",
+     "p": 0.981
+    },
+    {
+     "start": 12.62,
+     "end": 13.26,
+     "word": "woodworker",
+     "p": 0.946
+    },
+    {
+     "start": 13.26,
+     "end": 13.76,
+     "word": "rosary",
+     "p": 0.98
+    },
+    {
+     "start": 13.76,
+     "end": 14.26,
+     "word": "made",
+     "p": 0.611
+    },
+    {
+     "start": 14.26,
+     "end": 14.36,
+     "word": "in",
+     "p": 0.999
+    },
+    {
+     "start": 14.36,
+     "end": 14.62,
+     "word": "America.",
+     "p": 0.993
+    },
+    {
+     "start": 15.1,
+     "end": 15.18,
+     "word": "I",
+     "p": 0.995
+    },
+    {
+     "start": 15.18,
+     "end": 15.22,
+     "word": "don't",
+     "p": 0.997
+    },
+    {
+     "start": 15.22,
+     "end": 15.34,
+     "word": "know",
+     "p": 0.998
+    },
+    {
+     "start": 15.34,
+     "end": 15.4,
+     "word": "if",
+     "p": 0.998
+    },
+    {
+     "start": 15.4,
+     "end": 15.52,
+     "word": "you've",
+     "p": 0.997
+    },
+    {
+     "start": 15.52,
+     "end": 15.62,
+     "word": "heard",
+     "p": 0.997
+    },
+    {
+     "start": 15.62,
+     "end": 15.7,
+     "word": "of",
+     "p": 0.973
+    },
+    {
+     "start": 15.7,
+     "end": 15.82,
+     "word": "that",
+     "p": 0.998
+    }
+   ]
+  },
+  {
+   "start": 15.82,
+   "end": 17.8,
+   "text": "place, but I find it to be an excellent culture.",
+   "words": [
+    {
+     "start": 15.82,
+     "end": 16.04,
+     "word": "place,",
+     "p": 0.995
+    },
+    {
+     "start": 16.12,
+     "end": 16.3,
+     "word": "but",
+     "p": 0.999
+    },
+    {
+     "start": 16.3,
+     "end": 16.76,
+     "word": "I",
+     "p": 0.989
+    },
+    {
+     "start": 16.76,
+     "end": 16.94,
+     "word": "find",
+     "p": 0.991
+    },
+    {
+     "start": 16.94,
+     "end": 17.04,
+     "word": "it",
+     "p": 0.998
+    },
+    {
+     "start": 17.04,
+     "end": 17.12,
+     "word": "to",
+     "p": 0.999
+    },
+    {
+     "start": 17.12,
+     "end": 17.22,
+     "word": "be",
+     "p": 1.0
+    },
+    {
+     "start": 17.22,
+     "end": 17.3,
+     "word": "an",
+     "p": 0.996
+    },
+    {
+     "start": 17.3,
+     "end": 17.52,
+     "word": "excellent",
+     "p": 0.999
+    },
+    {
+     "start": 17.52,
+     "end": 17.8,
+     "word": "culture.",
+     "p": 0.332
+    }
+   ]
+  }
+ ]
+}

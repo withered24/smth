@@ -1,0 +1,56 @@
+{
+ "id": "hope-rings-177217013",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/177217013",
+ "brand": "Hope Rings",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "ring",
+ "cross_niche": true,
+ "meta_ad_id": "1722639359030365",
+ "active_period": "22 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 22,
+ "primary_text": "Grandmas, there's nothing like the bond you share with your granddaughter ❤️ Give her this Forever Love Ring with \"Love, Grandma\" hidden inside.\n\n🕊️ Hidden \"Love, Grandma\" Engraving\n🕊️ Free Gift Box & Heartfelt Message Card\n🕊️ Tarnish-Free & Hypoallergenic\n🕊️ Adjustable (One Size Fits All)\n🕊️ Hassle-Free 90-Day Returns\n\nLoved By Over 30,000+ Customers Worldwide! ❤️\n\n→ Try this product Risk-Free and receive 50% Off + Free Worldwide Shipping!\n\nGet Yours Here👇\nhttps://hoperings.com/products/grandma-granddaughter-forever-love-ring",
+ "headline": "Grandma & Granddaughter Forever Love Ring",
+ "cta": "Shop Now",
+ "landing_page": "https://hoperings.com/products/grandma-granddaughter-forever-love-ring",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 2048,
+  "height": 2560,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/hope-rings-177217013.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "If your granddaughter is growing up too fast...",
+  "visual": "macro of a heart-and-infinity ring with a diamond stone on warm satin, 'Love, Grandma' engraved inside the band"
+ },
+ "angle": "Gift buyer callout with an emotional trigger and a hidden-detail reveal (A2 / ANG5).",
+ "structure": "callout headline over hero macro -> hidden-engraving reveal -> 5 reassurance bullets -> 30,000+ social proof -> risk-free + 50% off CTA",
+ "why_it_won": "Hypothesis: audience-specific emotional callout + stacked risk reversal; consistent with winning tier and a brand running many variants.",
+ "collected_at": "2026-10-05T12:00:00Z"
+}

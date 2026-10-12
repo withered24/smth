@@ -1,0 +1,58 @@
+{
+ "id": "wishhouse-144007681",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "Taste total 33 (Reject): spoofed wholesale-store opener with generic 'you're so lucky' line, no pain or mechanism in the video; the consistency pain lives only in the primary text",
+ "ad_url": "https://app.gethookd.ai/ads/144007681",
+ "brand": "Wishhouse",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Automotive (as listed; actually habit notebook)",
+ "query": "habit tracker",
+ "cross_niche": true,
+ "meta_ad_id": "2222248271930059",
+ "active_period": "55 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 55,
+ "primary_text": "🧠 You start strong — then lose momentum after a week. Strict habit plans make you feel guilty instead of motivated. This notebook helps you build consistency without the burnout. 📝✨ | 75‑Day Soft Challenge Tracking Notebook — daily logs, weekly reviews, gentle habit tracking. Build better habits, without the pressure. | ✅ 75 Daily Logs + Weekly Reviews ... ✅ Tracks the Habits That Matter ... ✅ Compact A5 Size ... (bullets truncated) | 🛒 Build habits without burnout — get your tracking notebook now! 👉",
+ "headline": "75-Day Soft Challenge Tracking Notebook",
+ "cta": "Shop Now",
+ "landing_page": "https://www.wishhouse.co.uk/funnel/news-75-day-soft-challenge-tracking-notebook",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 14.3,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/wishhouse-144007681.json",
+ "hook": {
+  "spoken": "So if you're watching this video, you're so lucky I've been looking for a good quality version of this for my home",
+  "on_screen": "75 Soft Challenge for women (on the product cover)",
+  "visual": "POV finger pointing at a pallet of floral notebooks in a warehouse store"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:51:03Z"
+}

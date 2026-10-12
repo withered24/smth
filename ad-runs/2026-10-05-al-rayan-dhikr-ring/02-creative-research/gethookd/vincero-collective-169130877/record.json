@@ -1,0 +1,50 @@
+{
+ "id": "vincero-collective-169130877",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "B-tier needs avatar and adaptability both >=8; avatar 6 (skull/death imagery unsuitable); device is harvestable.",
+ "ad_url": "https://app.gethookd.ai/ads/169130877",
+ "brand": "Vincero Collective",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "pendant",
+ "cross_niche": true,
+ "meta_ad_id": "1713898506510038",
+ "active_period": "38 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 38,
+ "primary_text": "Introducing the Memento Mori Pendant\nA reminder to live life to its fullest.\n➡️ 925 Sterling Silver\n➡️ Sweatproof and Waterproof\n➡️ Custom Vincero Design",
+ "headline": "Memento Mori Pendant",
+ "cta": "Shop Now",
+ "landing_page": "https://vincerocollective.com/collections/mens-necklaces/products/momento-mori-sterling-silver",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1350,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/vincero-collective-169130877.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

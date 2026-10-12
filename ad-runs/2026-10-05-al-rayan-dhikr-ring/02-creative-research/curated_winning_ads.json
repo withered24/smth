@@ -1,0 +1,1141 @@
+{
+  "created_at": "2026-10-05T14:35:00Z",
+  "targets": {
+    "image": 6,
+    "video": 6
+  },
+  "counts": {
+    "candidates": 54,
+    "eligible": 14,
+    "selected": 14
+  },
+  "ads": [
+    {
+      "id": "meta-2379413312864003",
+      "rank": 1,
+      "format": "video",
+      "source": "meta_ad_library",
+      "brand": "Weslamic",
+      "ad_url": "https://www.facebook.com/ads/library/?id=2379413312864003",
+      "dir": "02-creative-research/social/meta-2379413312864003",
+      "record": "02-creative-research/social/meta-2379413312864003/record.json",
+      "analysis": "02-creative-research/social/meta-2379413312864003/analysis.md",
+      "taste": "02-creative-research/taste/meta-2379413312864003.json",
+      "media": {
+        "files": [
+          "media.mp4",
+          "poster.jpg"
+        ],
+        "duration_s": 10.68,
+        "frames_dir": "02-creative-research/social/meta-2379413312864003/frames/",
+        "hook_frames": [
+          "02-creative-research/social/meta-2379413312864003/frames/t0000.00_hook.jpg",
+          "02-creative-research/social/meta-2379413312864003/frames/t0000.50_hook.jpg",
+          "02-creative-research/social/meta-2379413312864003/frames/t0001.00_hook.jpg",
+          "02-creative-research/social/meta-2379413312864003/frames/t0001.50_hook.jpg"
+        ],
+        "transcript": "02-creative-research/social/meta-2379413312864003/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 51,
+        "tier": "B",
+        "filters": [
+          7,
+          9,
+          9
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": null,
+        "days_running": 41,
+        "ads_using_creative": 1
+      },
+      "hook": {
+        "spoken": "(Arabic nasheed/recitation audio, unheard; transcribed lang ar)",
+        "on_screen": "Keep the beautiful habit / Just give it a better companion",
+        "visual": "two hands slide a black smart ring onto a finger, display lights up",
+        "type": "benefit-statement"
+      },
+      "angle": "Gift/habit: keep the beautiful habit (dhikr), just give it a better companion - a smart tasbih ring that also vibrates for the 5 prayers",
+      "awareness": "solution-aware",
+      "structure": "ring-on-finger + habit overlay -> gift unboxing -> app counter -> two-colour reveal -> Order now",
+      "visual_style": "hand macro UGC: ring tapped on finger, count display, then gift-box unboxing",
+      "why_it_won": "Hypothesis: direct-category visual proof (lit count display, app counter, unboxing) in a native UGC style; 2 near-identical variants running 41 days under the same advertiser",
+      "why_selected": "only own-category (smart tasbih ring) winner; product-in-hand demo carries the sale; pattern interrupt 7, adaptability 9",
+      "portability": "keep: hand-macro tap demo -> on-finger count -> box reveal pacing (10.7s). Change: all words, brand, box; show our black/rose-gold ring with the 5332 display",
+      "fits_angles": [
+        "ANG9",
+        "ANG6",
+        "ANG1"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "competitor brand (Weslamic/iTasbih): never copy its text or box"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "ergosalah-71735717",
+      "rank": 2,
+      "format": "video",
+      "source": "gethookd",
+      "brand": "ErgoSalah",
+      "ad_url": "https://app.gethookd.ai/ads/71735717",
+      "dir": "02-creative-research/gethookd/ergosalah-71735717",
+      "record": "02-creative-research/gethookd/ergosalah-71735717/record.json",
+      "analysis": "02-creative-research/gethookd/ergosalah-71735717/analysis.md",
+      "taste": "02-creative-research/taste/ergosalah-71735717.json",
+      "media": {
+        "files": [
+          "media.mp4",
+          "poster.jpg"
+        ],
+        "duration_s": 12.1,
+        "frames_dir": "02-creative-research/gethookd/ergosalah-71735717/frames/",
+        "hook_frames": [
+          "02-creative-research/gethookd/ergosalah-71735717/frames/_sheet_hook.jpg",
+          "02-creative-research/gethookd/ergosalah-71735717/frames/t0000.00_hook.jpg",
+          "02-creative-research/gethookd/ergosalah-71735717/frames/t0000.50_hook.jpg",
+          "02-creative-research/gethookd/ergosalah-71735717/frames/t0001.00_hook.jpg"
+        ],
+        "transcript": "02-creative-research/gethookd/ergosalah-71735717/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 53,
+        "tier": "B",
+        "filters": [
+          7,
+          8,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "winning",
+        "days_running": 271,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "What muslim think i sell: 🤢💀 / Vs... / What i actually sell.. 🥺☁️🎀",
+        "visual": "hand tosses a pillow onto a green prayer rug in frame 1, whip-blur reveal of the real plush mat, woman in hijab",
+        "type": "pattern-inversion"
+      },
+      "angle": "what the community assumes vs what the product actually is (pain relief via contrast, identity humour)",
+      "awareness": "solution-aware",
+      "structure": "community callout caption -> 'vs...' wrong-solution beat -> whip-blur product reveal -> one feature caption -> real-use demo (sujood) -> discount CTA",
+      "visual_style": "phone-shot UGC meme, text overlays what-they-think vs what-it-actually-is, hijabi creator at home",
+      "why_it_won": "[hypothesis] in-group meme caption on frame 1 reads as organic, same-room wrong-vs-right contrast explains the benefit in 3 s, real-use shot proves fit; winning tier, 271 days, sibling variant live",
+      "why_selected": "longest-running winner (271 days, winning tier); meme inversion lands in <1s; ports to 'what people think this is vs what it actually is'",
+      "portability": "keep: What people think it is / Vs... / What it actually is meme beats, emoji overlays, ~12s. Change: prayer mat -> ring (normal-looking ring vs silent dhikr counter)",
+      "fits_angles": [
+        "ANG6",
+        "ANG8"
+      ],
+      "fits_avatars": [
+        "A1",
+        "A2"
+      ],
+      "truth_risks": [
+        "none"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "meta-1518673786238484",
+      "rank": 3,
+      "format": "video",
+      "source": "meta_ad_library",
+      "brand": "Nimah",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1518673786238484",
+      "dir": "02-creative-research/social/meta-1518673786238484",
+      "record": "02-creative-research/social/meta-1518673786238484/record.json",
+      "analysis": "02-creative-research/social/meta-1518673786238484/analysis.md",
+      "taste": "02-creative-research/taste/meta-1518673786238484.json",
+      "media": {
+        "files": [
+          "media.mp4",
+          "poster.jpg"
+        ],
+        "duration_s": 6.37,
+        "frames_dir": "02-creative-research/social/meta-1518673786238484/frames/",
+        "hook_frames": [
+          "02-creative-research/social/meta-1518673786238484/frames/t0000.00_hook.jpg",
+          "02-creative-research/social/meta-1518673786238484/frames/t0000.50_hook.jpg",
+          "02-creative-research/social/meta-1518673786238484/frames/t0001.00_hook.jpg",
+          "02-creative-research/social/meta-1518673786238484/frames/t0002.00_hook.jpg"
+        ],
+        "transcript": "02-creative-research/social/meta-1518673786238484/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 50,
+        "tier": "B",
+        "filters": [
+          8,
+          9,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": null,
+        "days_running": 56,
+        "ads_using_creative": 1
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "Convincing my husband that I need a new TASBEEH for \"ASTAGHFAAR\"",
+        "visual": "hands fasten and thumb-count a gold bead bracelet, phone-shot, then wrist reveal beside a second bracelet",
+        "type": "story-confession"
+      },
+      "angle": "Muslim woman justifies a wearable tasbih for astaghfar; relatable domestic-confession hook, dhikr anywhere (car, queue, meetings)",
+      "awareness": "problem-aware",
+      "structure": "confession overlay -> tactile bead demo -> wrist reveal -> shop CTA",
+      "visual_style": "6s handheld macro, single humorous text overlay, beads moving through fingers",
+      "why_it_won": "Hypothesis: native confession overlay in the avatar's own world stops the scroll in <1s; ad is short (6s), the brand runs 6 near-variants of this tasbih-bracelet message for 42-56 days",
+      "why_selected": "shortest (6.4s), relatable humor in Muslim vernacular (ASTAGHFAAR), 56 days active; strongest avatar congruence (9)",
+      "portability": "keep: one relatable caption over a 6s hand macro. Change: husband/tasbeeh line -> our own relatable line; beads -> ring tap with count rising",
+      "fits_angles": [
+        "ANG3",
+        "ANG8",
+        "ANG2"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "Nimah product claims not used"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "meta-1649694736793087",
+      "rank": 4,
+      "format": "video",
+      "source": "meta_ad_library",
+      "brand": "The Prayer I Share",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1649694736793087",
+      "dir": "02-creative-research/social/meta-1649694736793087",
+      "record": "02-creative-research/social/meta-1649694736793087/record.json",
+      "analysis": "02-creative-research/social/meta-1649694736793087/analysis.md",
+      "taste": "02-creative-research/taste/meta-1649694736793087.json",
+      "media": {
+        "files": [
+          "media.mp4"
+        ],
+        "duration_s": 15.44,
+        "frames_dir": "02-creative-research/social/meta-1649694736793087/frames/",
+        "hook_frames": [
+          "02-creative-research/social/meta-1649694736793087/frames/t0000.00_hook.jpg",
+          "02-creative-research/social/meta-1649694736793087/frames/t0000.50_hook.jpg",
+          "02-creative-research/social/meta-1649694736793087/frames/t0001.00_hook.jpg",
+          "02-creative-research/social/meta-1649694736793087/frames/t0001.50_hook.jpg"
+        ],
+        "transcript": "02-creative-research/social/meta-1649694736793087/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 53,
+        "tier": "B",
+        "filters": [
+          9,
+          8,
+          9
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": null,
+        "days_running": 19,
+        "ads_using_creative": 1
+      },
+      "hook": {
+        "spoken": "I started wearing this bracelet because I would think a lot.",
+        "on_screen": "POV: You're overthinking again...",
+        "visual": "low POV of a wrist with a red cord bracelet on a sidewalk, man walks toward camera",
+        "type": "callout"
+      },
+      "angle": "a small worn object keeps one calming reminder close through an overthinking day",
+      "awareness": "problem-aware",
+      "structure": "POV overthinking callout -> confession -> verse reminder -> trust-one-step resolution -> bracelet close-ups -> Shop Now",
+      "visual_style": "POV walking shot outdoors, bold kinetic captions, wrist close-up first frame",
+      "why_it_won": "Hypothesis: POV callout names a universal recurring mental pain in 1s; native walking UGC with word-by-word captions; a multi-version ad that the brand is iterating (only 19 days old, so longevity proof is weak)",
+      "why_selected": "highest pattern-interrupt (9) among videos; POV callout format; 15s walk fits commute/walking dhikr",
+      "portability": "keep: POV: you're overthinking again, wrist-first opening + walk + kinetic captions. Change: bracelet/proverbs -> ring tap istighfar; may anchor on Quran 13:28 (verified)",
+      "fits_angles": [
+        "ANG7",
+        "ANG2",
+        "ANG1"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "their proverbs faith content not ported"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "deen-international-173775613",
+      "rank": 5,
+      "format": "video",
+      "source": "gethookd",
+      "brand": "Deen International",
+      "ad_url": "https://app.gethookd.ai/ads/173775613",
+      "dir": "02-creative-research/gethookd/deen-international-173775613",
+      "record": "02-creative-research/gethookd/deen-international-173775613/record.json",
+      "analysis": "02-creative-research/gethookd/deen-international-173775613/analysis.md",
+      "taste": "02-creative-research/taste/deen-international-173775613.json",
+      "media": {
+        "files": [
+          "media.mp4",
+          "poster.jpg"
+        ],
+        "duration_s": 29.9,
+        "frames_dir": "02-creative-research/gethookd/deen-international-173775613/frames/",
+        "hook_frames": [
+          "02-creative-research/gethookd/deen-international-173775613/frames/_sheet_hook.jpg",
+          "02-creative-research/gethookd/deen-international-173775613/frames/t0000.00_hook.jpg",
+          "02-creative-research/gethookd/deen-international-173775613/frames/t0000.50_hook.jpg",
+          "02-creative-research/gethookd/deen-international-173775613/frames/t0001.00_hook.jpg"
+        ],
+        "transcript": "02-creative-research/gethookd/deen-international-173775613/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 55,
+        "tier": "B",
+        "filters": [
+          7,
+          8,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "winning",
+        "days_running": 28,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": "Everybody ask the same three questions about our shorts.",
+        "on_screen": "EVERYBODY ASKS THE SAME THREE QUESTIONS ABOUT OUR SHORTS",
+        "visual": "man in park holds up green 2-in-1 shorts, friend moving behind him",
+        "type": "question"
+      },
+      "angle": "objection-first: answer the three questions every buyer asks, each with a live demo (pain relief via reassurance)",
+      "awareness": "solution-aware",
+      "structure": "N-questions hook -> Q1 stays in place + jog demo -> Q2 what it covers + pose -> Q3 only for sport? -> one-line close",
+      "visual_style": "outdoor 2-person UGC demo, everybody-asks-the-same-3-questions, numbered answers with demos",
+      "why_it_won": "[hypothesis] numbered open loop pre-empts the buyer's objections in order, each answered by a physical demo; winning tier, 28 days active",
+      "why_selected": "winning tier; objection Q&A structure maps to our 3 objections (allowed? loud? wudu?)",
+      "portability": "keep: 3 questions everyone asks + numbered demo answers. Change: shorts -> ring; answers: permissible (finger counting stays Sunnah), silent tracking, IP67 at the sink. Compress to ~20s",
+      "fits_angles": [
+        "ANG1",
+        "ANG11",
+        "ANG8"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "29.9s: must compress; never say scholars endorse"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "yappy-apparel-178309829",
+      "rank": 6,
+      "format": "video",
+      "source": "gethookd",
+      "brand": "Yappy Apparel",
+      "ad_url": "https://app.gethookd.ai/ads/178309829",
+      "dir": "02-creative-research/gethookd/yappy-apparel-178309829",
+      "record": "02-creative-research/gethookd/yappy-apparel-178309829/record.json",
+      "analysis": "02-creative-research/gethookd/yappy-apparel-178309829/analysis.md",
+      "taste": "02-creative-research/taste/yappy-apparel-178309829.json",
+      "media": {
+        "files": [
+          "media.mp4",
+          "poster.jpg"
+        ],
+        "duration_s": 20.2,
+        "frames_dir": "02-creative-research/gethookd/yappy-apparel-178309829/frames/",
+        "hook_frames": [
+          "02-creative-research/gethookd/yappy-apparel-178309829/frames/_x_hook.jpg",
+          "02-creative-research/gethookd/yappy-apparel-178309829/frames/t0000.00_hook.jpg",
+          "02-creative-research/gethookd/yappy-apparel-178309829/frames/t0000.50_hook.jpg",
+          "02-creative-research/gethookd/yappy-apparel-178309829/frames/t0001.00_hook.jpg"
+        ],
+        "transcript": "02-creative-research/gethookd/yappy-apparel-178309829/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 54,
+        "tier": "B",
+        "filters": [
+          6,
+          8,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "optimized",
+        "days_running": 21,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": "These Yappy key chains are so good guys, take your daily Bible verse with you anytime on the go",
+        "on_screen": "No more forgetting your daily Bible verse...",
+        "visual": "woman talking to camera holding an NFC wristlet keychain",
+        "type": "problem-agitation"
+      },
+      "angle": "never forget your daily devotion: one tap on something you already carry (ease + identity)",
+      "awareness": "problem-aware",
+      "structure": "negative-framing text hook -> product held up -> how-to line -> one-tap demo with visible result -> identity tagline -> link close",
+      "visual_style": "talking-head UGC holding product + phone screen demo",
+      "why_it_won": "HYPOTHESIS: real tap-to-result demo plus a self-recognition text hook in a native UGC selfie; optimized tier, 21 days running",
+      "why_selected": "UGC talking head + 'No more forgetting your daily X' hook; shows app tie-in",
+      "portability": "keep: No more forgetting your daily ___ opener, product held to camera, then app screen. Change: Bible verse -> daily dhikr; app = Al Rayan app history",
+      "fits_angles": [
+        "ANG4",
+        "ANG10"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "Christian content not portable; NFC feature is not ours"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "yaqeen-books-126182379",
+      "rank": 7,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Yaqeen Books",
+      "ad_url": "https://app.gethookd.ai/ads/126182379",
+      "dir": "02-creative-research/gethookd/yaqeen-books-126182379",
+      "record": "02-creative-research/gethookd/yaqeen-books-126182379/record.json",
+      "analysis": "02-creative-research/gethookd/yaqeen-books-126182379/analysis.md",
+      "taste": "02-creative-research/taste/yaqeen-books-126182379.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/gethookd/yaqeen-books-126182379/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 70,
+        "tier": "A",
+        "filters": [
+          8,
+          9,
+          7
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": false
+      },
+      "performance": {
+        "tier": "optimized",
+        "days_running": 80,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "(none on image) / headline field: I recited the Quran for 20 years without understanding it",
+        "visual": "dark blurry phone photo of a messy kitchen counter at night: lit phone, mug, charging cable",
+        "type": "story-confession"
+      },
+      "angle": "Hidden-shame confession in a young Muslim's phone-and-worship world; fixable with a tiny daily habit (A1 / ANG4, ANG7).",
+      "awareness": "problem-aware",
+      "structure": "shame scene -> stakes (leading Eid prayer) -> gap -> failed fix -> insight (500 words = 75%) -> 5-min habit -> honest diary -> reassurance -> guarantee + scarcity -> link",
+      "visual_style": "lo-fi dark phone photo at night + long native confession copy",
+      "why_it_won": "Hypothesis: confession story with a specific shameful moment, a counter-intuitive insight and a tiny habit; native lo-fi image reads like a friend's post. Active 80 days at optimized tier.",
+      "why_selected": "only tier A (70); 80 days optimized; confession + tiny-habit insight format",
+      "portability": "keep: lo-fi night photo with phone + long first-person confession, failed fix, tiny daily habit, honest diary. Change: Quran understanding -> dhikr consistency; persona-styled, no fake stats",
+      "fits_angles": [
+        "ANG7",
+        "ANG4"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "their fabricated testimonial/stats - do not port"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "tayyib-beauty-175015416",
+      "rank": 8,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Tayyib Beauty",
+      "ad_url": "https://app.gethookd.ai/ads/175015416",
+      "dir": "02-creative-research/gethookd/tayyib-beauty-175015416",
+      "record": "02-creative-research/gethookd/tayyib-beauty-175015416/record.json",
+      "analysis": "02-creative-research/gethookd/tayyib-beauty-175015416/analysis.md",
+      "taste": "02-creative-research/taste/tayyib-beauty-175015416.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/gethookd/tayyib-beauty-175015416/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 60,
+        "tier": "B",
+        "filters": [
+          8,
+          8,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "optimized",
+        "days_running": 69,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "NO WATER FOR 16 HOURS. WUDU FIVE TIMES. Your lips need this.",
+        "visual": "split macro of cracked lips beside a gold-cap lip balm tube on cream",
+        "type": "callout"
+      },
+      "angle": "Muslim ritual burden makes the problem specific (Ramadan fasting + wudu) -> product as the relief.",
+      "awareness": "problem-aware",
+      "structure": "ritual callout banner -> split problem macro | product -> 4 badges -> Shop Now",
+      "visual_style": "ritual-fact banner headline + split macro problem|product on cream",
+      "why_it_won": "Hypothesis: the headline lists two ritual facts only Muslims instantly recognise, then names the symptom; 69 days active.",
+      "why_selected": "ritual callout only Muslims recognise in 1s; 69 days; pattern interrupt 8",
+      "portability": "keep: ritual-fact headline (X. Y five times. Your ___ needs this.) + split macro. Change: lips/balm -> wudu water on hand | ring at the sink (IP67)",
+      "fits_angles": [
+        "ANG11",
+        "ANG1"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "no waterproof-for-showers claim"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "sajada-159582735",
+      "rank": 9,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Sajada",
+      "ad_url": "https://app.gethookd.ai/ads/159582735",
+      "dir": "02-creative-research/gethookd/sajada-159582735",
+      "record": "02-creative-research/gethookd/sajada-159582735/record.json",
+      "analysis": "02-creative-research/gethookd/sajada-159582735/analysis.md",
+      "taste": "02-creative-research/taste/sajada-159582735.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/gethookd/sajada-159582735/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 61,
+        "tier": "B",
+        "filters": [
+          5,
+          8,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "winning",
+        "days_running": 41,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "(none on image) / headline field: Learn Salah easily",
+        "visual": "top-down raw photo of printed prayer mat with bare feet on wood floor",
+        "type": "problem-agitation"
+      },
+      "angle": "Phone-free worship friction relief for learners (ANG4-adjacent).",
+      "awareness": "problem-aware",
+      "structure": "raw UGC photo -> friction line -> reassurance -> 3 checkmarks -> customer quotes -> 'perfect for' segments -> Ramadan CTA",
+      "visual_style": "raw top-down UGC photo, friction line, checkmarks",
+      "why_it_won": "Hypothesis: very native photo + a specific, relatable friction in line 1 + seasonal (Ramadan) timing; winning tier for 41 days.",
+      "why_selected": "winning 41 days; friction-in-line-1 (without checking your phone) = our phone-trap angle",
+      "portability": "keep: raw native photo + phone-friction first line + 3 checkmarks + perfect-for segments. Change: prayer mat -> ring; no customer quotes unless real",
+      "fits_angles": [
+        "ANG4"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "unattributed customer quotes - do not port"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "meta-1580472540526104",
+      "rank": 10,
+      "format": "image",
+      "source": "meta_ad_library",
+      "brand": "Qamar Jewelry",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1580472540526104",
+      "dir": "02-creative-research/social/meta-1580472540526104",
+      "record": "02-creative-research/social/meta-1580472540526104/record.json",
+      "analysis": "02-creative-research/social/meta-1580472540526104/analysis.md",
+      "taste": "02-creative-research/taste/meta-1580472540526104.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/social/meta-1580472540526104/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 57,
+        "tier": "B",
+        "filters": [
+          6,
+          9,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": null,
+        "days_running": 33,
+        "ads_using_creative": 1
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": null,
+        "visual": "hijabi woman in a taupe headscarf resting chin on hand, gazing out a dusk window beside laptop, phone and bag",
+        "type": "story-confession"
+      },
+      "angle": "faith never left, the daily pause did: a small worn object as a quiet reminder in a loud life",
+      "awareness": "problem-aware",
+      "structure": "first-person confession -> proof of faith -> reframe (life got louder, not faith) -> small worn object = a pause -> quiet-reminder CTA",
+      "visual_style": "native mood photo, hijabi woman at dusk window with laptop, first-person confession",
+      "why_it_won": "Hypothesis (33 days only): micro-targeted Muslim-woman confession in the first 2 lines, honest anti-claim ('jewelry can't make you more faithful') builds trust; native mood photo reads as organic",
+      "why_selected": "avatar congruence 9; honest anti-claim builds trust; work-life setting",
+      "portability": "keep: first-person confession (never stopped believing, just stopped pausing) + reframe + small worn object. Change: jewelry -> ring that counts; Quran 62:10",
+      "fits_angles": [
+        "ANG10",
+        "ANG1"
+      ],
+      "fits_avatars": [
+        "A1"
+      ],
+      "truth_risks": [
+        "33 days only (medium confidence)"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "hope-rings-177217013",
+      "rank": 11,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Hope Rings",
+      "ad_url": "https://app.gethookd.ai/ads/177217013",
+      "dir": "02-creative-research/gethookd/hope-rings-177217013",
+      "record": "02-creative-research/gethookd/hope-rings-177217013/record.json",
+      "analysis": "02-creative-research/gethookd/hope-rings-177217013/analysis.md",
+      "taste": "02-creative-research/taste/hope-rings-177217013.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/gethookd/hope-rings-177217013/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 62,
+        "tier": "B",
+        "filters": [
+          8,
+          8,
+          9
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "winning",
+        "days_running": 22,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "If your granddaughter is growing up too fast...",
+        "visual": "macro of a heart-and-infinity ring with a diamond stone on warm satin, 'Love, Grandma' engraved inside the band",
+        "type": "callout"
+      },
+      "angle": "Gift buyer callout with an emotional trigger and a hidden-detail reveal (A2 / ANG5).",
+      "awareness": "solution-aware",
+      "structure": "callout headline over hero macro -> hidden-engraving reveal -> 5 reassurance bullets -> 30,000+ social proof -> risk-free + 50% off CTA",
+      "visual_style": "jewelry hero macro on satin + hidden engraving reveal + bullets",
+      "why_it_won": "Hypothesis: audience-specific emotional callout + stacked risk reversal; consistent with winning tier and a brand running many variants.",
+      "why_selected": "gift-buyer callout (If your ___ is ...); stacked risk reversal",
+      "portability": "keep: audience callout headline + hero macro + reveal + bullets + guarantee. Change: grandma -> spouse/revert friend/parent; reveal = count display; no 30,000+ stat",
+      "fits_angles": [
+        "ANG5"
+      ],
+      "fits_avatars": [
+        "A2"
+      ],
+      "truth_risks": [
+        "30,000+ customers stat - do not port"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "nimah-172387899",
+      "rank": 12,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Nimah",
+      "ad_url": "https://app.gethookd.ai/ads/172387899",
+      "dir": "02-creative-research/gethookd/nimah-172387899",
+      "record": "02-creative-research/gethookd/nimah-172387899/record.json",
+      "analysis": "02-creative-research/gethookd/nimah-172387899/analysis.md",
+      "taste": "02-creative-research/taste/nimah-172387899.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/gethookd/nimah-172387899/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 52,
+        "tier": "B",
+        "filters": [
+          6,
+          9,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "optimized",
+        "days_running": 31,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "Share in her dhikr. / Tasbih bracelet",
+        "visual": "two crossed wrists in white sleeves, gold bead bracelet with arrow label",
+        "type": "benefit-statement"
+      },
+      "angle": "Gift buyer: shared dhikr as the gift that keeps giving (A2 / ANG5).",
+      "awareness": "solution-aware",
+      "structure": "headline over worn-product macro -> arrow label -> first-person gift story -> 'I buy two now' -> Shop Now",
+      "visual_style": "worn-product macro on crossed wrists + arrow label + gift story",
+      "why_it_won": "Hypothesis: instantly legible gift concept with a native first-person gift story; premium look suits jewelry.",
+      "why_selected": "direct Muslim gift competitor (dhikr bracelet), legible gift concept",
+      "portability": "keep: worn-product macro + arrow label + short gift line. Change: bracelet -> ring; no reward-to-giver faith claim",
+      "fits_angles": [
+        "ANG5"
+      ],
+      "fits_avatars": [
+        "A2"
+      ],
+      "truth_risks": [
+        "reward-to-giver claim unverified - do not port"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "tulas-175871419",
+      "rank": 13,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Tulas",
+      "ad_url": "https://app.gethookd.ai/ads/175871419",
+      "dir": "02-creative-research/gethookd/tulas-175871419",
+      "record": "02-creative-research/gethookd/tulas-175871419/record.json",
+      "analysis": "02-creative-research/gethookd/tulas-175871419/analysis.md",
+      "taste": "02-creative-research/taste/tulas-175871419.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/gethookd/tulas-175871419/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 53,
+        "tier": "B",
+        "filters": [
+          6,
+          8,
+          8
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "winning",
+        "days_running": 25,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "(none on image) / headline field: Skinny Jade Ring Made From Genuine Jade",
+        "visual": "raw close photo of a hand with a thin jade ring stacked under a gold band, kitchen cabinets behind",
+        "type": "story-confession"
+      },
+      "angle": "Ritual object on the finger as a physical reminder that outlasts feelings (cross-niche; maps to ANG7/ANG6).",
+      "awareness": "problem-aware",
+      "structure": "heirloom story hook -> drift/failure year -> scheduled fixes fail -> mechanism insight (touch it 40x/day) -> small honest result -> gift line -> link in EDIT",
+      "visual_style": "raw hand photo with ring + long heirloom confession",
+      "why_it_won": "Hypothesis: long-form native confession is a proven high-attention format; the physical-reminder mechanism is simple and quotable; 'EDIT' link looks organic. Winning tier, 25 days.",
+      "why_selected": "native long-form confession, physical-reminder mechanism",
+      "portability": "keep: raw hand photo + small-object-I-touch-all-day mechanism. Change: jade lore -> ring that counts dhikr",
+      "fits_angles": [
+        "ANG7"
+      ],
+      "fits_avatars": [
+        "A1",
+        "A2"
+      ],
+      "truth_risks": [
+        "protection lore, fabricated testimonial, charity claim - do not port"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "hope-doves-132737005",
+      "rank": 14,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Hope Doves",
+      "ad_url": "https://app.gethookd.ai/ads/132737005",
+      "dir": "02-creative-research/gethookd/hope-doves-132737005",
+      "record": "02-creative-research/gethookd/hope-doves-132737005/record.json",
+      "analysis": "02-creative-research/gethookd/hope-doves-132737005/analysis.md",
+      "taste": "02-creative-research/taste/hope-doves-132737005.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ],
+        "duration_s": null,
+        "frames_dir": null,
+        "hook_frames": [],
+        "transcript": "02-creative-research/gethookd/hope-doves-132737005/transcript.txt"
+      },
+      "taste_summary": {
+        "total": 51,
+        "tier": "B",
+        "filters": [
+          6,
+          8,
+          9
+        ],
+        "decision": "KEEP",
+        "needs_hook_rework": true
+      },
+      "performance": {
+        "tier": "winning",
+        "days_running": 100,
+        "ads_using_creative": null
+      },
+      "hook": {
+        "spoken": null,
+        "on_screen": "for the girl who wears her faith every day",
+        "visual": "close-up of a wrist wearing a black-cord cross bracelet, cream knit sweater, coffee cup and open book",
+        "type": "callout"
+      },
+      "angle": "identity callout for people who live their faith quietly; discreet daily reminder",
+      "awareness": "solution-aware",
+      "structure": "identity headline over lifestyle wrist photo -> quiet-faith copy -> price+free shipping footer",
+      "visual_style": "lifestyle wrist close-up with coffee and book + identity headline + price footer",
+      "why_it_won": "HYPOTHESIS: identity callout plus offer on the image; winning tier, 100 days active",
+      "why_selected": "100 days winning; identity callout + offer on image",
+      "portability": "keep: identity line + lifestyle wrist shot + price footer. Change: cross bracelet -> ring; Muslim identity",
+      "fits_angles": [
+        "ANG6",
+        "ANG5"
+      ],
+      "fits_avatars": [
+        "A1",
+        "A2"
+      ],
+      "truth_risks": [
+        "Christian symbol not portable"
+      ],
+      "suggested_for": []
+    },
+    {
+      "id": "meta-1549115429718810",
+      "rank": 15,
+      "format": "image",
+      "source": "meta_ad_library",
+      "brand": "Carbinox",
+      "ad_url": "https://www.facebook.com/ads/library/?id=1549115429718810",
+      "dir": "02-creative-research/social/meta-1549115429718810",
+      "record": "02-creative-research/social/meta-1549115429718810/record.json",
+      "analysis": "02-creative-research/social/meta-1549115429718810/analysis.md",
+      "taste": "02-creative-research/taste/meta-1549115429718810.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ]
+      },
+      "suggested_for": [
+        "ad_09"
+      ],
+      "extension_round": true,
+      "why_selected": "Carbinox smartwatch static, 241 days live: giant 'retire this' command headline, old-vs-new split, guarantee seal and one offer bar. Ported as 'Retire the loud clicker'."
+    },
+    {
+      "id": "calm-collective-92336795",
+      "rank": 16,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Calm Collective",
+      "ad_url": "https://app.gethookd.ai/ads/92336795",
+      "dir": "02-creative-research/gethookd/calm-collective-92336795",
+      "record": "02-creative-research/gethookd/calm-collective-92336795/record.json",
+      "analysis": "02-creative-research/gethookd/calm-collective-92336795/analysis.md",
+      "taste": "02-creative-research/taste/calm-collective-92336795.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ]
+      },
+      "suggested_for": [
+        "ad_10"
+      ],
+      "extension_round": true,
+      "why_selected": "Calm Collective anxiety-ring static, 175 days live, winning tier: identity callout question, levitating product, dotted-leader feature labels, offer bar. Ported as 'Lost your dhikr count?'."
+    },
+    {
+      "id": "cloud-nine-133765605",
+      "rank": 17,
+      "format": "image",
+      "source": "gethookd",
+      "brand": "Cloud Nine",
+      "ad_url": "https://app.gethookd.ai/ads/133765605",
+      "dir": "02-creative-research/gethookd/cloud-nine-133765605",
+      "record": "02-creative-research/gethookd/cloud-nine-133765605/record.json",
+      "analysis": "02-creative-research/gethookd/cloud-nine-133765605/analysis.md",
+      "taste": "02-creative-research/taste/cloud-nine-133765605.json",
+      "media": {
+        "files": [
+          "media.jpg"
+        ]
+      },
+      "suggested_for": [
+        "ad_11"
+      ],
+      "extension_round": true,
+      "why_selected": "Cloud Nine grounding-hoodie static, 77 days live, reused in 4 ads: 'hidden tools' curiosity headline with two circular macro insets. Ported as 'A ring with a hidden tasbih'."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "alabaster-co-179532582",
+      "reason": "tier Reject 38; static text hook, no CTA, divine-intent faith claim, avatar 5"
+    },
+    {
+      "id": "amen-artisan-150829118",
+      "reason": "tier Reject (total 40): feature-led price-anchored product shot; no mechanism or pain"
+    },
+    {
+      "id": "blessedbangles-163936452",
+      "reason": "non_english (Arabic speech, whisper lang ar 0.97)"
+    },
+    {
+      "id": "catholic-woodworker-149531283",
+      "reason": "filter floor: avatar (Catholic friar testimonial); total 24 Reject"
+    },
+    {
+      "id": "catholight-112275383",
+      "reason": "tier Reject: generic devotional product still life; avatar floor"
+    },
+    {
+      "id": "crushcovet-141919376",
+      "reason": "filter floor: avatar (chest-focused framing, Catholic iconography); total 21 Reject"
+    },
+    {
+      "id": "dusq-by-innergize-172605956",
+      "reason": "tier B but avatar_congruence 5 and adaptability 6 miss the B-keep bar; stat-dependent"
+    },
+    {
+      "id": "fithbyrahim-175606348",
+      "reason": "taste total 23 (Reject): polished apparel montage, no mechanism or CTA; adaptability 4"
+    },
+    {
+      "id": "ghirelli-156707359",
+      "reason": "filter floor: adaptability (celebrity endorsement, polished brand intro); total 27 Reject"
+    },
+    {
+      "id": "habitaware-172377556",
+      "reason": "Taste total 52 (tier B); avatar_congruence 3 floor: BFRB / hair-pulling mental-health condition with before/after proof, no portable dhikr driver"
+    },
+    {
+      "id": "hallow-177222207",
+      "reason": "tier Reject: celebrity-dependent, no mechanism"
+    },
+    {
+      "id": "hilalhaven-132665673",
+      "reason": "non_english (Urdu speech/audio, whisper lang ur 0.67); catalog promo structure"
+    },
+    {
+      "id": "hilalhaven-174215175",
+      "reason": "tier Reject: offer-led collage with a fake-feeling price anchor and no mechanism; adaptability floor"
+    },
+    {
+      "id": "kailash-energy-123242000",
+      "reason": "Taste total 19 (Reject): silent bead-bracelet b-roll with no words, no hook tension, no mechanism, logo-only end card; Tibetan/Buddhist context"
+    },
+    {
+      "id": "lilli-paris-175960512",
+      "reason": "tier Reject 32; alcohol in frame (run-notes skip), caption-only, no mechanism"
+    },
+    {
+      "id": "magnevaco-178051290",
+      "reason": "tier B but filter floors: avatar 3 and adaptability 3; disease claims and immodest crop"
+    },
+    {
+      "id": "meta-1363264355565394",
+      "reason": "filter floor: avatar (Catholic cheap men's product)"
+    },
+    {
+      "id": "meta-1600083061461951",
+      "reason": "non_english: Arabic on-screen overlay and Arabic audio; KSA-targeted cut"
+    },
+    {
+      "id": "meta-1719407559115659",
+      "reason": "filter floor: adaptability (power rests on an unverifiable shared-reward faith claim; no function to demo)"
+    },
+    {
+      "id": "meta-1728858588400637",
+      "reason": "too_long (ffprobe 30.4 s > 30 s)"
+    },
+    {
+      "id": "meta-1944921103117985",
+      "reason": "filter floor: avatar (Tibetan 'energy' product for a different audience)"
+    },
+    {
+      "id": "meta-26726286480310591",
+      "reason": "tier Reject (25/100): no hook words, mechanism or CTA; only a visual device"
+    },
+    {
+      "id": "meta-792911836811986",
+      "reason": "filter floor: avatar (US-veteran charity / Catholic men's product)"
+    },
+    {
+      "id": "meta-855873960549944",
+      "reason": "tier Reject (32/100): lifestyle gift shot, no hook or mechanism"
+    },
+    {
+      "id": "meta-989177810361520",
+      "reason": "filter floor: avatar (generic Christian gift grid)"
+    },
+    {
+      "id": "moki-176018370",
+      "reason": "Taste total 37 (Reject): silent POV b-roll with no in-video text or copy, no mechanism, no CTA; the jewelry-not-gadget reveal is the only transferable idea"
+    },
+    {
+      "id": "mommy-yasmin-175600855",
+      "reason": "non_english audio (Arabic Quran recitation) and filter floor: avatar (kids' toy); total 20 Reject"
+    },
+    {
+      "id": "my-saint-my-hero-131787232",
+      "reason": "Taste total 30 (Reject): soft Catholic pregnancy prayer graphic, no hook tension, no mechanism, no CTA; avatar_congruence 4 floor"
+    },
+    {
+      "id": "nimah-149804170",
+      "reason": "Taste total 29 (Reject): no hook tension, no mechanism, no CTA; avatar_congruence 8 / adaptability 6 not enough"
+    },
+    {
+      "id": "nimah-160687594",
+      "reason": "tier Reject"
+    },
+    {
+      "id": "pixie-wing-180289019",
+      "reason": "Taste total 42 (Reject): 4 s silent text card, hook is excellent but no mechanism, proof or offer in the video; claims 70,000+/4.9 are truth-risk"
+    },
+    {
+      "id": "qalo-17730240",
+      "reason": "taste total 27 (Reject): no hook, mechanism or CTA; no GetHookd tier"
+    },
+    {
+      "id": "qurannest-161909756",
+      "reason": "tier Reject (total 42): promo template with a restock claim we cannot make"
+    },
+    {
+      "id": "ra-optics-170204196",
+      "reason": "Taste total 53 (tier B); avatar_congruence 4 (sleep-glasses science comparison, stats are all truth-risk) fails the floor"
+    },
+    {
+      "id": "rextus-174570757",
+      "reason": "tier Reject 48; avatar 6, scripture-based story, faith claim in copy"
+    },
+    {
+      "id": "sajada-175468570",
+      "reason": "Taste total 51 (tier B); adaptability 7 (<8): cat-comedy proof and a pet product need two structural substitutions, so the B-tier keep rule fails; identity-callout hook is harvested"
+    },
+    {
+      "id": "spiral-bible-104491118",
+      "reason": "taste total 46 (Reject): avatar_congruence 5, adaptability 5; Christian older-woman Bible-reading mechanism does not port"
+    },
+    {
+      "id": "support-mental-health-174287440",
+      "reason": "tier Reject 40; charity-funding mechanism not portable, avatar 4 adaptability 4"
+    },
+    {
+      "id": "whoop-107141009",
+      "reason": "taste total 33 (Reject): polished 3D motion graphic, health claims; avatar_congruence 3"
+    },
+    {
+      "id": "wishhouse-144007681",
+      "reason": "Taste total 33 (Reject): spoofed wholesale-store opener with generic 'you're so lucky' line, no pain or mechanism in the video; the consistency pain lives only in the primary text"
+    }
+  ],
+  "gaps": [
+    "thin own niche on GetHookd + Meta: only 1 tier-A candidate (yaqeen, image); every video candidate is tier B with [needs hook rework], so copy must sharpen hooks",
+    "GetHookd run-time filter dropped (0-2 results at 14d); no Language filter (English verified per ad)",
+    "reddit_mcp unavailable; p1-forum not run (user request)",
+    "nimah-149804170 media overwritten by p2-gh-x (rejected record; not used)",
+    "alabaster-co-179532582 record FAIL (frames_dir missing): rejected anyway, excluded"
+  ]
+}

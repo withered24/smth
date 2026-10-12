@@ -1,0 +1,57 @@
+{
+ "id": "meta-1363264355565394",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "filter floor: avatar (Catholic cheap men's product)",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1363264355565394",
+ "brand": "Amen Artisan",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "Catholic medal bracelets",
+ "query": "faith bracelet",
+ "cross_niche": true,
+ "meta_ad_id": "1363264355565394",
+ "active_period": "Sep 11, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1363264355565394",
+ "started_running": "2026-09-11",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 26,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=faith%20bracelet&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/amenartisan/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 24,
+ "primary_text": "Faith you can wear every day.\nThis St. Benedict Medal & Crucifix Bracelet has a meaningful, timeless look made for daily wear.\nLimited-time offer — just $9.99.",
+ "headline": "LIMITED-TIME $9.99 | Faith You Can Wear Daily",
+ "cta": "Shop now",
+ "landing_page": "https://amenartisan.com/collections/s1015",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1363264355565394.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "male wrist with silver St Benedict medal bracelet, hand in pocket"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

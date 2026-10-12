@@ -1,0 +1,63 @@
+{
+ "id": "fithbyrahim-175606348",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "0.0s t0000.00_hook.jpg: man seen from behind in black MUSLIM RUN CLUB top mid-stride, caption 'RUN FAST' from 0.0s; motion and community text; polished cinematic."
+  },
+  "problem_awareness": {
+   "score": 4,
+   "evidence": "Caption 'RUN FAST' then 'STAY COVERED' (4.0s); no pain or question; transcript only music lyric 'Keep on runnin' around' [0.5-3.0]."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "No mechanism; primary text 'Breathable knit and a relaxed armhole'."
+  },
+  "visual_proof": {
+   "score": 6,
+   "evidence": "hook frames 0-5s: top worn running; body frames not individually reviewed."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 2,
+   "evidence": "Learn More button only; no CTA in video."
+  },
+  "total": 23
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "0.0-1.5s: running motion + MUSLIM RUN CLUB text on the back; strong identity but short, no line of tension."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md § Avatars A1: practising Muslim, modest; this is men's running apparel brand-identity ad; no overlap with dhikr pains (§ Pains)."
+  },
+  "adaptability": {
+   "score": 4,
+   "rationale": "Port: community-identity text on frame 1 ('MUSLIM RUN CLUB') -> 'DHIKR ALL DAY'; but no hook line, no mechanism, music-led polished montage; little to port."
+  }
+ },
+ "checklist_hits": [
+  1
+ ],
+ "green_flags": [
+  "HG1: motion in 0.0s",
+  "MK1: identity text as scroll stopper"
+ ],
+ "red_flags": [
+  "MR1: features without a daily-benefit tie",
+  "CR3: Learn More only",
+  "HR2: polished brand-montage feel"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: identity-led apparel montage, no hook line, mechanism or CTA. confidence: medium (GetHookd winning, 20 days, last seen Sep 29)"
+}

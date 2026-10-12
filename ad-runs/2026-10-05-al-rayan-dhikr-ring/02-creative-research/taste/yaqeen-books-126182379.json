@@ -1,0 +1,96 @@
+{
+ "id": "yaqeen-books-126182379",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 14,
+   "evidence": "Static 1638x2048: dark, blurry phone photo of a messy kitchen counter at night with a lit phone, a half-full mug and a charging cable = native lo-fi, matches the opening line 'I flipped my phone face down so fast I almost knocked my mug off the counter.' Headline field: 'I recited the Quran for 20 "
+  },
+  "problem_awareness": {
+   "score": 16,
+   "evidence": "Callout by identity + hidden shame: 'I recited the Quran for 20 years without understanding it' + a young Muslim man hiding his phone; very specific (hafiz roommate, 1:14 AM, Eid prayer pressure)."
+  },
+  "unique_mechanism": {
+   "score": 16,
+   "evidence": "Elite mechanism with contrast: 'Just 500 words make up about 75% of the entire Quran' vs 'Lesson one was verb charts. I closed the tab' (grammar course); street-signs analogy."
+  },
+  "visual_proof": {
+   "score": 6,
+   "evidence": "Image shows the phone, not the product; the product (spiral book, two words per page) is only described in text."
+  },
+  "friction_reduction": {
+   "score": 9,
+   "evidence": "'five minutes a day', 'No grammar lectures. No homework.', '30-day money-back guarantee', scarcity 'print version is really limited'."
+  },
+  "cta": {
+   "score": 9,
+   "evidence": "Hard CTA: link + 30-day guarantee + scarcity; button 'See Details'."
+  },
+  "total": 70
+ },
+ "tier": "A",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "Raw dark phone photo with a glowing screen on a messy counter = native anomaly (HG2); the shame headline lands at once and the first copy line delivers the scene. Strongest native device in the set."
+  },
+  "avatar_congruence": {
+   "score": 9,
+   "rationale": "master_avatar_research.md § Pains: 'I don't like checking my phone for Islamic apps because I get pulled into social media' (Q30) and ANG4 phone-free remembrance; § Avatars A1: young practising Muslim in a Western routine who wants worship effortless and honest. Same audience, masjid/commute vocabulary, problem-aware like ours; plus ANG7 consistency via '5 minutes a day'."
+  },
+  "adaptability": {
+   "score": 7,
+   "rationale": "Port: 'I flipped my phone face down at 1 AM' -> 'I hid my tasbih app at 1 AM because it kept pulling me into TikTok' (ANG4). Port: street-signs analogy -> 'I could do the dhikr in my sleep but never knew where I was'. Port: raw night-kitchen photo -> raw night photo with the ring on a hand next to a face-down phone. TRUTH SWAP: their stats (60,000 Muslims, 500 words = 75%), named roommate persona and Palestine donation are not ours; keep as a clearly persona-styled story. Long copy is primary text only; one image render."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  3,
+  5,
+  6,
+  7
+ ],
+ "green_flags": [
+  "HG2: raw dark phone photo, no polish (media.jpg)",
+  "HG3: shame-confession tension in the headline",
+  "MK2: open loops throughout (rewind three days, 'Then he said it')",
+  "MK3: one message - you were never taught, it is fixable in five minutes a day",
+  "MG2: mechanism with contrast to the grammar-course failure",
+  "CG1: link + 30-day guarantee + scarcity"
+ ],
+ "red_flags": [
+  "MG1 miss: product never visible in the image",
+  "CR2: scarcity and goodwill hooks stack at the end"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "curiosity_inversion",
+   "original": "I recited the Quran for 20 years without understanding it",
+   "pattern": "I [did the pious thing] for [long time] without [hidden gap]",
+   "where": "headline field + primary text line 1",
+   "port": "I counted dhikr for years and never knew where I was."
+  },
+  {
+   "kind": "visual_device",
+   "type": "native_ui_spoof",
+   "original": "Dark amateur phone photo of a kitchen counter at 1 AM: glowing phone screen, mug, cable, clutter",
+   "pattern": "Night-time raw phone photo of the secret-behaviour scene",
+   "where": "whole image",
+   "port": "Dark raw photo: phone lit up beside a mug, and a hand with the ring at the edge of frame"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "mechanism_reveal",
+   "original": "secret-shame scene -> stakes (leading Eid prayer) -> the gap -> failed fix (grammar course) -> insight (500 words = 75%) -> tiny daily habit (5 min) -> honest diary -> reassurance -> guarantee + scarcity",
+   "pattern": "scene -> stakes -> gap -> failed fix -> insight -> tiny habit -> honest result -> reassure -> guarantee",
+   "where": "primary text",
+   "port": "scene (phone pulled me in) -> stakes (leading a family) -> gap (lose count) -> failed fixes (beads, clicker, app) -> the ring -> small honest result -> 'your dhikr always counted' -> 60-day trial"
+  }
+ ],
+ "port_idea": "4:5 static with a raw, dark phone-style photo (night counter, lit phone, mug) plus the ring on a hand at the edge; headline field 'I counted dhikr for years and never knew where I was'. Long persona-styled native story (not a real-identity testimonial) ending on the 60-day money-back trial and free US shipping; no stats, no charity claims, no invented numbers.",
+ "decision": "KEEP",
+ "reason": "tier A: best native hook, avatar fit and a nine-beat story-confession structure; image carries no product and the copy depends on stats/persona we must replace. confidence: high (GetHookd optimized, active 80 days)"
+}

@@ -1,0 +1,57 @@
+{
+ "id": "meta-3968301550139796",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://www.facebook.com/ads/library/?id=3968301550139796",
+ "brand": "Aydins Jewelry",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "engraved / meaningful jewelry gifts",
+ "query": "engraved ring",
+ "cross_niche": true,
+ "meta_ad_id": "3968301550139796",
+ "active_period": "Jul 31, 2026 – active",
+ "performance_tier": null,
+ "library_id": "3968301550139796",
+ "started_running": "2026-07-31",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 4,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=engraved%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/AydinsJewelry/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 66,
+ "primary_text": "Her fingerprint. His ring. Laser-engraved for life.\n\nThis is the small detail that makes it his forever ring — not just another band.\n\n• Free shipping\n• Aydins Lifetime Warranty\n• 20% off this week",
+ "headline": "The Ring They'll Never Take Off",
+ "cta": "See details",
+ "landing_page": "https://shopaydins.com/collections/best-sellers",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 483,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/meta-3968301550139796.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "(none on image)",
+  "visual": "clasped hands over a cafe table, black ring in focus"
+ },
+ "angle": "personalised forever ring as a meaningful gift",
+ "structure": "hook line -> meaning -> 3 trust bullets (shipping, warranty, discount)",
+ "why_it_won": "66 days single ad; hypothesis: emotional permanence line plus stacked risk reversals, but weaker visual hook than Carbinox.",
+ "collected_at": "2026-10-05T16:30:00Z"
+}

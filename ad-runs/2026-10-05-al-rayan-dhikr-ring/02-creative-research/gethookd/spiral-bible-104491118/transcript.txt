@@ -1,0 +1,5 @@
+lang: en 1.0
+[  0.0-  4.7] If you ever wanted to read the Bible and you didn't know where to start, this book makes it so easy.
+[  4.9-  7.6] It's laid out for you day by day all year long.
+[  7.6- 11.6] It's beautiful, simple, and it makes staying consistent feel doable.
+[ 12.1- 13.3] I have it linked right here.

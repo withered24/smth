@@ -1,0 +1,50 @@
+{
+ "id": "ellie-grace-97725879",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "overlaps our existing gift-box hero; anxiety-cure claim; no on-image CTA.",
+ "ad_url": "https://app.gethookd.ai/ads/97725879",
+ "brand": "Ellie Grace",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "fidget",
+ "cross_niche": true,
+ "meta_ad_id": "1470696054741080",
+ "active_period": "153 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 153,
+ "primary_text": "Sadly, we are closing our Fidget Ring collection… 😢 Last chance to shop, ALL rings 50% OFF Today!\nGet yours here - https://elliegracejewelry.com/products/fidget-ring-anxiety",
+ "headline": "Fidget Ring For Daughter From Mum💕",
+ "cta": "Shop Now",
+ "landing_page": "https://elliegracejewelry.com/products/fidget-ring-anxiety",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 2000,
+  "height": 2000,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/ellie-grace-97725879.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

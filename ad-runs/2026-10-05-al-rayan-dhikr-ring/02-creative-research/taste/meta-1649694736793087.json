@@ -1,0 +1,95 @@
+{
+ "id": "meta-1649694736793087",
+ "source": "meta_ad_library",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 16,
+   "evidence": "0.0s t0000.00_hook.jpg: low POV of a wrist with a red cord bracelet on an outdoor path; overlay 'POV: You're overthinking again...' from 0.0s, then walk-toward-camera (t0001.50-t0004.50_hook.jpg); spoken 'I started wearing this bracelet because I would think a lot' 0.0-2.9s."
+  },
+  "problem_awareness": {
+   "score": 16,
+   "evidence": "[0.0-2.9] 'I started wearing this bracelet because I would think a lot.' + overlay 'POV: You're overthinking again...' + [3.5-5.6] 'my mind just starts racing' = named behaviour + symptom by 5.6s."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "[5.8-14.0] 'I try to remember Proverbs 3:5-6... I just need to trust God with the next step' - the bracelet as a physical reminder of a verse; no contrast vs alternatives."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "t0005.00-t0014.00_s.jpg: man walks on a path, wrist close-ups of the worn bracelet with word-by-word captions; product in real environment, no result shown."
+  },
+  "friction_reduction": {
+   "score": 1,
+   "evidence": "None in the video."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "Shop Now button; primary text 'puts that verse on your wrist'; no spoken CTA or incentive."
+  },
+  "total": 53
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 9,
+   "rationale": "0.0s POV frame + 'POV: You're overthinking again...' overlay and first words 'I started wearing this bracelet because I would think a lot' both land by 1.5-2.9s; native street shot."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Pains/Desires: A1 desire 'dhikr woven into the whole day... commute, desk, walk' (Q18, Q39) and ANG7 'consistency over intensity'; overthinking/racing mind maps to the busy-day pause in ANG10. Speaker and verse are Christian, but the driver (a small worn object as a daily reminder) is the same; awareness stage 3 matches."
+  },
+  "adaptability": {
+   "score": 9,
+   "rationale": "Port: 'POV: You're overthinking again...' overlay + walking POV -> 'POV: You lost count again...' / commute POV with the ring tapping. Port: Proverbs verse as the reminder -> a verified hadith or ayah from offer_brief.md (e.g. Quran 13:28) only. Port: word-by-word captions -> same. 15s = 4-5 clips; nothing fabricated."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "green_flags": [
+  "HG1: POV motion in frame 1 (t0000.00_hook.jpg)",
+  "HG2: native outdoor UGC, captions word by word",
+  "HG3: tension named by 1.5s",
+  "MG1: bracelet worn in real environment",
+  "MG3: cut from walk to wrist close-up every 2-3s",
+  "MK3: one message: a small thing on your wrist keeps the reminder close"
+ ],
+ "red_flags": [
+  "MR1: benefit stated by faith message, not by product function",
+  "CR1: no spoken CTA, Shop Now button only"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "micro_callout",
+   "original": "POV: You're overthinking again...",
+   "pattern": "POV: You're [specific recurring failure] again...",
+   "where": "overlay 0.0-5.0s",
+   "port": "POV: You lost count of your istighfar again..."
+  },
+  {
+   "kind": "visual_device",
+   "type": "in_media_res",
+   "original": "low POV wrist shot on a street path, then walk toward camera",
+   "pattern": "POV wrist + walking shot in public setting",
+   "where": "0.0-4.5s hook frames",
+   "port": "POV commute walk, wrist/ring close-up tapping"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "transformation",
+   "original": "confessing behaviour -> remember the verse -> trust one step at a time -> worn bracelet close-ups",
+   "pattern": "confession -> reminder text -> calm resolution -> product close-up",
+   "where": "0.0-15.4s",
+   "port": "confession -> verified hadith/ayah line -> silent tap demo -> ring close-up -> CTA"
+  }
+ ],
+ "port_idea": "~15s POV commute UGC for the ring: overlay 'POV: you lost count again...' with a wrist/ring POV, spoken confession in the avatar's voice, one verified-source line (offer_brief.md), tap demo with the count ticking, end card on the real offer from intake.md.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: elite POV hook and native captions, but mechanism is a verse reminder and there is no CTA or risk reversal. confidence: medium (active 19 days; this ad has multiple versions)"
+}

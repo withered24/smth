@@ -1,0 +1,70 @@
+{
+ "id": "meta-1600083061461951",
+ "source": "meta_ad_library",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "0.0s t0000.00_hook.jpg: silver ring pinched over a glass dish, display shows '18'; Arabic overlay text across top; no English text. Pleasant but static for 1.3s."
+  },
+  "problem_awareness": {
+   "score": 8,
+   "evidence": "Overlay is Arabic (SA tag) and not readable as English; primary text 'Imagine giving someone a gift that quietly reminds them when prayer time comes.' (gift angle)."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "Primary text: '5 Daily Prayer Vibration Reminders / 33/66/99 Dhikr Vibration / IP68 Water Resistant' - feature list, no why."
+  },
+  "visual_proof": {
+   "score": 12,
+   "evidence": "t0006-t0019: app counter 80/82/84 climbing beside the ring, full unboxing with charging pod, three ring colours at the end (t0018-t0019_s.jpg)."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Gift box + charging case shown; no guarantee/shipping."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "'Order now' button only."
+  },
+  "total": 45
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Static ring-over-dish macro and Arabic overlay at 0.0s; English-speaking avatar cannot read the hook."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md § Avatar A1/A2 are US/UK/CA English readers; this cut targets Saudi (SA tag), Arabic overlay + Arabic audio (lang ar 1.0 in transcript). Product category matches (Q31 vibration, Q32 jewelry) but the ad is not readable by our avatar."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: app counter 80->82->84 beside the ring -> our app sync; charging pod reveal -> only if our ring ships with one (unconfirmed). Structure would need a full English re-hook."
+  }
+ },
+ "checklist_hits": [
+  4
+ ],
+ "green_flags": [
+  "MG1: ring in use beside live app counter"
+ ],
+ "red_flags": [
+  "HR3: no English hook",
+  "CR3: Order now only"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "app counter 80/82/84 climbing beside a worn ring",
+   "pattern": "ring + phone app showing count change in one frame",
+   "where": "t0006.00-t0008.00_s.jpg",
+   "port": "our ring tap beside the Al Rayan app count"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar (non_english: Arabic on-screen overlay and Arabic audio, KSA-targeted cut). confidence: medium (active 26 days)"
+}

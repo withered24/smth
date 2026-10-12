@@ -1,0 +1,91 @@
+{
+ "id": "tayyib-beauty-175015416",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 16,
+   "evidence": "Static 1024x1024: top banner 'NO WATER FOR 16 HOURS. WUDU FIVE TIMES.' black serif caps + 'Your lips need this.' large gold serif; split image cracked lips vs product; callout lands in one glance."
+  },
+  "problem_awareness": {
+   "score": 16,
+   "evidence": "'No water for 16 hours. Wudu five times.' = micro-targeted behaviour list (fasting + wudu) + symptom 'Your lips need this'; primary text: 'crack before Asr'."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "Mechanism light: 'seals deep overnight and absorbs fast enough to wear through the day'; no contrast with alternatives."
+  },
+  "visual_proof": {
+   "score": 10,
+   "evidence": "Left half cracked-lips close-up (problem proof), right half product on cream backdrop."
+  },
+  "friction_reduction": {
+   "score": 6,
+   "evidence": "Bottom badge row: HALAL CERTIFIED / SAFE TO INGEST / SEALS OVERNIGHT / ABSORBS IN MINUTES; 'No guilt, no wiping it off.'"
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "Only 'Shop Now' button; no price, offer or guarantee shown."
+  },
+  "total": 60
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "Headline fully readable in 1 glance; the Muslim-ritual list (16 hours / five wudu) is a native callout and the cracked-lips macro is a visual contrast. Strong on text; polish is high rather than native."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Desires: 'dhikr woven into the whole day' (A1 daily-ritual lens); § VOC Q40 'afraid it would look ridiculous in corporate meetings' shows the Western daily-routine tension. Different pain (lips) but same avatar, same ritual vocabulary (wudu, Asr) and same Ramadan-season context."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'No water for 16 hours. Wudu five times. Your lips need this.' -> 'Five prayers. 33 after each. Your fingers lose count.' Port: split cracked-lips vs product -> split 'lost count' beads/phone vs ring display. Port: icon badge row -> truth-clean badges (60-day money-back, free US shipping, 1-year warranty). One substitution; their halal-certified claim is not ours."
+  }
+ },
+ "checklist_hits": [
+  1,
+  3,
+  4,
+  5
+ ],
+ "green_flags": [
+  "HG3: ritual-specific tension in the headline within one glance",
+  "MG1: problem close-up beside product",
+  "CG2: badge row of reassurance"
+ ],
+ "red_flags": [
+  "CR3: button-only CTA, no offer",
+  "HG2 miss: polished render, not native"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "micro_callout",
+   "original": "No water for 16 hours. Wudu five times. Your lips need this.",
+   "pattern": "[Specific ritual burden]. [Specific ritual count]. Your [body part/tool] needs this.",
+   "where": "top banner",
+   "port": "Five prayers. 33 after each. Your fingers lose count."
+  },
+  {
+   "kind": "visual_device",
+   "type": "split_contrast",
+   "original": "Left: extreme macro of cracked lips. Right: product tube with cap off on cream background, thin gold divider",
+   "pattern": "Problem macro | product hero split, gold divider",
+   "where": "middle 70% of frame",
+   "port": "Left: blurred hand with beads/phone; right: the ring on a clean cream background"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "mechanism_reveal",
+   "original": "callout banner -> split problem/product -> 4 icon badges at the bottom",
+   "pattern": "callout -> split proof -> reassurance badges",
+   "where": "top/middle/bottom bands",
+   "port": "callout -> old tools vs ring split -> badges: free US shipping, 60-day trial, 1-year warranty"
+  }
+ ],
+ "port_idea": "1:1 static: cream background, black+gold serif headline 'Five prayers. 33 after each. Your fingers lose count.', split image (blurred hands with beads/phone vs sharp ring display), bottom row of 4 truthful badges from intake (free US shipping, 60-day trial, 1-year warranty, silent tracking). Real offer only.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: elite ritual-specific callout and clean split layout port well; mechanism is thin and the CTA is button-only. confidence: high (GetHookd optimized, active 69 days)"
+}

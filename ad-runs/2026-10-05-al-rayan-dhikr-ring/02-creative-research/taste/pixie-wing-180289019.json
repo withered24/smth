@@ -1,0 +1,22 @@
+{"id":"pixie-wing-180289019","source":"gethookd","format":"video",
+"matrix":{
+"pattern_interrupt":{"score":14,"evidence":"0.0s t0000.00_hook.jpg: bold maroon 'DON'T BUY OUR RING KEEPER' on cream, with a 'Unless you're sick of scratching a $10k ring on everything' pill; reverse-psychology line is an anomaly for an ad, but polished brand card, no motion on text."},
+"problem_awareness":{"score":13,"evidence":"t0000.00_hook.jpg: 'Unless you're sick of scratching a $10k ring on everything' = specific owner + symptom on screen at 0s; primary text adds 'gym bags... click against the trolley, the dumbbell, the sink'."},
+"unique_mechanism":{"score":4,"evidence":"video shows only rotating ring-keeper necklaces; mechanism only in primary text: 'secures it against your chest in under 3 seconds. No unclasping.'"},
+"visual_proof":{"score":5,"evidence":"t0000.00_hook.jpg-t0003.50_hook.jpg: product on a chain with rings, cycling variants; never worn or used."},
+"friction_reduction":{"score":2,"evidence":"primary text only: 'No unclasping. 70,000+ people ignored our advice. Rated 4.9/5.' (TRUTH-RISK stats); no guarantee."},
+"cta":{"score":4,"evidence":"arrow pill is part of the card, no instruction text; headline 'Your ring, out of harm's way.'; Shop Now button."},
+"total":42},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":8,"rationale":"The don't-buy inversion plus a named pain are readable at 0.0s; one channel (text) strong, the rest of the ad adds nothing. Copy-led hook, Mark: copy is 70-80%."},
+"avatar_congruence":{"score":4,"rationale":"Ring-protection for a $10k engagement ring; master_avatar_research.md § Pains lists 'loud clicker in quiet rooms (Q21)' and 'cheap rings that die in a month (Q11)'. The reverse-psychology frame is portable, the pain is not ours (no ring-care pain in our VOC)."},
+"adaptability":{"score":6,"rationale":"Port: 'DON'T BUY OUR X / Unless you're sick of [pain]' -> 'Don't buy this ring / Unless you're tired of losing count of your dhikr' (Q29). Producible as a text card. 70,000+/4.9 claims are TRUTH-RISK and not ours; keep only the frame."}},
+"checklist_hits":[1,3],
+"green_flags":["HG3: tension in the 0.0s frame via the don't-buy inversion","MK4: the hook alone works as a text-only ad","MK3: one message: buy this only if the pain is yours"],
+"red_flags":["HR1: brand wordmark top-left of the frame, polished card","CR3: no CTA wording in the video, 4 s only"],
+"what_to_steal":[
+{"kind":"hook_line","type":"negative_framing","original":"DON'T BUY OUR RING KEEPER. Unless you're sick of scratching a $10k ring on everything","pattern":"DON'T BUY [OUR PRODUCT] / Unless you're [sick of VOC pain]","where":"0.0-4.0s overlay","port":"Don't buy this ring. Unless you keep losing count of your dhikr."}],
+"port_idea":"",
+"decision":"REJECT",
+"reason":"tier Reject: copy-led 4 s card with a great inversion hook but no mechanism, proof or offer; avatar_congruence 4 floor. Harvest the hook frame. confidence: medium (GetHookd optimized, active 17 days)"}

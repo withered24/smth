@@ -1,0 +1,57 @@
+{
+ "id": "my-saint-my-hero-131787232",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "Taste total 30 (Reject): soft Catholic pregnancy prayer graphic, no hook tension, no mechanism, no CTA; avatar_congruence 4 floor",
+ "ad_url": "https://app.gethookd.ai/ads/131787232",
+ "brand": "My Saint My Hero",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "prayer",
+ "cross_niche": true,
+ "meta_ad_id": "1511070680269419",
+ "active_period": "85 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 85,
+ "primary_text": "Wear a prayer around your wrist throughout your pregnancy and keep a tangible reminder of God's Love and your circle of prayer surrounding you and your baby!",
+ "headline": "A prayer for all NEW MOMS!",
+ "cta": "Shop Now",
+ "landing_page": "https://mysaintmyhero.com/collections/gifts-for-moms-to-be",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1920,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/my-saint-my-hero-131787232.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "a prayer for new moms",
+  "visual": "pregnant woman in white dress holding belly, prayer text overlay, beaded bracelet"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:47:45Z"
+}

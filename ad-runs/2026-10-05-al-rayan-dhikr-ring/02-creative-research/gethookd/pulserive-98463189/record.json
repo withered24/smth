@@ -1,0 +1,50 @@
+{
+ "id": "pulserive-98463189",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "adaptability: power rests on FDA/blood-pressure claims we cannot make; cluttered icon grid.",
+ "ad_url": "https://app.gethookd.ai/ads/98463189",
+ "brand": "Pulserive",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Tech",
+ "query": "smart ring / wearable",
+ "cross_niche": true,
+ "meta_ad_id": "926954510390481",
+ "active_period": "149 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 149,
+ "primary_text": "★★★★★ - Emily L. from New York ✨\n\"Keeping track of my body data has always been a challenge until I started using the Pulsrive Smart Ring.  The best part is that it measures blood pressure without the need for a cumbersome cuff, making it incredibly convenient. Now, I feel more in control of my well-being than ever before. This ring has truly revolutionized my health journey. Thank you so much!\" ❤️\n\nFor a limited time, we're offering a free charging case with your purchase. This innovative and sleek smart health ring is designed with your well-being in mind, providing comprehensive health monitoring:\n\n✅ Blood Oxygen & Pressure\n✅ Heart Rate Measurement\n✅ Activity Monitoring\n✅ Stress Index\n✅ Sleep Analysis\n✅ 7 Days Battery Life\n\nFree delivery worldwide 👉 \nhttps://pulserive.com/products/pulserive-smart-ring",
+ "headline": "✨ Comprehensive Health Tracker on finger",
+ "cta": "Shop Now",
+ "landing_page": "https://pulserive.com/products/pulserive-smart-ring",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1200,
+  "height": 1200,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/pulserive-98463189.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

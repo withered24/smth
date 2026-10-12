@@ -1,0 +1,21 @@
+{"id":"my-saint-my-hero-131787232","source":"gethookd","format":"image",
+"matrix":{
+"pattern_interrupt":{"score":7,"evidence":"media.jpg 9:16: arched serif 'a prayer for new moms' over a soft white pregnant-belly photo; one calm focal point, no tension or anomaly."},
+"problem_awareness":{"score":9,"evidence":"headline field 'A prayer for all NEW MOMS!' and image 'a prayer for new moms' name an audience, no pain."},
+"unique_mechanism":{"score":3,"evidence":"primary text: 'Wear a prayer around your wrist throughout your pregnancy and keep a tangible reminder'; bottom text 'wear a prayer every day!'; no why."},
+"visual_proof":{"score":7,"evidence":"bracelet worn on the wrist top right and held bottom left; lifestyle shot, product small."},
+"friction_reduction":{"score":1,"evidence":"no price, shipping or guarantee anywhere on the image or primary text."},
+"cta":{"score":3,"evidence":"no CTA on image; 'wear a prayer every day!' is a tagline; Shop Now button only."},
+"total":30},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":4,"rationale":"Gentle devotional layout with a lot of text; readable but nothing stops the thumb; it is a quiet editorial image."},
+"avatar_congruence":{"score":4,"rationale":"Catholic prayer for pregnancy ('St. Gerard, pray for us'); master_avatar_research.md § Avatars A1 is a Muslim professional wanting discreet daily dhikr and A2 a gift buyer. Only 'wear a prayer every day' echoes 'dhikr woven into the whole day', and the visual world is far off."},
+"adaptability":{"score":5,"rationale":"Port: 'wear a prayer every day' tagline -> 'wear your dhikr every day' for A2 gift copy. Port: prayer text overlaid on a lifestyle photo -> a verified dhikr line over a hand photo. Their St. Gerard / Catholic prayer cannot be used; layout needs a new hook."}},
+"checklist_hits":[],
+"green_flags":["HG2: reads as an editorial devotional post, not an ad"],
+"red_flags":["HR3: no clear benefit or hook angle in the largest text","CR1: no CTA or offer on the image"],
+"what_to_steal":[],
+"port_idea":"",
+"decision":"REJECT",
+"reason":"filter floor: avatar. Catholic pregnancy-prayer graphic with no hook, mechanism or CTA. confidence: medium (GetHookd optimized, active 85 days)"}

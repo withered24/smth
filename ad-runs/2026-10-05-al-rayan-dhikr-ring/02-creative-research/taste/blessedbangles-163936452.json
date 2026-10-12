@@ -1,0 +1,57 @@
+{
+ "id": "blessedbangles-163936452",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "unviewed frames; transcript opens in Arabic [0.0-2.8]. unviewed cap."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "Primary text 'US ... THEM ❌ Mass-produced ❌ Shipped from China' is a us-vs-them list; in-video pain only in Arabic speech."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "[21.7-24.5] Arabic: competitor bangles come from Alibaba at 3 dollars; [17.7-19.8] 'hand made 18 card gold plated'; contrast present but in Arabic."
+  },
+  "visual_proof": {
+   "score": 5,
+   "evidence": "unviewed; bangles shown per transcript context only."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "No guarantee/shipping; 'Order yours today' in primary text only."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "Primary text 'Order yours today'; Shop Now button; no English CTA."
+  },
+  "total": 31
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "unviewed frames; opening spoken line is Arabic (lang ar 0.97), cannot be assessed for an English-speaking audience."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md § Angles ANG8: 'Your $3 clicker is loud. Your $15 Amazon ring dies in a month.' overlaps with their 'THEM: Shipped from China', but speech is Arabic and Kuwait-targeted; § Avatars A1 is Western English-speaking."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Port: us-vs-them list -> ANG8 (clicker/clone vs ring); but the video is Arabic conversational, 27 s, and relies on competitor-bashing ('from Alibaba at 3 dollars') we cannot repeat truthfully."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "TRUTH-RISK: 'Shipped from China' / Alibaba bash claims",
+  "HR3: language mismatch"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: non_english (Arabic speech lang ar 0.97); us-vs-them structure only in primary text. confidence: medium (GetHookd optimized, active 40 days)"
+}

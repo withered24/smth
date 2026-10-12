@@ -1,0 +1,63 @@
+{
+ "id": "nimah-160687594",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "0.0s hook_01.jpg: static photo of gold tasbih bracelet on satin; text 'Give a tasbih. Share in every dhikr she makes.' from 0.0s; no motion."
+  },
+  "problem_awareness": {
+   "score": 7,
+   "evidence": "hook_01.jpg overlay 'Give a tasbih. Share in every dhikr she makes.' = gift-giver callout, but no pain/mistake named; story only in primary text."
+  },
+  "unique_mechanism": {
+   "score": 3,
+   "evidence": "No mechanism; claim that giver shares the reward of the recipient's dhikr (primary text 'the reward reaches me too')."
+  },
+  "visual_proof": {
+   "score": 3,
+   "evidence": "All 7.3s a still bracelet shot (body_001.jpg, body_002.jpg); product never in use."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "No guarantee, shipping or objection handling."
+  },
+  "cta": {
+   "score": 2,
+   "evidence": "Brand name NIMAH appears at ~3.5s (hook_08.jpg); no CTA text, only Shop Now button."
+  },
+  "total": 21
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 3,
+   "rationale": "hook_01-hook_04: static still with a slogan; no motion or anomaly; audio is music only (no speech, lang 0.34)."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "master_avatar_research.md § Avatars A2: 'The meaningful-gift buyer'; § VOC Q25: 'The relation's box does half the ceremony for you... meaningful gift.' Ad assumes gift intent only; no A1 pain."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Port: 'give a tasbih' gift line -> our ring gift ANG5. But the power is the shared-reward faith claim; master_avatar_research.md §7 dropped the 'Sadaqah Jariyah gift' hook as unverifiable; static video offers no structure."
+  }
+ },
+ "checklist_hits": [
+  3
+ ],
+ "green_flags": [
+  "HG2: native-feeling still with soft overlay (0.0s)"
+ ],
+ "red_flags": [
+  "HR1: brand wordmark enters ~3.5s",
+  "MR3: nothing changes for 7s",
+  "CR1: no CTA text or spoken line",
+  "TRUTH-RISK: 'the reward reaches me too' faith claim"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: still image with slogan, no mechanism, no proof, unverifiable faith claim. confidence: high (GetHookd optimized, active 41 days)"
+}

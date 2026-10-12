@@ -1,0 +1,57 @@
+{
+ "id": "meta-1649694736793087",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://www.facebook.com/ads/library/?id=1649694736793087",
+ "brand": "The Prayer I Share",
+ "format": "video",
+ "platforms": null,
+ "language": "en",
+ "niche": "scripture bracelets (Christian)",
+ "query": "prayer bracelet",
+ "cross_niche": true,
+ "meta_ad_id": "1649694736793087",
+ "active_period": "Sep 16, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1649694736793087",
+ "started_running": "2026-09-16",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": true,
+  "result_rank": 3,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=video&q=prayer%20bracelet&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/theprayerishare/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 19,
+ "primary_text": "There’s a reason you keep certain words close.\nProverbs 3:5–6 is for the moments when your mind gets ahead of you—when you’re second-guessing, looking for answers, or trying to control what happens next.\n“Trust in the Lord with all your heart and lean not on your own understanding.”\nThe Prayer I Share puts that verse on your wrist, so you can carry the reminder into whatever the day brings.",
+ "headline": "Scripture Bracelets to Wear and Share",
+ "cta": "Shop Now",
+ "landing_page": "https://theprayerishare.com/products/trust-his-plan-bracelet",
+ "media": {
+  "files": [
+   "media.mp4"
+  ],
+  "duration_s": 15.44,
+  "width": 360,
+  "height": 640,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/meta-1649694736793087.json",
+ "hook": {
+  "spoken": "I started wearing this bracelet because I would think a lot.",
+  "on_screen": "POV: You're overthinking again...",
+  "visual": "low POV of a wrist with a red cord bracelet on a sidewalk, man walks toward camera"
+ },
+ "angle": "a small worn object keeps one calming reminder close through an overthinking day",
+ "structure": "POV overthinking callout -> confession -> verse reminder -> trust-one-step resolution -> bracelet close-ups -> Shop Now",
+ "why_it_won": "Hypothesis: POV callout names a universal recurring mental pain in 1s; native walking UGC with word-by-word captions; a multi-version ad that the brand is iterating (only 19 days old, so longevity proof is weak)",
+ "collected_at": "2026-10-05T13:50:00Z"
+}

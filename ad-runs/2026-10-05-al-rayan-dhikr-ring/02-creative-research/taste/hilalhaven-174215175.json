@@ -1,0 +1,62 @@
+{
+ "id": "hilalhaven-174215175",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "Collage 1080x1080: paracord bracelet, minaret skyline, strikethrough tag '$69.99', big 'FREE TODAY'; busy, offer-led, price tag competes for the eye."
+  },
+  "problem_awareness": {
+   "score": 4,
+   "evidence": "No pain or audience named; generic 'meaningful Islamic jewelry'."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "No mechanism."
+  },
+  "visual_proof": {
+   "score": 7,
+   "evidence": "Product shown as hero + wrist + zoom, no use result."
+  },
+  "friction_reduction": {
+   "score": 4,
+   "evidence": "Free shipping over $79.99 only."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "Offer-led 'FREE TODAY' + code B3, cluttered."
+  },
+  "total": 34
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "Busy collage; 'FREE TODAY' is loud but generic and the price tag competes; no tension beyond the giveaway."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "master_avatar_research.md § Fears: Q32 'modern tech jewelry rather than a cheap plastic toy' conflicts with a slashed-price paracord collage; A2 gift buyer only loosely fits."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Port is only an offer-led giveaway; our real offer has no free-today give-away and a strike-through price or 'FREE' claim would be false for us. Nothing structural to carry."
+  }
+ },
+ "checklist_hits": [
+  7
+ ],
+ "green_flags": [
+  "CG1: unmistakable offer cue"
+ ],
+ "red_flags": [
+  "HR3: no benefit or hook angle",
+  "CR2: free + B2G1 code + shipping threshold = competing offers",
+  "MR1: no mechanism"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: offer-led collage with a fake-feeling price anchor and no mechanism; adaptability floor. confidence: medium (GetHookd winning, active 27 days)"
+}

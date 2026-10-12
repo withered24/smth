@@ -1,0 +1,21 @@
+{"id":"rextus-174570757","source":"gethookd","format":"image",
+"matrix":{
+"pattern_interrupt":{"score":13,"evidence":"media.jpg: black studio render of a watch with the Creation of Adam hands on the dial, spaced serif headline 'THE CREATION OF ADAM' across the top; premium and striking, but a standard product hero."},
+"problem_awareness":{"score":4,"evidence":"no problem stated on the image; primary text 'Built for the men who know their strength comes from God.' is an identity line."},
+"unique_mechanism":{"score":8,"evidence":"dial reads 'Genesis 2:7' and 'Creation of Adam'; primary text 'Built around the Creation of Adam, the moment God gave man life' gives the design story."},
+"visual_proof":{"score":8,"evidence":"large sharp render of the dial detail; no worn or in-life shot."},
+"friction_reduction":{"score":10,"evidence":"bottom icon row: '2 YEAR WARRANTY', '60-DAY RETURNS', 'FREE SIZING TOOL', 'SAVE $50 TODAY'."},
+"cta":{"score":5,"evidence":"'SAVE $50 TODAY' on the image; headline 'Carry The Strength. Wear The Reminder.'; Shop Now."},
+"total":48},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":7,"rationale":"Dark premium render with one focal point; strong look, not a tension hook."},
+"avatar_congruence":{"score":6,"rationale":"master_avatar_research.md: A2 gift buyer and A1 want a meaningful, discreet faith piece; this is a loud luxury men's watch built on Christian scripture, and the pitch is identity-led rather than a daily-practice tool."},
+"adaptability":{"score":8,"rationale":"Port: the four-icon trust bar -> '60-day trial, free US shipping' (our real terms; no warranty claim unless intake lists it). Port: dark studio hero with title -> black ring on a dark surface with one line. Scripture-based story does not carry."}},
+"checklist_hits":[3,5],
+"green_flags":["CG2: guarantee and shipping row on the image","MG1: crisp product hero"],
+"red_flags":["MR1: no pain or daily-use scene","FAITH_CLAIM: 'strength comes from God' in primary text; do not copy"],
+"what_to_steal":[],
+"port_idea":"None kept; trust-bar footer noted in the log only.",
+"decision":"REJECT",
+"reason":"Tier Reject (48): strong premium hero and trust row but avatar_congruence 6 and scripture-based story is not portable. confidence: medium"}

@@ -1,0 +1,54 @@
+{
+ "id": "cloud-nine-133765605",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "kept",
+ "reject_reason": null,
+ "ad_url": "https://app.gethookd.ai/ads/133765605",
+ "brand": "Cloud Nine",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Fashion",
+ "query": "fidget / calm",
+ "cross_niche": true,
+ "meta_ad_id": "1831072947872169",
+ "active_period": "77 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 77,
+ "primary_text": "Say Goodbye ADHD, anxiety and racing thoughts 😌\n\nThis hoodie hides soft stress balls in each sleeve and now a tactile fidget patch inside the kangaroo pocket - so your hands stay busy and your brain feels calmer ☁️\n\n15,000+ families use this hoodie for calm ❤️\n\nTry it daily. If it doesn’t ease your overwhelm, we’ll refund you fully. No questions asked.",
+ "headline": "Squeeze & Fidget Away Anxiety ✨",
+ "cta": "Shop Now",
+ "landing_page": "https://www.cloudnineclothing.ca/products/grounding-hoodie",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1350,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": "analysis.md",
+ "taste": "../../taste/cloud-nine-133765605.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "Hoodie with hidden anxiety tools",
+  "visual": "two overlapping circular macro insets over a dark purple hoodie close-up"
+ },
+ "angle": "calm for restless hands, hidden in an everyday item",
+ "structure": "curiosity headline -> two labelled in-use macro insets -> CTA pill -> guarantee bar",
+ "why_it_won": "curiosity word 'hidden' + two concrete, visible tools + refund promise; 4 ads reuse the creative (hypothesis)",
+ "collected_at": "2026-10-05T20:30:00Z"
+}

@@ -1,0 +1,74 @@
+{
+ "id": "nimah-149804170",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "0.0s t0000.10_cut.jpg: hijabi woman with lav mic holding two red velvet Nimah pouches; caption from 0.5s 'these are the two which i wear every day'. Familiar UGC, no tension; no anomaly."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "[0.0-3.5] 'These are the two which I wear every day and may have some meanings behind them too.' No pain/mistake/audience named; primary text 'Dhikr in the car, in the queue, between meetings' only in caption."
+  },
+  "unique_mechanism": {
+   "score": 4,
+   "evidence": "[8.2-11.6] 'Wearing these bracelets have helped me to engage in my daily spiritual practices.' Benefit statement only; no why-it-works or contrast."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "8.4-15.0s t0008.43_cut.jpg, t0010.80_cut.jpg: beads run through fingers, bracelets on wrist; product shown handheld, no result or counting demo."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "No guarantee, shipping, durability or ease line in transcript or frames."
+  },
+  "cta": {
+   "score": 2,
+   "evidence": "[11.8-15.7] ends 'or as an elegant accessory'; no spoken or on-screen CTA; only Shop Now button (record cta)."
+  },
+  "total": 29
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "t0000.00-t0001.50: calm talking-to-camera with pouches, first line 'These are the two which I wear every day' has no tension; generic opening."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Avatar A1/A2: Muslim woman, Western setting, tasbih as everyday jewelry; § VOC Q32: 'It feels like wearing modern tech jewelry rather than a cheap plastic toy.' Awareness: product-aware tone, ours is solution-aware."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: wrist-reveal of 'two I wear every day' -> our black and rose-gold rings on a hand. Port: 'reminder to myself or elegant accessory' -> ANG6 'It is a ring. It is also a tasbih.' Weak hook and no CTA must be rebuilt; their bracelet has no counter/mechanism, so UMS is ours."
+  }
+ },
+ "checklist_hits": [
+  2,
+  4
+ ],
+ "green_flags": [
+  "HG2: native UGC, lav mic, no logo intro (0.0s)",
+  "MG1: product handheld and worn 8.4-15.0s",
+  "HG3: on-screen caption from 0.5s"
+ ],
+ "red_flags": [
+  "HR3: opening 'These are the two which I wear every day' has no hook angle",
+  "CR1: no CTA spoken or on screen",
+  "MR1: benefit only, no daily-benefit tie"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "Pouch reveal then close-up of beads moving through fingers, then wrist shot",
+   "pattern": "packaging reveal -> tactile close-up -> worn-on-body shot",
+   "where": "5.0-15.0s t0005.57_cut.jpg-t0012.87_cut.jpg",
+   "port": "Ring box reveal -> thumb tap close-up -> ring on hand at a desk"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: soft opening, no mechanism, no CTA; right world (Muslim wearable) but nothing to out-swipe on structure. confidence: high (GetHookd optimized, active 48 days)"
+}

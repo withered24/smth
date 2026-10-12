@@ -1,0 +1,50 @@
+{
+ "id": "element-ring-co-132515960",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "avatar: wedding-romance imagery, no headline, no portable mechanism.",
+ "ad_url": "https://app.gethookd.ai/ads/132515960",
+ "brand": "Element Ring Co.",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "ring",
+ "cross_niche": true,
+ "meta_ad_id": "1104114798069525",
+ "active_period": "581 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 581,
+ "primary_text": "Introducing the custom-made ring of your dreams! \n\nAt Element Ring Co, we bring your unique visions to life. Just ask Zach and Jessica, who wanted a special ring to symbolize their love and connection to Tanzania. \n\nWe crafted a stunning ring from Ebony wood, hand-selected by Zach, to perfectly complement Jessica's Tanzanite engagement ring.\n\nBring your own meaningful materials and let us turn them into a one-of-a-kind piece that truly represents you. \n\nLet Element Ring Co make your dream ring a reality. Order now!\n\nhttps://elementringco.com/collections/carbon-fiber-rings",
+ "headline": "Bring Your Love Story to Life with our Ring ❤️",
+ "cta": "Order Now",
+ "landing_page": "https://elementringco.com/collections/carbon-fiber-rings",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1080,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/element-ring-co-132515960.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

@@ -1,0 +1,21 @@
+{"id":"kailash-energy-123242000","source":"gethookd","format":"video",
+"matrix":{
+"pattern_interrupt":{"score":6,"evidence":"0.0s t0000.00_hook.jpg: hand holds a turquoise bead bracelet against a colourful Tibetan temple; pretty but no motion anomaly, no words (transcript only '[1.1-1.7] You', no speech)."},
+"problem_awareness":{"score":2,"evidence":"no pain or audience named anywhere in the frames; only the primary text 'A moment of peace, right on your finger.'"},
+"unique_mechanism":{"score":2,"evidence":"video shows bead bracelets and a mala only (t0006.90_cut.jpg); the thumb-spin prayer wheel from the primary text never appears."},
+"visual_proof":{"score":6,"evidence":"wrist and hand-held b-roll of bracelets (t0002.67_cut.jpg, t0006.00_s.jpg); product worn but not used."},
+"friction_reduction":{"score":0,"evidence":"none in frames or primary text."},
+"cta":{"score":2,"evidence":"t0012.00_s.jpg logo + 'kailashenergy.com' end card; See Details button; no instruction."},
+"total":18},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":3,"rationale":"Pretty b-roll opening with no words or motion; nothing creates tension in the first 1.5s."},
+"avatar_congruence":{"score":4,"rationale":"Spiritual wearable for calm; master_avatar_research.md § Desires 'dhikr woven into the whole day' overlaps only loosely, but the Tibetan Buddhist visual world and a no-pain, no-VOC ad do not speak to the Muslim professional avatar."},
+"adaptability":{"score":5,"rationale":"Port: wrist and in-hand wearable b-roll -> ring on finger b-roll with a tap and count. Their primary-text hook ('a moment of peace right on your finger') is the transferable idea; the video itself carries no hook or structure to keep."}},
+"checklist_hits":[],
+"green_flags":["HG2: unpolished-looking travel b-roll, not a slick commercial"],
+"red_flags":["HR3: no opening words or benefit in the frames","MR1: shows beads without tying to a daily benefit","CR1: logo-only ending, no instruction"],
+"what_to_steal":[],
+"port_idea":"",
+"decision":"REJECT",
+"reason":"tier Reject: silent b-roll with no hook, mechanism or CTA; prayer-wheel mechanism from the text is not in the video. confidence: high (GetHookd winning, active 117 days)"}

@@ -1,0 +1,53 @@
+{
+ "id": "catholic-woodworker-149531283",
+ "source": "gethookd",
+ "scout": "p2-gh-vid",
+ "status": "rejected",
+ "reject_reason": "filter floor: avatar (Catholic friar testimonial); total 24 Reject",
+ "ad_url": "https://app.gethookd.ai/ads/149531283",
+ "brand": "The Catholic Woodworker",
+ "format": "video",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "rosary",
+ "cross_niche": true,
+ "meta_ad_id": "1271983244925974",
+ "active_period": "53 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 53,
+ "primary_text": "A simple daily prayer can bring peace and renewal. Hear how the Rosary has changed lives.",
+ "headline": "Pick up your Rosary.",
+ "cta": "shop now",
+ "landing_page": "http://catholicwoodworker.com/",
+ "media": {
+  "files": [
+   "media.mp4",
+   "poster.jpg"
+  ],
+  "duration_s": 19.6,
+  "width": 720,
+  "height": 1280,
+  "has_audio": true
+ },
+ "frames_dir": "frames/",
+ "transcript": "transcript.txt",
+ "transcript_json": "transcript.json",
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/catholic-woodworker-149531283.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:48:23Z"
+}

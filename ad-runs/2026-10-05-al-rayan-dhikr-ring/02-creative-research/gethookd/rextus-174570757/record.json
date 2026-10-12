@@ -1,0 +1,57 @@
+{
+ "id": "rextus-174570757",
+ "source": "gethookd",
+ "scout": "p2-gh-x",
+ "status": "rejected",
+ "reject_reason": "tier Reject 48; avatar 6, scripture-based story, faith claim in copy",
+ "ad_url": "https://app.gethookd.ai/ads/174570757",
+ "brand": "Rextus",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "whatsapp",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches (cross-niche: faith watch)",
+ "query": "faith jewelry (cross-niche)",
+ "cross_niche": true,
+ "meta_ad_id": "1568904461924135",
+ "active_period": "27 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 27,
+ "primary_text": "Built for the men who know their strength comes from God. Built around the Creation of Adam, the moment God gave man life.",
+ "headline": "Carry The Strength. Wear The Reminder.",
+ "cta": "Shop Now",
+ "landing_page": "https://rextus.com/products/creation-of-adam",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 2048,
+  "height": 2048,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/rextus-174570757.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": "THE CREATION OF ADAM",
+  "visual": "watch render with trust-icon row"
+ },
+ "angle": "",
+ "structure": "",
+ "why_it_won": "",
+ "collected_at": "2026-10-05T14:01:03Z"
+}

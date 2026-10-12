@@ -1,0 +1,93 @@
+{
+ "id": "ergosalah-71735717",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 15,
+   "evidence": "0.0s t0000.00_hook.jpg: hand tossing a pillow onto a green prayer rug, caption 'What muslim think i sell:' + sick/skull emoji from 0.0s; motion in 0.5s (t0000.50_hook.jpg). Native UGC meme format; audio unheard (no speech)."
+  },
+  "problem_awareness": {
+   "score": 9,
+   "evidence": "Caption 'What muslim think i sell:' calls out Muslims on frame 1, but the pain (knee pain) is only in primary text '😖 Suffering from Knee Pain During Prayer?', not in the video."
+  },
+  "unique_mechanism": {
+   "score": 7,
+   "evidence": "[7.2-10.1] on-screen 'Padded prayer mat with memory foam and cushion in the knee area.' contrasted with the pillow-on-rug 'what they think' beat (0.0-3.4s); feature plus implied contrast, no stated why."
+  },
+  "visual_proof": {
+   "score": 11,
+   "evidence": "4.0-12.1s t0004.00_hook.jpg, t0011.00_s.jpg: hijabi woman kneels, presses the mat, then full sujood on it; product used for its real function, result implied (comfort)."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "10.1-12.1s 'Shop With 40% Off this Ramadan' discount only; no guarantee/shipping in video; primary text lists foam/non-slip features."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "10.1-12.1s t0010.13_cut.jpg 'Shop With 40% Off this Ramadan ✨' on-screen with incentive, single instruction; no spoken CTA (no speech)."
+  },
+  "total": 53
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 7,
+   "rationale": "t0000.00-t0001.50: caption 'What muslim think i sell:' plus action (pillow toss, woman moving) is a native meme opener; tension lands at 0.0s but it is a trend format, not a unique anomaly."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Avatars A1: modest practising Muslim, home setting; ANG8 'us-vs-them vs plastic clicker' and § VOC Q32: 'It feels like wearing modern tech jewelry rather than a cheap plastic toy' = the same 'what you assume vs what it is' perception reframe. Pain (knee) differs from ours (loud clickers, lost count)."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'What muslim think i sell: [pillow on rug]' -> 'What Muslims think a dhikr counter is: [loud clicker / tangled beads]'. Port: 'What i actually sell.. [soft plush mat]' -> our ring tap on a hand with display count. Port: feature caption -> '33/66/99 gentle pulse'. Port: Ramadan 40% off -> real offer only (free US shipping, 60-day trial). 12s, 3-4 clips."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  4
+ ],
+ "green_flags": [
+  "HG1: pillow toss motion in 0.0-0.5s",
+  "HG2: native phone UGC, trend caption format",
+  "MG1: sujood on the product 10.1-12.1s",
+  "CG1: single on-screen CTA with discount 10.1-12.1s",
+  "MK3: one message: this is not what you think it is"
+ ],
+ "red_flags": [
+  "MR1: feature caption only, no benefit tie",
+  "CR3: no spoken CTA, no risk reversal",
+  "HR3: pain not stated inside the video"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "statement",
+   "original": "What muslim think i sell: [skull emoji] / Vs... / What i actually sell.. [soft emoji]",
+   "pattern": "What [our community] think I sell: [wrong assumption emoji] vs. What I actually sell.. [soft emoji]",
+   "where": "0.0-6.5s t0000.00_hook.jpg-t0005.00_s.jpg",
+   "port": "What people think a dhikr counter is: a loud plastic clicker. What I actually wear: a ring that counts quietly."
+  },
+  {
+   "kind": "visual_device",
+   "type": "split_contrast",
+   "original": "Wrong-solution beat (pillow on rug) then whip-blur transition to the real product in the same room",
+   "pattern": "'wrong version' action beat -> whip-pan -> product beat, same framing and person",
+   "where": "0.0-4.0s t0003.50_hook.jpg",
+   "port": "Loud clicker clicking in a quiet office -> whip-pan -> same desk, silent tap on a ring"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "demo_proof_first",
+   "original": "assumption -> reveal -> feature caption -> real use (sujood) -> discount CTA",
+   "pattern": "assumption -> reveal -> one feature line -> product in real use -> single offer line",
+   "where": "0.0-12.1s",
+   "port": "same beat order with silent tap, 33/66/99 pulse, real offer"
+  }
+ ],
+ "port_idea": "~12s native UGC for the ring: 'What people think a dhikr counter is' (loud clicker, tangled beads) vs 'What I actually wear' (ring on a hand at a desk), whip-pan reveal, one feature line (gentle pulse at 33/66/99), real-use tap shot, then a single CTA line with free US shipping and the 60-day trial. About 3-4 Kling clips.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: native trend hook and real-use demo are strong, pain and mechanism are thin, CTA only discount; avatar 8 / adaptability 8. confidence: high (GetHookd winning, active 271 days)"
+}

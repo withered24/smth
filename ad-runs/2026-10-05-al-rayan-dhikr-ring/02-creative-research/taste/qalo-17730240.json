@@ -1,0 +1,63 @@
+{
+ "id": "qalo-17730240",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 8,
+   "evidence": "0.0s t0000.00_hook.jpg: hand with silver ring in hard sunlight on a stone wall, caption 'Ladies and gentlemen...' (0.0-1.1s) then 'Smart. Durable. Affordable. This Ring Has Got It All' from 1.5s. Native but static-ish."
+  },
+  "problem_awareness": {
+   "score": 3,
+   "evidence": "[0.0-1.1] 'Ladies and gentlemen...' only; 'Smart. Durable. Affordable.' is a generic benefit list; no pain or audience."
+  },
+  "unique_mechanism": {
+   "score": 3,
+   "evidence": "No mechanism; 'smart' asserted. Primary text: 'no subscription cost, enhanced privacy'."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "2.0-13.0s t0003.40_cut.jpg-t0013.00_s.jpg: ring worn, rotated, held to light; product close-ups but no function shown."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "On-screen 'Affordable'; primary text 'no subscription cost'; no guarantee."
+  },
+  "cta": {
+   "score": 2,
+   "evidence": "No spoken or on-screen CTA; Shop Now button only."
+  },
+  "total": 27
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "0-1.5s: hand-with-ring in sunlight and generic 'Ladies and gentlemen...' text; pleasing but no tension. Evidence weak: no tier, ad ended (52 days)."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md § Product facts: 'it passes as a regular ring' (Q40) and ANG6 'It's a ring. It's also a tasbih.' overlap with the ring-as-jewelry visual; but ad pains (price, subscription) are health-tracker pains, not ours; § Avatars A1 shows no match on pain."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: sunlit hand with ring + rotate-and-show close-ups -> our rose gold/black ring with the display and a tap. Visual device ports; hook line and claims do not. Needs hook and mechanism rebuilt."
+  }
+ },
+ "checklist_hits": [
+  2,
+  4
+ ],
+ "green_flags": [
+  "HG2: native sunlit hand shots, no logo intro"
+ ],
+ "red_flags": [
+  "HR3: 'Ladies and gentlemen...' hook has no benefit angle",
+  "CR1: no CTA",
+  "MR1: generic 'Smart. Durable. Affordable.' list"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: pleasant ring close-ups but no hook, mechanism or CTA; no performance tier. confidence: low (no tier, ad ended after 52 days)"
+}

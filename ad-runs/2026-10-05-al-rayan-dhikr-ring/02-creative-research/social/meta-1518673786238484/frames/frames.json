@@ -1,0 +1,83 @@
+{
+  "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\social\\meta-1518673786238484\\media.mp4",
+  "type": "video",
+  "duration": 6.367,
+  "width": 360,
+  "height": 640,
+  "params": {
+    "hook_seconds": 5.0,
+    "hook_fps": 2.0,
+    "fps": 1.0,
+    "scene": 0.3,
+    "width": 480,
+    "dedupe": 0.3
+  },
+  "counts": {
+    "hook": 8,
+    "s": 1,
+    "cut": 3,
+    "dropped": 3
+  },
+  "frames": [
+    {
+      "file": "t0000.00_hook.jpg",
+      "t": 0.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0000.50_hook.jpg",
+      "t": 0.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.00_hook.jpg",
+      "t": 1.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.30_cut.jpg",
+      "t": 1.3,
+      "kind": "cut"
+    },
+    {
+      "file": "t0002.00_hook.jpg",
+      "t": 2.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.50_hook.jpg",
+      "t": 2.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.00_hook.jpg",
+      "t": 3.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.50_hook.jpg",
+      "t": 3.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.97_cut.jpg",
+      "t": 3.967,
+      "kind": "cut"
+    },
+    {
+      "file": "t0004.50_hook.jpg",
+      "t": 4.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0005.10_cut.jpg",
+      "t": 5.1,
+      "kind": "cut"
+    },
+    {
+      "file": "t0006.00_s.jpg",
+      "t": 6.0,
+      "kind": "s"
+    }
+  ]
+}

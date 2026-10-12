@@ -1,0 +1,102 @@
+{
+ "id": "meta-1580472540526104",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 12,
+   "evidence": "First glance: dusk-lit apartment, a woman in a taupe hijab resting her chin on her hand, gazing out the window beside a laptop, phone and bag - a tired end-of-day mood shot, native/AI-photographic, no on-image text. Hook sits in the first line 'I never stopped believing.'"
+  },
+  "problem_awareness": {
+   "score": 18,
+   "evidence": "Primary text visible before 'See more': 'I never stopped believing. I just didn't realize how easy it had become to go through an entire day without really pausing.' + 'I still made dua. I still said Alhamdulillah.' = micro-targeted Muslim woman, specific symptom."
+  },
+  "unique_mechanism": {
+   "score": 12,
+   "evidence": "'something small that you see and wear every day can become a moment to pause' + honest 'Not because jewelry can somehow make you more faithful. It can't.' + 'Not more noise. Just a quiet reminder.' = mechanism with contrast to noise."
+  },
+  "visual_proof": {
+   "score": 5,
+   "evidence": "No product is visible in the image (woman at desk only) -> capped at 7; scored 5."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "One light line: every box donates a meal; no guarantee, shipping, or price."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "Primary text close 'See the Monthly Reminder Box below.' + headline 'When Life Gets Loud, Keep Faith Close' + Shop now; no incentive."
+  },
+  "total": 57
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Mood image with a hijabi woman at a desk at dusk is native and relatable but has no text or anomaly; the first line of copy carries the hook ('I never stopped believing.')."
+  },
+  "avatar_congruence": {
+   "score": 9,
+   "rationale": "master_avatar_research.md § Avatar A1: 'Wants to keep the tongue moist with dhikr all day... office, hospital, campus' and § ANG10 'Prayer ended. Remembrance didn't.'; § Q22 'a discrete tool for tasbih which I can have all the time at work'. The woman, setting and 'quiet reminder' desire = our A1; awareness stage 2-3."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: first-person confession ('I never stopped believing. I just stopped pausing') -> our ANG1/ANG2 first-person (no attribution, persona-styled). Port: hijabi-at-desk dusk photo -> Nano Banana render with our ring visible on her hand. Port: 'Not more noise. Just a quiet reminder.' -> silent tap. Drop 32,000/'thousands of women' proof and the charity line (we have neither). Needs a product-visible image (their weak point)."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  3,
+  5
+ ],
+ "green_flags": [
+  "HG2: native, non-ad-looking mood photo",
+  "HG3: tension named in the first two lines",
+  "MG2: mechanism explained ('a small thing you see and wear becomes a moment to pause')",
+  "MK3: one message: faith is there, the pause is missing - a quiet daily reminder",
+  "MK4: the first lines work as a text-only ad"
+ ],
+ "red_flags": [
+  "MR2: very long advertorial primary text",
+  "CR3: soft close, no incentive or guarantee",
+  "HR3: image has no product or text"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "statement",
+   "original": "I never stopped believing. I just didn’t realize how easy it had become to go through an entire day without really pausing.",
+   "pattern": "I never stopped [core value]. I just [stopped doing the daily act] without noticing.",
+   "where": "primary text lines 1-2",
+   "port": "I never stopped making dhikr. I just lost count of it between meetings."
+  },
+  {
+   "kind": "visual_device",
+   "type": "other",
+   "original": "tired hijabi woman at a desk at dusk, laptop + phone + bag, gazing out the window",
+   "pattern": "avatar at the end-of-day moment in her real setting, no product, mood over message",
+   "where": "whole image",
+   "port": "hijabi woman at a desk, our ring visible on her hand resting on the table"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "mechanism_reveal",
+   "original": "confession -> I still did X, Y -> not less faith, life got louder -> a small thing you wear becomes a pause -> not more noise, a quiet reminder",
+   "pattern": "confession -> proof of faith -> reframe (not faith, noise) -> small object as pause -> quiet-reminder CTA",
+   "where": "primary text",
+   "port": "confession -> 'my intention was never the problem' -> silent tap on a ring as the pause -> single CTA"
+  },
+  {
+   "kind": "sales_message",
+   "type": "one_sentence",
+   "original": "Not more noise. Just a quiet reminder.",
+   "pattern": "Not more [noise]. Just a [quiet X].",
+   "where": "primary text close",
+   "port": "Not another loud clicker. Just a quiet ring."
+  }
+ ],
+ "port_idea": "9:16 static for the ring: native dusk photo of a Muslim woman at her desk with the ring visible on her hand, one first-person confession line in her voice (VOC, no attribution), 'quiet reminder' reframe in the first 125 characters, real offer only. A video/text variant can reuse the same copy skeleton.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: elite problem-awareness copy and mechanism contrast for our exact avatar, but weak image hook, no product shown, no CTA incentive. confidence: medium (active 33 days)"
+}

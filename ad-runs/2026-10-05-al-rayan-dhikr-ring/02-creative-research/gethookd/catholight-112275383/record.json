@@ -1,0 +1,53 @@
+{
+ "id": "catholight-112275383",
+ "source": "gethookd",
+ "scout": "p2-gh-img",
+ "status": "rejected",
+ "reject_reason": "tier Reject: generic devotional product still life; avatar floor",
+ "ad_url": "https://app.gethookd.ai/ads/112275383",
+ "brand": "Catholight",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram",
+  "audience_network",
+  "messenger",
+  "threads"
+ ],
+ "language": "en",
+ "niche": "Accessories",
+ "query": "rosary",
+ "cross_niche": true,
+ "meta_ad_id": "1294908452682142",
+ "active_period": "113 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 113,
+ "primary_text": "🔥 𝑨 𝒓𝒆𝒎𝒊𝒏𝒅𝒆𝒓 𝒕𝒉𝒂𝒕 𝑯𝒊𝒔 𝒍𝒐𝒗𝒆 𝒏𝒆𝒗𝒆𝒓 𝒍𝒆𝒂𝒗𝒆𝒔 𝒖𝒔.\n\nTucked inside your purse, a rosary becomes more than beads—it becomes a source of comfort, strength, and prayer throughout the day.\n\nInspired by the Sacred Heart of Jesus, these Rosary Pouches are designed to keep faith close in life's ordinary and extraordinary moments.\n\n✨ Ready to ship and ready to accompany your journey.",
+ "headline": "Catholight Sacred Flame Leather Rosary Pouch",
+ "cta": "Shop Now",
+ "landing_page": "https://www.catholight.com/collections/rosary-pouch/products/catholight-sacred-flame-leather-rosary-pouch",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 900,
+  "height": 1200,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/catholight-112275383.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T12:00:00Z"
+}

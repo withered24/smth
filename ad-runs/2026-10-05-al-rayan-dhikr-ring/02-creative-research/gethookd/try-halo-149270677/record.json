@@ -1,0 +1,50 @@
+{
+ "id": "try-halo-149270677",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "avatar: price-first health tracker, no overlap with dhikr pains; thin hook.",
+ "ad_url": "https://app.gethookd.ai/ads/149270677",
+ "brand": "Try Halo",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Tech",
+ "query": "smart ring",
+ "cross_niche": true,
+ "meta_ad_id": "1708416693778979",
+ "active_period": "48 days (present)",
+ "performance_tier": "winning",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 48,
+ "primary_text": "✨ The smart ring every girl is talking about. 💍\n\nMeet Halo Ring 4 — our newest, lightest, and slimmest smart ring yet.\n\nTrack your:\n♡ Sleep\n♡ Stress\n♡ Recovery\n♡ Heart Rate\n♡ Steps\n♡ Women's wellness\n\nNo bulky smartwatch.\nNo monthly subscription.\nJust effortless wellness tracking in a ring you'll actually want to wear.\n\nWhether you're focused on better sleep, feeling more energized, or simply understanding your body, Halo Ring 4 is designed to fit seamlessly into your everyday life.",
+ "headline": "$0 Subscriptions",
+ "cta": "Shop Now",
+ "landing_page": "https://tryhaloring.com/products/halo-ring",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 1080,
+  "height": 1920,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/try-halo-149270677.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "meta-989177810361520",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 8,
+   "evidence": "2x2 grid of four ornate gift boxes (cardinal, cross, bluebird, butterfly) with bead bracelets on pastel floral set; busy composition, readable box titles ('Faith Garden Blessing')."
+  },
+  "problem_awareness": {
+   "score": 5,
+   "evidence": "Primary: 'More than jewelry-it's a feeling you can wear' + 'Daily reminders of comfort and hope' = identity/gift, no pain."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "None ('Inspirational keepsake designs')."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Four boxed bracelets shown; no wear/use."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Gift-ready box implied; no guarantee or shipping line."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "'Shop now', '👉 Carry positivity and meaning wherever you go'."
+  },
+  "total": 31
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Pastel gift-box grid is eye-catching but cluttered, generic."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md: gift buyer A2 only; copy is Christian/inspirational and AI-styled floral, not the Muslim modest/premium look (Q32)."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Port: ready-to-gift box shot -> our box packshot (Q25 'box does half the ceremony'); rest is generic."
+  }
+ },
+ "checklist_hits": [
+  4
+ ],
+ "green_flags": [
+  "MG1: gift boxes shown"
+ ],
+ "red_flags": [
+  "HR3: vague 'feeling you can wear' benefit",
+  "MR1: no feature tie"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar (generic Christian inspirational gift grid). confidence: high (active 131 days)"
+}

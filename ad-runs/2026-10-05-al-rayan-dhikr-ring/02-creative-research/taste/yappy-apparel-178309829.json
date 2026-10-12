@@ -1,0 +1,93 @@
+{
+ "id": "yappy-apparel-178309829",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 11,
+   "evidence": "0.0s t0000.00_hook.jpg woman holds keychain, face-to-camera; text 'No more forgetting your daily Bible verse...' appears 0.5-1.0s; spoken 'These Yappy key chains are so good guys' [0.1-6.1] has no tension. Familiar UGC; audio unheard."
+  },
+  "problem_awareness": {
+   "score": 11,
+   "evidence": "on-screen 'No more forgetting your daily Bible verse...' (t0001.00_hook.jpg) names a pain but to a generic Christian audience; spoken line is promo, not pain."
+  },
+  "unique_mechanism": {
+   "score": 11,
+   "evidence": "[6.1-10.5] 'you're just gonna tap your phone right there to that little square' [10.5-15.5] 'your Bible verse is gonna pop up'; how it works is shown, but no contrast with alternatives."
+  },
+  "visual_proof": {
+   "score": 12,
+   "evidence": "7.8-16.0s t0010.00_s.jpg-t0013.00_s.jpg: real phone tapped to the tag, 'Website NFC Tag' banner, verse page opens - result visible on screen."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "[6.1] 'It's so easy to use'; no guarantee, shipping or objection handling in the video."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "[15.5-19.7] 'I'm gonna link these below'; end text 'Faith you carry, not just read!' (t0017.00_s.jpg); no incentive; Shop Now button."
+  },
+  "total": 54
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 6,
+   "rationale": "Competent but familiar face-to-camera UGC; the pain text lands at 0.5-1.0s but the spoken opener is a generic product plug, so the tension is text-only."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "Re-scored on the underlying driver (rubric 3.2: cross-niche welcome). master_avatar_research.md § Desires: 'dhikr woven into the whole day' and § Pains: 'I don't like checking my phone for Islamic apps because I get pulled into social media (Q30)'. Daily-devotion reminder you carry, tap-and-go with no app hunt, maps to A1; woman at home and Bible context are fixable in the port. Awareness (problem-aware) matches ours."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: NFC tap-to-phone demo -> tap on the ring and the count/vibration shown in close-up (one substitution: phone screen -> ring display). Port: on-screen 'No more forgetting your daily Bible verse...' -> 'No more losing count...' (ANG3). Port: 'link below' close -> real offer from intake (60-day trial, free US shipping). 20s fits the 6-25s plan; producible as one UGC talking head plus 2-3 insert clips."
+  }
+ },
+ "checklist_hits": [
+  3,
+  4,
+  5
+ ],
+ "green_flags": [
+  "HG3: tension text within 1s (t0001.00_hook.jpg)",
+  "MG1: product in active use with visible result 7.8-16s",
+  "MG2: tap-to-phone mechanism shown, not just stated",
+  "MK3: one sentence message: tap your bracelet, get your daily verse",
+  "MK2: second text hook 'Faith you carry, not just read!' resets attention at 17s"
+ ],
+ "red_flags": [
+  "HR2: spoken opener is generic promo 'so good guys' (wording; audio unheard)",
+  "CR3: soft close 'I'm gonna link these below'",
+  "MR1: designs and cuteness listed [15.5-19.7] without tying to a daily benefit"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "negative_framing",
+   "original": "No more forgetting your daily Bible verse...",
+   "pattern": "No more [forgetting/losing] your [daily devotion thing]...",
+   "where": "on-screen 0.5-3.5s",
+   "port": "No more losing count mid-dhikr..."
+  },
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "Real phone tapped on the tag, notification banner, verse page opens (7.8-16s)",
+   "pattern": "hand taps the object, result appears instantly on its screen",
+   "where": "7.8-16.0s",
+   "port": "finger taps the ring once, 4-digit count ticks up in close-up"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "demo_proof_first",
+   "original": "hook text -> product held up -> how-to line -> real tap demo with visible result -> second hook text 'Faith you carry, not just read!' -> link below",
+   "pattern": "negative-framing text hook -> held-up product -> one-step tap demo -> identity tagline -> link close",
+   "where": "0.0-19.7s",
+   "port": "'No more losing count' -> ring held up -> tap, count ticks -> 'Dhikr you carry, not just count' -> real offer close"
+  }
+ ],
+ "port_idea": "~18s UGC-style video for the Dhikr Ring: Muslim woman or man at a desk or in a car holds up the ring, on-screen hook 'No more losing count...' by 0.5s, one finger tap closes on the 4-digit display, a gentle 33 pulse insert, then a plain CTA with the real offer (60-day trial, free US shipping). Replaces the phone-tap proof with the ring display; no invented metrics.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B with avatar_congruence 8 and adaptability 8: demo-led UGC whose tap-to-see-result structure ports 1:1 to the ring; spoken opener is a generic plug and the close is soft. confidence: medium (GetHookd optimized, active 21 days)"
+}

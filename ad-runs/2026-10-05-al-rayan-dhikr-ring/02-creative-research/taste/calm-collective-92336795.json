@@ -1,0 +1,101 @@
+{
+ "id": "calm-collective-92336795",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 15,
+   "evidence": "Glance: 'A skin picker?' huge black bold headline (top 20%) over a levitating stack of 6 rings on a stone; callout reads in <1s. Not native UI, polished studio."
+  },
+  "problem_awareness": {
+   "score": 17,
+   "evidence": "On-image 'A skin picker?' = micro-callout of a specific behavior/avatar in 3 words; primary text adds 'designed to calm your mind'."
+  },
+  "unique_mechanism": {
+   "score": 12,
+   "evidence": "Dotted-leader list: 'Instant anxiety relief / 100% waterproof / Distracts your mind / Lifetime fidget guarantee'; mechanism = spin/fidget implied, not explained."
+  },
+  "visual_proof": {
+   "score": 10,
+   "evidence": "Six rings floating vertically as the hero, each with different fidget parts; ring in use is never shown on a hand; result implied."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "'100% waterproof', 'Lifetime fidget guarantee', navy bar 'FREE SHIPPING OVER £50' = durability + risk reversal on image; copy adds tarnish-free, heat-proof."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "Navy bottom bar 'FREE SHIPPING OVER £50' is the only on-image action cue; copy: 'Shop our fidget ring deal ... this month only'; button Shop Now."
+  },
+  "total": 70
+ },
+ "tier": "A",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 7,
+   "rationale": "One dominant focal point (headline) + levitating stack; callout lands at first glance. Familiar premium-DTC polish, not an anomaly, so 7."
+  },
+  "avatar_congruence": {
+   "score": 7,
+   "rationale": "master_avatar_research.md § Pains: \"I walk around with 2-3 manual counters for multiple zikrs and none are waterproof.\" (Q01) and § Desires: \"I want a discrete tool for tasbih which I can have all the time at work.\" (Q22). A ring worn all day as a quiet habit tool = same driver; her stress-callout becomes our behaviour-callout. Visual world is generic (no people)."
+  },
+  "adaptability": {
+   "score": 9,
+   "rationale": "Port: 'A skin picker?' -> 'Lose count when the kids interrupt?' (Q29). Port: floating ring stack -> our black + rose gold ring floating over a stone. Port: dotted-leader benefit list -> our REAL facts only (silent tracking, pulse at 33/66/99, prayer alerts, IP67, 60-day trial, free US shipping). Their ratings/'100,000 helped' are dropped."
+  }
+ },
+ "checklist_hits": [
+  1,
+  3,
+  6,
+  7
+ ],
+ "green_flags": [
+  "HG3: callout 'A skin picker?' readable at feed size",
+  "MG2: benefit list gives reasons it works (spin = distraction)",
+  "CG2: guarantee + free-shipping bar on image",
+  "MK3: one message: this ring calms an anxious habit",
+  "MK4: headline alone works as a text ad"
+ ],
+ "red_flags": [
+  "HR1: small brand wordmark above the headline",
+  "MR1: list of benefits without a causal mechanism"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "micro_callout",
+   "original": "A skin picker?",
+   "pattern": "[Specific habit/behavior of the avatar]?",
+   "where": "top headline, 20% of frame",
+   "port": "Lose count every time you're interrupted?"
+  },
+  {
+   "kind": "visual_device",
+   "type": "visual_anomaly",
+   "original": "Six rings levitating in a vertical stack on a rock with dotted lines pointing to benefits",
+   "pattern": "Levitating product stack + dotted-leader annotation labels",
+   "where": "centre/right 60% of frame",
+   "port": "Our ring (black + rose gold) floating, dotted lines to 4 true feature labels"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "objection_preempt",
+   "original": "callout -> product stack -> 6 annotated benefits incl. guarantee -> free-shipping bar",
+   "pattern": "callout -> hero -> annotated benefit list -> offer bar",
+   "where": "whole frame",
+   "port": "callout -> ring hero -> 4-5 annotated truthful features -> '60-day trial - free US shipping' bar"
+  },
+  {
+   "kind": "proof_device",
+   "type": "review_stat",
+   "original": "Rated 4.5 stars / Over 100,000 helped",
+   "pattern": "star + count proof stack",
+   "where": "lower right of list",
+   "port": "TRUTH-RISK: replace with a real offer line (60-day money-back); no stars or counts"
+  }
+ ],
+ "port_idea": "Square/9:16 image: top-left bold callout in the avatar's own pain ('Lose count when you get interrupted?'), a lone black and a rose-gold Al Rayan ring levitating over a pale stone, thin dotted lines leading to 4 short labels (Silent tap count / Pulse at 33-66-99 / Prayer-time alerts / Wudu-ready IP67), and a bottom bar '60-day trial - Free US shipping'. No ratings, no counts.",
+ "decision": "KEEP",
+ "reason": "tier A: elite micro-callout + annotated product hero, thin mechanism; stat proof is truth-risk. confidence: high (GetHookd winning, active 175 days)"
+}

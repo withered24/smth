@@ -1,0 +1,57 @@
+{
+ "id": "meta-1402828511722527",
+ "source": "meta_ad_library",
+ "scout": "p2-meta-nm",
+ "status": "rejected",
+ "reject_reason": "tier Reject: packshot; testimonial/stars copy not stealable",
+ "ad_url": "https://www.facebook.com/ads/library/?id=1402828511722527",
+ "brand": "Corinthian's Corner",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "cross-niche (jewelry / wearables / faith)",
+ "query": "Christian ring",
+ "cross_niche": true,
+ "meta_ad_id": "1402828511722527",
+ "active_period": "Aug 4, 2026 – active",
+ "performance_tier": null,
+ "library_id": "1402828511722527",
+ "started_running": "2026-08-04",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": true,
+  "result_rank": 1,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=Christian%20ring&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/corinthianscorner/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 62,
+ "primary_text": "\"I think Corinthian's Corner designs are so much better than all other Christian T's.  I love the community and heart behind the brand too.\" - Claudia ⭐⭐⭐⭐⭐\n\n✅ 100% True to Size Fit\n😍 Cozy Premium Cotton\n🙌 Ships From Tucson, AZ\n✝️ Christian Family Owned",
+ "headline": "Tree Of Life Stud Earrings",
+ "cta": "Shop Now",
+ "landing_page": "https://corinthianscorner.com/products/tree-of-life-earrings",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-1402828511722527.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "White-background packshot of tree-of-life stud earrings; testimonial and bullets only in copy"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T16:30:00Z"
+}

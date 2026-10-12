@@ -1,0 +1,57 @@
+{
+ "id": "meta-792911836811986",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "filter floor: avatar (US-veteran charity / Catholic men's product)",
+ "ad_url": "https://www.facebook.com/ads/library/?id=792911836811986",
+ "brand": "The Hero Company",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "faith jewellery (Catholic) + veteran charity",
+ "query": "faith bracelet",
+ "cross_niche": true,
+ "meta_ad_id": "792911836811986",
+ "active_period": "Mar 31, 2026 – active",
+ "performance_tier": null,
+ "library_id": "792911836811986",
+ "started_running": "2026-03-31",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 1,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=faith%20bracelet&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/TheHeroCo/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 188,
+ "primary_text": "Get your Saint Michael Defend Us Bracelet, a symbol of faith and strength. Every purchase helps provide service dogs for our Veterans, showing them the support they deserve. 🐾🇺🇸\n\nJoin the mission. Get Yours Here 👇 [link]",
+ "headline": "Grab a Bracelet, Help a Veteran Beat PTSD 🇺🇸",
+ "cta": null,
+ "landing_page": "https://theherocompany.co/products/st-micheals-tuere-nos-bracelet/",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 600,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-792911836811986.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "macro of a steel cross-plate bracelet on a male wrist"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

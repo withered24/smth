@@ -1,0 +1,61 @@
+{
+ "id": "meta-1363264355565394",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 7,
+   "evidence": "Close crop of a male wrist with a silver St Benedict medal and crucifix bracelet, hand in pocket; no text on image, clean product photo."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "Primary first line 'Faith you can wear every day.' = identity statement."
+  },
+  "unique_mechanism": {
+   "score": 2,
+   "evidence": "None."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Bracelet worn, sharp detail."
+  },
+  "friction_reduction": {
+   "score": 2,
+   "evidence": "Price only ('just $9.99')."
+  },
+  "cta": {
+   "score": 8,
+   "evidence": "'Limited-time offer - just $9.99' in text + headline 'LIMITED-TIME $9.99 | Faith You Can Wear Daily' + Shop now."
+  },
+  "total": 33
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "Clean product crop, no words on the image."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md: Catholic men's medal bracelet; our A1/A2 want a counting tool / gift ring; price-led offer ($9.99) is a different market (competitors' cheap clones, Q11)."
+  },
+  "adaptability": {
+   "score": 6,
+   "rationale": "Port: 'Faith you can wear every day' hook line -> 'Dhikr you can wear every day' (plain claim); price-led CTA not usable ($49.99 offer)."
+  }
+ },
+ "checklist_hits": [
+  4
+ ],
+ "green_flags": [
+  "CG1: price + limited-time stated on image-adjacent copy"
+ ],
+ "red_flags": [
+  "HR3: bare claim hook",
+  "MR1: no mechanism"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar (Catholic cheap men's bracelet, price-led). confidence: low (24 days)"
+}

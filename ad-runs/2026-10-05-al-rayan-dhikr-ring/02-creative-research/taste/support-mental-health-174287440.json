@@ -1,0 +1,21 @@
+{"id":"support-mental-health-174287440","source":"gethookd","format":"image",
+"matrix":{
+"pattern_interrupt":{"score":14,"evidence":"media.jpg: giant black serif headline 'A hoodie can't reach everyone who needs help.' then purple 'The counseling it helps fund can.'; contrarian, high contrast, reads at feed size."},
+"problem_awareness":{"score":8,"evidence":"headline names mental-health need broadly; primary text 'Someone reads the back while you're standing in line' is a scene, not a pain the buyer feels."},
+"unique_mechanism":{"score":9,"evidence":"footer line 'Free sessions for people who could never afford the bill, paid for by orders like yours.' explains why the purchase matters."},
+"visual_proof":{"score":4,"evidence":"flat-lay front and back of a blue hoodie with 'Storms Don't Last' print; product only, no worn scene."},
+"friction_reduction":{"score":2,"evidence":"no price, shipping or guarantee on the image or in the primary text."},
+"cta":{"score":3,"evidence":"'Carry the words with you.' in primary text; Shop Now button; no incentive."},
+"total":40},
+"tier":"Reject",
+"filters":{
+"pattern_interrupt_1_5s":{"score":8,"rationale":"The contrarian headline is a real stopper, with a clean colour split."},
+"avatar_congruence":{"score":4,"rationale":"master_avatar_research.md: A1/A2 buy a discreet daily dhikr tool or a meaningful gift; this rests on a charity donation model (counseling funded by orders) the ring does not have, and a mental-health audience."},
+"adaptability":{"score":4,"rationale":"Port: the 'X can't do Y. The Z it funds can.' frame needs a funding mechanism; we have no donation, and inventing one would be a false claim. The flat-lay layout alone is generic."}},
+"checklist_hits":[1],
+"green_flags":["HG1: contrarian headline over a clean high-contrast layout"],
+"red_flags":["CR1: no price, shipping or guarantee","charity claim not portable"],
+"what_to_steal":[],
+"port_idea":"None kept.",
+"decision":"REJECT",
+"reason":"Tier Reject (40): strong headline but avatar_congruence 4 and adaptability 4 since the charity mechanism cannot be ported. confidence: high"}

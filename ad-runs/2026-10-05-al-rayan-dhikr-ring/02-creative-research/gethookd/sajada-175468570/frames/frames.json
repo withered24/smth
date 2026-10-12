@@ -1,0 +1,148 @@
+{
+  "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\gethookd\\sajada-175468570\\media.mp4",
+  "type": "video",
+  "duration": 18.667,
+  "width": 720,
+  "height": 1280,
+  "params": {
+    "hook_seconds": 5.0,
+    "hook_fps": 2.0,
+    "fps": 1.0,
+    "scene": 0.3,
+    "width": 480,
+    "dedupe": 0.3
+  },
+  "counts": {
+    "hook": 9,
+    "s": 9,
+    "cut": 7,
+    "dropped": 6
+  },
+  "frames": [
+    {
+      "file": "t0000.00_hook.jpg",
+      "t": 0.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0000.50_hook.jpg",
+      "t": 0.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.00_hook.jpg",
+      "t": 1.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.50_hook.jpg",
+      "t": 1.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.00_hook.jpg",
+      "t": 2.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.37_cut.jpg",
+      "t": 2.367,
+      "kind": "cut"
+    },
+    {
+      "file": "t0003.00_hook.jpg",
+      "t": 3.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0003.50_hook.jpg",
+      "t": 3.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.00_hook.jpg",
+      "t": 4.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.50_hook.jpg",
+      "t": 4.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0005.00_s.jpg",
+      "t": 5.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0005.93_cut.jpg",
+      "t": 5.933,
+      "kind": "cut"
+    },
+    {
+      "file": "t0007.00_s.jpg",
+      "t": 7.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0007.50_cut.jpg",
+      "t": 7.5,
+      "kind": "cut"
+    },
+    {
+      "file": "t0008.00_s.jpg",
+      "t": 8.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0009.17_cut.jpg",
+      "t": 9.167,
+      "kind": "cut"
+    },
+    {
+      "file": "t0010.00_s.jpg",
+      "t": 10.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0011.00_s.jpg",
+      "t": 11.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0012.00_s.jpg",
+      "t": 12.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0013.03_cut.jpg",
+      "t": 13.033,
+      "kind": "cut"
+    },
+    {
+      "file": "t0014.00_s.jpg",
+      "t": 14.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0014.93_cut.jpg",
+      "t": 14.933,
+      "kind": "cut"
+    },
+    {
+      "file": "t0016.00_s.jpg",
+      "t": 16.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0017.00_cut.jpg",
+      "t": 17.0,
+      "kind": "cut"
+    },
+    {
+      "file": "t0018.00_s.jpg",
+      "t": 18.0,
+      "kind": "s"
+    }
+  ]
+}

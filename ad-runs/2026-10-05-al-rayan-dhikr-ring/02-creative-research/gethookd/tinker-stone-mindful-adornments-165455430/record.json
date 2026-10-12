@@ -1,0 +1,50 @@
+{
+ "id": "tinker-stone-mindful-adornments-165455430",
+ "source": "gethookd",
+ "scout": "p2-gh-nm",
+ "status": "rejected",
+ "reject_reason": "avatar: zodiac/astrology subject conflicts with the Muslim avatar; cluttered, no hook headline.",
+ "ad_url": "https://app.gethookd.ai/ads/165455430",
+ "brand": "Tinker Stone - Mindful Adornments",
+ "format": "image",
+ "platforms": [
+  "facebook",
+  "instagram"
+ ],
+ "language": "en",
+ "niche": "Jewelry/Watches",
+ "query": "mindfulness",
+ "cross_niche": true,
+ "meta_ad_id": "1386767143138548",
+ "active_period": "198 days (present)",
+ "performance_tier": "optimized",
+ "library_id": null,
+ "started_running": null,
+ "ads_using_creative": null,
+ "meta": null,
+ "days_running": 198,
+ "primary_text": "⭐⭐⭐⭐⭐\"I've always struggled to maintain balance and stay mindful amid life's chaos. But once I started wearing the Zodiac Crystal Energy Bracelets, everything changed.\"  - Linda R. - UK\n\n✅ Enhances daily mindfulness\n\n✅ Gorgeous, versatile design\n\n✅ Boosts positive energy flow\n\n❌ No more feeling stressed\n\n❌ No need for costly treatments\n\nSimply slip on a bracelet and experience immediate energy balance and joy. These bracelets make staying grounded easy and effective.\n\nGet Yours 40% Off Today! 🛒",
+ "headline": "Claim Your 40% Off Today!",
+ "cta": "Shop Now",
+ "landing_page": "https://tinkers.store/products/crystal-stone-zodiac-sign-bracelet-1",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 873,
+  "height": 881,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/tinker-stone-mindful-adornments-165455430.json",
+ "hook": null,
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T20:30:00Z"
+}

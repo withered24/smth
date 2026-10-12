@@ -1,0 +1,92 @@
+{
+ "id": "meta-1549115429718810",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 16,
+   "evidence": "First glance: giant all-caps 'RETIRE THIS SH*T' fills the top third over a cracked-screen watch (left) vs smoke-black rugged watch (right)."
+  },
+  "problem_awareness": {
+   "score": 13,
+   "evidence": "Subhead 'Get a smartwatch that's actually covered for life.' names the pain (watches that die) in one line; primary text 'Your current smartwatch sucks.'"
+  },
+  "unique_mechanism": {
+   "score": 10,
+   "evidence": "Mechanism implied only: cracked old vs intact new, 'THE NO B.S. GUARANTEE' seal, 'Lifetime Warranty' in copy; no why-it-works."
+  },
+  "visual_proof": {
+   "score": 11,
+   "evidence": "Side-by-side old broken product vs new product shown at once; result visible (cracked glass vs intact)."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "Badge 'THE NO B.S. GUARANTEE' + copy 'Lifetime Warranty' + price anchor '1/3 of the price you paid'."
+  },
+  "cta": {
+   "score": 12,
+   "evidence": "Single offer bar '$150 OFF + $150 IN FREE GEAR' (gold bar, bottom) + 'Shop now' button; incentive on image and copy."
+  },
+  "total": 70
+ },
+ "tier": "A",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 8,
+   "rationale": "Giant headline + cracked-vs-intact split readable in one glance; profanity bleep adds edge; looks produced, not native."
+  },
+  "avatar_congruence": {
+   "score": 6,
+   "rationale": "avatar_congruence: adjacent. master_avatar_research.md Pains/VOC Q11: 'cheap rings battery life was awful... stopped working after a month' (fear of dying gadgets); Q21 loud clicker. Swipe persona (rugged man, profanity) is off for a Muslim avatar; port must re-angle to 'retire the loud clicker/loose beads'."
+  },
+  "adaptability": {
+   "score": 7,
+   "rationale": "Port: cracked old watch -> loud plastic clicker / tangled beads; intact rugged watch -> Al Rayan ring; 'NO B.S. GUARANTEE' seal -> our real 60-day money-back badge (offer_brief.md); offer bar -> real offer only (free US shipping, 60-day trial, $49.99), never a fake discount; drop profanity. Needs a two-object split render + badge; producible with product PNG ref."
+  }
+ },
+ "checklist_hits": [
+  1,
+  4,
+  6,
+  7
+ ],
+ "green_flags": [
+  "HG1: headline + cracked screen anomaly at first glance",
+  "MG1: two products shown side by side",
+  "CG1: single offer bar",
+  "CG2: guarantee seal"
+ ],
+ "red_flags": [
+  "HR2: aggressive profane voice off-brand for our avatar",
+  "MR1: no mechanism, only durability claim"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "negative_framing",
+   "original": "RETIRE THIS SH*T / Get a smartwatch that's actually covered for life.",
+   "pattern": "RETIRE THIS [old tool]. Get [new tool] that's actually [promise].",
+   "where": "top third of image",
+   "port": "RETIRE THE CLICKER. Dhikr that counts itself with a tap."
+  },
+  {
+   "kind": "visual_device",
+   "type": "split_contrast",
+   "original": "cracked old watch left vs smoky new watch right on dark carbon background",
+   "pattern": "broken/old vs new product, divider line, dark bg",
+   "where": "middle band",
+   "port": "loud plastic clicker / tangled beads left vs ring on a hand right (hands only, modest)"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "offer_device",
+   "original": "headline -> subhead -> split -> guarantee seal -> gold offer bar",
+   "pattern": "claim -> contrast -> trust seal -> offer bar",
+   "where": "whole image",
+   "port": "claim -> contrast -> 60-day money-back seal -> 'Free US shipping' bar"
+  }
+ ],
+ "port_idea": "Dark 4:5 static: giant 'RETIRE THE CLICKER' headline, subhead about counting dhikr silently, left/right split of a loud plastic clicker vs the ring on a hand, 60-day money-back seal, and a single bar with the real offer (free US shipping, 60-day trial). No fake discount, no profanity.",
+ "decision": "KEEP",
+ "reason": "tier A: produced but elite oversized-headline + cracked-vs-new split, seal and offer bar; mechanism implied only. confidence: high (active 241 days)"
+}

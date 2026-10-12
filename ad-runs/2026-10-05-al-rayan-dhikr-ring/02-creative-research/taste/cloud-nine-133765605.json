@@ -1,0 +1,94 @@
+{
+ "id": "cloud-nine-133765605",
+ "source": "gethookd",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 13,
+   "evidence": "Glance: huge white 'Hoodie with hidden anxiety tools' on deep purple + two overlapping circular macro insets of hands inside a sleeve and pocket; 'hidden' curiosity word."
+  },
+  "problem_awareness": {
+   "score": 15,
+   "evidence": "Headline names 'anxiety' + tool; sub-lines 'Quiet relief for anxious hands, no fidget toy required' / 'For overstimulated moments'; primary text 'racing thoughts'."
+  },
+  "unique_mechanism": {
+   "score": 14,
+   "evidence": "Explains HOW: built-in stress ball in the cuff + tactile patch in the pocket, each with a one-line why; contrasted with 'no fidget toy required'."
+  },
+  "visual_proof": {
+   "score": 12,
+   "evidence": "Two circular insets show real hands using the hidden features in the garment (macro, in use)."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "'30-DAY GUARANTEE' bottom bar; 'no fidget toy required' (ease); primary text 'refund you fully. No questions asked'."
+  },
+  "cta": {
+   "score": 9,
+   "evidence": "Pill button 'SHOP GROUNDING HOODIE' centred + bottom bar with guarantee; no discount/urgency."
+  },
+  "total": 71
+ },
+ "tier": "A",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 7,
+   "rationale": "Headline + the two overlapping circle insets register at first glance; 'hidden' is the curiosity hook; polished layout so no anomaly."
+  },
+  "avatar_congruence": {
+   "score": 6,
+   "rationale": "master_avatar_research.md § Pains: \"Loud clicking buttons in quiet office spaces make me feel uncomfortable.\" (Q21) and § Fears: looking odd at work (Q40 \"it passes as a regular ring\"). Hidden, quiet tools for restless hands = same discretion driver; the ad targets anxiety/ADHD, ours targets dhikr consistency, so re-angle needed."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'Hoodie with hidden anxiety tools' -> 'A ring with a hidden counter'. Port: two circular macro insets -> inset 1 the tap spot on the finger, inset 2 the small count display / pulse at 33. Port: bottom guarantee bar -> '60-day trial'. Drop 'ADHD / 12,000+ neurodivergent / 15,000 families' claims."
+  }
+ },
+ "checklist_hits": [
+  1,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "green_flags": [
+  "HG3: 'hidden anxiety tools' curiosity + tension in one glance",
+  "MG1: product in active use in both insets",
+  "MG2: each tool gets a why-line",
+  "CG2: 30-day guarantee bar",
+  "MK3: single message: tools hidden in plain sight"
+ ],
+ "red_flags": [
+  "MR1: stat bar 'LOVED BY 12,000+ NEURODIVERGENT' is a truth-risk proof line"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "curiosity_inversion",
+   "original": "Hoodie with hidden anxiety tools",
+   "pattern": "[Ordinary object] with hidden [problem-solving] tools",
+   "where": "top headline, 25% of frame",
+   "port": "A ring with a hidden counter"
+  },
+  {
+   "kind": "visual_device",
+   "type": "split_contrast",
+   "original": "Two overlapping circular macro insets (hands in sleeve / hands in pocket) over a dark blurred product close-up",
+   "pattern": "Two circular zoom insets, each labelled with a title + one-line why",
+   "where": "centre 40% of frame",
+   "port": "Inset 1: thumb tapping the ring; inset 2: the small count display lighting up"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "mechanism_reveal",
+   "original": "headline -> 2 labelled hidden features -> CTA pill -> guarantee bar",
+   "pattern": "headline -> 2 labelled features -> single CTA -> risk-reversal bar",
+   "where": "whole frame",
+   "port": "headline -> tap + count insets -> 'Shop the ring' pill -> '60-day trial' bar"
+  }
+ ],
+ "port_idea": "9:16 image: dark charcoal/deep green background, white headline 'A tasbih with no sound, hidden on your finger', two overlapping circle macro insets (thumb tap on the ring; count display at 33), labels 'Silent tap' and 'Pulse at 33 / 66 / 99', pill 'Shop the ring', bottom bar '60-day trial - free US shipping'. Real offer only.",
+ "decision": "KEEP",
+ "reason": "tier A: curiosity headline, in-use macro insets and clear mechanism lines; stat proof bar is truth-risk. confidence: high (GetHookd optimized, active 77 days, 4 ads use it)"
+}

@@ -1,0 +1,58 @@
+{
+ "id": "catholic-woodworker-149531283",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 7,
+   "evidence": "0.0s hook_01.jpg: bearded man in cream friar's habit holds a wooden rosary in a hallway, eyes closed; first words [0.0-6.2] 'Okay, I know very few men who pray the rosary every day and to struggle with habitual sin,'."
+  },
+  "problem_awareness": {
+   "score": 8,
+   "evidence": "[0.0-6.2] 'I know very few men who pray the rosary every day and to struggle with habitual sin' = audience (men) + symptom, but a clergy testimonial, not our pain."
+  },
+  "unique_mechanism": {
+   "score": 3,
+   "evidence": "[6.7-11.4] 'preferably consider it as an option for your future' - no mechanism; made-in-America craft claim [11.4-15.8]."
+  },
+  "visual_proof": {
+   "score": 3,
+   "evidence": "hook_01-hook_10: rosary held up and fingered; no demo of use."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 3,
+   "evidence": "[11.4-15.8] 'consider using a Catholic woodworker rosary made in America' soft recommendation; headline 'Pick up your Rosary.'"
+  },
+  "total": 24
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 4,
+   "rationale": "0-1.5s: clergyman talking head in a hallway; neutral, no motion/anomaly; first line lands at ~3-6s."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "master_avatar_research.md § Avatars A1: Muslim professional 20-40; this is a Catholic friar addressing men and 'habitual sin'; § Desires 'consistency over intensity' overlaps only loosely."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Port: 'I know few men who do X daily' callout -> 'few of us keep dhikr going all day'. But the persuasion is a clergy endorsement (authority figure) that cannot be ported without a fake expert; slow talking-head, no visual demo."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR3: soft opening with no tension for 3 s",
+  "CR3: soft close 'consider using...'",
+  "TRUTH-RISK: clergy authority endorsement"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: clergy talking-head endorsement, no mechanism, no demo; avatar floor. confidence: high (GetHookd winning, active 53 days)"
+}

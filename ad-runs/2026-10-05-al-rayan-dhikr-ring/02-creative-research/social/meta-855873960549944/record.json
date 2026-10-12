@@ -1,0 +1,57 @@
+{
+ "id": "meta-855873960549944",
+ "source": "meta_ad_library",
+ "scout": "p2-social",
+ "status": "rejected",
+ "reject_reason": "tier Reject (32/100): lifestyle gift shot, no hook or mechanism",
+ "ad_url": "https://www.facebook.com/ads/library/?id=855873960549944",
+ "brand": "Kindred Spirits Designs",
+ "format": "image",
+ "platforms": null,
+ "language": "en",
+ "niche": "faith bracelet sets (gifting)",
+ "query": "faith bracelet",
+ "cross_niche": true,
+ "meta_ad_id": "855873960549944",
+ "active_period": "Jan 22, 2026 – active",
+ "performance_tier": null,
+ "library_id": "855873960549944",
+ "started_running": "2026-01-22",
+ "ads_using_creative": 1,
+ "meta": {
+  "multiple_versions": false,
+  "result_rank": 3,
+  "search_url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=image&q=faith%20bracelet&search_type=keyword_unordered",
+  "advertiser_page": "https://www.facebook.com/61569681453925/",
+  "advertiser_active_ads": null
+ },
+ "days_running": 256,
+ "primary_text": "Valentine’s Day is right around the corner 💘\nOur new bracelet sets are here, and they’re the perfect way to say “you mean so much to me.” ✨\n\nDesigned to be worn together or shared with someone special, these sets are made for soulmates, besties, and kindred spirits of all kinds. 💫\n\n💝 Thoughtful. Meaningful. Easy to gift.\nShop the new collection now from Kindred Spirits Designs.",
+ "headline": null,
+ "cta": "Shop now",
+ "landing_page": "https://kindredspirits.shop/search",
+ "media": {
+  "files": [
+   "media.jpg"
+  ],
+  "duration_s": null,
+  "width": 600,
+  "height": 400,
+  "has_audio": false
+ },
+ "frames_dir": null,
+ "transcript": "transcript.txt",
+ "transcript_json": null,
+ "screenshots": [],
+ "analysis": null,
+ "taste": "../../taste/meta-855873960549944.json",
+ "hook": {
+  "spoken": null,
+  "on_screen": null,
+  "visual": "smiling woman raising a wrist with two bead bracelets"
+ },
+ "angle": null,
+ "structure": null,
+ "why_it_won": null,
+ "collected_at": "2026-10-05T13:50:00Z"
+}

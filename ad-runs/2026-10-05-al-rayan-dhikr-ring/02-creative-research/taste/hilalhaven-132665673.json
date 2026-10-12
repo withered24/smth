@@ -1,0 +1,57 @@
+{
+ "id": "hilalhaven-132665673",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 5,
+   "evidence": "unviewed frames (not opened); transcript [0.0-5.8] begins in Urdu-script speech/nasheed; unviewed cap."
+  },
+  "problem_awareness": {
+   "score": 3,
+   "evidence": "Transcript is Urdu (lang ur 0.67); primary text 'Meaningful Islamic jewelry & home decor' is a catalog line; no pain."
+  },
+  "unique_mechanism": {
+   "score": 1,
+   "evidence": "No mechanism; catalog promo."
+  },
+  "visual_proof": {
+   "score": 4,
+   "evidence": "unviewed; product catalog visuals assumed from primary text only."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Primary text: 'Free Shipping $79.99+' only."
+  },
+  "cta": {
+   "score": 4,
+   "evidence": "Primary text 'BUY 2 GET 1 FREE — Code: B3' promo-code instruction (CR2)."
+  },
+  "total": 20
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 3,
+   "rationale": "unviewed frames; audio is non-English; text-only evidence."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md § Avatars A2 gift buyer / ANG5; Islamic jewelry is our world, but ad is a multi-product catalog with promo-code (competing offers) and Urdu audio."
+  },
+  "adaptability": {
+   "score": 3,
+   "rationale": "Port: nothing structural to steal: catalog sale ad, 'BUY 2 GET 1 FREE — Code: B3' complex promo; non-English audio blocks transcript-based swipe."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "CR2: promo-code / competing offers",
+  "HR3: vague catalog hook"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: non_english audio (Urdu, lang ur 0.67); catalog promo ad. confidence: medium (GetHookd winning, active 81 days)"
+}

@@ -1,0 +1,233 @@
+{
+  "source": "C:\\Users\\rayan\\OneDrive\\Desktop\\ADS\\ad-runs\\2026-10-05-al-rayan-dhikr-ring\\02-creative-research\\social\\meta-1728858588400637\\media.mp4",
+  "type": "video",
+  "duration": 30.417,
+  "width": 360,
+  "height": 640,
+  "params": {
+    "hook_seconds": 5.0,
+    "hook_fps": 2.0,
+    "fps": 1.0,
+    "scene": 0.3,
+    "width": 480,
+    "dedupe": 0.3
+  },
+  "counts": {
+    "hook": 5,
+    "s": 21,
+    "cut": 16,
+    "dropped": 11
+  },
+  "frames": [
+    {
+      "file": "t0000.00_hook.jpg",
+      "t": 0.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0000.50_hook.jpg",
+      "t": 0.5,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.00_hook.jpg",
+      "t": 1.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0001.63_cut.jpg",
+      "t": 1.633,
+      "kind": "cut"
+    },
+    {
+      "file": "t0002.00_hook.jpg",
+      "t": 2.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0002.77_cut.jpg",
+      "t": 2.767,
+      "kind": "cut"
+    },
+    {
+      "file": "t0003.53_cut.jpg",
+      "t": 3.533,
+      "kind": "cut"
+    },
+    {
+      "file": "t0004.00_hook.jpg",
+      "t": 4.0,
+      "kind": "hook"
+    },
+    {
+      "file": "t0004.63_cut.jpg",
+      "t": 4.633,
+      "kind": "cut"
+    },
+    {
+      "file": "t0005.00_s.jpg",
+      "t": 5.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0005.33_cut.jpg",
+      "t": 5.333,
+      "kind": "cut"
+    },
+    {
+      "file": "t0006.00_s.jpg",
+      "t": 6.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0006.50_cut.jpg",
+      "t": 6.5,
+      "kind": "cut"
+    },
+    {
+      "file": "t0007.00_s.jpg",
+      "t": 7.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0007.57_cut.jpg",
+      "t": 7.567,
+      "kind": "cut"
+    },
+    {
+      "file": "t0008.00_s.jpg",
+      "t": 8.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0009.00_s.jpg",
+      "t": 9.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0009.63_cut.jpg",
+      "t": 9.633,
+      "kind": "cut"
+    },
+    {
+      "file": "t0010.00_s.jpg",
+      "t": 10.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0011.00_s.jpg",
+      "t": 11.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0012.23_cut.jpg",
+      "t": 12.233,
+      "kind": "cut"
+    },
+    {
+      "file": "t0013.20_cut.jpg",
+      "t": 13.2,
+      "kind": "cut"
+    },
+    {
+      "file": "t0014.00_s.jpg",
+      "t": 14.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0014.90_cut.jpg",
+      "t": 14.9,
+      "kind": "cut"
+    },
+    {
+      "file": "t0016.00_s.jpg",
+      "t": 16.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0016.30_cut.jpg",
+      "t": 16.3,
+      "kind": "cut"
+    },
+    {
+      "file": "t0017.00_s.jpg",
+      "t": 17.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0018.13_cut.jpg",
+      "t": 18.133,
+      "kind": "cut"
+    },
+    {
+      "file": "t0019.00_s.jpg",
+      "t": 19.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0020.00_s.jpg",
+      "t": 20.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0021.00_s.jpg",
+      "t": 21.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0022.00_s.jpg",
+      "t": 22.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0023.00_s.jpg",
+      "t": 23.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0023.70_cut.jpg",
+      "t": 23.7,
+      "kind": "cut"
+    },
+    {
+      "file": "t0024.00_s.jpg",
+      "t": 24.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0025.00_s.jpg",
+      "t": 25.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0026.00_s.jpg",
+      "t": 26.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0026.40_cut.jpg",
+      "t": 26.4,
+      "kind": "cut"
+    },
+    {
+      "file": "t0027.00_s.jpg",
+      "t": 27.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0028.00_s.jpg",
+      "t": 28.0,
+      "kind": "s"
+    },
+    {
+      "file": "t0028.97_cut.jpg",
+      "t": 28.967,
+      "kind": "cut"
+    },
+    {
+      "file": "t0030.00_s.jpg",
+      "t": 30.0,
+      "kind": "s"
+    }
+  ]
+}

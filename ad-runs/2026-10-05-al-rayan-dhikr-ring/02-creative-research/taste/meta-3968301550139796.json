@@ -1,0 +1,89 @@
+{
+ "id": "meta-3968301550139796",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 9,
+   "evidence": "Warm cafe table shot: two clasped hands, black band with silver oval on one finger, latte, window light. No on-image text."
+  },
+  "problem_awareness": {
+   "score": 10,
+   "evidence": "Hook only in primary text: 'Her fingerprint. His ring. Laser-engraved for life.' Gift/meaning implied, pain absent."
+  },
+  "unique_mechanism": {
+   "score": 12,
+   "evidence": "Mechanism = personalization: 'Laser-engraved' fingerprint; engraving not visible in the image."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "Ring worn in a real setting, hand-held; no result shown."
+  },
+  "friction_reduction": {
+   "score": 8,
+   "evidence": "Bullets: 'Free shipping', 'Aydins Lifetime Warranty', '20% off this week'; headline 'The Ring They'll Never Take Off'."
+  },
+  "cta": {
+   "score": 9,
+   "evidence": "'See details' button only; incentive lives in copy bullets."
+  },
+  "total": 56
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "Native-looking warm lifestyle photo with a clear focal point; no text so tension comes only from the copy line."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "avatar_congruence: A2 gift buyer, master_avatar_research.md Avatar A2 and VOC Q25 'meaningful gift'; VOC Q32 'modern tech jewelry rather than a cheap plastic toy'. Couple holding hands is off for a modest avatar but fixable (single hand, gift box)."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'Her fingerprint. His ring.' -> a one-line personal-meaning claim we can make (never engraving; not offered); hands-over-table photo -> one hand with ring near tea/dates, no cross-gender touch; 3-bullet stack -> 'Free US shipping / 60-day money-back / 1-year tech warranty' (offer_brief.md)."
+  }
+ },
+ "checklist_hits": [
+  4,
+  5,
+  7
+ ],
+ "green_flags": [
+  "HG2: native warm look",
+  "CG2: free shipping + warranty bullets"
+ ],
+ "red_flags": [
+  "HR3: no on-image headline",
+  "CR3: 'See details' soft button"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "statement",
+   "original": "Her fingerprint. His ring. Laser-engraved for life.",
+   "pattern": "[Personal detail]. [Their object]. [Permanence].",
+   "where": "primary text line 1",
+   "port": "Your dhikr. Your ring. Counted for you, every day."
+  },
+  {
+   "kind": "visual_device",
+   "type": "other",
+   "original": "clasped hands on a wooden cafe table, ring in focus, latte, window light",
+   "pattern": "intimate hands-only lifestyle with ring as focal point",
+   "where": "entire frame",
+   "port": "one hand resting on a table near a Quran/tea, ring display faintly lit"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "offer_device",
+   "original": "hook -> one-line meaning -> 3 bullets (shipping, warranty, discount)",
+   "pattern": "hook -> meaning -> 3 trust bullets",
+   "where": "primary text",
+   "port": "hook -> meaning -> free US shipping / 60-day money-back / 1-year warranty"
+  }
+ ],
+ "port_idea": "Gift-leaning 4:5 static: a single hand wearing the ring in warm window light, headline 'The ring they'll actually wear every day', and three real trust bullets (free US shipping, 60-day money-back, 1-year warranty). No engraving claim, no fake discount.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B but avatar 8 / adaptability 8: strong personal-meaning copy and offer stack, image carries no words. confidence: high (active 66 days)"
+}

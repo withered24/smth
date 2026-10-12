@@ -1,0 +1,72 @@
+{
+ "id": "meta-1944921103117985",
+ "source": "meta_ad_library",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 6,
+   "evidence": "t0000.00_hook.jpg: studio shot of a silver prayer-wheel bracelet on a wooden stand, then close-up hands (t0002.00-t0004.00_hook.jpg); no overlay, no speech."
+  },
+  "problem_awareness": {
+   "score": 4,
+   "evidence": "Primary text opens 'Movement brings blessings - the rotating mantra bracelet with Tibetan energy!' = benefit/identity claim, no pain."
+  },
+  "unique_mechanism": {
+   "score": 6,
+   "evidence": "Primary text explains a rotating cylinder with six-syllable 'Om Mani Padme Hum' engravings; mechanism is symbolic ('Tibetan energy'), not a why."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "t0000.77-t0010.97: bracelet rotated in fingers, worn on wrist with coat sleeve; spin is the visible function."
+  },
+  "friction_reduction": {
+   "score": 4,
+   "evidence": "Primary text: '30-day unconditional money-back guarantee', adjustable cord, magnetic clasp, pouch."
+  },
+  "cta": {
+   "score": 5,
+   "evidence": "Primary-text shop link and 'Shop' button; no spoken/on-screen CTA."
+  },
+  "total": 33
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 3,
+   "rationale": "Product on stand with no words; hands appear after 1.4s."
+  },
+  "avatar_congruence": {
+   "score": 3,
+   "rationale": "master_avatar_research.md § Avatar A1 is a practising Muslim professional; this is a Buddhist/Tibetan symbolic bracelet marketed to men with 'energy' claims - different avatar and faith world; Quran/hadith-only faith claims rule (offer_brief.md Verified Islamic sources) forbids this angle."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Port: spinning-cylinder tactile demo -> our tap. Faith/energy claim cannot be ported. Only the structure (spec checklist + 30-day guarantee) transfers."
+  }
+ },
+ "checklist_hits": [
+  4,
+  6
+ ],
+ "green_flags": [
+  "MG1: product handled and worn"
+ ],
+ "red_flags": [
+  "HR3: vague 'energy' opening",
+  "MR1: feature checklist without daily-benefit tie",
+  "CR3: no spoken CTA"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "offer_device",
+   "type": "guarantee_line",
+   "original": "30-day unconditional money-back guarantee at the end of the checklist",
+   "pattern": "explicit guarantee line after specs",
+   "where": "primary text",
+   "port": "our 60-day trial line from intake.md"
+  }
+ ],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "filter floor: avatar (Buddhist 'energy' product for a different audience, claim style we could not use). confidence: high (active 243 days, 12s)"
+}

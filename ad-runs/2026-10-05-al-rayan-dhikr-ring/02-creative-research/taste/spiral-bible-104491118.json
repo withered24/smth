@@ -1,0 +1,64 @@
+{
+ "id": "spiral-bible-104491118",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 10,
+   "evidence": "0.0s t0000.00_hook.jpg: static overhead shot of spiral book, white caption box 'Want to read the Bible this year?'; word-captions start 1.0s; flip-through begins 4.0s."
+  },
+  "problem_awareness": {
+   "score": 13,
+   "evidence": "[0.0-4.7] 'If you ever wanted to read the Bible and you didn't know where to start, this book makes it so easy.' = niche aspiration + friction by ~4.7s; callout generic."
+  },
+  "unique_mechanism": {
+   "score": 6,
+   "evidence": "[4.9-7.6] 'It's laid out for you day by day all year long.' Structure benefit only; no why-it-works or contrast."
+  },
+  "visual_proof": {
+   "score": 8,
+   "evidence": "5.0-10.0s t0005.00_s.jpg-t0009.33_cut.jpg: pages flipped, table of contents with weekly themes visible; no result."
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "[7.6-11.6] 'It's beautiful, simple, and it makes staying consistent feel doable.' ease only; no guarantee."
+  },
+  "cta": {
+   "score": 6,
+   "evidence": "[12.1-13.3] 'I have it linked right here.' + hugging book to camera (t0012.17_cut.jpg); no incentive."
+  },
+  "total": 46
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 5,
+   "rationale": "0-1.5s: static book + text box 'Want to read the Bible this year?'; native UGC, but familiar and low-motion."
+  },
+  "avatar_congruence": {
+   "score": 5,
+   "rationale": "master_avatar_research.md § Desires: 'consistency over intensity' and ANG7 'consistency > intensity'; § VOC Q09 'Allah will surely bless you for putting effort towards remembering Him.' Christian older woman and Bible = different faith and demographic than A1 (20-40 Muslim professional)."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Port: 'Want to read X this year?' -> 'Want to keep dhikr going all year?'; day-by-day laid-out structure -> ring tap count + 33/66/99 pulses. Needs an invented visual world and re-angle; mechanism is a book layout, not portable to a ring."
+  }
+ },
+ "checklist_hits": [
+  2,
+  3
+ ],
+ "green_flags": [
+  "HG3: callout caption at 0.0s",
+  "MK3: one message: this book makes a year of Bible reading doable"
+ ],
+ "red_flags": [
+  "HR3: hook is generic question",
+  "MR3: product shot is a flat-lay flip-through",
+  "CR3: soft close 'I have it linked right here'"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier B: weak mechanism and soft CTA, wrong faith and demographic for our avatar. confidence: high (GetHookd winning, active 126 days)"
+}

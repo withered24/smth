@@ -1,0 +1,96 @@
+{
+ "id": "deen-international-173775613",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 14,
+   "evidence": "0.0s t0000.00_hook.jpg: man holds up green shorts in a park, shirtless friend behind; bold caption builds word by word from 0.5s 'EVERYBODY ASKS THE SAME THREE QUESTIONS ABOUT OUR SHORTS'; [0.0-3.7] same line spoken. Native but familiar UGC."
+  },
+  "problem_awareness": {
+   "score": 12,
+   "evidence": "[0.0-3.7] 'Everybody ask the same three questions about our shorts.' then Q1 'Do they stay in place when you run?' [4.2-5.5]; objections named, audience (Muslim men) implied by awrah wording at 13.7-15.9."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "[7.5-11.5] 'the legging is sewn to the short, it cannot move' (2-in-1 build) = a why-it-stays, shown on-screen 'THE LEGGING IS SEWN TO THE...' (t0010.00 area); no contrast with alternatives."
+  },
+  "visual_proof": {
+   "score": 11,
+   "evidence": "5.0-12.0s t0007.00_s.jpg-t0011.60_cut.jpg: friend jogs/jumps in the shorts while the legging stays; 16-27s coverage and sport demo (MMA/football poses)."
+  },
+  "friction_reduction": {
+   "score": 7,
+   "evidence": "Three objections answered inside the flow [4.2-27.5]: stays in place, what it covers, only for sport; [23.3-27.5] 'from eight years old to three-exile' sizes. No guarantee/shipping in video."
+  },
+  "cta": {
+   "score": 3,
+   "evidence": "[28.0-29.4] 'Everyone needs to cover up.' + on-screen 'EVERYONE NEEDS TO COVER'; no spoken link/offer; only Shop Now button; primary text has review stats."
+  },
+  "total": 55
+ },
+ "tier": "B",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 7,
+   "rationale": "t0000.00-t0001.50: in-frame shorts held up, second man mid-action, caption starts 0.5s and the tension line 'Everybody asks the same three questions' completes ~3.7s; strong native opener, tension lands slightly after 1.5s."
+  },
+  "avatar_congruence": {
+   "score": 8,
+   "rationale": "master_avatar_research.md § Fears/objections: 'is a digital counter bid'ah?', 'finger counting is Sunnah (Q07, Q36)', 'looking odd at work (Q40)' = the same objection-first pattern; § Avatars A1: modest practising Muslim men and women, Western setting. Product differs (apparel) and cast is young men."
+  },
+  "adaptability": {
+   "score": 8,
+   "rationale": "Port: 'Everybody asks the same three questions about our shorts' -> 'about the ring' (loud? lose count when interrupted? does it replace finger counting/ is it allowed?). Port: stays-in-place jump demo -> tap-and-count demo; Port: 'what do they cover' -> '33/66/99 pulse'. Answers use only verified facts (offer_brief.md Verified Islamic sources, Abu Dawud 1501). 29.9s, 2 people; trim to <=25s."
+  }
+ },
+ "checklist_hits": [
+  1,
+  2,
+  3,
+  4,
+  6
+ ],
+ "green_flags": [
+  "HG2: native park UGC, no logo intro",
+  "HG3: tension line complete by 3.7s",
+  "MG1: product handled and worn in a real environment",
+  "MG3: cut or new action every ~2-3s",
+  "MK2: 'three questions' numbered open loop",
+  "MK3: one message: every objection answered",
+  "CG1: end line 'Everyone needs to cover up' with on-screen text"
+ ],
+ "red_flags": [
+  "CR3: no explicit CTA or offer",
+  "MR1: audience callout only implicit"
+ ],
+ "what_to_steal": [
+  {
+   "kind": "hook_line",
+   "type": "micro_callout",
+   "original": "Everybody asks the same three questions about our shorts.",
+   "pattern": "Everybody asks the same [N] questions about [our product].",
+   "where": "[0.0-3.7] t0000.00_hook.jpg-t0003.50_hook.jpg",
+   "port": "Everybody asks me the same three questions about this ring."
+  },
+  {
+   "kind": "visual_device",
+   "type": "product_demo",
+   "original": "Friend jogs and jumps in the shorts to prove they stay put, then poses to show coverage",
+   "pattern": "answer each objection with a live physical demo, numbered on-screen",
+   "where": "5.0-27.0s t0007.00_s.jpg",
+   "port": "Tap the ring in a quiet meeting-room shot, then show the 33/66/99 pulse, then wudu-ready close-up"
+  },
+  {
+   "kind": "structure_beat",
+   "type": "objection_preempt",
+   "original": "3 numbered questions -> yes/no answer + demo each -> closing line",
+   "pattern": "hook(N questions) -> Q1+demo -> Q2+demo -> Q3+demo -> one-line close",
+   "where": "0.0-29.4s",
+   "port": "Q1 loud? Q2 lose count when interrupted? Q3 does it replace finger counting? (no: Sunnah stays)"
+  }
+ ],
+ "port_idea": "~25s native UGC for the ring: 'Everybody asks me the same three questions about this ring.' Q1 'Is it loud?' tap in a quiet office; Q2 'Do I lose count if I get interrupted?' count stays on the display, pulse at 33; Q3 'Does it replace counting on my fingers?' no, a tool, finger counting stays Sunnah. Close with the real offer: free US shipping and 60-day trial. About 5-6 clips.",
+ "decision": "KEEP",
+ "reason": "[needs hook rework] tier B: objection-Q&A structure with live demos is highly portable; hook tension lands ~3.7s, no CTA or offer; avatar 8 / adaptability 8. confidence: high (GetHookd winning, active 28 days)"
+}

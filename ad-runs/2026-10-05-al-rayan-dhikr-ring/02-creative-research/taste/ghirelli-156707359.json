@@ -1,0 +1,58 @@
+{
+ "id": "ghirelli-156707359",
+ "source": "gethookd",
+ "format": "video",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 2,
+   "evidence": "0.0-1.5s t0000.00_hook.jpg-t0001.50: black screen then 'Jonathan Roumie x GHIRELLI' title card; talking head only from 2.0s. Brand-first intro."
+  },
+  "problem_awareness": {
+   "score": 6,
+   "evidence": "[0.0-5.2] 'Rosalette, what's Rosalette? Well, it's a rosary bracelet.' = naming/curiosity; no pain."
+  },
+  "unique_mechanism": {
+   "score": 8,
+   "evidence": "[6.1-11.9] 'the synthesis of the two... more than a rosary and more than a bracelet' = hybrid positioning (rosary + wearable) but no why-it-works."
+  },
+  "visual_proof": {
+   "score": 9,
+   "evidence": "3.5-15.9s t0003.50_hook.jpg-t0014.71_cut.jpg: bracelet on wrist, crucifix macro, hand-held beads; polished cinematic, product worn."
+  },
+  "friction_reduction": {
+   "score": 0,
+   "evidence": "None."
+  },
+  "cta": {
+   "score": 2,
+   "evidence": "[17.4-19.9] 'Gorelli is the new rosary experience' + end logo card; no CTA."
+  },
+  "total": 27
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 2,
+   "rationale": "t0000.00-t0001.50: black frame and brand title card, no motion or tension."
+  },
+  "avatar_congruence": {
+   "score": 4,
+   "rationale": "master_avatar_research.md § ANG6 'It's a ring. It's also a tasbih.' overlaps with 'more than a rosary and more than a bracelet' and § VOC Q32 'modern tech jewelry'; but Catholic, celebrity-led, polished luxury world."
+  },
+  "adaptability": {
+   "score": 2,
+   "rationale": "Port: 'rosary + bracelet hybrid' -> 'tasbih + ring hybrid'. But the ad's power is actor Jonathan Roumie (celebrity endorsement); impossible to port without a real person likeness. Also cinematic, not native."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR1: black frame and brand title card intro",
+  "TRUTH-RISK: celebrity endorsement (Jonathan Roumie)",
+  "CR1: no CTA"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: celebrity-led polished brand film, brand-first intro; adaptability floor. confidence: medium (GetHookd optimized, 148 days, last seen Sep 30)"
+}

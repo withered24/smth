@@ -1,0 +1,56 @@
+{
+ "id": "meta-1393387235676220",
+ "source": "meta_ad_library",
+ "format": "image",
+ "matrix": {
+  "pattern_interrupt": {
+   "score": 5,
+   "evidence": "Retargeting packshot of a rotating chain ring on white, copy 'rotating black chain ring | £19.95 / 3 for 2 this month'"
+  },
+  "problem_awareness": {
+   "score": 8,
+   "evidence": "Pain read from primary text/headline: '👋 See something you like? Shop our stackable and discreet fidget jewellery this month (any'"
+  },
+  "unique_mechanism": {
+   "score": 5,
+   "evidence": "No explained mechanism beyond copy claims."
+  },
+  "visual_proof": {
+   "score": 4,
+   "evidence": "Product visibility as viewed: Retargeting packshot of a rotating chain ring on white, copy 'rotating black chain ring | £19.95 / 3 for 2 this month'"
+  },
+  "friction_reduction": {
+   "score": 3,
+   "evidence": "Risk reversal/ease only as stated in copy/headline."
+  },
+  "cta": {
+   "score": 7,
+   "evidence": "Button 'Shop Now', headline 'rotating black chain ring | £19.95'."
+  },
+  "total": 32
+ },
+ "tier": "Reject",
+ "filters": {
+  "pattern_interrupt_1_5s": {
+   "score": 2,
+   "rationale": "First glance: Retargeting packshot of a rotating chain ring on white, copy 'rotating black chain ring | £19.95 / 3 for 2 this month'"
+  },
+  "avatar_congruence": {
+   "score": 6,
+   "rationale": "avatar_congruence: master_avatar_research.md Pains 'loud clicker in quiet offices (Q21)' and VOC Q32 'modern tech jewelry'; swipe is a different context, little portable beyond a copy device."
+  },
+  "adaptability": {
+   "score": 5,
+   "rationale": "Port: weak. Image is a packshot or non-product visual; our product needs a demo/hero concept this does not supply."
+  }
+ },
+ "checklist_hits": [],
+ "green_flags": [],
+ "red_flags": [
+  "HR3: no hook on image"
+ ],
+ "what_to_steal": [],
+ "port_idea": "",
+ "decision": "REJECT",
+ "reason": "tier Reject: catalog/retargeting packshot, no hook. confidence: high (active 51 days, multiple versions)"
+}
