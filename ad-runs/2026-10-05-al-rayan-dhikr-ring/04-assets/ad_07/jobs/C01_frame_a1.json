@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-10-05T15:57:48.285858Z",
+    "display_name": "Nano Banana Pro",
+    "id": "85856e2f-3172-422c-ba91-43ddf351d106",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155748_85856e2f-3172-422c-ba91-43ddf351d106_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "6a6397d2-0e8c-41f2-a864-ef4f0e862acc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/6a6397d2-0e8c-41f2-a864-ef4f0e862acc.png"
+        }
+      ],
+      "prompt": "Scene: Extreme close-up of H1's right hand, index finger raised, wearing exactly one rose-gold smart ring. The ring's black display window faces the camera and shows the white seven-segment digits \"0032\". H1's thumb hovers just above the ring's outer face, about to tap it. The prayer mat edge and oak desk are soft in the background.\nHANDS H1: a right hand of a woman in her late 20s with warm light-brown skin, slim fingers, short natural bare nails, no other jewelry, a thin cream-coloured knit cuff visible at the wrist.\nSETTING S1: a warm light-oak desk edge beside a folded deep-green #1F5A2E prayer mat with a simple cream border (no pattern text, no calligraphy), soft cream wall far behind out of focus.\nLIGHT L1: soft 3500K window light from frame left, gentle falloff, warm highlights on the rose gold, phone-camera realism, slight grain.\nStyle: Authentic UGC phone macro video still, native lo-fi, not a studio ad, slight grain, natural skin texture.\nCamera: Eye-level macro, slightly above the hand, 35mm phone lens, ring and thumb in sharp focus, background softly blurred, handheld feel.\nComposition: Vertical 9:16. The ring occupies 28% to 48% of frame height and is centered horizontally; the display digits sit at 33% to 41% of frame height; the thumb enters from the lower right and hovers at 44% to 54%; the top band 14% to 30% holds one text pill; the band from 55% to 100% shows only blurred desk, mat and wrist.\nBrand colors: rose gold ring (as in the reference), black display, warm cream #F5EFE6 highlights, deep green #1F5A2E for the text pill and the mat in the blur.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring worn on the index finger, display window facing the camera within 20 degrees, white 7-segment digits reading \"0032\", gold logo square visible left of the display, ring height about 20% of frame height, no finger covering the display or logo.\nText blocks: Render exactly one text element: 1) \"AFTER SALAH\" - bold clean sans-serif, bold, ALL CAPS, white #FFFFFF on a rounded pill backing #1F5A2E, on one line, centred in the top band 14% to 30% of height, 8% to 92% of width at most, cap height about 3.2% of frame height.\nLegibility: The text \"AFTER SALAH\" is spelled A-F-T-E-R S-A-L-A-H, high contrast, fully inside the frame. The ring digits \"0032\" are spelled zero-zero-three-two. Render only the quoted string and the ring's own digits; do not render section labels or any other words.\nAvoid: any other text, letters or numbers; a face; a second ring; a phone; extra or fused fingers; plastic CGI skin; competitor logos or packaging; stars, badges, seals; text in the bottom 35% of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155748_85856e2f-3172-422c-ba91-43ddf351d106.png",
+    "status": "completed"
+  }
+]

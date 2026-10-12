@@ -1,0 +1,65 @@
+{
+ "round": "4b",
+ "product_reference": "00-intake/product_black.png + product_rose_gold.png",
+ "product_notes": "smart ring, one row of 4 white digits, gold logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_06/clips/c02_a2.mp4",
+   "ad_id": "ad_06",
+   "step": "C02_clip",
+   "kind": "clip",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_06/clips/c02.mp4",
+   "trim_s": 4.7,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "green pill stays visible through the full 4.7 s (a1 lost it)",
+    "camera steady, background stable (a1 drifted)",
+    "tap by other hand's index finger, then a small bright glint on the ring (warn, no big bloom); hand stays intact, no extra text"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 keeps the text and camera locked; a1 lost the pill"
+  },
+  {
+   "asset": "04-assets/ad_07/clips/c01_a2.mp4",
+   "ad_id": "ad_07",
+   "step": "C01_clip",
+   "kind": "clip",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_07/clips/c01.mp4",
+   "trim_s": 3.8,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "prayer mat now stays unchanged, no burst or color wash (a1 artifact fixed)",
+    "display ends on 0033 with logo; ring pales toward light pink with a soft halo at ~1.4-3.2 s (warn)",
+    "pill text stable, hand identity stable"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 removes the mat smear artifact"
+  }
+ ],
+ "summary": {
+  "pass": 2,
+  "fail": 0
+ }
+}

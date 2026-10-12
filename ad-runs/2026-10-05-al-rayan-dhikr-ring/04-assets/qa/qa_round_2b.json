@@ -1,0 +1,84 @@
+{
+ "round": "2b",
+ "product_reference": "00-intake/product_black.png",
+ "product_notes": "smart ring, one row of 4 white 7-segment digits 5332, gold heart/flame logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_08/frames/C01_frame_a2.png",
+   "ad_id": "ad_08",
+   "step": "C01_frame",
+   "kind": "frame",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_08/frames/C01_frame.png",
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "warn",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "POV: your thoughts won't slow down"
+   ],
+   "rendered_text": [
+    "POV: your thoughts won\u2019t slow down"
+   ],
+   "issues": [
+    "curly apostrophe (warn)",
+    "ring display reads 5332 in one horizontal row, crisp; logo reads as a clock-like icon (warn)",
+    "ring at ~53-56% height, just touching the caption band (warn); pill top ~8% (warn)",
+    "hand has five fingers, no artifacts"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 moved ring up out of the band and keeps 5332 legible"
+  },
+  {
+   "asset": "04-assets/ad_08/frames/C03_frame_a2.png",
+   "ad_id": "ad_08",
+   "step": "C03_frame",
+   "kind": "frame",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_08/frames/C03_frame.png",
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "QURAN 13:28"
+   ],
+   "rendered_text": [
+    "QURAN 13:28"
+   ],
+   "issues": [
+    "text exact",
+    "ring display garbled on close crop: '53' then smeared glyphs, reads ~53?2, with stray specks; logo a droplet",
+    "ring at ~57-61% height inside caption band (hand raised, face 25-47% fine)",
+    "hand five fingers, face natural"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 has ring much closer and mostly legible (53.2) at a safer height, face and hand better; a1 ring tiny at 80% with garbled digits. Final attempt, keep a2 and flag display as known flaw"
+  }
+ ],
+ "summary": {
+  "pass": 1,
+  "fail": 1,
+  "warn": 5
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "round": "3b",
+ "product_reference": "00-intake/product_black.png",
+ "product_notes": "smart ring, one row of 4 white 7-segment digits 5332, gold heart/flame logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_08/frames/C04_frame_a2.png",
+   "ad_id": "ad_08",
+   "step": "C04_frame",
+   "kind": "frame",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_08/frames/C04_frame.png",
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass",
+    "identity": "pass"
+   },
+   "expected_text": [
+    "AL RAYAN DHIKR RING 2.0"
+   ],
+   "rendered_text": [
+    "AL RAYAN DHIKR RING 2.0"
+   ],
+   "identity_ref": "04-assets/ad_08/frames/C03_frame_a2.png",
+   "issues": [
+    "text exact",
+    "ring display crisp 5332 in one horizontal row (fixed); logo renders white/winged rather than gold heart (warn)",
+    "ring at ~51-52% of height, outside caption band; face 25-45%",
+    "identity consistent: same hijab color, camel coat, no bag; hand five fingers"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 fixes garbled digits and removes the added bag; a1 display was garbled"
+  }
+ ],
+ "summary": {
+  "pass": 1,
+  "fail": 0,
+  "warn": 1
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "round": "5",
+ "product_reference": "00-intake/product_rose_gold.png",
+ "product_notes": "rose gold smart ring, one row of 4 white digits, gold logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_07/clips/c02.mp4",
+   "ad_id": "ad_07",
+   "step": "C02_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 4.1,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "display ticks 0010 -> 0011 -> 0012 as planned, logo and band stay intact",
+    "brief moment near 1.0 s where the finger/ring shifts and the display is turned away (warn, transient)",
+    "beads and mat stay still, no extra rings, no text, hand identity stable"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_07/clips/c03.mp4",
+   "ad_id": "ad_07",
+   "step": "C03_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 3.0,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "'TAP SHOP NOW' pill stays unchanged through the trim",
+    "ripple appears at ~1.6-2.3 s as a bubble-like rose-gold ring, a bit larger than faint but clean (warn)",
+    "display reads 0033 throughout (slight dimming at the end), hands and fingers intact, no added text"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  }
+ ],
+ "summary": {
+  "pass": 2,
+  "fail": 0
+ }
+}

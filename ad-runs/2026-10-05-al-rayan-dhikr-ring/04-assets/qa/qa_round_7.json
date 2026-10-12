@@ -1,0 +1,402 @@
+{
+ "round": "7",
+ "product_reference": "00-intake/product_black.png (ad_01,02,04) + product_rose_gold.png (ad_03,05)",
+ "product_notes": "smart ring, one row of 4 white 7-segment digits 5332 (may read along the band when side-on), gold logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_01/images/img_v1.png",
+   "ad_id": "ad_01",
+   "step": "img_v1",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "ring display 5332 crisp along band, blue-white glow (warn)",
+    "ring small (~4% height) but legible; no extra text"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_01/images/img_v2.png",
+   "ad_id": "ad_01",
+   "step": "img_v2",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "ring display 5332 crisp, logo ok; no stray text"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_01/images/img_v3.png",
+   "ad_id": "ad_01",
+   "step": "img_v3",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "2048x2048",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "fail",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "text_exact/product_fidelity: ring display reads '6:30' instead of 5332 (expected 5332)",
+    "1:1 format 2048x2048 correct"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_02/images/img_v1.png",
+   "ad_id": "ad_02",
+   "step": "img_v1",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "fail",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "headline 'Wear it to wudu. Keep your count.' exact, badge strings exact",
+    "hero ring display stacked/garbled in a vertical column, not a clean 5332",
+    "badges at 81-87% of height, below the 65% safe band"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_02/images/img_v2.png",
+   "ad_id": "ad_02",
+   "step": "img_v2",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "all strings exact; hero ring and worn ring read 5332 crisp",
+    "badges at 78-86% of height, below 65% band (warn, same layout as main)"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_02/images/img_v3.png",
+   "ad_id": "ad_02",
+   "step": "img_v3",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "fail",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "strings exact",
+    "worn ring display garbled ('EE ES'), hero digits stacked/garbled",
+    "badges at 80-94% of height, below safe band"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_03/images/img_v1.png",
+   "ad_id": "ad_03",
+   "step": "img_v1",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "headline 'A card gets forgotten. A ring gets worn.' exact",
+    "ring display stacked and garbled, not readable as 5332"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_03/images/img_v2.png",
+   "ad_id": "ad_03",
+   "step": "img_v2",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "headline 'If your friend just started praying...' exact",
+    "ring display stacked and garbled, not readable as 5332"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_03/images/img_v3.png",
+   "ad_id": "ad_03",
+   "step": "img_v3",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "headline exact, cream on green",
+    "display shows 5332 stacked in two rows, readable (warn)",
+    "ring at ~40-62% of height"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_04/images/img_v1.png",
+   "ad_id": "ad_04",
+   "step": "img_v1",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "all five strings exact",
+    "ring display 5332 crisp but ring at 73-83% of height (warn)",
+    "notification cards have blank icon squares (fine)"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_04/images/img_v2.png",
+   "ad_id": "ad_04",
+   "step": "img_v2",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "fail",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "all strings exact; ring 5332 crisp",
+    "headline at 73-82% of height, inside the CTA/caption UI band, outside the 14-65% safe zone"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_04/images/img_v3.png",
+   "ad_id": "ad_04",
+   "step": "img_v3",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "all strings exact",
+    "'Time for dhikr' card overflows the phone bezel (warn)",
+    "headline starts ~11% height, partly in top 14% (warn); ring 5332 vertical crisp at ~70-78% (warn)"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_05/images/img_v1.png",
+   "ad_id": "ad_05",
+   "step": "img_v1",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "all text exact",
+    "rose-gold ring display garbled (~2535 stacked), small",
+    "clicker display shows extra digits '1000'; bottom 15% empty"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_05/images/img_v2.png",
+   "ad_id": "ad_05",
+   "step": "img_v2",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "warn",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "all text exact (curly apostrophe, warn)",
+    "ring display reads 5332 along the band, logo present",
+    "incidental keyboard letters and clicker digits (warn)"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_05/images/img_v3.png",
+   "ad_id": "ad_05",
+   "step": "img_v3",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "warn",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "issues": [
+    "all text exact (curly apostrophe, warn); labels wrap onto 2 lines",
+    "ring display 5332 readable along the band",
+    "clicker screen blank; no extra text"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  }
+ ],
+ "summary": {
+  "pass": 8,
+  "fail": 7,
+  "fails": [
+   "ad_01/img_v3",
+   "ad_02/img_v1",
+   "ad_02/img_v3",
+   "ad_03/img_v1",
+   "ad_03/img_v2",
+   "ad_04/img_v2",
+   "ad_05/img_v1"
+  ]
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "round": "3",
+ "product_reference": "00-intake/product_black.png",
+ "product_notes": "smart ring, one row of 4 white 7-segment digits 5332, gold heart/flame logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_08/frames/C02_frame.png",
+   "ad_id": "ad_08",
+   "step": "C02_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass",
+    "identity": "pass"
+   },
+   "expected_text": [],
+   "rendered_text": [
+    "5332 (ring display only)"
+   ],
+   "identity_ref": "04-assets/ad_08/frames/C01_frame_a2.png",
+   "issues": [
+    "ring display crisp 5332 in one horizontal row, gold logo present, ring at ~50-54% height",
+    "no stray text; scribble loops contain no letters",
+    "hand/skin tone and camel coat sleeve match C01 a2; five fingers, no artifacts"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_08/frames/C04_frame.png",
+   "ad_id": "ad_08",
+   "step": "C04_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass",
+    "identity": "warn"
+   },
+   "expected_text": [
+    "AL RAYAN DHIKR RING 2.0"
+   ],
+   "rendered_text": [
+    "AL RAYAN DHIKR RING 2.0"
+   ],
+   "identity_ref": "04-assets/ad_08/frames/C03_frame_a2.png",
+   "issues": [
+    "text exact",
+    "product_fidelity: ring display garbled on close crop (reads ~S33b2 with a stray stroke), no gold logo visible, ring tiny at ~51-53%",
+    "identity warn: profile view, hijab slightly greener than C03 a2 (blue-grey), crossbody bag added; face/age plausible same woman",
+    "hand five fingers, no artifacts"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The ring on her raised hand has ONE horizontal row of four white seven-segment digits reading exactly 5-3-3-2 (five, three, three, two), crisp, evenly spaced, no extra strokes or dots, and the gold heart/flame logo on the small left panel. Display facing the camera, ring about 6% of frame height."
+    },
+    {
+     "block": "Composition",
+     "action": "replace",
+     "text": "Woman turns slightly toward camera (three-quarter view), raised palm faces camera so the ring display is front-on, ring and display between 40% and 52% of frame height; hijab blue-grey sage exactly as in the identity reference; no crossbody bag."
+    },
+    {
+     "block": "Avoid",
+     "action": "add",
+     "text": "Avoid: garbled, extra or missing digit strokes on the ring display, a bag or any added accessory, a different hijab color."
+    }
+   ],
+   "retry_target": "C04_frame",
+   "best_attempt": null
+  }
+ ],
+ "summary": {
+  "pass": 1,
+  "fail": 1,
+  "warn": 1
+ }
+}

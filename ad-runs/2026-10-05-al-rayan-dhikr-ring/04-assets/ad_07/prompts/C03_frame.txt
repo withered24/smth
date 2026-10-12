@@ -1,0 +1,13 @@
+Attached image 1 is the product reference. Attached image 2 is the identity reference for the hands: same skin, fingers, nails and cuff.
+Scene: Medium close-up of H1's two hands holding exactly one rose-gold smart ring up toward the camera between the thumb and index finger of both hands, the ring's black display window facing the camera and showing the white digits "0033". The folded deep-green prayer mat and oak desk are soft in the background.
+HANDS H1: a right hand of a woman in her late 20s with warm light-brown skin, slim fingers, short natural bare nails, no other jewelry, a thin cream-coloured knit cuff visible at the wrist. Both hands are H1's, with the same knit cuffs.
+SETTING S1: a warm light-oak desk edge beside a folded deep-green #1F5A2E prayer mat with a simple cream border (no pattern text, no calligraphy), soft cream wall far behind out of focus.
+LIGHT L1: soft 3500K window light from frame left, gentle falloff, warm highlights on the rose gold, phone-camera realism, slight grain.
+Style: Authentic UGC phone video still, native lo-fi to semi-polished, not a studio ad.
+Camera: Eye-level, straight-on, 35mm phone lens, ring in sharp focus, background soft, locked off.
+Composition: Vertical 9:16. The ring is centered at 34% to 50% of frame height, ring height about 16% of frame height, display at 39% to 45%; hands enter from the lower left and lower right and hold it at 46% to 54%; the top band 14% to 30% holds one text pill; the band from 55% to 100% shows only soft mat and desk.
+Brand colors: rose gold ring, black display, cream #F5EFE6 highlights, deep green #1F5A2E for the text pill and the mat.
+Product: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring, display facing the camera within 20 degrees, digits "0033", gold logo square left of the display, no finger covering the display or logo.
+Text blocks: Render exactly one text element: 1) "TAP SHOP NOW" - bold clean sans-serif, bold, ALL CAPS, white #FFFFFF on a rounded pill backing #1F5A2E, on one line, centred in the top band 14% to 30% of height, 8% to 92% of width at most, cap height about 3.2% of frame height.
+Legibility: The text "TAP SHOP NOW" is spelled T-A-P S-H-O-P N-O-W, high contrast, fully inside the frame. The ring digits "0033" are spelled zero-zero-three-three. Render only the quoted string and the ring's own digits; do not render section labels or any other words.
+Avoid: any other text, letters or numbers; a face; a second ring; a phone; a box with logos; extra or fused fingers; competitor logos or packaging; stars, badges, seals, price tags; text in the bottom 35% of the frame.

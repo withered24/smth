@@ -1,0 +1,118 @@
+{
+ "round": "6",
+ "product_reference": "00-intake/product_black.png",
+ "product_notes": "black smart ring, one row of 4 white digits 5332, gold logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_08/clips/c01.mp4",
+   "ad_id": "ad_08",
+   "step": "C01_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 3.5,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "warn",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "POV pill text stays unchanged throughout",
+    "scribble loops fade by ~2s rather than keep circling (warn)",
+    "ring display not legible in later frames at small scale, hand pose changes to a pinch near 2.8 s (warn); no morphing, no letters in scribbles"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_08/clips/c02.mp4",
+   "ad_id": "ad_08",
+   "step": "C02_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 3.1,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "pass",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "no text expected, none appears",
+    "ring stays intact with legible-ish 5332 display, loops dissolve as planned, hand natural, five fingers"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_08/clips/c03.mp4",
+   "ad_id": "ad_08",
+   "step": "C03_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 3.1,
+   "verdict": "FAIL",
+   "checks": {
+    "ring_fidelity": "pass",
+    "text_stable": "pass",
+    "anatomy_artifacts": "fail",
+    "identity": "warn",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "woman closes eyes at ~0.6 s and her mouth opens as if speaking from ~1.8 s although mouths must stay closed (conflicts with separate VO)",
+    "pill 'QURAN 13:28' stays stable",
+    "hand lowers and is out of the ring-visible area by ~3 s"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "i2v",
+     "action": "replace",
+     "text": "The woman lowers her raised hand slowly to her side and lifts her chin a little as the last scribble loops fade, her mouth stays gently closed the whole time. 0-1.5s: her shoulders relax and the faint loops thin out; she looks calmly forward, eyes open, lips closed. 1.5-3s: the loops are gone and her hand lowers gently to her side. 3-3.8s: she holds that calm closed-mouth look. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: locked-off with a tiny handheld sway. Expression: quiet relief, lips pressed together and closed at all times, no talking, no mouth opening, eyes open, no long blinks. Nobody speaks. Keep her face, hair, hijab and clothing identical to the start frame. Keep the ring exactly as in the start frame. Do not add any text, captions, subtitles, logos or watermarks. All text in the start frame stays exactly as it is, unchanged and still."
+    }
+   ],
+   "retry_target": "C03_clip"
+  },
+  {
+   "asset": "04-assets/ad_08/clips/c04.mp4",
+   "ad_id": "ad_08",
+   "step": "C04_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 3.9,
+   "verdict": "FAIL",
+   "checks": {
+    "ring_fidelity": "fail",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "warn",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "ring display smears into garbled glyphs by 1.5-2.3 s",
+    "by ~3.8 s the hand folds to her shoulder and the ring melts into a distorted thick double-band blob",
+    "pill text stays stable; face and profile consistent"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "i2v",
+     "action": "replace",
+     "text": "The woman walks on in profile with her ringed right hand held steady and open toward the camera at chest height, the ring display facing the camera. 0-3.9s: she strides forward at an unhurried pace, hand and ring completely still relative to her body, faint calm smile, lips closed. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: side-tracking, steady, no zoom. Nobody speaks; mouths stay closed. No tapping, no hand movement, the hand does not lower, curl or rotate. Keep the ring exactly as in the start frame: one single ring, black band, one horizontal row of four white digits reading 5332, gold logo, no change of shape or digits. Keep her face, hair, hijab, coat and hand identical to the start frame. Do not add any text, captions, subtitles, logos or watermarks. All text in the start frame stays exactly as it is, unchanged and still."
+    }
+   ],
+   "retry_target": "C04_clip"
+  }
+ ],
+ "summary": {
+  "pass": 2,
+  "fail": 2
+ }
+}

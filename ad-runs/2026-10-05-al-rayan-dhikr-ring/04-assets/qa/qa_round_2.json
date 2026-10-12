@@ -1,0 +1,279 @@
+{
+ "round": "2",
+ "product_reference": "00-intake/product_black.png + 00-intake/product_rose_gold.png",
+ "product_notes": "smart ring, wide band, black display panel with ONE row of 4 white 7-segment digits (5332), small black square panel with gold heart/flame logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_01/images/img_main_a2.png",
+   "ad_id": "ad_01",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_01/images/img_main.png",
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "5332"
+   ],
+   "rendered_text": [
+    "5332"
+   ],
+   "issues": [
+    "display reads 5332 clearly now; cyan-blue glow rather than white (warn)",
+    "ring small (~3% height) at 50%; no stray text, no black borders"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 fixes legible digits, removes extra text and edge wedges"
+  },
+  {
+   "asset": "04-assets/ad_02/images/img_main_a2.png",
+   "ad_id": "ad_02",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_02/images/img_main.png",
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "fail",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "WUDU FIVE TIMES A DAY.",
+    "Your count needs this.",
+    "IP67 WATER RESISTANT",
+    "TAP TO COUNT",
+    "60-DAY GUARANTEE",
+    "FREE US SHIPPING"
+   ],
+   "rendered_text": [
+    "WUDU FIVE TIMES A DAY.",
+    "Your count needs this.",
+    "IP67 WATER RESISTANT",
+    "TAP TO COUNT",
+    "60-DAY GUARANTEE",
+    "FREE US SHIPPING"
+   ],
+   "issues": [
+    "text now exact and clean (fixed)",
+    "product_fidelity: hero ring and worn ring show digits stacked vertically in a column, not one row of 5332",
+    "safe_zones: benefit chips at 85-96% of height, deeper than a1 (below 65% band)"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The ring display is ONE horizontal row of four white seven-segment digits (left to right), never stacked vertically; the ring is shown with its display panel facing the camera, upright and readable. Hero ring tilted so the display panel reads left-to-right, tilt under 20 degrees."
+    },
+    {
+     "block": "Composition",
+     "action": "replace",
+     "text": "Shrink headline and photo row so the four benefit chips sit at 56-64% of frame height."
+    }
+   ],
+   "retry_target": "img_main",
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 text perfect vs a1 smeared; both fail ring display, a2 chips lower but text is the stricter criterion"
+  },
+  {
+   "asset": "04-assets/ad_03/images/img_main_a2.png",
+   "ad_id": "ad_03",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_03/images/img_main.png",
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "If your friend just started praying...",
+    "5332"
+   ],
+   "rendered_text": [
+    "If your friend just started praying..."
+   ],
+   "issues": [
+    "headline exact",
+    "product_fidelity: ring standing on edge, display digits stacked vertically and garbled (not 5332)",
+    "logo, rose gold and green box good"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Rose-gold ring lying on its side on the pillow, display on top of the band facing the camera. The ring display is ONE horizontal row of four white seven-segment digits (left to right), never stacked vertically; the ring is shown with its display panel facing the camera, upright and readable."
+    }
+   ],
+   "retry_target": "img_main",
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 cleaner (no sparkle, accurate logo, better layout); both fail digits"
+  },
+  {
+   "asset": "04-assets/ad_04/images/img_main_a2.png",
+   "ad_id": "ad_04",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_04/images/img_main.png",
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "warn"
+   },
+   "expected_text": [
+    "Opened your phone for dhikr. 40 minutes ago.",
+    "Time for dhikr",
+    "New posts today",
+    "New group messages",
+    "Cart is waiting"
+   ],
+   "rendered_text": [
+    "Opened your phone for dhikr. 40 minutes ago.",
+    "Time for dhikr",
+    "New posts today",
+    "New group messages",
+    "Cart is waiting"
+   ],
+   "issues": [
+    "all text exact, ring display reads 5332 at ~54% height",
+    "headline is on the phone screen, 3 lines instead of overlay (warn)",
+    "hand/thumb fine"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 fixes ring display and notification overflow"
+  },
+  {
+   "asset": "04-assets/ad_08/frames/C01_frame.png",
+   "ad_id": "ad_08",
+   "step": "C01_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "previous_attempt": null,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "warn",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "fail",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "POV: your thoughts won't slow down"
+   ],
+   "rendered_text": [
+    "POV: your thoughts won’t slow down"
+   ],
+   "issues": [
+    "curly apostrophe (warn)",
+    "safe_zones: ring/display at ~57-60% of height inside the 55-65% caption band; pill starts ~10.7%, above 14%",
+    "ring shows a clock-like icon instead of the gold logo (warn)"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Composition",
+     "action": "replace",
+     "text": "Raise the hand so the ring and its display sit at 40-52% of frame height; headline pill at 15-24% of height."
+    },
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Display one horizontal row 5332, gold heart logo on the left panel, ring about 6% of frame height."
+    }
+   ],
+   "retry_target": "C01_frame",
+   "best_attempt": null,
+   "best_attempt_reason": null
+  },
+  {
+   "asset": "04-assets/ad_08/frames/C03_frame.png",
+   "ad_id": "ad_08",
+   "step": "C03_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "previous_attempt": null,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "fail",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "QURAN 13:28"
+   ],
+   "rendered_text": [
+    "QURAN 13:28"
+   ],
+   "issues": [
+    "text exact",
+    "product_fidelity: ring tiny, display garbled (~B:331), no logo visible",
+    "safe_zones: ring at ~80% of height, outside 14-54% label zone; face 24-37% fine"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Composition",
+     "action": "replace",
+     "text": "Woman raises her ringed hand to chest height so ring and display sit at 40-52% of frame height, hand turned so the display faces the camera, ring about 6% of frame height."
+    },
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The ring display is ONE horizontal row of four white seven-segment digits (left to right), never stacked vertically; the ring is shown with its display panel facing the camera, upright and readable."
+    }
+   ],
+   "retry_target": "C03_frame",
+   "best_attempt": null,
+   "best_attempt_reason": null
+  }
+ ],
+ "summary": {
+  "pass": 2,
+  "fail": 4,
+  "warn": 6
+ }
+}

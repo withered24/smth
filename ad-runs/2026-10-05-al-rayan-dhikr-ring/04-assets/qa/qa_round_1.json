@@ -1,0 +1,322 @@
+{
+ "round": "1",
+ "product_reference": "00-intake/product_black.png + 00-intake/product_rose_gold.png",
+ "product_notes": "smart ring, wide flat band (black matte/gloss or rose gold with black inner), small rounded-rectangle black panel with ONE row of 4 white 7-segment digits (5332), adjacent smaller black square panel with gold heart/flame-crescent logo; no other label words",
+ "assets": [
+  {
+   "asset": "04-assets/ad_01/images/img_main.png",
+   "ad_id": "ad_01",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "fail",
+    "anatomy_artifacts": "warn",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "5332"
+   ],
+   "rendered_text": [
+    "53?? (display clipped by a reflection, reads 539x; cyan-blue glow digits)",
+    "tiny unreadable text on glasses case"
+   ],
+   "issues": [
+    "product_fidelity: ring display digits unreadable/glitched (reads ~539x, partly covered by glare), glow is cyan not white, logo shape wrong",
+    "text_exact: 5332 not legible; glasses case carries faint extra text",
+    "ring tiny (~3% of height) and wedge-shaped black borders at bottom/right edges",
+    "safe_zones: ring at 44-48% ok but too small to read"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Ring on the ring finger, display facing the camera, ring about 12% of frame height so the digits read. The ring display is one single horizontal row of four white seven-segment digits reading 5-3-3-2, exactly as in the reference, never stacked in rows. Digits white, not blue or cyan, no glare over the display."
+    },
+    {
+     "block": "Avoid",
+     "action": "add",
+     "text": "Avoid: text on the glasses case or any object, black borders or skewed edges, glare covering the display, blue glowing digits."
+    }
+   ],
+   "retry_target": "img_main",
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_02/images/img_main.png",
+   "ad_id": "ad_02",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "fail",
+    "anatomy_artifacts": "warn",
+    "palette": "pass",
+    "safe_zones": "fail",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "WUDU FIVE TIMES A DAY.",
+    "Your count needs this.",
+    "IP67 WATER RESISTANT",
+    "TAP TO COUNT",
+    "60-DAY GUARANTEE",
+    "FREE US SHIPPING"
+   ],
+   "rendered_text": [
+    "WUDU FIVE TIMES A DAY.",
+    "Your count needs this.",
+    "IP67 WATER RESISTANT (glitched, smeared letters, reads IP67 WATER RESISTANT with doubled strokes)",
+    "TAP TO COUNT (smeared)",
+    "60-DAY GUARANTEE",
+    "FREE US SHIPPING"
+   ],
+   "issues": [
+    "text_exact: 'IP67 WATER RESISTANT' and 'TAP TO COUNT' have doubled/smeared glyphs",
+    "product_fidelity: hero ring display shows stacked rows of digits (2 x 4 style), not one row of 5332",
+    "safe_zones: benefit chips at 76-83% of height, below 65% CTA/caption UI band",
+    "worn ring tiny but reads 5332"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Text blocks",
+     "action": "replace",
+     "text": "Move the four benefit chips up into the 55-65% band (two rows at 56% and 62%), each with a clean solid cream backing, cap height >=2.8% of frame height."
+    },
+    {
+     "block": "Legibility",
+     "action": "add",
+     "text": "IP67 is spelled I-P-6-7; WATER is W-A-T-E-R; RESISTANT is R-E-S-I-S-T-A-N-T. Crisp single-stroke letters, no ghosting or doubled edges."
+    },
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The ring display is one single horizontal row of four white seven-segment digits reading 5-3-3-2, exactly as in the reference, never stacked in rows. Hero ring tilted no more than 25 degrees, display facing camera."
+    }
+   ],
+   "retry_target": "img_main",
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_03/images/img_main.png",
+   "ad_id": "ad_03",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "warn"
+   },
+   "expected_text": [
+    "If your friend just started praying...",
+    "5332"
+   ],
+   "rendered_text": [
+    "If your friend just started praying..."
+   ],
+   "issues": [
+    "product_fidelity: ring display rendered as stacked/rotated rows of digits, not readable as 5332",
+    "headline correct",
+    "ring/gift box extends to ~80%; label at 38-55% ok",
+    "polished studio look, acceptable for gift concept"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Rose-gold ring lying flat on the cream satin pillow, display facing the camera on top of the band. The ring display is one single horizontal row of four white seven-segment digits reading 5-3-3-2, exactly as in the reference, never stacked in rows."
+    },
+    {
+     "block": "Avoid",
+     "action": "add",
+     "text": "Avoid: stacked or rotated digit rows, sparkle/lens-flare over the display."
+    }
+   ],
+   "retry_target": "img_main",
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_04/images/img_main.png",
+   "ad_id": "ad_04",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "FAIL",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "fail",
+    "text_exact": "pass",
+    "anatomy_artifacts": "warn",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "Opened your phone for dhikr. 40 minutes ago.",
+    "Time for dhikr",
+    "New posts today",
+    "New group messages",
+    "Cart is waiting"
+   ],
+   "rendered_text": [
+    "Opened your phone for dhikr. 40 minutes ago.",
+    "Time for dhikr",
+    "New posts today",
+    "New group messages",
+    "Cart is waiting"
+   ],
+   "issues": [
+    "product_fidelity: ring display glitched with a metallic reflection bar, digits stacked/garbled (~5?2), blue glow instead of white",
+    "ring display at 74-80% of height, in CTA band",
+    "'Time for dhikr' notification card overflows the phone bezel",
+    "all text exact; lock-screen clock partly hidden (not text-fail)"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "Product",
+     "action": "replace",
+     "text": "Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Ring on the index finger in the lower-center at 55-65% of frame height, display facing the camera and fully visible. The ring display is one single horizontal row of four white seven-segment digits reading 5-3-3-2, exactly as in the reference, never stacked in rows. No reflection bars over the display."
+    },
+    {
+     "block": "Composition",
+     "action": "replace",
+     "text": "Raise the phone and hand so the ring display sits inside 50-64% of height; all notification cards stay inside the phone screen width."
+    }
+   ],
+   "retry_target": "img_main",
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_05/images/img_main.png",
+   "ad_id": "ad_05",
+   "step": "img_main",
+   "kind": "image",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "warn",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "Beads scatter. Clickers shout. This doesn't.",
+    "Beads: count gone",
+    "Clicker: everyone hears",
+    "Ring: silent tap"
+   ],
+   "rendered_text": [
+    "Beads scatter. Clickers shout. This doesn’t.",
+    "Beads: count gone",
+    "Clicker: everyone hears",
+    "Ring: silent tap"
+   ],
+   "issues": [
+    "curly apostrophe (warn)",
+    "incidental keyboard key letters and clicker digits (extra characters, not copy)",
+    "ring at 70-77% of height, below 65% band; display reads 5332 clearly"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_06/frames/C01_frame.png",
+   "ad_id": "ad_06",
+   "step": "C01_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "WHAT MY COWORKERS SEE"
+   ],
+   "rendered_text": [
+    "WHAT MY COWORKERS SEE"
+   ],
+   "issues": [
+    "ring shows as plain black band, display/logo not visible (intentional discreet look)",
+    "ring at 75-78% height, hand low; face 22-42% fine",
+    "pill at 10-17% slightly into top 14% UI band"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_07/frames/C01_frame.png",
+   "ad_id": "ad_07",
+   "step": "C01_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass"
+   },
+   "expected_text": [
+    "AFTER SALAH"
+   ],
+   "rendered_text": [
+    "AFTER SALAH"
+   ],
+   "issues": [
+    "display reads 0032 per prompt, logo and rose gold match",
+    "pill starts ~13% height (edge of top band)",
+    "hands slightly busy but plausible"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  }
+ ],
+ "summary": {
+  "pass": 3,
+  "fail": 4,
+  "warn": 11
+ }
+}

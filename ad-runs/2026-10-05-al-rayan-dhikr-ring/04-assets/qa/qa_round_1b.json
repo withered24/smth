@@ -1,0 +1,152 @@
+{
+ "round": "1b",
+ "product_reference": "00-intake/product_black.png + 00-intake/product_rose_gold.png",
+ "product_notes": "smart ring, one row of 4 white 7-segment digits, gold heart/flame logo panel",
+ "assets": [
+  {
+   "asset": "04-assets/ad_06/frames/C02_frame.png",
+   "ad_id": "ad_06",
+   "step": "C02_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass",
+    "identity": "pass"
+   },
+   "expected_text": [
+    "VS... WHAT IT ACTUALLY IS"
+   ],
+   "rendered_text": [
+    "VS... WHAT IT ACTUALLY IS"
+   ],
+   "identity_ref": "04-assets/ad_06/frames/C01_frame.png",
+   "issues": [
+    "text exact",
+    "identity: same hijab, charcoal blazer, office; face cropped to chin only (no face to compare, hand tone consistent)",
+    "ring display crisp, reads 5332 along the band (acceptable side-on)",
+    "ring/hand at 72-76% of height, below caption band (warn); pill starts ~10.5% (warn)"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_06/frames/C03_frame.png",
+   "ad_id": "ad_06",
+   "step": "C03_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "warn",
+    "truth": "pass",
+    "style_match": "pass",
+    "identity": "pass"
+   },
+   "expected_text": [
+    "FREE US SHIPPING"
+   ],
+   "rendered_text": [
+    "FREE US SHIPPING"
+   ],
+   "identity_ref": "04-assets/ad_06/frames/C01_frame.png",
+   "issues": [
+    "text exact",
+    "identity matches C01 exactly (same woman, coworker, notebook, pen, scene)",
+    "ring display crisp, reads 5332 along band; logo renders as a swirl rather than heart/flame (warn)",
+    "ring at 76-80% height, hand low (warn); pill starts ~10.5%"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_07/frames/C02_frame.png",
+   "ad_id": "ad_07",
+   "step": "C02_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "warn",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass",
+    "identity": "pass"
+   },
+   "expected_text": [],
+   "rendered_text": [],
+   "identity_ref": "04-assets/ad_07/frames/C01_frame.png",
+   "issues": [
+    "no on-image text, none rendered",
+    "identity: same rose-gold ring, hand skin tone, cream sleeve, prayer mat and table as C01",
+    "display reads 0010 crisp, logo correct; ring at 33-37% height",
+    "extra ring in a dark box at left edge and prayer beads (props, warn: second ring unit visible)"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  },
+  {
+   "asset": "04-assets/ad_07/frames/C03_frame.png",
+   "ad_id": "ad_07",
+   "step": "C03_frame",
+   "kind": "frame",
+   "attempt": 1,
+   "verdict": "PASS",
+   "pixels": "1536x2752",
+   "checks": {
+    "aspect": "pass",
+    "product_fidelity": "pass",
+    "text_exact": "pass",
+    "anatomy_artifacts": "pass",
+    "palette": "pass",
+    "safe_zones": "pass",
+    "truth": "pass",
+    "style_match": "pass",
+    "identity": "pass"
+   },
+   "expected_text": [
+    "TAP SHOP NOW"
+   ],
+   "rendered_text": [
+    "TAP SHOP NOW"
+   ],
+   "identity_ref": "04-assets/ad_07/frames/C01_frame.png",
+   "issues": [
+    "text exact",
+    "identity consistent: same hands/skin tone, cream sleeves, green prayer mat",
+    "ring display 0033 crisp, logo correct, ring at 44-48% height",
+    "hand anatomy plausible, five fingers per hand"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": null
+  }
+ ],
+ "summary": {
+  "pass": 4,
+  "fail": 0,
+  "warn": 5
+ }
+}

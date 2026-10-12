@@ -1,0 +1,65 @@
+{
+ "round": "6b",
+ "product_reference": "00-intake/product_black.png",
+ "product_notes": "black smart ring, 5332 row, gold logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_08/clips/c03_a2.mp4",
+   "ad_id": "ad_08",
+   "step": "C03_clip",
+   "kind": "clip",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_08/clips/c03.mp4",
+   "trim_s": 3.1,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "warn",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "pill 'QURAN 13:28' stable",
+    "hand lowers by ~1.8 s; one eye-closed moment near 1.8 s and lips slightly parted at 2.4-3.0 s (warn, milder than a1)",
+    "ring small and then out of view after the hand lowers; no morphing"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 mouth opening is slight and eyes open for most of the trim; a1 had long eye closure and talking mouth"
+  },
+  {
+   "asset": "04-assets/ad_08/clips/c04_a2.mp4",
+   "ad_id": "ad_08",
+   "step": "C04_frame",
+   "kind": "clip",
+   "attempt": 2,
+   "previous_attempt": "04-assets/ad_08/clips/c04.mp4",
+   "trim_s": 3.9,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "pill 'AL RAYAN DHIKR RING 2.0' stable throughout",
+    "hand stays raised and steady, ring stays a single black band with no melt (a1 collapsed)",
+    "ring digits too small to read at spot scale (warn); face and identity stable, background changes with walking only"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null,
+   "best_attempt": 2,
+   "best_attempt_reason": "a2 keeps the ring intact; a1 ring melted"
+  }
+ ],
+ "summary": {
+  "pass": 2,
+  "fail": 0
+ }
+}

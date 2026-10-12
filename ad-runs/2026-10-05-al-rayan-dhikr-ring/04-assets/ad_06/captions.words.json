@@ -1,0 +1,150 @@
+{
+ "source": "C:\\Users\\rayan\\AppData\\Local\\Temp\\assemble_8xapj385\\mix.wav",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.998,
+ "duration": 11.3,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.36,
+   "text": "Coworkers think I'm fidgeting with a ring. It's my tasbih. Silent tracking, gentle vibration.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.5,
+     "word": "Coworkers",
+     "p": 0.687
+    },
+    {
+     "start": 0.5,
+     "end": 0.7,
+     "word": "think",
+     "p": 0.002
+    },
+    {
+     "start": 0.7,
+     "end": 0.9,
+     "word": "I'm",
+     "p": 0.955
+    },
+    {
+     "start": 0.9,
+     "end": 1.32,
+     "word": "fidgeting",
+     "p": 0.965
+    },
+    {
+     "start": 1.32,
+     "end": 1.42,
+     "word": "with",
+     "p": 0.996
+    },
+    {
+     "start": 1.42,
+     "end": 1.5,
+     "word": "a",
+     "p": 0.992
+    },
+    {
+     "start": 1.5,
+     "end": 1.78,
+     "word": "ring.",
+     "p": 0.983
+    },
+    {
+     "start": 2.36,
+     "end": 2.9,
+     "word": "It's",
+     "p": 0.966
+    },
+    {
+     "start": 2.9,
+     "end": 3.04,
+     "word": "my",
+     "p": 0.993
+    },
+    {
+     "start": 3.04,
+     "end": 3.76,
+     "word": "tasbih.",
+     "p": 0.094
+    },
+    {
+     "start": 4.54,
+     "end": 4.88,
+     "word": "Silent",
+     "p": 0.823
+    },
+    {
+     "start": 4.88,
+     "end": 5.34,
+     "word": "tracking,",
+     "p": 0.509
+    },
+    {
+     "start": 5.66,
+     "end": 5.86,
+     "word": "gentle",
+     "p": 0.896
+    },
+    {
+     "start": 5.86,
+     "end": 6.36,
+     "word": "vibration.",
+     "p": 0.966
+    }
+   ]
+  },
+  {
+   "start": 7.32,
+   "end": 10.78,
+   "text": "Sixty days, money back. Tap Shop Now.",
+   "words": [
+    {
+     "start": 7.32,
+     "end": 7.86,
+     "word": "Sixty",
+     "p": 0.57
+    },
+    {
+     "start": 7.86,
+     "end": 8.1,
+     "word": "days,",
+     "p": 0.94
+    },
+    {
+     "start": 8.52,
+     "end": 8.72,
+     "word": "money",
+     "p": 0.984
+    },
+    {
+     "start": 8.72,
+     "end": 9.0,
+     "word": "back.",
+     "p": 0.901
+    },
+    {
+     "start": 10.04,
+     "end": 10.22,
+     "word": "Tap",
+     "p": 0.937
+    },
+    {
+     "start": 10.22,
+     "end": 10.48,
+     "word": "Shop",
+     "p": 0.276
+    },
+    {
+     "start": 10.48,
+     "end": 10.78,
+     "word": "Now.",
+     "p": 0.636
+    }
+   ]
+  }
+ ]
+}

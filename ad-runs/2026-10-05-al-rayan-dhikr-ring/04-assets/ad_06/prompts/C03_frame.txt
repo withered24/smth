@@ -1,0 +1,13 @@
+Scene: P1 in medium close-up at the conference table, attentive to the meeting, her gaze toward the speaker out of frame, mouth closed. Her left hand rests at the table edge in the lower foreground with the matte-black ring on the ring finger, thumb resting on the band. The white paper coffee cup and notebook sit nearby. The colleague in the blue shirt is blurred in the background.
+Attached image 1 is the product reference. Attached image 2 is the identity reference for the woman: same face, hair covering, skin and outfit.
+PERSONA P1: a 29-year-old woman with warm light-brown skin, a neatly pinned cream crepe hijab covering hair and neck, warm brown eyes, natural skin texture, no visible makeup, small gold stud earrings partly visible, wearing a charcoal blazer over a white blouse.
+SETTING S1: a modern US office conference room: long light-oak table, a black notebook, a white paper coffee cup, glass wall behind with soft out-of-focus colleagues.
+LIGHT L1: soft neutral 4500K overhead office light with daylight from a window at frame left, gentle shadows, phone-camera realism, slight grain.
+Style: Authentic amateur phone video still, native UGC, not a studio ad.
+Camera: eye-level, slightly from the side, handheld phone, 30mm lens, face and hand in focus, background softly blurred.
+Composition: Vertical 9:16. The top band 15% to 27% holds the caption pill; her face at 30% to 44% of frame height, center-left; her hand with the ring at 46% to 54% of frame height, ring about 5% of frame height with display turned toward the camera; the band from 58% to 100% shows only table surface and blazer.
+Brand colors: Caption pill deep green #1F5A2E with white #FFFFFF text; cream hijab #F5EFE6; ring matte black #0B0B0B.
+Product: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring on the ring finger.
+Text: Render exactly one text element: "FREE US SHIPPING" in ALL CAPS in bold clean geometric sans-serif, white #FFFFFF, centered inside a solid deep-green #1F5A2E rounded pill, top band 15% to 27% of frame height, 8% to 92% of frame width, cap height about 3.2% of frame height.
+Legibility: Spell the quoted string exactly, letter for letter (F-R-E-E U-S S-H-I-P-P-I-N-G), with its capitalization and punctuation. High contrast, fully inside the frame with 6% side margins. Render only that string and the ring's own digits; do not render section labels or any other words.
+Avoid: any text other than the quoted overlay and the ring's own digits; emojis; logos, brand names or watermarks; a second ring; extra fingers or fused hands; distorted face; stars, badges, doctors or lab coats.

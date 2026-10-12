@@ -1,0 +1,156 @@
+{
+ "source": "C:\\Users\\rayan\\AppData\\Local\\Temp\\assemble_h9xosbzb\\mix.wav",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.998,
+ "duration": 10.9,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.46,
+   "text": "Watch this. Thirty-three taps, then it pulses. No beads to drop. Just quiet taps.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.24,
+     "word": "Watch",
+     "p": 0.897
+    },
+    {
+     "start": 0.24,
+     "end": 0.7,
+     "word": "this.",
+     "p": 0.03
+    },
+    {
+     "start": 1.36,
+     "end": 1.6,
+     "word": "Thirty",
+     "p": 0.085
+    },
+    {
+     "start": 1.6,
+     "end": 1.9,
+     "word": "-three",
+     "p": 0.773
+    },
+    {
+     "start": 1.9,
+     "end": 2.4,
+     "word": "taps,",
+     "p": 0.337
+    },
+    {
+     "start": 2.54,
+     "end": 2.88,
+     "word": "then",
+     "p": 0.151
+    },
+    {
+     "start": 2.88,
+     "end": 3.02,
+     "word": "it",
+     "p": 0.83
+    },
+    {
+     "start": 3.02,
+     "end": 3.36,
+     "word": "pulses.",
+     "p": 0.865
+    },
+    {
+     "start": 4.2,
+     "end": 4.36,
+     "word": "No",
+     "p": 0.969
+    },
+    {
+     "start": 4.36,
+     "end": 4.64,
+     "word": "beads",
+     "p": 0.449
+    },
+    {
+     "start": 4.64,
+     "end": 4.9,
+     "word": "to",
+     "p": 0.426
+    },
+    {
+     "start": 4.9,
+     "end": 5.16,
+     "word": "drop.",
+     "p": 0.995
+    },
+    {
+     "start": 5.74,
+     "end": 6.04,
+     "word": "Just",
+     "p": 0.984
+    },
+    {
+     "start": 6.04,
+     "end": 6.48,
+     "word": "quiet",
+     "p": 0.922
+    },
+    {
+     "start": 6.48,
+     "end": 7.46,
+     "word": "taps.",
+     "p": 0.704
+    }
+   ]
+  },
+  {
+   "start": 8.36,
+   "end": 10.4,
+   "text": "Sixty days to try it. Money back.",
+   "words": [
+    {
+     "start": 8.36,
+     "end": 8.7,
+     "word": "Sixty",
+     "p": 0.909
+    },
+    {
+     "start": 8.7,
+     "end": 8.86,
+     "word": "days",
+     "p": 0.932
+    },
+    {
+     "start": 8.86,
+     "end": 9.1,
+     "word": "to",
+     "p": 0.653
+    },
+    {
+     "start": 9.1,
+     "end": 9.4,
+     "word": "try",
+     "p": 0.653
+    },
+    {
+     "start": 9.4,
+     "end": 9.58,
+     "word": "it.",
+     "p": 0.975
+    },
+    {
+     "start": 9.96,
+     "end": 10.08,
+     "word": "Money",
+     "p": 0.985
+    },
+    {
+     "start": 10.08,
+     "end": 10.4,
+     "word": "back.",
+     "p": 0.842
+    }
+   ]
+  }
+ ]
+}

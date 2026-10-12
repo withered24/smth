@@ -1,0 +1,34 @@
+[
+  {
+    "created_at": "2026-10-05T16:02:56.41997Z",
+    "display_name": "Nano Banana Pro",
+    "id": "4fed914b-d931-4593-bef1-8e494696de6d",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160256_4fed914b-d931-4593-bef1-8e494696de6d_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/b44785a9-ea45-40ea-80a1-ca4cabdefebc.png"
+        },
+        {
+          "id": "2dc77829-5797-4766-95ac-55b97cc58423",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155738_2dc77829-5797-4766-95ac-55b97cc58423.png"
+        }
+      ],
+      "prompt": "Scene: Close-up of P1's left hand resting on her charcoal-blazer lap just under the edge of the conference table, her thumb touching the matte-black ring on her ring finger; the ring's display window faces the camera and shows four white seven-segment digits and the small gold logo window beside it. The table edge and a sliver of the laptop are visible above, softly blurred; no face in frame except the lower edge of her cream hijab at the top right, blurred.\nAttached image 1 is the product reference. Attached image 2 is the identity reference for the woman: same skin tone, hijab, blazer and outfit.\nPERSONA P1: a 29-year-old woman with warm light-brown skin, a neatly pinned cream crepe hijab, wearing a charcoal blazer over a white blouse.\nSETTING S1: a modern US office conference room: long light-oak table edge, open silver laptop above, glass wall behind with soft out-of-focus colleagues.\nLIGHT L1: soft neutral 4500K overhead office light with daylight from a window at frame left, gentle shadows, phone-camera realism, slight grain.\nStyle: Authentic amateur phone macro still, native UGC, not a studio ad.\nCamera: low close-up from the side at lap height, handheld phone, 35mm lens, ring and thumb in sharp focus, background softly blurred.\nComposition: Vertical 9:16. The top band 15% to 27% holds the caption pill; the hand and ring occupy 30% to 52% of frame height, centered slightly left; the ring about 18% of frame height with its display fully visible and facing the camera; table edge at 14% to 20% at the very top, blurred; the band from 58% to 100% shows only blazer fabric and floor, blurred.\nBrand colors: Caption pill deep green #1F5A2E with white #FFFFFF text; ring matte black #0B0B0B, gold logo #E6C77A, digits white #FFFFFF.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring, display window readable and facing the camera within 20 degrees, digits identical to the reference, thumb beside the display not covering it, ring height about 18% of frame height.\nText: Render exactly one text element: \"VS... WHAT IT ACTUALLY IS\" in ALL CAPS in bold clean geometric sans-serif, white #FFFFFF, centered inside a solid deep-green #1F5A2E rounded pill, top band 15% to 27% of frame height, 8% to 92% of frame width, cap height about 3.2% of frame height.\nLegibility: Spell the quoted string exactly, letter for letter (V-S, three dots, W-H-A-T I-T A-C-T-U-A-L-L-Y I-S), with its capitalization and punctuation. High contrast, fully inside the frame with 6% side margins. Render only that string and the ring's own display digits; do not render section labels or any other words.\nAvoid: any text other than the quoted overlay and the ring's own digits; emojis; logos, brand names or watermarks; a second ring; extra fingers or fused hands; changed digits; stars, badges, doctors or lab coats.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160256_4fed914b-d931-4593-bef1-8e494696de6d.png",
+    "status": "completed"
+  }
+]

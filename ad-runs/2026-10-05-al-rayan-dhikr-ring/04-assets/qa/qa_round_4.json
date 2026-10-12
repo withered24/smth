@@ -1,0 +1,118 @@
+{
+ "round": "4",
+ "product_reference": "00-intake/product_black.png + product_rose_gold.png",
+ "product_notes": "smart ring, one row of 4 white 7-segment digits, gold logo",
+ "assets": [
+  {
+   "asset": "04-assets/ad_06/clips/c01.mp4",
+   "ad_id": "ad_06",
+   "step": "C01_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 2.1,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "pass",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "pill text stays through trim",
+    "colleague glances at her hand at ~1s, pen tap happens; ring stays plain black, no morph",
+    "identity stable"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_06/clips/c02.mp4",
+   "ad_id": "ad_06",
+   "step": "C02_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 4.7,
+   "verdict": "FAIL",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "fail",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "warn",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "text_stable: the green 'VS... WHAT IT ACTUALLY IS' pill disappears between 2.0 and 3.0 s, inside the 4.7 s trim",
+    "camera drifts (window/background shift) although locked off was requested",
+    "tap is done by a different hand's index finger not thumb (acceptable), glow becomes a bright bloom over the ring at ~2.4-4.6 s, digits slightly smeared (warn)"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "i2v",
+     "action": "replace",
+     "text": "Her free left index fingertip taps the black ring once, gently, while her ringing hand rests on her knee. 0-1.2s: the left hand slides in from the upper right and the index fingertip presses the ring once. 1.2-2.4s: a very subtle small soft white glow, no larger than the ring itself, appears on the band and fades. 2.4-4.7s: the left hand withdraws out of frame and the ringed hand stays perfectly still. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera locked off, no zoom, no drift. Nobody speaks; mouths stay closed. Ambient only: no sound. All text in the start frame stays exactly as it is, unchanged, fully visible and still for the entire clip, including the green pill. Do not add any text, captions, subtitles, logos or watermarks. Keep the ring, its display digits and logo exactly as in the start frame; digits sharp, ring does not rotate, no second ring. Keep her hand, sleeve, trousers, desk, laptop and window identical to the start frame; the background must not shift."
+    }
+   ],
+   "retry_target": "C02_clip"
+  },
+  {
+   "asset": "04-assets/ad_06/clips/c03.mp4",
+   "ad_id": "ad_06",
+   "step": "C03_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 4.5,
+   "verdict": "PASS",
+   "checks": {
+    "ring_fidelity": "pass",
+    "text_stable": "pass",
+    "anatomy_artifacts": "pass",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "text pill stays; push-in works; closed-mouth smile appears by 2.4 s; ring stays dark band, hand returns to rest",
+    "identity stable, no extra fingers"
+   ],
+   "prompt_deltas": [],
+   "retry_target": null
+  },
+  {
+   "asset": "04-assets/ad_07/clips/c01.mp4",
+   "ad_id": "ad_07",
+   "step": "C01_clip",
+   "kind": "clip",
+   "attempt": 1,
+   "trim_s": 3.8,
+   "verdict": "FAIL",
+   "checks": {
+    "ring_fidelity": "warn",
+    "text_stable": "pass",
+    "anatomy_artifacts": "fail",
+    "identity": "pass",
+    "motion_in_trim": "pass",
+    "no_added_text": "pass"
+   },
+   "issues": [
+    "background artifact: salmon fire-like burst at ~1.6 s then brown/pink color wash smearing the prayer mat at ~1.9-2.4 s, mat pattern changes (star motif appears at right)",
+    "display ticks 0032 to 0033 correctly and ring/logo intact (pass)",
+    "text pill stays; tap done by index finger of other hand (warn)"
+   ],
+   "prompt_deltas": [
+    {
+     "block": "i2v",
+     "action": "replace",
+     "text": "A fingertip taps the rose-gold ring and the display ticks from 0032 to 0033. 0-0.8s: the other hand's index fingertip presses the ring once. 0.8-1.6s: the display changes from 0032 to 0033 and a very faint thin rose-gold shimmer outlines the ring only, no larger than the ring. 1.6-3.8s: the fingertip lifts away out of frame and the hand holds perfectly still. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera locked off or a barely perceptible 2 percent push-in. No face in frame. The green prayer mat, its border, the table and the wall stay completely unchanged: no smoke, glow, fire, stain, color wash or pattern change on the mat or anywhere outside the ring. Keep the ring, display, digits and logo exactly as in the start frame; the ring does not rotate. Keep the hand identical to the start frame. All text in the start frame stays exactly as it is, unchanged and still. Do not add any text, captions, subtitles, logos or watermarks."
+    }
+   ],
+   "retry_target": "C01_clip"
+  }
+ ],
+ "summary": {
+  "pass": 2,
+  "fail": 2
+ }
+}
