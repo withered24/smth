@@ -1,0 +1,7 @@
+{"verdict":"APPROVE","round":1,"ad_id":"ad_04","tier":1,
+ "notes":[],
+ "edited_copy_path":"03-ads/ad_04/copy_chiefed_v1.md",
+ "notes_path":"03-ads/ad_04/chief_notes_v1.md",
+ "benchmarks":{"B1":"PASS","B2":"PASS","B3":"PASS","B4":"PASS","B5":"PASS","B6":"PASS","B7":"PASS","B8":"PASS","B9":"PASS","B10":"PASS"},
+ "residual_concerns":["Draft maps exactly onto PE slots HEADLINE + UI_TEXT_1..4. UI_TEXT_4 trimmed to 'Cart is waiting' (on-image 20 words) - PE must use the chiefed text. Spell 'dhikr' letter by letter in HEADLINE and UI_TEXT_1."],
+ "chiefing":"skill"}

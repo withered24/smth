@@ -1,0 +1,34 @@
+# Necessary Beliefs — Al Rayan Dhikr Ring 2.0
+
+Destination belief: B6 (with B5 as its pre-condition for the gift avatar)
+Mode: augment · Sources: user_market_research.md (VOC-NN, UD-n), offer_brief.md (product facts and "Verified Islamic sources" V#1-15), alrayanrings.net fetch 2026-10-05. Quotes per user doc are paraphrase-risk; do not put them in quote marks in ads without re-verifying.
+
+| # | I believe that… | What they believe now (VOC IDs) | Argument that installs it (logic + emotion) | Proof available | Ad slot |
+|---|---|---|---|---|---|
+| B1 | I believe that steady dhikr through my day matters, and a small, constant habit beats a big, rare one. | They already want it: "keep your tongue wet" (VOC-17), "high daily volume" (VOC-20), commute practice (VOC-18, 39). But some feel they are inconsistent [user doc §Emotional Requirements]. | Start from what they already hold. The Prophet (ﷺ) told a man overwhelmed by the acts of Islam to keep his tongue moist with remembrance, and said the most beloved deed is the regular, constant one even if little. So the goal is not a big number once, it is a small thing every day. Emotion: relief, no guilt. | Tirmidhi 3375 (sahih/hasan); Bukhari 6464; Quran 33:41, 2:152 (offer_brief V#3, 2, 7, 13) | Hook / body |
+| B2 | I believe that what stops me is friction in my day (noise, beads, phone, losing count), not my intention. | They blame tools and situation: loud clickers (VOC-21), lost count on beads (VOC-29), phone pulls them in (VOC-30), carry 2-3 counters (VOC-01). The store already says "blame your tools, not your intention". | Walk through the three failures in their own scenes: the click in a quiet office, the beads dropped on the train, the phone opened for dhikr that ends in a feed. Each one is a tool problem, and tool problems have tool fixes. Emotion: "it was never me". | VOC-21, 29, 30, 01 (per user doc; confirm wording); homepage headline fetch. No scientific study (PROOF GAP for any "research shows" claim: do not use) | Hook / body |
+| B3 | I believe that a counting aid is allowed, and finger counting stays the Sunnah. | Split. Many ask if it is permissible/Bid'ah (VOC-16, 27, 28); some prefer fingers and use a clicker for big numbers (VOC-07, 36). | Honour the Sunnah first: the Prophet (ﷺ) told them to count on the fingers (Abu Dawud 1501, hasan). Then say scholars cited by the user doc treat counting aids as permitted tools while fingers remain preferred. The ring is for the long counts and busy hands, never a replacement. Emotion: respect, safety from guilt. | Abu Dawud 1501 (V#8). Scholarly rulings: user doc [UD-5, UD-6, UD-15, UD-16], PROOF GAP until we open those pages ourselves (not opened by us). Never claim endorsement of Al Rayan | Body / FAQ-style line |
+| B4 | I believe that a ring I wear can count silently, without a phone, noise or a look at a screen, so I can keep going wherever I am. | They want discreet and screen-free (VOC-22, 13, 31); they fear looking odd (VOC-40) and wonder if smart rings work (UD-10 title); some tried clones that failed (VOC-11). | Show the exact mechanism: tap to count, small display, gentle vibration at 33, 66, 99, so you know where you are without looking. Show it on a hand in a meeting, in a car, at the sink. Emotion: "nobody noticed, and I kept going". | Product page: vibrations at 33/66/99, prayer alerts, app sync, IP67 (offer_brief Step 0); screenshot "Wear / Tap / Review". "Silent" is brand-stated, untested by us; "standalone without phone" UNCONFIRMED (PROOF GAP). Competitor-based specs (7.2g) not attributed to Al Rayan | Body / demo |
+| B5 | I believe that this ring is built well enough for daily life and for $49.99 it is a fair choice (or a gift that will actually be used). | Cheap clones fail (VOC-11, 33), size anxiety (VOC-26), water fear (VOC-01); gift buyers want something meaningful, not cheap (VOC-25, 32, 35). | Answer each fear with a stated fact: IP67 rating, 6 sizes, one-year tech warranty, 60-day money-back, free US shipping. Price compared to the $149 premium ring and to a throwaway clone is a user-doc framing, to be used lightly. Emotion: relief that it is safe to try. | Product page + screenshot (price, 60 days, 1-year warranty, IP67, sizes). PROOF GAP: independent reviews/verified customer proof; the store's metrics are banned; size exchange unconfirmed; durability claims beyond IP67 unsupported | Body / trust line |
+| B6 (DESTINATION) | I believe that trying the Al Rayan Dhikr Ring 2.0 is low-risk and it is the easiest way for me to keep my dhikr steady through the day. | Not yet formed; they are comparing (iQibla, Hadiyah, clones) [user doc §Competitor Matrix]. | After B1-B5, the choice is simple: I want steady dhikr, my tools are the problem, the aid is permitted, this ring counts silently, it is built to last and I can send it back within 60 days. Emotion: calm, permission, a clear next step. | 60-day money-back, free US shipping, 1-year warranty (product page). Current discount unclear (confirm). | CTA |
+
+Limiting beliefs to dismantle:
+* "A digital counter is Bid'ah / not allowed." (VOC-16, 27, 28) — answer in B3.
+* "Fingers are the only proper way; a ring is lazy." (VOC-07, 36) — agree on the Sunnah, offer the ring as a helper.
+* "Smart rings are cheap clones that die." (VOC-11, 14, 33) — B5 with stated facts only.
+* "It will look ridiculous in the office / loud." (VOC-21, 40) — B4.
+* "I need to open my phone for dhikr, and then I scroll." (VOC-30) — B2.
+* "I'm not consistent enough, it is my fault." (user doc §Emotional Requirements) — B1/B2, no guilt.
+* Gift buyers: "A device is not a meaningful gift." (VOC-25, 35) — B5/B6 with a warm, practical frame.
+
+Argument outline (A1, 4-6 steps):
+1. Name the scene: the quiet meeting / the commute / the busy day where you wanted to say SubhanAllah and could not (VOC-21, 18).
+2. Reframe: it is not weak intention, it is friction: clicker noise, dropped beads, phone pull (VOC-21, 29, 30).
+3. Anchor in the Sunnah: keep the tongue moist, the constant deed is most loved (Tirmidhi 3375, Bukhari 6464), and honour fingers (Abu Dawud 1501) so there is no guilt.
+4. Show the mechanism: tap, count, pulse at 33/66/99, prayer alerts, app sync; worn on a hand, silent (product page).
+5. Remove risk: IP67, 6 sizes, 1-year warranty, 60-day money-back, free US shipping (product page).
+6. CTA: "Try it for 60 days" to alrayanrings.net.
+
+Gift outline (A2): occasion (Ramadan/Eid/Umrah/new Muslim friend) → "one easy habit" (B1) → looks like jewelry, practical (B4/B5) → permission and respect (B3 in one line) → 60-day return makes gifting safe (B6).
+
+PROOF GAPS (count 5): independent customer proof (store metrics banned); scientific/behavioural evidence for friction; "silent" and standalone-without-phone operation; size-exchange policy; scholar rulings not opened by us.

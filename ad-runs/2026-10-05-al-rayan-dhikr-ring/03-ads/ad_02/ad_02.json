@@ -1,0 +1,348 @@
+{
+ "id": "ad_02",
+ "format": "image",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG11",
+ "avatar": "A1",
+ "awareness": "problem-aware",
+ "hook_type": "callout",
+ "visual_concept": "wudu water hand / ring at sink",
+ "source_swipe_ids": [
+  "tayyib-beauty-175015416"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": null,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "callout",
+   "text": "Wudu five times a day. Your count needs this.",
+   "overlay": null
+  },
+  {
+   "id": "H2",
+   "type": "problem-agitation",
+   "text": "2-3 counters in your bag. None made for wudu.",
+   "overlay": null
+  },
+  {
+   "id": "H3",
+   "type": "question",
+   "text": "Lost your count at the sink again?",
+   "overlay": null
+  },
+  {
+   "id": "H4",
+   "type": "pattern-inversion",
+   "text": "Wudu didn't break your count. Your counter did.",
+   "overlay": null
+  },
+  {
+   "id": "H5",
+   "type": "benefit-statement",
+   "text": "Wear it to wudu. Keep your count.",
+   "overlay": null
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "Wear it to wudu. Keep your count.",
+ "primary_text": "Wudu five times a day. 2-3 counters in your bag. None made for wet hands.\n\nSet a counter down at the sink and you lose your count.\n\nThe Al Rayan Dhikr Ring 2.0 has IP67 water resistance. Wear it to wudu.\nTap to count. Feel a gentle pulse at 33, 66 and 99.\n\nSilent tracking. A discreet tool you can have all the time at work.\n\n$49.99 with free US shipping and a 60-day money-back guarantee.\nTap Shop Now and wear it to wudu.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Tap Shop Now and wear it to wudu.",
+  "offer": "$49.99 · free US shipping · 60-day money-back guarantee · 1-year tech warranty",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "img_main",
+   "slot": "HEADLINE_L1",
+   "text": "WUDU FIVE TIMES A DAY.",
+   "placement": "top band 14-28% of height, bold condensed sans, centered, up to 2 lines, cap height 5%"
+  },
+  {
+   "step": "img_main",
+   "slot": "HEADLINE_L2",
+   "text": "Your count needs this.",
+   "placement": "directly below, 28.5-35% of height, editorial serif bold green, centered"
+  },
+  {
+   "step": "img_main",
+   "slot": "BADGE_1",
+   "text": "IP67 WATER RESISTANT",
+   "placement": "badge grid top-left 59-62.5%, droplet icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_main",
+   "slot": "BADGE_2",
+   "text": "TAP TO COUNT",
+   "placement": "badge grid top-right 59-62.5%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_main",
+   "slot": "BADGE_3",
+   "text": "60-DAY GUARANTEE",
+   "placement": "badge grid bottom-left 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_main",
+   "slot": "BADGE_4",
+   "text": "FREE US SHIPPING",
+   "placement": "badge grid bottom-right 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v1",
+   "slot": "HEADLINE_L1",
+   "text": "Wear it to wudu.",
+   "placement": "top band 14-28% of height, bold condensed sans, centered, up to 2 lines, cap height 5%"
+  },
+  {
+   "step": "img_v1",
+   "slot": "HEADLINE_L2",
+   "text": "Keep your count.",
+   "placement": "directly below, 28.5-35% of height, editorial serif bold green, centered"
+  },
+  {
+   "step": "img_v1",
+   "slot": "BADGE_1",
+   "text": "IP67 WATER RESISTANT",
+   "placement": "badge grid top-left 59-62.5%, droplet icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v1",
+   "slot": "BADGE_2",
+   "text": "TAP TO COUNT",
+   "placement": "badge grid top-right 59-62.5%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v1",
+   "slot": "BADGE_3",
+   "text": "60-DAY GUARANTEE",
+   "placement": "badge grid bottom-left 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v1",
+   "slot": "BADGE_4",
+   "text": "FREE US SHIPPING",
+   "placement": "badge grid bottom-right 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v2",
+   "slot": "HEADLINE_L1",
+   "text": "WUDU FIVE TIMES A DAY.",
+   "placement": "top band 14-28% of height, bold condensed sans, centered, up to 2 lines, cap height 5%"
+  },
+  {
+   "step": "img_v2",
+   "slot": "HEADLINE_L2",
+   "text": "Your count needs this.",
+   "placement": "directly below, 28.5-35% of height, editorial serif bold green, centered"
+  },
+  {
+   "step": "img_v2",
+   "slot": "BADGE_1",
+   "text": "IP67 WATER RESISTANT",
+   "placement": "badge grid top-left 59-62.5%, droplet icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v2",
+   "slot": "BADGE_2",
+   "text": "TAP TO COUNT",
+   "placement": "badge grid top-right 59-62.5%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v2",
+   "slot": "BADGE_3",
+   "text": "60-DAY GUARANTEE",
+   "placement": "badge grid bottom-left 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v2",
+   "slot": "BADGE_4",
+   "text": "FREE US SHIPPING",
+   "placement": "badge grid bottom-right 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v3",
+   "slot": "HEADLINE_L1",
+   "text": "WUDU FIVE TIMES A DAY.",
+   "placement": "top band 14-28% of height, bold condensed sans, centered, up to 2 lines, cap height 5%"
+  },
+  {
+   "step": "img_v3",
+   "slot": "HEADLINE_L2",
+   "text": "Your count needs this.",
+   "placement": "directly below, 28.5-35% of height, editorial serif bold green, centered"
+  },
+  {
+   "step": "img_v3",
+   "slot": "BADGE_1",
+   "text": "IP67 WATER RESISTANT",
+   "placement": "badge grid top-left 59-62.5%, droplet icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v3",
+   "slot": "BADGE_2",
+   "text": "TAP TO COUNT",
+   "placement": "badge grid top-right 59-62.5%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v3",
+   "slot": "BADGE_3",
+   "text": "60-DAY GUARANTEE",
+   "placement": "badge grid bottom-left 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  },
+  {
+   "step": "img_v3",
+   "slot": "BADGE_4",
+   "text": "FREE US SHIPPING",
+   "placement": "badge grid bottom-right 62.5-66%, check icon, geometric sans medium ALL CAPS"
+  }
+ ],
+ "script": [],
+ "storyboard": [],
+ "voice_mode": null,
+ "voice": null,
+ "assembly": null,
+ "higgsfield_jobs": [
+  {
+   "step": "img_main",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A split-screen vertical ad image divided exactly in half by a thin vertical green line. LEFT panel: an extreme close-up of one right hand and wrist over a white ceramic bathroom sink, fingers cupped under a thin stream of clear tap water, water splashing and beading on the back of the hand and wrist, wet skin with natural droplets. The hand wears exactly one black metal smart ring on the ring finger with a small illuminated four-digit display; the ring is small in this panel and stays on the hand, splashed with water, not submerged. RIGHT panel: exactly one black smart ring floating upright at a slight three-quarter angle on a clean warm cream seamless backdrop, display facing the camera, soft shadow below. Two rings in total in the whole image.\n\nStyle: Polished, designed static ad with a clean editorial look: sharp macro photography on the left, crisp studio product render on the right, flat graphic text bands. Premium, calm, not cluttered.\n\nLighting: Left panel: soft bright window light from upper left, 5500K, crisp water droplets with small specular highlights. Right panel: soft diffused studio key light from upper left, warm cream gradient background, gentle ground shadow.\n\nCamera: Left panel: macro, slightly above the hand, 85mm lens, shallow depth of field, hand sharp. Right panel: eye-level product shot, 85mm lens, ring fully sharp.\n\nComposition: Vertical 9:16. Cream background #F5F0E6 across the whole frame. Text 1 spans 6% to 94% of width, from 14% to 28% of frame height, centered, on up to two balanced lines, broken at a natural word break. Text 2 sits directly below, from 28.5% to 35% of height, centered. A thin green #1F5A2E horizontal rule at 35.5% of height. Split panels occupy 36% to 58% of height, full width, each panel 50% of the width, divided by a 0.4% wide green #1F5A2E vertical line. Badge block on the cream strip from 59% to 66% of height: a 2 by 2 grid of four badges (two rows, two equal columns inside 6% side margins), row 1 at 59% to 62.5%, row 2 at 62.5% to 66%. Below 67% only cream background that gently fades to #EDE6D8, no elements. Focal flow: text 2 (green, largest weight) then text 1, then the hand, then the right ring, then the four badges.\n\nBrand colors: Background cream #F5F0E6 (fading to #EDE6D8 at the bottom). Text 1 black #111111. Text 2 deep green #1F5A2E. Divider lines and badge check icons deep green #1F5A2E. Badge text black #111111. The ring keeps its own black and gold logo colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring in the right panel, black version, upright, display facing the camera within 15 degrees, ring height about 22% of frame height, fully sharp, display digits and the gold logo button clearly visible. In the left panel one more copy of the same ring is worn on the ring finger, about 5% of frame height, display may be soft and need not be legible.\n\nText: Render exactly six text elements:\n1) \"WUDU FIVE TIMES A DAY.\" - bold condensed sans-serif, black weight, ALL CAPS, #111111, centered, top band 14% to 28% of frame height, on two balanced lines if the string does not fit one line at this size (never shrink below the stated size), cap height about 5% of frame height.\n2) \"Your count needs this.\" - editorial serif, bold, sentence case, deep green #1F5A2E, centered directly below text 1, 28.5% to 35% of frame height, one line, the largest text in the image, cap height about 5.5% of frame height.\n3) \"IP67 WATER RESISTANT\" - clean geometric sans-serif, medium weight, ALL CAPS, #111111, top-left of the badge grid, one line, preceded by a small deep green #1F5A2E water-droplet icon, cap height about 2.6% of frame height.\n4) \"TAP TO COUNT\" - same style as text 3, top-right of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\n5) \"60-DAY GUARANTEE\" - same style as text 3, bottom-left of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\n6) \"FREE US SHIPPING\" - same style as text 3, bottom-right of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\nNo other text is allowed other than the ring's own display and gold logo; do not render a CTA button.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact punctuation and case of each quoted string. High contrast on every element, all text fully inside 6% side margins, nothing touching the split line or the frame edge. Render only the six quoted strings plus the ring's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings above and the ring's own display and logo; misspelled, warped, mirrored, duplicated or cut-off letters; section labels from this prompt; more than the two rings described; altered or invented ring label or logo; watermarks; other brand names or logos; star ratings, review counts, seals, awards, 'clinically proven', press logos, the word waterproof; showers, swimming, submerged hands, pools, bathtubs; prayer beads, mosque interiors, faces, people other than the one hand and wrist; extra fingers, fused hands, distorted anatomy; plastic CGI skin; cluttered background; text in the top 14% or below 67% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v1",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A split-screen vertical ad image divided exactly in half by a thin vertical green line. LEFT panel: an extreme close-up of one right hand and wrist over a white ceramic bathroom sink, fingers cupped under a thin stream of clear tap water, water splashing and beading on the back of the hand and wrist, wet skin with natural droplets. The hand wears exactly one black metal smart ring on the ring finger with a small illuminated four-digit display; the ring is small in this panel and stays on the hand, splashed with water, not submerged. RIGHT panel: exactly one black smart ring floating upright at a slight three-quarter angle on a clean warm cream seamless backdrop, display facing the camera, soft shadow below. Two rings in total in the whole image.\n\nStyle: Polished, designed static ad with a clean editorial look: sharp macro photography on the left, crisp studio product render on the right, flat graphic text bands. Premium, calm, not cluttered.\n\nLighting: Left panel: soft bright window light from upper left, 5500K, crisp water droplets with small specular highlights. Right panel: soft diffused studio key light from upper left, warm cream gradient background, gentle ground shadow.\n\nCamera: Left panel: macro, slightly above the hand, 85mm lens, shallow depth of field, hand sharp. Right panel: eye-level product shot, 85mm lens, ring fully sharp.\n\nComposition: Vertical 9:16. Cream background #F5F0E6 across the whole frame. Text 1 spans 6% to 94% of width, from 14% to 28% of frame height, centered, on up to two balanced lines, broken at a natural word break. Text 2 sits directly below, from 28.5% to 35% of height, centered. A thin green #1F5A2E horizontal rule at 35.5% of height. Split panels occupy 36% to 58% of height, full width, each panel 50% of the width, divided by a 0.4% wide green #1F5A2E vertical line. Badge block on the cream strip from 59% to 66% of height: a 2 by 2 grid of four badges (two rows, two equal columns inside 6% side margins), row 1 at 59% to 62.5%, row 2 at 62.5% to 66%. Below 67% only cream background that gently fades to #EDE6D8, no elements. Focal flow: text 2 (green, largest weight) then text 1, then the hand, then the right ring, then the four badges.\n\nBrand colors: Background cream #F5F0E6 (fading to #EDE6D8 at the bottom). Text 1 black #111111. Text 2 deep green #1F5A2E. Divider lines and badge check icons deep green #1F5A2E. Badge text black #111111. The ring keeps its own black and gold logo colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring in the right panel, black version, upright, display facing the camera within 15 degrees, ring height about 22% of frame height, fully sharp, display digits and the gold logo button clearly visible. In the left panel one more copy of the same ring is worn on the ring finger, about 5% of frame height, display may be soft and need not be legible.\n\nText: Render exactly six text elements:\n1) \"Wear it to wudu.\" - bold condensed sans-serif, black weight, sentence case, #111111, centered, top band 14% to 28% of frame height, on two balanced lines if the string does not fit one line at this size (never shrink below the stated size), cap height about 5% of frame height.\n2) \"Keep your count.\" - editorial serif, bold, sentence case, deep green #1F5A2E, centered directly below text 1, 28.5% to 35% of frame height, one line, the largest text in the image, cap height about 5.5% of frame height.\n3) \"IP67 WATER RESISTANT\" - clean geometric sans-serif, medium weight, ALL CAPS, #111111, top-left of the badge grid, one line, preceded by a small deep green #1F5A2E water-droplet icon, cap height about 2.6% of frame height.\n4) \"TAP TO COUNT\" - same style as text 3, top-right of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\n5) \"60-DAY GUARANTEE\" - same style as text 3, bottom-left of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\n6) \"FREE US SHIPPING\" - same style as text 3, bottom-right of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\nNo other text is allowed other than the ring's own display and gold logo; do not render a CTA button.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact punctuation and case of each quoted string. High contrast on every element, all text fully inside 6% side margins, nothing touching the split line or the frame edge. Render only the six quoted strings plus the ring's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings above and the ring's own display and logo; misspelled, warped, mirrored, duplicated or cut-off letters; section labels from this prompt; more than the two rings described; altered or invented ring label or logo; watermarks; other brand names or logos; star ratings, review counts, seals, awards, 'clinically proven', press logos, the word waterproof; showers, swimming, submerged hands, pools, bathtubs; prayer beads, mosque interiors, faces, people other than the one hand and wrist; extra fingers, fused hands, distorted anatomy; plastic CGI skin; cluttered background; text in the top 14% or below 67% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v2",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A split-screen vertical ad image divided exactly in half by a thin vertical green line. RIGHT panel: an extreme close-up of one right hand and wrist over a white ceramic bathroom sink, fingers cupped under a thin stream of clear tap water, water splashing and beading on the back of the hand and wrist, wet skin with natural droplets. The hand wears exactly one black metal smart ring on the ring finger with a small illuminated four-digit display; the ring is small in this panel and stays on the hand, splashed with water, not submerged. LEFT panel: exactly one black smart ring floating upright at a slight three-quarter angle on a clean warm cream seamless backdrop, display facing the camera, soft shadow below. Two rings in total in the whole image.\n\nStyle: Polished, designed static ad with a clean editorial look: sharp macro photography on the left, crisp studio product render on the right, flat graphic text bands. Premium, calm, not cluttered.\n\nLighting: Right panel: soft bright window light from upper left, 5500K, crisp water droplets with small specular highlights. Left panel: soft diffused studio key light from upper left, warm cream gradient background, gentle ground shadow.\n\nCamera: Right panel: macro, slightly above the hand, 85mm lens, shallow depth of field, hand sharp. Left panel: eye-level product shot, 85mm lens, ring fully sharp.\n\nComposition: Vertical 9:16. Cream background #F5F0E6 across the whole frame. Text 1 spans 6% to 94% of width, from 14% to 28% of frame height, centered, on up to two balanced lines, broken at a natural word break. Text 2 sits directly below, from 28.5% to 35% of height, centered. A thin green #1F5A2E horizontal rule at 35.5% of height. Split panels occupy 36% to 58% of height, full width, each panel 50% of the width, divided by a 0.4% wide green #1F5A2E vertical line. Badge block on the cream strip from 59% to 66% of height: a 2 by 2 grid of four badges (two rows, two equal columns inside 6% side margins), row 1 at 59% to 62.5%, row 2 at 62.5% to 66%. Below 67% only cream background that gently fades to #EDE6D8, no elements. Focal flow: text 2 (green, largest weight) then text 1, then the left ring, then the hand, then the four badges.\n\nBrand colors: Background cream #F5F0E6 (fading to #EDE6D8 at the bottom). Text 1 black #111111. Text 2 deep green #1F5A2E. Divider lines and badge check icons deep green #1F5A2E. Badge text black #111111. The ring keeps its own black and gold logo colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring in the left panel, black version, upright, display facing the camera within 15 degrees, ring height about 22% of frame height, fully sharp, display digits and the gold logo button clearly visible. In the right panel one more copy of the same ring is worn on the ring finger, about 5% of frame height, display may be soft and need not be legible.\n\nText: Render exactly six text elements:\n1) \"WUDU FIVE TIMES A DAY.\" - bold condensed sans-serif, black weight, ALL CAPS, #111111, centered, top band 14% to 28% of frame height, on two balanced lines if the string does not fit one line at this size (never shrink below the stated size), cap height about 5% of frame height.\n2) \"Your count needs this.\" - editorial serif, bold, sentence case, deep green #1F5A2E, centered directly below text 1, 28.5% to 35% of frame height, one line, the largest text in the image, cap height about 5.5% of frame height.\n3) \"IP67 WATER RESISTANT\" - clean geometric sans-serif, medium weight, ALL CAPS, #111111, top-left of the badge grid, one line, preceded by a small deep green #1F5A2E water-droplet icon, cap height about 2.6% of frame height.\n4) \"TAP TO COUNT\" - same style as text 3, top-right of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\n5) \"60-DAY GUARANTEE\" - same style as text 3, bottom-left of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\n6) \"FREE US SHIPPING\" - same style as text 3, bottom-right of the badge grid, preceded by a small deep green #1F5A2E check-in-circle icon.\nNo other text is allowed other than the ring's own display and gold logo; do not render a CTA button.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact punctuation and case of each quoted string. High contrast on every element, all text fully inside 6% side margins, nothing touching the split line or the frame edge. Render only the six quoted strings plus the ring's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings above and the ring's own display and logo; misspelled, warped, mirrored, duplicated or cut-off letters; section labels from this prompt; more than the two rings described; altered or invented ring label or logo; watermarks; other brand names or logos; star ratings, review counts, seals, awards, 'clinically proven', press logos, the word waterproof; showers, swimming, submerged hands, pools, bathtubs; prayer beads, mosque interiors, faces, people other than the one hand and wrist; extra fingers, fused hands, distorted anatomy; plastic CGI skin; cluttered background; text in the top 14% or below 67% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v3",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A split-screen vertical ad image divided exactly in half by a thin vertical cream line. LEFT panel: an extreme close-up of one right hand and wrist over a dark grey slate bathroom sink, fingers cupped under a thin stream of clear tap water, water splashing and beading on the back of the hand and wrist, wet skin with natural droplets. The hand wears exactly one black metal smart ring on the ring finger with a small illuminated four-digit display; the ring is small in this panel and stays on the hand, splashed with water, not submerged. RIGHT panel: exactly one black smart ring floating upright at a slight three-quarter angle on a clean deep green #1F5A2E seamless backdrop with a soft cream rim light, display facing the camera, soft shadow below. Two rings in total in the whole image.\n\nStyle: Polished, designed static ad with a clean editorial look: sharp macro photography on the left, crisp studio product render on the right, flat graphic text bands. Premium, calm, not cluttered.\n\nLighting: Left panel: soft bright window light from upper left, 5500K, crisp water droplets with small specular highlights. Right panel: soft diffused studio key light from upper left, deep green gradient background, gentle ground shadow.\n\nCamera: Left panel: macro, slightly above the hand, 85mm lens, shallow depth of field, hand sharp. Right panel: eye-level product shot, 85mm lens, ring fully sharp.\n\nComposition: Vertical 9:16. Deep green background #1F5A2E across the whole frame. Text 1 spans 6% to 94% of width, from 14% to 28% of frame height, centered, on up to two balanced lines, broken at a natural word break. Text 2 sits directly below, from 28.5% to 35% of height, centered. A thin cream #F5F0E6 horizontal rule at 35.5% of height. Split panels occupy 36% to 58% of height, full width, each panel 50% of the width, divided by a 0.4% wide cream #F5F0E6 vertical line. Badge block on the cream strip from 59% to 66% of height: a 2 by 2 grid of four badges (two rows, two equal columns inside 6% side margins), row 1 at 59% to 62.5%, row 2 at 62.5% to 66%. Below 67% only deep green background that gently fades to #174421, no elements. Focal flow: text 2 (gold, largest weight) then text 1, then the hand, then the right ring, then the four badges.\n\nBrand colors: Background deep green #1F5A2E (fading to #174421 at the bottom). Headline text 1 cream #F5F0E6. Text 2 warm gold #D9B65A. Divider lines and badge check icons cream #F5F0E6. Badge text cream #F5F0E6. The ring keeps its own black and gold logo colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring in the right panel, black version, upright, display facing the camera within 15 degrees, ring height about 22% of frame height, fully sharp, display digits and the gold logo button clearly visible. In the left panel one more copy of the same ring is worn on the ring finger, about 5% of frame height, display may be soft and need not be legible.\n\nText: Render exactly six text elements:\n1) \"WUDU FIVE TIMES A DAY.\" - bold condensed sans-serif, black weight, ALL CAPS, cream #F5F0E6, centered, top band 14% to 28% of frame height, on two balanced lines if the string does not fit one line at this size (never shrink below the stated size), cap height about 5% of frame height.\n2) \"Your count needs this.\" - editorial serif, bold, sentence case, warm gold #D9B65A, centered directly below text 1, 28.5% to 35% of frame height, one line, the largest text in the image, cap height about 5.5% of frame height.\n3) \"IP67 WATER RESISTANT\" - clean geometric sans-serif, medium weight, ALL CAPS, cream #F5F0E6, top-left of the badge grid, one line, preceded by a small cream #F5F0E6 water-droplet icon, cap height about 2.6% of frame height.\n4) \"TAP TO COUNT\" - same style as text 3, top-right of the badge grid, preceded by a small cream #F5F0E6 check-in-circle icon.\n5) \"60-DAY GUARANTEE\" - same style as text 3, bottom-left of the badge grid, preceded by a small cream #F5F0E6 check-in-circle icon.\n6) \"FREE US SHIPPING\" - same style as text 3, bottom-right of the badge grid, preceded by a small cream #F5F0E6 check-in-circle icon.\nNo other text is allowed other than the ring's own display and gold logo; do not render a CTA button.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact punctuation and case of each quoted string. High contrast on every element, all text fully inside 6% side margins, nothing touching the split line or the frame edge. Render only the six quoted strings plus the ring's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings above and the ring's own display and logo; misspelled, warped, mirrored, duplicated or cut-off letters; section labels from this prompt; more than the two rings described; altered or invented ring label or logo; watermarks; other brand names or logos; star ratings, review counts, seals, awards, 'clinically proven', press logos, the word waterproof; showers, swimming, submerged hands, pools, bathtubs; prayer beads, mosque interiors, faces, people other than the one hand and wrist; extra fingers, fused hands, distorted anatomy; plastic CGI skin; cluttered background; text in the top 14% or below 67% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  }
+ ],
+ "variations": [
+  {
+   "step": "img_v1",
+   "kind": "V-copy",
+   "delta": "Hook H5 'Wear it to wudu. Keep your count.' split into two lines, same layout"
+  },
+  {
+   "step": "img_v2",
+   "kind": "V-layout",
+   "delta": "Panels swapped: ring hero left, wudu hand right; text zones unchanged"
+  },
+  {
+   "step": "img_v3",
+   "kind": "V-scene",
+   "delta": "Deep green #1F5A2E background, cream and gold text, dark slate sink"
+  }
+ ],
+ "est_credits": 2.0,
+ "chief": {
+  "rounds": 1,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_02/chief_notes_v1.md"
+  ],
+  "residual_concerns": [
+   "VOC-24 is brand/manual copy, not customer voice: never present as a buyer quote",
+   "IP67 copy stays at wudu/hand-washing level; render splash at sink only, never submerged; no waterproof/shower/swim",
+   "Sale price / 25% off unconfirmed, not used",
+   "HEADLINE is 9 words (swipe 10), within the ~8 tolerance"
+  ]
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "IP67 WATER RESISTANT",
+    "source": "01-research/offer_brief.md § Step 0 + Claims we CAN say (A-5)"
+   },
+   {
+    "text": "TAP TO COUNT",
+    "source": "concept_slate.md A-1; offer_brief § Claims we CAN say"
+   },
+   {
+    "text": "60-DAY GUARANTEE",
+    "source": "offer_brief § Claims we CAN say (A-8)"
+   },
+   {
+    "text": "FREE US SHIPPING",
+    "source": "offer_brief § Claims we CAN say (A-7)"
+   },
+   {
+    "text": "$49.99 with free US shipping and a 60-day money-back guarantee",
+    "source": "offer_brief § Claims we CAN say (A-6, A-7, A-8)"
+   },
+   {
+    "text": "Feel a gentle pulse at 33, 66 and 99",
+    "source": "offer_brief § Claims we CAN say (A-2)"
+   },
+   {
+    "text": "A discreet tool you can have all the time at work.",
+    "source": "Q22 (VOC-22), user_market_research.md; problem/desire language only"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md BADGE_3, primary text, CTA",
+    "resolution": "sourced A-8, offer_brief; kept"
+   },
+   {
+    "term": "waterproof / showers / swimming",
+    "location": "img_* prompts Avoid block",
+    "resolution": "prohibitions only (named so the model does not render them); no claim"
+   }
+  ],
+  "checked_by": "ad02-chief + ad02-pe"
+ }
+}

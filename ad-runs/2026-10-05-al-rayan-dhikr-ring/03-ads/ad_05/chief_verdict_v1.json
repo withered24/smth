@@ -1,0 +1,10 @@
+{"verdict":"REVISE","round":1,"ad_id":"ad_05","tier":2,
+ "notes":["N1 [Primary text L1-L4] Keep the B2 reframe added in chiefed v1; do not revert to 'Either way, you lose your count' (false for the clicker). Example fix: \"Beads scatter. Clickers shout. Your intention was never the problem.\"",
+ "N2 [Primary text L4] Keep bridge \"That is friction in the tool, not weakness in you.\" between pain lines and product (B4). Kept in chiefed v1.",
+ "N3 [Meta headline 1] Keep A-2 wording, not 'Pulse at 33'. Example fix: \"Tap to count. Gentle vibration at 33.\"",
+ "N4 [Primary text L5-L6, optional] One earned identity line for A1 if it fits, e.g. \"For the one who keeps dhikr going at work.\" (VOC-22). Not required.",
+ "N5 [LABEL_1, optional] \"Beads: one bump\" would show the cause; current \"Beads: count gone\" acceptable."],
+ "edited_copy_path":"03-ads/ad_05/copy_chiefed_v1.md",
+ "notes_path":"03-ads/ad_05/chief_notes_v1.md",
+ "benchmarks":{"B1":"PASS","B2":"PASS","B3":"PASS","B4":"PASS","B5":"PASS","B6":"PASS","B7":"PASS","B8":"PASS","B9":"PASS","B10":"PASS"},
+ "residual_concerns":[],"chiefing":"skill"}

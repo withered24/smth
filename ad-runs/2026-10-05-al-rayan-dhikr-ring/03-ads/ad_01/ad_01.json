@@ -1,0 +1,225 @@
+{
+ "id": "ad_01",
+ "format": "image",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG7 consistency over intensity",
+ "avatar": "A1 discreet daily rememberer",
+ "awareness": "problem-aware",
+ "hook_type": "story-confession",
+ "visual_concept": "lo-fi night bedside, ring glowing",
+ "source_swipe_ids": [
+  "yaqeen-books-126182379"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": null,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "story-confession",
+   "text": "I did a big dhikr week. Then nothing.",
+   "overlay": null
+  },
+  {
+   "id": "H2",
+   "type": "problem-agitation",
+   "text": "I lost my count every single night.",
+   "overlay": null
+  },
+  {
+   "id": "H3",
+   "type": "pattern-inversion",
+   "text": "Your dhikr was never weak. Your tools were.",
+   "overlay": null
+  },
+  {
+   "id": "H4",
+   "type": "callout",
+   "text": "If your dhikr dies by Wednesday, read this.",
+   "overlay": null
+  },
+  {
+   "id": "H5",
+   "type": "question",
+   "text": "Why does my dhikr stop after day three?",
+   "overlay": null
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "I did a big dhikr week. Then nothing.",
+ "primary_text": "I did a big dhikr week. Then nothing.\nNot because I stopped caring.\nIt was late. I was in bed. I wanted to say SubhanAllah a few more times.\nI reached for my phone to open the counter. Next thing I knew I was deep in my feed, and the dhikr was gone.\nAnother night I used beads. A message came in. I lost my count.\nI wondered if my intention was the weak part.\nThen I read this. Narrated by Aisha: \"the most beloved deed to Allah is the most regular and constant even if it were little.\" (Sahih al-Bukhari 6464)\nLittle. Not big once. Small, every day.\nSo it was never my intention. It was the friction: the phone, the beads, the lost count.\nAl Rayan Dhikr Ring 2.0 puts the count on your finger. Tap to count. A gentle pulse at 33, 66 and 99. No phone to open.\nCounting on fingers remains the Sunnah. The ring is a helper when the count gets long.\nIt is $49.99, with free US shipping and a 60-day money-back guarantee.\nTap Shop Now and try it.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Tap Shop Now and try it.",
+  "offer": "$49.99, free US shipping",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "img_main",
+   "slot": "UI_TEXT_1",
+   "text": "5332",
+   "placement": "ring's own lit display window, ring on the ring finger, 46-60% of frame height, 44-78% of frame width, white 7-segment digits on black glass (product's own display, as in the reference, not an overlay)"
+  },
+  {
+   "step": "img_v1",
+   "slot": "UI_TEXT_1",
+   "text": "5332",
+   "placement": "ring's own lit display window, ring on the ring finger, 46-60% of frame height, 44-78% of frame width, white 7-segment digits on black glass (product's own display, as in the reference, not an overlay)"
+  },
+  {
+   "step": "img_v2",
+   "slot": "UI_TEXT_1",
+   "text": "5332",
+   "placement": "ring's own lit display window, ring on the ring finger, 46-60% of frame height, 44-78% of frame width, white 7-segment digits on black glass (product's own display, as in the reference, not an overlay)"
+  },
+  {
+   "step": "img_v3",
+   "slot": "UI_TEXT_1",
+   "text": "5332",
+   "placement": "ring's own lit display window, 1:1 frame, ring about 17% of frame height, white 7-segment digits on black glass (product's own display)"
+  }
+ ],
+ "script": [],
+ "storyboard": [],
+ "voice_mode": null,
+ "voice": null,
+ "assembly": null,
+ "higgsfield_jobs": [
+  {
+   "step": "img_main",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid late-night snapshot of a bedside nightstand seen from above-left at a slight tilt. A relaxed adult right hand (no face, only wrist and a plain dark grey cotton pyjama sleeve) rests palm-down on the nightstand edge in the right-center of the frame. Exactly one ring is worn on the ring finger of that hand, its small digital display lit and glowing: it is the brightest and most important object. At the far left edge a smartphone lies face down and dark, with a white charging cable trailing from it. Behind the hand stand one ceramic mug of tea and one closed glasses case, soft and out of focus, and a small lamp base blurred at the upper right. A bunched deep-green fabric throw sits at the left edge. No people besides the one hand.\n\nStyle: Authentic amateur phone photo, native lo-fi UGC look, not a studio ad. Low-light grain, slight motion blur on the background, imperfect tilted framing, natural clutter. No graphic design elements, no borders, no filters.\n\nLighting: One small warm bedside lamp at the upper right, about 2400K, amber glow falling softly across the nightstand and the back of the hand. The ring display adds a crisp white glow on the finger. Deep near-black shadows (#0F0D0A) fill the left and top of the frame. Quiet, private, late-night mood.\n\nCamera: Handheld phone at about 45 degrees from above-left, 26mm wide lens, close enough that the ring display reads clearly, background soft, ring and hand in focus.\n\nComposition: Vertical 9:16 (tall portrait). Top 0-14%: only dark wall and shadow. The hand rests at 38-64% of frame height, wrist entering from the right edge; the ring sits at about 46-60% of frame height and 44-78% of frame width and is about 14% of frame height, display window facing the camera. Dark phone at the far left edge, 52-68% height, 0-18% width, cropped by the frame edge. Mug at 34-46% height, 30-44% width, out of focus. Lamp glow upper right at 14-30%. Below 66%: dark nightstand surface and cable only, nothing important. Focal flow: ring display first, then hand, then lamp glow, then the dark phone.\n\nBrand colors: Shadows #0F0D0A. Lamp light amber #E8B76A. Throw blanket deep green #1F5A2E, muted in the dark. Ring black #0B0B0C with gold logo #D9B96A and white digits #FFFFFF. Phone dark #1A1A1C. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a smart ring: a glossy black wide flat metal band with a rectangular black glass display window showing four white seven-segment digits, and a smaller rounded-square panel holding a gold heart-shaped logo mark to the left of the display. Exactly one ring, worn on the ring finger, display and logo panel facing the camera within 25 degrees, fully visible, sharp, not covered by any finger, the phone or the mug. The display digits read as in the reference.\n\nText: Render exactly one text element, and it is the ring's own display, not an overlay: the lit display window shows the four digits \"5332\" in white seven-segment digits (#FFFFFF) on black glass, centered in the display window, exactly as in the product reference image, display cap height about 2.8% of frame height. There is no other text anywhere in the image: no text on the phone, no captions, no headline, no labels.\n\nLegibility: The digits are spelled five, three, three, two: \"5332\", in that order, each digit fully visible, evenly spaced, not cut off, with a soft white glow. The ring's gold logo is a symbol, not letters. Render only the four display digits and the ring's logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four ring display digits \"5332\"; text or UI on the phone screen; a visible face; a second ring or extra jewellery; misspelled, warped or duplicated digits; notification banners or app logos; Quran pages, calligraphy, religious symbols or prayer beads; star ratings, review counts, badges, seals, \"clinically proven\" claims; watermarks; other brand names or logos; extra fingers, fused or bent fingers, distorted hand; plastic CGI skin; studio lighting or glossy ad polish; any text in the top 14% or bottom 28% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v1",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid late-night snapshot of a bedside nightstand seen from above-left at a slight tilt. A relaxed adult left hand (no face, only wrist and a plain dark grey cotton pyjama sleeve) rests palm-down on the nightstand edge in the left-center of the frame. Exactly one ring is worn on the ring finger of that left hand, its small digital display lit and glowing: it is the brightest and most important object. At the far right edge a smartphone lies face down and dark, with a white charging cable trailing from it. Behind the hand stand one ceramic mug of tea and one closed glasses case, soft and out of focus, and a small lamp base blurred at the upper left. A bunched deep-green fabric throw sits at the right edge. No people besides the one hand.\n\nStyle: Authentic amateur phone photo, native lo-fi UGC look, not a studio ad. Low-light grain, slight motion blur on the background, imperfect tilted framing, natural clutter. No graphic design elements, no borders, no filters.\n\nLighting: One small warm bedside lamp at the upper left, about 2400K, amber glow falling softly across the nightstand and the back of the hand. The ring display adds a crisp white glow on the finger. Deep near-black shadows (#0F0D0A) fill the right and top of the frame. Quiet, private, late-night mood.\n\nCamera: Handheld phone at about 45 degrees from above-left, 26mm wide lens, close enough that the ring display reads clearly, background soft, ring and hand in focus.\n\nComposition: Vertical 9:16 (tall portrait). Top 0-14%: only dark wall and shadow. The hand rests at 38-64% of frame height, wrist entering from the left edge; the ring sits at about 46-60% of frame height and 22-56% of frame width and is about 14% of frame height, display window facing the camera. Dark phone at the far right edge, 52-68% height, 82-100% width, cropped by the frame edge. Mug at 34-46% height, 56-70% width, out of focus. Lamp glow upper left at 14-30%. Below 66%: dark nightstand surface and cable only, nothing important. Focal flow: ring display first, then hand, then lamp glow, then the dark phone.\n\nBrand colors: Shadows #0F0D0A. Lamp light amber #E8B76A. Throw blanket deep green #1F5A2E, muted in the dark. Ring black #0B0B0C with gold logo #D9B96A and white digits #FFFFFF. Phone dark #1A1A1C. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a smart ring: a glossy black wide flat metal band with a rectangular black glass display window showing four white seven-segment digits, and a smaller rounded-square panel holding a gold heart-shaped logo mark to the left of the display. Exactly one ring, worn on the ring finger, display and logo panel facing the camera within 25 degrees, fully visible, sharp, not covered by any finger, the phone or the mug. The display digits read as in the reference.\n\nText: Render exactly one text element, and it is the ring's own display, not an overlay: the lit display window shows the four digits \"5332\" in white seven-segment digits (#FFFFFF) on black glass, centered in the display window, exactly as in the product reference image, display cap height about 2.8% of frame height. There is no other text anywhere in the image: no text on the phone, no captions, no headline, no labels.\n\nLegibility: The digits are spelled five, three, three, two: \"5332\", in that order, each digit fully visible, evenly spaced, not cut off, with a soft white glow. The ring's gold logo is a symbol, not letters. Render only the four display digits and the ring's logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four ring display digits \"5332\"; text or UI on the phone screen; a visible face; a second ring or extra jewellery; misspelled, warped or duplicated digits; notification banners or app logos; Quran pages, calligraphy, religious symbols or prayer beads; star ratings, review counts, badges, seals, \"clinically proven\" claims; watermarks; other brand names or logos; extra fingers, fused or bent fingers, distorted hand; plastic CGI skin; studio lighting or glossy ad polish; any text in the top 14% or bottom 28% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v2",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid late-night snapshot of a narrow kitchen counter seen from above-left at a slight tilt. A relaxed adult right hand (no face, only wrist and a plain dark grey sleeve) wraps around one ceramic mug of tea in the right-center of the frame, the ring on its ring finger with the small digital display lit and glowing and turned toward the camera: it is the brightest and most important object. At the lower left a smartphone lies face down and dark, with a white charging cable. Behind them a dish rack, a kettle and a small bottle, all soft and out of focus, with a warm under-cabinet light strip at the upper right. The counter is slightly messy with a few crumbs. No people besides the one hand.\n\nStyle: Authentic amateur phone photo, native lo-fi UGC look, not a studio ad. Low-light grain, slight motion blur on the background, imperfect tilted framing, natural clutter. No graphic design elements, no borders, no filters.\n\nLighting: A warm under-cabinet light strip at the upper right, about 2700K, amber glow across the counter and the back of the hand. The ring display adds a crisp white glow. Deep near-black shadows (#0F0D0A) fill the left and top of the frame. Quiet, private, one-in-the-morning mood.\n\nCamera: Handheld phone at about 45 degrees from above-left, 26mm wide lens, close enough that the ring display reads clearly, background soft, ring and hand in focus.\n\nComposition: Vertical 9:16 (tall portrait). Top 0-14%: only dark cabinet and shadow. The hand and mug rest at 36-64% of frame height, wrist entering from the right edge; the ring sits at about 44-58% of frame height and 44-78% of frame width and is about 14% of frame height, display window facing the camera, not hidden by the mug. Dark phone at 56-70% height, 6-30% width. Light strip glow at 14-30% upper right. Below 70%: dark counter and cable only, nothing important. Focal flow: ring display first, then hand and mug, then light strip, then the dark phone.\n\nBrand colors: Shadows #0F0D0A. Under-cabinet light amber #E8B76A. Mug deep green #1F5A2E. Ring black #0B0B0C with gold logo #D9B96A and white digits #FFFFFF. Phone dark #1A1A1C. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a smart ring: a glossy black wide flat metal band with a rectangular black glass display window showing four white seven-segment digits, and a smaller rounded-square panel holding a gold heart-shaped logo mark to the left of the display. Exactly one ring, worn on the ring finger, display and logo panel facing the camera within 25 degrees, fully visible, sharp, not covered by any finger, the phone or the mug. The display digits read as in the reference.\n\nText: Render exactly one text element, and it is the ring's own display, not an overlay: the lit display window shows the four digits \"5332\" in white seven-segment digits (#FFFFFF) on black glass, centered in the display window, exactly as in the product reference image, display cap height about 2.8% of frame height. There is no other text anywhere in the image: no text on the phone, no captions, no headline, no labels.\n\nLegibility: The digits are spelled five, three, three, two: \"5332\", in that order, each digit fully visible, evenly spaced, not cut off, with a soft white glow. The ring's gold logo is a symbol, not letters. Render only the four display digits and the ring's logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four ring display digits \"5332\"; text or UI on the phone screen; a visible face; a second ring or extra jewellery; misspelled, warped or duplicated digits; notification banners or app logos; Quran pages, calligraphy, religious symbols or prayer beads; star ratings, review counts, badges, seals, \"clinically proven\" claims; watermarks; other brand names or logos; extra fingers, fused or bent fingers, distorted hand; plastic CGI skin; studio lighting or glossy ad polish; any text in the top 14% or bottom 28% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v3",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "1:1",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid late-night snapshot of a bedside nightstand seen from above-left at a slight tilt. A relaxed adult right hand (no face, only wrist and a plain dark grey cotton pyjama sleeve) rests palm-down on the nightstand edge in the right-center of the frame. Exactly one ring is worn on the ring finger of that hand, its small digital display lit and glowing: it is the brightest and most important object. At the far left edge a smartphone lies face down and dark, with a white charging cable trailing from it. Behind the hand stand one ceramic mug of tea and one closed glasses case, soft and out of focus, and a small lamp base blurred at the upper right. A bunched deep-green fabric throw sits at the left edge. No people besides the one hand.\n\nStyle: Authentic amateur phone photo, native lo-fi UGC look, not a studio ad. Low-light grain, slight motion blur on the background, imperfect tilted framing, natural clutter. No graphic design elements, no borders, no filters.\n\nLighting: One small warm bedside lamp at the upper right, about 2400K, amber glow falling softly across the nightstand and the back of the hand. The ring display adds a crisp white glow on the finger. Deep near-black shadows (#0F0D0A) fill the left and top of the frame. Quiet, private, late-night mood.\n\nCamera: Handheld phone at about 45 degrees from above-left, 26mm wide lens, close enough that the ring display reads clearly, background soft, ring and hand in focus.\n\nComposition: Square 1:1. Keep a 5% margin on every side, nothing important in the outer 5%. The hand rests at 34-78% of frame height, wrist entering from the right edge; the ring sits at about 46-68% of frame height and 42-80% of frame width and is about 17% of frame height, display window facing the camera. Dark phone at the far left edge, 54-76% height, 0-16% width, cropped by the frame edge. Mug at 28-42% height, 28-44% width, out of focus. Lamp glow upper right at 8-28%. Below 82%: dark nightstand surface and cable only. Focal flow: ring display first, then hand, then lamp glow, then the dark phone.\n\nBrand colors: Shadows #0F0D0A. Lamp light amber #E8B76A. Throw blanket deep green #1F5A2E, muted in the dark. Ring black #0B0B0C with gold logo #D9B96A and white digits #FFFFFF. Phone dark #1A1A1C. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a smart ring: a glossy black wide flat metal band with a rectangular black glass display window showing four white seven-segment digits, and a smaller rounded-square panel holding a gold heart-shaped logo mark to the left of the display. Exactly one ring, worn on the ring finger, display and logo panel facing the camera within 25 degrees, fully visible, sharp, not covered by any finger, the phone or the mug. The display digits read as in the reference.\n\nText: Render exactly one text element, and it is the ring's own display, not an overlay: the lit display window shows the four digits \"5332\" in white seven-segment digits (#FFFFFF) on black glass, centered in the display window, exactly as in the product reference image, display cap height about 2.8% of frame height. There is no other text anywhere in the image: no text on the phone, no captions, no headline, no labels.\n\nLegibility: The digits are spelled five, three, three, two: \"5332\", in that order, each digit fully visible, evenly spaced, not cut off, with a soft white glow. The ring's gold logo is a symbol, not letters. Render only the four display digits and the ring's logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four ring display digits \"5332\"; text or UI on the phone screen; a visible face; a second ring or extra jewellery; misspelled, warped or duplicated digits; notification banners or app logos; Quran pages, calligraphy, religious symbols or prayer beads; star ratings, review counts, badges, seals, \"clinically proven\" claims; watermarks; other brand names or logos; extra fingers, fused or bent fingers, distorted hand; plastic CGI skin; studio lighting or glossy ad polish; any text near the frame edges.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  }
+ ],
+ "variations": [
+  {
+   "step": "img_v1",
+   "kind": "V-layout",
+   "delta": "Mirror composition: left hand wears the ring, wrist from the left, dark phone at the right edge, lamp glow upper left, throw on the right."
+  },
+  {
+   "step": "img_v2",
+   "kind": "V-scene",
+   "delta": "Kitchen counter at night closer to the swipe: ring hand wrapped around a mug, dark phone lower left, under-cabinet light strip upper right."
+  },
+  {
+   "step": "img_v3",
+   "kind": "V-format",
+   "delta": "1:1 feed re-layout of the main scene, ring larger (about 17% of frame height), 5% margins; no on-image hook exists, so V-copy has nothing to swap (alt hooks H2-H5 are Meta headline/primary-text tests)."
+  }
+ ],
+ "est_credits": 2.0,
+ "chief": {
+  "rounds": 2,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_01/chief_notes_v1.md",
+   "03-ads/ad_01/chief_notes_v2.md"
+  ],
+  "residual_concerns": []
+ },
+ "truth_check": {
+  "status": "FIXED",
+  "claims": [
+   {
+    "text": "Narrated by Aisha: \"the most beloved deed to Allah is the most regular and constant even if it were little.\" (Sahih al-Bukhari 6464)",
+    "source": "01-research/offer_brief.md § Verified Islamic sources #13"
+   },
+   {
+    "text": "Tap to count. A gentle pulse at 33, 66 and 99.",
+    "source": "01-research/offer_brief.md § Step 0 / UMS (A-1, A-2)"
+   },
+   {
+    "text": "Counting on fingers remains the Sunnah.",
+    "source": "01-research/offer_brief.md § Objections + Verified sources #8 (A-13)"
+   },
+   {
+    "text": "$49.99, free US shipping",
+    "source": "01-research/offer_brief.md § Step 0 (A-6, A-7)"
+   },
+   {
+    "text": "60-day money-back guarantee",
+    "source": "01-research/offer_brief.md § Step 0 (A-8)"
+   },
+   {
+    "text": "I lost my count (beads, interrupted); pulled into my feed on the phone (persona story, no result claim)",
+    "source": "Q29, Q30"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md primary text, CTA, Meta description",
+    "resolution": "documented offer term A-8, kept"
+   },
+   {
+    "term": "clinically proven / star ratings / badges / review counts",
+    "location": "img_main, img_v1-v3 Avoid block",
+    "resolution": "named only as exclusions; none rendered"
+   },
+   {
+    "term": "5332",
+    "location": "ring display digits in all image prompts",
+    "resolution": "the product's own display as in product_black.png, not a count claim"
+   }
+  ],
+  "checked_by": "ad01-chief + ad01-pe"
+ }
+}

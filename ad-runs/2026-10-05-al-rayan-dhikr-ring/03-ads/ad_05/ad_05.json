@@ -1,0 +1,300 @@
+{
+ "id": "ad_05",
+ "format": "image",
+ "route": "new_concept",
+ "concept_type": "comparison",
+ "angle": "ANG8 - the old tools fail you: beads scatter at one bump, the clicker announces itself; the ring taps silently and pulses at 33",
+ "avatar": "A1 discreet daily rememberer",
+ "awareness": "solution-aware",
+ "hook_type": "us-vs-them",
+ "visual_concept": "beads vs clicker vs ring bands",
+ "source_swipe_ids": [],
+ "aspect_ratio": "9:16",
+ "target_seconds": null,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "us-vs-them",
+   "text": "Beads scatter. Clickers shout. This doesn't.",
+   "overlay": null
+  },
+  {
+   "id": "H2",
+   "type": "voc-quote",
+   "text": "I lost my count on physical beads.",
+   "overlay": null
+  },
+  {
+   "id": "H3",
+   "type": "problem-agitation",
+   "text": "One bump, and the count is gone.",
+   "overlay": null
+  },
+  {
+   "id": "H4",
+   "type": "callout",
+   "text": "Clicker echoing in your quiet office?",
+   "overlay": null
+  },
+  {
+   "id": "H5",
+   "type": "question",
+   "text": "Still losing count?",
+   "overlay": null
+  },
+  {
+   "id": "H6",
+   "type": "us-vs-them",
+   "text": "Beads drop. Clickers click. Rings tap.",
+   "overlay": null
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "Gentle vibrations at 33, 66 and 99",
+ "primary_text": "Beads scatter. Clickers shout. Your intention was never the problem.\nYou lost your count on physical beads when someone interrupted you.\nYou winced at loud clicking in a quiet office space.\nThat is friction in the tool, not weakness in you.\nThe Al Rayan Dhikr Ring 2.0 sits on your finger. Tap to count your dhikr. Silent tracking, so there is no click to explain.\nA gentle vibration at 33, 66 and 99 tells you where you are. It looks like a ring.\n$49.99. Free US shipping. 60-day money-back guarantee.\nTap Shop Now and try it.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Tap Shop Now and try it.",
+  "offer": "$49.99 · free US shipping · 60-day money-back guarantee · 1-year tech warranty",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "img_main",
+   "slot": "HEADLINE",
+   "text": "Beads scatter. Clickers shout. This doesn't.",
+   "placement": "top band 14-23% of height, centered on two lines, bold geometric sans black weight"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_1",
+   "text": "Beads: count gone",
+   "placement": "band 1 label, top left, y 25.5-30%, bold clean geometric sans, #111111"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_2",
+   "text": "Clicker: everyone hears",
+   "placement": "band 2 label, top left, y 41.5-46%, bold clean geometric sans, #111111"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_3",
+   "text": "Ring: silent tap",
+   "placement": "band 3 label, top left, y 57.5-62%, bold clean geometric sans, #1F5A2E"
+  },
+  {
+   "step": "img_v1",
+   "slot": "HEADLINE",
+   "text": "Beads drop. Clickers click. Rings tap.",
+   "placement": "top band 14-23% of height, centered on two lines, bold geometric sans black weight"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_1",
+   "text": "Beads: count gone",
+   "placement": "band 1 label, top left, y 25.5-30%, bold clean geometric sans, #111111"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_2",
+   "text": "Clicker: everyone hears",
+   "placement": "band 2 label, top left, y 41.5-46%, bold clean geometric sans, #111111"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_3",
+   "text": "Ring: silent tap",
+   "placement": "band 3 label, top left, y 57.5-62%, bold clean geometric sans, #1F5A2E"
+  },
+  {
+   "step": "img_v2",
+   "slot": "HEADLINE",
+   "text": "Beads scatter. Clickers shout. This doesn't.",
+   "placement": "top band 14-23% of height, centered on two lines, bold geometric sans black weight"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_1",
+   "text": "Beads: count gone",
+   "placement": "band 2 label, top left, y 51.5-56%, bold clean geometric sans, #111111"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_2",
+   "text": "Clicker: everyone hears",
+   "placement": "band 3 label, top left, y 67.5-72%, bold clean geometric sans, #111111"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_3",
+   "text": "Ring: silent tap",
+   "placement": "band 1 label, top left of the ring band, y 25.5-30%, bold clean geometric sans, #1F5A2E"
+  },
+  {
+   "step": "img_v3",
+   "slot": "HEADLINE",
+   "text": "Beads scatter. Clickers shout. This doesn't.",
+   "placement": "top band 14-23% of height, centered on two lines, bold geometric sans black weight"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_1",
+   "text": "Beads: count gone",
+   "placement": "band 1 label, top left, y 25.5-30%, bold clean geometric sans, #F5EFE6"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_2",
+   "text": "Clicker: everyone hears",
+   "placement": "band 2 label, top left, y 41.5-46%, bold clean geometric sans, #F5EFE6"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_3",
+   "text": "Ring: silent tap",
+   "placement": "band 3 label, top left, y 57.5-62%, bold clean geometric sans, #F5EFE6"
+  }
+ ],
+ "script": [],
+ "storyboard": [],
+ "voice_mode": null,
+ "voice": null,
+ "assembly": null,
+ "higgsfield_jobs": [
+  {
+   "step": "img_main",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean designed graphic ad split into three horizontal bands that compare three ways to keep a dhikr count, each with a real photographed object on a flat warm cream #F5EFE6 background. Band 1: a small pile of plain wooden prayer-style beads on a desk surface, a snapped loose string beside them and about six beads scattered and rolled apart. Band 2: exactly one plain plastic hand-held tally clicker with a push button on a desk, with three curved sound-wave arcs drawn beside it (arcs only, no letters). Band 3 (largest): a right hand resting on a laptop keyboard, wearing exactly one rose-gold smart ring on the ring finger, the ring display facing the camera. No faces.\n\nStyle: Designed comparison ad, clean modern graphic layout combined with sharp realistic product-style photography of the objects, soft shadows, flat colour background, thin divider lines. Not a messy lifestyle photo, not a studio glamour shot.\n\nLighting: Soft even daylight from the upper left, gentle natural shadows under every object, calm neutral mood. The ring band is slightly brighter.\n\nCamera: Overhead to 30-degree angle on the beads and clicker, eye-level close angle on the hand, 50mm lens feel, all objects in sharp focus.\n\nComposition: Vertical 9:16 frame. Headline in the top band, 14% to 23% of frame height, centered, on two lines, within 6% to 94% of frame width. Three stacked bands separated by thin #D9CFC0 lines: band 1 from 24% to 40% of height, band 2 from 40% to 56%, band 3 from 56% to 82%. Each band has its text label at its top left, with a circular icon badge at far left (x 5% to 14%) centered on the label line: band 1 label at 25.5% to 30% of height, band 2 label at 41.5% to 46%, band 3 label at 57.5% to 62%. Objects sit below each label, right of center. Band 3 is the largest: the hand and ring at center-right, ring spanning about 14% of frame height, display clearly readable. Below 82% only plain warm cream #F5EFE6 background, nothing else. Focal flow: headline, then band 1, band 2, band 3.\n\nBrand colors: Background warm cream #F5EFE6. All text #111111 except the ring label in #1F5A2E. Badges 1 and 2: muted red #B3372F circle with a white X drawn as two crossing strokes. Badge 3: deep green #1F5A2E circle with a white check mark drawn as a stroke. Divider lines #D9CFC0. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner liner, a small gold logo inlay on the left of its face and a white four-digit display reading \"5332\" on the right, worn on the right ring finger, display facing the camera within 20 degrees, fingers not covering the display. The ring appears only once, in the ring band.\n\nText: Render exactly four text elements:\n1) \"Beads scatter. Clickers shout. This doesn't.\" - bold geometric sans-serif, black weight, sentence case as written, #111111, centered in the top band, on two lines: line 1 \"Beads scatter. Clickers shout.\", line 2 \"This doesn't.\", cap height about 5% of frame height.\n2) \"Beads: count gone\" - clean geometric sans-serif, bold, sentence case as written, #111111, left-aligned, band 1 label, top left, y 25.5-30%, cap height about 2.8% of frame height.\n3) \"Clicker: everyone hears\" - clean geometric sans-serif, bold, sentence case as written, #111111, left-aligned, band 2 label, top left, y 41.5-46%, cap height about 2.8% of frame height.\n4) \"Ring: silent tap\" - clean geometric sans-serif, bold, sentence case as written, #1F5A2E, left-aligned, band 3 label, top left, y 57.5-62%, cap height about 2.8% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalization and punctuation in the quotes, including the apostrophe and the colons. High contrast, all text fully inside the frame with 6% side margins, no text overlapping objects. Render only the four quoted strings and the digits \"5332\" on the ring; do not render section labels or any other words from these instructions. The sound arcs near the clicker are plain curved lines with no letters.\n\nAvoid: any other text, words, letters or numbers (no written \"click\" sound word); brand names or logos on the beads or clicker; a second ring; any visible finger-counting gesture; faces; star ratings, review counts, text badges or seals, \"clinically proven\" or press logos; prices; extra fingers or fused hands; distorted or mirrored letters; clutter; text in the bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v1",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean designed graphic ad split into three horizontal bands that compare three ways to keep a dhikr count, each with a real photographed object on a flat warm cream #F5EFE6 background. Band 1: a small pile of plain wooden prayer-style beads on a desk surface, a snapped loose string beside them and about six beads scattered and rolled apart. Band 2: exactly one plain plastic hand-held tally clicker with a push button on a desk, with three curved sound-wave arcs drawn beside it (arcs only, no letters). Band 3 (largest): a right hand resting on a laptop keyboard, wearing exactly one rose-gold smart ring on the ring finger, the ring display facing the camera. No faces.\n\nStyle: Designed comparison ad, clean modern graphic layout combined with sharp realistic product-style photography of the objects, soft shadows, flat colour background, thin divider lines. Not a messy lifestyle photo, not a studio glamour shot.\n\nLighting: Soft even daylight from the upper left, gentle natural shadows under every object, calm neutral mood. The ring band is slightly brighter.\n\nCamera: Overhead to 30-degree angle on the beads and clicker, eye-level close angle on the hand, 50mm lens feel, all objects in sharp focus.\n\nComposition: Vertical 9:16 frame. Headline in the top band, 14% to 23% of frame height, centered, on two lines, within 6% to 94% of frame width. Three stacked bands separated by thin #D9CFC0 lines: band 1 from 24% to 40% of height, band 2 from 40% to 56%, band 3 from 56% to 82%. Each band has its text label at its top left, with a circular icon badge at far left (x 5% to 14%) centered on the label line: band 1 label at 25.5% to 30% of height, band 2 label at 41.5% to 46%, band 3 label at 57.5% to 62%. Objects sit below each label, right of center. Band 3 is the largest: the hand and ring at center-right, ring spanning about 14% of frame height, display clearly readable. Below 82% only plain warm cream #F5EFE6 background, nothing else. Focal flow: headline, then band 1, band 2, band 3.\n\nBrand colors: Background warm cream #F5EFE6. All text #111111 except the ring label in #1F5A2E. Badges 1 and 2: muted red #B3372F circle with a white X drawn as two crossing strokes. Badge 3: deep green #1F5A2E circle with a white check mark drawn as a stroke. Divider lines #D9CFC0. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner liner, a small gold logo inlay on the left of its face and a white four-digit display reading \"5332\" on the right, worn on the right ring finger, display facing the camera within 20 degrees, fingers not covering the display. The ring appears only once, in the ring band.\n\nText: Render exactly four text elements:\n1) \"Beads drop. Clickers click. Rings tap.\" - bold geometric sans-serif, black weight, sentence case as written, #111111, centered in the top band, on two lines: line 1 \"Beads drop. Clickers click.\", line 2 \"Rings tap.\", cap height about 5% of frame height.\n2) \"Beads: count gone\" - clean geometric sans-serif, bold, sentence case as written, #111111, left-aligned, band 1 label, top left, y 25.5-30%, cap height about 2.8% of frame height.\n3) \"Clicker: everyone hears\" - clean geometric sans-serif, bold, sentence case as written, #111111, left-aligned, band 2 label, top left, y 41.5-46%, cap height about 2.8% of frame height.\n4) \"Ring: silent tap\" - clean geometric sans-serif, bold, sentence case as written, #1F5A2E, left-aligned, band 3 label, top left, y 57.5-62%, cap height about 2.8% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalization and punctuation in the quotes, including the apostrophe and the colons. High contrast, all text fully inside the frame with 6% side margins, no text overlapping objects. Render only the four quoted strings and the digits \"5332\" on the ring; do not render section labels or any other words from these instructions. The sound arcs near the clicker are plain curved lines with no letters.\n\nAvoid: any other text, words, letters or numbers (no written \"click\" sound word); brand names or logos on the beads or clicker; a second ring; any visible finger-counting gesture; faces; star ratings, review counts, text badges or seals, \"clinically proven\" or press logos; prices; extra fingers or fused hands; distorted or mirrored letters; clutter; text in the bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v2",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean designed graphic ad split into three horizontal bands that compare three ways to keep a dhikr count, each with a real photographed object on a flat warm cream #F5EFE6 background. Band 1 (ring band, largest): a right hand resting on a laptop keyboard, wearing exactly one rose-gold smart ring on the ring finger, the ring display facing the camera. Band 2: a small pile of plain wooden prayer-style beads on a desk surface, a snapped loose string beside them and about six beads scattered and rolled apart. Band 3: exactly one plain plastic hand-held tally clicker with a push button on a desk, with three curved sound-wave arcs drawn beside it (arcs only, no letters). No faces.\n\nStyle: Designed comparison ad, clean modern graphic layout combined with sharp realistic product-style photography of the objects, soft shadows, flat colour background, thin divider lines. Not a messy lifestyle photo, not a studio glamour shot.\n\nLighting: Soft even daylight from the upper left, gentle natural shadows under every object, calm neutral mood. The ring band is slightly brighter.\n\nCamera: Overhead to 30-degree angle on the beads and clicker, eye-level close angle on the hand, 50mm lens feel, all objects in sharp focus.\n\nComposition: Vertical 9:16 frame. Headline in the top band, 14% to 23% of frame height, centered, on two lines, within 6% to 94% of frame width. Three stacked bands separated by thin #D9CFC0 lines: band 1 from 24% to 50% of height, band 2 from 50% to 66%, band 3 from 66% to 82%. Each band has its text label at its top left, with a circular icon badge at far left (x 5% to 14%) centered on the label line: band 1 label at 25.5% to 30% of height, band 2 label at 51.5% to 56%, band 3 label at 67.5% to 72%. Objects sit below each label, right of center. Band 1 is the largest: the hand and ring at center-right, ring spanning about 14% of frame height, display clearly readable. Below 82% only plain warm cream #F5EFE6 background, nothing else. Focal flow: headline, then band 1, band 2, band 3.\n\nBrand colors: Background warm cream #F5EFE6. All text #111111 except the ring label in #1F5A2E. Badge 1 (top band): deep green #1F5A2E circle with a white check mark drawn as a stroke. Badges 2 and 3: muted red #B3372F circle with a white X drawn as two crossing strokes. Divider lines #D9CFC0. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner liner, a small gold logo inlay on the left of its face and a white four-digit display reading \"5332\" on the right, worn on the right ring finger, display facing the camera within 20 degrees, fingers not covering the display. The ring appears only once, in the ring band.\n\nText: Render exactly four text elements:\n1) \"Beads scatter. Clickers shout. This doesn't.\" - bold geometric sans-serif, black weight, sentence case as written, #111111, centered in the top band, on two lines: line 1 \"Beads scatter. Clickers shout.\", line 2 \"This doesn't.\", cap height about 5% of frame height.\n2) \"Ring: silent tap\" - clean geometric sans-serif, bold, sentence case as written, #1F5A2E, left-aligned, band 1 label, top left of the ring band, y 25.5-30%, cap height about 2.8% of frame height.\n3) \"Beads: count gone\" - clean geometric sans-serif, bold, sentence case as written, #111111, left-aligned, band 2 label, top left, y 51.5-56%, cap height about 2.8% of frame height.\n4) \"Clicker: everyone hears\" - clean geometric sans-serif, bold, sentence case as written, #111111, left-aligned, band 3 label, top left, y 67.5-72%, cap height about 2.8% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalization and punctuation in the quotes, including the apostrophe and the colons. High contrast, all text fully inside the frame with 6% side margins, no text overlapping objects. Render only the four quoted strings and the digits \"5332\" on the ring; do not render section labels or any other words from these instructions. The sound arcs near the clicker are plain curved lines with no letters.\n\nAvoid: any other text, words, letters or numbers (no written \"click\" sound word); brand names or logos on the beads or clicker; a second ring; any visible finger-counting gesture; faces; star ratings, review counts, text badges or seals, \"clinically proven\" or press logos; prices; extra fingers or fused hands; distorted or mirrored letters; clutter; text in the bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v3",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean designed graphic ad split into three horizontal bands that compare three ways to keep a dhikr count, each with a real photographed object on a flat deep green #1F5A2E background. Band 1: a small pile of plain wooden prayer-style beads on a desk surface, a snapped loose string beside them and about six beads scattered and rolled apart. Band 2: exactly one plain plastic hand-held tally clicker with a push button on a desk, with three curved sound-wave arcs drawn beside it (arcs only, no letters). Band 3 (largest): a right hand resting on a laptop keyboard, wearing exactly one rose-gold smart ring on the ring finger, the ring display facing the camera. No faces.\n\nStyle: Designed comparison ad, clean modern graphic layout combined with sharp realistic product-style photography of the objects, soft shadows, flat colour background, thin divider lines. Not a messy lifestyle photo, not a studio glamour shot.\n\nLighting: Soft even daylight from the upper left, gentle natural shadows under every object, calm mood, the deep green background flat and matte. The ring band is slightly brighter.\n\nCamera: Overhead to 30-degree angle on the beads and clicker, eye-level close angle on the hand, 50mm lens feel, all objects in sharp focus.\n\nComposition: Vertical 9:16 frame. Headline in the top band, 14% to 23% of frame height, centered, on two lines, within 6% to 94% of frame width. Three stacked bands separated by thin #3C7A4C lines: band 1 from 24% to 40% of height, band 2 from 40% to 56%, band 3 from 56% to 82%. Each band has its text label at its top left, with a circular icon badge at far left (x 5% to 14%) centered on the label line: band 1 label at 25.5% to 30% of height, band 2 label at 41.5% to 46%, band 3 label at 57.5% to 62%. Objects sit below each label, right of center. Band 3 is the largest: the hand and ring at center-right, ring spanning about 14% of frame height, display clearly readable. Below 82% only plain deep green #1F5A2E background, nothing else. Focal flow: headline, then band 1, band 2, band 3.\n\nBrand colors: Background deep green #1F5A2E. All text #F5EFE6 except the ring label in #F5EFE6. Badges 1 and 2: muted red #B3372F circle with a white X drawn as two crossing strokes. Badge 3: cream #F5EFE6 circle with a deep green #1F5A2E check mark drawn as a stroke. Divider lines #3C7A4C. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner liner, a small gold logo inlay on the left of its face and a white four-digit display reading \"5332\" on the right, worn on the right ring finger, display facing the camera within 20 degrees, fingers not covering the display. The ring appears only once, in the ring band.\n\nText: Render exactly four text elements:\n1) \"Beads scatter. Clickers shout. This doesn't.\" - bold geometric sans-serif, black weight, sentence case as written, #F5EFE6, centered in the top band, on two lines: line 1 \"Beads scatter. Clickers shout.\", line 2 \"This doesn't.\", cap height about 5% of frame height.\n2) \"Beads: count gone\" - clean geometric sans-serif, bold, sentence case as written, #F5EFE6, left-aligned, band 1 label, top left, y 25.5-30%, cap height about 2.8% of frame height.\n3) \"Clicker: everyone hears\" - clean geometric sans-serif, bold, sentence case as written, #F5EFE6, left-aligned, band 2 label, top left, y 41.5-46%, cap height about 2.8% of frame height.\n4) \"Ring: silent tap\" - clean geometric sans-serif, bold, sentence case as written, #F5EFE6, left-aligned, band 3 label, top left, y 57.5-62%, cap height about 2.8% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalization and punctuation in the quotes, including the apostrophe and the colons. High contrast, all text fully inside the frame with 6% side margins, no text overlapping objects. Render only the four quoted strings and the digits \"5332\" on the ring; do not render section labels or any other words from these instructions. The sound arcs near the clicker are plain curved lines with no letters.\n\nAvoid: any other text, words, letters or numbers (no written \"click\" sound word); brand names or logos on the beads or clicker; a second ring; any visible finger-counting gesture; faces; star ratings, review counts, text badges or seals, \"clinically proven\" or press logos; prices; extra fingers or fused hands; distorted or mirrored letters; clutter; text in the bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  }
+ ],
+ "variations": [
+  {
+   "step": "img_v1",
+   "kind": "V-copy",
+   "delta": "Same layout; headline from approved hook H6 \"Beads drop. Clickers click. Rings tap.\", labels unchanged."
+  },
+  {
+   "step": "img_v2",
+   "kind": "V-layout",
+   "delta": "Ring band moved to the top and enlarged, beads and clicker bands below it, check badge first; same copy."
+  },
+  {
+   "step": "img_v3",
+   "kind": "V-scene",
+   "delta": "Deep green #1F5A2E background with cream #F5EFE6 text and #3C7A4C dividers; same objects and copy."
+  }
+ ],
+ "est_credits": 2.0,
+ "chief": {
+  "rounds": 2,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_05/chief_notes_v1.md",
+   "03-ads/ad_05/chief_notes_v2.md"
+  ],
+  "residual_concerns": []
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "Tap to count your dhikr",
+    "source": "01-research/offer_brief.md § Claims we CAN say (A-1)"
+   },
+   {
+    "text": "Silent tracking / Ring: silent tap",
+    "source": "01-research/offer_brief.md § Step 0 (brand-stated 'Silent Devotion'; A-11)"
+   },
+   {
+    "text": "A gentle vibration at 33, 66 and 99",
+    "source": "01-research/offer_brief.md § Claims we CAN say (A-2)"
+   },
+   {
+    "text": "It looks like a ring",
+    "source": "A-10 (visible fact)"
+   },
+   {
+    "text": "Beads: count gone / lost your count on physical beads",
+    "source": "Q29 (VOC-29), user_market_research.md"
+   },
+   {
+    "text": "Clicker: everyone hears / loud clicking in a quiet office",
+    "source": "Q21 (VOC-21), user_market_research.md"
+   },
+   {
+    "text": "$49.99. Free US shipping. 60-day money-back guarantee.",
+    "source": "00-intake/intake.md; 01-research/offer_brief.md § Claims we CAN say (A-6..A-8)"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md primary text, CTA, Meta description",
+    "resolution": "documented 60-day money-back guarantee, offer_brief.md"
+   },
+   {
+    "term": "clinically proven / star ratings / review counts",
+    "location": "prompts Avoid blocks",
+    "resolution": "appear only as negations in Avoid; none rendered"
+   }
+  ],
+  "checked_by": "ad05-chief + ad05-pe"
+ }
+}

@@ -1,0 +1,257 @@
+{
+ "id": "ad_03",
+ "format": "image",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG5 — the gift for someone new to the deen (revert friend, spouse, parent): one easy daily habit they will wear and use every day",
+ "avatar": "A2 meaningful-gift buyer (gift for a revert/spouse/parent)",
+ "awareness": "solution-aware",
+ "hook_type": "callout",
+ "visual_concept": "ring in gift box on satin",
+ "source_swipe_ids": [
+  "hope-rings-177217013"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": null,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "callout",
+   "text": "If your friend just started praying...",
+   "overlay": null
+  },
+  {
+   "id": "H2",
+   "type": "question",
+   "text": "What do you give a friend who just started praying?",
+   "overlay": null
+  },
+  {
+   "id": "H3",
+   "type": "us-vs-them",
+   "text": "A card gets forgotten. A ring gets worn.",
+   "overlay": null
+  },
+  {
+   "id": "H4",
+   "type": "benefit-statement",
+   "text": "One easy habit they can wear every day.",
+   "overlay": null
+  },
+  {
+   "id": "H5",
+   "type": "callout",
+   "text": "If your husband is new to Islam...",
+   "overlay": null
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "Smart Tasbih Ring Gift, $49.99",
+ "primary_text": "If your friend just started praying, give them one easy habit they can wear.\n\nThe Al Rayan Dhikr Ring 2.0 is a smart tasbih ring. Tap to count your dhikr. A small display shows the number.\n\nA meaningful gift, made for daily use. It looks like a ring, not a gadget.\n\n- Silent tracking\n- Gentle vibrations at 33, 66 and 99\n- Prayer-time alerts for all five daily prayers\n- IP67 water resistance: wear it to wudu\n\n$49.99. Free US shipping. 60-day money-back guarantee and a 1-year tech warranty.\n\nTap Shop Now to get them one.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Tap Shop Now to get them one.",
+  "offer": "$49.99 · free US shipping · 60-day money-back guarantee · 1-year tech warranty",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "img_main",
+   "slot": "HEADLINE",
+   "text": "If your friend just started praying...",
+   "placement": "top band 15-29% of the height, bold heavy grotesque sans, sentence case, centered, 2 lines"
+  },
+  {
+   "step": "img_v1",
+   "slot": "HEADLINE",
+   "text": "A card gets forgotten. A ring gets worn.",
+   "placement": "top band 15-29% of the height, bold heavy grotesque sans, sentence case, centered, 2 lines"
+  },
+  {
+   "step": "img_v2",
+   "slot": "HEADLINE",
+   "text": "If your friend just started praying...",
+   "placement": "top band 15-29% of the height, bold heavy grotesque sans, sentence case, centered, 2 lines"
+  },
+  {
+   "step": "img_v3",
+   "slot": "HEADLINE",
+   "text": "If your friend just started praying...",
+   "placement": "top band 15-29% of the height, cream #FFF6E8 bold heavy grotesque sans, sentence case, centered, 2 lines"
+  },
+  {
+   "step": "img_main",
+   "slot": "DISPLAY_TEXT",
+   "text": "5332",
+   "placement": "the ring's own 4-digit display on the product, legible in the macro, digits only"
+  },
+  {
+   "step": "img_v1",
+   "slot": "DISPLAY_TEXT",
+   "text": "5332",
+   "placement": "the ring's own 4-digit display on the product, legible in the macro, digits only"
+  },
+  {
+   "step": "img_v2",
+   "slot": "DISPLAY_TEXT",
+   "text": "5332",
+   "placement": "the ring's own 4-digit display on the product, legible in the macro, digits only"
+  },
+  {
+   "step": "img_v3",
+   "slot": "DISPLAY_TEXT",
+   "text": "5332",
+   "placement": "the ring's own 4-digit display on the product, legible in the macro, digits only"
+  }
+ ],
+ "script": [],
+ "storyboard": [],
+ "voice_mode": null,
+ "voice": null,
+ "assembly": null,
+ "higgsfield_jobs": [
+  {
+   "step": "img_main",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A polished studio macro photo of exactly one rose-gold smart ring standing upright on its edge on warm cream satin, three-quarter view from slightly above, its black display panel reading \"5332\" turned toward the camera. The ring rests on the cream satin lining of one open, plain, unbranded gift box in deep green; the box sits in the lower half of the frame, its rim and a slightly tilted lid visible behind and to the right, soft satin folds flowing out of the box across the whole background. No hands, no people.\n\nStyle: Polished high-end studio product photography, shallow depth of field, soft sparkle highlights on the satin, elegant and warm, gift-ready. Not a UGC photo.\n\nLighting: Warm soft 3000K key light from upper left like a window, gentle glow on the satin folds, subtle rim highlight on the rose-gold edge, soft shadow falling lower right, light cream tones overall.\n\nCamera: Eye-level to slightly high, 3/4 angle, 85mm macro lens feel, ring and display tack sharp, satin and box edge softly out of focus.\n\nComposition: Vertical 9:16 frame. Top 0–14% is only soft satin, nothing else. Headline band 15–29% of frame height, centered, spanning about 88% of width. Ring centered, occupying about 33% to 63% of frame height and about 62% of frame width, display digits fully legible and facing the viewer. Gift box and satin below the ring from 55% to 85%, box exterior visible at the lower edge. Bottom 65–100% only box, satin and soft shadow, no text. Eye flow: headline, then ring display, then box.\n\nBrand colors: satin background cream #EFE4D3 with highlights #FFF6E8 and shadows #D9C7AE. Headline text black #0B0B0B. Gift box exterior deep green #1F5A2E, box interior lining cream satin. Product keeps its own rose-gold and black colors. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring: wide flat polished rose-gold band with a thin raised rim and glossy black inner lining, a black rounded-rectangle display with four white seven-segment digits reading \"5332\", and a small black rounded-square panel with a gold heart-swirl logo to the left of the display. Ring height about 30% of frame height, display facing camera within 20 degrees, sharp, nothing touching or covering the display.\n\nText: Render exactly one floating text element plus the product's own display digits:\n1) \"If your friend just started praying...\" — bold heavy grotesque sans-serif, black weight, sentence case, black #0B0B0B, centered, on two lines (line 1 \"If your friend\", line 2 \"just started praying...\"), in the top band 15–29% of frame height, cap height about 5.2% of frame height, tight line spacing, high contrast on the light satin.\n2) The ring's own display shows the digits \"5332\" in white seven-segment style on its black panel, digits only, no other glyphs.\n\nLegibility: Spell every quoted string exactly as written, letter for letter, including every punctuation mark and the three-dot ellipsis if present. The digits on the ring display read 5332. Text fully inside the frame with 6% side margins, no letters cut off or overlapping the ring. Render only the quoted strings and the product's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words, letters or numbers anywhere, including on the gift box, ribbon, lid or card; a logo or brand name on the box; misspelled, warped, mirrored or duplicated letters; extra or duplicated rings; changed display digits or altered logo; hands, fingers or faces; star ratings, review counts, customer-count claims, discount or sale badges, seals, \"clinically proven\", press logos; engraved text inside the band; extra jewelry; watermarks; cluttered background; text in the top 14% or bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v1",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A polished studio macro photo of exactly one rose-gold smart ring standing upright on its edge on warm cream satin, three-quarter view from slightly above, its black display panel reading \"5332\" turned toward the camera. The ring rests on the cream satin lining of one open, plain, unbranded gift box in deep green; the box sits in the lower half of the frame, its rim and a slightly tilted lid visible behind and to the right, soft satin folds flowing out of the box across the whole background. No hands, no people.\n\nStyle: Polished high-end studio product photography, shallow depth of field, soft sparkle highlights on the satin, elegant and warm, gift-ready. Not a UGC photo.\n\nLighting: Warm soft 3000K key light from upper left like a window, gentle glow on the satin folds, subtle rim highlight on the rose-gold edge, soft shadow falling lower right, light cream tones overall.\n\nCamera: Eye-level to slightly high, 3/4 angle, 85mm macro lens feel, ring and display tack sharp, satin and box edge softly out of focus.\n\nComposition: Vertical 9:16 frame. Top 0–14% is only soft satin, nothing else. Headline band 15–29% of frame height, centered, spanning about 88% of width. Ring centered, occupying about 33% to 63% of frame height and about 62% of frame width, display digits fully legible and facing the viewer. Gift box and satin below the ring from 55% to 85%, box exterior visible at the lower edge. Bottom 65–100% only box, satin and soft shadow, no text. Eye flow: headline, then ring display, then box.\n\nBrand colors: satin background cream #EFE4D3 with highlights #FFF6E8 and shadows #D9C7AE. Headline text black #0B0B0B. Gift box exterior deep green #1F5A2E, box interior lining cream satin. Product keeps its own rose-gold and black colors. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring: wide flat polished rose-gold band with a thin raised rim and glossy black inner lining, a black rounded-rectangle display with four white seven-segment digits reading \"5332\", and a small black rounded-square panel with a gold heart-swirl logo to the left of the display. Ring height about 30% of frame height, display facing camera within 20 degrees, sharp, nothing touching or covering the display.\n\nText: Render exactly one floating text element plus the product's own display digits:\n1) \"A card gets forgotten. A ring gets worn.\" — bold heavy grotesque sans-serif, black weight, sentence case, black #0B0B0B, centered, on two lines (line 1 \"A card gets forgotten.\", line 2 \"A ring gets worn.\"), in the top band 15–29% of frame height, cap height about 5.2% of frame height, tight line spacing, high contrast on the light satin.\n2) The ring's own display shows the digits \"5332\" in white seven-segment style on its black panel, digits only, no other glyphs.\n\nLegibility: Spell every quoted string exactly as written, letter for letter, including every punctuation mark and the three-dot ellipsis if present. The digits on the ring display read 5332. Text fully inside the frame with 6% side margins, no letters cut off or overlapping the ring. Render only the quoted strings and the product's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words, letters or numbers anywhere, including on the gift box, ribbon, lid or card; a logo or brand name on the box; misspelled, warped, mirrored or duplicated letters; extra or duplicated rings; changed display digits or altered logo; hands, fingers or faces; star ratings, review counts, customer-count claims, discount or sale badges, seals, \"clinically proven\", press logos; engraved text inside the band; extra jewelry; watermarks; cluttered background; text in the top 14% or bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v2",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A polished studio macro photo of exactly one rose-gold smart ring standing upright on its edge, tilted about 15 degrees, on warm cream satin, three-quarter view from slightly above, its black display panel reading \"5332\" turned toward the camera. The ring rests on the cream satin lining of one open, plain, unbranded gift box in deep green; the box sweeps in from the lower left of the frame, its rim and a slightly tilted lid visible behind and to the left, soft satin folds flowing out of the box across the whole background. No hands, no people.\n\nStyle: Polished high-end studio product photography, shallow depth of field, soft sparkle highlights on the satin, elegant and warm, gift-ready. Not a UGC photo.\n\nLighting: Warm soft 3000K key light from upper left like a window, gentle glow on the satin folds, subtle rim highlight on the rose-gold edge, soft shadow falling lower right, light cream tones overall.\n\nCamera: Eye-level to slightly high, 3/4 angle, 85mm macro lens feel, ring and display tack sharp, satin and box edge softly out of focus.\n\nComposition: Vertical 9:16 frame. Top 0–14% is only soft satin, nothing else. Headline band 15–29% of frame height, centered, spanning about 88% of width. Ring placed in the right third, centered at about 62% of frame width, occupying about 33% to 63% of frame height and about 56% of frame width, display digits fully legible and facing the viewer. Gift box and satin below the ring from 55% to 85%, box exterior visible at the lower edge. Bottom 65–100% only box, satin and soft shadow, no text. Eye flow: headline, then ring display, then box.\n\nBrand colors: satin background cream #EFE4D3 with highlights #FFF6E8 and shadows #D9C7AE. Headline text black #0B0B0B. Gift box exterior deep green #1F5A2E, box interior lining cream satin. Product keeps its own rose-gold and black colors. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring: wide flat polished rose-gold band with a thin raised rim and glossy black inner lining, a black rounded-rectangle display with four white seven-segment digits reading \"5332\", and a small black rounded-square panel with a gold heart-swirl logo to the left of the display. Ring height about 30% of frame height, display facing camera within 20 degrees, sharp, nothing touching or covering the display.\n\nText: Render exactly one floating text element plus the product's own display digits:\n1) \"If your friend just started praying...\" — bold heavy grotesque sans-serif, black weight, sentence case, black #0B0B0B, centered, on two lines (line 1 \"If your friend\", line 2 \"just started praying...\"), in the top band 15–29% of frame height, cap height about 5.2% of frame height, tight line spacing, high contrast on the light satin.\n2) The ring's own display shows the digits \"5332\" in white seven-segment style on its black panel, digits only, no other glyphs.\n\nLegibility: Spell every quoted string exactly as written, letter for letter, including every punctuation mark and the three-dot ellipsis if present. The digits on the ring display read 5332. Text fully inside the frame with 6% side margins, no letters cut off or overlapping the ring. Render only the quoted strings and the product's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words, letters or numbers anywhere, including on the gift box, ribbon, lid or card; a logo or brand name on the box; misspelled, warped, mirrored or duplicated letters; extra or duplicated rings; changed display digits or altered logo; hands, fingers or faces; star ratings, review counts, customer-count claims, discount or sale badges, seals, \"clinically proven\", press logos; engraved text inside the band; extra jewelry; watermarks; cluttered background; text in the top 14% or bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v3",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A polished studio macro photo of exactly one rose-gold smart ring standing upright on its edge on cream satin, three-quarter view from slightly above, its black display panel reading \"5332\" turned toward the camera. The ring rests on the cream satin lining of one open, plain, unbranded cream-colored gift box; the box sits in the lower half of the frame, its rim and a slightly tilted lid visible behind and to the right, soft deep-green satin folds flowing out of the box across the whole background. No hands, no people.\n\nStyle: Polished high-end studio product photography, shallow depth of field, soft sparkle highlights on the satin, elegant and warm, gift-ready. Not a UGC photo.\n\nLighting: Warm soft 3000K key light from upper left, gentle sheen on the deep green satin folds, subtle rim highlight on the rose-gold edge, soft shadow falling lower right, rich dark-green tones with a warm glow around the ring.\n\nCamera: Eye-level to slightly high, 3/4 angle, 85mm macro lens feel, ring and display tack sharp, satin and box edge softly out of focus.\n\nComposition: Vertical 9:16 frame. Top 0–14% is only soft satin, nothing else. Headline band 15–29% of frame height, centered, spanning about 88% of width. Ring centered, occupying about 33% to 63% of frame height and about 62% of frame width, display digits fully legible and facing the viewer. Gift box and satin below the ring from 55% to 85%, box exterior visible at the lower edge. Bottom 65–100% only box, satin and soft shadow, no text. Eye flow: headline, then ring display, then box.\n\nBrand colors: satin background deep green #1F5A2E with soft highlights #2F7A44 and shadows #143D20. Headline text warm cream #FFF6E8. Gift box exterior cream #EFE4D3 with cream satin lining. Product keeps its own rose-gold and black colors. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring: wide flat polished rose-gold band with a thin raised rim and glossy black inner lining, a black rounded-rectangle display with four white seven-segment digits reading \"5332\", and a small black rounded-square panel with a gold heart-swirl logo to the left of the display. Ring height about 30% of frame height, display facing camera within 20 degrees, sharp, nothing touching or covering the display.\n\nText: Render exactly one floating text element plus the product's own display digits:\n1) \"If your friend just started praying...\" — bold heavy grotesque sans-serif, black weight, sentence case, warm cream #FFF6E8, centered, on two lines (line 1 \"If your friend\", line 2 \"just started praying...\"), in the top band 15–29% of frame height, cap height about 5.2% of frame height, tight line spacing, high contrast on the dark green satin.\n2) The ring's own display shows the digits \"5332\" in white seven-segment style on its black panel, digits only, no other glyphs.\n\nLegibility: Spell every quoted string exactly as written, letter for letter, including every punctuation mark and the three-dot ellipsis if present. The digits on the ring display read 5332. Text fully inside the frame with 6% side margins, no letters cut off or overlapping the ring. Render only the quoted strings and the product's own display and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words, letters or numbers anywhere, including on the gift box, ribbon, lid or card; a logo or brand name on the box; misspelled, warped, mirrored or duplicated letters; extra or duplicated rings; changed display digits or altered logo; hands, fingers or faces; star ratings, review counts, customer-count claims, discount or sale badges, seals, \"clinically proven\", press logos; engraved text inside the band; extra jewelry; watermarks; cluttered background; text in the top 14% or bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  }
+ ],
+ "variations": [
+  {
+   "step": "img_v1",
+   "kind": "V-copy",
+   "delta": "Same layout; headline = H3 'A card gets forgotten. A ring gets worn.'"
+  },
+  {
+   "step": "img_v2",
+   "kind": "V-layout",
+   "delta": "Ring tilted ~15 degrees in the right third, gift box sweeping in from lower left; same headline and words."
+  },
+  {
+   "step": "img_v3",
+   "kind": "V-scene",
+   "delta": "Deep green satin background with cream headline and cream gift box; same layout and words."
+  }
+ ],
+ "est_credits": 2.0,
+ "chief": {
+  "rounds": 1,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_03/chief_notes_v1.md"
+  ],
+  "residual_concerns": [
+   "Optional test: add H3 'A card gets forgotten. A ring gets worn.' to primary text; offer_brief rates A2 problem-aware vs brief's solution-aware (copy names category in line 2)."
+  ]
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "Tap to count your dhikr",
+    "source": "01-research/offer_brief.md § Claims we CAN say; concept_slate.md A-1"
+   },
+   {
+    "text": "Gentle vibrations at 33, 66 and 99",
+    "source": "offer_brief.md § Step 0 product page; A-2"
+   },
+   {
+    "text": "Prayer-time alerts for all five daily prayers",
+    "source": "offer_brief.md § Step 0; A-3"
+   },
+   {
+    "text": "IP67 water resistance: wear it to wudu",
+    "source": "offer_brief.md § Claims we CAN say; A-5"
+   },
+   {
+    "text": "Silent tracking",
+    "source": "offer_brief.md § UMS (brand-stated 'Silent Devotion'); A-11"
+   },
+   {
+    "text": "It looks like a ring, not a gadget",
+    "source": "concept_slate.md A-10 (visible fact)"
+   },
+   {
+    "text": "$49.99. Free US shipping.",
+    "source": "brief.md; offer_brief.md § Step 0; A-6, A-7"
+   },
+   {
+    "text": "60-day money-back guarantee and a 1-year tech warranty",
+    "source": "offer_brief.md § Step 0; A-8, A-9"
+   },
+   {
+    "text": "A small display shows the number (5332 on the product image)",
+    "source": "offer_brief.md § Step 0 (product images show display 5332)"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "primary text, CTA, Meta description",
+    "resolution": "documented: 60-day money-back guarantee (brief.md, offer_brief Step 0)"
+   },
+   {
+    "term": "star (substring of 'started')",
+    "location": "headline, hooks",
+    "resolution": "no star claim; false positive"
+   }
+  ],
+  "checked_by": "ad03-copy-chief + ad03-pe"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "verdict": "REVISE",
+ "round": 1,
+ "ad_id": "ad_10",
+ "tier": 2,
+ "notes": [
+  "N1 [H1 / HEADLINE] 'Lost count again?' is clean but generic: a cold scroller cannot tell it is about dhikr until she reads the labels, so it misses the under-1-second identity hit that 'A skin picker?' gave the swipe. -> name the habit in the question. Example fix: \"Lost your dhikr count?\" (4 words, Q29 'I lost my count'; kept in chiefed v1).",
+  "N2 [CALLOUT_3] 'IP67 wudu-ready' implies a wudu rating beyond A-5 ('IP67 water resistance - wear it to wudu'). -> Example fix: \"IP67 for wudu\" (kept in chiefed v1).",
+  "N3 [Primary text line 1] must echo the headline verbatim. -> \"Lost your dhikr count? One interruption and the beads, or your head, start over.\" (kept in chiefed v1).",
+  "N4 [H5] was a weak second question; replaced by 'Lost count again?' to keep 5 hook options across 5 slugs with a distinct variant (kept in chiefed v1).",
+  "N5 [On-image table] slot names CALLOUT_n/BADGE and 'Al Rayan' fixed wordmark are correct; keep them. Total 18-22 words, under 25."
+ ],
+ "edited_copy_path": "03-ads/ad_10/copy_chiefed_v1.md",
+ "notes_path": "03-ads/ad_10/chief_notes_v1.md",
+ "benchmarks": {
+  "B1": "PASS",
+  "B2": "FAIL",
+  "B3": "PASS",
+  "B4": "PASS",
+  "B5": "PASS",
+  "B6": "PASS",
+  "B7": "PASS",
+  "B8": "PASS",
+  "B9": "PASS",
+  "B10": "PASS"
+ },
+ "residual_concerns": [],
+ "chiefing": "skill"
+}

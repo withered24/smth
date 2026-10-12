@@ -1,0 +1,7 @@
+{"verdict":"APPROVE","round":1,"ad_id":"ad_02","tier":1,
+ "notes":[],
+ "edited_copy_path":"03-ads/ad_02/copy_chiefed_v1.md",
+ "notes_path":"03-ads/ad_02/chief_notes_v1.md",
+ "benchmarks":{"B1":"PASS","B2":"PASS","B3":"PASS","B4":"PASS","B5":"PASS","B6":"PASS","B7":"PASS","B8":"PASS","B9":"PASS","B10":"PASS"},
+ "residual_concerns":["VOC-24 is brand/manual copy, not customer voice: never present as a buyer quote","IP67 copy stays at wudu/hand-washing level; render splash at sink only, never submerged; no waterproof/shower/swim","Sale price / 25% off unconfirmed, not used","HEADLINE is 9 words (swipe 10), within the ~8 tolerance"],
+ "chiefing":"skill"}

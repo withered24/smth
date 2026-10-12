@@ -1,0 +1,366 @@
+{
+ "id": "ad_11",
+ "format": "image",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG6 - a ring with a hidden tasbih: looks like ordinary jewelry, hides a silent counter and a pulse you feel without looking",
+ "avatar": "A1 discreet daily rememberer",
+ "awareness": "solution-aware (stage 3)",
+ "hook_type": "curiosity-gap",
+ "visual_concept": "A ring with a hidden tasbih: deep-emerald ground, two circular macro insets (thumb tap / count display), labelled",
+ "source_swipe_ids": [
+  "cloud-nine-133765605"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": null,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "curiosity-gap",
+   "text": "A ring with a hidden tasbih",
+   "overlay": null
+  },
+  {
+   "id": "H2",
+   "type": "voc-quote",
+   "text": "It passes as a regular ring.",
+   "overlay": null
+  },
+  {
+   "id": "H3",
+   "type": "us-vs-them",
+   "text": "Loud clicker out. Quiet ring on.",
+   "overlay": null
+  },
+  {
+   "id": "H4",
+   "type": "callout",
+   "text": "Quiet office? Count your dhikr anyway.",
+   "overlay": null
+  },
+  {
+   "id": "H5",
+   "type": "question",
+   "text": "What if your tasbih looked like jewelry?",
+   "overlay": null
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "A tasbih hidden on your finger",
+ "primary_text": "It looks like a ring. Under the table, it counts your dhikr.\n\nTap the gold button to count. The small display shows your total.\n\nAt 33, 66 and 99, you feel a gentle vibration. You know where you are without looking down.\n\nNo loud clicker. No beads to drop. No phone to open.\n\n\"Let not your tongue cease to be moist with the remembrance of Allah.\" (Tirmidhi 3375)\n\nFree US shipping and a 60-day money-back guarantee. Tap Shop Now.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Shop Now",
+  "offer": "free US shipping and 60-day money-back guarantee (brief.md / intake.md)",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "img_main",
+   "slot": "HEADLINE",
+   "text": "A ring with a hidden tasbih",
+   "placement": "top band 14-25% of height, two lines, centred, white bold geometric sans"
+  },
+  {
+   "step": "img_main",
+   "slot": "LABEL_LEFT",
+   "text": "Silent Count",
+   "placement": "under left circle, semibold, centred"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_1",
+   "text": "Tap it in meetings.",
+   "placement": "under left title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_main",
+   "slot": "LABEL_RIGHT",
+   "text": "Gentle Pulse",
+   "placement": "under right circle, semibold, centred"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_2",
+   "text": "Feel 33, 66, 99.",
+   "placement": "under right title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_main",
+   "slot": "CTA_BUTTON",
+   "text": "Shop Now",
+   "placement": "cream pill 61.5-65.5% of height, centred"
+  },
+  {
+   "step": "img_main",
+   "slot": "BADGE",
+   "text": "Free US shipping 60-day money-back",
+   "placement": "thin cream bar 66.5-74% of height, monospace, two lines, full width"
+  },
+  {
+   "step": "img_v1",
+   "slot": "HEADLINE",
+   "text": "It passes as a regular ring.",
+   "placement": "top band 14-25% of height, two lines, centred, white bold geometric sans"
+  },
+  {
+   "step": "img_v1",
+   "slot": "LABEL_LEFT",
+   "text": "Silent Count",
+   "placement": "under left circle, semibold, centred"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_1",
+   "text": "Tap it in meetings.",
+   "placement": "under left title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_v1",
+   "slot": "LABEL_RIGHT",
+   "text": "Gentle Pulse",
+   "placement": "under right circle, semibold, centred"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_2",
+   "text": "Feel 33, 66, 99.",
+   "placement": "under right title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CTA_BUTTON",
+   "text": "Shop Now",
+   "placement": "cream pill 61.5-65.5% of height, centred"
+  },
+  {
+   "step": "img_v1",
+   "slot": "BADGE",
+   "text": "Free US shipping 60-day money-back",
+   "placement": "thin cream bar 66.5-74% of height, monospace, two lines, full width"
+  },
+  {
+   "step": "img_v2",
+   "slot": "HEADLINE",
+   "text": "A ring with a hidden tasbih",
+   "placement": "top band 14-25% of height, two lines, centred, white bold geometric sans"
+  },
+  {
+   "step": "img_v2",
+   "slot": "LABEL_LEFT",
+   "text": "Gentle Pulse",
+   "placement": "under left circle, semibold, centred"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_1",
+   "text": "Feel 33, 66, 99.",
+   "placement": "under left title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_v2",
+   "slot": "LABEL_RIGHT",
+   "text": "Silent Count",
+   "placement": "under right circle, semibold, centred"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_2",
+   "text": "Tap it in meetings.",
+   "placement": "under right title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CTA_BUTTON",
+   "text": "Shop Now",
+   "placement": "cream pill 61.5-65.5% of height, centred"
+  },
+  {
+   "step": "img_v2",
+   "slot": "BADGE",
+   "text": "Free US shipping 60-day money-back",
+   "placement": "thin cream bar 66.5-74% of height, monospace, two lines, full width"
+  },
+  {
+   "step": "img_v3",
+   "slot": "HEADLINE",
+   "text": "A ring with a hidden tasbih",
+   "placement": "top band 14-25% of height, two lines, centred, white bold geometric sans"
+  },
+  {
+   "step": "img_v3",
+   "slot": "LABEL_LEFT",
+   "text": "Silent Count",
+   "placement": "under left circle, semibold, centred"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_1",
+   "text": "Tap it in meetings.",
+   "placement": "under left title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_v3",
+   "slot": "LABEL_RIGHT",
+   "text": "Gentle Pulse",
+   "placement": "under right circle, semibold, centred"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_2",
+   "text": "Feel 33, 66, 99.",
+   "placement": "under right title, regular, 1-2 lines"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CTA_BUTTON",
+   "text": "Shop Now",
+   "placement": "cream pill 61.5-65.5% of height, centred"
+  },
+  {
+   "step": "img_v3",
+   "slot": "BADGE",
+   "text": "Free US shipping 60-day money-back",
+   "placement": "thin cream bar 66.5-74% of height, monospace, two lines, full width"
+  }
+ ],
+ "script": [],
+ "storyboard": [],
+ "voice_mode": null,
+ "voice": null,
+ "assembly": null,
+ "higgsfield_jobs": [
+  {
+   "step": "img_main",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A vertical social-media ad built on a dark, softly blurred macro photo of a hand wearing exactly one black smart ring, filling the whole frame as an out-of-focus background in deep emerald green. Over it sit two large overlapping circular photo insets, each with a thin white ring border, side by side in the centre of the frame, overlapping slightly in the middle. Left circle: a macro of a right thumb pressing the small gold Al Rayan logo button on the black ring, worn on a finger of a relaxed hand. Right circle: a macro of the black ring's display, ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it. Above the circles is a big headline; below them two short captions, one pill button and a thin two-line bar.\n\nStyle: Polished modern product-macro photography combined with clean flat graphic overlay, like a high-performing direct-response static ad. Crisp, calm, premium but approachable. Not an illustration, no CGI gloss.\n\nLighting: Soft, directional key light from upper left on the circle photos, gentle highlight along the black metal band and the screen, deep emerald ambient shadow in the background, slight vignette toward the edges.\n\nCamera: Background: macro, shallow depth of field, heavily blurred. Insets: macro close-ups, eye-level to slightly above, ring in sharp focus, 85mm product-lens feel.\n\nComposition & layout: Vertical 9:16 frame. Headline band 14% to 25% of frame height, centred, 88% of frame width, on two lines. Two overlapping circles from 27% to 49.5% of frame height, each circle about 44% of frame width in diameter (centres at 29% and 71% of width, overlapping by about 2% of width in the middle), thin white 3 px ring border. Left caption block (title then why-line) from 51% to 59.5% of height, centred under the left circle, width 6% to 48%. Right caption block in the same band, centred under the right circle, width 52% to 94%. Left caption block belongs to the thumb-tap circle, right caption block to the display circle. Cream pill button 61.5% to 65.5% of height, centred, 44% of frame width. Thin full-width cream bar from 66.5% to 74% of height holding two centred lines of text. Below 75% the frame is only the dark blurred background, no text, no objects. Top 0 to 13% only blurred background. Focal flow: headline, left circle, right circle, captions, pill, bar.\n\nBrand colors: Background deep emerald #0F3D26 fading to #0A2A1A at the edges; brand green #1F5A2E as a soft glow behind the circles; all headline and caption text white #FFFFFF; button cream #F3F7F0 with near-black #111111 text; bottom bar cream #EAF2E6 with #1A1A1A text; the gold only on the ring's own logo button. The ring is black.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a black metal smart ring, not a bottle. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it, exactly as in the product PNG; never digits running along the band. Exactly one ring in each circle (the same ring), the display and the gold logo button both visible and facing the camera in the display circle, the gold logo button under the thumb in the thumb-tap circle. Ring fills about 60% of each circle. A natural adult hand, five fingers, relaxed, thumb not covering the display.\n\nText: Render exactly seven text elements, nothing else:\n1) \"A ring with a hidden tasbih\" — clean geometric sans-serif, bold, sentence case, white #FFFFFF, centred in the headline band on two lines: line 1 \"A ring with\", line 2 \"a hidden tasbih\", cap height about 4.6% of frame height, very legible at thumbnail size.\n2) \"Silent Count\" — under the left circle, clean geometric sans-serif, semibold, Title Case, white #FFFFFF, centred, cap height about 2.6% of frame height.\n3) \"Tap it in meetings.\" — directly below text 2, clean geometric sans-serif, regular, sentence case, white #FFFFFF, centred, one or two lines, cap height about 2.5% of frame height.\n4) \"Gentle Pulse\" — under the right circle, same style as text 2.\n5) \"Feel 33, 66, 99.\" — below text 4, same style as text 3.\n6) \"Shop Now\" — inside the cream pill, clean geometric sans-serif, bold, Title Case exactly as written, near-black #111111, centred, cap height about 2.5% of frame height.\n7) \"Free US shipping 60-day money-back\" — inside the thin cream bar, typewriter monospace, regular, #1A1A1A, centred, exactly as written (not all caps), on two lines: line 1 \"Free US shipping\", line 2 \"60-day money-back\", cap height about 2.5% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalisation and punctuation. The word \"tasbih\" is spelled T-A-S-B-I-H. \"money-back\" keeps its hyphen, \"60-day\" keeps its hyphen, \"US\" is two capital letters. The caption \"Feel 33, 66, 99.\" keeps both commas and the final period. High contrast on every element, fully inside the frame with at least 6% side margins, no letters cut off or touching the circles. The numerals in the ring display read 5, 3, 3, 2 in that order, as seven-segment digits. Render only the seven quoted strings, the digits on the ring screen and the ring's own gold logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings, the ring display digits 5332 and the gold logo on the ring; digits running along the band; a second row of digits; a second or third ring; extra hands or faces; star ratings, review counts, badges, seals, \"clinically proven\", press logos, customer names; brand logos or wordmarks other than the ring's own gold logo button; misspelled, warped, mirrored or cut-off letters; altered or invented label text; plastic CGI skin, extra fingers, fused hands; clutter; watermarks; any text or objects below 75% of the frame height or in the top 13%.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v1",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A vertical social-media ad built on a dark, softly blurred macro photo of a hand wearing exactly one black smart ring, filling the whole frame as an out-of-focus background in deep emerald green. Over it sit two large overlapping circular photo insets, each with a thin white ring border, side by side in the centre of the frame, overlapping slightly in the middle. Left circle: a macro of a right thumb pressing the small gold Al Rayan logo button on the black ring, worn on a finger of a relaxed hand. Right circle: a macro of the black ring's display, ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it. Above the circles is a big headline; below them two short captions, one pill button and a thin two-line bar.\n\nStyle: Polished modern product-macro photography combined with clean flat graphic overlay, like a high-performing direct-response static ad. Crisp, calm, premium but approachable. Not an illustration, no CGI gloss.\n\nLighting: Soft, directional key light from upper left on the circle photos, gentle highlight along the black metal band and the screen, deep emerald ambient shadow in the background, slight vignette toward the edges.\n\nCamera: Background: macro, shallow depth of field, heavily blurred. Insets: macro close-ups, eye-level to slightly above, ring in sharp focus, 85mm product-lens feel.\n\nComposition & layout: Vertical 9:16 frame. Headline band 14% to 25% of frame height, centred, 88% of frame width, on two lines. Two overlapping circles from 27% to 49.5% of frame height, each circle about 44% of frame width in diameter (centres at 29% and 71% of width, overlapping by about 2% of width in the middle), thin white 3 px ring border. Left caption block (title then why-line) from 51% to 59.5% of height, centred under the left circle, width 6% to 48%. Right caption block in the same band, centred under the right circle, width 52% to 94%. Left caption block belongs to the thumb-tap circle, right caption block to the display circle. Cream pill button 61.5% to 65.5% of height, centred, 44% of frame width. Thin full-width cream bar from 66.5% to 74% of height holding two centred lines of text. Below 75% the frame is only the dark blurred background, no text, no objects. Top 0 to 13% only blurred background. Focal flow: headline, left circle, right circle, captions, pill, bar.\n\nBrand colors: Background deep emerald #0F3D26 fading to #0A2A1A at the edges; brand green #1F5A2E as a soft glow behind the circles; all headline and caption text white #FFFFFF; button cream #F3F7F0 with near-black #111111 text; bottom bar cream #EAF2E6 with #1A1A1A text; the gold only on the ring's own logo button. The ring is black.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a black metal smart ring, not a bottle. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it, exactly as in the product PNG; never digits running along the band. Exactly one ring in each circle (the same ring), the display and the gold logo button both visible and facing the camera in the display circle, the gold logo button under the thumb in the thumb-tap circle. Ring fills about 60% of each circle. A natural adult hand, five fingers, relaxed, thumb not covering the display.\n\nText: Render exactly seven text elements, nothing else:\n1) \"It passes as a regular ring.\" — clean geometric sans-serif, bold, sentence case, white #FFFFFF, centred in the headline band on two lines: line 1 \"It passes as\", line 2 \"a regular ring.\", cap height about 4.6% of frame height, very legible at thumbnail size.\n2) \"Silent Count\" — under the left circle, clean geometric sans-serif, semibold, Title Case, white #FFFFFF, centred, cap height about 2.6% of frame height.\n3) \"Tap it in meetings.\" — directly below text 2, clean geometric sans-serif, regular, sentence case, white #FFFFFF, centred, one or two lines, cap height about 2.5% of frame height.\n4) \"Gentle Pulse\" — under the right circle, same style as text 2.\n5) \"Feel 33, 66, 99.\" — below text 4, same style as text 3.\n6) \"Shop Now\" — inside the cream pill, clean geometric sans-serif, bold, Title Case exactly as written, near-black #111111, centred, cap height about 2.5% of frame height.\n7) \"Free US shipping 60-day money-back\" — inside the thin cream bar, typewriter monospace, regular, #1A1A1A, centred, exactly as written (not all caps), on two lines: line 1 \"Free US shipping\", line 2 \"60-day money-back\", cap height about 2.5% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalisation and punctuation. The word \"tasbih\" is spelled T-A-S-B-I-H. \"money-back\" keeps its hyphen, \"60-day\" keeps its hyphen, \"US\" is two capital letters. The caption \"Feel 33, 66, 99.\" keeps both commas and the final period. High contrast on every element, fully inside the frame with at least 6% side margins, no letters cut off or touching the circles. The numerals in the ring display read 5, 3, 3, 2 in that order, as seven-segment digits. Render only the seven quoted strings, the digits on the ring screen and the ring's own gold logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings, the ring display digits 5332 and the gold logo on the ring; digits running along the band; a second row of digits; a second or third ring; extra hands or faces; star ratings, review counts, badges, seals, \"clinically proven\", press logos, customer names; brand logos or wordmarks other than the ring's own gold logo button; misspelled, warped, mirrored or cut-off letters; altered or invented label text; plastic CGI skin, extra fingers, fused hands; clutter; watermarks; any text or objects below 75% of the frame height or in the top 13%.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v2",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A vertical social-media ad built on a dark, softly blurred macro photo of a hand wearing exactly one black smart ring, filling the whole frame as an out-of-focus background in deep emerald green. Over it sit two large overlapping circular photo insets, each with a thin white ring border, side by side in the centre of the frame, overlapping slightly in the middle. Left circle: a macro of the black ring's display, ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it. Right circle: a macro of a right thumb pressing the small gold Al Rayan logo button on the black ring, worn on a finger of a relaxed hand. Above the circles is a big headline; below them two short captions, one pill button and a thin two-line bar.\n\nStyle: Polished modern product-macro photography combined with clean flat graphic overlay, like a high-performing direct-response static ad. Crisp, calm, premium but approachable. Not an illustration, no CGI gloss.\n\nLighting: Soft, directional key light from upper left on the circle photos, gentle highlight along the black metal band and the screen, deep emerald ambient shadow in the background, slight vignette toward the edges.\n\nCamera: Background: macro, shallow depth of field, heavily blurred. Insets: macro close-ups, eye-level to slightly above, ring in sharp focus, 85mm product-lens feel.\n\nComposition & layout: Vertical 9:16 frame. Headline band 14% to 25% of frame height, centred, 88% of frame width, on two lines. Two overlapping circles from 27% to 49.5% of frame height, each circle about 44% of frame width in diameter (centres at 29% and 71% of width, overlapping by about 2% of width in the middle), thin white 3 px ring border. Left caption block (title then why-line) from 51% to 59.5% of height, centred under the left circle, width 6% to 48%. Right caption block in the same band, centred under the right circle, width 52% to 94%. Left caption block belongs to the display circle, right caption block to the thumb-tap circle. Cream pill button 61.5% to 65.5% of height, centred, 44% of frame width. Thin full-width cream bar from 66.5% to 74% of height holding two centred lines of text. Below 75% the frame is only the dark blurred background, no text, no objects. Top 0 to 13% only blurred background. Focal flow: headline, left circle, right circle, captions, pill, bar.\n\nBrand colors: Background deep emerald #0F3D26 fading to #0A2A1A at the edges; brand green #1F5A2E as a soft glow behind the circles; all headline and caption text white #FFFFFF; button cream #F3F7F0 with near-black #111111 text; bottom bar cream #EAF2E6 with #1A1A1A text; the gold only on the ring's own logo button. The ring is black.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a black metal smart ring, not a bottle. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it, exactly as in the product PNG; never digits running along the band. Exactly one ring in each circle (the same ring), the display and the gold logo button both visible and facing the camera in the display circle, the gold logo button under the thumb in the thumb-tap circle. Ring fills about 60% of each circle. A natural adult hand, five fingers, relaxed, thumb not covering the display.\n\nText: Render exactly seven text elements, nothing else:\n1) \"A ring with a hidden tasbih\" — clean geometric sans-serif, bold, sentence case, white #FFFFFF, centred in the headline band on two lines: line 1 \"A ring with\", line 2 \"a hidden tasbih\", cap height about 4.6% of frame height, very legible at thumbnail size.\n2) \"Gentle Pulse\" — under the left circle, clean geometric sans-serif, semibold, Title Case, white #FFFFFF, centred, cap height about 2.6% of frame height.\n3) \"Feel 33, 66, 99.\" — directly below text 2, clean geometric sans-serif, regular, sentence case, white #FFFFFF, centred, one or two lines, cap height about 2.5% of frame height.\n4) \"Silent Count\" — under the right circle, same style as text 2.\n5) \"Tap it in meetings.\" — below text 4, same style as text 3.\n6) \"Shop Now\" — inside the cream pill, clean geometric sans-serif, bold, Title Case exactly as written, near-black #111111, centred, cap height about 2.5% of frame height.\n7) \"Free US shipping 60-day money-back\" — inside the thin cream bar, typewriter monospace, regular, #1A1A1A, centred, exactly as written (not all caps), on two lines: line 1 \"Free US shipping\", line 2 \"60-day money-back\", cap height about 2.5% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalisation and punctuation. The word \"tasbih\" is spelled T-A-S-B-I-H. \"money-back\" keeps its hyphen, \"60-day\" keeps its hyphen, \"US\" is two capital letters. The caption \"Feel 33, 66, 99.\" keeps both commas and the final period. High contrast on every element, fully inside the frame with at least 6% side margins, no letters cut off or touching the circles. The numerals in the ring display read 5, 3, 3, 2 in that order, as seven-segment digits. Render only the seven quoted strings, the digits on the ring screen and the ring's own gold logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings, the ring display digits 5332 and the gold logo on the ring; digits running along the band; a second row of digits; a second or third ring; extra hands or faces; star ratings, review counts, badges, seals, \"clinically proven\", press logos, customer names; brand logos or wordmarks other than the ring's own gold logo button; misspelled, warped, mirrored or cut-off letters; altered or invented label text; plastic CGI skin, extra fingers, fused hands; clutter; watermarks; any text or objects below 75% of the frame height or in the top 13%.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v3",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A vertical social-media ad built on a dark, softly blurred scene of a desk with a dark sleeve and a hand on a laptop edge, wearing exactly one black smart ring, filling the whole frame as an out-of-focus charcoal background. Over it sit two large overlapping circular photo insets, each with a thin white ring border, side by side in the centre of the frame, overlapping slightly in the middle. Left circle: a macro of a right thumb pressing the small gold Al Rayan logo button on the black ring, worn on a finger of a relaxed hand. Right circle: a macro of the black ring's display, ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it. Above the circles is a big headline; below them two short captions, one pill button and a thin two-line bar.\n\nStyle: Polished modern product-macro photography combined with clean flat graphic overlay, like a high-performing direct-response static ad. Crisp, calm, premium but approachable. Not an illustration, no CGI gloss.\n\nLighting: Soft, directional key light from upper left on the circle photos, gentle highlight along the black metal band and the screen, charcoal ambient shadow in the background with a faint emerald edge glow, slight vignette toward the edges.\n\nCamera: Background: macro, shallow depth of field, heavily blurred. Insets: macro close-ups, eye-level to slightly above, ring in sharp focus, 85mm product-lens feel.\n\nComposition & layout: Vertical 9:16 frame. Headline band 14% to 25% of frame height, centred, 88% of frame width, on two lines. Two overlapping circles from 27% to 49.5% of frame height, each circle about 44% of frame width in diameter (centres at 29% and 71% of width, overlapping by about 2% of width in the middle), thin white 3 px ring border. Left caption block (title then why-line) from 51% to 59.5% of height, centred under the left circle, width 6% to 48%. Right caption block in the same band, centred under the right circle, width 52% to 94%. Left caption block belongs to the thumb-tap circle, right caption block to the display circle. Cream pill button 61.5% to 65.5% of height, centred, 44% of frame width. Thin full-width cream bar from 66.5% to 74% of height holding two centred lines of text. Below 75% the frame is only the dark blurred background, no text, no objects. Top 0 to 13% only blurred background. Focal flow: headline, left circle, right circle, captions, pill, bar.\n\nBrand colors: Background dark charcoal #1A1D1B fading to #0E100F at the edges, with a thin soft emerald #1F5A2E glow behind the circles; all headline and caption text white #FFFFFF; button cream #F3F7F0 with near-black #111111 text; bottom bar cream #EAF2E6 with #1A1A1A text; the gold only on the ring's own logo button. The ring is black.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a black metal smart ring, not a bottle. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, the gold Al Rayan logo button beside it, exactly as in the product PNG; never digits running along the band. Exactly one ring in each circle (the same ring), the display and the gold logo button both visible and facing the camera in the display circle, the gold logo button under the thumb in the thumb-tap circle. Ring fills about 60% of each circle. A natural adult hand, five fingers, relaxed, thumb not covering the display.\n\nText: Render exactly seven text elements, nothing else:\n1) \"A ring with a hidden tasbih\" — clean geometric sans-serif, bold, sentence case, white #FFFFFF, centred in the headline band on two lines: line 1 \"A ring with\", line 2 \"a hidden tasbih\", cap height about 4.6% of frame height, very legible at thumbnail size.\n2) \"Silent Count\" — under the left circle, clean geometric sans-serif, semibold, Title Case, white #FFFFFF, centred, cap height about 2.6% of frame height.\n3) \"Tap it in meetings.\" — directly below text 2, clean geometric sans-serif, regular, sentence case, white #FFFFFF, centred, one or two lines, cap height about 2.5% of frame height.\n4) \"Gentle Pulse\" — under the right circle, same style as text 2.\n5) \"Feel 33, 66, 99.\" — below text 4, same style as text 3.\n6) \"Shop Now\" — inside the cream pill, clean geometric sans-serif, bold, Title Case exactly as written, near-black #111111, centred, cap height about 2.5% of frame height.\n7) \"Free US shipping 60-day money-back\" — inside the thin cream bar, typewriter monospace, regular, #1A1A1A, centred, exactly as written (not all caps), on two lines: line 1 \"Free US shipping\", line 2 \"60-day money-back\", cap height about 2.5% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with the exact capitalisation and punctuation. The word \"tasbih\" is spelled T-A-S-B-I-H. \"money-back\" keeps its hyphen, \"60-day\" keeps its hyphen, \"US\" is two capital letters. The caption \"Feel 33, 66, 99.\" keeps both commas and the final period. High contrast on every element, fully inside the frame with at least 6% side margins, no letters cut off or touching the circles. The numerals in the ring display read 5, 3, 3, 2 in that order, as seven-segment digits. Render only the seven quoted strings, the digits on the ring screen and the ring's own gold logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the quoted strings, the ring display digits 5332 and the gold logo on the ring; digits running along the band; a second row of digits; a second or third ring; extra hands or faces; star ratings, review counts, badges, seals, \"clinically proven\", press logos, customer names; brand logos or wordmarks other than the ring's own gold logo button; misspelled, warped, mirrored or cut-off letters; altered or invented label text; plastic CGI skin, extra fingers, fused hands; clutter; watermarks; any text or objects below 75% of the frame height or in the top 13%.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  }
+ ],
+ "variations": [
+  {
+   "step": "img_v1",
+   "kind": "V-copy",
+   "delta": "HEADLINE swapped to approved hook H2 \"It passes as a regular ring.\"; same layout and other strings"
+  },
+  {
+   "step": "img_v2",
+   "kind": "V-layout",
+   "delta": "Mirrored inset order: display circle left, thumb-tap circle right, with their titles and why-lines; same words"
+  },
+  {
+   "step": "img_v3",
+   "kind": "V-scene",
+   "delta": "Background changed from blurred emerald hand-and-ring to a blurred dark charcoal desk scene with a thin emerald glow; same layout and words"
+  }
+ ],
+ "est_credits": 2.0,
+ "chief": {
+  "rounds": 1,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_11/chief_notes_v1.md"
+  ],
+  "residual_concerns": [
+   "Tirmidhi 3375 to be glanced at on sunnah.com before launch",
+   "'silent' is brand-stated (A-11) and untested"
+  ]
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "Tap the gold button to count; small display shows your total",
+    "source": "01-research/offer_brief.md Step 0 (A-1, product page)"
+   },
+   {
+    "text": "Gentle vibration at 33, 66 and 99",
+    "source": "01-research/offer_brief.md Step 0 (A-2)"
+   },
+   {
+    "text": "Silent Count (silent tracking)",
+    "source": "concept_slate.md A-11 (brand-stated)"
+   },
+   {
+    "text": "Looks like a ring",
+    "source": "A-10 / Q40"
+   },
+   {
+    "text": "Free US shipping and 60-day money-back guarantee",
+    "source": "00-intake/intake.md; offer_brief.md Step 0"
+   },
+   {
+    "text": "Let not your tongue cease to be moist with the remembrance of Allah. (Tirmidhi 3375)",
+    "source": "offer_brief.md Verified Islamic sources #7"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md description/primary text/cta",
+    "resolution": "sourced: 60-day money-back guarantee, intake.md"
+   },
+   {
+    "term": "star ratings / review counts / clinically proven",
+    "location": "img_* prompts, Avoid block",
+    "resolution": "negated in Avoid list only; not rendered"
+   }
+  ],
+  "checked_by": "ad11-chief + ad11-pe"
+ }
+}

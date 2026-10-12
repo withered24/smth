@@ -1,0 +1,31 @@
+{
+ "verdict": "REVISE",
+ "round": 1,
+ "ad_id": "ad_01",
+ "tier": 2,
+ "notes": [
+  "N1 [Primary text lines 10-11] First-person product usage (\"Now the count sits on my finger... The ring is my helper\") reads as a customer review of our product (truth rule 3: persona framing, no attribution, no result claims). Kept in chiefed v1: the confession/failed-fix/insight story stays first person (obvious persona, no name, no result), but from the product line on the voice switches to second person/brand. Example fix: \"Al Rayan Dhikr Ring 2.0 puts the count on your finger. Tap to count. A gentle pulse at 33, 66 and 99. No phone to open.\"",
+  "N2 [Primary text line 6] \"I felt like a fraud\" is shame; avatar_sheet says do NOT use guilt or shame in ads (user doc Ethical Copywriting Boundaries). Kept in chiefed v1 as a softer doubt. Example fix: \"I wondered if my intention was the weak part.\"",
+  "N3 [Primary text line 7] Hadith attribution: the doc wording is the Bukhari 6464 line narrated by Aisha, not Aisha's own saying; use exact doc wording with a narrator frame. Kept in chiefed v1. Example fix: Narrated by Aisha: \"the most beloved deed to Allah is the most regular and constant even if it were little.\" (Sahih al-Bukhari 6464)",
+  "N4 [Primary text line 4] \"Twenty minutes later\" is an invented number in the story; VOC-30 supports only being pulled into social media. Kept in chiefed v1. Example fix: \"Next thing I knew I was deep in my feed.\"",
+  "N5 [Primary text line 12] \"The phone stays on the nightstand\" implies phone-free operation (UNCONFIRMED claim shape); reworded to \"No phone to open\" (A-1 tap to count; ring has its own display). Keep this wording; do not add 'works without phone' or 'silent' claims beyond A-11.",
+  "N6 [Primary text line 13] Sunnah line needs a safe form: \"Counting on fingers remains the Sunnah. The ring is a helper when the count gets long.\" (A-13, offer_brief rule c). Kept in chiefed v1; never rank the ring above fingers.",
+  "N7 [Rationale] Update Rationale/Checks for the new lines: Truth support for ring line = A-1, A-2, A-11-free; remove 'first-person persona ring lines' judgement call, since the ring lines are now second person. Note guarantee scan hits are A-8."
+ ],
+ "edited_copy_path": "03-ads/ad_01/copy_chiefed_v1.md",
+ "notes_path": "03-ads/ad_01/chief_notes_v1.md",
+ "benchmarks": {
+  "B1": "PASS",
+  "B2": "PASS",
+  "B3": "PASS",
+  "B4": "PASS",
+  "B5": "PASS",
+  "B6": "PASS",
+  "B7": "PASS",
+  "B8": "PASS",
+  "B9": "PASS",
+  "B10": "PASS"
+ },
+ "residual_concerns": [],
+ "chiefing": "skill"
+}

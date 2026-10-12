@@ -1,0 +1,2090 @@
+{
+  "schema_version": 1,
+  "run": "C:/Users/rayan/OneDrive/Desktop/ADS/ad-runs/2026-10-05-al-rayan-dhikr-ring",
+  "product_slug": "al-rayan-dhikr-ring",
+  "created_at": "2026-10-05T13:25:00Z",
+  "updated_at": "2026-10-05T13:25:00Z",
+  "inputs": {
+    "product": "Al Rayan Dhikr Ring 2.0 (smart tasbih ring)",
+    "product_url": "https://alrayanrings.net",
+    "offer": "$49.99, free US shipping, 60-day trial/money-back, limited-time 25% off (per store page)",
+    "cta_destination": "https://alrayanrings.net",
+    "product_images": [
+      "00-intake/product_black.png",
+      "00-intake/product_rose_gold.png"
+    ],
+    "user_docs": [
+      "00-intake/user_market_research.md",
+      "00-intake/store_product_page.png"
+    ],
+    "counts": {
+      "image_swipes": 3,
+      "image_new_concepts": 2,
+      "video_ads": 3
+    },
+    "credit_cap": 200,
+    "download_consent": {
+      "granted": true,
+      "question": "OK to download reference media from GetHookd/Meta Ad Library and the Higgsfield outputs into the run folder?",
+      "answered_at": "2026-10-05T13:25:00Z"
+    },
+    "image_aspect_ratio": "9:16",
+    "video_seconds": [
+      6,
+      25
+    ],
+    "language": "en",
+    "market": "US",
+    "niche": "Muslim dhikr / tasbih counting \u2014 smart dhikr rings for Western Muslims",
+    "research_mode": "augment"
+  },
+  "preflight": {
+    "checked_at": "2026-10-05T13:25:00Z",
+    "workspace": "Private (ca2218f3-fd20-4ada-96fe-71dcb9560d69)",
+    "balance_start": 200,
+    "ffmpeg": true,
+    "faster_whisper": true,
+    "gethookd_signed_in": true,
+    "higgsfield_web_signed_in": true,
+    "omni_web": true,
+    "reddit_mcp": "unavailable",
+    "browser_mode": "parallel-builtin"
+  },
+  "product_upload_id": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+  "phase_status": {
+    "P0": "done",
+    "P1": "done",
+    "P2": "done",
+    "P3": "done",
+    "P4": "done"
+  },
+  "avatars": [
+    {
+      "id": "A1",
+      "label": "Discreet daily rememberer: practising Muslim professional/student in secular workplace",
+      "source": "research"
+    },
+    {
+      "id": "A2",
+      "label": "Meaningful-gift buyer (spouse/parent/revert friend; Ramadan, Eid, Umrah)",
+      "source": "research"
+    }
+  ],
+  "angles": [
+    {
+      "id": "ANG1",
+      "desire": "discreet dhikr at work",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "evidence": [
+        "Q21",
+        "Q22",
+        "Q40"
+      ]
+    },
+    {
+      "id": "ANG2",
+      "desire": "commute 1,000 istighfar without phone",
+      "avatar": "A1",
+      "awareness": "solution-aware",
+      "evidence": [
+        "Q18",
+        "Q39",
+        "Q20"
+      ]
+    },
+    {
+      "id": "ANG3",
+      "desire": "never lose count (kids, rak'ahs)",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "evidence": [
+        "Q29",
+        "Q02",
+        "Q01"
+      ]
+    },
+    {
+      "id": "ANG4",
+      "desire": "phone-free remembrance",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "evidence": [
+        "Q30"
+      ]
+    },
+    {
+      "id": "ANG5",
+      "desire": "meaningful practical gift",
+      "avatar": "A2",
+      "awareness": "solution-aware",
+      "evidence": [
+        "Q25",
+        "Q35"
+      ]
+    },
+    {
+      "id": "ANG6",
+      "desire": "jewelry not gadget",
+      "avatar": "A1",
+      "awareness": "product-aware",
+      "evidence": [
+        "Q32",
+        "Q40"
+      ]
+    },
+    {
+      "id": "ANG7",
+      "desire": "consistency over intensity",
+      "avatar": "A1",
+      "awareness": "unaware",
+      "evidence": [
+        "Bukhari 6464"
+      ]
+    },
+    {
+      "id": "ANG8",
+      "desire": "better than loud clicker / dead clone",
+      "avatar": "A1",
+      "awareness": "solution-aware",
+      "evidence": [
+        "Q11",
+        "Q21",
+        "Q33"
+      ]
+    },
+    {
+      "id": "ANG9",
+      "desire": "33/66/99 pulse after salah",
+      "avatar": "A1",
+      "awareness": "product-aware",
+      "evidence": [
+        "Muslim 596a"
+      ]
+    },
+    {
+      "id": "ANG10",
+      "desire": "remembrance continues after prayer at work",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "evidence": [
+        "Quran 62:10"
+      ]
+    },
+    {
+      "id": "ANG11",
+      "desire": "wudu-ready, never take it off",
+      "avatar": "A1",
+      "awareness": "product-aware",
+      "evidence": [
+        "Q01"
+      ]
+    },
+    {
+      "id": "ANG12",
+      "desire": "quiet tahajjud count",
+      "avatar": "A1",
+      "awareness": "solution-aware",
+      "evidence": [
+        "Q02",
+        "Q38"
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "ad_01",
+      "format": "image",
+      "route": "swipe",
+      "angle": "ANG7",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "story-confession",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": null,
+      "status": "done",
+      "note": null,
+      "source_id": "yaqeen-books-126182379",
+      "product_image": "00-intake/product_black.png",
+      "brief": "03-ads/ad_01/brief.md"
+    },
+    {
+      "id": "ad_02",
+      "format": "image",
+      "route": "swipe",
+      "angle": "ANG11",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "callout",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": null,
+      "status": "done",
+      "note": null,
+      "source_id": "tayyib-beauty-175015416",
+      "product_image": "00-intake/product_black.png",
+      "brief": "03-ads/ad_02/brief.md"
+    },
+    {
+      "id": "ad_03",
+      "format": "image",
+      "route": "swipe",
+      "angle": "ANG5",
+      "avatar": "A2",
+      "awareness": "solution-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "callout",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": null,
+      "status": "done",
+      "note": null,
+      "source_id": "hope-rings-177217013",
+      "product_image": "00-intake/product_rose_gold.png",
+      "brief": "03-ads/ad_03/brief.md"
+    },
+    {
+      "id": "ad_04",
+      "format": "image",
+      "route": "new_concept",
+      "angle": "ANG4",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "problem-agitation",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": null,
+      "status": "done",
+      "note": null,
+      "source_id": "C-01",
+      "product_image": "00-intake/product_black.png",
+      "brief": "03-ads/ad_04/brief.md"
+    },
+    {
+      "id": "ad_05",
+      "format": "image",
+      "route": "new_concept",
+      "angle": "ANG8",
+      "avatar": "A1",
+      "awareness": "solution-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "us-vs-them",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": null,
+      "status": "done",
+      "note": null,
+      "source_id": "C-02",
+      "product_image": "00-intake/product_rose_gold.png",
+      "brief": "03-ads/ad_05/brief.md"
+    },
+    {
+      "id": "ad_06",
+      "format": "video",
+      "route": "swipe",
+      "angle": "ANG6/ANG1",
+      "avatar": "A1",
+      "awareness": "solution-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "pattern-inversion",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": 10,
+      "status": "done",
+      "note": null,
+      "source_id": "ergosalah-71735717",
+      "product_image": "00-intake/product_black.png",
+      "brief": "03-ads/ad_06/brief.md",
+      "max_clips": 3
+    },
+    {
+      "id": "ad_07",
+      "format": "video",
+      "route": "swipe",
+      "angle": "ANG9",
+      "avatar": "A1",
+      "awareness": "product-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "demo-first",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": 10,
+      "status": "done",
+      "note": null,
+      "source_id": "meta-2379413312864003",
+      "product_image": "00-intake/product_rose_gold.png",
+      "brief": "03-ads/ad_07/brief.md",
+      "max_clips": 3
+    },
+    {
+      "id": "ad_08",
+      "format": "video",
+      "route": "swipe",
+      "angle": "ANG2",
+      "avatar": "A1",
+      "awareness": "problem-aware",
+      "source_swipe_ids": [],
+      "concept_type": null,
+      "hook_type": "callout",
+      "visual_concept": null,
+      "aspect_ratio": "9:16",
+      "target_seconds": 15,
+      "status": "done",
+      "note": null,
+      "source_id": "meta-1649694736793087",
+      "product_image": "00-intake/product_black.png",
+      "brief": "03-ads/ad_08/brief.md",
+      "max_clips": 4
+    },
+    {
+      "id": "ad_09",
+      "format": "image",
+      "route": "swipe",
+      "status": "done",
+      "source_swipe_ids": [
+        "meta-1549115429718810"
+      ],
+      "product_variant": "black"
+    },
+    {
+      "id": "ad_10",
+      "format": "image",
+      "route": "swipe",
+      "status": "done",
+      "source_swipe_ids": [
+        "calm-collective-92336795"
+      ],
+      "product_variant": "rose gold"
+    },
+    {
+      "id": "ad_11",
+      "format": "image",
+      "route": "swipe",
+      "status": "done",
+      "source_swipe_ids": [
+        "cloud-nine-133765605"
+      ],
+      "product_variant": "black"
+    }
+  ],
+  "credits": {
+    "cap": 200,
+    "balance_start": 200,
+    "balance": 48.5,
+    "spent": 151.5,
+    "cap_left": 48.5
+  },
+  "credit_ledger": [
+    {
+      "ad_id": "ad_01",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "8f58172e-627a-4f5d-a28c-639bc4311547",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155642_8f58172e-627a-4f5d-a28c-639bc4311547.png",
+      "local_path": "04-assets/ad_01/images/img_main.png",
+      "credits_before": 200.0,
+      "credits_after": 192.0,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T15:57:05Z",
+      "note": "superseded: QA best_attempt 2",
+      "raw": "04-assets/ad_01/jobs/img_main_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_02",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "331fdec2-60b4-4411-9fbb-668d82d2120c",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155642_331fdec2-60b4-4411-9fbb-668d82d2120c.png",
+      "local_path": "04-assets/ad_02/images/img_main.png",
+      "credits_before": 200.0,
+      "credits_after": 192.0,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T15:57:06Z",
+      "note": "superseded: QA best_attempt 2",
+      "raw": "04-assets/ad_02/jobs/img_main_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_03",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "936d9a6e-492c-4efa-9c96-915430b8185a",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155643_936d9a6e-492c-4efa-9c96-915430b8185a.png",
+      "local_path": "04-assets/ad_03/images/img_main.png",
+      "credits_before": 200.0,
+      "credits_after": 192.0,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T15:57:11Z",
+      "note": "superseded: QA best_attempt 2",
+      "raw": "04-assets/ad_03/jobs/img_main_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_03",
+      "step": "img_main",
+      "attempt": 2,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "1b040584-cded-47ee-b6e4-46f986603d70",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160136_1b040584-cded-47ee-b6e4-46f986603d70.png",
+      "local_path": "04-assets/ad_03/images/img_main_a2.png",
+      "credits_before": 180.5,
+      "credits_after": 172.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:02:16Z",
+      "note": null,
+      "raw": "04-assets/ad_03/jobs/img_main_a2.json",
+      "actual_cost": 2.0,
+      "qa": "best_attempt (QA FAIL x2: display digits read vertically along band; accepted, flagged)"
+    },
+    {
+      "ad_id": "ad_04",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "f28bc6e8-3b47-4c72-99c5-d98f370cc93e",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155644_f28bc6e8-3b47-4c72-99c5-d98f370cc93e.png",
+      "local_path": "04-assets/ad_04/images/img_main.png",
+      "credits_before": 200.0,
+      "credits_after": 182.0,
+      "balance_delta": 18.0,
+      "ts": "2026-10-05T15:58:33Z",
+      "note": "superseded: QA best_attempt 2",
+      "raw": "04-assets/ad_04/jobs/img_main_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_04",
+      "step": "img_main",
+      "attempt": 2,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "029b6f6b-f164-43b0-a16f-42672763f835",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160136_029b6f6b-f164-43b0-a16f-42672763f835.png",
+      "local_path": "04-assets/ad_04/images/img_main_a2.png",
+      "credits_before": 180.5,
+      "credits_after": 172.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:02:06Z",
+      "note": null,
+      "raw": "04-assets/ad_04/jobs/img_main_a2.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_05",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "2085ddbd-2d6b-4cf8-a2f8-5a639acea701",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155737_2085ddbd-2d6b-4cf8-a2f8-5a639acea701.png",
+      "local_path": "04-assets/ad_05/images/img_main.png",
+      "credits_before": 192.0,
+      "credits_after": 186.0,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T15:58:10Z",
+      "note": null,
+      "raw": "04-assets/ad_05/jobs/img_main_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "C01_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "2dc77829-5797-4766-95ac-55b97cc58423",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155738_2dc77829-5797-4766-95ac-55b97cc58423.png",
+      "local_path": "04-assets/ad_06/frames/C01_frame.png",
+      "credits_before": 192.0,
+      "credits_after": 186.0,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T15:58:11Z",
+      "note": null,
+      "raw": "04-assets/ad_06/jobs/C01_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "vo",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "text2speech_v2",
+      "params": {
+        "variant": "elevenlabs",
+        "voice_id": "b0f766b7-8703-4bd1-b973-f857c36837b6",
+        "voice_type": "preset"
+      },
+      "est_cost": 0.45,
+      "status": "ok",
+      "job_id_or_url": "f8011c48-acbb-4d31-a040-7c3cce1a963a",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155849_f8011c48-acbb-4d31-a040-7c3cce1a963a.mp3",
+      "local_path": "04-assets/ad_06/audio/vo.mp3",
+      "credits_before": 184.0,
+      "credits_after": 181.55,
+      "balance_delta": 2.45,
+      "ts": "2026-10-05T15:58:45Z",
+      "note": null,
+      "raw": "04-assets/ad_06/jobs/vo_a1.json",
+      "actual_cost": 0.45
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "C01_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "85856e2f-3172-422c-ba91-43ddf351d106",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155748_85856e2f-3172-422c-ba91-43ddf351d106.png",
+      "local_path": "04-assets/ad_07/frames/C01_frame.png",
+      "credits_before": 188.0,
+      "credits_after": 186.0,
+      "balance_delta": 2.0,
+      "ts": "2026-10-05T15:58:19Z",
+      "note": null,
+      "raw": "04-assets/ad_07/jobs/C01_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "vo",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "text2speech_v2",
+      "params": {
+        "variant": "elevenlabs",
+        "voice_id": "caeba733-3c17-43db-863e-69c7025512cd",
+        "voice_type": "preset"
+      },
+      "est_cost": 0.45,
+      "status": "ok",
+      "job_id_or_url": "c0ce640a-4de7-42a5-83be-4eaffedce1fc",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155902_c0ce640a-4de7-42a5-83be-4eaffedce1fc.mp3",
+      "local_path": "04-assets/ad_07/audio/vo.mp3",
+      "credits_before": 181.55,
+      "credits_after": 181.1,
+      "balance_delta": 0.45,
+      "ts": "2026-10-05T15:58:57Z",
+      "note": null,
+      "raw": "04-assets/ad_07/jobs/vo_a1.json",
+      "actual_cost": 0.45
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C01_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "336ebb5d-da8c-49cc-a5e2-28fc514c6ac2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155840_336ebb5d-da8c-49cc-a5e2-28fc514c6ac2.png",
+      "local_path": "04-assets/ad_08/frames/C01_frame.png",
+      "credits_before": 186.0,
+      "credits_after": 181.1,
+      "balance_delta": 4.9,
+      "ts": "2026-10-05T15:59:10Z",
+      "note": "superseded: QA best_attempt 2",
+      "raw": "04-assets/ad_08/jobs/C01_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C03_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "53bb0764-0032-436a-9226-f327730676b0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155844_53bb0764-0032-436a-9226-f327730676b0.png",
+      "local_path": "04-assets/ad_08/frames/C03_frame.png",
+      "credits_before": 186.0,
+      "credits_after": 181.1,
+      "balance_delta": 4.9,
+      "ts": "2026-10-05T15:59:09Z",
+      "note": "superseded: QA best_attempt 2",
+      "raw": "04-assets/ad_08/jobs/C03_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "vo",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "text2speech_v2",
+      "params": {
+        "variant": "elevenlabs",
+        "voice_id": "c25f78a0-714e-42af-8da3-a399cef94968",
+        "voice_type": "preset"
+      },
+      "est_cost": 0.6,
+      "status": "ok",
+      "job_id_or_url": "52c31bc3-e712-455c-82ea-4dfb9a9f22cd",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155926_52c31bc3-e712-455c-82ea-4dfb9a9f22cd.mp3",
+      "local_path": "04-assets/ad_08/audio/vo.mp3",
+      "credits_before": 181.1,
+      "credits_after": 180.5,
+      "balance_delta": 0.6,
+      "ts": "2026-10-05T15:59:22Z",
+      "note": null,
+      "raw": "04-assets/ad_08/jobs/vo_a1.json",
+      "actual_cost": 0.6
+    },
+    {
+      "ad_id": "ad_01",
+      "step": "img_main",
+      "attempt": 2,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "2631c4e6-8cee-4be0-b27d-864daf2656ab",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160136_2631c4e6-8cee-4be0-b27d-864daf2656ab.png",
+      "local_path": "04-assets/ad_01/images/img_main_a2.png",
+      "credits_before": 180.5,
+      "credits_after": 168.5,
+      "balance_delta": 12.0,
+      "ts": "2026-10-05T16:02:49Z",
+      "note": null,
+      "raw": "04-assets/ad_01/jobs/img_main_a2.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_02",
+      "step": "img_main",
+      "attempt": 2,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "20bd66cf-d97f-4b9e-856c-9eb5a5775568",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160136_20bd66cf-d97f-4b9e-856c-9eb5a5775568.png",
+      "local_path": "04-assets/ad_02/images/img_main_a2.png",
+      "credits_before": 180.5,
+      "credits_after": 168.5,
+      "balance_delta": 12.0,
+      "ts": "2026-10-05T16:02:48Z",
+      "note": null,
+      "raw": "04-assets/ad_02/jobs/img_main_a2.json",
+      "actual_cost": 2.0,
+      "qa": "best_attempt (QA FAIL x2: display digits read vertically along band; accepted, flagged)"
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "C02_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "4fed914b-d931-4593-bef1-8e494696de6d",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160256_4fed914b-d931-4593-bef1-8e494696de6d.png",
+      "local_path": "04-assets/ad_06/frames/C02_frame.png",
+      "credits_before": 172.5,
+      "credits_after": 164.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:04:17Z",
+      "note": null,
+      "raw": "04-assets/ad_06/jobs/C02_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "C02_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "3345787f-7d6f-4df6-b0af-b32e42ed81d8",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160256_3345787f-7d6f-4df6-b0af-b32e42ed81d8.png",
+      "local_path": "04-assets/ad_07/frames/C02_frame.png",
+      "credits_before": 172.5,
+      "credits_after": 166.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T16:03:20Z",
+      "note": null,
+      "raw": "04-assets/ad_07/jobs/C02_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "C03_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "f71412ca-4f7c-4406-9548-010cd078bb49",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160318_f71412ca-4f7c-4406-9548-010cd078bb49.png",
+      "local_path": "04-assets/ad_07/frames/C03_frame.png",
+      "credits_before": 168.5,
+      "credits_after": 164.5,
+      "balance_delta": 4.0,
+      "ts": "2026-10-05T16:04:00Z",
+      "note": null,
+      "raw": "04-assets/ad_07/jobs/C03_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "C03_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "5f49217c-6ebc-4fe7-9edd-b6e2460460e1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160351_5f49217c-6ebc-4fe7-9edd-b6e2460460e1.png",
+      "local_path": "04-assets/ad_06/frames/C03_frame.png",
+      "credits_before": 166.5,
+      "credits_after": 160.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T16:05:05Z",
+      "note": null,
+      "raw": "04-assets/ad_06/jobs/C03_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C01_frame",
+      "attempt": 2,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "5262711f-1d33-49e4-85df-980745147b16",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160510_5262711f-1d33-49e4-85df-980745147b16.png",
+      "local_path": "04-assets/ad_08/frames/C01_frame_a2.png",
+      "credits_before": 164.5,
+      "credits_after": 160.5,
+      "balance_delta": 4.0,
+      "ts": "2026-10-05T16:05:38Z",
+      "note": null,
+      "raw": "04-assets/ad_08/jobs/C01_frame_a2.json",
+      "actual_cost": 2.0,
+      "qa": "PASS"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C03_frame",
+      "attempt": 2,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "7f278f1d-e5f9-4ef3-8c5b-3c1efd2a11e9",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160513_7f278f1d-e5f9-4ef3-8c5b-3c1efd2a11e9.png",
+      "local_path": "04-assets/ad_08/frames/C03_frame_a2.png",
+      "credits_before": 164.5,
+      "credits_after": 160.5,
+      "balance_delta": 4.0,
+      "ts": "2026-10-05T16:06:01Z",
+      "note": null,
+      "raw": "04-assets/ad_08/jobs/C03_frame_a2.json",
+      "actual_cost": 2.0,
+      "qa": "best_attempt (QA FAIL x2: display digits garbled on close crop; accepted, flagged)"
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "C01_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160903_935b1ab8-593b-4a8c-9752-eb597b99e09d.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160903_935b1ab8-593b-4a8c-9752-eb597b99e09d.mp4",
+      "local_path": "04-assets/ad_06/clips/c01.mp4",
+      "prompt_head": "The colleague across the table glances at the woman's ringed",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:09:03Z",
+      "note": "716x1284 5.04s no audio",
+      "credits_before": 160.5,
+      "x": 1,
+      "qa": "PASS"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C02_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "760b2e83-0e5d-4d0c-835f-7e1cf362af17",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160842_760b2e83-0e5d-4d0c-835f-7e1cf362af17.png",
+      "local_path": "04-assets/ad_08/frames/C02_frame.png",
+      "credits_before": 160.5,
+      "credits_after": 151.5,
+      "balance_delta": 9.0,
+      "ts": "2026-10-05T16:09:39Z",
+      "note": null,
+      "raw": "04-assets/ad_08/jobs/C02_frame_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C04_frame",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "9911ca20-405a-4713-8fae-484215094c7b",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160843_9911ca20-405a-4713-8fae-484215094c7b.png",
+      "local_path": "04-assets/ad_08/frames/C04_frame.png",
+      "credits_before": 160.5,
+      "credits_after": 151.5,
+      "balance_delta": 9.0,
+      "ts": "2026-10-05T16:09:22Z",
+      "note": "superseded: QA best_attempt 2",
+      "raw": "04-assets/ad_08/jobs/C04_frame_a1.json",
+      "actual_cost": 2.0
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "C02_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161043_4544e9f6-7e3d-4d6a-ba72-8c1e85d1a2e0.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161043_4544e9f6-7e3d-4d6a-ba72-8c1e85d1a2e0.mp4",
+      "local_path": "04-assets/ad_06/clips/c02.mp4",
+      "prompt_head": "Her thumb taps the black ring twice under the table edge whi",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:10:35Z",
+      "note": "superseded: QA best_attempt 2",
+      "qa": "FAIL r4"
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "C03_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161146_0d85383c-063a-40f1-b966-bb9085945462.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161146_0d85383c-063a-40f1-b966-bb9085945462.mp4",
+      "local_path": "04-assets/ad_06/clips/c03.mp4",
+      "prompt_head": "The woman gives one quiet thumb tap on her ring and a tiny p",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:11:44Z",
+      "note": "716x1284 5.04s no audio",
+      "qa": "PASS"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C04_frame",
+      "attempt": 2,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "6e972bb8-03e5-4b8a-b6db-1f41a5daa1f8",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161204_6e972bb8-03e5-4b8a-b6db-1f41a5daa1f8.png",
+      "local_path": "04-assets/ad_08/frames/C04_frame_a2.png",
+      "credits_before": 141.5,
+      "credits_after": 139.5,
+      "balance_delta": 2.0,
+      "ts": "2026-10-05T16:12:46Z",
+      "note": null,
+      "raw": "04-assets/ad_08/jobs/C04_frame_a2.json",
+      "actual_cost": 2.0,
+      "qa": "PASS (warn: logo renders white not gold)"
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "C01_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161453_099d3da9-c4d7-42ec-9a9e-fd948132dd1a.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161453_099d3da9-c4d7-42ec-9a9e-fd948132dd1a.mp4",
+      "local_path": "04-assets/ad_07/clips/c01.mp4",
+      "prompt_head": "A thumb taps the rose-gold ring and a soft pulse ripples out",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:14:47Z",
+      "note": "superseded: QA best_attempt 2",
+      "qa": "FAIL r4"
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "C02_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161559_e604ec5d-1e48-4394-831e-65e1226eb82a.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161559_e604ec5d-1e48-4394-831e-65e1226eb82a.mp4",
+      "local_path": "04-assets/ad_07/clips/c02.mp4",
+      "prompt_head": "Two tiny thumb taps tick the ring's display up on the prayer",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:15:52Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS (warn)"
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "C03_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161752_6111b271-34bd-46de-994f-6a4668fa25c3.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_161752_6111b271-34bd-46de-994f-6a4668fa25c3.mp4",
+      "local_path": "04-assets/ad_07/clips/c03.mp4",
+      "prompt_head": "Two hands lift the rose-gold ring toward the camera and it g",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:17:47Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS (warn)"
+    },
+    {
+      "ad_id": "ad_06",
+      "step": "C02_clip",
+      "attempt": 2,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162020_fa9ee259-2473-48b0-a6d6-3f3da227be2a.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162020_fa9ee259-2473-48b0-a6d6-3f3da227be2a.mp4",
+      "local_path": "04-assets/ad_06/clips/c02_a2.mp4",
+      "prompt_head": "Her free left index fingertip taps the black ring once, gent",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:20:17Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS (warn)"
+    },
+    {
+      "ad_id": "ad_07",
+      "step": "C01_clip",
+      "attempt": 2,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162119_bec5b2ce-4b23-4ff3-8292-3a89d9940325.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162119_bec5b2ce-4b23-4ff3-8292-3a89d9940325.mp4",
+      "local_path": "04-assets/ad_07/clips/c01_a2.mp4",
+      "prompt_head": "A fingertip taps the rose-gold ring and the display ticks fr",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:21:09Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS (warn)"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C01_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162224_041adecc-d55b-4a74-b6fb-0814446f72be.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162224_041adecc-d55b-4a74-b6fb-0814446f72be.mp4",
+      "local_path": "04-assets/ad_08/clips/c01.mp4",
+      "prompt_head": "A walking woman's right hand swings at her hip while thin wh",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:22:20Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS r6"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C02_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162311_6a7396e7-0cee-4890-b41f-8106f4560cfc.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162311_6a7396e7-0cee-4890-b41f-8106f4560cfc.mp4",
+      "local_path": "04-assets/ad_08/clips/c02.mp4",
+      "prompt_head": "Her thumb taps the black ring twice in close-up and each tap",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:23:03Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS r6"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C03_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162519_ee1731ed-ddc5-476b-83c3-e2d7ef433d1b.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162519_ee1731ed-ddc5-476b-83c3-e2d7ef433d1b.mp4",
+      "local_path": "04-assets/ad_08/clips/c03.mp4",
+      "prompt_head": "The woman's shoulders drop and her head lifts as the last sc",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:25:20Z",
+      "note": "superseded: QA best_attempt 2",
+      "qa": "FAIL r6"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C04_clip",
+      "attempt": 1,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162627_905a7a35-a229-4321-b778-751feb681f0b.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_162627_905a7a35-a229-4321-b778-751feb681f0b.mp4",
+      "local_path": "04-assets/ad_08/clips/c04.mp4",
+      "prompt_head": "The woman holds her ringed right hand steady toward the came",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:26:22Z",
+      "note": "superseded: QA best_attempt 2",
+      "qa": "FAIL r6"
+    },
+    {
+      "ad_id": "ad_01",
+      "step": "img_v1",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "a3703180-085e-494b-ba47-f073c778e0cb",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163322_a3703180-085e-494b-ba47-f073c778e0cb.png",
+      "local_path": "04-assets/ad_01/images/img_v1.png",
+      "credits_before": 94.5,
+      "credits_after": 80.5,
+      "balance_delta": 14.0,
+      "ts": "2026-10-05T16:35:02Z",
+      "note": null,
+      "raw": "04-assets/ad_01/jobs/img_v1_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_01",
+      "step": "img_v2",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "c03a103b-ab34-4999-8480-ac57c7c5590d",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163321_c03a103b-ab34-4999-8480-ac57c7c5590d.png",
+      "local_path": "04-assets/ad_01/images/img_v2.png",
+      "credits_before": 94.5,
+      "credits_after": 86.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:33:56Z",
+      "note": null,
+      "raw": "04-assets/ad_01/jobs/img_v2_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_01",
+      "step": "img_v3",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "1:1",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "0b041fef-da06-4e98-9798-55c20de8fd8a",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163322_0b041fef-da06-4e98-9798-55c20de8fd8a.png",
+      "local_path": "04-assets/ad_01/images/img_v3.png",
+      "credits_before": 94.5,
+      "credits_after": 86.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:34:02Z",
+      "note": "superseded: QA FAIL r7 (variation, not retried; excluded from report)",
+      "raw": "04-assets/ad_01/jobs/img_v3_a1.json",
+      "actual_cost": 2.0,
+      "qa": "FAIL r7"
+    },
+    {
+      "ad_id": "ad_02",
+      "step": "img_v1",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "6d2ed412-be60-49e0-a234-33b3aa670932",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163322_6d2ed412-be60-49e0-a234-33b3aa670932.png",
+      "local_path": "04-assets/ad_02/images/img_v1.png",
+      "credits_before": 94.5,
+      "credits_after": 86.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:33:59Z",
+      "note": "superseded: QA FAIL r7 (variation, not retried; excluded from report)",
+      "raw": "04-assets/ad_02/jobs/img_v1_a1.json",
+      "actual_cost": 2.0,
+      "qa": "FAIL r7"
+    },
+    {
+      "ad_id": "ad_02",
+      "step": "img_v2",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "4c1a231d-e004-4b60-8253-ac4b6dcd48c9",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163422_4c1a231d-e004-4b60-8253-ac4b6dcd48c9.png",
+      "local_path": "04-assets/ad_02/images/img_v2.png",
+      "credits_before": 86.5,
+      "credits_after": 80.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T16:35:09Z",
+      "note": null,
+      "raw": "04-assets/ad_02/jobs/img_v2_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_02",
+      "step": "img_v3",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "63e17f24-0171-46aa-881c-51573b4c6343",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163425_63e17f24-0171-46aa-881c-51573b4c6343.png",
+      "local_path": "04-assets/ad_02/images/img_v3.png",
+      "credits_before": 86.5,
+      "credits_after": 74.5,
+      "balance_delta": 12.0,
+      "ts": "2026-10-05T16:35:33Z",
+      "note": "superseded: QA FAIL r7 (variation, not retried; excluded from report)",
+      "raw": "04-assets/ad_02/jobs/img_v3_a1.json",
+      "actual_cost": 2.0,
+      "qa": "FAIL r7"
+    },
+    {
+      "ad_id": "ad_03",
+      "step": "img_v1",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "4d64eb2f-3996-4cfb-a64b-ef695fa6dd30",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163429_4d64eb2f-3996-4cfb-a64b-ef695fa6dd30.png",
+      "local_path": "04-assets/ad_03/images/img_v1.png",
+      "credits_before": 86.5,
+      "credits_after": 80.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T16:35:10Z",
+      "note": "superseded: QA FAIL r7 (variation, not retried; excluded from report)",
+      "raw": "04-assets/ad_03/jobs/img_v1_a1.json",
+      "actual_cost": 2.0,
+      "qa": "FAIL r7"
+    },
+    {
+      "ad_id": "ad_03",
+      "step": "img_v2",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "09a664d4-1c0b-45e2-83fa-743be85bb92b",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163529_09a664d4-1c0b-45e2-83fa-743be85bb92b.png",
+      "local_path": "04-assets/ad_03/images/img_v2.png",
+      "credits_before": 80.5,
+      "credits_after": 70.5,
+      "balance_delta": 10.0,
+      "ts": "2026-10-05T16:36:07Z",
+      "note": "superseded: QA FAIL r7 (variation, not retried; excluded from report)",
+      "raw": "04-assets/ad_03/jobs/img_v2_a1.json",
+      "actual_cost": 2.0,
+      "qa": "FAIL r7"
+    },
+    {
+      "ad_id": "ad_03",
+      "step": "img_v3",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "8682d726-cada-45ec-893e-45558c5f7146",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163533_8682d726-cada-45ec-893e-45558c5f7146.png",
+      "local_path": "04-assets/ad_03/images/img_v3.png",
+      "credits_before": 80.5,
+      "credits_after": 72.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:35:57Z",
+      "note": null,
+      "raw": "04-assets/ad_03/jobs/img_v3_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_04",
+      "step": "img_v1",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "e1e60a0a-330e-47c1-910b-d12c2d3d273c",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163534_e1e60a0a-330e-47c1-910b-d12c2d3d273c.png",
+      "local_path": "04-assets/ad_04/images/img_v1.png",
+      "credits_before": 80.5,
+      "credits_after": 72.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:36:04Z",
+      "note": null,
+      "raw": "04-assets/ad_04/jobs/img_v1_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_04",
+      "step": "img_v2",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "6fdb81f9-a669-4568-9763-8c38188523a5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163600_6fdb81f9-a669-4568-9763-8c38188523a5.png",
+      "local_path": "04-assets/ad_04/images/img_v2.png",
+      "credits_before": 74.5,
+      "credits_after": 66.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:36:31Z",
+      "note": "superseded: QA FAIL r7 (variation, not retried; excluded from report)",
+      "raw": "04-assets/ad_04/jobs/img_v2_a1.json",
+      "actual_cost": 2.0,
+      "qa": "FAIL r7"
+    },
+    {
+      "ad_id": "ad_04",
+      "step": "img_v3",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "30dd1cc5-beee-4e45-8361-89057102e66d",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163621_30dd1cc5-beee-4e45-8361-89057102e66d.png",
+      "local_path": "04-assets/ad_04/images/img_v3.png",
+      "credits_before": 72.5,
+      "credits_after": 64.5,
+      "balance_delta": 8.0,
+      "ts": "2026-10-05T16:37:28Z",
+      "note": null,
+      "raw": "04-assets/ad_04/jobs/img_v3_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_05",
+      "step": "img_v1",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "28483746-f164-4b08-84e0-2bbed9b7aca0",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163632_28483746-f164-4b08-84e0-2bbed9b7aca0.png",
+      "local_path": "04-assets/ad_05/images/img_v1.png",
+      "credits_before": 70.5,
+      "credits_after": 64.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T16:37:06Z",
+      "note": "superseded: QA FAIL r7 (variation, not retried; excluded from report)",
+      "raw": "04-assets/ad_05/jobs/img_v1_a1.json",
+      "actual_cost": 2.0,
+      "qa": "FAIL r7"
+    },
+    {
+      "ad_id": "ad_05",
+      "step": "img_v2",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "f75d16ce-305b-4f30-9f5c-540a94baa65e",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163635_f75d16ce-305b-4f30-9f5c-540a94baa65e.png",
+      "local_path": "04-assets/ad_05/images/img_v2.png",
+      "credits_before": 70.5,
+      "credits_after": 64.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T16:37:55Z",
+      "note": null,
+      "raw": "04-assets/ad_05/jobs/img_v2_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_05",
+      "step": "img_v3",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "0b2bcfa1-d34c-4047-abdc-adb517a6a484",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163656_0b2bcfa1-d34c-4047-abdc-adb517a6a484.png",
+      "local_path": "04-assets/ad_05/images/img_v3.png",
+      "credits_before": 66.5,
+      "credits_after": 64.5,
+      "balance_delta": 2.0,
+      "ts": "2026-10-05T16:38:24Z",
+      "note": null,
+      "raw": "04-assets/ad_05/jobs/img_v3_a1.json",
+      "actual_cost": 2.0,
+      "qa": "PASS r7"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C03_clip",
+      "attempt": 2,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_164735_ea059057-f30a-4315-bb2b-47631b042b67.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_164735_ea059057-f30a-4315-bb2b-47631b042b67.mp4",
+      "local_path": "04-assets/ad_08/clips/c03_a2.mp4",
+      "prompt_head": "The woman keeps her right hand relaxed at her side and lifts",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:47:32Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS r6b (warn)"
+    },
+    {
+      "ad_id": "ad_08",
+      "step": "C04_clip",
+      "attempt": 2,
+      "route": "web",
+      "job_type": "kling3_omni_web",
+      "params": {
+        "duration": "5s",
+        "aspect_ratio": "9:16",
+        "resolution": "720p",
+        "sound": "off"
+      },
+      "est_cost": 5,
+      "status": "ok",
+      "job_id_or_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_164837_35589a1c-ccee-4a7d-9e76-984fe4a00066.mp4",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_164837_35589a1c-ccee-4a7d-9e76-984fe4a00066.mp4",
+      "local_path": "04-assets/ad_08/clips/c04_a2.mp4",
+      "prompt_head": "The woman walks on in profile with her ringed right hand hel",
+      "model_label": "Kling 3.0 Omni",
+      "ts": "2026-10-05T16:48:32Z",
+      "note": "video,716,1284 5.041667 ",
+      "qa": "PASS r6b (warn)"
+    },
+    {
+      "ad_id": "ad_09",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "4ab56c4f-ccf3-4cb2-8e35-25b2b8c28d90",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_205509_4ab56c4f-ccf3-4cb2-8e35-25b2b8c28d90.png",
+      "local_path": "04-assets/ad_09/images/img_main.png",
+      "credits_before": 50.5,
+      "credits_after": 48.5,
+      "balance_delta": 2.0,
+      "ts": "2026-10-05T20:55:50Z",
+      "note": null,
+      "raw": "04-assets/ad_09/jobs/img_main_a1.json"
+    },
+    {
+      "ad_id": "ad_10",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "b3fe5ea4-5d29-477f-bb84-1cc27888a2d8",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_205457_b3fe5ea4-5d29-477f-bb84-1cc27888a2d8.png",
+      "local_path": "04-assets/ad_10/images/img_main.png",
+      "credits_before": 54.5,
+      "credits_after": 48.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T20:55:34Z",
+      "note": null,
+      "raw": "04-assets/ad_10/jobs/img_main_a1.json"
+    },
+    {
+      "ad_id": "ad_11",
+      "step": "img_main",
+      "attempt": 1,
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "est_cost": 2.0,
+      "status": "ok",
+      "job_id_or_url": "57f9a8aa-7a4f-4c9d-9059-7f6b73fded1a",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_205457_57f9a8aa-7a4f-4c9d-9059-7f6b73fded1a.png",
+      "local_path": "04-assets/ad_11/images/img_main.png",
+      "credits_before": 54.5,
+      "credits_after": 48.5,
+      "balance_delta": 6.0,
+      "ts": "2026-10-05T20:55:55Z",
+      "note": null,
+      "raw": "04-assets/ad_11/jobs/img_main_a1.json"
+    }
+  ],
+  "workers": [
+    {
+      "label": "p1-sop",
+      "agent_id": "abbf687c437b56497",
+      "phase": "P1",
+      "status": "done",
+      "template": "agents/1b-sop-research.md",
+      "ad_id": null,
+      "tab_id": null,
+      "brief_path": "00-intake/briefs/p1-sop.md",
+      "spawned_at": "2026-10-05T13:30:00Z",
+      "returned_at": "2026-10-05T13:40:00Z",
+      "result": "partial: 3 docs; 13 faith sources verified via sunnah.com data mirror; spec conflicts flagged"
+    },
+    {
+      "label": "p2-gh-img",
+      "agent_id": "a05aa4ce4e4a10f40",
+      "phase": "P2",
+      "status": "done",
+      "template": "agents/2a-gethookd-scout.md",
+      "ad_id": null,
+      "tab_id": "tab-4",
+      "brief_path": "00-intake/briefs/p2-gh-img.md",
+      "spawned_at": "2026-10-05T13:45:00Z",
+      "returned_at": "2026-10-05T14:30:00Z"
+    },
+    {
+      "label": "p2-gh-vid",
+      "agent_id": "a4da39d43f96775bb",
+      "phase": "P2",
+      "status": "done",
+      "template": "agents/2a-gethookd-scout.md",
+      "ad_id": null,
+      "tab_id": "tab-5",
+      "brief_path": "00-intake/briefs/p2-gh-vid.md",
+      "spawned_at": "2026-10-05T13:45:00Z",
+      "returned_at": "2026-10-05T14:30:00Z"
+    },
+    {
+      "label": "p2-gh-x",
+      "agent_id": "a766af02f68bda46a",
+      "phase": "P2",
+      "status": "done",
+      "template": "agents/2a-gethookd-scout.md",
+      "ad_id": null,
+      "tab_id": "tab-6",
+      "brief_path": "00-intake/briefs/p2-gh-x.md",
+      "spawned_at": "2026-10-05T13:45:00Z",
+      "returned_at": "2026-10-05T14:30:00Z"
+    },
+    {
+      "label": "p2-social",
+      "agent_id": "a319bab624fb26684",
+      "phase": "P2",
+      "status": "done",
+      "template": "agents/2b-social-scout.md",
+      "ad_id": null,
+      "tab_id": "tab-7",
+      "brief_path": "00-intake/briefs/p2-social.md",
+      "spawned_at": "2026-10-05T13:45:00Z",
+      "returned_at": "2026-10-05T14:30:00Z"
+    },
+    {
+      "label": "ad01-pe",
+      "agent_id": "a183cbb2abac958a0",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_01",
+      "brief_path": "00-intake/briefs/ad01-pe.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad01-copy",
+      "agent_id": "a41168f334fc23c51",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-copywriter",
+      "ad_id": "ad_01",
+      "brief_path": "00-intake/briefs/ad01-copy.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad02-pe",
+      "agent_id": "a47f5e54cb31264d5",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_02",
+      "brief_path": "00-intake/briefs/ad02-pe.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad02-copy",
+      "agent_id": "a0acf557a7fc9ef6e",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-copywriter",
+      "ad_id": "ad_02",
+      "brief_path": "00-intake/briefs/ad02-copy.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad03-pe",
+      "agent_id": "aa0f7b04675da0384",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_03",
+      "brief_path": "00-intake/briefs/ad03-pe.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad03-copy",
+      "agent_id": "a3fcc7169ea8ee530",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-copywriter",
+      "ad_id": "ad_03",
+      "brief_path": "00-intake/briefs/ad03-copy.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad04-pe",
+      "agent_id": "a6f7eea09a34054bf",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_04",
+      "brief_path": "00-intake/briefs/ad04-pe.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad04-copy",
+      "agent_id": "aa7d4204ef9bb2997",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-copywriter",
+      "ad_id": "ad_04",
+      "brief_path": "00-intake/briefs/ad04-copy.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad05-pe",
+      "agent_id": "a1a04b173370c0050",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_05",
+      "brief_path": "00-intake/briefs/ad05-pe.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad05-copy",
+      "agent_id": "ad7defd48f26d3126",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-copywriter",
+      "ad_id": "ad_05",
+      "brief_path": "00-intake/briefs/ad05-copy.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad06-pe",
+      "agent_id": "aef4ed349897fdd77",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_06",
+      "brief_path": "00-intake/briefs/ad06-pe.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad06-copy",
+      "agent_id": "a77ea2558e62e1904",
+      "phase": "P3",
+      "status": "failed",
+      "template": "3-copywriter",
+      "ad_id": "ad_06",
+      "brief_path": "00-intake/briefs/ad06-copy.md",
+      "note": "API spend limit 429 at start"
+    },
+    {
+      "label": "ad01-pe",
+      "agent_id": "a9e102626e1d77124",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_01",
+      "brief_path": "00-intake/briefs/ad01-pe.md"
+    },
+    {
+      "label": "ad01-copy",
+      "agent_id": "ae57e2b4f7a634adc",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-copywriter",
+      "ad_id": "ad_01",
+      "brief_path": "00-intake/briefs/ad01-copy.md"
+    },
+    {
+      "label": "ad02-pe",
+      "agent_id": "a0eea51f1ec0ada2e",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_02",
+      "brief_path": "00-intake/briefs/ad02-pe.md"
+    },
+    {
+      "label": "ad02-copy",
+      "agent_id": "a61cea22d54a7168b",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-copywriter",
+      "ad_id": "ad_02",
+      "brief_path": "00-intake/briefs/ad02-copy.md"
+    },
+    {
+      "label": "ad03-pe",
+      "agent_id": "abb01bf94e087e2d8",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_03",
+      "brief_path": "00-intake/briefs/ad03-pe.md"
+    },
+    {
+      "label": "ad03-copy",
+      "agent_id": "a4b368c8ba11ded2b",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-copywriter",
+      "ad_id": "ad_03",
+      "brief_path": "00-intake/briefs/ad03-copy.md"
+    },
+    {
+      "label": "ad04-pe",
+      "agent_id": "affccbe6d32594e8a",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_04",
+      "brief_path": "00-intake/briefs/ad04-pe.md"
+    },
+    {
+      "label": "ad04-copy",
+      "agent_id": "aecb07fd71d0f6d16",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-copywriter",
+      "ad_id": "ad_04",
+      "brief_path": "00-intake/briefs/ad04-copy.md"
+    },
+    {
+      "label": "ad05-pe",
+      "agent_id": "a81d7e53af329bb83",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_05",
+      "brief_path": "00-intake/briefs/ad05-pe.md"
+    },
+    {
+      "label": "ad05-copy",
+      "agent_id": "a6696f3009727c758",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-copywriter",
+      "ad_id": "ad_05",
+      "brief_path": "00-intake/briefs/ad05-copy.md"
+    },
+    {
+      "label": "ad06-pe",
+      "agent_id": "ad8fbb8424c5e7cf8",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-prompt-engineer",
+      "ad_id": "ad_06",
+      "brief_path": "00-intake/briefs/ad06-pe.md"
+    },
+    {
+      "label": "ad06-copy",
+      "agent_id": "a733900309f91bb25",
+      "phase": "P3",
+      "status": "done",
+      "template": "3-copywriter",
+      "ad_id": "ad_06",
+      "brief_path": "00-intake/briefs/ad06-copy.md"
+    },
+    {
+      "label": "p2-gh-nm",
+      "agent_id": "a536dc8daa658ee06",
+      "phase": "P2x",
+      "status": "done",
+      "template": "2a-gethookd-scout",
+      "tab_id": "seed",
+      "brief_path": "00-intake/briefs/p2-gh-nm.md"
+    },
+    {
+      "label": "p2-meta-nm",
+      "agent_id": "a2a934370783b1b97",
+      "phase": "P2x",
+      "status": "done",
+      "template": "2b-social-scout",
+      "tab_id": "tab-1",
+      "brief_path": "00-intake/briefs/p2-meta-nm.md"
+    },
+    {
+      "label": "ad09-copy",
+      "agent_id": "a93fe03b8cda4b0be",
+      "phase": "P3x",
+      "status": "done",
+      "ad_id": "ad_09",
+      "brief_path": "00-intake/briefs/ad09-copy.md"
+    },
+    {
+      "label": "ad10-copy",
+      "agent_id": "afebebb1e528c9bf9",
+      "phase": "P3x",
+      "status": "done",
+      "ad_id": "ad_10",
+      "brief_path": "00-intake/briefs/ad10-copy.md"
+    },
+    {
+      "label": "ad11-copy",
+      "agent_id": "a7b5a2ad79e2fcf53",
+      "phase": "P3x",
+      "status": "done",
+      "ad_id": "ad_11",
+      "brief_path": "00-intake/briefs/ad11-copy.md"
+    },
+    {
+      "label": "ad09-pe",
+      "agent_id": "ae752e9dd3faf9e87",
+      "phase": "P3x",
+      "status": "done",
+      "ad_id": "ad_09",
+      "brief_path": "00-intake/briefs/ad09-pe.md"
+    },
+    {
+      "label": "ad10-pe",
+      "agent_id": "ab34db1286825f8fb",
+      "phase": "P3x",
+      "status": "done",
+      "ad_id": "ad_10",
+      "brief_path": "00-intake/briefs/ad10-pe.md"
+    },
+    {
+      "label": "ad11-pe",
+      "agent_id": "a3e508abb4d2f5d22",
+      "phase": "P3x",
+      "status": "done",
+      "ad_id": "ad_11",
+      "brief_path": "00-intake/briefs/ad11-pe.md"
+    }
+  ],
+  "report": {
+    "path": "report.html",
+    "artifact": "https://claude.ai/artifact/VqrcubgVmm9xYidpixvMPu"
+  },
+  "product_upload_ids": {
+    "black": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+    "rose_gold": "6a6397d2-0e8c-41f2-a864-ef4f0e862acc",
+    "note": "rose_gold ads (ad_03, ad_05, ad_07) pass --product-id rose_gold"
+  }
+}

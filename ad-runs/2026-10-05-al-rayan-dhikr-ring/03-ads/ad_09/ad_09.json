@@ -1,0 +1,235 @@
+{
+  "id": "ad_09",
+  "format": "image",
+  "route": "swipe",
+  "concept_type": null,
+  "angle": "ANG8 - retire the cheap counter: the loud plastic clicker and the tangled beads were never built for your day; upgrade to a ring that counts silently, backed by a 60-day money-back guarantee and a 1-year tech warranty",
+  "avatar": "A1 discreet daily rememberer",
+  "awareness": "solution-aware",
+  "hook_type": "negative-warning",
+  "visual_concept": "RETIRE THE CLICKER: dark split, worn plastic clicker vs the black ring, guarantee seal, offer bar",
+  "source_swipe_ids": [
+    "meta-1549115429718810"
+  ],
+  "aspect_ratio": "9:16",
+  "target_seconds": null,
+  "hooks": [
+    {
+      "id": "H1",
+      "type": "negative-warning",
+      "text": "RETIRE THE LOUD CLICKER",
+      "overlay": null
+    },
+    {
+      "id": "H2",
+      "type": "voc-quote",
+      "text": "Loud clicks in a quiet office. Sound familiar?",
+      "overlay": null
+    },
+    {
+      "id": "H3",
+      "type": "pattern-inversion",
+      "text": "Your dhikr was never the problem. Your tools were.",
+      "overlay": null
+    },
+    {
+      "id": "H4",
+      "type": "problem-agitation",
+      "text": "Lost your count on the beads. Again.",
+      "overlay": null
+    },
+    {
+      "id": "H5",
+      "type": "benefit-statement",
+      "text": "Dhikr all day. No click. No beads.",
+      "overlay": null
+    }
+  ],
+  "recommended_hook": "H1",
+  "headline": "Retire the loud clicker. Keep dhikr.",
+  "primary_text": "Retire the loud clicker. It was never built for a quiet office, a packed train or your busy day.\n\nLoud clicking buttons in quiet office spaces.\nBeads you lose count on the second someone interrupts you.\nYour dhikr was never the problem. Your tools were.\n\nThe Al Rayan Dhikr Ring 2.0 counts with a silent tap on your finger. Gentle vibrations at 33, 66 and 99 tell you where you are. No beads to drop.\n\nTried a cheap counter that quit after a month? You get a 60-day money-back guarantee and a 1-year tech warranty.\n\n$49.99 with free US shipping. Tap Shop Now and retire the loud clicker.",
+  "description": "1-year tech warranty",
+  "cta": {
+    "button": "Shop Now",
+    "line": "Tap Shop Now and retire the loud clicker.",
+    "offer": "$49.99 · free US shipping · 60-day money-back guarantee · 1-year tech warranty",
+    "risk_reversal": "60-day money-back guarantee"
+  },
+  "on_image_text": [
+    {
+      "step": "img_main",
+      "slot": "HEADLINE",
+      "text": "RETIRE THE LOUD CLICKER",
+      "placement": "top third 15-31% of height, two lines, centered, bold condensed sans"
+    },
+    {
+      "step": "img_main",
+      "slot": "SUBHEAD",
+      "text": "Count your dhikr with one silent tap.",
+      "placement": "32-36% of height, one line, centered, clean sans"
+    },
+    {
+      "step": "img_main",
+      "slot": "BADGE",
+      "text": "60-DAY MONEY-BACK GUARANTEE",
+      "placement": "round seal centered x 50%, 47-57% of height, three stacked lines"
+    },
+    {
+      "step": "img_main",
+      "slot": "CTA_BUTTON",
+      "text": "FREE US SHIPPING + 1-YEAR TECH WARRANTY",
+      "placement": "full-width offer bar 61-67% of height, one line"
+    },
+    {
+      "step": "img_v1",
+      "slot": "HEADLINE",
+      "text": "Dhikr all day. No click. No beads.",
+      "placement": "top third 15-31% of height, two lines, centered, bold condensed sans"
+    },
+    {
+      "step": "img_v1",
+      "slot": "SUBHEAD",
+      "text": "Count your dhikr with one silent tap.",
+      "placement": "32-36% of height, one line, centered, clean sans"
+    },
+    {
+      "step": "img_v1",
+      "slot": "BADGE",
+      "text": "60-DAY MONEY-BACK GUARANTEE",
+      "placement": "round seal centered x 50%, 47-57% of height, three stacked lines"
+    },
+    {
+      "step": "img_v1",
+      "slot": "CTA_BUTTON",
+      "text": "FREE US SHIPPING + 1-YEAR TECH WARRANTY",
+      "placement": "full-width offer bar 61-67% of height, one line"
+    }
+  ],
+  "script": [],
+  "storyboard": [],
+  "voice_mode": null,
+  "voice": null,
+  "assembly": null,
+  "higgsfield_jobs": [
+    {
+      "step": "img_main",
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "prompt": "Scene: A polished studio composite on a dark charcoal #1A1A1A carbon-weave texture, split into a left half and a right half by one thin vertical gold line at the exact horizontal center. LEFT: exactly one generic, unbranded plastic hand tally counter (a small hand-held click counter with a black plastic body, a round metal-grey thumb button on top and a small blank dark mechanical window), visibly worn: scuffed, scratched edges, dull faded plastic, slightly dirty. It has no logo, no brand name, no numerals and no text on it. RIGHT: exactly one black smart ring, the product, floating upright in a three-quarter tilt, glossy, clean, crisp, with a faint warm gold-grey mist behind it. Between the two halves, overlapping the divider line, one round guarantee seal with a gold rim. Along the lower-middle of the frame, one full-width offer bar. The area below the bar is plain background only.\n\nStyle: Bold, high-contrast polished studio ad composite (not a phone photo). Dark premium product-photography look with a fine carbon-weave texture, crisp edges, subtle rim lights. The worn object looks tired and flat-lit, the ring looks clean and glowing. Respectful, no mockery, no cartoon.\n\nLighting: Worn object lit by a flat dull grey top light with soft shadow. Ring lit by a crisp warm key light from upper right with a subtle gold rim light on the band edges. Strong vignette to near-black #0D0D0D at the frame edges. A soft warm gold-grey mist glow behind the ring only.\n\nCamera: Straight-on, eye-level, 85mm product lens, both objects in sharp focus. Both objects shown on the same horizontal axis.\n\nComposition & layout: Vertical 9:16 frame. Headline band: 15% to 31% of frame height, two centered lines spanning 88% of frame width (x 6% to 94%). Subhead: 32% to 36% of height, one centered line, x 6% to 94%. Object zone: 37% to 59% of height. The worn clicker centered at x 25%, height about 17% of frame height, y 39% to 56%. The black ring centered at x 74%, ring height about 21% of frame height (ring outer diameter about 36% of frame width), y 38% to 58%, tilted three-quarter like the reference. Thin gold vertical divider at x 50% from y 38% to 60%, 0.4% wide. Round guarantee seal centered at x 50%, y 47% to 57% (diameter about 20% of frame width), overlapping the divider line. Offer bar: full-bleed horizontal bar from x 0% to 100%, y 61% to 67%. Below 67% only plain background. Top 0% to 14% plain background only, no elements. Focal flow: headline, then worn clicker, then ring, then seal, then bar.\n\nBrand colors: Background charcoal #1A1A1A with carbon weave, vignette #0D0D0D. Headline white #FFFFFF. Subhead light grey #D9D9D9. Divider line, seal rim and offer bar gold #C9A26B. Seal fill deep green #1F5A2E with cream #F5EFE6 text. Offer bar text charcoal #1A1A1A. The ring keeps its own black, white and gold. No orange, no other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black metal band ring with a glossy black finish. On its outer face is a flat black rectangular screen showing ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on the black screen, and beside it a small black rounded-square button with the gold Al Rayan logo, exactly as in the product reference image; the digits never run along the band. The display faces the camera within 25 degrees and is fully visible and sharp. Ring height about 21% of frame height. No hand, no finger, nothing covers the display.\n\nText: Render exactly four text elements and nothing else.\n1) \"RETIRE THE LOUD CLICKER\" , bold condensed sans-serif, black weight, ALL CAPS, #FFFFFF, centered, in the headline band 15% to 31% of height, broken onto exactly two lines: line 1 \"RETIRE THE\" and line 2 \"LOUD CLICKER\", cap height about 7% of frame height, tight line spacing, spanning about 88% of frame width.\n2) \"Count your dhikr with one silent tap.\" , clean modern sans-serif, regular weight, sentence case, #D9D9D9, centered on one line at 32% to 36% of height, cap height about 3% of frame height.\n3) \"60-DAY MONEY-BACK GUARANTEE\" , inside the round green seal, bold condensed sans-serif, bold, ALL CAPS, cream #F5EFE6, centered, stacked on exactly three lines: line 1 \"60-DAY\", line 2 \"MONEY-BACK\", line 3 \"GUARANTEE\", cap height about 2.8% of frame height, fully inside the seal with margin.\n4) \"FREE US SHIPPING + 1-YEAR TECH WARRANTY\" , on the offer bar (gold #C9A26B), bold condensed sans-serif, bold, ALL CAPS, charcoal #1A1A1A, centered on exactly one line at 62% to 66% of height, spanning about 88% of frame width, cap height about 3.4% of frame height.\n\nLegibility: Spell every word exactly as written inside the quotes, letter for letter, with the same punctuation, case and numerals. \"RETIRE\" is R-E-T-I-R-E, \"CLICKER\" is C-L-I-C-K-E-R, \"LOUD\" is L-O-U-D. \"GUARANTEE\" is G-U-A-R-A-N-T-E-E. \"WARRANTY\" is W-A-R-R-A-N-T-Y. \"SHIPPING\" is S-H-I-P-P-I-N-G. The plus sign in the offer bar is a plain \"+\". Keep \"60-DAY\", \"MONEY-BACK\" and \"1-YEAR\" with plain hyphens. High contrast on every element, side margins of at least 6%, no letters cut off or touching the edges of the seal or bar. Readable at thumbnail size on a phone. The ring's own display shows only the digits 5332 and the gold logo; the tally counter shows no text. Render only the four quoted strings plus the product's own label; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four quoted strings and the ring's own 5332 display; digits running along the ring band; a second ring; a second clicker; hands, fingers or people; brand names or logos on the clicker; profanity; star ratings, review counts, stickers, \"off\" or sale percentages, \"#1\", \"clinically proven\", press logos, scholar or expert imagery; cracked or smashed objects; smoke that hides the ring display; misspelled, warped, mirrored or duplicated letters; cluttered background; watermarks; any text in the top 14% or below 67% of the frame.",
+      "references": [
+        "@product"
+      ],
+      "depends_on": [],
+      "fallback": null
+    },
+    {
+      "step": "img_v1",
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "prompt": "Scene: A polished studio composite on a dark charcoal #1A1A1A carbon-weave texture, split into a left half and a right half by one thin vertical gold line at the exact horizontal center. LEFT: exactly one generic, unbranded plastic hand tally counter (a small hand-held click counter with a black plastic body, a round metal-grey thumb button on top and a small blank dark mechanical window), visibly worn: scuffed, scratched edges, dull faded plastic, slightly dirty. It has no logo, no brand name, no numerals and no text on it. RIGHT: exactly one black smart ring, the product, floating upright in a three-quarter tilt, glossy, clean, crisp, with a faint warm gold-grey mist behind it. Between the two halves, overlapping the divider line, one round guarantee seal with a gold rim. Along the lower-middle of the frame, one full-width offer bar. The area below the bar is plain background only.\n\nStyle: Bold, high-contrast polished studio ad composite (not a phone photo). Dark premium product-photography look with a fine carbon-weave texture, crisp edges, subtle rim lights. The worn object looks tired and flat-lit, the ring looks clean and glowing. Respectful, no mockery, no cartoon.\n\nLighting: Worn object lit by a flat dull grey top light with soft shadow. Ring lit by a crisp warm key light from upper right with a subtle gold rim light on the band edges. Strong vignette to near-black #0D0D0D at the frame edges. A soft warm gold-grey mist glow behind the ring only.\n\nCamera: Straight-on, eye-level, 85mm product lens, both objects in sharp focus. Both objects shown on the same horizontal axis.\n\nComposition & layout: Vertical 9:16 frame. Headline band: 15% to 31% of frame height, two centered lines spanning 88% of frame width (x 6% to 94%). Subhead: 32% to 36% of height, one centered line, x 6% to 94%. Object zone: 37% to 59% of height. The worn clicker centered at x 25%, height about 17% of frame height, y 39% to 56%. The black ring centered at x 74%, ring height about 21% of frame height (ring outer diameter about 36% of frame width), y 38% to 58%, tilted three-quarter like the reference. Thin gold vertical divider at x 50% from y 38% to 60%, 0.4% wide. Round guarantee seal centered at x 50%, y 47% to 57% (diameter about 20% of frame width), overlapping the divider line. Offer bar: full-bleed horizontal bar from x 0% to 100%, y 61% to 67%. Below 67% only plain background. Top 0% to 14% plain background only, no elements. Focal flow: headline, then worn clicker, then ring, then seal, then bar.\n\nBrand colors: Background charcoal #1A1A1A with carbon weave, vignette #0D0D0D. Headline white #FFFFFF. Subhead light grey #D9D9D9. Divider line, seal rim and offer bar gold #C9A26B. Seal fill deep green #1F5A2E with cream #F5EFE6 text. Offer bar text charcoal #1A1A1A. The ring keeps its own black, white and gold. No orange, no other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black metal band ring with a glossy black finish. On its outer face is a flat black rectangular screen showing ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on the black screen, and beside it a small black rounded-square button with the gold Al Rayan logo, exactly as in the product reference image; the digits never run along the band. The display faces the camera within 25 degrees and is fully visible and sharp. Ring height about 21% of frame height. No hand, no finger, nothing covers the display.\n\nText: Render exactly four text elements and nothing else.\n1) \"Dhikr all day. No click. No beads.\" , bold condensed sans-serif, black weight, sentence case exactly as written, #FFFFFF, centered, in the headline band 15% to 31% of height, broken onto two lines: line 1 \"Dhikr all day.\" and line 2 \"No click. No beads.\"; keep the exact capital letters and punctuation as written (sentence case, NOT all caps), cap height about 7% of frame height, tight line spacing, spanning about 88% of frame width.\n2) \"Count your dhikr with one silent tap.\" , clean modern sans-serif, regular weight, sentence case, #D9D9D9, centered on one line at 32% to 36% of height, cap height about 3% of frame height.\n3) \"60-DAY MONEY-BACK GUARANTEE\" , inside the round green seal, bold condensed sans-serif, bold, ALL CAPS, cream #F5EFE6, centered, stacked on exactly three lines: line 1 \"60-DAY\", line 2 \"MONEY-BACK\", line 3 \"GUARANTEE\", cap height about 2.8% of frame height, fully inside the seal with margin.\n4) \"FREE US SHIPPING + 1-YEAR TECH WARRANTY\" , on the offer bar (gold #C9A26B), bold condensed sans-serif, bold, ALL CAPS, charcoal #1A1A1A, centered on exactly one line at 62% to 66% of height, spanning about 88% of frame width, cap height about 3.4% of frame height.\n\nLegibility: Spell every word exactly as written inside the quotes, letter for letter, with the same punctuation, case and numerals. The word \"Dhikr\" is spelled D-H-I-K-R. \"GUARANTEE\" is G-U-A-R-A-N-T-E-E. \"WARRANTY\" is W-A-R-R-A-N-T-Y. \"SHIPPING\" is S-H-I-P-P-I-N-G. The plus sign in the offer bar is a plain \"+\". Keep \"60-DAY\", \"MONEY-BACK\" and \"1-YEAR\" with plain hyphens. High contrast on every element, side margins of at least 6%, no letters cut off or touching the edges of the seal or bar. Readable at thumbnail size on a phone. The ring's own display shows only the digits 5332 and the gold logo; the tally counter shows no text. Render only the four quoted strings plus the product's own label; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four quoted strings and the ring's own 5332 display; digits running along the ring band; a second ring; a second clicker; hands, fingers or people; brand names or logos on the clicker; profanity; star ratings, review counts, stickers, \"off\" or sale percentages, \"#1\", \"clinically proven\", press logos, scholar or expert imagery; cracked or smashed objects; smoke that hides the ring display; misspelled, warped, mirrored or duplicated letters; cluttered background; watermarks; any text in the top 14% or below 67% of the frame.",
+      "references": [
+        "@product"
+      ],
+      "depends_on": [],
+      "fallback": null
+    },
+    {
+      "step": "img_v2",
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "prompt": "Scene: A polished studio composite on a dark charcoal #1A1A1A carbon-weave texture, split into a left half and a right half by one thin vertical gold line at the exact horizontal center. RIGHT: exactly one generic, unbranded plastic hand tally counter (a small hand-held click counter with a black plastic body, a round metal-grey thumb button on top and a small blank dark mechanical window), visibly worn: scuffed, scratched edges, dull faded plastic, slightly dirty. It has no logo, no brand name, no numerals and no text on it. LEFT: exactly one black smart ring, the product, floating upright in a three-quarter tilt, glossy, clean, crisp, with a faint warm gold-grey mist behind it. Between the two halves, overlapping the divider line, one round guarantee seal with a gold rim. Along the lower-middle of the frame, one full-width offer bar. The area below the bar is plain background only.\n\nStyle: Bold, high-contrast polished studio ad composite (not a phone photo). Dark premium product-photography look with a fine carbon-weave texture, crisp edges, subtle rim lights. The worn object looks tired and flat-lit, the ring looks clean and glowing. Respectful, no mockery, no cartoon.\n\nLighting: Worn object lit by a flat dull grey top light with soft shadow. Ring lit by a crisp warm key light from upper right with a subtle gold rim light on the band edges. Strong vignette to near-black #0D0D0D at the frame edges. A soft warm gold-grey mist glow behind the ring only.\n\nCamera: Straight-on, eye-level, 85mm product lens, both objects in sharp focus. Both objects shown on the same horizontal axis.\n\nComposition & layout: Vertical 9:16 frame. Headline band: 15% to 31% of frame height, two centered lines spanning 88% of frame width (x 6% to 94%). Subhead: 32% to 36% of height, one centered line, x 6% to 94%. Object zone: 37% to 59% of height. The worn clicker centered at x 74%, height about 17% of frame height, y 39% to 56%. The black ring centered at x 25%, ring height about 21% of frame height (ring outer diameter about 36% of frame width), y 38% to 58%, tilted three-quarter like the reference. Thin gold vertical divider at x 50% from y 38% to 60%, 0.4% wide. Round guarantee seal centered at x 50%, y 47% to 57% (diameter about 20% of frame width), overlapping the divider line. Offer bar: full-bleed horizontal bar from x 0% to 100%, y 61% to 67%. Below 67% only plain background. Top 0% to 14% plain background only, no elements. Focal flow: headline, then worn clicker, then ring, then seal, then bar.\n\nBrand colors: Background charcoal #1A1A1A with carbon weave, vignette #0D0D0D. Headline white #FFFFFF. Subhead light grey #D9D9D9. Divider line, seal rim and offer bar gold #C9A26B. Seal fill deep green #1F5A2E with cream #F5EFE6 text. Offer bar text charcoal #1A1A1A. The ring keeps its own black, white and gold. No orange, no other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black metal band ring with a glossy black finish. On its outer face is a flat black rectangular screen showing ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on the black screen, and beside it a small black rounded-square button with the gold Al Rayan logo, exactly as in the product reference image; the digits never run along the band. The display faces the camera within 25 degrees and is fully visible and sharp. Ring height about 21% of frame height. No hand, no finger, nothing covers the display.\n\nText: Render exactly four text elements and nothing else.\n1) \"RETIRE THE LOUD CLICKER\" , bold condensed sans-serif, black weight, ALL CAPS, #FFFFFF, centered, in the headline band 15% to 31% of height, broken onto exactly two lines: line 1 \"RETIRE THE\" and line 2 \"LOUD CLICKER\", cap height about 7% of frame height, tight line spacing, spanning about 88% of frame width.\n2) \"Count your dhikr with one silent tap.\" , clean modern sans-serif, regular weight, sentence case, #D9D9D9, centered on one line at 32% to 36% of height, cap height about 3% of frame height.\n3) \"60-DAY MONEY-BACK GUARANTEE\" , inside the round green seal, bold condensed sans-serif, bold, ALL CAPS, cream #F5EFE6, centered, stacked on exactly three lines: line 1 \"60-DAY\", line 2 \"MONEY-BACK\", line 3 \"GUARANTEE\", cap height about 2.8% of frame height, fully inside the seal with margin.\n4) \"FREE US SHIPPING + 1-YEAR TECH WARRANTY\" , on the offer bar (gold #C9A26B), bold condensed sans-serif, bold, ALL CAPS, charcoal #1A1A1A, centered on exactly one line at 62% to 66% of height, spanning about 88% of frame width, cap height about 3.4% of frame height.\n\nLegibility: Spell every word exactly as written inside the quotes, letter for letter, with the same punctuation, case and numerals. \"RETIRE\" is R-E-T-I-R-E, \"CLICKER\" is C-L-I-C-K-E-R, \"LOUD\" is L-O-U-D. \"GUARANTEE\" is G-U-A-R-A-N-T-E-E. \"WARRANTY\" is W-A-R-R-A-N-T-Y. \"SHIPPING\" is S-H-I-P-P-I-N-G. The plus sign in the offer bar is a plain \"+\". Keep \"60-DAY\", \"MONEY-BACK\" and \"1-YEAR\" with plain hyphens. High contrast on every element, side margins of at least 6%, no letters cut off or touching the edges of the seal or bar. Readable at thumbnail size on a phone. The ring's own display shows only the digits 5332 and the gold logo; the tally counter shows no text. Render only the four quoted strings plus the product's own label; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four quoted strings and the ring's own 5332 display; digits running along the ring band; a second ring; a second clicker; hands, fingers or people; brand names or logos on the clicker; profanity; star ratings, review counts, stickers, \"off\" or sale percentages, \"#1\", \"clinically proven\", press logos, scholar or expert imagery; cracked or smashed objects; smoke that hides the ring display; misspelled, warped, mirrored or duplicated letters; cluttered background; watermarks; any text in the top 14% or below 67% of the frame.",
+      "references": [
+        "@product"
+      ],
+      "depends_on": [],
+      "fallback": null
+    },
+    {
+      "step": "img_v3",
+      "route": "cli",
+      "job_type": "nano_banana_pro",
+      "params": {
+        "aspect_ratio": "9:16",
+        "resolution": "2k"
+      },
+      "prompt": "Scene: A polished studio composite on a warm cream #F5EFE6 studio backdrop with a subtle paper-grain texture, split into a left half and a right half by one thin vertical gold line at the exact horizontal center. LEFT: exactly one generic, unbranded plastic hand tally counter (a small hand-held click counter with a black plastic body, a round metal-grey thumb button on top and a small blank dark mechanical window), visibly worn: scuffed, scratched edges, dull faded plastic, slightly dirty. It has no logo, no brand name, no numerals and no text on it. RIGHT: exactly one black smart ring, the product, floating upright in a three-quarter tilt, glossy, clean, crisp. Between the two halves, overlapping the divider line, one round guarantee seal with a gold rim. Along the lower-middle of the frame, one full-width offer bar. The area below the bar is plain background only.\n\nStyle: Clean, bright, polished studio ad composite (not a phone photo), cream backdrop, crisp edges. The worn object looks tired and flat, the ring looks clean and sharp. Respectful, no mockery, no cartoon.\n\nLighting: Soft daylight from a window at upper left, gentle shadows on the cream surface.\n\nCamera: Straight-on, eye-level, 85mm product lens, both objects in sharp focus. Both objects shown on the same horizontal axis.\n\nComposition & layout: Vertical 9:16 frame. Headline band: 15% to 31% of frame height, two centered lines spanning 88% of frame width (x 6% to 94%). Subhead: 32% to 36% of height, one centered line, x 6% to 94%. Object zone: 37% to 59% of height. The worn clicker centered at x 25%, height about 17% of frame height, y 39% to 56%. The black ring centered at x 74%, ring height about 21% of frame height (ring outer diameter about 36% of frame width), y 38% to 58%, tilted three-quarter like the reference. Thin gold vertical divider at x 50% from y 38% to 60%, 0.4% wide. Round guarantee seal centered at x 50%, y 47% to 57% (diameter about 20% of frame width), overlapping the divider line. Offer bar: full-bleed horizontal bar from x 0% to 100%, y 61% to 67%. Below 67% only plain background. Top 0% to 14% plain background only, no elements. Focal flow: headline, then worn clicker, then ring, then seal, then bar.\n\nBrand colors: Background warm cream #F5EFE6. Headline charcoal #1A1A1A. Subhead dark grey #4A4A4A. Divider line and seal rim gold #C9A26B. Seal fill deep green #1F5A2E with cream #F5EFE6 text. Offer bar deep green #1F5A2E with cream #F5EFE6 text. The ring keeps its own black, white and gold. No orange, no other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black metal band ring with a glossy black finish. On its outer face is a flat black rectangular screen showing ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on the black screen, and beside it a small black rounded-square button with the gold Al Rayan logo, exactly as in the product reference image; the digits never run along the band. The display faces the camera within 25 degrees and is fully visible and sharp. Ring height about 21% of frame height. No hand, no finger, nothing covers the display.\n\nText: Render exactly four text elements and nothing else.\n1) \"RETIRE THE LOUD CLICKER\" , bold condensed sans-serif, black weight, ALL CAPS, #1A1A1A, centered, in the headline band 15% to 31% of height, broken onto exactly two lines: line 1 \"RETIRE THE\" and line 2 \"LOUD CLICKER\", cap height about 7% of frame height, tight line spacing, spanning about 88% of frame width.\n2) \"Count your dhikr with one silent tap.\" , clean modern sans-serif, regular weight, sentence case, #4A4A4A, centered on one line at 32% to 36% of height, cap height about 3% of frame height.\n3) \"60-DAY MONEY-BACK GUARANTEE\" , inside the round green seal, bold condensed sans-serif, bold, ALL CAPS, cream #F5EFE6, centered, stacked on exactly three lines: line 1 \"60-DAY\", line 2 \"MONEY-BACK\", line 3 \"GUARANTEE\", cap height about 2.8% of frame height, fully inside the seal with margin.\n4) \"FREE US SHIPPING + 1-YEAR TECH WARRANTY\" , on the offer bar (deep green #1F5A2E), bold condensed sans-serif, bold, ALL CAPS, cream #F5EFE6, centered on exactly one line at 62% to 66% of height, spanning about 88% of frame width, cap height about 3.4% of frame height.\n\nLegibility: Spell every word exactly as written inside the quotes, letter for letter, with the same punctuation, case and numerals. \"RETIRE\" is R-E-T-I-R-E, \"CLICKER\" is C-L-I-C-K-E-R, \"LOUD\" is L-O-U-D. \"GUARANTEE\" is G-U-A-R-A-N-T-E-E. \"WARRANTY\" is W-A-R-R-A-N-T-Y. \"SHIPPING\" is S-H-I-P-P-I-N-G. The plus sign in the offer bar is a plain \"+\". Keep \"60-DAY\", \"MONEY-BACK\" and \"1-YEAR\" with plain hyphens. High contrast on every element, side margins of at least 6%, no letters cut off or touching the edges of the seal or bar. Readable at thumbnail size on a phone. The ring's own display shows only the digits 5332 and the gold logo; the tally counter shows no text. Render only the four quoted strings plus the product's own label; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four quoted strings and the ring's own 5332 display; digits running along the ring band; a second ring; a second clicker; hands, fingers or people; brand names or logos on the clicker; profanity; star ratings, review counts, stickers, \"off\" or sale percentages, \"#1\", \"clinically proven\", press logos, scholar or expert imagery; cracked or smashed objects; smoke that hides the ring display; misspelled, warped, mirrored or duplicated letters; cluttered background; watermarks; any text in the top 14% or below 67% of the frame.",
+      "references": [
+        "@product"
+      ],
+      "depends_on": [],
+      "fallback": null
+    }
+  ],
+  "variations": [
+    {
+      "step": "img_v1",
+      "kind": "V-copy",
+      "delta": "HEADLINE = H5 'Dhikr all day. No click. No beads.' (sentence case, two lines), everything else unchanged"
+    },
+    {
+      "step": "img_v2",
+      "kind": "V-layout",
+      "delta": "mirror the split: ring left, worn clicker right; seal, text and bar positions unchanged"
+    },
+    {
+      "step": "img_v3",
+      "kind": "V-scene",
+      "delta": "warm cream light version: cream backdrop, charcoal headline, deep-green offer bar, daylight"
+    }
+  ],
+  "est_credits": 2.0,
+  "chief": {
+    "rounds": 1,
+    "final_verdict": "APPROVE",
+    "notes_paths": [
+      "03-ads/ad_09/chief_notes_v1.md"
+    ],
+    "residual_concerns": [],
+    "note": "orchestrator accepted chiefed_v1 edits as final"
+  },
+  "truth_check": {
+    "status": "PASS",
+    "claims": [
+      {
+        "text": "60-DAY MONEY-BACK GUARANTEE",
+        "source": "01-research/offer_brief.md § Claims we CAN say (A-8)"
+      },
+      {
+        "text": "FREE US SHIPPING + 1-YEAR TECH WARRANTY",
+        "source": "01-research/offer_brief.md § Claims we CAN say"
+      },
+      {
+        "text": "Count your dhikr with one silent tap.",
+        "source": "01-research/offer_brief.md § UMS (A-1, A-11)"
+      },
+      {
+        "text": "Gentle vibrations at 33, 66 and 99 tell you where you are.",
+        "source": "01-research/offer_brief.md § Claims we CAN say"
+      },
+      {
+        "text": "$49.99 with free US shipping",
+        "source": "01-research/offer_brief.md § Claims we CAN say"
+      }
+    ],
+    "scan_hits": [
+      {
+        "term": "guarantee",
+        "location": "copy_final.md BADGE/primary text; all prompts",
+        "resolution": "documented offer term (offer_brief.md), kept exactly"
+      }
+    ],
+    "checked_by": "ad09-chief + ad09-pe"
+  }
+}

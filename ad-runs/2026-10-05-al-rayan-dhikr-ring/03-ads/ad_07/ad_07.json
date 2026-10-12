@@ -1,0 +1,400 @@
+{
+ "id": "ad_07",
+ "format": "video",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG9 — after salah, tap through 33/33/34 and feel the pulse at 33, 66 and 99 instead of losing your place",
+ "avatar": "A1",
+ "awareness": "product-aware",
+ "hook_type": "demo-first",
+ "visual_concept": "macro tap, pulse, box reveal",
+ "source_swipe_ids": [
+  "meta-2379413312864003"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": 10,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "demo-first",
+   "text": "Watch this. Thirty-three taps, then it pulses.",
+   "overlay": "AFTER SALAH"
+  },
+  {
+   "id": "H2",
+   "type": "story-confession",
+   "text": "I lost my count every time my kids interrupted.",
+   "overlay": "AFTER SALAH, KIDS AROUND"
+  },
+  {
+   "id": "H3",
+   "type": "callout",
+   "text": "If you count after salah, watch this finger.",
+   "overlay": "FOR THE DISCREET COUNTER"
+  },
+  {
+   "id": "H4",
+   "type": "question",
+   "text": "Why does your count vanish when someone interrupts you?",
+   "overlay": "BEADS VS RING"
+  },
+  {
+   "id": "H5",
+   "type": "benefit-statement",
+   "text": "Keep your dhikr steady. Let your finger do the counting.",
+   "overlay": "33 / 66 / 99"
+  },
+  {
+   "id": "H6",
+   "type": "curiosity-gap",
+   "text": "You'd be surprised how much dhikr fits in one day.",
+   "overlay": "AFTER SALAH"
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "Pulse at 33, 66 and 99",
+ "primary_text": "After salah, tap through 33, 33, 34 and feel the pulse at 33, 66 and 99.\n\nI used to lose my count on beads every time my kids interrupted me. Now I tap.\n\nTap to count your dhikr. Gentle vibrations at 33, 66 and 99. Silent tracking, worn like a ring.\n\nSahih Muslim 596a: after every prescribed prayer, \"Glory be to Allah\" thirty-three times, \"Praise be to Allah\" thirty-three times and \"Allah is most Great\" thirty-four times.\n\n\"The most beloved deed to Allah is the most regular and constant even if it were little.\" Bukhari 6464.\n\nCounting on your fingers stays the Sunnah. The ring is there for when your hands are full.\n\nTap Shop Now. $49.99, free US shipping, 60-day money-back guarantee.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Sixty days to try it. Money back.",
+  "offer": "$49.99 · free US shipping · 60-day money-back guarantee · 1-year tech warranty",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "C01_frame",
+   "slot": "OVERLAY_1",
+   "text": "AFTER SALAH",
+   "placement": "top band 14-30% of height, centred, bold clean white sans caps on deep-green #1F5A2E pill"
+  },
+  {
+   "step": "C03_frame",
+   "slot": "OVERLAY_2",
+   "text": "TAP SHOP NOW",
+   "placement": "top band 14-30% of height, centred, bold clean white sans caps on deep-green #1F5A2E pill"
+  }
+ ],
+ "script": [
+  {
+   "line_id": "L1",
+   "text": "Watch this. Thirty-three taps, then it pulses.",
+   "t_start": 0.0,
+   "t_end": 3.38,
+   "clip_ids": [
+    "C01"
+   ],
+   "speaker": "vo",
+   "spoken_as": null,
+   "overlay": "AFTER SALAH"
+  },
+  {
+   "line_id": "L2",
+   "text": "No beads to drop. Just quiet taps.",
+   "t_start": 4.2,
+   "t_end": 7.46,
+   "clip_ids": [
+    "C02"
+   ],
+   "speaker": "vo",
+   "spoken_as": null,
+   "overlay": null
+  },
+  {
+   "line_id": "L3",
+   "text": "Sixty days to try it. Money back.",
+   "t_start": 8.36,
+   "t_end": 10.38,
+   "clip_ids": [
+    "C03"
+   ],
+   "speaker": "vo",
+   "spoken_as": null,
+   "overlay": "TAP SHOP NOW"
+  }
+ ],
+ "storyboard": [
+  {
+   "clip_id": "C01",
+   "clip_type": "surreal-scroll-stopper",
+   "duration": 5,
+   "trim_s": 3.8,
+   "start_frame_prompt_step": "C01_frame",
+   "motion": "slow push-in; thumb taps the rose-gold ring, display 0032 to 0033, soft ripple pulse",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L1"
+    ],
+    "text": "Watch this. Thirty-three taps, then it pulses."
+   },
+   "on_screen": "in-frame"
+  },
+  {
+   "clip_id": "C02",
+   "clip_type": "product-in-action",
+   "duration": 5,
+   "trim_s": 4.1,
+   "start_frame_prompt_step": "C02_frame",
+   "motion": "locked camera; two tiny thumb taps, display ticks 0010 to 0012, slack bead strand and everything else still",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L2"
+    ],
+    "text": "No beads to drop. Just quiet taps."
+   },
+   "on_screen": "captions"
+  },
+  {
+   "clip_id": "C03",
+   "clip_type": "product-in-action",
+   "duration": 5,
+   "trim_s": 3.0,
+   "start_frame_prompt_step": "C03_frame",
+   "motion": "slow pull-out; two hands hold the rose-gold ring to camera, one soft pulse ripple",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L3"
+    ],
+    "text": "Sixty days to try it. Money back."
+   },
+   "on_screen": "in-frame"
+  }
+ ],
+ "voice_mode": "tts_narrator",
+ "voice": {
+  "variant": "elevenlabs",
+  "voice_id": "caeba733-3c17-43db-863e-69c7025512cd",
+  "description": "Calm young woman, about 28, soft and warm, close to the mic, like a friend sharing a small find; General American accent, medium-slow pace, no hype",
+  "name": "Naomi"
+ },
+ "assembly": {
+  "order": [
+   "C01",
+   "C02",
+   "C03"
+  ],
+  "vo": "audio/vo.mp3",
+  "mix": "replace",
+  "captions": "auto"
+ },
+ "higgsfield_jobs": [
+  {
+   "step": "C01_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: Extreme close-up of H1's right hand, index finger raised, wearing exactly one rose-gold smart ring. The ring's black display window faces the camera and shows the white seven-segment digits \"0032\". H1's thumb hovers just above the ring's outer face, about to tap it. The prayer mat edge and oak desk are soft in the background.\nHANDS H1: a right hand of a woman in her late 20s with warm light-brown skin, slim fingers, short natural bare nails, no other jewelry, a thin cream-coloured knit cuff visible at the wrist.\nSETTING S1: a warm light-oak desk edge beside a folded deep-green #1F5A2E prayer mat with a simple cream border (no pattern text, no calligraphy), soft cream wall far behind out of focus.\nLIGHT L1: soft 3500K window light from frame left, gentle falloff, warm highlights on the rose gold, phone-camera realism, slight grain.\nStyle: Authentic UGC phone macro video still, native lo-fi, not a studio ad, slight grain, natural skin texture.\nCamera: Eye-level macro, slightly above the hand, 35mm phone lens, ring and thumb in sharp focus, background softly blurred, handheld feel.\nComposition: Vertical 9:16. The ring occupies 28% to 48% of frame height and is centered horizontally; the display digits sit at 33% to 41% of frame height; the thumb enters from the lower right and hovers at 44% to 54%; the top band 14% to 30% holds one text pill; the band from 55% to 100% shows only blurred desk, mat and wrist.\nBrand colors: rose gold ring (as in the reference), black display, warm cream #F5EFE6 highlights, deep green #1F5A2E for the text pill and the mat in the blur.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring worn on the index finger, display window facing the camera within 20 degrees, white 7-segment digits reading \"0032\", gold logo square visible left of the display, ring height about 20% of frame height, no finger covering the display or logo.\nText blocks: Render exactly one text element: 1) \"AFTER SALAH\" - bold clean sans-serif, bold, ALL CAPS, white #FFFFFF on a rounded pill backing #1F5A2E, on one line, centred in the top band 14% to 30% of height, 8% to 92% of width at most, cap height about 3.2% of frame height.\nLegibility: The text \"AFTER SALAH\" is spelled A-F-T-E-R S-A-L-A-H, high contrast, fully inside the frame. The ring digits \"0032\" are spelled zero-zero-three-two. Render only the quoted string and the ring's own digits; do not render section labels or any other words.\nAvoid: any other text, letters or numbers; a face; a second ring; a phone; extra or fused fingers; plastic CGI skin; competitor logos or packaging; stars, badges, seals; text in the bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "C02_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Attached image 1 is the product reference. Attached image 2 is the identity reference for the hand: same skin, fingers, nails and cuff.\nScene: Close-up of H1's right hand resting on the folded deep-green prayer mat, wearing exactly one rose-gold smart ring on the index finger, its black display facing the camera and showing the white digits \"0010\". The thumb rests beside the ring, ready to tap. A plain wooden prayer-bead strand lies slack and still on the mat beside the hand, and the edge of an open charcoal ring box is softly blurred at the upper left. No phone anywhere in frame.\nHANDS H1: a right hand of a woman in her late 20s with warm light-brown skin, slim fingers, short natural bare nails, no other jewelry, a thin cream-coloured knit cuff visible at the wrist.\nSETTING S1: a warm light-oak desk edge beside a folded deep-green #1F5A2E prayer mat with a simple cream border (no pattern text, no calligraphy), soft cream wall far behind out of focus.\nLIGHT L1: soft 3500K window light from frame left, gentle falloff, warm highlights on the rose gold, phone-camera realism, slight grain.\nStyle: Authentic UGC phone video still, native lo-fi, not a studio ad, slight grain.\nCamera: Slightly above, 45-degree angle, 35mm phone lens, ring and hand in sharp focus, background soft, locked off.\nComposition: Vertical 9:16. Ring centered, 30% to 48% of frame height, display at 35% to 42%; hand enters from the right; the bead strand lies lower left at 46% to 54%; the top band 14% to 30% shows only soft background; the band from 55% to 100% shows only mat and desk, no ring, face or beads.\nBrand colors: rose gold ring, black display, cream #F5EFE6 mat border, deep green #1F5A2E mat, plain light-wood beads.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring, display facing the camera within 20 degrees, digits \"0010\", gold logo square left of the display, ring height about 18% of frame height.\nLegibility: The ring digits \"0010\" are spelled zero-zero-one-zero. Render only the ring's own digits; no other words.\nAvoid: any text, letters or numbers other than the ring's own digits; calligraphy or text on the mat or box; a face; a phone; a second ring; extra or fused fingers; competitor logos; stars, badges.",
+   "references": [
+    "@product",
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": null
+  },
+  {
+   "step": "C03_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Attached image 1 is the product reference. Attached image 2 is the identity reference for the hands: same skin, fingers, nails and cuff.\nScene: Medium close-up of H1's two hands holding exactly one rose-gold smart ring up toward the camera between the thumb and index finger of both hands, the ring's black display window facing the camera and showing the white digits \"0033\". The folded deep-green prayer mat and oak desk are soft in the background.\nHANDS H1: a right hand of a woman in her late 20s with warm light-brown skin, slim fingers, short natural bare nails, no other jewelry, a thin cream-coloured knit cuff visible at the wrist. Both hands are H1's, with the same knit cuffs.\nSETTING S1: a warm light-oak desk edge beside a folded deep-green #1F5A2E prayer mat with a simple cream border (no pattern text, no calligraphy), soft cream wall far behind out of focus.\nLIGHT L1: soft 3500K window light from frame left, gentle falloff, warm highlights on the rose gold, phone-camera realism, slight grain.\nStyle: Authentic UGC phone video still, native lo-fi to semi-polished, not a studio ad.\nCamera: Eye-level, straight-on, 35mm phone lens, ring in sharp focus, background soft, locked off.\nComposition: Vertical 9:16. The ring is centered at 34% to 50% of frame height, ring height about 16% of frame height, display at 39% to 45%; hands enter from the lower left and lower right and hold it at 46% to 54%; the top band 14% to 30% holds one text pill; the band from 55% to 100% shows only soft mat and desk.\nBrand colors: rose gold ring, black display, cream #F5EFE6 highlights, deep green #1F5A2E for the text pill and the mat.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring, display facing the camera within 20 degrees, digits \"0033\", gold logo square left of the display, no finger covering the display or logo.\nText blocks: Render exactly one text element: 1) \"TAP SHOP NOW\" - bold clean sans-serif, bold, ALL CAPS, white #FFFFFF on a rounded pill backing #1F5A2E, on one line, centred in the top band 14% to 30% of height, 8% to 92% of width at most, cap height about 3.2% of frame height.\nLegibility: The text \"TAP SHOP NOW\" is spelled T-A-P S-H-O-P N-O-W, high contrast, fully inside the frame. The ring digits \"0033\" are spelled zero-zero-three-three. Render only the quoted string and the ring's own digits; do not render section labels or any other words.\nAvoid: any other text, letters or numbers; a face; a second ring; a phone; a box with logos; extra or fused fingers; competitor logos or packaging; stars, badges, seals, price tags; text in the bottom 35% of the frame.",
+   "references": [
+    "@product",
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": null
+  },
+  {
+   "step": "vo",
+   "route": "cli",
+   "job_type": "text2speech_v2",
+   "params": {
+    "variant": "elevenlabs",
+    "voice_id": "caeba733-3c17-43db-863e-69c7025512cd",
+    "voice_type": "preset"
+   },
+   "prompt": "Watch this. Thirty-three taps, then it pulses. No beads to drop. Just quiet taps. Sixty days to try it. Money back.",
+   "references": [],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "C01_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "A thumb taps the rose-gold ring and a soft pulse ripples out across the prayer mat. 0-0.8s: the thumb presses down on the ring once. 0.8-2s: the display changes from 0032 to 0033 and a faint soft rose-gold ripple of light spreads out from the ring and fades. 2-3.8s: the thumb lifts away and the hand holds still. 3.8-5s: the hand stays still. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: slow push-in of about 5 percent. Nobody speaks; no face in frame. Keep the ring, its display, digits and logo exactly as in the start frame; the ring does not rotate and the label stays sharp. Keep the hand identical to the start frame. All text in the start frame stays exactly as it is, unchanged and still. Do not add any text, captions, subtitles, logos or watermarks.",
+   "references": [
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 4
+    }
+   }
+  },
+  {
+   "step": "C02_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "Two tiny thumb taps tick the ring's display up on the prayer mat while nothing else moves. 0-1.4s: the thumb taps the ring twice, very small and quick, and the display changes from 0010 to 0011 to 0012. 1.4-3.4s: the thumb rests and the hand stays still, the bead strand on the mat does not move. 3.4-5s: everything rests still. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: locked off. Nobody speaks; no face in frame. Keep the ring, its display, digits and logo exactly as in the start frame; the ring does not rotate and the label stays sharp. Keep the hand identical to the start frame. Do not add any text, captions, subtitles, logos or watermarks.",
+   "references": [
+    "C02_frame"
+   ],
+   "depends_on": [
+    "C02_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 5
+    }
+   }
+  },
+  {
+   "step": "C03_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "Two hands lift the rose-gold ring toward the camera and it gives one soft pulse. 0-1.4s: the hands raise the ring slightly closer to the camera and hold it steady. 1.4-3s: one faint soft rose-gold ripple of light spreads out from the ring and fades while the display stays lit on 0033. 3-3.4s: the hands hold still. 3.4-5s: the hands hold still. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: slow pull-out of about 5 percent. Nobody speaks; no face in frame. Keep the ring, its display, digits and logo exactly as in the start frame; the ring does not rotate and the label stays sharp. Keep the hands identical to the start frame. All text in the start frame stays exactly as it is, unchanged and still. Do not add any text, captions, subtitles, logos or watermarks.",
+   "references": [
+    "C03_frame"
+   ],
+   "depends_on": [
+    "C03_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 3
+    }
+   }
+  }
+ ],
+ "variations": [],
+ "est_credits": 21.6,
+ "chief": {
+  "rounds": 2,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_07/chief_notes_v1.md",
+   "03-ads/ad_07/chief_notes_v2.md"
+  ],
+  "residual_concerns": [
+   "Muslim 596a numbering to confirm on sunnah.com",
+   "'Silent tracking' is brand-stated, untested"
+  ]
+ },
+ "truth_check": {
+  "status": "FIXED",
+  "claims": [
+   {
+    "text": "Thirty-three taps, then it pulses.",
+    "source": "01-research/offer_brief.md § Step 0 (gentle vibrations at 33, 66 and 99); A-2"
+   },
+   {
+    "text": "No beads to drop. Just quiet taps.",
+    "source": "01-research/offer_brief.md § UMP/UMS; Q29, Q21; 'silent' brand-stated"
+   },
+   {
+    "text": "Sixty days to try it. Money back.",
+    "source": "01-research/offer_brief.md § Step 0 (60-day money-back guarantee)"
+   },
+   {
+    "text": "Tap to count your dhikr. Gentle vibrations at 33, 66 and 99. Silent tracking, worn like a ring.",
+    "source": "01-research/offer_brief.md § Step 0, A-1/A-2/A-10/A-11"
+   },
+   {
+    "text": "Sahih Muslim 596a 33/33/34 after every prescribed prayer",
+    "source": "01-research/offer_brief.md § Verified Islamic sources #11"
+   },
+   {
+    "text": "The most beloved deed to Allah is the most regular and constant even if it were little. Bukhari 6464.",
+    "source": "01-research/offer_brief.md § Verified Islamic sources #13"
+   },
+   {
+    "text": "I used to lose my count on beads every time my kids interrupted me.",
+    "source": "Q29 (persona problem language, not a review)"
+   },
+   {
+    "text": "$49.99, free US shipping, 60-day money-back guarantee",
+    "source": "01-research/offer_brief.md § Step 0"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "count stays",
+    "location": "copy_draft_v1.md script L2",
+    "resolution": "removed by chief note N1 (unconfirmed persistence claim)"
+   },
+   {
+    "term": "guarantee",
+    "location": "copy_final.md primary text / CTA",
+    "resolution": "documented offer, sourced in offer_brief Step 0"
+   },
+   {
+    "term": "silent",
+    "location": "copy_final.md primary text",
+    "resolution": "brand-stated 'silent tracking', not 'completely silent'; kept per A-11"
+   }
+  ],
+  "checked_by": "ad07-chief + ad07-pe"
+ }
+}

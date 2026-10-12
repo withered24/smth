@@ -1,0 +1,367 @@
+{
+ "id": "ad_10",
+ "format": "image",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG3",
+ "avatar": "A1",
+ "awareness": "problem-aware",
+ "hook_type": "callout",
+ "visual_concept": "levitating rose-gold ring over pale stone with dotted-leader feature labels and offer bar",
+ "source_swipe_ids": [
+  "calm-collective-92336795"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": null,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "callout",
+   "text": "Lost your dhikr count?",
+   "overlay": null
+  },
+  {
+   "id": "H2",
+   "type": "problem-agitation",
+   "text": "Kids interrupted. Count gone.",
+   "overlay": null
+  },
+  {
+   "id": "H3",
+   "type": "negative-warning",
+   "text": "Stop counting in your head.",
+   "overlay": null
+  },
+  {
+   "id": "H4",
+   "type": "benefit-statement",
+   "text": "Tap. Pulse at 33. Keep going.",
+   "overlay": null
+  },
+  {
+   "id": "H5",
+   "type": "question",
+   "text": "Lost count again?",
+   "overlay": null
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "Keep your dhikr count on your finger",
+ "primary_text": "Lost your dhikr count? One interruption and the beads, or your head, start over.\n\nThe kids walk in. A colleague talks. Someone bumps your arm.\nYour dhikr was never weak. Your tools made it hard.\nThe Al Rayan Dhikr Ring 2.0 puts the count on your finger.\nTap to count. A gentle pulse at 33, 66 and 99.\nIP67 water resistance, so wear it to wudu. It syncs with the Al Rayan app.\n$49.99, free US shipping and a 60-day money-back guarantee.\nTap Shop Now and keep your count.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Tap Shop Now and keep your count.",
+  "offer": "$49.99, free US shipping and a 60-day money-back guarantee",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "img_main",
+   "slot": "BRAND_WORDMARK",
+   "text": "Al Rayan",
+   "placement": "small, top centre, 14-18% of height, clean bold sans"
+  },
+  {
+   "step": "img_main",
+   "slot": "HEADLINE",
+   "text": "Lost your dhikr count?",
+   "placement": "top third 19-31% of height, heavy bold sans, centred"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_1",
+   "text": "Tap to count",
+   "placement": "dotted-leader label 1 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_2",
+   "text": "Pulse at 33-66-99",
+   "placement": "dotted-leader label 2 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_3",
+   "text": "IP67 for wudu",
+   "placement": "dotted-leader label 3 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_main",
+   "slot": "CALLOUT_4",
+   "text": "App sync",
+   "placement": "dotted-leader label 4 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_main",
+   "slot": "BADGE",
+   "text": "60-DAY MONEY-BACK GUARANTEE",
+   "placement": "solid bar full width, 61.5-66.5% of height, ALL CAPS"
+  },
+  {
+   "step": "img_v1",
+   "slot": "BRAND_WORDMARK",
+   "text": "Al Rayan",
+   "placement": "small, top centre, 14-18% of height, clean bold sans"
+  },
+  {
+   "step": "img_v1",
+   "slot": "HEADLINE",
+   "text": "Kids interrupted. Count gone.",
+   "placement": "top third 19-31% of height, heavy bold sans, centred"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_1",
+   "text": "Tap to count",
+   "placement": "dotted-leader label 1 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_2",
+   "text": "Pulse at 33-66-99",
+   "placement": "dotted-leader label 2 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_3",
+   "text": "IP67 for wudu",
+   "placement": "dotted-leader label 3 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v1",
+   "slot": "CALLOUT_4",
+   "text": "App sync",
+   "placement": "dotted-leader label 4 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v1",
+   "slot": "BADGE",
+   "text": "60-DAY MONEY-BACK GUARANTEE",
+   "placement": "solid bar full width, 61.5-66.5% of height, ALL CAPS"
+  },
+  {
+   "step": "img_v2",
+   "slot": "BRAND_WORDMARK",
+   "text": "Al Rayan",
+   "placement": "small, top centre, 14-18% of height, clean bold sans"
+  },
+  {
+   "step": "img_v2",
+   "slot": "HEADLINE",
+   "text": "Lost your dhikr count?",
+   "placement": "top third 19-31% of height, heavy bold sans, centred"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_1",
+   "text": "Tap to count",
+   "placement": "dotted-leader label 1 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_2",
+   "text": "Pulse at 33-66-99",
+   "placement": "dotted-leader label 2 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_3",
+   "text": "IP67 for wudu",
+   "placement": "dotted-leader label 3 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v2",
+   "slot": "CALLOUT_4",
+   "text": "App sync",
+   "placement": "dotted-leader label 4 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v2",
+   "slot": "BADGE",
+   "text": "60-DAY MONEY-BACK GUARANTEE",
+   "placement": "solid bar full width, 61.5-66.5% of height, ALL CAPS"
+  },
+  {
+   "step": "img_v3",
+   "slot": "BRAND_WORDMARK",
+   "text": "Al Rayan",
+   "placement": "small, top centre, 14-18% of height, clean bold sans"
+  },
+  {
+   "step": "img_v3",
+   "slot": "HEADLINE",
+   "text": "Lost your dhikr count?",
+   "placement": "top third 19-31% of height, heavy bold sans, centred"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_1",
+   "text": "Tap to count",
+   "placement": "dotted-leader label 1 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_2",
+   "text": "Pulse at 33-66-99",
+   "placement": "dotted-leader label 2 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_3",
+   "text": "IP67 for wudu",
+   "placement": "dotted-leader label 3 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v3",
+   "slot": "CALLOUT_4",
+   "text": "App sync",
+   "placement": "dotted-leader label 4 beside the ring, 36-57.5% of height"
+  },
+  {
+   "step": "img_v3",
+   "slot": "BADGE",
+   "text": "60-DAY MONEY-BACK GUARANTEE",
+   "placement": "solid bar full width, 61.5-66.5% of height, ALL CAPS"
+  }
+ ],
+ "script": [],
+ "storyboard": [],
+ "voice_mode": null,
+ "voice": null,
+ "assembly": null,
+ "higgsfield_jobs": [
+  {
+   "step": "img_main",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean studio product advertisement. Exactly one rose-gold smart ring floats in mid-air, levitating about one ring-height above a pale cream limestone #E8DCC6 stone block that rises from the lower-left of the frame. The ring is turned so its flat outer face with the black display screen points to the camera, tilted about 12 degrees, with a soft contact shadow on the stone below it. No people, no hands, no other products. Thin dotted leader lines run from the ring sideways, each ending next to a short text label.\n\nStyle: Polished premium DTC studio render, soft and airy, with a flat graphic text overlay on top; calm, minimal, uncluttered. Not a lifestyle photo.\n\nLighting: Soft diffused top light from the upper left, warm 3500K, gentle highlights on the rose-gold edges, smooth warm cream gradient background, soft natural shadow beside the stone.\n\nCamera: Eye-level, straight-on, 85mm product lens, the ring and its display perfectly sharp.\n\nComposition: Vertical 9:16 frame. The top 0-14% is empty background. Brand wordmark centred at 14-18% of frame height. Headline band 19-31% of height, centred, spanning 6-94% of width. The ring hero occupies 33-58% of frame height and about 52% of frame width, centred at x 31% (left-centre), its display fully visible. The stone occupies 54-72% of height at the lower-left, the ring floating above it. Four dotted-leader labels are stacked between 36% and 57.5% of height, left-aligned from x 56% to 94%, evenly spaced, each with a four-dot dotted leader starting at x 50% and running a short straight line toward the ring. A solid bar spans the full width of the frame at 61.5-66.5% of height. Below 67% only calm background and the soft shadow of the stone, no text.\n\nBrand colors: Background warm cream #F3EBDD blending to #EADFCB. Headline and brand wordmark near-black #111111. Labels and dotted leaders deep green #1F5A2E. Bar fill deep green #1F5A2E with white #FFFFFF text. Stone pale cream limestone #E8DCC6. The ring keeps its own colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner sleeve, a flat wide band about 8 mm wide, floating, its flat outer face turned toward the camera. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, with the gold Al Rayan logo button (a small black rounded square with a gold looped glyph) beside it on the left, exactly as in the product PNG; never digits running along the band, never a second row, no other digits. Ring height about 26% of frame height, the display clearly readable, no hand or object covering it. Use a single hero ring only; no second ring.\n\nText: Render exactly seven text elements (brand wordmark, headline, four labels, bar):\n1) \"Al Rayan\" — clean geometric sans-serif, bold, #111111, centred, y 14-18%, cap height about 2.6% of frame height.\n2) \"Lost your dhikr count?\" on one line — bold geometric sans-serif, black weight, sentence case, #111111, centred in the headline band 19-31%, cap height at least 5.5% of frame height.\n3) \"Tap to count\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 36-41%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n4) \"Pulse at 33-66-99\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 41.5-46.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n5) \"IP67 for wudu\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 47-52%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n6) \"App sync\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 52.5-57.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n7) \"60-DAY MONEY-BACK GUARANTEE\" — clean geometric sans-serif, bold, ALL CAPS exactly as written, white #FFFFFF, centred inside the bar, one line, cap height about 3.2% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with exact capitalisation, hyphens and punctuation. The brand wordmark \"Al Rayan\" is spelled A-L space R-A-Y-A-N. The word \"dhikr\" in the headline (if present) is spelled D-H-I-K-R. The label \"Pulse at 33-66-99\" has the numbers 33, 66 and 99 joined by two hyphens, no spaces around the hyphens. High contrast on every element; the headline is the largest and heaviest element and is readable at thumbnail size. All text fully inside the frame with 6% side margins, nothing cut off, no text overlapping the ring or the leader lines. Render only these seven quoted strings and the product's own display digits and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words or numbers; star ratings, review counts, \"helped\" counts, badges, seals, press logos, \"clinically proven\", \"100% waterproof\" or any health or anxiety claims; digits running along the band or digits on the side of the band; a second ring; extra rings or a ring stack; an altered or invented logo glyph; hands, people, faces; water, bubbles or splashes; reflections hiding the display; watermarks; other brand names; text in the top 14% or below 67% of the frame; blank placeholder text on objects.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v1",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean studio product advertisement. Exactly one rose-gold smart ring floats in mid-air, levitating about one ring-height above a pale cream limestone #E8DCC6 stone block that rises from the lower-left of the frame. The ring is turned so its flat outer face with the black display screen points to the camera, tilted about 12 degrees, with a soft contact shadow on the stone below it. No people, no hands, no other products. Thin dotted leader lines run from the ring sideways, each ending next to a short text label.\n\nStyle: Polished premium DTC studio render, soft and airy, with a flat graphic text overlay on top; calm, minimal, uncluttered. Not a lifestyle photo.\n\nLighting: Soft diffused top light from the upper left, warm 3500K, gentle highlights on the rose-gold edges, smooth warm cream gradient background, soft natural shadow beside the stone.\n\nCamera: Eye-level, straight-on, 85mm product lens, the ring and its display perfectly sharp.\n\nComposition: Vertical 9:16 frame. The top 0-14% is empty background. Brand wordmark centred at 14-18% of frame height. Headline band 19-31% of height, centred, spanning 6-94% of width. The ring hero occupies 33-58% of frame height and about 52% of frame width, centred at x 31% (left-centre), its display fully visible. The stone occupies 54-72% of height at the lower-left, the ring floating above it. Four dotted-leader labels are stacked between 36% and 57.5% of height, left-aligned from x 56% to 94%, evenly spaced, each with a four-dot dotted leader starting at x 50% and running a short straight line toward the ring. A solid bar spans the full width of the frame at 61.5-66.5% of height. Below 67% only calm background and the soft shadow of the stone, no text.\n\nBrand colors: Background warm cream #F3EBDD blending to #EADFCB. Headline and brand wordmark near-black #111111. Labels and dotted leaders deep green #1F5A2E. Bar fill deep green #1F5A2E with white #FFFFFF text. Stone pale cream limestone #E8DCC6. The ring keeps its own colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner sleeve, a flat wide band about 8 mm wide, floating, its flat outer face turned toward the camera. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, with the gold Al Rayan logo button (a small black rounded square with a gold looped glyph) beside it on the left, exactly as in the product PNG; never digits running along the band, never a second row, no other digits. Ring height about 26% of frame height, the display clearly readable, no hand or object covering it. Use a single hero ring only; no second ring.\n\nText: Render exactly seven text elements (brand wordmark, headline, four labels, bar):\n1) \"Al Rayan\" — clean geometric sans-serif, bold, #111111, centred, y 14-18%, cap height about 2.6% of frame height.\n2) \"Kids interrupted. Count gone.\" on two lines: line 1 \"Kids interrupted.\", line 2 \"Count gone.\" — bold geometric sans-serif, black weight, sentence case, #111111, centred in the headline band 19-31%, cap height at least 5.5% of frame height.\n3) \"Tap to count\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 36-41%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n4) \"Pulse at 33-66-99\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 41.5-46.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n5) \"IP67 for wudu\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 47-52%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n6) \"App sync\" — clean humanist sans-serif, medium weight, #1F5A2E, left-aligned, y 52.5-57.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n7) \"60-DAY MONEY-BACK GUARANTEE\" — clean geometric sans-serif, bold, ALL CAPS exactly as written, white #FFFFFF, centred inside the bar, one line, cap height about 3.2% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with exact capitalisation, hyphens and punctuation. The brand wordmark \"Al Rayan\" is spelled A-L space R-A-Y-A-N. The word \"dhikr\" in the headline (if present) is spelled D-H-I-K-R. The label \"Pulse at 33-66-99\" has the numbers 33, 66 and 99 joined by two hyphens, no spaces around the hyphens. High contrast on every element; the headline is the largest and heaviest element and is readable at thumbnail size. All text fully inside the frame with 6% side margins, nothing cut off, no text overlapping the ring or the leader lines. Render only these seven quoted strings and the product's own display digits and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words or numbers; star ratings, review counts, \"helped\" counts, badges, seals, press logos, \"clinically proven\", \"100% waterproof\" or any health or anxiety claims; digits running along the band or digits on the side of the band; a second ring; extra rings or a ring stack; an altered or invented logo glyph; hands, people, faces; water, bubbles or splashes; reflections hiding the display; watermarks; other brand names; text in the top 14% or below 67% of the frame; blank placeholder text on objects.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v2",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean studio product advertisement. Exactly one rose-gold smart ring floats in mid-air, levitating about one ring-height above a pale cream limestone #E8DCC6 stone block that rises from the lower-right of the frame. The ring is turned so its flat outer face with the black display screen points to the camera, tilted about 12 degrees, with a soft contact shadow on the stone below it. No people, no hands, no other products. Thin dotted leader lines run from the ring sideways, each ending next to a short text label.\n\nStyle: Polished premium DTC studio render, soft and airy, with a flat graphic text overlay on top; calm, minimal, uncluttered. Not a lifestyle photo.\n\nLighting: Soft diffused top light from the upper left, warm 3500K, gentle highlights on the rose-gold edges, smooth warm cream gradient background, soft natural shadow beside the stone.\n\nCamera: Eye-level, straight-on, 85mm product lens, the ring and its display perfectly sharp.\n\nComposition: Vertical 9:16 frame. The top 0-14% is empty background. Brand wordmark centred at 14-18% of frame height. Headline band 19-31% of height, centred, spanning 6-94% of width. The ring hero occupies 33-58% of frame height and about 52% of frame width, centred at x 69% (right-centre), its display fully visible. The stone occupies 54-72% of height at the lower-right, the ring floating above it. Four dotted-leader labels are stacked between 36% and 57.5% of height, right-aligned, ending at x 44% and starting no further left than x 6%, evenly spaced, each with a four-dot dotted leader starting at x 50% and running a short straight line toward the ring. A solid bar spans the full width of the frame at 61.5-66.5% of height. Below 67% only calm background and the soft shadow of the stone, no text.\n\nBrand colors: Background warm cream #F3EBDD blending to #EADFCB. Headline and brand wordmark near-black #111111. Labels and dotted leaders deep green #1F5A2E. Bar fill deep green #1F5A2E with white #FFFFFF text. Stone pale cream limestone #E8DCC6. The ring keeps its own colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner sleeve, a flat wide band about 8 mm wide, floating, its flat outer face turned toward the camera. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, with the gold Al Rayan logo button (a small black rounded square with a gold looped glyph) beside it on the left, exactly as in the product PNG; never digits running along the band, never a second row, no other digits. Ring height about 26% of frame height, the display clearly readable, no hand or object covering it. Use a single hero ring only; no second ring.\n\nText: Render exactly seven text elements (brand wordmark, headline, four labels, bar):\n1) \"Al Rayan\" — clean geometric sans-serif, bold, #111111, centred, y 14-18%, cap height about 2.6% of frame height.\n2) \"Lost your dhikr count?\" on one line — bold geometric sans-serif, black weight, sentence case, #111111, centred in the headline band 19-31%, cap height at least 5.5% of frame height.\n3) \"Tap to count\" — clean humanist sans-serif, medium weight, #1F5A2E, right-aligned, y 36-41%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees counter-clockwise).\n4) \"Pulse at 33-66-99\" — clean humanist sans-serif, medium weight, #1F5A2E, right-aligned, y 41.5-46.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees counter-clockwise).\n5) \"IP67 for wudu\" — clean humanist sans-serif, medium weight, #1F5A2E, right-aligned, y 47-52%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees counter-clockwise).\n6) \"App sync\" — clean humanist sans-serif, medium weight, #1F5A2E, right-aligned, y 52.5-57.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees counter-clockwise).\n7) \"60-DAY MONEY-BACK GUARANTEE\" — clean geometric sans-serif, bold, ALL CAPS exactly as written, white #FFFFFF, centred inside the bar, one line, cap height about 3.2% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with exact capitalisation, hyphens and punctuation. The brand wordmark \"Al Rayan\" is spelled A-L space R-A-Y-A-N. The word \"dhikr\" in the headline (if present) is spelled D-H-I-K-R. The label \"Pulse at 33-66-99\" has the numbers 33, 66 and 99 joined by two hyphens, no spaces around the hyphens. High contrast on every element; the headline is the largest and heaviest element and is readable at thumbnail size. All text fully inside the frame with 6% side margins, nothing cut off, no text overlapping the ring or the leader lines. Render only these seven quoted strings and the product's own display digits and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words or numbers; star ratings, review counts, \"helped\" counts, badges, seals, press logos, \"clinically proven\", \"100% waterproof\" or any health or anxiety claims; digits running along the band or digits on the side of the band; a second ring; extra rings or a ring stack; an altered or invented logo glyph; hands, people, faces; water, bubbles or splashes; reflections hiding the display; watermarks; other brand names; text in the top 14% or below 67% of the frame; blank placeholder text on objects.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v3",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A clean studio product advertisement. Exactly one rose-gold smart ring floats in mid-air, levitating about one ring-height above a dark green-grey stone #2E4A35 stone block that rises from the lower-left of the frame. The ring is turned so its flat outer face with the black display screen points to the camera, tilted about 12 degrees, with a soft contact shadow on the stone below it. No people, no hands, no other products. Thin dotted leader lines run from the ring sideways, each ending next to a short text label.\n\nStyle: Polished premium DTC studio render, soft and airy, with a flat graphic text overlay on top; calm, minimal, uncluttered. Not a lifestyle photo.\n\nLighting: Soft diffused top light from the upper left, warm 3500K, gentle highlights on the rose-gold edges, smooth deep green gradient background, soft natural shadow beside the stone.\n\nCamera: Eye-level, straight-on, 85mm product lens, the ring and its display perfectly sharp.\n\nComposition: Vertical 9:16 frame. The top 0-14% is empty background. Brand wordmark centred at 14-18% of frame height. Headline band 19-31% of height, centred, spanning 6-94% of width. The ring hero occupies 33-58% of frame height and about 52% of frame width, centred at x 31% (left-centre), its display fully visible. The stone occupies 54-72% of height at the lower-left, the ring floating above it. Four dotted-leader labels are stacked between 36% and 57.5% of height, left-aligned from x 56% to 94%, evenly spaced, each with a four-dot dotted leader starting at x 50% and running a short straight line toward the ring. A solid bar spans the full width of the frame at 61.5-66.5% of height. Below 67% only calm background and the soft shadow of the stone, no text.\n\nBrand colors: Background deep green #1F5A2E blending to darker green #14401F at the bottom. Headline and brand wordmark warm cream #F3EBDD. Labels and dotted leaders warm cream #F3EBDD. Bar fill warm cream #F3EBDD with deep green #1F5A2E text. Stone dark green-grey stone #2E4A35. The ring keeps its own colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one rose-gold ring with a black inner sleeve, a flat wide band about 8 mm wide, floating, its flat outer face turned toward the camera. The display is ONE single horizontal row of four white seven-segment digits reading 5-3-3-2 on a black screen, with the gold Al Rayan logo button (a small black rounded square with a gold looped glyph) beside it on the left, exactly as in the product PNG; never digits running along the band, never a second row, no other digits. Ring height about 26% of frame height, the display clearly readable, no hand or object covering it. Use a single hero ring only; no second ring.\n\nText: Render exactly seven text elements (brand wordmark, headline, four labels, bar):\n1) \"Al Rayan\" — clean geometric sans-serif, bold, #F3EBDD, centred, y 14-18%, cap height about 2.6% of frame height.\n2) \"Lost your dhikr count?\" on one line — bold geometric sans-serif, black weight, sentence case, #F3EBDD, centred in the headline band 19-31%, cap height at least 5.5% of frame height.\n3) \"Tap to count\" — clean humanist sans-serif, medium weight, #F3EBDD, left-aligned, y 36-41%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n4) \"Pulse at 33-66-99\" — clean humanist sans-serif, medium weight, #F3EBDD, left-aligned, y 41.5-46.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n5) \"IP67 for wudu\" — clean humanist sans-serif, medium weight, #F3EBDD, left-aligned, y 47-52%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n6) \"App sync\" — clean humanist sans-serif, medium weight, #F3EBDD, left-aligned, y 52.5-57.5%, cap height about 2.8% of frame height, very slightly rotated (about 2 degrees clockwise).\n7) \"60-DAY MONEY-BACK GUARANTEE\" — clean geometric sans-serif, bold, ALL CAPS exactly as written, deep green #1F5A2E, centred inside the bar, one line, cap height about 3.2% of frame height.\n\nLegibility: Spell every word exactly as written, letter for letter, with exact capitalisation, hyphens and punctuation. The brand wordmark \"Al Rayan\" is spelled A-L space R-A-Y-A-N. The word \"dhikr\" in the headline (if present) is spelled D-H-I-K-R. The label \"Pulse at 33-66-99\" has the numbers 33, 66 and 99 joined by two hyphens, no spaces around the hyphens. High contrast on every element; the headline is the largest and heaviest element and is readable at thumbnail size. All text fully inside the frame with 6% side margins, nothing cut off, no text overlapping the ring or the leader lines. Render only these seven quoted strings and the product's own display digits and logo; do not render section labels or any other words from these instructions.\n\nAvoid: any other text, words or numbers; star ratings, review counts, \"helped\" counts, badges, seals, press logos, \"clinically proven\", \"100% waterproof\" or any health or anxiety claims; digits running along the band or digits on the side of the band; a second ring; extra rings or a ring stack; an altered or invented logo glyph; hands, people, faces; water, bubbles or splashes; reflections hiding the display; watermarks; other brand names; text in the top 14% or below 67% of the frame; blank placeholder text on objects.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  }
+ ],
+ "variations": [
+  {
+   "step": "img_v1",
+   "kind": "V-copy",
+   "delta": "Same layout; HEADLINE swapped to approved hook H2 \"Kids interrupted. Count gone.\" on two lines."
+  },
+  {
+   "step": "img_v2",
+   "kind": "V-layout",
+   "delta": "Mirrored composition: ring right-of-centre over a lower-right stone, labels right-aligned on the left; headline and bar unchanged."
+  },
+  {
+   "step": "img_v3",
+   "kind": "V-scene",
+   "delta": "Deep green gradient ground with a dark stone, cream headline, labels and leaders, cream bar with deep green text; ring unchanged rose gold."
+  }
+ ],
+ "est_credits": 2.0,
+ "chief": {
+  "rounds": 1,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_10/chief_notes_v1.md"
+  ],
+  "residual_concerns": []
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "Tap to count",
+    "source": "03-ads/concept_slate.md A-1; 01-research/offer_brief.md Step 0"
+   },
+   {
+    "text": "Pulse at 33-66-99",
+    "source": "01-research/offer_brief.md: \"Gentle vibrations at 33, 66, and 99 counts\" (A-2)"
+   },
+   {
+    "text": "IP67 for wudu",
+    "source": "01-research/offer_brief.md: \"IP67 (product page)\", \"Wear it to wudu.\" (A-5)"
+   },
+   {
+    "text": "App sync",
+    "source": "01-research/offer_brief.md: \"syncs with the Al Rayan app\" (A-4)"
+   },
+   {
+    "text": "60-DAY MONEY-BACK GUARANTEE",
+    "source": "01-research/offer_brief.md Claims we CAN say (A-8)"
+   },
+   {
+    "text": "$49.99, free US shipping and a 60-day money-back guarantee",
+    "source": "01-research/offer_brief.md Claims we CAN say (A-6, A-7, A-8)"
+   },
+   {
+    "text": "The Al Rayan Dhikr Ring 2.0 puts the count on your finger.",
+    "source": "01-research/offer_brief.md Product: small digital count display, tap to count"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md BADGE / primary text / description",
+    "resolution": "sourced: offer_brief.md 60-day money-back guarantee (A-8)"
+   },
+   {
+    "term": "stars / 100% waterproof / clinically proven / helped",
+    "location": "prompts Avoid block",
+    "resolution": "negative constraints only, not in rendered text"
+   }
+  ],
+  "checked_by": "ad10-chief + ad10-pe"
+ }
+}

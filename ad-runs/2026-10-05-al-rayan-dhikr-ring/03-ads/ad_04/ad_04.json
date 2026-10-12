@@ -1,0 +1,316 @@
+{
+ "id": "ad_04",
+ "format": "image",
+ "route": "new_concept",
+ "concept_type": "native-notifications",
+ "angle": "ANG4",
+ "avatar": "A1",
+ "awareness": "problem-aware",
+ "hook_type": "problem-agitation",
+ "visual_concept": "notification pile over dhikr reminder",
+ "source_swipe_ids": [],
+ "aspect_ratio": "9:16",
+ "target_seconds": null,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "problem-agitation",
+   "text": "Opened your phone for dhikr. 40 minutes ago.",
+   "overlay": null
+  },
+  {
+   "id": "H2",
+   "type": "voc-quote",
+   "text": "\"I get pulled into social media.\" Sound familiar?",
+   "overlay": null
+  },
+  {
+   "id": "H3",
+   "type": "callout",
+   "text": "Opened your phone for dhikr? Stop scrolling.",
+   "overlay": null
+  },
+  {
+   "id": "H4",
+   "type": "pattern-inversion",
+   "text": "It's not your intention. It's the phone.",
+   "overlay": null
+  },
+  {
+   "id": "H5",
+   "type": "benefit-statement",
+   "text": "Dhikr on your finger. Phone in your pocket.",
+   "overlay": null
+  },
+  {
+   "id": "H6",
+   "type": "question",
+   "text": "Why does dhikr always end in the feed?",
+   "overlay": null
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "Keep your dhikr off the screen",
+ "primary_text": "You picked up your phone for dhikr. Then the feed picked you.\nYou get pulled into social media. That is not weak intention. It is friction, and friction has a fix.\nAl Rayan Dhikr Ring 2.0 keeps your count on your finger. Tap to count your dhikr. A gentle pulse at 33, 66 and 99.\nSilent tracking, so the phone stays in your pocket. A discreet tool you can wear all day, even at work.\n\"So remember Me; I will remember you. And be grateful to Me and do not deny Me\" (Quran 2:152)\nTap Shop Now. $49.99, free US shipping, 60-day money-back guarantee.",
+ "description": "Free US shipping",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Tap Shop Now. $49.99, free US shipping, 60-day money-back guarantee.",
+  "offer": "$49.99, free US shipping",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "img_main",
+   "slot": "HEADLINE",
+   "text": "Opened your phone for dhikr. 40 minutes ago.",
+   "placement": "top band 15-29% of height, centered, bold clean sans, plain white, two lines, no box"
+  },
+  {
+   "step": "img_main",
+   "slot": "UI_TEXT_1",
+   "text": "Time for dhikr",
+   "placement": "notification card 1 (top of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_main",
+   "slot": "UI_TEXT_2",
+   "text": "New posts today",
+   "placement": "notification card 2, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_main",
+   "slot": "UI_TEXT_3",
+   "text": "New group messages",
+   "placement": "notification card 3, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_main",
+   "slot": "UI_TEXT_4",
+   "text": "Cart is waiting",
+   "placement": "notification card 4 (bottom of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v1",
+   "slot": "HEADLINE",
+   "text": "Opened your phone for dhikr? Stop scrolling.",
+   "placement": "top band 15-29% of height, centered, bold clean sans, plain white, two lines, no box"
+  },
+  {
+   "step": "img_v1",
+   "slot": "UI_TEXT_1",
+   "text": "Time for dhikr",
+   "placement": "notification card 1 (top of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v1",
+   "slot": "UI_TEXT_2",
+   "text": "New posts today",
+   "placement": "notification card 2, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v1",
+   "slot": "UI_TEXT_3",
+   "text": "New group messages",
+   "placement": "notification card 3, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v1",
+   "slot": "UI_TEXT_4",
+   "text": "Cart is waiting",
+   "placement": "notification card 4 (bottom of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v2",
+   "slot": "HEADLINE",
+   "text": "Opened your phone for dhikr. 40 minutes ago.",
+   "placement": "below the phone 52-64% of height, centered, bold clean sans, plain white, two lines, no box"
+  },
+  {
+   "step": "img_v2",
+   "slot": "UI_TEXT_1",
+   "text": "Time for dhikr",
+   "placement": "notification card 1 (top of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v2",
+   "slot": "UI_TEXT_2",
+   "text": "New posts today",
+   "placement": "notification card 2, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v2",
+   "slot": "UI_TEXT_3",
+   "text": "New group messages",
+   "placement": "notification card 3, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v2",
+   "slot": "UI_TEXT_4",
+   "text": "Cart is waiting",
+   "placement": "notification card 4 (bottom of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v3",
+   "slot": "HEADLINE",
+   "text": "Opened your phone for dhikr. 40 minutes ago.",
+   "placement": "top band 15-29% of height, centered, bold clean sans, plain white, two lines, no box"
+  },
+  {
+   "step": "img_v3",
+   "slot": "UI_TEXT_1",
+   "text": "Time for dhikr",
+   "placement": "notification card 1 (top of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v3",
+   "slot": "UI_TEXT_2",
+   "text": "New posts today",
+   "placement": "notification card 2, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v3",
+   "slot": "UI_TEXT_3",
+   "text": "New group messages",
+   "placement": "notification card 3, iOS system font, off-white, one line, generic icon tile, no badge"
+  },
+  {
+   "step": "img_v3",
+   "slot": "UI_TEXT_4",
+   "text": "Cart is waiting",
+   "placement": "notification card 4 (bottom of stack), iOS system font, off-white, one line, generic icon tile, no badge"
+  }
+ ],
+ "script": [],
+ "storyboard": [],
+ "voice_mode": null,
+ "voice": null,
+ "assembly": null,
+ "higgsfield_jobs": [
+  {
+   "step": "img_main",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid first-person phone photo of one adult hand holding a smartphone at night on a couch, held upright in front of the camera. The screen shows a dark lock-screen-style view with exactly four notification cards stacked one under another in a slightly overlapping pile, each a flat translucent rounded rectangle with a small plain rounded-square icon tile on the left (muted tints, no letters, no symbols, no real app logos). The lower fingers of the same hand curl under the bottom of the phone; the ring finger wears exactly one black smart ring, its display window turned toward the camera and lit. Behind the phone, a softly blurred living room: sofa arm, a warm table lamp, dark wall.\n\nStyle: Authentic amateur phone photo, UGC look, slight grain, natural imperfect framing, not a studio ad, no graphic design elements except the headline text. Muted, quiet mood.\n\nLighting: Single warm table lamp from frame left, about 2700K, amber glow on the hand and wall, deep brown-black shadows. The phone screen emits a cool dim glow. The ring display is the only crisp small bright white point besides the phone screen.\n\nCamera: Eye-level POV, handheld, 26mm phone wide lens, phone and ring in focus, background softly blurred. Slight natural tilt under 3 degrees.\n\nComposition: Vertical 9:16. Headline in the top band, 15% to 29% of frame height, centered, 8% to 92% of width, over the dark wall and lamp area. The phone is centered horizontally, spans about 52% of frame width and occupies 31% to 65% of frame height; the four notification cards fill the screen between 36% and 63% of height (card 1 at 36-42%, card 2 at 43-49%, card 3 at 50-56%, card 4 at 57-63%), each card about 44% of frame width. The ring finger is below the phone, ring body between 68% and 80% of frame height, ring about 24% of frame width, fingers not covering the display. Below 82% only dark couch and shadow. Focal flow: headline, then the notification pile, then the ring display.\n\nBrand colors: Background warm near-black #14110F with amber lamp light #E0A55A. Phone screen dark slate #1B1E24. Headline plain white #FFFFFF. Ring black #0B0B0C with gold logo #E8D9A0 and white digits. Notification cards translucent charcoal #2E3138 with off-white text #F2F2F2. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black smart ring (a metal band ring with a rectangular dark display window showing four white seven-segment digits and a small gold heart-shaped logo plate to the left of the display), worn on the ring finger, display facing the camera within 20 degrees, ring about 24% of frame width, sharp and fully visible, nothing covering the display.\n\nText: Render exactly five text strings, no others.\n1) \"Opened your phone for dhikr. 40 minutes ago.\" - the headline, bold clean geometric sans-serif, bold, sentence case exactly as quoted, plain white #FFFFFF, no box, no button look, on two lines, line 1 \"Opened your phone for dhikr.\", line 2 \"40 minutes ago.\", centered in the top band 15-29% of frame height, 8-92% of width, cap height about 5% of frame height, high contrast.\n2) \"Time for dhikr\" - notification card 1 (top of the stack), iOS system font, medium weight, sentence case, off-white #F2F2F2, one line, cap height about 2.6% of frame height.\n3) \"New posts today\" - notification card 2, iOS system font, regular, sentence case, off-white #F2F2F2, one line, same size.\n4) \"New group messages\" - notification card 3, same style.\n5) \"Cart is waiting\" - notification card 4 (bottom of the stack), same style.\nEach notification card contains only its one text line plus a plain rounded-square icon tile with no letters or symbols: no app name, no timestamp, no sender name, no clock, no status bar, no battery icon.\n\nLegibility: Spell every string exactly as written, letter for letter, with its capitals, numerals and punctuation. The word \"dhikr\" in the headline is spelled D-H-I-K-H-R and the word \"dhikr\" in the first notification is spelled D-H-I-K-H-R. The numeral in the headline is \"40\". Text inside the notification cards must be sharp, horizontal, not skewed, with inner padding, no letters cut off by the card edges. Render only the five quoted strings plus the ring's own display digits; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the five quoted strings and the product's own display and logo; real app logos or brand names; buttons, close X marks, unread count badges, play triangles, reply fields or anything that looks clickable; a clock or date on the screen; star ratings, review counts, seals; a second ring or a second phone; a face; extra fingers, fused hands, distorted fingers; plastic CGI skin; misspelled, warped, mirrored or cut-off letters; watermarks; text in the top 14% or below 70% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v1",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid first-person phone photo of one adult hand holding a smartphone at night on a couch, held upright in front of the camera. The screen shows a dark lock-screen-style view with exactly four notification cards stacked one under another in a slightly overlapping pile, each a flat translucent rounded rectangle with a small plain rounded-square icon tile on the left (muted tints, no letters, no symbols, no real app logos). The lower fingers of the same hand curl under the bottom of the phone; the ring finger wears exactly one black smart ring, its display window turned toward the camera and lit. Behind the phone, a softly blurred living room: sofa arm, a warm table lamp, dark wall.\n\nStyle: Authentic amateur phone photo, UGC look, slight grain, natural imperfect framing, not a studio ad, no graphic design elements except the headline text. Muted, quiet mood.\n\nLighting: Single warm table lamp from frame left, about 2700K, amber glow on the hand and wall, deep brown-black shadows. The phone screen emits a cool dim glow. The ring display is the only crisp small bright white point besides the phone screen.\n\nCamera: Eye-level POV, handheld, 26mm phone wide lens, phone and ring in focus, background softly blurred. Slight natural tilt under 3 degrees.\n\nComposition: Vertical 9:16. Headline in the top band, 15% to 29% of frame height, centered, 8% to 92% of width, over the dark wall and lamp area. The phone is centered horizontally, spans about 52% of frame width and occupies 31% to 65% of frame height; the four notification cards fill the screen between 36% and 63% of height (card 1 at 36-42%, card 2 at 43-49%, card 3 at 50-56%, card 4 at 57-63%), each card about 44% of frame width. The ring finger is below the phone, ring body between 68% and 80% of frame height, ring about 24% of frame width, fingers not covering the display. Below 82% only dark couch and shadow. Focal flow: headline, then the notification pile, then the ring display.\n\nBrand colors: Background warm near-black #14110F with amber lamp light #E0A55A. Phone screen dark slate #1B1E24. Headline plain white #FFFFFF. Ring black #0B0B0C with gold logo #E8D9A0 and white digits. Notification cards translucent charcoal #2E3138 with off-white text #F2F2F2. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black smart ring (a metal band ring with a rectangular dark display window showing four white seven-segment digits and a small gold heart-shaped logo plate to the left of the display), worn on the ring finger, display facing the camera within 20 degrees, ring about 24% of frame width, sharp and fully visible, nothing covering the display.\n\nText: Render exactly five text strings, no others.\n1) \"Opened your phone for dhikr? Stop scrolling.\" - the headline, bold clean geometric sans-serif, bold, sentence case exactly as quoted, plain white #FFFFFF, no box, no button look, on two lines, line 1 \"Opened your phone for dhikr?\", line 2 \"Stop scrolling.\", centered in the top band 15-29% of frame height, 8-92% of width, cap height about 5% of frame height, high contrast.\n2) \"Time for dhikr\" - notification card 1 (top of the stack), iOS system font, medium weight, sentence case, off-white #F2F2F2, one line, cap height about 2.6% of frame height.\n3) \"New posts today\" - notification card 2, iOS system font, regular, sentence case, off-white #F2F2F2, one line, same size.\n4) \"New group messages\" - notification card 3, same style.\n5) \"Cart is waiting\" - notification card 4 (bottom of the stack), same style.\nEach notification card contains only its one text line plus a plain rounded-square icon tile with no letters or symbols: no app name, no timestamp, no sender name, no clock, no status bar, no battery icon.\n\nLegibility: Spell every string exactly as written, letter for letter, with its capitals, numerals and punctuation. The word \"dhikr\" in the headline is spelled D-H-I-K-H-R and the word \"dhikr\" in the first notification is spelled D-H-I-K-H-R. The numeral in the headline is \"40\". Text inside the notification cards must be sharp, horizontal, not skewed, with inner padding, no letters cut off by the card edges. Render only the five quoted strings plus the ring's own display digits; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the five quoted strings and the product's own display and logo; real app logos or brand names; buttons, close X marks, unread count badges, play triangles, reply fields or anything that looks clickable; a clock or date on the screen; star ratings, review counts, seals; a second ring or a second phone; a face; extra fingers, fused hands, distorted fingers; plastic CGI skin; misspelled, warped, mirrored or cut-off letters; watermarks; text in the top 14% or below 70% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v2",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid first-person phone photo of one adult left hand holding a smartphone at night on a couch, held upright in front of the camera. The screen shows a dark lock-screen-style view with exactly four notification cards stacked one under another in a slightly overlapping pile, each a flat translucent rounded rectangle with a small plain rounded-square icon tile on the left (muted tints, no letters, no symbols, no real app logos). The lower fingers of the same hand curl under the bottom of the phone; the ring finger wears exactly one black smart ring, its display window turned toward the camera and lit. Behind the phone, a softly blurred living room with a warm table lamp on the right, dark wall.\n\nStyle: Authentic amateur phone photo, UGC look, slight grain, natural imperfect framing, not a studio ad, no graphic design elements except the headline text. Muted, quiet mood.\n\nLighting: Single warm table lamp from frame right, about 2700K, amber glow on the hand and wall, deep brown-black shadows. The phone screen emits a cool dim glow. The ring display is the only crisp small bright white point besides the phone screen.\n\nCamera: Eye-level POV, handheld, 26mm phone wide lens, phone and ring in focus, background softly blurred. Slight natural tilt under 3 degrees.\n\nComposition: Vertical 9:16. Mirrored layout. The phone is centered horizontally, tilted about 8 degrees, spans about 52% of frame width and occupies 15% to 49% of frame height; the four notification cards fill the screen between 20% and 47% of height (card 1 at 20-26%, card 2 at 27-33%, card 3 at 34-40%, card 4 at 41-47%). The headline sits below the phone in the band 52% to 64% of frame height, centered, 8% to 92% of width, over the dark couch and shadow. The ring finger is at the lower left, ring body between 68% and 80% of frame height, ring about 24% of frame width, fingers not covering the display. Below 82% only dark shadow. Focal flow: headline, then the notification pile, then the ring display.\n\nBrand colors: Background warm near-black #14110F with amber lamp light #E0A55A. Phone screen dark slate #1B1E24. Headline plain white #FFFFFF. Ring black #0B0B0C with gold logo #E8D9A0 and white digits. Notification cards translucent charcoal #2E3138 with off-white text #F2F2F2. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black smart ring (a metal band ring with a rectangular dark display window showing four white seven-segment digits and a small gold heart-shaped logo plate to the left of the display), worn on the ring finger, display facing the camera within 20 degrees, ring about 24% of frame width, sharp and fully visible, nothing covering the display.\n\nText: Render exactly five text strings, no others.\n1) \"Opened your phone for dhikr. 40 minutes ago.\" - the headline, bold clean geometric sans-serif, bold, sentence case exactly as quoted, plain white #FFFFFF, no box, no button look, on two lines, line 1 \"Opened your phone for dhikr.\", line 2 \"40 minutes ago.\", centered below the phone in the band 52-64% of frame height, 8-92% of width, cap height about 5% of frame height, high contrast.\n2) \"Time for dhikr\" - notification card 1 (top of the stack), iOS system font, medium weight, sentence case, off-white #F2F2F2, one line, cap height about 2.6% of frame height.\n3) \"New posts today\" - notification card 2, iOS system font, regular, sentence case, off-white #F2F2F2, one line, same size.\n4) \"New group messages\" - notification card 3, same style.\n5) \"Cart is waiting\" - notification card 4 (bottom of the stack), same style.\nEach notification card contains only its one text line plus a plain rounded-square icon tile with no letters or symbols: no app name, no timestamp, no sender name, no clock, no status bar, no battery icon.\n\nLegibility: Spell every string exactly as written, letter for letter, with its capitals, numerals and punctuation. The word \"dhikr\" in the headline is spelled D-H-I-K-H-R and the word \"dhikr\" in the first notification is spelled D-H-I-K-H-R. The numeral in the headline is \"40\". Text inside the notification cards must be sharp, horizontal, not skewed, with inner padding, no letters cut off by the card edges. Render only the five quoted strings plus the ring's own display digits; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the five quoted strings and the product's own display and logo; real app logos or brand names; buttons, close X marks, unread count badges, play triangles, reply fields or anything that looks clickable; a clock or date on the screen; star ratings, review counts, seals; a second ring or a second phone; a face; extra fingers, fused hands, distorted fingers; plastic CGI skin; misspelled, warped, mirrored or cut-off letters; watermarks; text in the top 14% or below 70% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "img_v3",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A candid first-person phone photo of one adult hand holding a smartphone upright on a commuter train seat in the morning. The screen shows a dark lock-screen-style view with exactly four notification cards stacked one under another in a slightly overlapping pile, each a flat translucent rounded rectangle with a small plain rounded-square icon tile on the left (muted tints, no letters, no symbols, no real app logos). The lower fingers of the same hand curl under the bottom of the phone; the ring finger wears exactly one black smart ring, its display window turned toward the camera and lit. Behind the phone, a softly blurred train window and seat back, muted grey-blue.\n\nStyle: Authentic amateur phone photo, UGC look, slight grain, natural imperfect framing, not a studio ad, no graphic design elements except the headline text. Muted, quiet mood.\n\nLighting: Cool soft daylight from a train window on frame right, about 6500K, flat grey-blue ambient light, gentle shadows. The phone screen emits a dim glow. The ring display is a crisp small bright white point.\n\nCamera: Eye-level POV, handheld, 26mm phone wide lens, phone and ring in focus, background softly blurred. Slight natural tilt under 3 degrees.\n\nComposition: Vertical 9:16. Headline in the top band, 15% to 29% of frame height, centered, 8% to 92% of width, over the dark wall and lamp area. The phone is centered horizontally, spans about 52% of frame width and occupies 31% to 65% of frame height; the four notification cards fill the screen between 36% and 63% of height (card 1 at 36-42%, card 2 at 43-49%, card 3 at 50-56%, card 4 at 57-63%), each card about 44% of frame width. The ring finger is below the phone, ring body between 68% and 80% of frame height, ring about 24% of frame width, fingers not covering the display. Below 82% only dark couch and shadow. Focal flow: headline, then the notification pile, then the ring display.\n\nBrand colors: Background muted grey-blue #1F2328 with cool window light #C9D3DB. Phone screen dark slate #1B1E24. Headline plain white #FFFFFF. Ring black #0B0B0C with gold logo #E8D9A0 and white digits. Notification cards translucent charcoal #2E3138 with off-white text #F2F2F2. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one black smart ring (a metal band ring with a rectangular dark display window showing four white seven-segment digits and a small gold heart-shaped logo plate to the left of the display), worn on the ring finger, display facing the camera within 20 degrees, ring about 24% of frame width, sharp and fully visible, nothing covering the display.\n\nText: Render exactly five text strings, no others.\n1) \"Opened your phone for dhikr. 40 minutes ago.\" - the headline, bold clean geometric sans-serif, bold, sentence case exactly as quoted, plain white #FFFFFF, no box, no button look, on two lines, line 1 \"Opened your phone for dhikr.\", line 2 \"40 minutes ago.\", centered in the top band 15-29% of frame height, 8-92% of width, cap height about 5% of frame height, high contrast.\n2) \"Time for dhikr\" - notification card 1 (top of the stack), iOS system font, medium weight, sentence case, off-white #F2F2F2, one line, cap height about 2.6% of frame height.\n3) \"New posts today\" - notification card 2, iOS system font, regular, sentence case, off-white #F2F2F2, one line, same size.\n4) \"New group messages\" - notification card 3, same style.\n5) \"Cart is waiting\" - notification card 4 (bottom of the stack), same style.\nEach notification card contains only its one text line plus a plain rounded-square icon tile with no letters or symbols: no app name, no timestamp, no sender name, no clock, no status bar, no battery icon.\n\nLegibility: Spell every string exactly as written, letter for letter, with its capitals, numerals and punctuation. The word \"dhikr\" in the headline is spelled D-H-I-K-H-R and the word \"dhikr\" in the first notification is spelled D-H-I-K-H-R. The numeral in the headline is \"40\". Text inside the notification cards must be sharp, horizontal, not skewed, with inner padding, no letters cut off by the card edges. Render only the five quoted strings plus the ring's own display digits; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the five quoted strings and the product's own display and logo; real app logos or brand names; buttons, close X marks, unread count badges, play triangles, reply fields or anything that looks clickable; a clock or date on the screen; star ratings, review counts, seals; a second ring or a second phone; a face; extra fingers, fused hands, distorted fingers; plastic CGI skin; misspelled, warped, mirrored or cut-off letters; watermarks; text in the top 14% or below 70% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  }
+ ],
+ "variations": [
+  {
+   "step": "img_v1",
+   "kind": "V-copy",
+   "delta": "Headline swapped to approved hook H3 \"Opened your phone for dhikr? Stop scrolling.\"; same layout."
+  },
+  {
+   "step": "img_v2",
+   "kind": "V-layout",
+   "delta": "Mirrored: left hand, phone tilted 8 degrees at the top, headline below the phone, ring lower left, lamp from the right."
+  },
+  {
+   "step": "img_v3",
+   "kind": "V-scene",
+   "delta": "Commuter train seat in cool morning window light instead of the couch at night; same copy and ring."
+  }
+ ],
+ "est_credits": 2.0,
+ "chief": {
+  "rounds": 1,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_04/chief_notes_v1.md"
+  ],
+  "residual_concerns": [
+   "Draft maps exactly onto PE slots HEADLINE + UI_TEXT_1..4. UI_TEXT_4 trimmed to 'Cart is waiting' (on-image 20 words) - PE must use the chiefed text. Spell 'dhikr' letter by letter in HEADLINE and UI_TEXT_1."
+  ]
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "Tap to count your dhikr.",
+    "source": "03-ads/concept_slate.md A-1; 01-research/offer_brief.md Step 0"
+   },
+   {
+    "text": "A gentle pulse at 33, 66 and 99.",
+    "source": "01-research/offer_brief.md Step 0 (A-2)"
+   },
+   {
+    "text": "Silent tracking, so the phone stays in your pocket.",
+    "source": "offer_brief.md UMS + A-11 (brand-stated silent tracking)"
+   },
+   {
+    "text": "So remember Me; I will remember you. And be grateful to Me and do not deny Me (Quran 2:152)",
+    "source": "01-research/offer_brief.md Verified Islamic sources #2"
+   },
+   {
+    "text": "$49.99, free US shipping, 60-day money-back guarantee",
+    "source": "01-research/offer_brief.md Step 0 (A-6, A-7, A-8)"
+   },
+   {
+    "text": "You get pulled into social media.",
+    "source": "Q30 / VOC-30 (generalized pain, not a review)"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md primary text l.6, CTA",
+    "resolution": "sourced: offer_brief.md Step 0 60-day money-back guarantee"
+   }
+  ],
+  "checked_by": "ad04-chief + ad04-pe"
+ }
+}

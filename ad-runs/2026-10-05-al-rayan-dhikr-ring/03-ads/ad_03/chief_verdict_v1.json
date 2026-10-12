@@ -1,0 +1,6 @@
+{"verdict":"APPROVE","round":1,"ad_id":"ad_03","tier":1,
+ "notes":[],
+ "edited_copy_path":"03-ads/ad_03/copy_chiefed_v1.md",
+ "notes_path":"03-ads/ad_03/chief_notes_v1.md",
+ "benchmarks":{"B1":"PASS","B2":"PASS","B3":"PASS","B4":"PASS","B5":"PASS","B6":"PASS","B7":"PASS","B8":"PASS","B9":"PASS","B10":"PASS"},
+ "residual_concerns":["Optional test: add H3 'A card gets forgotten. A ring gets worn.' to primary text; offer_brief rates A2 problem-aware vs brief's solution-aware (copy names category in line 2)."],"chiefing":"skill"}

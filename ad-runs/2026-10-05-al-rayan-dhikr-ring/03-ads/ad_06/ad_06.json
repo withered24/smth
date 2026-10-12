@@ -1,0 +1,389 @@
+{
+ "id": "ad_06",
+ "format": "video",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG6/ANG1 — it looks like a normal ring at work, but it is a silent tasbih: dhikr through the meeting and nobody notices",
+ "avatar": "A1 discreet daily rememberer (practising Muslim 20-40, secular workplace)",
+ "awareness": "solution-aware",
+ "hook_type": "pattern-inversion",
+ "visual_concept": "what they think vs what it is meme",
+ "source_swipe_ids": [
+  "ergosalah-71735717"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": 10,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "pattern-inversion",
+   "text": "Coworkers think I'm fidgeting with a ring.",
+   "overlay": "WHAT MY COWORKERS SEE"
+  },
+  {
+   "id": "H2",
+   "type": "story-confession",
+   "text": "I was afraid a tasbih ring would look ridiculous at work.",
+   "overlay": "CORPORATE MEETING, 2 PM"
+  },
+  {
+   "id": "H3",
+   "type": "problem-agitation",
+   "text": "Loud clicker. Quiet office. Everyone staring.",
+   "overlay": "THE OLD WAY"
+  },
+  {
+   "id": "H4",
+   "type": "callout",
+   "text": "Muslim at work? Your tasbih can look like a ring.",
+   "overlay": "FOR MUSLIMS AT WORK"
+  },
+  {
+   "id": "H5",
+   "type": "curiosity-gap",
+   "text": "Guess what I'm counting in this meeting.",
+   "overlay": "NOT THE MINUTES"
+  },
+  {
+   "id": "H6",
+   "type": "voc-quote",
+   "text": "Modern tech jewelry, not a cheap plastic toy.",
+   "overlay": "WHAT IT ACTUALLY IS"
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "A tasbih that looks like a ring",
+ "primary_text": "Coworkers think it's just a ring. It's my tasbih, counting dhikr through the whole meeting.\n\nLoud clickers and phone apps were never made for a quiet office.\n\nThis one you wear. Tap to count. A small display shows where you are. A gentle vibration at 33, 66 and 99.\n\nThe Prophet (peace be upon him) said: \"Let not your tongue cease to be moist with the remembrance of Allah.\" (Tirmidhi 3375)\n\n$49.99. Free US shipping. 60-day money-back guarantee. Tap Shop Now.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Sixty days, money back. Tap Shop Now.",
+  "offer": "$49.99 · free US shipping · 60-day money-back guarantee · 1-year tech warranty",
+  "risk_reversal": "60-Day Money-Back Guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "C01_frame",
+   "slot": "OVERLAY_1",
+   "text": "WHAT MY COWORKERS SEE",
+   "placement": "top band 15-27% of height, 8-92% of width, centered, bold clean geometric sans-serif white #FFFFFF all caps on solid deep-green #1F5A2E rounded pill"
+  },
+  {
+   "step": "C02_frame",
+   "slot": "OVERLAY_2",
+   "text": "VS... WHAT IT ACTUALLY IS",
+   "placement": "top band 15-27% of height, 8-92% of width, centered, bold clean geometric sans-serif white #FFFFFF all caps on solid deep-green #1F5A2E rounded pill"
+  },
+  {
+   "step": "C03_frame",
+   "slot": "OVERLAY_3",
+   "text": "FREE US SHIPPING",
+   "placement": "top band 15-27% of height, 8-92% of width, centered, bold clean geometric sans-serif white #FFFFFF all caps on solid deep-green #1F5A2E rounded pill"
+  }
+ ],
+ "script": [
+  {
+   "line_id": "L1",
+   "text": "Coworkers think I'm fidgeting with a ring.",
+   "t_start": 0.0,
+   "t_end": 1.78,
+   "clip_ids": [
+    "C01"
+   ],
+   "speaker": "vo",
+   "spoken_as": null,
+   "overlay": "WHAT MY COWORKERS SEE"
+  },
+  {
+   "line_id": "L2",
+   "text": "It's my tasbih. Silent tracking, gentle vibration.",
+   "t_start": 2.36,
+   "t_end": 6.36,
+   "clip_ids": [
+    "C02"
+   ],
+   "speaker": "vo",
+   "spoken_as": "It's my tas-beeh. Silent tracking, gentle vibration.",
+   "overlay": "VS... WHAT IT ACTUALLY IS"
+  },
+  {
+   "line_id": "L3",
+   "text": "Sixty days, money back. Tap Shop Now.",
+   "t_start": 7.32,
+   "t_end": 10.76,
+   "clip_ids": [
+    "C03"
+   ],
+   "speaker": "vo",
+   "spoken_as": null,
+   "overlay": "FREE US SHIPPING"
+  }
+ ],
+ "storyboard": [
+  {
+   "clip_id": "C01",
+   "clip_type": "surreal-scroll-stopper",
+   "duration": 5,
+   "trim_s": 2.1,
+   "start_frame_prompt_step": "C01_frame",
+   "motion": "slow push-in; colleague glances at her ringed hand and nods, she taps her pen once",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L1"
+    ],
+    "text": "Coworkers think I'm fidgeting with a ring."
+   },
+   "on_screen": "in-frame"
+  },
+  {
+   "clip_id": "C02",
+   "clip_type": "product-in-action",
+   "duration": 5,
+   "trim_s": 4.7,
+   "start_frame_prompt_step": "C02_frame",
+   "motion": "locked macro; thumb taps the ring twice, soft ripple of light on the band",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L2"
+    ],
+    "text": "It's my tasbih. Silent tracking, gentle vibration."
+   },
+   "on_screen": "in-frame"
+  },
+  {
+   "clip_id": "C03",
+   "clip_type": "b-roll",
+   "duration": 5,
+   "trim_s": 4.5,
+   "start_frame_prompt_step": "C03_frame",
+   "motion": "slow push-in; one thumb tap, tiny closed-mouth smile, hand stays",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L3"
+    ],
+    "text": "Sixty days, money back. Tap Shop Now."
+   },
+   "on_screen": "in-frame"
+  }
+ ],
+ "voice_mode": "tts_narrator",
+ "voice": {
+  "variant": "elevenlabs",
+  "voice_id": "b0f766b7-8703-4bd1-b973-f857c36837b6",
+  "description": "a young woman in her late 20s, General American accent, warm, low-key and dry-funny, half-whispering deadpan, conversational pace, like a quiet in-on-the-joke creator voice-over",
+  "name": "Maya"
+ },
+ "assembly": {
+  "order": [
+   "C01",
+   "C02",
+   "C03"
+  ],
+  "vo": "audio/vo_fast.mp3",
+  "mix": "replace",
+  "captions": "auto"
+ },
+ "higgsfield_jobs": [
+  {
+   "step": "C01_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: P1 sits at the conference table in a quiet team meeting, seen from across the table at a slight angle. Her left hand rests on a black notebook in the foreground, a pen between her fingers; on her ring finger sits exactly one wide matte-black ring, worn with its display window turned toward her palm side so that only the plain polished black band is visible from the top, looking like an ordinary fashionable ring. Her face is turned slightly toward the speaker out of frame, attentive, mouth closed. Behind the table, out of focus, the colleague in the blue shirt is looking toward her hand.\nPERSONA P1: a 29-year-old woman with warm light-brown skin, a neatly pinned cream crepe hijab covering hair and neck, warm brown eyes, natural skin texture, no visible makeup, small gold stud earrings partly visible, wearing a charcoal blazer over a white blouse.\nSETTING S1: a modern US office conference room: long light-oak table, open silver laptop, a black notebook and a pen, a white paper coffee cup, glass wall behind with soft out-of-focus colleagues.\nLIGHT L1: soft neutral 4500K overhead office light with daylight from a window at frame left, gentle shadows, phone-camera realism, slight grain.\nStyle: Authentic amateur phone video still, native UGC meme look, not a studio ad.\nCamera: eye-level from across the table, handheld phone, 26mm wide lens, hand and ring in sharp focus, background softly blurred.\nComposition: Vertical 9:16. The top band 15% to 27% holds the caption pill; her face at 32% to 46% of frame height, left of center; her left hand with the ring in the foreground at 46% to 54% of frame height, ring about 4% of frame height; the colleague blurred at the right at 34% to 48%; the band from 58% to 100% shows only the table surface and laptop edge.\nBrand colors: Caption pill deep green #1F5A2E with white #FFFFFF text; cream hijab #F5EFE6; matte black ring #0B0B0B.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring, worn on the ring finger, band width and glossy edges as in the reference; display window hidden on the palm side in this shot.\nText: Render exactly one text element: \"WHAT MY COWORKERS SEE\" in ALL CAPS in bold clean geometric sans-serif, white #FFFFFF, centered inside a solid deep-green #1F5A2E rounded pill, top band 15% to 27% of frame height, 8% to 92% of frame width, cap height about 3.2% of frame height.\nLegibility: Spell the quoted string exactly, letter for letter (W-H-A-T M-Y C-O-W-O-R-K-E-R-S S-E-E), with its capitalization and punctuation. High contrast, fully inside the frame with 6% side margins. Render only that string; do not render section labels or any other words.\nAvoid: any text other than the quoted overlay; emojis; logos, brand names or watermarks; a second ring; extra fingers or fused hands; distorted face; stars, badges, doctors or lab coats; faces or hands in the bottom 40% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "C02_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: Close-up of P1's left hand resting on her charcoal-blazer lap just under the edge of the conference table, her thumb touching the matte-black ring on her ring finger; the ring's display window faces the camera and shows four white seven-segment digits and the small gold logo window beside it. The table edge and a sliver of the laptop are visible above, softly blurred; no face in frame except the lower edge of her cream hijab at the top right, blurred.\nAttached image 1 is the product reference. Attached image 2 is the identity reference for the woman: same skin tone, hijab, blazer and outfit.\nPERSONA P1: a 29-year-old woman with warm light-brown skin, a neatly pinned cream crepe hijab, wearing a charcoal blazer over a white blouse.\nSETTING S1: a modern US office conference room: long light-oak table edge, open silver laptop above, glass wall behind with soft out-of-focus colleagues.\nLIGHT L1: soft neutral 4500K overhead office light with daylight from a window at frame left, gentle shadows, phone-camera realism, slight grain.\nStyle: Authentic amateur phone macro still, native UGC, not a studio ad.\nCamera: low close-up from the side at lap height, handheld phone, 35mm lens, ring and thumb in sharp focus, background softly blurred.\nComposition: Vertical 9:16. The top band 15% to 27% holds the caption pill; the hand and ring occupy 30% to 52% of frame height, centered slightly left; the ring about 18% of frame height with its display fully visible and facing the camera; table edge at 14% to 20% at the very top, blurred; the band from 58% to 100% shows only blazer fabric and floor, blurred.\nBrand colors: Caption pill deep green #1F5A2E with white #FFFFFF text; ring matte black #0B0B0B, gold logo #E6C77A, digits white #FFFFFF.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring, display window readable and facing the camera within 20 degrees, digits identical to the reference, thumb beside the display not covering it, ring height about 18% of frame height.\nText: Render exactly one text element: \"VS... WHAT IT ACTUALLY IS\" in ALL CAPS in bold clean geometric sans-serif, white #FFFFFF, centered inside a solid deep-green #1F5A2E rounded pill, top band 15% to 27% of frame height, 8% to 92% of frame width, cap height about 3.2% of frame height.\nLegibility: Spell the quoted string exactly, letter for letter (V-S, three dots, W-H-A-T I-T A-C-T-U-A-L-L-Y I-S), with its capitalization and punctuation. High contrast, fully inside the frame with 6% side margins. Render only that string and the ring's own display digits; do not render section labels or any other words.\nAvoid: any text other than the quoted overlay and the ring's own digits; emojis; logos, brand names or watermarks; a second ring; extra fingers or fused hands; changed digits; stars, badges, doctors or lab coats.",
+   "references": [
+    "@product",
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": null
+  },
+  {
+   "step": "C03_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: P1 in medium close-up at the conference table, attentive to the meeting, her gaze toward the speaker out of frame, mouth closed. Her left hand rests at the table edge in the lower foreground with the matte-black ring on the ring finger, thumb resting on the band. The white paper coffee cup and notebook sit nearby. The colleague in the blue shirt is blurred in the background.\nAttached image 1 is the product reference. Attached image 2 is the identity reference for the woman: same face, hair covering, skin and outfit.\nPERSONA P1: a 29-year-old woman with warm light-brown skin, a neatly pinned cream crepe hijab covering hair and neck, warm brown eyes, natural skin texture, no visible makeup, small gold stud earrings partly visible, wearing a charcoal blazer over a white blouse.\nSETTING S1: a modern US office conference room: long light-oak table, a black notebook, a white paper coffee cup, glass wall behind with soft out-of-focus colleagues.\nLIGHT L1: soft neutral 4500K overhead office light with daylight from a window at frame left, gentle shadows, phone-camera realism, slight grain.\nStyle: Authentic amateur phone video still, native UGC, not a studio ad.\nCamera: eye-level, slightly from the side, handheld phone, 30mm lens, face and hand in focus, background softly blurred.\nComposition: Vertical 9:16. The top band 15% to 27% holds the caption pill; her face at 30% to 44% of frame height, center-left; her hand with the ring at 46% to 54% of frame height, ring about 5% of frame height with display turned toward the camera; the band from 58% to 100% shows only table surface and blazer.\nBrand colors: Caption pill deep green #1F5A2E with white #FFFFFF text; cream hijab #F5EFE6; ring matte black #0B0B0B.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Exactly one ring on the ring finger.\nText: Render exactly one text element: \"FREE US SHIPPING\" in ALL CAPS in bold clean geometric sans-serif, white #FFFFFF, centered inside a solid deep-green #1F5A2E rounded pill, top band 15% to 27% of frame height, 8% to 92% of frame width, cap height about 3.2% of frame height.\nLegibility: Spell the quoted string exactly, letter for letter (F-R-E-E U-S S-H-I-P-P-I-N-G), with its capitalization and punctuation. High contrast, fully inside the frame with 6% side margins. Render only that string and the ring's own digits; do not render section labels or any other words.\nAvoid: any text other than the quoted overlay and the ring's own digits; emojis; logos, brand names or watermarks; a second ring; extra fingers or fused hands; distorted face; stars, badges, doctors or lab coats.",
+   "references": [
+    "@product",
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": null
+  },
+  {
+   "step": "vo",
+   "route": "cli",
+   "job_type": "text2speech_v2",
+   "params": {
+    "variant": "elevenlabs",
+    "voice_id": "b0f766b7-8703-4bd1-b973-f857c36837b6",
+    "voice_type": "preset"
+   },
+   "prompt": "Coworkers think I'm fidgeting with a ring. It's my tas-beeh. Silent tracking, gentle vibration. Sixty days, money back. Tap Shop Now.",
+   "references": [],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "C01_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "The colleague across the table glances at the woman's ringed hand and gives a small approving nod. 0-1s: his eyes flick to her hand while she taps her pen once against the notebook. 1-2.4s: he nods slightly and looks back toward the speaker; she keeps her calm, attentive look. 2.4-5s: both hold still. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: very slow push-in of about 4 percent. Her expression stays calm and attentive. Nobody speaks; mouths stay closed. Ambient only: no sound. Keep the ring exactly as in the start frame, a plain black band, and keep her face, hair and clothing identical to the start frame. All text in the start frame stays exactly as it is, unchanged and still. Do not add any text, captions, subtitles, logos or watermarks.",
+   "references": [
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 3
+    }
+   }
+  },
+  {
+   "step": "C02_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "Her thumb taps the black ring twice under the table edge while a soft pulse of light ripples across the band. 0-1s: the thumb presses the ring once. 1-2s: it presses a second time and a gentle ripple of faint white light spreads over the band, as a quiet vibration. 2-5s: the hand settles and stays still. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera locked off. Nobody speaks; mouths stay closed. Ambient only: no sound. Keep the ring, its display and its logo exactly as in the start frame; the display digits stay sharp and unchanged; the ring does not rotate. Keep her hand, sleeve and clothing identical to the start frame. All text in the start frame stays exactly as it is, unchanged and still. Do not add any text, captions, subtitles, logos or watermarks.",
+   "references": [
+    "C02_frame"
+   ],
+   "depends_on": [
+    "C02_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 5
+    }
+   }
+  },
+  {
+   "step": "C03_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "The woman gives one quiet thumb tap on her ring and a tiny private smile while the meeting carries on. 0-1.2s: her thumb presses the ring once. 1.2-2.6s: the corners of her mouth lift in a small closed-mouth smile and her eyes stay on the speaker. 2.6-5s: she settles, hand still on the table edge. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: very slow push-in of about 4 percent. Nobody speaks; mouths stay closed. Ambient only: no sound. Keep the ring exactly as in the start frame and keep her face, hair and clothing identical to the start frame. All text in the start frame stays exactly as it is, unchanged and still. Do not add any text, captions, subtitles, logos or watermarks.",
+   "references": [
+    "C03_frame"
+   ],
+   "depends_on": [
+    "C03_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 5
+    }
+   }
+  }
+ ],
+ "variations": [],
+ "est_credits": 21.6,
+ "chief": {
+  "rounds": 1,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_06/chief_notes_v1.md"
+  ],
+  "residual_concerns": []
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "looks like a ring",
+    "source": "03-ads/concept_slate.md A-10; Q40 (persona voice only)"
+   },
+   {
+    "text": "Silent tracking, gentle vibration",
+    "source": "01-research/offer_brief.md Step 0 (Silent Devotion; gentle vibrations at 33, 66, 99), A-2/A-11"
+   },
+   {
+    "text": "Sixty days, money back",
+    "source": "01-research/offer_brief.md Step 0 (60-Day Money-Back Guarantee)"
+   },
+   {
+    "text": "FREE US SHIPPING",
+    "source": "01-research/offer_brief.md Step 0, A-7"
+   },
+   {
+    "text": "Let not your tongue cease to be moist with the remembrance of Allah. (Tirmidhi 3375)",
+    "source": "01-research/offer_brief.md Verified Islamic sources #7"
+   },
+   {
+    "text": "$49.99",
+    "source": "01-research/offer_brief.md Step 0"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md primary text, CTA, description",
+    "resolution": "documented 60-day money-back guarantee, offer_brief.md Step 0"
+   },
+   {
+    "term": "stars / badges / doctors / lab coats / emojis",
+    "location": "prompts Avoid lines",
+    "resolution": "negative constraints only, nothing rendered"
+   }
+  ],
+  "checked_by": "ad06-chief + ad06-pe"
+ }
+}

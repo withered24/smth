@@ -1,0 +1,212 @@
+[
+ {
+  "id": "ad_01",
+  "fmt": "image",
+  "route": "swipe",
+  "src": "yaqeen-books-126182379",
+  "ang": "ANG7 — consistency over intensity: small, constant dhikr every day beats a big burst then nothing; the ring makes the small daily count easy to keep",
+  "av": "A1",
+  "aw": "problem-aware",
+  "soph": "3-4",
+  "hook": "story-confession",
+  "vd": "in_media_res",
+  "vc": "lo-fi night bedside, ring glowing",
+  "beliefs": [
+   "B1",
+   "B2"
+  ],
+  "q": [
+   "Q17",
+   "Q20",
+   "Q29",
+   "Q36"
+  ],
+  "img": "product_black.png",
+  "faith": "Bukhari 6464 (most beloved deed = most regular and constant even if little) and/or Tirmidhi 3375 (tongue moist with remembrance) — exact wording from offer_brief.md 'Verified Islamic sources'.",
+  "notes": "Persona-styled first-person confession (no name, no fake stats, no claimed results numbers). The swipe's '500 words = 75%' style stat must NOT be ported. Lo-fi native photo: phone-camera look, night, bedside or kitchen counter, the ring on a hand or on the nightstand showing its lit count."
+ },
+ {
+  "id": "ad_02",
+  "fmt": "image",
+  "route": "swipe",
+  "src": "tayyib-beauty-175015416",
+  "ang": "ANG11 — wudu-ready: wudu five times a day, the ring stays on (IP67 water resistance), so the count never stops between prayers",
+  "av": "A1",
+  "aw": "problem-aware",
+  "soph": "3-4",
+  "hook": "callout",
+  "vd": "split_contrast",
+  "vc": "wudu water hand / ring at sink",
+  "beliefs": [
+   "B5",
+   "B4"
+  ],
+  "q": [
+   "Q01",
+   "Q22"
+  ],
+  "img": "product_black.png",
+  "faith": "optional, only if natural (Quran 62:10 'remember Allah often'); the hook itself is the ritual fact.",
+  "notes": "IP67 only. Never 'waterproof', 'shower', 'swim'. Show water splashing on the hand at a sink, not submersion. Ritual-fact headline pattern mirrors the swipe (X. Y five times. Your ___ ...) with new words."
+ },
+ {
+  "id": "ad_03",
+  "fmt": "image",
+  "route": "swipe",
+  "src": "hope-rings-177217013",
+  "ang": "ANG5 — the gift for someone new to the deen (revert friend, spouse, parent): one easy daily habit they will wear and use every day",
+  "av": "A2",
+  "aw": "solution-aware",
+  "soph": "3",
+  "hook": "callout",
+  "vd": "product_demo",
+  "vc": "ring in gift box on satin",
+  "beliefs": [
+   "B4",
+   "B5",
+   "B6"
+  ],
+  "q": [
+   "Q35",
+   "Q25",
+   "Q32"
+  ],
+  "img": "product_rose_gold.png",
+  "faith": "none required; if used, Quran 13:28 exact wording only. NO Sadaqah Jariyah or reward-to-giver claim.",
+  "notes": "Swipe's '30,000+ customers' stat and 50%-off are NOT ours: no social-proof numbers; offer = $49.99, free US shipping, 60-day money-back, 1-year tech warranty only. Reveal device = the count display ('5332') instead of a hidden engraving. Gift box is generic and elegant (we have no box photo: keep box unbranded or minimal)."
+ },
+ {
+  "id": "ad_04",
+  "fmt": "image",
+  "route": "new_concept",
+  "src": "C-01",
+  "ctype": "native-notifications",
+  "ang": "ANG4 — phone-free remembrance: you open the phone for dhikr and the feed takes you; a ring keeps dhikr off the screen",
+  "av": "A1",
+  "aw": "problem-aware",
+  "soph": "3-4",
+  "hook": "problem-agitation",
+  "vd": "native_ui_spoof",
+  "vc": "notification pile over dhikr reminder",
+  "beliefs": [
+   "B2",
+   "B4"
+  ],
+  "q": [
+   "Q30",
+   "Q22"
+  ],
+  "img": "product_black.png",
+  "faith": "optional Quran 2:152 exact wording in primary text only.",
+  "notes": "No real app logos, no clickable-looking buttons/badges/close X (Meta rule)."
+ },
+ {
+  "id": "ad_05",
+  "fmt": "image",
+  "route": "new_concept",
+  "src": "C-02",
+  "ctype": "comparison",
+  "ang": "ANG8 — the old tools fail you: beads scatter at one bump, the clicker announces itself; the ring taps silently and pulses at 33",
+  "av": "A1",
+  "aw": "solution-aware",
+  "soph": "3-4",
+  "hook": "us-vs-them",
+  "vd": "split_contrast",
+  "vc": "beads vs clicker vs ring bands",
+  "beliefs": [
+   "B4",
+   "B2"
+  ],
+  "q": [
+   "Q29",
+   "Q21",
+   "Q11",
+   "Q32"
+  ],
+  "img": "product_rose_gold.png",
+  "faith": "none on image.",
+  "notes": "Category-level only, no brands. Never show or knock finger counting (it is the Sunnah). Every contrast true."
+ },
+ {
+  "id": "ad_06",
+  "fmt": "video",
+  "route": "swipe",
+  "src": "ergosalah-71735717",
+  "ang": "ANG6/ANG1 — it looks like a normal ring at work, but it is a silent tasbih: dhikr through the meeting and nobody notices",
+  "av": "A1",
+  "aw": "solution-aware",
+  "soph": "3-4",
+  "hook": "pattern-inversion",
+  "vd": "before_after",
+  "vc": "what they think vs what it is meme",
+  "beliefs": [
+   "B4"
+  ],
+  "q": [
+   "Q40",
+   "Q22",
+   "Q21",
+   "Q32"
+  ],
+  "img": "product_black.png",
+  "T": 10,
+  "faith": "optional: Tirmidhi 3375 phrase 'keep your tongue moist' as the payoff line.",
+  "notes": "Meme beats: 'What my coworkers think this is:' (ordinary ring on a hand at a desk) / 'Vs...' / 'What it actually is:' (thumb taps, count rises, pulse). Text-overlay-led, mostly no speech or one short VO; Muslim creator persona (hijabi woman or bearded man in office). Very visual; 8-12 s.",
+  "mc": 3
+ },
+ {
+  "id": "ad_07",
+  "fmt": "video",
+  "route": "swipe",
+  "src": "meta-2379413312864003",
+  "ang": "ANG9 — after salah, tap through 33/33/34 and feel the pulse at 33, 66 and 99 instead of losing your place",
+  "av": "A1",
+  "aw": "product-aware",
+  "soph": "3-4",
+  "hook": "demo-first",
+  "vd": "product_demo",
+  "vc": "macro tap, pulse, box reveal",
+  "beliefs": [
+   "B4",
+   "B1"
+  ],
+  "q": [
+   "Q29",
+   "Q20",
+   "Q32"
+  ],
+  "img": "product_rose_gold.png",
+  "T": 10,
+  "faith": "Sahih Muslim 596a (SubhanAllah 33, Alhamdulillah 33, Allahu Akbar 34 after every prayer) — exact wording; say what the dhikr is, never that the ring earns reward.",
+  "notes": "Competitor swipe (Weslamic/iTasbih): never copy its text, box or line 'better companion'. Hand-macro tap demo with the count display readable in the start frames; vibration shown as subtle visual pulse; prayer mat / after-salah setting.",
+  "mc": 3
+ },
+ {
+  "id": "ad_08",
+  "fmt": "video",
+  "route": "swipe",
+  "src": "meta-1649694736793087",
+  "ang": "ANG2 — when your mind races on the walk or commute, turn it into istighfar: tap, keep walking, the count keeps up",
+  "av": "A1",
+  "aw": "problem-aware",
+  "soph": "3",
+  "hook": "callout",
+  "vd": "in_media_res",
+  "vc": "POV overthinking walk, ring tap",
+  "beliefs": [
+   "B1",
+   "B4"
+  ],
+  "q": [
+   "Q18",
+   "Q39",
+   "Q20",
+   "Q30"
+  ],
+  "img": "product_black.png",
+  "T": 15,
+  "faith": "Quran 13:28 ('by the remembrance of Allah hearts are assured') and/or Muslim 2702 (the Prophet sought forgiveness a hundred times a day) — exact wording.",
+  "notes": "Open on the wrist/hand with the ring (wrist-first frame like the swipe), 'POV: you're overthinking again' style callout in new words; walk in a city street (no driving shots — AI driving risk). Kinetic captions. Avoid mental-health/anxiety cure claims: dhikr brings the heart rest per 13:28; the ring only helps count.",
+  "mc": 4
+ }
+]

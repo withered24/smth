@@ -1,0 +1,465 @@
+{
+ "id": "ad_08",
+ "format": "video",
+ "route": "swipe",
+ "concept_type": null,
+ "angle": "ANG2",
+ "avatar": "A1",
+ "awareness": "problem-aware",
+ "hook_type": "callout",
+ "visual_concept": "POV overthinking walk, ring tap",
+ "source_swipe_ids": [
+  "meta-1649694736793087"
+ ],
+ "aspect_ratio": "9:16",
+ "target_seconds": 15,
+ "hooks": [
+  {
+   "id": "H1",
+   "type": "callout",
+   "text": "Mind racing on your walk to work? Make it istighfar.",
+   "overlay": "POV: your thoughts won't slow down"
+  },
+  {
+   "id": "H2",
+   "type": "story-confession",
+   "text": "My mind races the whole walk to work. So I tap.",
+   "overlay": "POV: the loop starts again"
+  },
+  {
+   "id": "H3",
+   "type": "problem-agitation",
+   "text": "You open your dhikr app and get pulled into social media.",
+   "overlay": "There is a quieter way"
+  },
+  {
+   "id": "H4",
+   "type": "demo-first",
+   "text": "Watch this walk: one tap, one istighfar, keep going.",
+   "overlay": "Istighfar on the walk in"
+  },
+  {
+   "id": "H5",
+   "type": "question",
+   "text": "What if every racing thought became a chance for istighfar?",
+   "overlay": "POV: mid-walk, mind loud"
+  },
+  {
+   "id": "H6",
+   "type": "benefit-statement",
+   "text": "A steady rhythm of istighfar, even on the walk to work.",
+   "overlay": "One tap at a time"
+  }
+ ],
+ "recommended_hook": "H1",
+ "headline": "Istighfar on your walk. One tap each.",
+ "primary_text": "Mind racing on your walk to work? Make it istighfar.\nTap the ring. Keep walking. A steady rhythm of istighfar, with no loud clicker and no beads in your pocket.\nAl Rayan Dhikr Ring 2.0: tap to count, with a gentle vibration at 33, 66 and 99.\nBy the remembrance of Allah hearts are assured. (Quran 13:28)\n$49.99 · free US shipping · 60-day money-back guarantee\nTap Shop Now.",
+ "description": "60-day money-back guarantee",
+ "cta": {
+  "button": "Shop Now",
+  "line": "Sixty-day money-back guarantee. Tap Shop Now.",
+  "offer": "$49.99 · free US shipping · 60-day money-back guarantee",
+  "risk_reversal": "60-day money-back guarantee"
+ },
+ "on_image_text": [
+  {
+   "step": "C01_frame",
+   "slot": "OVERLAY_1",
+   "text": "POV: your thoughts won't slow down",
+   "placement": "top band 18-28% of height, rounded deep green #1F5A2E pill, bold white clean geometric sans, centered"
+  },
+  {
+   "step": "C03_frame",
+   "slot": "OVERLAY_2",
+   "text": "QURAN 13:28",
+   "placement": "top band 18-28% of height, rounded deep green pill, bold white ALL CAPS sans, centered"
+  },
+  {
+   "step": "C04_frame",
+   "slot": "OVERLAY_3",
+   "text": "AL RAYAN DHIKR RING 2.0",
+   "placement": "top band 18-28% of height, rounded deep green pill, bold white ALL CAPS sans, centered"
+  }
+ ],
+ "script": [
+  {
+   "line_id": "L1",
+   "text": "Mind racing on your walk to work? Make it istighfar.",
+   "t_start": 0.0,
+   "t_end": 3.28,
+   "clip_ids": [
+    "C01"
+   ],
+   "speaker": "vo",
+   "spoken_as": "Mind racing on your walk to work? Make it iss-tig-far.",
+   "overlay": "POV: your thoughts won't slow down"
+  },
+  {
+   "line_id": "L2",
+   "text": "Tap. Keep walking. The count keeps up.",
+   "t_start": 3.62,
+   "t_end": 6.3,
+   "clip_ids": [
+    "C02"
+   ],
+   "speaker": "vo",
+   "spoken_as": null,
+   "overlay": null
+  },
+  {
+   "line_id": "L3",
+   "text": "By the remembrance of Allah, hearts are assured.",
+   "t_start": 6.84,
+   "t_end": 9.3,
+   "clip_ids": [
+    "C03"
+   ],
+   "speaker": "vo",
+   "spoken_as": "By the remembrance of Allah, hearts are assured.",
+   "overlay": "QURAN 13:28"
+  },
+  {
+   "line_id": "L4",
+   "text": "Sixty-day money-back guarantee. Tap Shop Now.",
+   "t_start": 10.02,
+   "t_end": 13.06,
+   "clip_ids": [
+    "C04"
+   ],
+   "speaker": "vo",
+   "spoken_as": "Sixty day money-back guarantee. Tap Shop Now.",
+   "overlay": "AL RAYAN DHIKR RING 2.0"
+  }
+ ],
+ "storyboard": [
+  {
+   "clip_id": "C01",
+   "clip_type": "surreal-scroll-stopper",
+   "duration": 5,
+   "trim_s": 3.5,
+   "trim_in_s": null,
+   "start_frame_prompt_step": "C01_frame",
+   "motion": "POV walking hand swings, thumb taps ring, scribble loops circle; handheld sway",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L1"
+    ],
+    "text": "Mind racing on your walk to work? Make it istighfar."
+   },
+   "on_screen": "in-frame"
+  },
+  {
+   "clip_id": "C02",
+   "clip_type": "retention-device",
+   "duration": 5,
+   "trim_s": 3.1,
+   "trim_in_s": null,
+   "start_frame_prompt_step": "C02_frame",
+   "motion": "close-up thumb taps ring twice, each tap dissolves a scribble loop; slow push-in 5%",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L2"
+    ],
+    "text": "Tap. Keep walking. The count keeps up."
+   },
+   "on_screen": "captions"
+  },
+  {
+   "clip_id": "C03",
+   "clip_type": "b-roll",
+   "duration": 5,
+   "trim_s": 3.1,
+   "trim_in_s": null,
+   "start_frame_prompt_step": "C03_frame",
+   "motion": "shoulders drop, head lifts, loops fade, relaxed hand; locked with tiny sway",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L3"
+    ],
+    "text": "By the remembrance of Allah, hearts are assured."
+   },
+   "on_screen": "in-frame"
+  },
+  {
+   "clip_id": "C04",
+   "clip_type": "product-in-action",
+   "duration": 5,
+   "trim_s": 3.9,
+   "trim_in_s": null,
+   "start_frame_prompt_step": "C04_frame",
+   "motion": "raised ringed hand steady, one tap, hand lowers; side-tracking, push-in <=4%",
+   "audio": {
+    "kind": "vo",
+    "line_ids": [
+     "L4"
+    ],
+    "text": "Sixty-day money-back guarantee. Tap Shop Now."
+   },
+   "on_screen": "in-frame"
+  }
+ ],
+ "voice_mode": "tts_narrator",
+ "voice": {
+  "variant": "elevenlabs",
+  "voice_id": "c25f78a0-714e-42af-8da3-a399cef94968",
+  "description": "warm calm female voice, late 20s, General American accent, low and intimate, medium-slow pace, sincere first-person tone",
+  "name": "Hana"
+ },
+ "assembly": {
+  "order": [
+   "C01",
+   "C02",
+   "C03",
+   "C04"
+  ],
+  "vo": "audio/vo.mp3",
+  "mix": "replace",
+  "captions": "auto"
+ },
+ "higgsfield_jobs": [
+  {
+   "step": "C01_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Scene: A first-person POV phone-video still looking down and forward while walking on a city sidewalk. PERSONA P1's right hand and wrist hang and swing at hip level, fingers loosely relaxed, the cuff of the long camel #B58B5E wool coat visible at the wrist; exactly one black smart ring sits on the ring finger of that hand with its display window facing the camera. Around the hand float thin translucent white scribble loops (abstract line doodles, no letters, no words, no numbers), like a racing mind. No face visible.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur vertical phone footage still, native UGC look, not a studio ad.\nCamera: Handheld at hip height, low POV, tilted slightly down, 26mm phone wide lens, the hand and ring in sharp focus.\nComposition: Vertical 9:16. The hand and ring occupy 38% to 54% of frame height, centered slightly left of middle; the wrist and coat cuff above it from 24% to 38%; the overlay pill sits in the top band 18% to 28% of height; the sidewalk fills 56% to 100% with nothing on it; the top 0% to 14% shows only sky.\nBrand colors: Overlay pill deep green #1F5A2E at 85% opacity with white #FFFFFF text. Natural sky blue, concrete grey and camel coat. Ring black with white digits and gold #C9A24B logo.\nProduct: Match the attached product reference image exactly: shape, label layout, colors, logo. Do not redesign, re-letter, simplify or recolor anything on the ring. Do not invent text on the ring. Exactly one ring, worn on the right ring finger, flat outer face with the white 7-segment display \"5332\" and the small gold heart-and-flame logo panel facing the camera within 20 degrees, display fully visible and sharp, ring height about 6% of frame height, no finger over the display.\nText: Render exactly one text element: 1) \"POV: your thoughts won't slow down\" - clean geometric sans-serif, bold, sentence case exactly as quoted, white #FFFFFF on a rounded pill #1F5A2E, centered in the top band 18% to 28% of frame height, 8% to 92% of width, cap height about 3.2% of frame height, on up to two lines.\nLegibility: Spell every word exactly as written, letter for letter, with its capitalization, colon and apostrophe in \"won't\". High contrast white on deep green, inside 6% side margins. The only other characters in the image are the ring's own digits \"5332\". Render only the one quoted string and the ring's display digits; do not render section labels or any other words.\nAvoid: any other text, words, captions or numbers; letters inside the scribble loops; a second ring or bracelet; a visible face; extra fingers or fused hands; altered ring display digits; watermarks; other logos; star ratings or badges; cars or driving; text in the bottom 35% of the frame.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "C02_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Attached image 1 is the product reference. Attached image 2 is the identity reference for the hand and sleeve: same skin tone, coat and ring.\nScene: A tight close-up of PERSONA P1's right hand while walking, the black smart ring on the right ring finger in sharp focus, the thumb of the same hand just above the ring about to tap it, the camel #B58B5E coat cuff at the wrist. Two or three thin translucent white scribble loops (abstract line doodles, no letters, no words, no numbers) drift close around the fingers. No face.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving. Only a blurred railing and sidewalk are visible behind.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur phone macro still, native UGC look, not a studio ad.\nCamera: Low handheld close-up, 35mm phone lens, the ring in focus, background strongly blurred.\nComposition: Vertical 9:16. The hand and ring occupy 30% to 52% of frame height, centered; the ring display window at about 38% to 42% of height; the top 0% to 14% only blurred sky; the band from 56% to 100% only blurred sidewalk.\nBrand colors: Warm morning palette; ring black with white digits and gold #C9A24B logo.\nProduct: Match the attached product reference image exactly: shape, label layout, colors, logo. Do not redesign, re-letter, simplify or recolor anything on the ring. Do not invent text on the ring. Exactly one ring, flat outer face with white 7-segment display \"5332\" and the gold heart-and-flame logo panel facing the camera within 20 degrees, fully visible and sharp, ring height about 9% of frame height, thumb not covering the display.\nAvoid: any text, words or numbers other than the ring's own \"5332\" display; letters inside the scribble loops; a second ring or bracelet; extra fingers or fused hands; altered digits; watermarks; other logos; fingers over the display; face.",
+   "references": [
+    "@product",
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": null
+  },
+  {
+   "step": "C03_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Attached image 1 is the product reference.\nScene: PERSONA P1 stands mid-stride on the sidewalk, seen from the hips up in a three-quarter front view, shoulders just starting to drop, head lifting slightly, eyes looking ahead, mouth closed, calm relieved expression. Her right hand hangs relaxed at her side so the black smart ring on her right ring finger catches the sun. The last faint thin translucent white scribble loops (abstract line doodles, no letters, no words, no numbers) fade behind her shoulder.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur vertical phone video still, native UGC look, not a studio ad.\nCamera: Eye-level, 26mm phone wide lens, everything in focus, slightly off-center handheld framing.\nComposition: Vertical 9:16. Her face at 34% to 44% of frame height, centered slightly right; the overlay pill in the top band 18% to 28% of height; her right hand at hip level about 52% to 54% of height with the ring small but visible; the top 0% to 14% only sky; the band from 58% to 100% only sidewalk.\nBrand colors: Pill deep green #1F5A2E at 85% opacity with white #FFFFFF text; natural warm morning palette; sage #A9B8A0 hijab, camel #B58B5E coat.\nProduct: Match the attached product reference image exactly: shape, label layout, colors, logo. Do not redesign, re-letter, simplify or recolor anything on the ring. Do not invent text on the ring. Exactly one ring on the right ring finger, display facing outward, ring height about 2% of frame height (small, secondary).\nText: Render exactly one text element: 1) \"QURAN 13:28\" - clean geometric sans-serif, bold, ALL CAPS exactly as quoted, white #FFFFFF on a rounded pill #1F5A2E, centered in the top band 18% to 28% of frame height, 25% to 75% of width, cap height about 3.2% of frame height, on one line.\nLegibility: Spell every character exactly as written: Q-U-R-A-N, a space, then one-three, colon, two-eight, written 13:28. High contrast, inside 6% side margins. Render only the one quoted string and the ring's own display; do not render section labels or any other words.\nAvoid: any other text, words, captions or numbers; letters inside the scribble loops; a second ring or bracelet; a second person in focus; extra fingers or fused hands; distorted face; cars or driving; watermarks; logos; star ratings or badges; text in the bottom 35%.",
+   "references": [
+    "@product"
+   ],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "C04_frame",
+   "route": "cli",
+   "job_type": "nano_banana_pro",
+   "params": {
+    "aspect_ratio": "9:16",
+    "resolution": "2k"
+   },
+   "prompt": "Attached image 1 is the product reference. Attached image 2 is the identity reference for the woman: same face, hijab, skin, coat and bag.\nScene: PERSONA P1 in side view mid-stride on the sidewalk, face in profile looking ahead with a faint calm smile, mouth closed, her right hand raised steadily toward the camera at chest height showing the black smart ring on her ring finger with its display facing the camera. No scribble loops anywhere; the air is clear.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur vertical phone video still, native UGC look, not a studio ad.\nCamera: Eye-level side-tracking shot, 28mm phone lens, her and the ring in focus, background soft.\nComposition: Vertical 9:16. Her face at 32% to 42% of frame height, right of center in profile; the raised hand and ring at 44% to 53% of height with the ring about 5% of frame height; the overlay pill in the top band 18% to 28% of height; the band from 58% to 100% only sidewalk.\nBrand colors: Pill deep green #1F5A2E at 85% opacity with white #FFFFFF text; natural warm morning palette; ring black with gold #C9A24B logo.\nProduct: Match the attached product reference image exactly: shape, label layout, colors, logo. Do not redesign, re-letter, simplify or recolor anything on the ring. Do not invent text on the ring. Exactly one ring on the right ring finger, display showing \"5332\" facing the camera within 20 degrees, fully visible and sharp.\nText: Render exactly one text element: 1) \"AL RAYAN DHIKR RING 2.0\" - clean geometric sans-serif, bold, ALL CAPS exactly as quoted, white #FFFFFF on a rounded pill #1F5A2E, centered in the top band 18% to 28% of frame height, 12% to 88% of width, cap height about 3.2% of frame height, on one line.\nLegibility: Spell every word exactly as written: A-L, R-A-Y-A-N, D-H-I-K-R, R-I-N-G, then the number written 2.0. High contrast, inside 6% side margins. Render only the one quoted string and the ring's own display digits; do not render section labels or any other words.\nAvoid: any other text; a second ring or bracelet; extra fingers or fused hands; altered digits; watermarks; other logos; star ratings or badges; cars or driving; text in the bottom 35%.",
+   "references": [
+    "@product",
+    "C03_frame"
+   ],
+   "depends_on": [
+    "C03_frame"
+   ],
+   "fallback": null
+  },
+  {
+   "step": "vo",
+   "route": "cli",
+   "job_type": "text2speech_v2",
+   "params": {
+    "variant": "elevenlabs",
+    "voice_id": "c25f78a0-714e-42af-8da3-a399cef94968",
+    "voice_type": "preset"
+   },
+   "prompt": "Mind racing on your walk to work? Make it iss-tig-far. Tap. Keep walking. The count keeps up. By the remembrance of Allah, hearts are assured. Sixty day money-back guarantee. Tap Shop Now.",
+   "references": [],
+   "depends_on": [],
+   "fallback": null
+  },
+  {
+   "step": "C01_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "A walking woman's right hand swings at her hip while thin white scribble loops spiral around it, then her thumb taps the ring. 0-1.5s: the hand swings forward and back in a steady stride as the scribble loops circle the wrist. 1.5-3s: the thumb reaches over and taps the ring once and its display gives a brief glow. 3-4.6s: the loops keep circling and the stride continues. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: handheld walking POV with only a tiny sway, no push or zoom. Nobody speaks; her face is out of frame. Ambient: quiet footsteps, distant city hum. No music. Keep the ring, its display, logo and colors exactly as in the start frame; the ring does not rotate or change shape. Keep her hand, coat sleeve and hijab identical to the start frame. Do not add any text, captions, subtitles, logos or watermarks. All text in the start frame stays exactly as it is, unchanged and still.",
+   "references": [
+    "C01_frame"
+   ],
+   "depends_on": [
+    "C01_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 4
+    }
+   }
+  },
+  {
+   "step": "C02_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "Her thumb taps the black ring twice in close-up and each tap makes one scribble loop dissolve. 0-1s: the hand swings gently as the thumb hovers. 1-2s: first tap, one scribble loop thins out and vanishes, the display glows softly with its digits still readable. 2-3.4s: second tap, a second loop dissolves while the stride never stops. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: low handheld close-up with gentle sway, a slow push-in of about 5 percent. Nobody speaks. Ambient: soft footsteps, faint city hum. No music. Keep the ring, its display, logo and colors exactly as in the start frame; the ring does not rotate or change shape. Keep her hand, coat sleeve and hijab identical to the start frame. Do not add any text, captions, subtitles, logos or watermarks.",
+   "references": [
+    "C02_frame"
+   ],
+   "depends_on": [
+    "C02_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 4
+    }
+   }
+  },
+  {
+   "step": "C03_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "The woman's shoulders drop and her head lifts as the last scribble loops fade behind her in the morning light. 0-1.5s: her shoulders relax downward and her chin lifts a little while the faint loops thin out. 1.5-3s: the loops are gone, her right hand opens and relaxes at her side, she keeps walking at an unhurried pace. 3-3.8s: she holds that calm look. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: locked-off with a tiny handheld sway. Expression: quiet relief, mouth closed. Nobody speaks; mouths stay closed. Ambient: soft footsteps, a distant bird. No music. Keep her face, hair, hijab and clothing identical to the start frame. Keep the ring exactly as in the start frame. Do not add any text, captions, subtitles, logos or watermarks. All text in the start frame stays exactly as it is, unchanged and still.",
+   "references": [
+    "C03_frame"
+   ],
+   "depends_on": [
+    "C03_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 4
+    }
+   }
+  },
+  {
+   "step": "C04_clip",
+   "route": "web",
+   "job_type": "kling3_omni_web",
+   "params": {
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "sound": "off"
+   },
+   "prompt": "The woman holds her ringed right hand steady toward the camera while she walks on in profile. 0-1.5s: she strides forward, the raised hand steady at chest height with the ring display facing the camera. 1.5-3s: her thumb taps the ring once and the display glows briefly. 3-3.8s: the hand lowers slightly and she keeps walking. Vertical 9:16, one continuous shot, no cuts, starting exactly from the start frame. Camera: side-tracking, steady, a slow push-in of about 4 percent at most. Expression: faint calm smile, mouth closed. Nobody speaks; mouths stay closed. Ambient: soft footsteps, faint city hum. No music. Keep her face, hair, hijab and clothing identical to the start frame. Keep the ring, its display, logo and colors exactly as in the start frame; the ring does not rotate or change shape. Keep her hand, coat sleeve and hijab identical to the start frame. Do not add any text, captions, subtitles, logos or watermarks. All text in the start frame stays exactly as it is, unchanged and still.",
+   "references": [
+    "C04_frame"
+   ],
+   "depends_on": [
+    "C04_frame"
+   ],
+   "fallback": {
+    "route": "cli",
+    "job_type": "kling3_0",
+    "params": {
+     "mode": "std",
+     "sound": "off",
+     "duration": 4
+    }
+   }
+  }
+ ],
+ "variations": [],
+ "est_credits": 29.2,
+ "chief": {
+  "rounds": 1,
+  "final_verdict": "APPROVE",
+  "notes_paths": [
+   "03-ads/ad_08/chief_notes_v1.md"
+  ],
+  "residual_concerns": []
+ },
+ "truth_check": {
+  "status": "PASS",
+  "claims": [
+   {
+    "text": "By the remembrance of Allah, hearts are assured.",
+    "source": "01-research/offer_brief.md Verified Islamic sources #1 (Quran 13:28)"
+   },
+   {
+    "text": "tap to count, with a gentle vibration at 33, 66 and 99",
+    "source": "01-research/offer_brief.md Step 0 (A-1, A-2)"
+   },
+   {
+    "text": "Sixty-day money-back guarantee; $49.99; free US shipping",
+    "source": "01-research/offer_brief.md Step 0; 00-intake/intake.md Offer"
+   },
+   {
+    "text": "no loud clicker and no beads in your pocket",
+    "source": "01-research/offer_brief.md Big Idea; Q21"
+   },
+   {
+    "text": "A steady rhythm of istighfar",
+    "source": "Q39"
+   }
+  ],
+  "scan_hits": [
+   {
+    "term": "guarantee",
+    "location": "copy_final.md L4, CTA, description",
+    "resolution": "documented: offer_brief.md Step 0, 60-day money-back guarantee"
+   },
+   {
+    "term": "$49.99 / free US shipping",
+    "location": "primary text",
+    "resolution": "documented offer_brief.md Step 0"
+   },
+   {
+    "term": "Allah/Quran",
+    "location": "L3, primary text",
+    "resolution": "exact verified wording #1 with citation"
+   }
+  ],
+  "checked_by": "ad08-chief + ad08-pe"
+ }
+}
