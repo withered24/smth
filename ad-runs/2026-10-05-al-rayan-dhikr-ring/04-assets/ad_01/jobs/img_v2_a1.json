@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-10-05T16:33:21.440915Z",
+    "display_name": "Nano Banana Pro",
+    "id": "c03a103b-ab34-4999-8480-ac57c7c5590d",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163321_c03a103b-ab34-4999-8480-ac57c7c5590d_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/b44785a9-ea45-40ea-80a1-ca4cabdefebc.png"
+        }
+      ],
+      "prompt": "Scene: A candid late-night snapshot of a narrow kitchen counter seen from above-left at a slight tilt. A relaxed adult right hand (no face, only wrist and a plain dark grey sleeve) wraps around one ceramic mug of tea in the right-center of the frame, the ring on its ring finger with the small digital display lit and glowing and turned toward the camera: it is the brightest and most important object. At the lower left a smartphone lies face down and dark, with a white charging cable. Behind them a dish rack, a kettle and a small bottle, all soft and out of focus, with a warm under-cabinet light strip at the upper right. The counter is slightly messy with a few crumbs. No people besides the one hand.\n\nStyle: Authentic amateur phone photo, native lo-fi UGC look, not a studio ad. Low-light grain, slight motion blur on the background, imperfect tilted framing, natural clutter. No graphic design elements, no borders, no filters.\n\nLighting: A warm under-cabinet light strip at the upper right, about 2700K, amber glow across the counter and the back of the hand. The ring display adds a crisp white glow. Deep near-black shadows (#0F0D0A) fill the left and top of the frame. Quiet, private, one-in-the-morning mood.\n\nCamera: Handheld phone at about 45 degrees from above-left, 26mm wide lens, close enough that the ring display reads clearly, background soft, ring and hand in focus.\n\nComposition: Vertical 9:16 (tall portrait). Top 0-14%: only dark cabinet and shadow. The hand and mug rest at 36-64% of frame height, wrist entering from the right edge; the ring sits at about 44-58% of frame height and 44-78% of frame width and is about 14% of frame height, display window facing the camera, not hidden by the mug. Dark phone at 56-70% height, 6-30% width. Light strip glow at 14-30% upper right. Below 70%: dark counter and cable only, nothing important. Focal flow: ring display first, then hand and mug, then light strip, then the dark phone.\n\nBrand colors: Shadows #0F0D0A. Under-cabinet light amber #E8B76A. Mug deep green #1F5A2E. Ring black #0B0B0C with gold logo #D9B96A and white digits #FFFFFF. Phone dark #1A1A1C. No other saturated colors.\n\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. The product is a smart ring: a glossy black wide flat metal band with a rectangular black glass display window showing four white seven-segment digits, and a smaller rounded-square panel holding a gold heart-shaped logo mark to the left of the display. Exactly one ring, worn on the ring finger, display and logo panel facing the camera within 25 degrees, fully visible, sharp, not covered by any finger, the phone or the mug. The display digits read as in the reference.\n\nText: Render exactly one text element, and it is the ring's own display, not an overlay: the lit display window shows the four digits \"5332\" in white seven-segment digits (#FFFFFF) on black glass, centered in the display window, exactly as in the product reference image, display cap height about 2.8% of frame height. There is no other text anywhere in the image: no text on the phone, no captions, no headline, no labels.\n\nLegibility: The digits are spelled five, three, three, two: \"5332\", in that order, each digit fully visible, evenly spaced, not cut off, with a soft white glow. The ring's gold logo is a symbol, not letters. Render only the four display digits and the ring's logo; do not render section labels or any other words from these instructions.\n\nAvoid: any text, words, letters or numbers other than the four ring display digits \"5332\"; text or UI on the phone screen; a visible face; a second ring or extra jewellery; misspelled, warped or duplicated digits; notification banners or app logos; Quran pages, calligraphy, religious symbols or prayer beads; star ratings, review counts, badges, seals, \"clinically proven\" claims; watermarks; other brand names or logos; extra fingers, fused or bent fingers, distorted hand; plastic CGI skin; studio lighting or glossy ad polish; any text in the top 14% or bottom 28% of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_163321_c03a103b-ab34-4999-8480-ac57c7c5590d.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,25 @@
+Scene: A candid first-person phone photo of one adult hand holding a smartphone at night on a couch, held upright in front of the camera. The screen shows a dark lock-screen-style view with exactly four notification cards stacked one under another in a slightly overlapping pile, each a flat translucent rounded rectangle with a small plain rounded-square icon tile on the left (muted tints, no letters, no symbols, no real app logos). The lower fingers of the same hand curl under the bottom of the phone; the ring finger wears exactly one black smart ring, its display window turned toward the camera and lit. Behind the phone, a softly blurred living room: sofa arm, a warm table lamp, dark wall.
+
+Style: Authentic amateur phone photo, UGC look, slight grain, natural imperfect framing, not a studio ad, no graphic design elements except the headline text. Muted, quiet mood.
+
+Lighting: Single warm table lamp from frame left, about 2700K, amber glow on the hand and wall, deep brown-black shadows. The phone screen emits a cool dim glow. The ring display is the only crisp small bright white point besides the phone screen.
+
+Camera: Eye-level POV, handheld, 26mm phone wide lens, phone and ring in focus, background softly blurred. Slight natural tilt under 3 degrees.
+
+Composition: Raise the phone and hand so the ring display sits inside 50-64% of height; all notification cards stay inside the phone screen width.
+
+Brand colors: Background warm near-black #14110F with amber lamp light #E0A55A. Phone screen dark slate #1B1E24. Headline plain white #FFFFFF. Ring black #0B0B0C with gold logo #E8D9A0 and white digits. Notification cards translucent charcoal #2E3138 with off-white text #F2F2F2. No other saturated colors.
+
+Product: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Ring on the index finger in the lower-center at 55-65% of frame height, display facing the camera and fully visible. The ring display is one single horizontal row of four white seven-segment digits reading 5-3-3-2, exactly as in the reference, never stacked in rows. No reflection bars over the display.
+
+Text: Render exactly five text strings, no others.
+1) "Opened your phone for dhikr. 40 minutes ago." - the headline, bold clean geometric sans-serif, bold, sentence case exactly as quoted, plain white #FFFFFF, no box, no button look, on two lines, line 1 "Opened your phone for dhikr.", line 2 "40 minutes ago.", centered in the top band 15-29% of frame height, 8-92% of width, cap height about 5% of frame height, high contrast.
+2) "Time for dhikr" - notification card 1 (top of the stack), iOS system font, medium weight, sentence case, off-white #F2F2F2, one line, cap height about 2.6% of frame height.
+3) "New posts today" - notification card 2, iOS system font, regular, sentence case, off-white #F2F2F2, one line, same size.
+4) "New group messages" - notification card 3, same style.
+5) "Cart is waiting" - notification card 4 (bottom of the stack), same style.
+Each notification card contains only its one text line plus a plain rounded-square icon tile with no letters or symbols: no app name, no timestamp, no sender name, no clock, no status bar, no battery icon.
+
+Legibility: Spell every string exactly as written, letter for letter, with its capitals, numerals and punctuation. The word "dhikr" in the headline is spelled D-H-I-K-H-R and the word "dhikr" in the first notification is spelled D-H-I-K-H-R. The numeral in the headline is "40". Text inside the notification cards must be sharp, horizontal, not skewed, with inner padding, no letters cut off by the card edges. Render only the five quoted strings plus the ring's own display digits; do not render section labels or any other words from these instructions.
+
+Avoid: any text, words, letters or numbers other than the five quoted strings and the product's own display and logo; real app logos or brand names; buttons, close X marks, unread count badges, play triangles, reply fields or anything that looks clickable; a clock or date on the screen; star ratings, review counts, seals; a second ring or a second phone; a face; extra fingers, fused hands, distorted fingers; plastic CGI skin; misspelled, warped, mirrored or cut-off letters; watermarks; text in the top 14% or below 70% of the frame.
