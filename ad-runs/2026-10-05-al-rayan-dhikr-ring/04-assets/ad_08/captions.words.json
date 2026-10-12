@@ -1,0 +1,222 @@
+{
+ "source": "C:\\Users\\rayan\\AppData\\Local\\Temp\\assemble_xjeshyzs\\mix.wav",
+ "audio": true,
+ "language": "en",
+ "language_probability": 0.993,
+ "duration": 13.6,
+ "model": "small",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.3,
+   "text": "Mind racing on your walk to work? Make it istighfar. Tap. Keep walking. The count keeps up.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.26,
+     "word": "Mind",
+     "p": 0.881
+    },
+    {
+     "start": 0.26,
+     "end": 0.62,
+     "word": "racing",
+     "p": 0.866
+    },
+    {
+     "start": 0.62,
+     "end": 0.86,
+     "word": "on",
+     "p": 0.997
+    },
+    {
+     "start": 0.86,
+     "end": 0.98,
+     "word": "your",
+     "p": 0.998
+    },
+    {
+     "start": 0.98,
+     "end": 1.2,
+     "word": "walk",
+     "p": 0.986
+    },
+    {
+     "start": 1.2,
+     "end": 1.4,
+     "word": "to",
+     "p": 0.001
+    },
+    {
+     "start": 1.4,
+     "end": 1.7,
+     "word": "work?",
+     "p": 0.96
+    },
+    {
+     "start": 2.16,
+     "end": 2.46,
+     "word": "Make",
+     "p": 0.945
+    },
+    {
+     "start": 2.46,
+     "end": 2.62,
+     "word": "it",
+     "p": 0.985
+    },
+    {
+     "start": 2.62,
+     "end": 3.3,
+     "word": "istighfar.",
+     "p": 0.36
+    },
+    {
+     "start": 3.62,
+     "end": 3.86,
+     "word": "Tap.",
+     "p": 0.897
+    },
+    {
+     "start": 4.32,
+     "end": 4.52,
+     "word": "Keep",
+     "p": 0.973
+    },
+    {
+     "start": 4.52,
+     "end": 4.92,
+     "word": "walking.",
+     "p": 0.994
+    },
+    {
+     "start": 5.38,
+     "end": 5.48,
+     "word": "The",
+     "p": 0.979
+    },
+    {
+     "start": 5.48,
+     "end": 5.74,
+     "word": "count",
+     "p": 0.921
+    },
+    {
+     "start": 5.74,
+     "end": 5.98,
+     "word": "keeps",
+     "p": 0.995
+    },
+    {
+     "start": 5.98,
+     "end": 6.3,
+     "word": "up.",
+     "p": 0.996
+    }
+   ]
+  },
+  {
+   "start": 6.84,
+   "end": 13.08,
+   "text": "By the remembrance of Allah, hearts are assured. Sixty-day money-back guarantee. Tap Shop Now.",
+   "words": [
+    {
+     "start": 6.84,
+     "end": 6.98,
+     "word": "By",
+     "p": 0.972
+    },
+    {
+     "start": 6.98,
+     "end": 7.1,
+     "word": "the",
+     "p": 0.996
+    },
+    {
+     "start": 7.1,
+     "end": 7.46,
+     "word": "remembrance",
+     "p": 0.977
+    },
+    {
+     "start": 7.46,
+     "end": 7.78,
+     "word": "of",
+     "p": 0.993
+    },
+    {
+     "start": 7.78,
+     "end": 7.98,
+     "word": "Allah,",
+     "p": 0.929
+    },
+    {
+     "start": 8.46,
+     "end": 8.7,
+     "word": "hearts",
+     "p": 0.94
+    },
+    {
+     "start": 8.7,
+     "end": 8.96,
+     "word": "are",
+     "p": 0.993
+    },
+    {
+     "start": 8.96,
+     "end": 9.3,
+     "word": "assured.",
+     "p": 0.99
+    },
+    {
+     "start": 10.02,
+     "end": 10.4,
+     "word": "Sixty",
+     "p": 0.529
+    },
+    {
+     "start": 10.4,
+     "end": 10.54,
+     "word": "-day",
+     "p": 0.794
+    },
+    {
+     "start": 10.54,
+     "end": 10.84,
+     "word": "money",
+     "p": 0.801
+    },
+    {
+     "start": 10.84,
+     "end": 11.1,
+     "word": "-back",
+     "p": 0.778
+    },
+    {
+     "start": 11.1,
+     "end": 11.58,
+     "word": "guarantee.",
+     "p": 0.988
+    },
+    {
+     "start": 12.2,
+     "end": 12.52,
+     "word": "Tap",
+     "p": 0.98
+    },
+    {
+     "start": 12.52,
+     "end": 12.78,
+     "word": "Shop",
+     "p": 0.544
+    },
+    {
+     "start": 12.78,
+     "end": 13.08,
+     "word": "Now.",
+     "p": 0.579
+    }
+   ]
+  }
+ ]
+}

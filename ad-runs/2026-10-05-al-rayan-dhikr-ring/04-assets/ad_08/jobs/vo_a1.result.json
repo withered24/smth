@@ -1,0 +1,23 @@
+{
+ "ad_id": "ad_08",
+ "step": "vo",
+ "attempt": 1,
+ "route": "cli",
+ "job_type": "text2speech_v2",
+ "params": {
+  "variant": "elevenlabs",
+  "voice_id": "c25f78a0-714e-42af-8da3-a399cef94968",
+  "voice_type": "preset"
+ },
+ "est_cost": 0.6,
+ "status": "ok",
+ "job_id_or_url": "52c31bc3-e712-455c-82ea-4dfb9a9f22cd",
+ "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155926_52c31bc3-e712-455c-82ea-4dfb9a9f22cd.mp3",
+ "local_path": "04-assets/ad_08/audio/vo.mp3",
+ "credits_before": 181.1,
+ "credits_after": 180.5,
+ "balance_delta": 0.6,
+ "ts": "2026-10-05T15:59:22Z",
+ "note": null,
+ "raw": "04-assets/ad_08/jobs/vo_a1.json"
+}

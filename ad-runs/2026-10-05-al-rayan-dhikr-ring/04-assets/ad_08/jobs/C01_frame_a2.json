@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-10-05T16:05:10.698015Z",
+    "display_name": "Nano Banana Pro",
+    "id": "5262711f-1d33-49e4-85df-980745147b16",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160510_5262711f-1d33-49e4-85df-980745147b16_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/b44785a9-ea45-40ea-80a1-ca4cabdefebc.png"
+        }
+      ],
+      "prompt": "Scene: A first-person POV phone-video still looking down and forward while walking on a city sidewalk. PERSONA P1's right hand and wrist hang and swing at hip level, fingers loosely relaxed, the cuff of the long camel #B58B5E wool coat visible at the wrist; exactly one black smart ring sits on the ring finger of that hand with its display window facing the camera. Around the hand float thin translucent white scribble loops (abstract line doodles, no letters, no words, no numbers), like a racing mind. No face visible.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur vertical phone footage still, native UGC look, not a studio ad.\nCamera: Handheld at hip height, low POV, tilted slightly down, 26mm phone wide lens, the hand and ring in sharp focus.\nComposition: Raise the hand so the ring and its display sit at 40-52% of frame height; headline pill at 15-24% of height.\n\nBrand colors: Overlay pill deep green #1F5A2E at 85% opacity with white #FFFFFF text. Natural sky blue, concrete grey and camel coat. Ring black with white digits and gold #C9A24B logo.\nProduct: Match the attached product reference image exactly: shape, label, colors, logo. Do not redesign, re-letter, simplify or recolor the label. Do not invent label text. Display one horizontal row 5332, gold heart logo on the left panel, ring about 6% of frame height.\n\nText: Render exactly one text element: 1) \"POV: your thoughts won't slow down\" - clean geometric sans-serif, bold, sentence case exactly as quoted, white #FFFFFF on a rounded pill #1F5A2E, centered in the top band 18% to 28% of frame height, 8% to 92% of width, cap height about 3.2% of frame height, on up to two lines.\nLegibility: Spell every word exactly as written, letter for letter, with its capitalization, colon and apostrophe in \"won't\". High contrast white on deep green, inside 6% side margins. The only other characters in the image are the ring's own digits \"5332\". Render only the one quoted string and the ring's display digits; do not render section labels or any other words.\nAvoid: any other text, words, captions or numbers; letters inside the scribble loops; a second ring or bracelet; a visible face; extra fingers or fused hands; altered ring display digits; watermarks; other logos; star ratings or badges; cars or driving; text in the bottom 35% of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160510_5262711f-1d33-49e4-85df-980745147b16.png",
+    "status": "completed"
+  }
+]

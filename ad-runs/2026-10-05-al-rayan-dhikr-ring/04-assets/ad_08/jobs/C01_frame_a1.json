@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-10-05T15:58:40.210776Z",
+    "display_name": "Nano Banana Pro",
+    "id": "336ebb5d-da8c-49cc-a5e2-28fc514c6ac2",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155840_336ebb5d-da8c-49cc-a5e2-28fc514c6ac2_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/b44785a9-ea45-40ea-80a1-ca4cabdefebc.png"
+        }
+      ],
+      "prompt": "Scene: A first-person POV phone-video still looking down and forward while walking on a city sidewalk. PERSONA P1's right hand and wrist hang and swing at hip level, fingers loosely relaxed, the cuff of the long camel #B58B5E wool coat visible at the wrist; exactly one black smart ring sits on the ring finger of that hand with its display window facing the camera. Around the hand float thin translucent white scribble loops (abstract line doodles, no letters, no words, no numbers), like a racing mind. No face visible.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur vertical phone footage still, native UGC look, not a studio ad.\nCamera: Handheld at hip height, low POV, tilted slightly down, 26mm phone wide lens, the hand and ring in sharp focus.\nComposition: Vertical 9:16. The hand and ring occupy 38% to 54% of frame height, centered slightly left of middle; the wrist and coat cuff above it from 24% to 38%; the overlay pill sits in the top band 18% to 28% of height; the sidewalk fills 56% to 100% with nothing on it; the top 0% to 14% shows only sky.\nBrand colors: Overlay pill deep green #1F5A2E at 85% opacity with white #FFFFFF text. Natural sky blue, concrete grey and camel coat. Ring black with white digits and gold #C9A24B logo.\nProduct: Match the attached product reference image exactly: shape, label layout, colors, logo. Do not redesign, re-letter, simplify or recolor anything on the ring. Do not invent text on the ring. Exactly one ring, worn on the right ring finger, flat outer face with the white 7-segment display \"5332\" and the small gold heart-and-flame logo panel facing the camera within 20 degrees, display fully visible and sharp, ring height about 6% of frame height, no finger over the display.\nText: Render exactly one text element: 1) \"POV: your thoughts won't slow down\" - clean geometric sans-serif, bold, sentence case exactly as quoted, white #FFFFFF on a rounded pill #1F5A2E, centered in the top band 18% to 28% of frame height, 8% to 92% of width, cap height about 3.2% of frame height, on up to two lines.\nLegibility: Spell every word exactly as written, letter for letter, with its capitalization, colon and apostrophe in \"won't\". High contrast white on deep green, inside 6% side margins. The only other characters in the image are the ring's own digits \"5332\". Render only the one quoted string and the ring's display digits; do not render section labels or any other words.\nAvoid: any other text, words, captions or numbers; letters inside the scribble loops; a second ring or bracelet; a visible face; extra fingers or fused hands; altered ring display digits; watermarks; other logos; star ratings or badges; cars or driving; text in the bottom 35% of the frame.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155840_336ebb5d-da8c-49cc-a5e2-28fc514c6ac2.png",
+    "status": "completed"
+  }
+]

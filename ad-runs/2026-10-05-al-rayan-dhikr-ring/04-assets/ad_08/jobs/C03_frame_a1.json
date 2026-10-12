@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-10-05T15:58:44.225575Z",
+    "display_name": "Nano Banana Pro",
+    "id": "53bb0764-0032-436a-9226-f327730676b0",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155844_53bb0764-0032-436a-9226-f327730676b0_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/b44785a9-ea45-40ea-80a1-ca4cabdefebc.png"
+        }
+      ],
+      "prompt": "Attached image 1 is the product reference.\nScene: PERSONA P1 stands mid-stride on the sidewalk, seen from the hips up in a three-quarter front view, shoulders just starting to drop, head lifting slightly, eyes looking ahead, mouth closed, calm relieved expression. Her right hand hangs relaxed at her side so the black smart ring on her right ring finger catches the sun. The last faint thin translucent white scribble loops (abstract line doodles, no letters, no words, no numbers) fade behind her shoulder.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur vertical phone video still, native UGC look, not a studio ad.\nCamera: Eye-level, 26mm phone wide lens, everything in focus, slightly off-center handheld framing.\nComposition: Vertical 9:16. Her face at 34% to 44% of frame height, centered slightly right; the overlay pill in the top band 18% to 28% of height; her right hand at hip level about 52% to 54% of height with the ring small but visible; the top 0% to 14% only sky; the band from 58% to 100% only sidewalk.\nBrand colors: Pill deep green #1F5A2E at 85% opacity with white #FFFFFF text; natural warm morning palette; sage #A9B8A0 hijab, camel #B58B5E coat.\nProduct: Match the attached product reference image exactly: shape, label layout, colors, logo. Do not redesign, re-letter, simplify or recolor anything on the ring. Do not invent text on the ring. Exactly one ring on the right ring finger, display facing outward, ring height about 2% of frame height (small, secondary).\nText: Render exactly one text element: 1) \"QURAN 13:28\" - clean geometric sans-serif, bold, ALL CAPS exactly as quoted, white #FFFFFF on a rounded pill #1F5A2E, centered in the top band 18% to 28% of frame height, 25% to 75% of width, cap height about 3.2% of frame height, on one line.\nLegibility: Spell every character exactly as written: Q-U-R-A-N, a space, then one-three, colon, two-eight, written 13:28. High contrast, inside 6% side margins. Render only the one quoted string and the ring's own display; do not render section labels or any other words.\nAvoid: any other text, words, captions or numbers; letters inside the scribble loops; a second ring or bracelet; a second person in focus; extra fingers or fused hands; distorted face; cars or driving; watermarks; logos; star ratings or badges; text in the bottom 35%.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_155844_53bb0764-0032-436a-9226-f327730676b0.png",
+    "status": "completed"
+  }
+]

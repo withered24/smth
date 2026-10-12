@@ -1,0 +1,22 @@
+{
+ "ad_id": "ad_08",
+ "step": "C02_frame",
+ "attempt": 1,
+ "route": "cli",
+ "job_type": "nano_banana_pro",
+ "params": {
+  "aspect_ratio": "9:16",
+  "resolution": "2k"
+ },
+ "est_cost": 2.0,
+ "status": "ok",
+ "job_id_or_url": "760b2e83-0e5d-4d0c-835f-7e1cf362af17",
+ "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160842_760b2e83-0e5d-4d0c-835f-7e1cf362af17.png",
+ "local_path": "04-assets/ad_08/frames/C02_frame.png",
+ "credits_before": 160.5,
+ "credits_after": 151.5,
+ "balance_delta": 9.0,
+ "ts": "2026-10-05T16:09:39Z",
+ "note": null,
+ "raw": "04-assets/ad_08/jobs/C02_frame_a1.json"
+}

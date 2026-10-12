@@ -1,0 +1,34 @@
+[
+  {
+    "created_at": "2026-10-05T16:08:42.876431Z",
+    "display_name": "Nano Banana Pro",
+    "id": "760b2e83-0e5d-4d0c-835f-7e1cf362af17",
+    "job_type": "nano_banana_pro",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160842_760b2e83-0e5d-4d0c-835f-7e1cf362af17_min.webp",
+    "params": {
+      "application": null,
+      "aspect_ratio": "9:16",
+      "batch_size": 1,
+      "height": 2752,
+      "input_image": null,
+      "input_images": [
+        {
+          "id": "b44785a9-ea45-40ea-80a1-ca4cabdefebc",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/b44785a9-ea45-40ea-80a1-ca4cabdefebc.png"
+        },
+        {
+          "id": "5262711f-1d33-49e4-85df-980745147b16",
+          "type": "image_job",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160510_5262711f-1d33-49e4-85df-980745147b16.png"
+        }
+      ],
+      "prompt": "Attached image 1 is the product reference. Attached image 2 is the identity reference for the hand and sleeve: same skin tone, coat and ring.\nScene: A tight close-up of PERSONA P1's right hand while walking, the black smart ring on the right ring finger in sharp focus, the thumb of the same hand just above the ring about to tap it, the camel #B58B5E coat cuff at the wrist. Two or three thin translucent white scribble loops (abstract line doodles, no letters, no words, no numbers) drift close around the fingers. No face.\nPERSONA P1: a 27-year-old Muslim woman with warm light-brown skin, soft brown eyes, natural skin texture, no makeup, wearing a dusty-sage #A9B8A0 jersey hijab neatly pinned, a long camel #B58B5E wool coat, a thin white tee at the collar, and a small cross-body charcoal bag. A black smart ring sits on the ring finger of her right hand; short plain nails, no other jewelry.\nSETTING S1: a US downtown sidewalk on a sunny early morning: wide light-grey concrete path, black wrought-iron railing along the right side, leafy street trees at the left, brick-and-glass mid-rise buildings in the background, a few blurred pedestrians far behind. No cars in focus, no driving. Only a blurred railing and sidewalk are visible behind.\nLIGHT L1: low morning sun from frame left, warm 3500K, long soft shadows on the sidewalk, clear blue sky, phone-camera realism, slight grain.\nStyle: Authentic amateur phone macro still, native UGC look, not a studio ad.\nCamera: Low handheld close-up, 35mm phone lens, the ring in focus, background strongly blurred.\nComposition: Vertical 9:16. The hand and ring occupy 30% to 52% of frame height, centered; the ring display window at about 38% to 42% of height; the top 0% to 14% only blurred sky; the band from 56% to 100% only blurred sidewalk.\nBrand colors: Warm morning palette; ring black with white digits and gold #C9A24B logo.\nProduct: Match the attached product reference image exactly: shape, label layout, colors, logo. Do not redesign, re-letter, simplify or recolor anything on the ring. Do not invent text on the ring. Exactly one ring, flat outer face with white 7-segment display \"5332\" and the gold heart-and-flame logo panel facing the camera within 20 degrees, fully visible and sharp, ring height about 9% of frame height, thumb not covering the display.\nAvoid: any text, words or numbers other than the ring's own \"5332\" display; letters inside the scribble loops; a second ring or bracelet; extra fingers or fused hands; altered digits; watermarks; other logos; fingers over the display; face.",
+      "resolution": "2k",
+      "surface": null,
+      "width": 1536
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DU2kPVwAmPIYLBxJ9YRUeyqlpX/hf_20261005_160842_760b2e83-0e5d-4d0c-835f-7e1cf362af17.png",
+    "status": "completed"
+  }
+]
